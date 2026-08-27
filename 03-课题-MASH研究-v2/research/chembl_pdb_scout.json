@@ -1,0 +1,74 @@
+{
+ "THRb": {
+  "chembl_id": "CHEMBL1947",
+  "counts": {
+   "IC50": 644,
+   "EC50": 200,
+   "Ki": 139
+  }
+ },
+ "FASN": {
+  "chembl_id": "CHEMBL4158",
+  "counts": {
+   "IC50": 1864,
+   "EC50": 0,
+   "Ki": 18
+  }
+ },
+ "SCD1": {
+  "chembl_id": "CHEMBL1275210",
+  "counts": {
+   "IC50": 485,
+   "EC50": 0,
+   "Ki": 0
+  }
+ },
+ "DGAT2": {
+  "chembl_id": "CHEMBL2439944",
+  "counts": {
+   "IC50": 288,
+   "EC50": 0,
+   "Ki": 0
+  }
+ },
+ "DGAT1": {
+  "chembl_id": "CHEMBL2029",
+  "counts": {
+   "IC50": 0,
+   "EC50": 0,
+   "Ki": 0
+  }
+ },
+ "PPARA": {
+  "chembl_id": "CHEMBL237",
+  "counts": {
+   "IC50": 3165,
+   "EC50": 342,
+   "Ki": 6204
+  }
+ },
+ "PPARD": {
+  "chembl_id": "CHEMBL203",
+  "counts": {
+   "IC50": 24925,
+   "EC50": 399,
+   "Ki": 1561
+  }
+ },
+ "ACACA": {
+  "chembl_id": "CHEMBL2494",
+  "counts": {
+   "IC50": 49,
+   "EC50": 0,
+   "Ki": 16
+  }
+ },
+ "ACACB": {
+  "chembl_id": "CHEMBL1075227",
+  "counts": {
+   "IC50": 8,
+   "EC50": 0,
+   "Ki": 0
+  }
+ }
+}

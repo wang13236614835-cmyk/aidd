@@ -1,0 +1,21 @@
+herb,name,topsis,confidence_tier,THRB_pIC50,FASN_pIC50,SCD1_pIC50,dG_THRB,dG_FASN,ad_score
+Pueraria lobata(葛根),3'-methoxydaidzein,0.745,T2_borderline(边缘),7.534,5.236,4.869,-9.639,-9.413,0.25766666666666665
+Polygonum cuspidatum(虎杖),catechin,0.7169,T2_borderline(边缘),7.883,5.328,4.725,-9.771,-8.596,0.21266666666666667
+Crataegus pinnatifida(山楂),epicatechin,0.7129,T2_borderline(边缘),7.883,5.328,4.725,-9.458,-8.936,0.21266666666666667
+Pueraria lobata(葛根),puerarin,0.6514,T2_borderline(边缘),7.817,5.463,5.2,-6.076,-9.67,0.19400000000000003
+Artemisia capillaris(茵陈),isorhamnetin,0.629,T2_borderline(边缘),7.053,4.97,4.796,-8.424,-9.021,0.2886666666666667
+Crataegus pinnatifida(山楂),procyanidin B2,0.5968,T2_borderline(边缘),7.875,5.319,4.861,-5.69,-8.361,0.18866666666666668
+Crataegus pinnatifida(山楂),isoquercitrin,0.5931,T2_borderline(边缘),7.344,5.317,5.08,-6.234,-7.335,0.22333333333333336
+Pueraria lobata(葛根),daidzein,0.5673,T2_borderline(边缘),5.926,5.547,5.182,-10.09,-9.621,0.258
+Crataegus pinnatifida(山楂),hyperoside,0.5574,T2_borderline(边缘),7.151,5.279,5.031,-5.906,-7.661,0.22766666666666668
+Artemisia capillaris(茵陈),capillarisin,0.5542,T2_borderline(边缘),6.162,5.079,4.909,-9.729,-8.917,0.2843333333333333
+Morus alba(桑叶),moracin M,0.5507,T2_borderline(边缘),6.17,5.574,4.977,-9.66,-8.856,0.22533333333333336
+Morus alba(桑叶),oxyresveratrol,0.5448,T2_borderline(边缘),6.485,5.165,4.925,-9.597,-8.553,0.20099999999999998
+Morus alba(桑叶),moracin N,0.5331,T2_borderline(边缘),6.207,4.708,4.931,-11.24,-10.2,0.20933333333333334
+Crataegus pinnatifida(山楂),isovitexin,0.5302,T2_borderline(边缘),6.223,5.378,5.297,-8.319,-8.656,0.20833333333333334
+Pueraria lobata(葛根),biochanin A,0.5281,T2_borderline(边缘),5.865,5.394,4.946,-9.324,-9.06,0.2896666666666667
+Pueraria lobata(葛根),daidzin,0.5235,T2_borderline(边缘),6.0,5.307,5.32,-8.909,-9.764,0.20966666666666667
+Pueraria lobata(葛根),genistin,0.5202,T2_borderline(边缘),6.177,5.284,5.291,-7.984,-9.183,0.22233333333333336
+Pueraria lobata(葛根),formononetin,0.5167,T2_borderline(边缘),5.778,5.429,4.963,-9.234,-9.708,0.272
+Cassia obtusifolia(决明子),obtusifolin,0.4892,T2_borderline(边缘),6.143,5.622,4.805,-7.654,-8.142,0.23433333333333337
+Morus alba(桑叶),mulberrofuran G,0.4802,"T3_extrapolated(域外,仅供假设)",6.702,5.321,4.841,-6.401,-9.75,0.17200000000000001

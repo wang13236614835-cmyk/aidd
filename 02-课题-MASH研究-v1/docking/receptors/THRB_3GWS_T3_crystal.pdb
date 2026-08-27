@@ -1,0 +1,48 @@
+REMARK Selection 'resname T3 and ... and resnum 500'
+HETATM    1  C1  T3  X 500       6.754  20.830  27.533  1.00 33.76           C  
+ANISOU    1  C1  T3  X 500        0      0      0      0      0      0       C  
+HETATM    2  C2  T3  X 500       3.470  18.060  30.034  1.00 29.57           C  
+ANISOU    2  C2  T3  X 500        0      0      0      0      0      0       C  
+HETATM    3  C3  T3  X 500       7.014  20.406  28.932  1.00 30.78           C  
+ANISOU    3  C3  T3  X 500        0      0      0      0      0      0       C  
+HETATM    4  C4  T3  X 500       3.084  17.185  31.101  1.00 27.06           C  
+ANISOU    4  C4  T3  X 500        0      0      0      0      0      0       C  
+HETATM    5  C5  T3  X 500       6.292  19.390  29.482  1.00 33.89           C  
+ANISOU    5  C5  T3  X 500        0      0      0      0      0      0       C  
+HETATM    6  C6  T3  X 500       1.957  17.476  31.888  1.00 31.20           C  
+ANISOU    6  C6  T3  X 500        0      0      0      0      0      0       C  
+HETATM    7  C7  T3  X 500       5.290  18.757  28.718  1.00 26.08           C  
+ANISOU    7  C7  T3  X 500        0      0      0      0      0      0       C  
+HETATM    8  C8  T3  X 500       1.219  18.598  31.629  1.00 28.73           C  
+ANISOU    8  C8  T3  X 500        0      0      0      0      0      0       C  
+HETATM    9  C9  T3  X 500       5.045  19.158  27.362  1.00 33.87           C  
+ANISOU    9  C9  T3  X 500        0      0      0      0      0      0       C  
+HETATM   10  C10 T3  X 500       1.614  19.497  30.522  1.00 30.43           C  
+ANISOU   10  C10 T3  X 500        0      0      0      0      0      0       C  
+HETATM   11  C11 T3  X 500       5.793  20.209  26.787  1.00 34.08           C  
+ANISOU   11  C11 T3  X 500        0      0      0      0      0      0       C  
+HETATM   12  C12 T3  X 500       2.707  19.215  29.758  1.00 32.53           C  
+ANISOU   12  C12 T3  X 500        0      0      0      0      0      0       C  
+HETATM   13  C13 T3  X 500       7.575  21.956  26.916  1.00 31.49           C  
+ANISOU   13  C13 T3  X 500        0      0      0      0      0      0       C  
+HETATM   14  CA  T3  X 500       8.251  21.650  25.579  1.00 29.86           C  
+ANISOU   14  CA  T3  X 500        0      0      0      0      0      0       C  
+HETATM   15  C   T3  X 500       9.290  22.691  25.204  1.00 29.10           C  
+ANISOU   15  C   T3  X 500        0      0      0      0      0      0       C  
+HETATM   16  I1  T3  X 500       6.677  18.782  31.469  1.00 38.71           I  
+ANISOU   16  I1  T3  X 500        0      0      0      0      0      0       I  
+HETATM   17  I2  T3  X 500       1.459  16.147  33.457  1.00 41.51           I  
+ANISOU   17  I2  T3  X 500        0      0      0      0      0      0       I  
+HETATM   18  I3  T3  X 500       3.568  18.157  26.235  1.00 37.28           I  
+ANISOU   18  I3  T3  X 500        0      0      0      0      0      0       I  
+HETATM   19  N   T3  X 500       8.746  20.294  25.459  1.00 29.50           N  
+ANISOU   19  N   T3  X 500        0      0      0      0      0      0       N  
+HETATM   20  O1  T3  X 500       0.079  18.897  32.388  1.00 29.07           O  
+ANISOU   20  O1  T3  X 500        0      0      0      0      0      0       O  
+HETATM   21  O2  T3  X 500       4.566  17.689  29.245  1.00 25.15           O  
+ANISOU   21  O2  T3  X 500        0      0      0      0      0      0       O  
+HETATM   22  OXT T3  X 500      10.235  22.377  24.564  1.00 30.16           O  
+ANISOU   22  OXT T3  X 500        0      0      0      0      0      0       O  
+HETATM   23  O   T3  X 500       9.092  24.014  25.611  1.00 30.19           O  
+ANISOU   23  O   T3  X 500        0      0      0      0      0      0       O  
+END                                                                             

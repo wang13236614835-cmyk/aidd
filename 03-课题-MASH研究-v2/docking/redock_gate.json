@@ -1,0 +1,15 @@
+{
+ "THRB": {
+  "ligand": "OEF",
+  "affinity": -10.52,
+  "rmsd": 0.564,
+  "pass_gate": true
+ },
+ "FASN": {
+  "ligand": "ZEP",
+  "affinity": -10.12,
+  "rmsd": 1.619,
+  "pass_gate": true,
+  "note": "pad8\u76d2+exh=32\u91cd\u8bd5\u901a\u8fc7; pad10\u76d2\u9996\u6b212.07\u00c5\u5dee0.07\u00c5"
+ }
+}

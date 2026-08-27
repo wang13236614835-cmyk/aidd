@@ -1,0 +1,86 @@
+{
+ "THRB": {
+  "cluster_split": {
+   "n": [
+    323,
+    41,
+    39
+   ],
+   "n_clusters": 91,
+   "RMSE": 0.442,
+   "mean_baseline_RMSE": 1.225,
+   "R2": 0.843,
+   "Spearman": 0.895,
+   "conformal_q95": 1.474,
+   "coverage95": 1.0
+  },
+  "random_split": {
+   "n": [
+    322,
+    40,
+    41
+   ],
+   "RMSE": 0.483,
+   "R2": 0.871,
+   "Spearman": 0.936,
+   "conformal_q95": 1.463,
+   "coverage95": 1.0
+  }
+ },
+ "FASN": {
+  "cluster_split": {
+   "n": [
+    893,
+    115,
+    102
+   ],
+   "n_clusters": 72,
+   "RMSE": 0.57,
+   "mean_baseline_RMSE": 0.966,
+   "R2": 0.651,
+   "Spearman": 0.785,
+   "conformal_q95": 1.436,
+   "coverage95": 0.961
+  },
+  "random_split": {
+   "n": [
+    888,
+    111,
+    111
+   ],
+   "RMSE": 0.491,
+   "R2": 0.665,
+   "Spearman": 0.872,
+   "conformal_q95": 0.969,
+   "coverage95": 0.937
+  }
+ },
+ "SCD1": {
+  "cluster_split": {
+   "n": [
+    194,
+    24,
+    21
+   ],
+   "n_clusters": 41,
+   "RMSE": 0.445,
+   "mean_baseline_RMSE": 0.785,
+   "R2": 0.651,
+   "Spearman": 0.743,
+   "conformal_q95": 1.321,
+   "coverage95": 1.0
+  },
+  "random_split": {
+   "n": [
+    191,
+    24,
+    24
+   ],
+   "RMSE": 0.707,
+   "R2": 0.392,
+   "Spearman": 0.664,
+   "conformal_q95": 1.654,
+   "coverage95": 0.958
+  }
+ }
+}

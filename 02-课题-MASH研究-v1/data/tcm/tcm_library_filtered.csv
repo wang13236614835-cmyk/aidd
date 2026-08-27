@@ -1,0 +1,132 @@
+herb,name,status,note,cid,smiles,formula,mw,logp,hbd,hba,admet_pass,pains,mw_pubchem
+Salvia miltiorrhiza(丹参),Tanshinone I,OK,,114917.0,CC1=C2C=CC3=C(C2=CC=C1)C(=O)C(=O)C4=C3OC=C4C,C18H12O3,276.29,4.1,0.0,3.0,True,imine_one_A(321);quinone_D(2),276.3
+Salvia miltiorrhiza(丹参),Tanshinone IIA,OK,,164676.0,CC1=COC2=C1C(=O)C(=O)C3=C2C=CC4=C3CCCC4(C)C,C19H18O3,294.35,4.25,0.0,3.0,True,imine_one_A(321);quinone_D(2),294.3
+Salvia miltiorrhiza(丹参),Tanshinone IIB,OK,,318797.0,CC1=COC2=C1C(=O)C(=O)C3=C2C=CC4=C3CCCC4(C)CO,C19H18O4,310.35,3.22,1.0,4.0,True,imine_one_A(321);quinone_D(2),310.3
+Salvia miltiorrhiza(丹参),Cryptotanshinone,OK,,160254.0,C[C@H]1COC2=C1C(=O)C(=O)C3=C2C=CC4=C3CCCC4(C)C,C19H20O3,296.37,3.44,0.0,3.0,True,imine_one_A(321);quinone_D(2),296.4
+Salvia miltiorrhiza(丹参),Dihydrotanshinone I,OK,,11425923.0,C[C@H]1COC2=C1C(=O)C(=O)C3=C2C=CC4=C(C=CC=C43)C,C18H14O3,278.31,3.29,0.0,3.0,True,imine_one_A(321);quinone_D(2),278.3
+Salvia miltiorrhiza(丹参),Neocryptotanshinone,OK,,389888.0,C[C@@H](CO)C1=C(C2=C(C3=C(C=C2)C(CCC3)(C)C)C(=O)C1=O)O,C19H22O4,314.38,2.96,2.0,4.0,True,imine_one_A(321);quinone_D(2),314.4
+Salvia miltiorrhiza(丹参),Isocryptotanshinone,OK,UNCERTAIN,626608.0,CC1COC2=C1C(=O)C3=C(C2=O)C4=C(C=C3)C(CCC4)(C)C,C19H20O3,296.37,3.6,0.0,3.0,True,quinone_A(370),296.4
+Salvia miltiorrhiza(丹参),Miltirone,OK,,160142.0,CC(C)C1=CC2=C(C3=C(C=C2)C(CCC3)(C)C)C(=O)C1=O,C19H22O2,282.38,4.11,0.0,2.0,True,imine_one_A(321);quinone_D(2),282.4
+Salvia miltiorrhiza(丹参),Tanshindiol A,OK,,16730071.0,CC1=COC2=C1C(=O)C(=O)C3=C2C=CC4=C3CCC[C@]4(CO)O,C18H16O5,312.32,2.15,2.0,5.0,True,imine_one_A(321);quinone_D(2),312.3
+Salvia miltiorrhiza(丹参),Tanshindiol B,OK,,5321620.0,CC1=COC2=C1C(=O)C(=O)C3=C2C=CC4=C3CC[C@@H]([C@]4(C)O)O,C18H16O5,312.32,2.15,2.0,5.0,True,imine_one_A(321);quinone_D(2),312.3
+Salvia miltiorrhiza(丹参),Tanshindiol C,OK,,126072.0,CC1=COC2=C1C(=O)C(=O)C3=C2C=CC4=C3CC[C@H]([C@]4(C)O)O,C18H16O5,312.32,2.15,2.0,5.0,True,imine_one_A(321);quinone_D(2),312.3
+Salvia miltiorrhiza(丹参),Methylenetanshinquinone,OK,UNCERTAIN,105118.0,CC1=COC2=C1C(=O)C(=O)C3=C2C=CC4=C3CCCC4=C,C18H14O3,278.31,3.98,0.0,3.0,True,imine_one_A(321);quinone_D(2),278.3
+Salvia miltiorrhiza(丹参),Salvilenone,OK,UNCERTAIN,389885.0,CC1=C2C=CC3=C4C2=C(C=C1)C(=O)C(=C4OC3(C)C)C(C)C,C20H20O2,292.38,4.98,0.0,2.0,True,,292.4
+Salvia miltiorrhiza(丹参),Danshenxinkun A,OK,,149138.0,CC1=C2C=CC3=C(C2=CC=C1)C(=O)C(=O)C(=C3O)C(C)CO,C18H16O4,296.32,2.81,2.0,4.0,True,imine_one_A(321);quinone_D(2),296.3
+Salvia miltiorrhiza(丹参),Danshenxinkun B,OK,,5320113.0,CC1=C2C=CC3=C(C2=CC=C1)C(=O)C(=O)C(=C3O)C(C)C,C18H16O3,280.32,3.84,1.0,3.0,True,imine_one_A(321);quinone_D(2),280.3
+Salvia miltiorrhiza(丹参),Sugiol,OK,,94162.0,CC(C)C1=C(C=C2C(=C1)C(=O)C[C@@H]3[C@@]2(CCCC3(C)C)C)O,C20H28O2,300.44,5.19,1.0,2.0,True,,300.4
+Salvia miltiorrhiza(丹参),Przewalskin,OK,UNCERTAIN,14139389.0,CC1=CC2=C(C=C1O)[C@@]34CCCC([C@@H]3C[C@@H]2OC4)(C)C,C18H24O2,272.39,4.24,1.0,2.0,True,,272.4
+Salvia miltiorrhiza(丹参),Isotanshinone IIB,OK,UNCERTAIN,184102.0,CC1=COC2=C1C(=O)C3=C(C2=O)C4=C(C=C3)C(CCC4)(C)CO,C19H18O4,310.35,2.95,1.0,4.0,True,quinone_A(370),310.3
+Glycyrrhiza uralensis(甘草),Glycyrol,OK,,5320083.0,CC(=CCC1=C(C2=C(C=C1O)OC(=O)C3=C2OC4=C3C=CC(=C4)O)OC)C,C21H18O6,366.37,4.62,2.0,6.0,True,,366.4
+Glycyrrhiza uralensis(甘草),Isoglycyrol,OK,,124050.0,CC1(CCC2=C(O1)C=C3C(=C2OC)C4=C(C5=C(O4)C=C(C=C5)O)C(=O)O3)C,C21H18O6,366.37,4.51,1.0,6.0,True,,366.4
+Glycyrrhiza uralensis(甘草),Glabridin,OK,,124052.0,CC1(C=CC2=C(O1)C=CC3=C2OC[C@H](C3)C4=C(C=C(C=C4)O)O)C,C20H20O4,324.38,4.0,2.0,4.0,True,,324.4
+Glycyrrhiza uralensis(甘草),Glabrene,OK,UNCERTAIN,480774.0,CC1(C=CC2=C(C=CC(=C2O1)C3=CC4=C(C=C(C=C4)O)OC3)O)C,C20H18O4,322.36,4.22,2.0,4.0,True,,322.4
+Glycyrrhiza uralensis(甘草),Licochalcone A,OK,,5318998.0,CC(C)(C=C)C1=C(C=C(C(=C1)/C=C/C(=O)C2=CC=C(C=C2)O)OC)O,C21H22O4,338.4,4.47,2.0,4.0,True,,338.4
+Glycyrrhiza uralensis(甘草),Licochalcone B,OK,,5318999.0,COC1=C(C=CC(=C1O)O)/C=C/C(=O)C2=CC=C(C=C2)O,C16H14O5,286.28,2.71,3.0,5.0,True,catechol_A(92),286.28
+Glycyrrhiza uralensis(甘草),Echinatin,OK,,6442675.0,COC1=C(C=CC(=C1)O)/C=C/C(=O)C2=CC=C(C=C2)O,C16H14O4,270.28,3.0,2.0,4.0,True,,270.28
+Glycyrrhiza uralensis(甘草),Liquiritigenin,OK,,114829.0,C1[C@H](OC2=C(C1=O)C=CC(=C2)O)C3=CC=C(C=C3)O,C15H12O4,256.26,2.8,2.0,4.0,True,,256.25
+Glycyrrhiza uralensis(甘草),Isoliquiritigenin,OK,,638278.0,C1=CC(=CC=C1/C=C/C(=O)C2=C(C=C(C=C2)O)O)O,C15H12O4,256.26,2.7,3.0,4.0,True,,256.25
+Glycyrrhiza uralensis(甘草),Liquiritin,OK,,503737.0,C1[C@H](OC2=C(C1=O)C=CC(=C2)O)C3=CC=C(C=C3)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O,C21H22O9,418.4,0.28,5.0,9.0,True,,418.4
+Glycyrrhiza uralensis(甘草),Neoliquiritin,OK,,51666248.0,C1[C@H](OC2=C(C1=O)C=CC(=C2)O[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)C4=CC=C(C=C4)O,C21H22O9,418.4,0.28,5.0,9.0,True,,418.4
+Glycyrrhiza uralensis(甘草),Formononetin,OK,,5280378.0,COC1=CC=C(C=C1)C2=COC3=C(C2=O)C=CC(=C3)O,C16H12O4,268.27,3.17,1.0,4.0,True,,268.26
+Glycyrrhiza uralensis(甘草),Licoisoflavone A,OK,,5281789.0,CC(=CCC1=C(C=CC(=C1O)C2=COC3=CC(=CC(=C3C2=O)O)O)O)C,C20H18O6,354.36,3.79,4.0,6.0,True,,354.4
+Glycyrrhiza uralensis(甘草),Licoisoflavone B,OK,,5481234.0,CC1(C=CC2=C(O1)C=CC(=C2O)C3=COC4=CC(=CC(=C4C3=O)O)O)C,C20H16O6,352.34,3.76,3.0,6.0,True,,352.3
+Glycyrrhiza uralensis(甘草),Isolicoflavonol,OK,,5318585.0,CC(=CCC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O)C,C20H18O6,354.36,3.79,4.0,6.0,True,,354.4
+Glycyrrhiza uralensis(甘草),Semilicoisoflavone B,OK,,5481948.0,CC1(C=CC2=C(O1)C(=CC(=C2)C3=COC4=CC(=CC(=C4C3=O)O)O)O)C,C20H16O6,352.34,3.76,3.0,6.0,True,,352.3
+Glycyrrhiza uralensis(甘草),Glyasperin C,OK,,480859.0,CC(=CCC1=C(C2=C(C=C1O)OC[C@H](C2)C3=C(C=C(C=C3)O)O)OC)C,C21H24O5,356.42,4.04,3.0,5.0,True,,356.4
+Glycyrrhiza uralensis(甘草),Licoflavanone,OK,,14218027.0,CC(=CCC1=C(C=CC(=C1)C2CC(=O)C3=C(C=C(C=C3O2)O)O)O)C,C20H20O5,340.38,4.02,3.0,5.0,True,,340.4
+Bupleurum chinense(柴胡),Saikogenin A,OK,,99651.0,C[C@]12CC[C@@H]([C@@]([C@@H]1CC[C@@]3([C@@H]2C=CC4=C5CC(CC[C@@]5([C@H](C[C@]43C)O)CO)(C)C)C)(C)CO)O,C30H48O4,472.71,5.0,4.0,4.0,True,,472.7
+Bupleurum chinense(柴胡),Saikogenin D,OK,,9890994.0,C[C@]12CC[C@@H]([C@@]([C@@H]1CC[C@@]3([C@@H]2C=CC4=C5CC(CC[C@@]5([C@@H](C[C@]43C)O)CO)(C)C)C)(C)CO)O,C30H48O4,472.71,5.0,4.0,4.0,True,,472.7
+Bupleurum chinense(柴胡),Saikogenin F,OK,,21594261.0,C[C@]12CC[C@@H]([C@@]([C@@H]1CC[C@@]3([C@@H]2C=C[C@@]45[C@]3(C[C@@H]([C@@]6([C@H]4CC(CC6)(C)C)CO5)O)C)C)(C)CO)O,C30H48O4,472.71,5.1,3.0,4.0,True,,472.7
+Schisandra chinensis(五味子),Schisandrin A,OK,,155256.0,C[C@@H]1CC2=CC(=C(C(=C2C3=C(C(=C(C=C3C[C@@H]1C)OC)OC)OC)OC)OC)OC,C24H32O6,416.51,4.78,0.0,6.0,True,,416.5
+Schisandra chinensis(五味子),Schisandrin B,OK,,108130.0,CC1CC2=CC3=C(C(=C2C4=C(C(=C(C=C4CC1C)OC)OC)OC)OC)OCO3,C23H28O6,400.47,4.49,0.0,6.0,True,,400.5
+Schisandra chinensis(五味子),Schisandrin C,OK,,443027.0,C[C@@H]1CC2=CC3=C(C(=C2C4=C(C5=C(C=C4C[C@@H]1C)OCO5)OC)OC)OCO3,C22H24O6,384.43,4.2,0.0,6.0,True,,384.4
+Schisandra chinensis(五味子),Schisandrol A,OK,,11102092.0,C[C@H]1CC2=CC(=C(C(=C2C3=C(C(=C(C=C3C[C@@]1(C)O)OC)OC)OC)OC)OC)OC,C24H32O7,432.51,3.89,1.0,7.0,True,,432.5
+Schisandra chinensis(五味子),Schisandrol B,OK,,634470.0,CC1CC2=CC3=C(C(=C2C4=C(C(=C(C=C4CC1(C)O)OC)OC)OC)OC)OCO3,C23H28O7,416.47,3.6,1.0,7.0,True,,416.5
+Schisandra chinensis(五味子),Gomisin H,OK,,102004650.0,C[C@H]1CC2=CC(=C(C(=C2C3=C(C(=C(C=C3C[C@@]1(C)O)OC)OC)OC)O)OC)OC,C23H30O7,418.49,3.59,2.0,7.0,True,,418.5
+Schisandra chinensis(五味子),Gomisin J,OK,,3001686.0,C[C@@H]1CC2=CC(=C(C(=C2C3=C(C(=C(C=C3C[C@@H]1C)O)OC)OC)OC)OC)O,C22H28O6,388.46,4.17,2.0,6.0,True,,388.5
+Schisandra chinensis(五味子),Gomisin K1,OK,,5317805.0,C[C@H]1CC2=CC(=C(C(=C2C3=C(C(=C(C=C3C[C@H]1C)OC)OC)OC)OC)OC)O,C23H30O6,402.49,4.47,1.0,6.0,True,,402.5
+Schisandra chinensis(五味子),Gomisin K3,OK,,73057.0,C[C@H]1CC2=CC(=C(C(=C2C3=C(C(=C(C=C3C[C@H]1C)OC)OC)OC)O)OC)OC,C23H30O6,402.49,4.47,1.0,6.0,True,,402.5
+Schisandra chinensis(五味子),Gomisin L1,OK,,5317806.0,C[C@@H]1CC2=CC3=C(C(=C2C4=C(C(=C(C=C4C[C@@H]1C)OC)OC)O)OC)OCO3,C22H26O6,386.44,4.18,1.0,6.0,True,,386.4
+Schisandra chinensis(五味子),Gomisin L2,OK,,5317807.0,C[C@H]1CC2=CC(=C(C(=C2C3=C(C4=C(C=C3C[C@H]1C)OCO4)OC)OC)OC)O,C22H26O6,386.44,4.18,1.0,6.0,True,,386.4
+Schisandra chinensis(五味子),Gomisin M1,OK,,5321170.0,CC1CC2=CC3=C(C(=C2C4=C(C(=C(C=C4CC1C)OC)OC)O)OC)OCO3,C22H26O6,386.44,4.18,1.0,6.0,True,,386.4
+Schisandra chinensis(五味子),Gomisin M2,OK,,38363711.0,C[C@H]1CC2=CC3=C(C(=C2C4=C(C(=C(C=C4C[C@@H]1C)OC)OC)OC)O)OCO3,C22H26O6,386.44,4.18,1.0,6.0,True,,386.4
+Schisandra chinensis(五味子),Gomisin N,OK,,158103.0,C[C@H]1CC2=CC3=C(C(=C2C4=C(C(=C(C=C4C[C@H]1C)OC)OC)OC)OC)OCO3,C23H28O6,400.47,4.49,0.0,6.0,True,,400.5
+Schisandra chinensis(五味子),Gomisin O,OK,,5317808.0,C[C@H]1CC2=CC3=C(C(=C2C4=C(C(=C(C=C4[C@@H]([C@H]1C)O)OC)OC)OC)OC)OCO3,C23H28O7,416.47,3.98,1.0,7.0,True,,416.5
+Schisandra chinensis(五味子),Schisanhenol,OK,,73057.0,C[C@H]1CC2=CC(=C(C(=C2C3=C(C(=C(C=C3C[C@H]1C)OC)OC)OC)O)OC)OC,C23H30O6,402.49,4.47,1.0,6.0,True,,402.5
+Schisandra chinensis(五味子),Pregomisin,OK,UNCERTAIN,181796.0,C[C@H](CC1=CC(=C(C(=C1)OC)OC)O)[C@@H](C)CC2=CC(=C(C(=C2)OC)OC)O,C22H30O6,390.48,4.19,2.0,6.0,True,,390.5
+Schisandra chinensis(五味子),Chamigrenal,OK,,177096.0,CC1(CCCC(=C)C12CCC(=CC2)C=O)C,C15H22O,218.34,4.05,0.0,1.0,True,,218.33
+Ganoderma lucidum(灵芝),Lucidenic acid A,OK,,14109375.0,C[C@H](CCC(=O)O)[C@H]1CC(=O)[C@@]2([C@@]1(CC(=O)C3=C2[C@H](C[C@@H]4[C@@]3(CCC(=O)C4(C)C)C)O)C)C,C27H38O6,458.6,4.13,2.0,5.0,True,,458.6
+Ganoderma lucidum(灵芝),Lucidenic acid B,OK,,102410351.0,C[C@H](CCC(=O)O)[C@H]1CC(=O)[C@@]2([C@@]1([C@@H](C(=O)C3=C2[C@H](C[C@@H]4[C@@]3(CCC(=O)C4(C)C)C)O)O)C)C,C27H38O7,474.59,3.11,3.0,6.0,True,,474.6
+Ganoderma lucidum(灵芝),Lucidenic acid C,OK,,139588461.0,CC(CCC(=O)O)[C@@H]1CC(=O)[C@@]2([C@@]1(C[C@@H](C3=C2[C@H](CC4[C@@]3(CC[C@@H](C4(C)C)O)C)O)O)C)C,C27H42O6,462.63,3.72,4.0,5.0,True,,462.6
+Ganoderma lucidum(灵芝),Lucidenic acid F,OK,,23247893.0,C[C@H](CCC(=O)O)[C@H]1CC(=O)[C@@]2([C@@]1(CC(=O)C3=C2C(=O)C[C@@H]4[C@@]3(CCC(=O)C4(C)C)C)C)C,C27H36O6,456.58,4.34,1.0,5.0,True,,456.6
+Ganoderma lucidum(灵芝),Lucidenic acid N,OK,,21592283.0,C[C@H](CCC(=O)O)[C@H]1CC(=O)[C@@]2([C@@]1(CC(=O)C3=C2[C@H](C[C@@H]4[C@@]3(CC[C@@H](C4(C)C)O)C)O)C)C,C27H40O6,460.61,3.93,3.0,5.0,True,,460.6
+Ganoderma lucidum(灵芝),Lucidenic acid O,OK,,9847846.0,C[C@]12CC[C@@H]([C@@]([C@@H]1C[C@@H](C3=C2C(=O)C[C@]4([C@]3([C@H](C[C@@H]4C(=C)CCC(=O)O)O)C)C)O)(C)CO)O,C27H40O7,476.61,2.61,5.0,6.0,True,,476.6
+Coptis chinensis(黄连),Berberine,OK,,2353.0,COC1=C(C2=C[N+]3=C(C=C2C=C1)C4=CC5=C(C=C4CC3)OCO5)OC,C20H18NO4+,336.37,3.1,0.0,4.0,True,,336.4
+Coptis chinensis(黄连),Coptisine,OK,,72322.0,C1C[N+]2=C(C=C3C=CC4=C(C3=C2)OCO4)C5=CC6=C(C=C51)OCO6,C19H14NO4+,320.32,2.81,0.0,4.0,True,,320.3
+Coptis chinensis(黄连),Palmatine,OK,,19009.0,COC1=C(C2=C[N+]3=C(C=C2C=C1)C4=CC(=C(C=C4CC3)OC)OC)OC,C21H22NO4+,352.41,3.38,0.0,4.0,True,,352.4
+Coptis chinensis(黄连),Epiberberine,OK,,160876.0,COC1=C(C=C2C(=C1)CC[N+]3=C2C=C4C=CC5=C(C4=C3)OCO5)OC,C20H18NO4+,336.37,3.1,0.0,4.0,True,,336.4
+Coptis chinensis(黄连),Jatrorrhizine,OK,,72323.0,COC1=C(C2=C[N+]3=C(C=C2C=C1)C4=CC(=C(C=C4CC3)O)OC)OC,C20H20NO4+,338.38,3.08,1.0,4.0,True,,338.4
+Coptis chinensis(黄连),Columbamine,OK,,72310.0,COC1=C(C2=C[N+]3=C(C=C2C=C1)C4=CC(=C(C=C4CC3)OC)O)OC,C20H20NO4+,338.38,3.08,1.0,4.0,True,,338.4
+Coptis chinensis(黄连),Magnoflorine,OK,,73337.0,C[N+]1(CCC2=CC(=C(C3=C2[C@@H]1CC4=C3C(=C(C=C4)OC)O)O)OC)C,C20H24NO4+,342.42,3.01,2.0,4.0,True,,342.4
+Coptis chinensis(黄连),Berberrubine,OK,,72704.0,COC1=C(C2=C[N+]3=C(C=C2C=C1)C4=CC5=C(C=C4CC3)OCO5)O,C19H16NO4+,322.34,2.79,1.0,4.0,True,,322.3
+Coptis chinensis(黄连),Worenine,OK,UNCERTAIN,20055073.0,CC1=C2C3=CC4=C(C=C3CC[N+]2=CC5=CC6=C(C=C15)OCO6)OCO4,C20H16NO4+,334.35,3.12,0.0,4.0,True,,334.3
+Coptis chinensis(黄连),Canadine,OK,,34458.0,COC1=C(C2=C(CC3C4=CC5=C(C=C4CCN3C2)OCO5)C=C1)OC,C20H21NO4,339.39,3.09,0.0,5.0,True,,339.4
+Coptis chinensis(黄连),Stylopine,OK,,440583.0,C1CN2CC3=C(C[C@H]2C4=CC5=C(C=C41)OCO5)C=CC6=C3OCO6,C19H17NO4,323.35,2.8,0.0,5.0,True,,323.3
+Coptis chinensis(黄连),Groenlandicine,OK,UNCERTAIN,3084708.0,COC1=C(C=C2CC[N+]3=C(C2=C1)C=C4C=CC5=C(C4=C3)OCO5)O,C19H16NO4+,322.34,2.79,1.0,4.0,True,,322.3
+Coptis chinensis(黄连),Menisperine,OK,UNCERTAIN,30358.0,C[N+]1(CCC2=CC(=C(C3=C2C1CC4=C3C(=C(C=C4)OC)O)OC)OC)C,C21H26NO4+,356.44,3.31,1.0,4.0,True,,356.4
+Coptis chinensis(黄连),8-Oxocoptisine,OK,UNCERTAIN,5245667.0,C1CN2C(=CC3=C(C2=O)C4=C(C=C3)OCO4)C5=CC6=C(C=C51)OCO6,C19H13NO5,335.32,2.68,0.0,5.0,True,,335.3
+Sophora flavescens(苦参),Matrine,OK,,91466.0,C1C[C@@H]2[C@H]3CCCN4[C@H]3[C@@H](CCC4)CN2C(=O)C1,C15H24N2O,248.37,1.87,0.0,2.0,True,,248.36
+Sophora flavescens(苦参),Oxymatrine,OK,,24864132.0,C1C[C@@H]2[C@H]3CCC[N@+]4([C@H]3[C@@H](CCC4)CN2C(=O)C1)[O-],C15H24N2O2,264.37,1.88,0.0,2.0,True,,264.36
+Sophora flavescens(苦参),Sophoridine,OK,,165549.0,C1C[C@@H]2[C@H]3CCCN4[C@H]3[C@H](CCC4)CN2C(=O)C1,C15H24N2O,248.37,1.87,0.0,2.0,True,,248.36
+Sophora flavescens(苦参),Sophocarpine,OK,,115269.0,C1C[C@H]2CN3[C@H](CC=CC3=O)[C@@H]4[C@H]2N(C1)CCC4,C15H22N2O,246.35,1.65,0.0,2.0,True,,246.35
+Sophora flavescens(苦参),Oxysophocarpine,OK,,161544.0,C1C[C@H]2CN3[C@H](CC=CC3=O)[C@@H]4[C@H]2[N+](C1)(CCC4)[O-],C15H22N2O2,262.35,1.66,0.0,2.0,True,,262.35
+Sophora flavescens(苦参),Sophoramine,OK,,169014.0,C1C[C@H]2CN3C(=O)C=CC=C3[C@@H]4[C@H]2N(C1)CCC4,C15H20N2O,244.34,1.82,0.0,2.0,True,,244.33
+Sophora flavescens(苦参),Aloperine,OK,UNCERTAIN,162147.0,C1CCN2C[C@H]3C[C@@H]([C@H]2C1)C=C4[C@H]3NCCC4,C15H24N2,232.37,2.17,1.0,2.0,True,,232.36
+Sophora flavescens(苦参),N-Methylcytisine,OK,UNCERTAIN,670971.0,CN1C[C@@H]2C[C@H](C1)C3=CC=CC(=O)N3C2,C12H16N2O,204.27,0.9,0.0,2.0,True,,204.27
+Sophora flavescens(苦参),Anagyrine,OK,UNCERTAIN,5351589.0,C1CCN2C[C@H]3C[C@@H]([C@H]2C1)CN4C3=CC=CC4=O,C15H20N2O,244.34,1.82,0.0,2.0,True,,244.33
+Sophora flavescens(苦参),Baptifoline,OK,UNCERTAIN,160543.0,C1CN2C[C@H]3C[C@@H]([C@H]2C[C@H]1O)CN4C3=CC=CC4=O,C15H20N2O2,260.34,0.79,1.0,3.0,True,,260.33
+Sophora flavescens(苦参),Kurarinol,OK,,44563198.0,CC(=C)[C@H](CCC(C)(C)O)CC1=C2C(=C(C=C1O)OC)C(=O)C[C@H](O2)C3=C(C=C(C=C3)O)O,C26H32O7,456.54,4.8,4.0,7.0,True,,456.5
+Sophora flavescens(苦参),Sophoraflavanone G,OK,,72936.0,CC(=CC[C@H](CC1=C2C(=C(C=C1O)O)C(=O)C[C@H](O2)C3=C(C=C(C=C3)O)O)C(=C)C)C,C25H28O6,424.49,5.31,4.0,6.0,True,,424.5
+Sophora flavescens(苦参),Kushenol C,OK,,5481237.0,CC(=CC[C@H](CC1=C2C(=C(C=C1O)O)C(=O)C(=C(O2)C3=C(C=C(C=C3)O)O)O)C(=C)C)C,C25H26O7,438.48,5.08,5.0,7.0,True,,438.5
+Sophora flavescens(苦参),Kushenol E,OK,,127234.0,CC(=CCC1=C(C(=C2C(=C1O)C(=O)C[C@H](O2)C3=C(C=C(C=C3)O)O)CC=C(C)C)O)C,C25H28O6,424.49,5.23,4.0,6.0,True,,424.5
+Sophora flavescens(苦参),Kushenol H,OK,,44584091.0,CC(=C)[C@H](CCC(C)(C)O)CC1=C2C(=C(C=C1O)OC)C(=O)[C@@H]([C@H](O2)C3=C(C=C(C=C3)O)O)O,C26H32O8,472.53,3.78,5.0,8.0,True,,472.5
+Sophora flavescens(苦参),Kushenol I,OK,,20832634.0,CC(=CC[C@H](CC1=C2C(=C(C=C1O)OC)C(=O)[C@@H]([C@H](O2)C3=C(C=C(C=C3)O)O)O)C(=C)C)C,C26H30O7,454.52,4.58,4.0,7.0,True,,454.5
+Sophora flavescens(苦参),Formononetin,OK,,5280378.0,COC1=CC=C(C=C1)C2=COC3=C(C2=O)C=CC(=C3)O,C16H12O4,268.27,3.17,1.0,4.0,True,,268.26
+Sophora flavescens(苦参),Maackiain,OK,,91510.0,C1[C@@H]2[C@H](C3=C(O1)C=C(C=C3)O)OC4=CC5=C(C=C24)OCO5,C16H12O5,284.27,2.73,1.0,5.0,True,,284.26
+Silybum marianum(水飞蓟),Silybin A,OK,,31553.0,COC1=C(C=CC(=C1)[C@@H]2[C@H](OC3=C(O2)C=C(C=C3)[C@@H]4[C@H](C(=O)C5=C(C=C(C=C5O4)O)O)O)CO)O,C25H22O10,482.44,2.36,5.0,10.0,True,,482.4
+Silybum marianum(水飞蓟),Silybin B,OK,,1548994.0,COC1=C(C=CC(=C1)[C@H]2[C@@H](OC3=C(O2)C=C(C=C3)[C@@H]4[C@H](C(=O)C5=C(C=C(C=C5O4)O)O)O)CO)O,C25H22O10,482.44,2.36,5.0,10.0,True,,482.4
+Silybum marianum(水飞蓟),Isosilybin A,OK,,11059920.0,COC1=C(C=CC(=C1)[C@@H]2[C@H](OC3=C(O2)C=CC(=C3)[C@@H]4[C@H](C(=O)C5=C(C=C(C=C5O4)O)O)O)CO)O,C25H22O10,482.44,2.36,5.0,10.0,True,,482.4
+Silybum marianum(水飞蓟),Isosilybin B,OK,,10885340.0,COC1=C(C=CC(=C1)[C@H]2[C@@H](OC3=C(O2)C=CC(=C3)[C@@H]4[C@H](C(=O)C5=C(C=C(C=C5O4)O)O)O)CO)O,C25H22O10,482.44,2.36,5.0,10.0,True,,482.4
+Silybum marianum(水飞蓟),Silydianin,OK,,11982272.0,COC1=C(C=CC(=C1)[C@@H]2[C@H]3CO[C@@]4([C@H]3C(=C[C@H]2C4=O)[C@@H]5[C@H](C(=O)C6=C(C=C(C=C6O5)O)O)O)O)O,C25H22O10,482.44,0.99,5.0,10.0,True,,482.4
+Silybum marianum(水飞蓟),Silandrin,OK,,441663.0,COC1=C(C=CC(=C1)[C@@H]2[C@H](OC3=C(O2)C=CC(=C3)[C@@H]4CC(=O)C5=C(C=C(C=C5O4)O)O)CO)O,C25H22O9,466.44,3.39,4.0,9.0,True,,466.4
+Silybum marianum(水飞蓟),Silyhermin,OK,,10389806.0,COC1=C(C=CC(=C1)C2C(C3=C(O2)C(=CC(=C3)[C@@H]4CC(=O)C5=C(C=C(C=C5O4)O)O)O)CO)O,C25H22O9,466.44,3.43,5.0,9.0,True,,466.4
+Silybum marianum(水飞蓟),Neosilyhermin A,OK,,42607997.0,COC1=C(C=CC(=C1)C2C(C3=C(C=CC(=C3O2)O)[C@H]4CC(=O)C5=C(C=C(C=C5O4)O)O)CO)O,C25H22O9,466.44,3.43,5.0,9.0,True,,466.4
+Silybum marianum(水飞蓟),Neosilyhermin B,OK,UNCERTAIN,42607998.0,COC1=C(C=CC(=C1)C2C(C3=C(C=CC(=C3O2)O)[C@@H]4CC(=O)C5=C(C=C(C=C5O4)O)O)CO)O,C25H22O9,466.44,3.43,5.0,9.0,True,,466.4
+Silybum marianum(水飞蓟),Silymonin,OK,UNCERTAIN,156051.0,COC1=C(C=CC(=C1)[C@@H]2[C@H]3CO[C@@]4([C@H]3C(=C[C@H]2C4=O)[C@@H]5CC(=O)C6=C(C=C(C=C6O5)O)O)O)O,C25H22O9,466.44,2.02,4.0,9.0,True,,466.4
+Silybum marianum(水飞蓟),"2,3-Dehydrosilybin",OK,UNCERTAIN,10696082.0,COC1=C(C=CC(=C1)[C@@H]2[C@H](OC3=C(O2)C=C(C=C3)C4=C(C(=O)C5=C(C=C(C=C5O4)O)O)O)CO)O,C25H20O10,480.43,3.16,5.0,10.0,True,,480.4
+Artemisia annua(青蒿),Artemisinin,OK,,68827.0,C[C@@H]1CC[C@H]2[C@H](C(=O)O[C@H]3[C@@]24[C@H]1CC[C@](O3)(OO4)C)C,C15H22O5,282.34,2.39,0.0,5.0,True,,282.33
+Artemisia annua(青蒿),Arteannuin B,OK,,6543478.0,C[C@@H]1CC[C@H]2C(=C)C(=O)O[C@]23[C@H]1CC[C@@]4([C@H]3O4)C,C15H20O3,248.32,2.45,0.0,3.0,True,,248.32
+Artemisia annua(青蒿),Artemisinic acid,OK,,10922465.0,C[C@@H]1CC[C@H]([C@@H]2[C@H]1CCC(=C2)C)C(=C)C(=O)O,C15H22O2,234.34,3.65,1.0,1.0,True,,234.33
+Artemisia annua(青蒿),Dihydroartemisinic acid,OK,,11020893.0,C[C@@H]1CC[C@H]([C@@H]2[C@H]1CCC(=C2)C)[C@@H](C)C(=O)O,C15H24O2,236.35,3.73,1.0,1.0,True,,236.35
+Artemisia annua(青蒿),Deoxyartemisinin,OK,,12814879.0,C[C@@H]1CC[C@H]2[C@H](C(=O)O[C@H]3[C@@]24[C@H]1CC[C@](O3)(O4)C)C,C15H22O4,266.34,2.46,0.0,4.0,True,,266.33
+Artemisia annua(青蒿),Dihydroartemisinin,OK,,3000518.0,C[C@@H]1CC[C@H]2[C@H]([C@H](O[C@H]3[C@@]24[C@H]1CC[C@](O3)(OO4)C)O)C,C15H24O5,284.35,2.19,1.0,5.0,True,,284.35
+Artemisia annua(青蒿),Artemisitene,OK,UNCERTAIN,11000442.0,C[C@@H]1CC[C@H]2C(=C)C(=O)O[C@H]3[C@@]24[C@H]1CC[C@](O3)(OO4)C,C15H20O5,280.32,2.32,0.0,5.0,True,,280.32
+Artemisia annua(青蒿),beta-Caryophyllene,OK,,5281515.0,C/C/1=C\CCC(=C)[C@H]2CC([C@@H]2CC1)(C)C,C15H24,204.36,4.73,0.0,0.0,True,,204.35
+Artemisia annua(青蒿),Caryophyllene oxide,OK,,1742210.0,C[C@@]12CC[C@@H]3[C@H](CC3(C)C)C(=C)CC[C@H]1O2,C15H24O,220.36,3.94,0.0,1.0,True,,220.35
+Artemisia annua(青蒿),Camphor,OK,,2537.0,CC1(C2CCC1(C(=O)C2)C)C,C10H16O,152.24,2.4,0.0,1.0,True,,152.23
+Artemisia annua(青蒿),"1,8-Cineole",OK,,2758.0,CC1(C2CCC(O1)(CC2)C)C,C10H18O,154.25,2.74,0.0,1.0,True,,154.25
+Artemisia annua(青蒿),Artemisia ketone,OK,UNCERTAIN,68346.0,CC(=CC(=O)C(C)(C)C=C)C,C10H16O,152.24,2.73,0.0,1.0,True,,152.23
+Artemisia annua(青蒿),Casticin,OK,,5315263.0,COC1=C(C=C(C=C1)C2=C(C(=O)C3=C(C(=C(C=C3O2)OC)OC)O)OC)O,C19H18O8,374.35,2.91,2.0,8.0,True,,374.3
+Artemisia annua(青蒿),Chrysosplenol D,OK,,5280699.0,COC1=C(C(=C2C(=C1)OC(=C(C2=O)OC)C3=CC(=C(C=C3)O)O)O)OC,C18H16O8,360.32,2.6,3.0,8.0,True,catechol_A(92),360.3
+Artemisia annua(青蒿),Chrysosplenetin,OK,,5281608.0,COC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C(=C(C=C3O2)OC)OC)O)OC)O,C19H18O8,374.35,2.91,2.0,8.0,True,,374.3
+Artemisia annua(青蒿),Artemetin,OK,,5320351.0,COC1=C(C=C(C=C1)C2=C(C(=O)C3=C(C(=C(C=C3O2)OC)OC)O)OC)OC,C20H20O8,388.37,3.21,1.0,8.0,True,,388.4
+Artemisia annua(青蒿),Cirsilineol,OK,,162464.0,COC1=C(C=CC(=C1)C2=CC(=O)C3=C(C(=C(C=C3O2)OC)OC)O)O,C18H16O7,344.32,2.9,2.0,7.0,True,,344.3
+Artemisia annua(青蒿),Eupatorin,OK,,97214.0,COC1=C(C=C(C=C1)C2=CC(=O)C3=C(C(=C(C=C3O2)OC)OC)O)O,C18H16O7,344.32,2.9,2.0,7.0,True,,344.3
+Artemisia annua(青蒿),Cirsimaritin,OK,UNCERTAIN,188323.0,COC1=C(C(=C2C(=C1)OC(=CC2=O)C3=CC=C(C=C3)O)O)OC,C17H14O6,314.29,2.89,2.0,6.0,True,,314.29
+Artemisia annua(青蒿),Scopoletin,OK,,5280460.0,COC1=C(C=C2C(=C1)C=CC(=O)O2)O,C10H8O4,192.17,1.51,1.0,4.0,True,,192.17
+Artemisia annua(青蒿),Scopolin,OK,UNCERTAIN,439514.0,COC1=C(C=C2C(=C1)C=CC(=O)O2)O[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O,C16H18O9,354.31,-1.02,4.0,9.0,True,,354.31
+Artemisia annua(青蒿),4-Methylesculetin,OK,,5319502.0,CC1=CC(=O)OC2=CC(=C(C=C12)O)O,C10H8O4,192.17,1.51,2.0,4.0,True,catechol_A(92),192.17
+Artemisia annua(青蒿),Umbelliferone,OK,,5281426.0,C1=CC(=CC2=C1C=CC(=O)O2)O,C9H6O3,162.14,1.5,1.0,3.0,True,,162.14
+Tripterygium wilfordii(雷公藤),Triptophenolide,OK,,173273.0,CC(C)C1=C(C2=C(C=C1)[C@]3(CCC4=C([C@@H]3CC2)COC4=O)C)O,C20H24O3,312.41,3.98,1.0,3.0,True,,312.4
+Tripterygium wilfordii(雷公藤),Tripterifordin,OK,,72369.0,C[C@@]12CCC[C@@]3([C@@H]1CC[C@]45[C@H]3CC[C@H](C4)[C@](C5)(C)O)COC2=O,C20H30O3,318.46,3.69,1.0,3.0,True,,318.4

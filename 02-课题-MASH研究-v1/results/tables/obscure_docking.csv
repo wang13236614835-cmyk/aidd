@@ -1,0 +1,30 @@
+arm,herb,name,dG_THRB,dG_ACC,fxr_mu_pIC50,fxr_sigma,tier
+primary,Ampelopsis grossedentata(藤茶),dihydrokaempferol,-8.082,-8.352,6.585,0.641,OOD_warning(域外预警)
+primary,Phyllanthus niruri(叶下珠),lintetralin,0.4468,-8.268,6.266,0.717,in_domain_low_conf(域内低置信)
+primary,Phyllanthus niruri(叶下珠),nirtetralin,-0.1311,-9.238,6.242,0.771,in_domain_low_conf(域内低置信)
+primary,Phyllanthus niruri(叶下珠),hypophyllanthin,-3.021,-8.132,6.227,0.781,in_domain_low_conf(域内低置信)
+primary,Ampelopsis grossedentata(藤茶),dihydroquercetin,-8.323,-9.03,6.174,0.623,OOD_warning(域外预警)
+primary,Phyllanthus niruri(叶下珠),phyltetralin,1.298,-7.556,6.023,0.831,in_domain_low_conf(域内低置信)
+primary,Swertia spp.(当药/青叶胆/藏茵陈),swertiamarin,-7.206,-7.59,5.755,0.997,OOD_warning(域外预警)
+primary,Phyllanthus niruri(叶下珠),niranthin,-9.038,-8.338,5.369,0.78,in_domain_low_conf(域内低置信)
+primary,Swertia spp.(当药/青叶胆/藏茵陈),sweroside,-6.533,-7.753,5.349,1.018,OOD_warning(域外预警)
+primary,Phyllanthus niruri(叶下珠),norsecurinine,-7.523,-6.929,5.265,0.615,OOD_warning(域外预警)
+primary,Swertia spp.(当药/青叶胆/藏茵陈),gentiopicroside,-8.593,-8.108,5.249,0.833,OOD_warning(域外预警)
+primary,Phyllanthus niruri(叶下珠),phyllanthin,-8.801,-7.671,5.116,0.827,OOD_warning(域外预警)
+primary,Swertia spp.(当药/青叶胆/藏茵陈),decussatin,-7.42,-7.866,4.992,0.629,in_domain_high_conf(域内高置信)
+primary,Antrodia cinnamomea(樟芝),antrodin A,-7.43,-7.353,4.946,0.57,in_domain_high_conf(域内高置信)
+sensitivity,Antrodia cinnamomea(樟芝),antcin A,-7.451,-9.565,4.753,0.44,high_conf
+sensitivity,Antrodia cinnamomea(樟芝),antcin B,-5.102,-8.235,4.688,0.401,high_conf
+sensitivity,Antrodia cinnamomea(樟芝),eburicoic acid,-4.444,-8.539,4.707,0.545,high_conf
+sensitivity,Antrodia cinnamomea(樟芝),dehydroeburicoic acid,-5.882,-8.623,4.649,0.481,high_conf
+sensitivity,Antrodia cinnamomea(樟芝),zhankuic acid A,-4.771,-9.92,4.66,0.41,high_conf
+sensitivity,Inonotus obliquus(桦褐孔菌),inotodiol,-8.026,-9.785,5.077,0.51,high_conf
+sensitivity,Inonotus obliquus(桦褐孔菌),trametenolic acid,-4.661,-9.328,4.859,0.547,high_conf
+sensitivity,Inonotus obliquus(桦褐孔菌),betulinic acid,3.392,-8.301,4.981,0.702,low_conf
+sensitivity,Inonotus obliquus(桦褐孔菌),betulin,1.542,-7.694,5.084,0.773,low_conf
+sensitivity,Inonotus obliquus(桦褐孔菌),"3beta-hydroxylanosta-8,24-dien-21-al",-6.246,-9.407,4.825,0.563,high_conf
+sensitivity,Centella asiatica(积雪草),madecassic acid,3.971,-7.965,4.796,0.623,OOD_warning
+sensitivity,Centella asiatica(积雪草),terminolic acid,5.794,-7.883,4.921,0.69,OOD_warning
+sensitivity,Ilex kudingcha(苦丁茶),ursolic acid,1.254,-8.687,4.86,0.606,high_conf
+sensitivity,Ilex kudingcha(苦丁茶),ilexgenin A,1.665,-7.775,5.002,0.621,OOD_warning
+sensitivity,Ilex kudingcha(苦丁茶),ilexolic acid A,2.724,-7.072,4.83,0.58,OOD_warning

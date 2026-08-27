@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+    body { font-family: "Microsoft YaHei", sans-serif; line-height: 1.6; color: #333; margin: 30px; }
+    h1 { color: #2c3e50; text-align: center; border-bottom: 3px solid #e74c3c; padding-bottom: 10px; margin-bottom: 30px; }
+    h2 { color: #fff; background-color: #2980b9; padding: 10px 15px; border-radius: 5px; margin-top: 30px; }
+    h3 { color: #c0392b; border-left: 4px solid #c0392b; padding-left: 10px; }
+    table { border-collapse: collapse; width: 100%; margin: 20px 0; font-size: 14px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    th, td { border: 1px solid #ddd; padding: 12px; text-align: center; }
+    th { background-color: #f4f6f7; color: #2c3e50; font-weight: bold; }
+    .highlight { background-color: #fdf2e9; padding: 15px; border-left: 5px solid #e67e22; border-radius: 4px; margin: 20px 0; }
+    ul, ol { margin-left: 20px; }
+    li { margin-bottom: 8px; }
+</style>
+</head>
+<body>
+
+<h1>大创结题答辩汇报与湿实验执行路线图</h1>
+<p style="text-align:center; color:#7f8c8d;"><strong>项目阶段：</strong>项目验收与验证实验启动 | <strong>预算约束：</strong>1500元 / 一学期</p>
+
+<h2>一、 结题答辩核心故事线 (PPT 汇报逻辑)</h2>
+<p>在答辩时，向评委展示你们不是盲目相信AI，而是具备顶级科研批判思维，形成了<strong>“双轨并行”</strong>的研究格局：</p>
+<ul>
+    <li><strong>主线成果（履约与技术展示）：</strong>基于图神经网络构建 FXR 靶点预测模型，完成 131 种天然产物打分。证明团队完全掌握了前沿 AI 算法开发能力。</li>
+    <li><strong>破局反思（超越本科水平的亮点）：</strong>主动指出 AI 对天然产物存在“适用域外推失效”的学术界通病。为此，团队独立重构了全新的“多靶点协同轴 (THRβ+FASN+SCD1)”，诚实地给出“假设生成级”结论。</li>
+    <li><strong>落地决策（连接计算与实验）：</strong>不仅做纯计算，还独创“圆桌交叉审计”，剔除买不到、有肝毒性的“高分假药”，最终锁定高置信度、高成药性的真实候选分子进入实验室。</li>
+</ul>
+
+<h2>二、 湿实验选品决议 (入营名单)</h2>
+<div class="highlight">
+    <strong>选品原则：</strong>基于“圆桌审计”V5统一评分，要求必须满足“计算高分 + 独立文献/临床双链印证 + 市场上可买到高纯度标准品”。
+</div>
+<table>
+    <tr>
+        <th>优先级</th>
+        <th>候选药物成分</th>
+        <th>提取源</th>
+        <th>入选核心理由 (证据链)</th>
+    </tr>
+    <tr>
+        <td><strong>实验首选 (1线)</strong></td>
+        <td>Antcin K / Antrodin B</td>
+        <td>樟芝 (Antrodia)</td>
+        <td>临床级证据(28例双盲RCT证实改善指标)+计算双异源交叉印证</td>
+    </tr>
+    <tr>
+        <td><strong>实验首选 (1线)</strong></td>
+        <td>Asiatic acid (积雪草酸)</td>
+        <td>积雪草</td>
+        <td>直接文献证实阻断 TGFβ/Smad 纤维化轴，商业化极其充分</td>
+    </tr>
+    <tr>
+        <td><strong>阳性对照</strong></td>
+        <td>Berberine (小檗碱)</td>
+        <td>黄连</td>
+        <td>初始计算第一名，作为已知活性锚点，对比验证新药效</td>
+    </tr>
+    <tr>
+        <td><strong>阳性对照</strong></td>
+        <td>Lovastatin (洛伐他汀)</td>
+        <td>标准药</td>
+        <td>经典的工业界降脂阳性对照用药，校准模型基线</td>
+    </tr>
+</table>
+
+<h2>三、 下一步湿实验执行路线图 (HepG2细胞脂变验证)</h2>
+<p>针对 1500 元经费与一学期的周期限制，制定了极具可行性的体外细胞学评价方案：</p>
+
+<h3>📍 Phase 1: 耗材与试剂采购 (第1-2周)</h3>
+<ul>
+    <li>采购 4 个核心标准品：Antcin K, Antrodin B, Asiatic acid, 小檗碱。</li>
+    <li>采购造模试剂：游离脂肪酸 (PA/OA 棕榈酸/油酸) 试剂盒。</li>
+    <li>采购检测类耗材：CCK-8 (用于细胞毒性/活力检测)、TG (甘油三酯) 定量检测试剂盒、油红O染液。</li>
+</ul>
+
+<h3>📍 Phase 2: 疾病模型构建与给药干预 (第3-5周)</h3>
+<ul>
+    <li><strong>模型构建：</strong>复苏并培养 HepG2 肝癌细胞，使用 PA/OA (2:1 比例) 诱导 24-48 小时，构建非酒精性脂肪肝 (MASH) 体外脂变模型。</li>
+    <li><strong>梯度给药设计：</strong>设置空白组、模型组、阳性对照组，以及候选药物组。<br>
+        药物浓度设置 4 个梯度：<strong>0.1 μM, 1 μM, 10 μM, 30 μM</strong>，以观测剂量依赖效应。</li>
+</ul>
+
+<h3>📍 Phase 3: 核心指标检测与 Hit 判定 (第6-8周)</h3>
+<ul>
+    <li><strong>安全性底线 (CCK-8 细胞活力)：</strong>候选药物在有效浓度 (≥ 10 μM) 下，细胞存活率必须 <strong>≥ 80%</strong>，否则直接淘汰。</li>
+    <li><strong>药效学终点 (TG 含量检测)：</strong>对比模型组，候选药物干预组的甘油三酯 (TG) 下降幅度需 <strong>≥ 20%</strong>。</li>
+    <li><strong>直观形态学 (油红O染色)：</strong>显微镜下观察，验证候选药组的脂滴沉积显著减少。</li>
+    <li><em>(判定标准：满足安全+降脂双重红线，即定义为该大创项目的成功 Hit 分子。)</em></li>
+</ul>
+
+<h3>📍 Phase 4: 未来展望与转录组学拓展 (结题后规划)</h3>
+<ul>
+    <li>本阶段细胞实验结束后，若结果阳性，结题报告中可增加“未来计划外置至 AMLN 饮食诱导的小鼠活体动物模型进行体内验证（需追加外部合作经费）”的远期规划。</li>
+</ul>
+
+</body>
+</html>

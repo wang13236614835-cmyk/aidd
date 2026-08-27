@@ -1,0 +1,11 @@
+﻿herb,n_compounds,herb_score,herb_score_shrunk,rep_fix
+Coptis chinensis(黄连),14,0.7176,0.5288,Epiberberine(in_domain_high_con)
+Sophora flavescens(苦参),18,0.5849,0.4577,Kushenol E(in_domain_high_con)
+Glycyrrhiza uralensis(甘草),18,0.5655,0.4426,Licoflavanone(in_domain_high_con)
+Salvia miltiorrhiza(丹参),18,0.545,0.4265,Salvilenone(in_domain_high_con)
+Artemisia annua(青蒿),23,0.4561,0.3747,Chrysosplenol D(in_domain_high_con)+Deoxyartemisinin[域外参考]
+Silybum marianum(水飞蓟),11,0.4152,0.2854,Neosilyhermin B[域外警示药材]
+Schisandra chinensis(五味子),18,0.3541,0.2771,Schisandrin C(in_domain_high_con)
+Ganoderma lucidum(灵芝),6,0.4057,0.2213,Lucidenic acid C(in_domain_high_con)
+Tripterygium wilfordii(雷公藤),2,0.5653,0.1615,Triptophenolide(in_domain_high_con)
+Bupleurum chinense(柴胡),3,0.099,0.0371,Saikogenin F(in_domain_high_con)

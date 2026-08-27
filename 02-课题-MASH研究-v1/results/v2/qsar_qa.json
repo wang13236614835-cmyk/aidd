@@ -1,0 +1,52 @@
+{
+ "ACC2": {
+  "n": 892,
+  "testR2": 0.514,
+  "testSpearman": 0.741
+ },
+ "DGAT2": {
+  "n": 261,
+  "testR2": 0.6,
+  "testSpearman": 0.7
+ },
+ "FASN": {
+  "n": 1123,
+  "testR2": 0.638,
+  "testSpearman": 0.806
+ },
+ "FDFT1": {
+  "n": 192,
+  "testR2": 0.7,
+  "testSpearman": 0.831
+ },
+ "FXR": {
+  "n": 1567,
+  "testR2": 0.58,
+  "testSpearman": 0.731
+ },
+ "HMGCR": {
+  "n": 259,
+  "testR2": 0.857,
+  "testSpearman": 0.943
+ },
+ "LXRa": {
+  "n": 433,
+  "testR2": 0.694,
+  "testSpearman": 0.846
+ },
+ "PPARG": {
+  "n": 3511,
+  "testR2": 0.693,
+  "testSpearman": 0.826
+ },
+ "SCD": {
+  "n": 239,
+  "testR2": 0.393,
+  "testSpearman": 0.69
+ },
+ "THRb": {
+  "n": 622,
+  "testR2": 0.776,
+  "testSpearman": 0.888
+ }
+}

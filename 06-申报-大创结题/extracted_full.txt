@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "C:\Users\user\.zcode\cli\plugins\cache\zcode-plugins-official\document-skills\0.1.0\skills\pdf\scripts\pdf.py", line 2959, in <module>
+    main()
+  File "C:\Users\user\.zcode\cli\plugins\cache\zcode-plugins-official\document-skills\0.1.0\skills\pdf\scripts\pdf.py", line 2934, in main
+    handler(tokens)
+  File "C:\Users\user\.zcode\cli\plugins\cache\zcode-plugins-official\document-skills\0.1.0\skills\pdf\scripts\pdf.py", line 415, in extract_text
+    import pdfplumber
+ModuleNotFoundError: No module named 'pdfplumber'

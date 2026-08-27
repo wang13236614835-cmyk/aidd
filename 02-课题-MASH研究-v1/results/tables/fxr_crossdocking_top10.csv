@@ -1,0 +1,11 @@
+herb,name,CW_BCS,fxr_mu,fxr_sigma,tier,dG_FXR_3FLI,dG_FXR_1OSH
+Coptis chinensis(黄连),Coptisine,0.7304,8.439,0.784,in_domain_low_conf(域内低置信),-9.891,-8.931
+Coptis chinensis(黄连),Worenine,0.7126,8.623,0.748,in_domain_low_conf(域内低置信),-10.11,-8.737
+Coptis chinensis(黄连),Epiberberine,0.7101,8.141,0.66,in_domain_high_conf(域内高置信),-9.237,-9.144
+Coptis chinensis(黄连),Groenlandicine,0.7015,7.778,0.657,in_domain_high_conf(域内高置信),-9.014,-9.123
+Coptis chinensis(黄连),8-Oxocoptisine,0.695,7.826,0.734,in_domain_low_conf(域内低置信),-10.55,-9.494
+Coptis chinensis(黄连),Stylopine,0.6808,6.714,0.585,in_domain_high_conf(域内高置信),-9.725,-9.14
+Coptis chinensis(黄连),Berberrubine,0.66,7.812,0.649,in_domain_high_conf(域内高置信),-9.606,-8.97
+Coptis chinensis(黄连),Berberine,0.6561,8.208,0.639,in_domain_high_conf(域内高置信),-8.853,-8.468
+Sophora flavescens(苦参),Maackiain,0.6292,7.502,0.737,in_domain_low_conf(域内低置信),-8.927,-8.172
+Coptis chinensis(黄连),Jatrorrhizine,0.5938,7.58,0.62,in_domain_high_conf(域内高置信),-8.559,-8.202

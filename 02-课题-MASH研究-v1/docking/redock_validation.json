@@ -1,0 +1,22 @@
+{
+  "FXR_3FLI": {
+    "ligand": "33Y",
+    "affinity": -9.994,
+    "rmsd": 1.220830995372057
+  },
+  "THRB_3GWS": {
+    "ligand": "T3",
+    "affinity": -9.452,
+    "rmsd": 0.4232044193189589
+  },
+  "ACC2_5KKN": {
+    "ligand": "6U3",
+    "affinity": -11.23,
+    "rmsd": 0.7624459889114493
+  },
+  "ACC2_3GID": {
+    "ligand": "S1A",
+    "affinity": -8.236,
+    "rmsd": 0.33459905009729624
+  }
+}

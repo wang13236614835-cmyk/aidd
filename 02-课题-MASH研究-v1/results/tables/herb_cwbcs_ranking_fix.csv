@@ -1,0 +1,11 @@
+rank_shrunk,rank,herb,n_compounds,topK_CW_BCS_geo,redundancy_penalty,mean_topK_tanimoto,herb_score,best_compound,best_CW_BCS,best_tier,coverage_any,coverage_multi,herb_score_shrunk,rep_fix
+1,1,Coptis chinensis(黄连),14,0.7176,0.0,0.535,0.7176,Coptisine,0.7304,in_domain_low_conf(域内低置信),14,14,0.5288,Epiberberine(in_domain_high_con)
+2,2,Sophora flavescens(苦参),18,0.5849,0.0,0.11,0.5849,Maackiain,0.6292,in_domain_low_conf(域内低置信),18,13,0.4577,Kushenol E(in_domain_high_con)
+3,3,Glycyrrhiza uralensis(甘草),18,0.5655,0.0,0.292,0.5655,Licoflavanone,0.5931,in_domain_high_conf(域内高置信),18,18,0.4426,Licoflavanone(in_domain_high_con)
+4,5,Salvia miltiorrhiza(丹参),18,0.545,0.0,0.207,0.545,Salvilenone,0.5728,in_domain_high_conf(域内高置信),18,18,0.4265,Salvilenone(in_domain_high_con)
+5,6,Artemisia annua(青蒿),23,0.4561,0.0,0.471,0.4561,Deoxyartemisinin,0.5083,OOD_warning(域外预警),16,9,0.3747,Chrysosplenol D(in_domain_high_con)+Deoxyartemisinin[域外参考]
+6,7,Silybum marianum(水飞蓟),11,0.5256,0.21,0.684,0.4152,Neosilyhermin B,0.5339,OOD_warning(域外预警),11,3,0.2854,Neosilyhermin B[域外警示药材]
+7,9,Schisandra chinensis(五味子),18,0.3541,0.0,0.111,0.3541,Pregomisin,0.3721,in_domain_low_conf(域内低置信),2,2,0.2771,Schisandrin C(in_domain_high_con)
+8,8,Ganoderma lucidum(灵芝),6,0.4061,0.001,0.6,0.4057,Lucidenic acid C,0.4193,in_domain_high_conf(域内高置信),6,1,0.2213,Lucidenic acid C(in_domain_high_con)
+9,4,Tripterygium wilfordii(雷公藤),2,0.5653,0.0,0.195,0.5653,Triptophenolide,0.5927,in_domain_high_conf(域内高置信),2,2,0.1615,Triptophenolide(in_domain_high_con)
+10,10,Bupleurum chinense(柴胡),3,0.1072,0.077,0.631,0.099,Saikogenin F,0.24,in_domain_high_conf(域内高置信),3,0,0.0371,Saikogenin F(in_domain_high_con)

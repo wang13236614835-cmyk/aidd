@@ -1,0 +1,5 @@
+axis,n_genes,spearman_vs_NAS,p
+INFL轴,5,0.136,4.6e-02
+FIB轴,6,0.396,1.6e-09
+LIPO轴,5,0.229,7.1e-04
+NR轴,4,-0.244,3.0e-04

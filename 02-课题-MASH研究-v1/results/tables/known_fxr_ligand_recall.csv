@@ -1,0 +1,7 @@
+name,pred_mu,sigma,lit_estimate,note
+chenodeoxycholic acid,5.76,1.33,6.2,"endogenous FXR agonist, EC50~uM"
+deoxycholic acid,5.79,1.35,4.8,weak FXR agonist
+lithocholic acid,6.04,1.5,5.2,weak FXR agonist
+cholic acid,5.57,1.22,4.5,weak FXR agonist
+glycochenodeoxycholic acid,4.94,0.92,5.5,FXR agonist
+obeticholic acid,5.64,1.25,7.0,semi-synthetic FXR agonist EC50~99nM

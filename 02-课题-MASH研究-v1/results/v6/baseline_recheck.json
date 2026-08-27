@@ -1,0 +1,101 @@
+{
+  "recheck": {
+    "random_RF": {
+      "n_test": 36,
+      "R2": 0.8452,
+      "RMSE": 0.6204,
+      "MAE": 0.4983,
+      "Spearman": 0.8111
+    },
+    "random_XGB": {
+      "n_test": 36,
+      "R2": 0.8107,
+      "RMSE": 0.686,
+      "MAE": 0.5072,
+      "Spearman": 0.8201
+    },
+    "scaffold_RF": {
+      "n_test": 34,
+      "R2": 0.0474,
+      "RMSE": 0.9922,
+      "MAE": 0.7127,
+      "Spearman": 0.6406,
+      "Spearman_p": 4.49e-05
+    },
+    "scaffold_XGB": {
+      "n_test": 34,
+      "R2": -0.1268,
+      "RMSE": 1.0791,
+      "MAE": 0.8035,
+      "Spearman": 0.483,
+      "Spearman_p": 0.00381
+    }
+  },
+  "comparison": {
+    "random_RF": {
+      "recheck": {
+        "n_test": 36,
+        "R2": 0.8452,
+        "RMSE": 0.6204,
+        "MAE": 0.4983,
+        "Spearman": 0.8111
+      },
+      "stored": {
+        "R2": 0.8452,
+        "RMSE": 0.6204,
+        "MAE": 0.4983,
+        "Spearman": 0.8111
+      },
+      "match": true
+    },
+    "random_XGB": {
+      "recheck": {
+        "n_test": 36,
+        "R2": 0.8107,
+        "RMSE": 0.686,
+        "MAE": 0.5072,
+        "Spearman": 0.8201
+      },
+      "stored": {
+        "R2": 0.8107,
+        "RMSE": 0.686,
+        "MAE": 0.5072,
+        "Spearman": 0.8201
+      },
+      "match": true
+    },
+    "scaffold_RF": {
+      "recheck": {
+        "n_test": 34,
+        "R2": 0.0474,
+        "RMSE": 0.9922,
+        "MAE": 0.7127,
+        "Spearman": 0.6406
+      },
+      "stored": {
+        "R2": 0.0474,
+        "RMSE": 0.9922,
+        "MAE": 0.7127,
+        "Spearman": 0.6406
+      },
+      "match": true
+    },
+    "scaffold_XGB": {
+      "recheck": {
+        "n_test": 34,
+        "R2": -0.1268,
+        "RMSE": 1.0791,
+        "MAE": 0.8035,
+        "Spearman": 0.483
+      },
+      "stored": {
+        "R2": -0.1268,
+        "RMSE": 1.0791,
+        "MAE": 0.8035,
+        "Spearman": 0.483
+      },
+      "match": true
+    }
+  },
+  "note_pvalues": "scaffold-split Spearman p-values recomputed from v6c recheck (n=34)"
+}

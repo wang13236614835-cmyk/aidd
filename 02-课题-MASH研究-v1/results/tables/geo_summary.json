@@ -1,0 +1,7 @@
+{
+  "dataset": "GSE135251",
+  "n_normal": 10,
+  "n_nafl": 51,
+  "n_nash": 155,
+  "n_deg": 3909
+}

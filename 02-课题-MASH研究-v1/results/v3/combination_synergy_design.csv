@@ -1,0 +1,22 @@
+combo,n_axes_covered,axes_covered,redundancy_axes,synergy_score,basis,obtain
+Antrocinnamomin F (樟芝) + Versicolamide B (A. versicolor),4,核受体轴+脂合成轴+炎症间接轴+纤维化轴,0,10.45,5-target QSAR(NR+LIPO)+FXR/ACC/THRb三对接全<-8; 来源有NASH临床 || 家族notoamide Q肝IRI保护先例(PMID 37560942); 细胞保护类间接作用,发酵+标样 + 全合成可得(Nat Chem 2009)
+"Asiatic acid (积雪草) + Berberine (黄连, 阳性对照)",4,核受体轴+脂合成轴+炎症间接轴+纤维化轴,0,9.12,抗肝纤维化多通路文献(PMID 35963324) || AMPK/TLR4多机制临床文献,商品化 + 商品化
+Antrocinnamomin F (樟芝) + Asiatic acid (积雪草),3,核受体轴+脂合成轴+纤维化轴,0,8.8,5-target QSAR(NR+LIPO)+FXR/ACC/THRb三对接全<-8; 来源有NASH临床 || 抗肝纤维化多通路文献(PMID 35963324),发酵+标样 + 商品化
+Butyrolactone VI (土曲霉) + Versicolamide B (A. versicolor),4,核受体轴+脂合成轴+炎症间接轴+纤维化轴,0,8.74,5-target QSAR(DGAT2/ACC2/THRb)+FXR/ACC对接<-7.9 || 家族notoamide Q肝IRI保护先例(PMID 37560942); 细胞保护类间接作用,土曲霉极易发酵 + 全合成可得(Nat Chem 2009)
+Butyrolactone VI (土曲霉) + Asiatic acid (积雪草),3,核受体轴+脂合成轴+纤维化轴,0,7.36,5-target QSAR(DGAT2/ACC2/THRb)+FXR/ACC对接<-7.9 || 抗肝纤维化多通路文献(PMID 35963324),土曲霉极易发酵 + 商品化
+"Alternaramide (海洋Alternaria环肽) + Resmetirom (上市药, 组合锚)",3,核受体轴+脂合成轴+炎症间接轴,0,7.2,TLR4-MyD88/NF-kB抗炎机制文献(PMID 26620692)+ACC对接-8.3 || THR-b激动剂获批药,菌株发酵 + 购买
+Alternaramide (海洋Alternaria环肽) + Asiatic acid (积雪草),3,脂合成轴+炎症间接轴+纤维化轴,0,7.2,TLR4-MyD88/NF-kB抗炎机制文献(PMID 26620692)+ACC对接-8.3 || 抗肝纤维化多通路文献(PMID 35963324),菌株发酵 + 商品化
+Antrocinnamomin F (樟芝) + Alternaramide (海洋Alternaria环肽),3,核受体轴+脂合成轴+炎症间接轴,1,7.04,5-target QSAR(NR+LIPO)+FXR/ACC/THRb三对接全<-8; 来源有NASH临床 || TLR4-MyD88/NF-kB抗炎机制文献(PMID 26620692)+ACC对接-8.3,发酵+标样 + 菌株发酵
+"Versicolamide B (A. versicolor) + Resmetirom (上市药, 组合锚)",3,核受体轴+炎症间接轴+纤维化轴,0,6.4,家族notoamide Q肝IRI保护先例(PMID 37560942); 细胞保护类间接作用 || THR-b激动剂获批药,全合成可得(Nat Chem 2009) + 购买
+"Versicolamide B (A. versicolor) + Berberine (黄连, 阳性对照)",4,核受体轴+脂合成轴+炎症间接轴+纤维化轴,1,6.08,家族notoamide Q肝IRI保护先例(PMID 37560942); 细胞保护类间接作用 || AMPK/TLR4多机制临床文献,全合成可得(Nat Chem 2009) + 商品化
+Alternaramide (海洋Alternaria环肽) + Butyrolactone VI (土曲霉),3,核受体轴+脂合成轴+炎症间接轴,1,5.89,TLR4-MyD88/NF-kB抗炎机制文献(PMID 26620692)+ACC对接-8.3 || 5-target QSAR(DGAT2/ACC2/THRb)+FXR/ACC对接<-7.9,菌株发酵 + 土曲霉极易发酵
+"Asiatic acid (积雪草) + Resmetirom (上市药, 组合锚)",2,核受体轴+纤维化轴,0,5.2,抗肝纤维化多通路文献(PMID 35963324) || THR-b激动剂获批药,商品化 + 购买
+"Berberine (黄连, 阳性对照) + Resmetirom (上市药, 组合锚)",3,核受体轴+脂合成轴+炎症间接轴,1,4.86,AMPK/TLR4多机制临床文献 || THR-b激动剂获批药,商品化 + 购买
+"Antrocinnamomin F (樟芝) + Berberine (黄连, 阳性对照)",3,核受体轴+脂合成轴+炎症间接轴,2,4.59,5-target QSAR(NR+LIPO)+FXR/ACC/THRb三对接全<-8; 来源有NASH临床 || AMPK/TLR4多机制临床文献,发酵+标样 + 商品化
+Alternaramide (海洋Alternaria环肽) + Versicolamide B (A. versicolor),3,脂合成轴+炎症间接轴+纤维化轴,1,4.48,TLR4-MyD88/NF-kB抗炎机制文献(PMID 26620692)+ACC对接-8.3 || 家族notoamide Q肝IRI保护先例(PMID 37560942); 细胞保护类间接作用,菌株发酵 + 全合成可得(Nat Chem 2009)
+"Alternaramide (海洋Alternaria环肽) + Berberine (黄连, 阳性对照)",3,核受体轴+脂合成轴+炎症间接轴,2,4.27,TLR4-MyD88/NF-kB抗炎机制文献(PMID 26620692)+ACC对接-8.3 || AMPK/TLR4多机制临床文献,菌株发酵 + 商品化
+"Butyrolactone VI (土曲霉) + Resmetirom (上市药, 组合锚)",2,核受体轴+脂合成轴,1,3.95,5-target QSAR(DGAT2/ACC2/THRb)+FXR/ACC对接<-7.9 || THR-b激动剂获批药,土曲霉极易发酵 + 购买
+"Butyrolactone VI (土曲霉) + Berberine (黄连, 阳性对照)",3,核受体轴+脂合成轴+炎症间接轴,2,3.84,5-target QSAR(DGAT2/ACC2/THRb)+FXR/ACC对接<-7.9 || AMPK/TLR4多机制临床文献,土曲霉极易发酵 + 商品化
+"Antrocinnamomin F (樟芝) + Resmetirom (上市药, 组合锚)",2,核受体轴+脂合成轴,1,3.64,5-target QSAR(NR+LIPO)+FXR/ACC/THRb三对接全<-8; 来源有NASH临床 || THR-b激动剂获批药,发酵+标样 + 购买
+Antrocinnamomin F (樟芝) + Butyrolactone VI (土曲霉),2,核受体轴+脂合成轴,2,3.29,5-target QSAR(NR+LIPO)+FXR/ACC/THRb三对接全<-8; 来源有NASH临床 || 5-target QSAR(DGAT2/ACC2/THRb)+FXR/ACC对接<-7.9,发酵+标样 + 土曲霉极易发酵
+Versicolamide B (A. versicolor) + Asiatic acid (积雪草),2,炎症间接轴+纤维化轴,1,3.12,家族notoamide Q肝IRI保护先例(PMID 37560942); 细胞保护类间接作用 || 抗肝纤维化多通路文献(PMID 35963324),全合成可得(Nat Chem 2009) + 商品化

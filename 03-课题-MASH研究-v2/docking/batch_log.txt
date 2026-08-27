@@ -1,0 +1,13 @@
+NP library: 54
+progress 10/54
+progress 20/54
+progress 30/54
+progress 40/54
+progress 50/54
+done: (108, 5)
+        count    min  median
+target                      
+FASN       54 -10.20 -8.3140
+THRB       54 -11.24 -7.1065
+
+S5c complete.

@@ -1,0 +1,15 @@
+gene,role,log2FC,padj,log2FC_advF,padj_advF,spearman_vs_fibrosis
+NR1H4,FXR(main),-0.285,1.03e-02,-0.314,6.31e-03,-0.145
+THRB,THR-b,-0.315,1.99e-02,-0.445,3.75e-03,-0.258
+ACACA,ACC1,0.897,7.42e-05,0.765,1.17e-04,-0.07
+ACACB,ACC2,0.631,4.23e-03,0.496,1.41e-02,-0.179
+PPARA,PPARa(+ctrl),-0.083,5.40e-01,-0.12,3.87e-01,-0.157
+SREBF1,SREBP1c(+ctrl),0.896,3.49e-02,0.629,1.25e-01,-0.162
+FASN,FASN(+ctrl),2.473,3.74e-04,2.18,5.45e-04,-0.006
+CYP7A1,FXR-downstream,2.156,8.36e-03,2.089,9.86e-03,0.141
+ABCB11,FXR-downstream(BSEP),1.097,4.92e-03,0.968,9.80e-03,-0.092
+COL1A1,fibrosis(+ctrl),1.037,3.33e-03,1.347,5.52e-04,0.431
+ACTA2,fibrosis(+ctrl),-0.502,2.72e-01,-0.192,6.93e-01,0.196
+TIMP1,fibrosis(+ctrl),-0.1,6.98e-01,0.13,6.30e-01,0.303
+TNF,inflam(+ctrl),1.093,3.49e-02,1.101,3.57e-02,0.135
+IL6,inflam(+ctrl),,,,,

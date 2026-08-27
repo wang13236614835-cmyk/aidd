@@ -1,0 +1,16 @@
+{
+ "entries": 70,
+ "resolved": 62,
+ "passed": 54,
+ "per_herb": {
+  "Alisma orientale(泽泻)": 7,
+  "Artemisia capillaris(茵陈)": 9,
+  "Cassia obtusifolia(决明子)": 6,
+  "Crataegus pinnatifida(山楂)": 11,
+  "Morus alba(桑叶)": 6,
+  "Phyllanthus niruri(叶下珠)": 3,
+  "Polygonum cuspidatum(虎杖)": 3,
+  "Pueraria lobata(葛根)": 8,
+  "Sedum sarmentosum(垂盆草)": 1
+ }
+}

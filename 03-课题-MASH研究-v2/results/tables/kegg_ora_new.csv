@@ -1,0 +1,5 @@
+pathway,name,overlap,size,p,padj
+hsa01100,Metabolic pathways - Homo sapiens (human),16,1388,1.3115855191052189e-05,5.2463420764208756e-05
+hsa01200,Carbon metabolism - Homo sapiens (human),5,106,4.894075340701378e-05,9.788150681402756e-05
+hsa05202,Transcriptional misregulation in cancer - Homo sapiens (hu,4,168,0.003860431651175409,0.0051472422015672115
+hsa04820,Cytoskeleton in muscle cells - Homo sapiens (human),4,223,0.01042264488019184,0.01042264488019184

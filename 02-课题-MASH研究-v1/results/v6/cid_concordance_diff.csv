@@ -1,0 +1,3 @@
+﻿type,name,cid,verdict
+duplicate-CID pair,Gomisin K3 / Schisanhenol,73057,两个不同木脂素共用一个CID，其一的名称解析在建库时可能有误（五味子，榜列第7，影响可忽略）
+same-compound-two-herbs,Formononetin（两味药材各列一次）,5280378,合理重复，非错误

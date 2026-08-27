@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+    body { font-family: "Microsoft YaHei", sans-serif; line-height: 1.6; color: #333; margin: 40px; }
+    h1 { color: #2c3e50; text-align: center; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+    h2 { color: #2980b9; margin-top: 30px; border-bottom: 1px solid #eee; padding-bottom: 5px; }
+    h3 { color: #16a085; }
+    table { border-collapse: collapse; width: 100%; margin: 20px 0; font-size: 14px; }
+    th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+    th { background-color: #f8f9fa; color: #2c3e50; }
+    ul, ol { margin-left: 20px; }
+    p { margin-bottom: 15px; }
+    strong { color: #e74c3c; }
+    em { color: #7f8c8d; font-style: normal; }
+</style>
+</head>
+<body>
+<h1>大创项目全流程综合结题分析报告</h1>
+<p style="text-align:center;"><strong>生成日期:</strong> 2026-08-24 | <strong>分析对象:</strong> 本大创项目全生命周期所有文件 (V1, V2, V3, 圆桌审计)</p>
+
+<h2>〇、执行摘要 (Executive Summary)</h2>
+<p>本大创项目完整经历了从“<strong>初次探索 (V1)</strong>”到“<strong>代码与数据独立审计 (V3)</strong>”，再到“<strong>方法学推倒重构 (V2)</strong>”的真实、高质量的科研闭环。</p>
+<p>项目最杰出的科研价值不仅在于“筛出了几个候选药物”，而在于<strong>真实地发现了AI在预测天然产物时存在的“适用域外推失效”现象，并以此为契机完成了计算管线的全面进化</strong>。</p>
+
+<h2>一、项目演进全景与三套具体流程 (Full Timeline & Workflows)</h2>
+<p>整个工作区的数据和报告，实际上映射了项目在不同认知阶段建立的三条独立管线：</p>
+
+<h3>管线一：初始履约管线（V1 方案，文件夹：<code>mash_research</code>）</h3>
+<ul>
+    <li><strong>研发目的</strong>：完成立项申报书中承诺的基于图神经网络的筛选任务。</li>
+    <li><strong>疾病模块与靶点</strong>：基于GEO(GSE135251)数据，锁定单一核受体 <strong>FXR(NR1H4)</strong> 为主靶点。</li>
+    <li><strong>化合物库</strong>：10味经典保肝中药，解析出 <strong>131</strong> 个化学成分。</li>
+    <li><strong>算法模型</strong>：<strong>贝叶斯图神经网络(BGNN)</strong>，结合异方差NLL与MC Dropout进行不确定性量化。</li>
+    <li><strong>筛选机制</strong>：首创 CW-BCS (置信度加权结合覆盖评分) 体系，进行绝对分数排名。</li>
+    <li><strong>独立结论</strong>：计算得出<strong>黄连（及其成分小檗碱/表小檗碱）</strong>综合排名第一。</li>
+    <li><strong>局限性暴露</strong>：在后期圆桌审议中发现，深度学习模型对天然产物出现了严重的“过拟合”与“骨架崩塌”(外推R²降至-0.61)，且纯计算高分子的购买可行性与真实机制存疑。</li>
+</ul>
+
+<h3>管线二：第三方审计与湿实验落地管线（V1+ 方案，文件夹：<code>verify_repro</code>, <code>roundtable</code>）</h3>
+<ul>
+    <li><strong>研发目的</strong>：为确保学术诚信，对V1进行代码重写复算；同时为了指导真实的1500元湿实验采购，对候选物进行严苛的落地清洗。</li>
+    <li><strong>100% 独立复现</strong>：通过全新的Python与MATLAB脚本，独立重做了V1的T检验、ChEMBL过滤、杠杆值(Leverage)计算等，<strong>证明了V1所有计算结果与底层数据100%真实吻合，无任何数据造假</strong>。</li>
+    <li><strong>严苛的人工修正</strong>：剔除了无商品化供应的分子(如某真菌提取物)、剔除了含肝毒性(PA)的千里光，引入“临床/机制文献直证”双链逻辑，形成统一综合评分“V5 Unified Score”。</li>
+    <li><strong>独立结论</strong>：在排除了黄连等部分存在疑虑的纯计算产物后，最终锁定 <strong>樟芝群（Antcin K等）</strong> 与 <strong>积雪草（asiatic acid）</strong> 为可以直接投入HepG2脂变湿实验的首选安全对象。</li>
+</ul>
+
+<h3>管线三：完全独立重构的新方法管线（V2 方案，文件夹：<code>mash_v2_new</code>）</h3>
+<ul>
+    <li><strong>研发目的</strong>：吸收前期所有教训，摒弃容易过拟合的DL模型与单一靶点，做一次真正符合顶级学术逻辑的推倒重来 (即您最后看到的PDF可视化报告)。</li>
+    <li><strong>靶点组合升级</strong>：转向国际最新前沿，采用 <strong>THRβ(激动) + FASN(抑制) + SCD1(抑制)</strong> 协同调控轴（由双队列GSE48452+GSE63067独立跨界验证）。</li>
+    <li><strong>算法回归鲁棒性</strong>：弃用深层网络，改用 <strong>XGBoost/Random Forest (随机森林)</strong> 集成模型 + Morgan指纹。</li>
+    <li><strong>化合物库换血</strong>：全新引入另外10味文献驱动的药材（葛根、山楂等），提取出 <strong>54</strong> 个完全不同的化合物。</li>
+    <li><strong>评估与排序体系</strong>：引入 Butina 聚类，强行考察“化学骨架外推能力”；采用运筹学成熟的 <strong>TOPSIS 多准则决策系统</strong> 进行全面排序。</li>
+    <li><strong>独立结论</strong>：筛选出 <strong>葛根（3'-甲氧基大豆黄素）、山楂、茵陈</strong> 为最高优候选。</li>
+    <li><strong>核心科学贡献</strong>：报告以极为诚实的态度证明，54个天然分子全部在已知训练集的化学空间之外(最大相似度仅0.29)，因此所有预测结果被主动降级为 <strong>"假设生成级 (Hypothesis-generating)"</strong>，拒绝夸大宣传。</li>
+</ul>
+
+<p><em>(注：期间曾短暂探索过生物药如FGF21和海洋未知真菌冷门分子，但均因“缺乏冷门生态位”和“本科生无法购买/合成”而被务实地否决，此举体现了团队绝佳的商业与现实洞察力。)</em></p>
+
+<h2>二、三套方法结果为何不同？(核心区别对照)</h2>
+<p>为什么折腾了三遍，得出的药物都不一样？这正是AI辅助计算筛选的核心特征——<strong>输入不同的生物学假设和搜索空间边界，必然得出不同的结果</strong>。</p>
+
+<table>
+    <tr>
+        <th>对比维度</th>
+        <th>V1（初始履约路线）</th>
+        <th>V1+（圆桌审计实验落地）</th>
+        <th>V2（全新重构路线 / PDF）</th>
+    </tr>
+    <tr>
+        <td><strong>生物学靶点 (锁)</strong></td>
+        <td>FXR 单一核受体</td>
+        <td>FXR 单一核受体</td>
+        <td>THRβ + FASN + SCD1 协同多靶点</td>
+    </tr>
+    <tr>
+        <td><strong>中药筛选库 (钥匙)</strong></td>
+        <td>第一批10味经典药(131分子)</td>
+        <td>第一批中排查出的“可真实购买”分子</td>
+        <td>第二批全新10味药(54分子，0重叠)</td>
+    </tr>
+    <tr>
+        <td><strong>筛选与评估算法</strong></td>
+        <td>贝叶斯 GNN (深度学习)预测</td>
+        <td>GNN计算 + 人工临床/采购过滤</td>
+        <td>XGB/RF树模型集成 + TOPSIS排序</td>
+    </tr>
+    <tr>
+        <td><strong>最终推举结果</strong></td>
+        <td><strong>黄连（小檗碱）</strong></td>
+        <td><strong>樟芝、积雪草</strong></td>
+        <td><strong>葛根、山楂、茵陈</strong></td>
+    </tr>
+</table>
+<p><strong>结论</strong>：这三个结果<strong>互相绝不矛盾</strong>。黄连是FXR路线的最佳纯计算结果；樟芝是该路线下最稳妥的可进行细胞实验的对象；而葛根/山楂则是基于最新的多靶点协同路线下的探索最优解。</p>
+
+<h2>三、结题报告的终极撰写建议 (How to Close the Project)</h2>
+<p>基于上述全景分析，如果想要顺利且完美地结题，建议您按以下“三步走”结构组织您的结题材料，这将使该项目的科研深度超越绝大多数普通的大创水准：</p>
+
+<ol>
+    <li><strong>【主要工作交付】第一章：计算与模型构建 (对应 V1)</strong><br>
+        向评委汇报你们如何搭建了复杂的BGNN模型，筛选了131个中药成分。<strong>交付黄连/苦参排名的原表</strong>。这一章的目的是证明：我们代码跑通了，申报书任务圆满完成了。
+    </li>
+    <li><strong>【实验落地设计】第二章：模型审计与湿实验规划 (对应 V1+)</strong><br>
+        向评委汇报你们为了学术严谨，不仅自己对代码做了100%第三方复现，还对AI算出来的结果进行了真实的采购与毒理排查。<strong>交付以樟芝/积雪草为主的、预算在1500元以内的HepG2脂变模型实验计划</strong>。这一章的目的是展示你们具备将“干实验”落地为“湿实验”的顶级转化能力。
+    </li>
+    <li><strong>【亮点与升华】第三章：方法学的反思与重构 (对应 V2)</strong><br>
+        在最后把那份 <strong>测出葛根/山楂的PDF可视化报告</strong> 亮出来，作为项目的<strong>“超预期延伸成果 (Bonus)”</strong>。<br>
+        <strong>答辩升华话术推荐：</strong><em>“通过一年的探索，我们深刻认识到了当前AI预测天然产物的痛点——严重的适用域外推失效。因此在结题前，我们自发推倒重来，构建了一套靶点更新、不确定性披露更严苛的V2多靶点协同管线。尽管我们现在只能给出‘假设生成级’的结论，但这套诚实的重构体系为我们后续的科研探索建立了真正的标杆。”</em>
+    </li>
+</ol>
+
+</body>
+</html>

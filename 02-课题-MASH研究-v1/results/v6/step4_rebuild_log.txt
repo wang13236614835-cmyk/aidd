@@ -1,0 +1,247 @@
+  Salvia miltiorrhiza(丹参) | Tanshinone I | CID 114917 | MW 276 | ADMET True | PAINS:['imine_one_A(321)', 'quinone_D(2)']
+  Salvia miltiorrhiza(丹参) | Tanshinone IIA | CID 164676 | MW 294 | ADMET True | PAINS:['imine_one_A(321)', 'quinone_D(2)']
+  Salvia miltiorrhiza(丹参) | Tanshinone IIB | CID 318797 | MW 310 | ADMET True | PAINS:['imine_one_A(321)', 'quinone_D(2)']
+  Salvia miltiorrhiza(丹参) | Cryptotanshinone | CID 160254 | MW 296 | ADMET True | PAINS:['imine_one_A(321)', 'quinone_D(2)']
+  Salvia miltiorrhiza(丹参) | Dihydrotanshinone I | CID 11425923 | MW 278 | ADMET True | PAINS:['imine_one_A(321)', 'quinone_D(2)']
+  Salvia miltiorrhiza(丹参) | Neocryptotanshinone | CID 389888 | MW 314 | ADMET True | PAINS:['imine_one_A(321)', 'quinone_D(2)']
+  Salvia miltiorrhiza(丹参) | Isocryptotanshinone | CID 626608 | MW 296 | ADMET True | PAINS:['quinone_A(370)']
+  Salvia miltiorrhiza(丹参) | Miltirone | CID 160142 | MW 282 | ADMET True | PAINS:['imine_one_A(321)', 'quinone_D(2)']
+  Salvia miltiorrhiza(丹参) | Tanshindiol A | CID 16730071 | MW 312 | ADMET True | PAINS:['imine_one_A(321)', 'quinone_D(2)']
+  Salvia miltiorrhiza(丹参) | Tanshindiol B | CID 5321620 | MW 312 | ADMET True | PAINS:['imine_one_A(321)', 'quinone_D(2)']
+  Salvia miltiorrhiza(丹参) | Tanshindiol C | CID 126072 | MW 312 | ADMET True | PAINS:['imine_one_A(321)', 'quinone_D(2)']
+  Salvia miltiorrhiza(丹参) | Methylenetanshinquinone | CID 105118 | MW 278 | ADMET True | PAINS:['imine_one_A(321)', 'quinone_D(2)']
+  Salvia miltiorrhiza(丹参) | Salvilenone | CID 389885 | MW 292 | ADMET True
+  Salvia miltiorrhiza(丹参) | Danshenxinkun A | CID 149138 | MW 296 | ADMET True | PAINS:['imine_one_A(321)', 'quinone_D(2)']
+  Salvia miltiorrhiza(丹参) | Danshenxinkun B | CID 5320113 | MW 280 | ADMET True | PAINS:['imine_one_A(321)', 'quinone_D(2)']
+  Salvia miltiorrhiza(丹参) | Ferruginol | CID 442027 | MW 286 | ADMET False
+  Salvia miltiorrhiza(丹参) | Sugiol | CID 94162 | MW 300 | ADMET True
+  Salvia miltiorrhiza(丹参) | Przewalskin | CID 14139389 | MW 272 | ADMET True
+  Salvia miltiorrhiza(丹参) | Isotanshinone IIB | CID 184102 | MW 310 | ADMET True | PAINS:['quinone_A(370)']
+  Salvia miltiorrhiza(丹参) | beta-Sitosterol | CID 222284 | MW 415 | ADMET False
+  Salvia miltiorrhiza(丹参) | Stigmasterol | CID 5280794 | MW 413 | ADMET False
+  Salvia miltiorrhiza(丹参) | Daucosterol | CID 5742590 | MW 577 | ADMET False
+  Glycyrrhiza uralensis(甘草) | Glycyrrhizic acid | CID 14982 | MW 823 | ADMET False
+  Glycyrrhiza uralensis(甘草) | enoxolone | CID 10114 | MW 471 | ADMET False
+  Glycyrrhiza uralensis(甘草) | 18alpha-Glycyrrhetinic acid | CID 73398 | MW 471 | ADMET False
+  Glycyrrhiza uralensis(甘草) | Liquiritic acid | CID 112111 | MW 471 | ADMET False
+  Glycyrrhiza uralensis(甘草) | Glycyrrhetol | CID 12310283 | MW 457 | ADMET False
+  Glycyrrhiza uralensis(甘草) | Glycyrol | CID 5320083 | MW 366 | ADMET True
+  Glycyrrhiza uralensis(甘草) | Isoglycyrol | CID 124050 | MW 366 | ADMET True
+  Glycyrrhiza uralensis(甘草) | Glabridin | CID 124052 | MW 324 | ADMET True
+  Glycyrrhiza uralensis(甘草) | Glabrol | CID 11596309 | MW 392 | ADMET False
+  Glycyrrhiza uralensis(甘草) | Glabrene | CID 480774 | MW 322 | ADMET True
+  Glycyrrhiza uralensis(甘草) | Licochalcone A | CID 5318998 | MW 338 | ADMET True
+  Glycyrrhiza uralensis(甘草) | Licochalcone B | CID 5318999 | MW 286 | ADMET True | PAINS:['catechol_A(92)']
+  Glycyrrhiza uralensis(甘草) | Echinatin | CID 6442675 | MW 270 | ADMET True
+  Glycyrrhiza uralensis(甘草) | Liquiritigenin | CID 114829 | MW 256 | ADMET True
+  Glycyrrhiza uralensis(甘草) | Isoliquiritigenin | CID 638278 | MW 256 | ADMET True
+  Glycyrrhiza uralensis(甘草) | Liquiritin | CID 503737 | MW 418 | ADMET True
+  Glycyrrhiza uralensis(甘草) | Isoliquiritin | CID 5318591 | MW 418 | ADMET False
+  Glycyrrhiza uralensis(甘草) | Neoliquiritin | CID 51666248 | MW 418 | ADMET True
+  Glycyrrhiza uralensis(甘草) | Formononetin | CID 5280378 | MW 268 | ADMET True
+  Glycyrrhiza uralensis(甘草) | Licoisoflavone A | CID 5281789 | MW 354 | ADMET True
+  Glycyrrhiza uralensis(甘草) | Licoisoflavone B | CID 5481234 | MW 352 | ADMET True
+  Glycyrrhiza uralensis(甘草) | Isolicoflavonol | CID 5318585 | MW 354 | ADMET True
+  Glycyrrhiza uralensis(甘草) | Semilicoisoflavone B | CID 5481948 | MW 352 | ADMET True
+  Glycyrrhiza uralensis(甘草) | Licoricidin | CID 480865 | MW 425 | ADMET False
+  Glycyrrhiza uralensis(甘草) | Glyasperin C | CID 480859 | MW 356 | ADMET True
+  Glycyrrhiza uralensis(甘草) | Licoflavanone | CID 14218027 | MW 340 | ADMET True
+  Glycyrrhiza uralensis(甘草) | beta-Sitosterol | CID 222284 | MW 415 | ADMET False
+  Glycyrrhiza uralensis(甘草) | Stigmasterol | CID 5280794 | MW 413 | ADMET False
+  Bupleurum chinense(柴胡) | Saikosaponin A | CID 167928 | MW 781 | ADMET False
+  Bupleurum chinense(柴胡) | Saikosaponin D | CID 107793 | MW 781 | ADMET False
+  Bupleurum chinense(柴胡) | Saikosaponin B1 | CID 9875547 | MW 781 | ADMET False
+  Bupleurum chinense(柴胡) | Saikosaponin B2 | CID 21637642 | MW 781 | ADMET False
+  Bupleurum chinense(柴胡) | Saikosaponin B3 | CID 21637635 | MW 813 | ADMET False
+  Bupleurum chinense(柴胡) | Saikosaponin B4 | CID 21637636 | MW 813 | ADMET False
+  Bupleurum chinense(柴胡) | Saikosaponin C | CID 167927 | MW 927 | ADMET False
+  Bupleurum chinense(柴胡) | Saikosaponin E | CID 21637632 | MW 765 | ADMET False
+  Bupleurum chinense(柴胡) | Saikosaponin F | CID 21598300 | MW 929 | ADMET False
+  Bupleurum chinense(柴胡) | Saikosaponin H | CID 21636280 | MW 927 | ADMET False
+  [miss NOT_IN_PUBCHEM] Bupleurum chinense(柴胡) | 3-O-Acetylsaikosaponin A
+  [miss NOT_IN_PUBCHEM] Bupleurum chinense(柴胡) | 3-O-Acetylsaikosaponin D
+  Bupleurum chinense(柴胡) | Saikogenin A | CID 99651 | MW 473 | ADMET True
+  Bupleurum chinense(柴胡) | Saikogenin B | CID 12315169 | MW 457 | ADMET False
+  Bupleurum chinense(柴胡) | Saikogenin C | CID 12315171 | MW 457 | ADMET False
+  Bupleurum chinense(柴胡) | Saikogenin D | CID 9890994 | MW 473 | ADMET True
+  Bupleurum chinense(柴胡) | Saikogenin E | CID 21594254 | MW 457 | ADMET False
+  Bupleurum chinense(柴胡) | Saikogenin F | CID 21594261 | MW 473 | ADMET True
+  [miss NOT_IN_PUBCHEM] Bupleurum chinense(柴胡) | Saikogenin G
+  Bupleurum chinense(柴胡) | Spinasterol | CID 5281331 | MW 413 | ADMET False
+  Bupleurum chinense(柴胡) | Stigmasterol | CID 5280794 | MW 413 | ADMET False
+  Bupleurum chinense(柴胡) | beta-Sitosterol | CID 222284 | MW 415 | ADMET False
+  Bupleurum chinense(柴胡) | Daucosterol | CID 5742590 | MW 577 | ADMET False
+  Schisandra chinensis(五味子) | Schisandrin A | CID 155256 | MW 417 | ADMET True
+  Schisandra chinensis(五味子) | Schisandrin B | CID 108130 | MW 400 | ADMET True
+  Schisandra chinensis(五味子) | Schisandrin C | CID 443027 | MW 384 | ADMET True
+  Schisandra chinensis(五味子) | Schisandrol A | CID 11102092 | MW 433 | ADMET True
+  Schisandra chinensis(五味子) | Schisandrol B | CID 634470 | MW 416 | ADMET True
+  Schisandra chinensis(五味子) | Gomisin B | CID 6443826 | MW 515 | ADMET False
+  Schisandra chinensis(五味子) | Gomisin C | CID 151529 | MW 537 | ADMET False
+  Schisandra chinensis(五味子) | Gomisin D | CID 5317799 | MW 531 | ADMET False
+  Schisandra chinensis(五味子) | Gomisin E | CID 78385000 | MW 515 | ADMET False
+  Schisandra chinensis(五味子) | Gomisin G | CID 14992067 | MW 537 | ADMET False
+  Schisandra chinensis(五味子) | Gomisin H | CID 102004650 | MW 418 | ADMET True
+  Schisandra chinensis(五味子) | Gomisin J | CID 3001686 | MW 388 | ADMET True
+  Schisandra chinensis(五味子) | Gomisin K1 | CID 5317805 | MW 402 | ADMET True
+  Schisandra chinensis(五味子) | Gomisin K3 | CID 73057 | MW 402 | ADMET True
+  Schisandra chinensis(五味子) | Gomisin L1 | CID 5317806 | MW 386 | ADMET True
+  Schisandra chinensis(五味子) | Gomisin L2 | CID 5317807 | MW 386 | ADMET True
+  Schisandra chinensis(五味子) | Gomisin M1 | CID 5321170 | MW 386 | ADMET True
+  Schisandra chinensis(五味子) | Gomisin M2 | CID 38363711 | MW 386 | ADMET True
+  Schisandra chinensis(五味子) | Gomisin N | CID 158103 | MW 400 | ADMET True
+  Schisandra chinensis(五味子) | Gomisin O | CID 5317808 | MW 416 | ADMET True
+  Schisandra chinensis(五味子) | Schisantherin A | CID 151529 | MW 537 | ADMET False
+  Schisandra chinensis(五味子) | Schisantherin B | CID 6438572 | MW 515 | ADMET False
+  Schisandra chinensis(五味子) | Schisanhenol | CID 73057 | MW 402 | ADMET True
+  Schisandra chinensis(五味子) | Angeloylgomisin H | CID 26204131 | MW 501 | ADMET False
+  Schisandra chinensis(五味子) | Pregomisin | CID 181796 | MW 390 | ADMET True
+  Schisandra chinensis(五味子) | Chamigrenal | CID 177096 | MW 218 | ADMET True
+  Schisandra chinensis(五味子) | beta-Sitosterol | CID 222284 | MW 415 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderic acid A | CID 471002 | MW 517 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderic acid B | CID 471003 | MW 517 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderic acid C2 | CID 57396771 | MW 519 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderic acid D | CID 73657193 | MW 533 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderic acid DM | CID 11784642 | MW 469 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderic acid E | CID 23247894 | MW 513 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderic acid F | CID 23247895 | MW 571 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderic acid G | CID 20055988 | MW 533 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderic acid H | CID 73657194 | MW 573 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderic acid I | CID 156595229 | MW 533 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderic acid J | CID 20055991 | MW 515 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderic acid X | CID 101600075 | MW 513 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderic acid Y | CID 57397445 | MW 455 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderic acid R | CID 139583813 | MW 555 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderic acid S | CID 12444571 | MW 453 | ADMET False
+  Ganoderma lucidum(灵芝) | Lucidenic acid A | CID 14109375 | MW 459 | ADMET True
+  Ganoderma lucidum(灵芝) | Lucidenic acid B | CID 102410351 | MW 475 | ADMET True
+  Ganoderma lucidum(灵芝) | Lucidenic acid C | CID 139588461 | MW 463 | ADMET True
+  Ganoderma lucidum(灵芝) | Lucidenic acid D | CID 23247891 | MW 515 | ADMET False
+  [miss NOT_IN_PUBCHEM] Ganoderma lucidum(灵芝) | Lucidenic acid E1
+  Ganoderma lucidum(灵芝) | Lucidenic acid F | CID 23247893 | MW 457 | ADMET True
+  Ganoderma lucidum(灵芝) | Lucidenic acid N | CID 21592283 | MW 461 | ADMET True
+  Ganoderma lucidum(灵芝) | Lucidenic acid O | CID 9847846 | MW 477 | ADMET True
+  Ganoderma lucidum(灵芝) | Ganodermanontriol | CID 3001811 | MW 473 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganodermanondiol | CID 10253565 | MW 457 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderiol F | CID 471008 | MW 455 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderal A | CID 13934282 | MW 437 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganoderal B | CID 14015440 | MW 455 | ADMET False
+  Ganoderma lucidum(灵芝) | Lucidumol A | CID 475410 | MW 473 | ADMET False
+  Ganoderma lucidum(灵芝) | Lucidumol B | CID 475411 | MW 459 | ADMET False
+  Ganoderma lucidum(灵芝) | Ganosporeric acid A | CID 139583540 | MW 527 | ADMET False | PAINS:['imine_one_A(321)']
+  Ganoderma lucidum(灵芝) | Ergosterol | CID 444679 | MW 397 | ADMET False
+  Ganoderma lucidum(灵芝) | Ergosterol peroxide | CID 5351516 | MW 429 | ADMET False
+  Coptis chinensis(黄连) | Berberine | CID 2353 | MW 336 | ADMET True
+  Coptis chinensis(黄连) | Coptisine | CID 72322 | MW 320 | ADMET True
+  Coptis chinensis(黄连) | Palmatine | CID 19009 | MW 352 | ADMET True
+  Coptis chinensis(黄连) | Epiberberine | CID 160876 | MW 336 | ADMET True
+  Coptis chinensis(黄连) | Jatrorrhizine | CID 72323 | MW 338 | ADMET True
+  Coptis chinensis(黄连) | Columbamine | CID 72310 | MW 338 | ADMET True
+  Coptis chinensis(黄连) | Magnoflorine | CID 73337 | MW 342 | ADMET True
+  Coptis chinensis(黄连) | Berberrubine | CID 72704 | MW 322 | ADMET True
+  Coptis chinensis(黄连) | Worenine | CID 20055073 | MW 334 | ADMET True
+  Coptis chinensis(黄连) | Canadine | CID 34458 | MW 339 | ADMET True
+  Coptis chinensis(黄连) | Stylopine | CID 440583 | MW 323 | ADMET True
+  [miss NOT_IN_PUBCHEM] Coptis chinensis(黄连) | Cheilanthifoline
+  Coptis chinensis(黄连) | Groenlandicine | CID 3084708 | MW 322 | ADMET True
+  Coptis chinensis(黄连) | Menisperine | CID 30358 | MW 356 | ADMET True
+  Coptis chinensis(黄连) | 8-Oxocoptisine | CID 5245667 | MW 335 | ADMET True
+  Coptis chinensis(黄连) | beta-Sitosterol | CID 222284 | MW 415 | ADMET False
+  Sophora flavescens(苦参) | Matrine | CID 91466 | MW 248 | ADMET True
+  Sophora flavescens(苦参) | Oxymatrine | CID 24864132 | MW 264 | ADMET True
+  Sophora flavescens(苦参) | Sophoridine | CID 165549 | MW 248 | ADMET True
+  Sophora flavescens(苦参) | Sophocarpine | CID 115269 | MW 246 | ADMET True
+  Sophora flavescens(苦参) | Oxysophocarpine | CID 161544 | MW 262 | ADMET True
+  Sophora flavescens(苦参) | Sophoramine | CID 169014 | MW 244 | ADMET True
+  Sophora flavescens(苦参) | Aloperine | CID 162147 | MW 232 | ADMET True
+  Sophora flavescens(苦参) | N-Methylcytisine | CID 670971 | MW 204 | ADMET True
+  Sophora flavescens(苦参) | Anagyrine | CID 5351589 | MW 244 | ADMET True
+  Sophora flavescens(苦参) | Baptifoline | CID 160543 | MW 260 | ADMET True
+  Sophora flavescens(苦参) | Kurarinone | CID 11982640 | MW 439 | ADMET False
+  Sophora flavescens(苦参) | Isokurarinone | CID 5318581 | MW 439 | ADMET False
+  Sophora flavescens(苦参) | Kuraridin | CID 44428631 | MW 439 | ADMET False
+  Sophora flavescens(苦参) | Kurarinol | CID 44563198 | MW 457 | ADMET True
+  Sophora flavescens(苦参) | Sophoraflavanone G | CID 72936 | MW 424 | ADMET True
+  Sophora flavescens(苦参) | Kushenol A | CID 44563121 | MW 408 | ADMET False
+  Sophora flavescens(苦参) | Kushenol B | CID 102004745 | MW 493 | ADMET False
+  Sophora flavescens(苦参) | Kushenol C | CID 5481237 | MW 438 | ADMET True
+  Sophora flavescens(苦参) | Kushenol D | CID 5318893 | MW 453 | ADMET False
+  Sophora flavescens(苦参) | Kushenol E | CID 127234 | MW 424 | ADMET True
+  [miss NOT_IN_PUBCHEM] Sophora flavescens(苦参) | Kushenol F
+  Sophora flavescens(苦参) | Kushenol G | CID 44259516 | MW 456 | ADMET False
+  Sophora flavescens(苦参) | Kushenol H | CID 44584091 | MW 473 | ADMET True
+  Sophora flavescens(苦参) | Kushenol I | CID 20832634 | MW 455 | ADMET True
+  Sophora flavescens(苦参) | Formononetin | CID 5280378 | MW 268 | ADMET True
+  Sophora flavescens(苦参) | Maackiain | CID 91510 | MW 284 | ADMET True
+  Sophora flavescens(苦参) | Lupeol | CID 259846 | MW 427 | ADMET False
+  Sophora flavescens(苦参) | beta-Sitosterol | CID 222284 | MW 415 | ADMET False
+  Silybum marianum(水飞蓟) | Silybin A | CID 31553 | MW 482 | ADMET True
+  Silybum marianum(水飞蓟) | Silybin B | CID 1548994 | MW 482 | ADMET True
+  Silybum marianum(水飞蓟) | Isosilybin A | CID 11059920 | MW 482 | ADMET True
+  Silybum marianum(水飞蓟) | Isosilybin B | CID 10885340 | MW 482 | ADMET True
+  Silybum marianum(水飞蓟) | Silychristin A | CID 441764 | MW 482 | ADMET False
+  Silybum marianum(水飞蓟) | Silychristin B | CID 12442785 | MW 482 | ADMET False
+  Silybum marianum(水飞蓟) | Silydianin | CID 11982272 | MW 482 | ADMET True
+  Silybum marianum(水飞蓟) | Isosilychristin | CID 21589839 | MW 482 | ADMET False
+  Silybum marianum(水飞蓟) | Silandrin | CID 441663 | MW 466 | ADMET True
+  Silybum marianum(水飞蓟) | Silyhermin | CID 10389806 | MW 466 | ADMET True
+  Silybum marianum(水飞蓟) | Neosilyhermin A | CID 42607997 | MW 466 | ADMET True
+  Silybum marianum(水飞蓟) | Neosilyhermin B | CID 42607998 | MW 466 | ADMET True
+  Silybum marianum(水飞蓟) | Silymonin | CID 156051 | MW 466 | ADMET True
+  Silybum marianum(水飞蓟) | 2,3-Dehydrosilybin | CID 10696082 | MW 480 | ADMET True
+  Silybum marianum(水飞蓟) | beta-Sitosterol | CID 222284 | MW 415 | ADMET False
+  Silybum marianum(水飞蓟) | Campesterol | CID 173183 | MW 401 | ADMET False
+  Silybum marianum(水飞蓟) | Stigmasterol | CID 5280794 | MW 413 | ADMET False
+  Artemisia annua(青蒿) | Artemisinin | CID 68827 | MW 282 | ADMET True
+  Artemisia annua(青蒿) | Arteannuin B | CID 6543478 | MW 248 | ADMET True
+  Artemisia annua(青蒿) | Artemisinic acid | CID 10922465 | MW 234 | ADMET True
+  Artemisia annua(青蒿) | Dihydroartemisinic acid | CID 11020893 | MW 236 | ADMET True
+  Artemisia annua(青蒿) | Deoxyartemisinin | CID 12814879 | MW 266 | ADMET True
+  Artemisia annua(青蒿) | Dihydroartemisinin | CID 3000518 | MW 284 | ADMET True
+  Artemisia annua(青蒿) | Artemisitene | CID 11000442 | MW 280 | ADMET True
+  Artemisia annua(青蒿) | beta-Caryophyllene | CID 5281515 | MW 204 | ADMET True
+  Artemisia annua(青蒿) | Caryophyllene oxide | CID 1742210 | MW 220 | ADMET True
+  Artemisia annua(青蒿) | Camphor | CID 2537 | MW 152 | ADMET True
+  Artemisia annua(青蒿) | 1,8-Cineole | CID 2758 | MW 154 | ADMET True
+  Artemisia annua(青蒿) | Artemisia ketone | CID 68346 | MW 152 | ADMET True
+  Artemisia annua(青蒿) | Casticin | CID 5315263 | MW 374 | ADMET True
+  Artemisia annua(青蒿) | Chrysosplenol D | CID 5280699 | MW 360 | ADMET True | PAINS:['catechol_A(92)']
+  Artemisia annua(青蒿) | Chrysosplenetin | CID 5281608 | MW 374 | ADMET True
+  Artemisia annua(青蒿) | Artemetin | CID 5320351 | MW 388 | ADMET True
+  Artemisia annua(青蒿) | Cirsilineol | CID 162464 | MW 344 | ADMET True
+  Artemisia annua(青蒿) | Eupatorin | CID 97214 | MW 344 | ADMET True
+  Artemisia annua(青蒿) | Cirsimaritin | CID 188323 | MW 314 | ADMET True
+  Artemisia annua(青蒿) | Scopoletin | CID 5280460 | MW 192 | ADMET True
+  Artemisia annua(青蒿) | Scopolin | CID 439514 | MW 354 | ADMET True
+  Artemisia annua(青蒿) | 4-Methylesculetin | CID 5319502 | MW 192 | ADMET True | PAINS:['catechol_A(92)']
+  Artemisia annua(青蒿) | Umbelliferone | CID 5281426 | MW 162 | ADMET True
+  Artemisia annua(青蒿) | beta-Sitosterol | CID 222284 | MW 415 | ADMET False
+  Artemisia annua(青蒿) | Stigmasterol | CID 5280794 | MW 413 | ADMET False
+  Tripterygium wilfordii(雷公藤) | Triptophenolide | CID 173273 | MW 312 | ADMET True
+  Tripterygium wilfordii(雷公藤) | Tripterifordin | CID 72369 | MW 318 | ADMET True
+  Tripterygium wilfordii(雷公藤) | Wilforlide A | CID 158477 | MW 455 | ADMET False
+  Tripterygium wilfordii(雷公藤) | Wilforlide B | CID 174362 | MW 453 | ADMET False
+  Tripterygium wilfordii(雷公藤) | Celastrol | CID 122724 | MW 451 | ADMET False
+  Tripterygium wilfordii(雷公藤) | Wilforic acid A | CID 101707492 | MW 455 | ADMET False | PAINS:['catechol_A(92)']
+  [miss NOT_IN_PUBCHEM] Tripterygium wilfordii(雷公藤) | Wilforic acid B
+  Tripterygium wilfordii(雷公藤) | Wilforgine | CID 122198188 | MW 858 | ADMET False
+  Tripterygium wilfordii(雷公藤) | Wilforine | CID 3002219 | MW 868 | ADMET False
+  Tripterygium wilfordii(雷公藤) | Wilfordine | CID 540150 | MW 884 | ADMET False
+  Tripterygium wilfordii(雷公藤) | Wilfortrine | CID 44583780 | MW 874 | ADMET False
+  [miss NOT_IN_PUBCHEM] Tripterygium wilfordii(雷公藤) | Wilforzine
+  [miss NOT_IN_PUBCHEM] Tripterygium wilfordii(雷公藤) | Euonomine
+  Tripterygium wilfordii(雷公藤) | beta-Sitosterol | CID 222284 | MW 415 | ADMET False
+
+lookup: 233 entries | resolved in PubChem: 224 | ADMET-passed library: 131 across 10 herbs
+herb
+Artemisia annua(青蒿)            23
+Bupleurum chinense(柴胡)          3
+Coptis chinensis(黄连)           14
+Ganoderma lucidum(灵芝)           6
+Glycyrrhiza uralensis(甘草)      18
+Salvia miltiorrhiza(丹参)        18
+Schisandra chinensis(五味子)      18
+Silybum marianum(水飞蓟)          11
+Sophora flavescens(苦参)         18
+Tripterygium wilfordii(雷公藤)     2
+dtype: int64

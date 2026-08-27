@@ -1,0 +1,10 @@
+herb,n_library,n_in_top20,median_topsis,best_compound,best_topsis,evidence,priority_score
+Crataegus pinnatifida(山楂),11,5,0.46,epicatechin,0.7129,0.66,0.864
+Pueraria lobata(葛根),8,7,0.526,3'-methoxydaidzein,0.745,0.66,0.864
+Artemisia capillaris(茵陈),9,2,0.434,isorhamnetin,0.629,1.0,0.64
+Morus alba(桑叶),6,4,0.507,moracin M,0.5507,0.33,0.612
+Cassia obtusifolia(决明子),6,1,0.401,obtusifolin,0.4892,0.66,0.384
+Polygonum cuspidatum(虎杖),3,1,0.47,catechin,0.7169,0.66,0.384
+Alisma orientale(泽泻),7,0,0.256,alisol B acetate,0.2885,0.66,0.264
+Sedum sarmentosum(垂盆草),1,0,0.298,sarmentosin,0.2977,0.66,0.264
+Phyllanthus niruri(叶下珠),3,0,0.34,niranthin,0.4284,0.33,0.132

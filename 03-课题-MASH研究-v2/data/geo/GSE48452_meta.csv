@@ -1,0 +1,74 @@
+,tissue type,group,fat,inflammation,other_id,bariatric surgery,Sex,age,bmi,nas,fibrosis,lar,delta lar,delta leptin,leptin,adiponectin,delta adipo
+GSM1178970,liver biopsy,Control,1,0,NA,NA,male,53,25.8,0,0,0.7140693,NA,NA,6.598,9.24,NA
+GSM1178971,liver biopsy,Control,3,1,NA,NA,female,51,23.6,1,NA,0,NA,NA,0,12.43,NA
+GSM1178972,liver biopsy,Control,0,0,NA,NA,male,76.68055556,26.92743764,0,0,1.728722382,NA,NA,8.998,5.205,NA
+GSM1178973,liver biopsy,Control,0,0,NA,NA,male,23,26.6,0,0,2.0398703,NA,NA,21.386,10.484,NA
+GSM1178974,liver biopsy,Control,2,0,NA,NA,male,80,25.8,0,0,0,NA,NA,0,26.372,NA
+GSM1178975,liver biopsy,Nash,80,1,NA,NA,male,49.00555556,25.61728395,4,1,0.159091628,NA,NA,0.901124,5.664182401,NA
+GSM1178976,liver biopsy,Healthy obese,0,0,NA,NA,female,44,36.1,0,1,NA,NA,NA,NA,NA,NA
+GSM1178977,liver biopsy,Control,0,0,NA,NA,male,68,26.4,0,0,0.456427,NA,NA,5.447,11.934,NA
+GSM1178978,liver biopsy,Control,1,0,NA,NA,female,45,20.1,0,0,0.36,NA,NA,2.531324,6.987681,NA
+GSM1178979,liver biopsy,Control,0,0,NA,NA,female,44,29.4,0,0,2.8560522,NA,NA,14.265746,4.994918,NA
+GSM1178980,liver biopsy,Nash,45,3,NA,NA,female,34.22777778,33.12601406,5,3.5,6.42800457,NA,NA,28.346525,4.409848296,NA
+GSM1178981,liver biopsy,Healthy obese,3,0,NA,NA,female,39,55.6,0,0,6.4527473,NA,NA,55.784,8.645,NA
+GSM1178982,liver biopsy,Healthy obese,3,0,NA,NA,female,51,49.6,0,0,3.9943779,NA,NA,54.707,13.696,NA
+GSM1178983,liver biopsy,Healthy obese,0,0,NA,NA,female,43,40.4,0,0,3.809177,NA,NA,27.386,7.18948,NA
+GSM1178984,liver biopsy,Healthy obese,5,1,A1359-51.CEL,before surgery,female,48,47.4,1,1,6.5835217,NA,NA,32.042,4.867,NA
+GSM1178985,liver biopsy,Healthy obese,0,0,NA,NA,female,46,48,0,0,4.5361643,NA,NA,26.278,5.793,NA
+GSM1178986,liver biopsy,Steatosis,70,0,A1359-31.CEL,before surgery,female,46,43.5,3,0,8.4628993,NA,NA,32.188625,3.803499,NA
+GSM1178987,liver biopsy,Nash,90,3,A1359-28.CEL,before surgery,female,51,41.8,6,0,6.0802563,NA,NA,34.788446,5.721543,NA
+GSM1178988,liver biopsy,Steatosis,15,0,NA,NA,female,24,51.9,1,0,9.91,NA,NA,62.451566,6.305045,NA
+GSM1178989,liver biopsy,Steatosis,30,0,A1359-58.CEL,before surgery,female,32,48.6,1,1,7.6524656,NA,NA,42.211,5.516,NA
+GSM1178990,liver biopsy,Healthy obese,3,1,A1359-42.CEL,before surgery,female,50,47.8,2,0,5.3121837,NA,NA,19.471274,3.665399,NA
+GSM1178991,liver biopsy,Healthy obese,0,0,NA,before surgery,female,48,43,0,0,4.9296939,NA,NA,30.638978,6.215189,NA
+GSM1178992,liver biopsy,Healthy obese,2,0,NA,NA,female,60,43.4,0,0,2.4090676,NA,NA,28.215,11.712,NA
+GSM1178993,liver biopsy,Steatosis,10,0,A1649-02.CEL,before surgery,female,37.60277778,42.44001811,1,0,7.466895937,NA,NA,32.854589,4.400033063,NA
+GSM1178994,liver biopsy,Healthy obese,3,NA,A1359-50.CEL,before surgery,female,45,54.3,0,NA,4.155508,NA,NA,40.778,9.813,NA
+GSM1178995,liver biopsy,Nash,90,1,NA,NA,female,32,47.3,5,0,12.478815,NA,NA,36.226,2.903,NA
+GSM1178996,liver biopsy,Nash,90,2,NA,NA,female,56,48.9,6,1,7.0619195,NA,NA,45.62,6.46,NA
+GSM1178997,liver biopsy,Healthy obese,5,0,A1359-18.CEL,after surgery,female,51,29,0,0,0.3983829,5.6818735,31.38996,3.398489,8.530711,-2.809168
+GSM1178998,liver biopsy,Control,0,0,NA,NA,female,28,17.4,0,2,0,NA,NA,0,10.91,NA
+GSM1178999,liver biopsy,Steatosis,15,0,A1359-52.CEL,before surgery,female,47,56,1,1,5.4883547,NA,NA,44.066,8.029,NA
+GSM1179000,liver biopsy,Healthy obese,0,0,A1359-17.CEL,after surgery,female,46,30.9,0,0,1.475435,6.9874643,23.62891,8.55971,5.801482,-1.997984
+GSM1179001,liver biopsy,Nash,80,2,NA,NA,male,49,24.4,5,3,0.3037708,NA,NA,5.196,17.105,NA
+GSM1179002,liver biopsy,Nash,40,2,NA,NA,female,48,30.5,4,4,0.7743826,NA,NA,6.209,8.018,NA
+GSM1179003,liver biopsy,Nash,70,2,A1359-60.CEL,before surgery,female,42,70.2,5,3,19.9277574,NA,NA,103.166,5.177,NA
+GSM1179004,liver biopsy,Nash,70,3,A1359-53.CEL,before surgery,female,33,53.8,7,0,3.4870821,NA,NA,27.534,7.896,NA
+GSM1179005,liver biopsy,Healthy obese,0,0,NA,NA,female,41,44.6,0,0,4.8546613,NA,NA,33.536,6.908,NA
+GSM1179006,liver biopsy,Nash,75,1,NA,NA,female,45,57.6,5,1,8.9503445,NA,NA,37.672,4.209,NA
+GSM1179007,liver biopsy,Healthy obese,0,0,NA,NA,female,33,54.1,0,0,7.1819868,NA,NA,54.224,7.55,NA
+GSM1179008,liver biopsy,Nash,75,1,NA,NA,male,47,33.7,5,0.5,NA,NA,NA,NA,NA,NA
+GSM1179009,liver biopsy,Control,3,0,A1649-01.CEL,after surgery,female,37.60277778,29.99094613,0,1,0.799909458,NA,NA,3.424103,4.280613221,NA
+GSM1179010,liver biopsy,Control,0,0,NA,NA,female,42,23.3,0,1,0.3579183,NA,NA,2.077,5.803,NA
+GSM1179011,liver biopsy,Steatosis,30,0,NA,after surgery,male,61.36666667,40.29181038,1,0,24.80563405,NA,NA,77.563826,3.12686327,NA
+GSM1179012,liver biopsy,Healthy obese,3,0,NA,NA,female,58,35.4,0,0,1.9777184,NA,NA,17.752,8.976,NA
+GSM1179013,liver biopsy,Healthy obese,0,0,A1359-22.CEL,after surgery,female,50,32.3,0,0,0.9237695,4.3884142,12.93507,6.536204,7.075579,-3.41018
+GSM1179014,liver biopsy,Healthy obese,4,0,NA,after surgery,female,40,31.1,0,0,0.633073,4.7735513,17.73769,8.931113,14.107555,-9.174938
+GSM1179015,liver biopsy,Nash,80,1,NA,NA,female,38,47.8,5,1,7.9664461,NA,NA,50.571,6.348,NA
+GSM1179016,liver biopsy,Healthy obese,0,0,NA,NA,female,44,41.4,0,0,3.8930443,NA,NA,37.891,9.733,NA
+GSM1179017,liver biopsy,Nash,70,1,NA,NA,female,56,51.5,5,1,8.0906593,NA,NA,58.9,7.28,NA
+GSM1179018,liver biopsy,Control,0,0,NA,NA,female,73,21,0,1,0.8642609,NA,NA,12.454,14.41,NA
+GSM1179019,liver biopsy,Healthy obese,0,0,A1359-25.CEL,after surgery,female,45,38.3,0,0,1.3951264,2.7603816,22.4,18.378,13.173,-3.36
+GSM1179020,liver biopsy,Healthy obese,0,0,A1359-15.CEL,after surgery,female,48,29.9,0,0,NA,NA,NA,NA,NA,NA
+GSM1179021,liver biopsy,Steatosis,70,0,A1649-13.CEL,before surgery,male,37.875,55.48949663,3,1,5.459967051,NA,NA,33.142,6.07,NA
+GSM1179022,liver biopsy,Healthy obese,3,0,A1359-30.CEL,after surgery,female,47,40.8,0,0,2.6519113,2.8364434,17.287,26.779,10.098,-2.069
+GSM1179023,liver biopsy,Steatosis,60,0,A1359-35.CEL,after surgery,female,33,40.9,2,1,3.1069548,0.3801273,4.527,23.007,7.405,0.491
+GSM1179024,liver biopsy,Control,0,0,NA,NA,female,44,24.9,0,0,1.0701138,NA,NA,12.79,11.952,NA
+GSM1179025,liver biopsy,Steatosis,20,0,A1649-12.CEL,before surgery,female,38.56666667,53.6271809,1,0,NA,NA,NA,NA,NA,NA
+GSM1179026,liver biopsy,Nash,60,2,NA,NA,female,58,46.7,5,1,3.9246488,NA,NA,30.73,7.83,NA
+GSM1179027,liver biopsy,Steatosis,70,0,A1649-14.CEL,before surgery,male,47.47777778,47.91818846,3,0,2.007453416,NA,NA,16.16,8.05,NA
+GSM1179028,liver biopsy,Healthy obese,0,0,A1359-26.CEL,after surgery,female,32.97222222,39.54840454,0,0,17.43534657,NA,NA,43.013,2.47,NA
+GSM1179029,liver biopsy,Steatosis,30,0,NA,after surgery,male,65,43.7,2,0,14.7609665,-13.2588159,-48.956,62.926,4.263,5.037
+GSM1179030,liver biopsy,Healthy obese,4,0,NA,NA,female,38,46.2,0,0,11.0311735,NA,NA,67.588,6.127,NA
+GSM1179031,liver biopsy,Control,0,0,A1359-24.CEL,after surgery,female,60.31111111,30.81854043,0,0,0.147242694,NA,NA,5.794,39.35,NA
+GSM1179032,liver biopsy,Healthy obese,0,0,A1359-20.CEL,after surgery,female,32,26.1,0,0,0.44072,7.2117455,35.992,6.219,14.111,-8.595
+GSM1179033,liver biopsy,Nash,70,1,NA,NA,female,30,63.9,5,1,7.5006081,NA,NA,49.339,6.578,NA
+GSM1179034,liver biopsy,Steatosis,20,1,A1359-34.CEL,after surgery,female,42,49.6,2,0,8.9646298,10.9631276,40.817,62.349,6.955,-1.778
+GSM1179035,liver biopsy,Nash,90,2,NA,NA,female,44,49.4,6,1,4.1606796,NA,NA,25.713,6.18,NA
+GSM1179036,liver biopsy,Nash,80,1,NA,NA,male,50,60.6,5,1,3.3206004,NA,NA,29.643,8.927,NA
+GSM1179037,liver biopsy,Steatosis,30,0,NA,NA,female,32,60.2,1,0,5.5183011,NA,NA,31.962,5.792,NA
+GSM1179038,liver biopsy,Healthy obese,7,0,NA,NA,female,59,40.9,1,0,3.6004634,NA,NA,21.754,6.042,NA
+GSM1179039,liver biopsy,Nash,40,1,A1359-46.CEL,after surgery,female,56.33055556,40.64450573,3,1,NA,NA,NA,NA,NA,NA
+GSM1179040,liver biopsy,Steatosis,30,1,A1649-08.CEL,after surgery,female,38.56666667,41.77801197,2,0,NA,NA,NA,NA,NA,NA
+GSM1179041,liver biopsy,Healthy obese,5,0,A1649-05.CEL,after surgery,male,37.99166667,37.653587,0,0,NA,NA,NA,NA,NA,NA
+GSM1179042,liver biopsy,Healthy obese,3,0,A1649-06.CEL,after surgery,male,47.59444444,33.89335281,0,0,NA,NA,NA,NA,NA,NA

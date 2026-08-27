@@ -1,0 +1,4 @@
+split,n,R2,RMSE,Spearman_mu_y,Spearman_sigma_abserr,cov95_raw
+random,36,0.7898,0.7228,0.7681,0.5853,1.0000
+scaffold,34,-0.6101,1.2900,0.5328,0.2688,0.7353
+M2_flat_conformal,q=1.5107,cov_eval=0.7059,,,

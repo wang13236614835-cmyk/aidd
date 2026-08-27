@@ -1,0 +1,156 @@
+{
+  "H_crit": 0.05027932960893855,
+  "calibration_set": "random test (n=36)",
+  "evaluation_set": "scaffold test (n=34)",
+  "random_test_only": {
+    "n": 36,
+    "R2": 0.7898,
+    "RMSE": 0.7228,
+    "MAE": 0.5921,
+    "Spearman_mu_y": [
+      0.7681,
+      4.55e-08
+    ],
+    "Spearman_sigma_abserr": [
+      0.5853,
+      0.00018
+    ],
+    "coverage95_raw": 1.0,
+    "coverage80_raw": 0.9167
+  },
+  "scaffold_test_only": {
+    "n": 34,
+    "R2": -0.6101,
+    "RMSE": 1.29,
+    "MAE": 1.0394,
+    "Spearman_mu_y": [
+      0.5328,
+      0.00118
+    ],
+    "Spearman_sigma_abserr": [
+      0.2688,
+      0.12431
+    ],
+    "coverage95_raw": 0.7353,
+    "coverage80_raw": 0.6176
+  },
+  "leverage_mean_cal": 0.01262,
+  "leverage_mean_eval": 0.00957,
+  "leverage_frac_over_crit_cal": 0.0,
+  "leverage_frac_over_crit_eval": 0.0,
+  "methods": {
+    "M0_raw_sigma": {
+      "coverage95": 0.7353,
+      "coverage95_wilson_CI": [
+        0.5688,
+        0.854
+      ],
+      "mean_half_width": 1.6627,
+      "median_half_width": 1.5632
+    },
+    "M1_leverage_inflated": {
+      "coverage95": 0.7647,
+      "coverage95_wilson_CI": [
+        0.6,
+        0.8756
+      ],
+      "mean_half_width": 1.8004,
+      "median_half_width": 1.7439
+    },
+    "M2_split_conformal_flat": {
+      "coverage95": 0.7059,
+      "coverage95_wilson_CI": [
+        0.5383,
+        0.8317
+      ],
+      "mean_half_width": 1.5107,
+      "median_half_width": 1.5107
+    },
+    "M3_conformalized_z_sigma_inf": {
+      "coverage95": 0.6471,
+      "coverage95_wilson_CI": [
+        0.4791,
+        0.7851
+      ],
+      "mean_half_width": 1.4115,
+      "median_half_width": 1.3672
+    },
+    "M4_weighted_conformal_z_sigma_inf": {
+      "coverage95": 0.6176,
+      "coverage95_wilson_CI": [
+        0.4504,
+        0.761
+      ],
+      "mean_half_width": 1.283,
+      "median_half_width": 1.2427
+    }
+  },
+  "quantiles": {
+    "q_abs": 1.5107,
+    "q_z": 1.5366,
+    "q_z_weighted": 1.3968
+  },
+  "alpha_020": {
+    "M0_raw_sigma": {
+      "coverage80": 0.6176,
+      "coverage80_wilson_CI": [
+        0.4504,
+        0.761
+      ]
+    },
+    "M3_conformalized_z_sigma_inf": {
+      "coverage80": 0.5882,
+      "coverage80_wilson_CI": [
+        0.4222,
+        0.7363
+      ]
+    }
+  },
+  "scaffold_val_calibration_M5": {
+    "reproduction_sanity": {
+      "mu_pearson_vs_stored": 0.9997,
+      "mu_mean_abs_diff": 0.0165,
+      "sigma_mean_abs_diff": 0.0093,
+      "y_match": true,
+      "smiles_match": true
+    },
+    "val_metrics": {
+      "n": 36,
+      "R2": 0.153,
+      "RMSE": 0.8749
+    },
+    "methods": {
+      "M5_scaffoldval_flat_conformal": {
+        "q": 2.9835,
+        "coverage95": 1.0,
+        "coverage95_wilson_CI": [
+          0.8985,
+          1.0
+        ],
+        "mean_half_width": 2.9835
+      },
+      "M5_scaffoldval_z_conformal_sigma_inf": {
+        "q_z": 5.633,
+        "coverage95": 1.0,
+        "coverage95_wilson_CI": [
+          0.8985,
+          1.0
+        ],
+        "mean_half_width": 5.1794,
+        "median_half_width": 5.0047
+      },
+      "M5_scaffoldval_z_conformal_rawsigma": {
+        "q_z": 6.1405,
+        "coverage95": 1.0,
+        "coverage95_wilson_CI": [
+          0.8985,
+          1.0
+        ],
+        "mean_half_width": 5.2145
+      }
+    },
+    "alpha_020_scaffoldval_z": {
+      "coverage80": 0.6176
+    }
+  }
+}

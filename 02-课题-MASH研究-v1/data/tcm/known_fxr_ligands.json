@@ -1,0 +1,32 @@
+{
+  "chenodeoxycholic acid": {
+    "smiles": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C",
+    "true_est_pIC50": 6.2,
+    "note": "endogenous FXR agonist, EC50~uM"
+  },
+  "deoxycholic acid": {
+    "smiles": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C",
+    "true_est_pIC50": 4.8,
+    "note": "weak FXR agonist"
+  },
+  "lithocholic acid": {
+    "smiles": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC[C@H]4[C@@]3(CC[C@H](C4)O)C)C",
+    "true_est_pIC50": 5.2,
+    "note": "weak FXR agonist"
+  },
+  "cholic acid": {
+    "smiles": "C[C@H](CCC(=O)O)[C@H]1CC[C@@H]2[C@@]1([C@H](C[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)O)C",
+    "true_est_pIC50": 4.5,
+    "note": "weak FXR agonist"
+  },
+  "glycochenodeoxycholic acid": {
+    "smiles": "C[C@H](CCC(=O)NCC(=O)O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2[C@@H](C[C@H]4[C@@]3(CC[C@H](C4)O)C)O)C",
+    "true_est_pIC50": 5.5,
+    "note": "FXR agonist"
+  },
+  "obeticholic acid": {
+    "smiles": "CC[C@@H]1[C@@H]2C[C@@H](CC[C@@]2([C@H]3CC[C@]4([C@H]([C@@H]3[C@@H]1O)CC[C@@H]4[C@H](C)CCC(=O)O)C)C)O",
+    "true_est_pIC50": 7.0,
+    "note": "semi-synthetic FXR agonist EC50~99nM"
+  }
+}

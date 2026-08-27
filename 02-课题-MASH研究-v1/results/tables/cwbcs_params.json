@@ -1,0 +1,7 @@
+{
+  "K": 3,
+  "eps": 0.001,
+  "threshold_FXR": 6.5,
+  "threshold_dG": -7.0,
+  "redundancy_rule": "max(0,(meanTan-0.6)/0.4) capped 0.5"
+}

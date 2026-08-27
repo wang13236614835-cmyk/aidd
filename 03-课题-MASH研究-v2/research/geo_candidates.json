@@ -1,0 +1,542 @@
+[
+ {
+  "accession": "GSE326385",
+  "title": "Fucoxanthin ameliorates metabolic dysfunction-associated steatohepatitis via suppression of CD36-driven fatty acid uptak",
+  "n_samples": 18,
+  "gtype": "?",
+  "gpl": "34284",
+  "pubdate": "?",
+  "summary": "Metabolic dysfunction-associated steatohepatitis (MASH) is a progressive liver disease with limited treatment options. Here, we demonstrate that fucoxanthin (FUCO), a natural marine carotenoid, amelio"
+ },
+ {
+  "accession": "GSE309979",
+  "title": "GeoMx GeoMx-DSP Toxic Lipid-induced Epigenetic Activation of ICAM1 in Liver Sinusoidal Endothelium Regulates Myeloid-Dri",
+  "n_samples": 217,
+  "gtype": "?",
+  "gpl": "30173",
+  "pubdate": "?",
+  "summary": "Background: Liver sinusoidal endothelial cells (LSECs) acquire a proinflammatory phenotype in metabolic dysfunction-associated steatohepatitis (MASH), characterized by elevated adhesion molecules and "
+ },
+ {
+  "accession": "GSE159262",
+  "title": "Novel 3D Approach to Model Non-Alcoholic Fatty Liver Disease using human Pluripotent Stem Cells",
+  "n_samples": 5,
+  "gtype": "?",
+  "gpl": "20301",
+  "pubdate": "?",
+  "summary": "We aimed to develop an in vitro system that would recapitulate the key features of Non-Alcoholic Fatty Liver Disease (NAFLD). We took advantage of human pluripotent stem cells to establish complex co-"
+ },
+ {
+  "accession": "GSE341780",
+  "title": "ERα/miR-26a/ANKRD52 axis regulates progression of MASH- associated HCC in HDTVi HCC models",
+  "n_samples": 6,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "The lack of robust mouse models for metabolic dysfunction-associated steatohepatitis-hepatocellular carcinoma (MASH-HCC) severely hinders mechanistic investigation and therapeutic drug development. Co"
+ },
+ {
+  "accession": "GSE287826",
+  "title": "Hepatocytes spatial transcriptomics analysis of healthy and MASH patients",
+  "n_samples": 31,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "Spatial transcriptomics of hepatocytes was employed to identify differentially expressed genes between healthy tissues and those from MASH patients."
+ },
+ {
+  "accession": "GSE333851",
+  "title": "Spatial Glyco-Codes Define Human Liver Pathology and Progression",
+  "n_samples": 32,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "Glycosylation is a relatively underexplored aspect of the central dogma of biology, yet a key determinant of biological function and encodes disease-associated cellular states. However spatial glycomi"
+ },
+ {
+  "accession": "GSE309912",
+  "title": "Bulk RNA-seq Toxic Lipid-induced Epigenetic Activation of ICAM1 in Liver Sinusoidal Endothelium Regulates Myeloid-Driven",
+  "n_samples": 12,
+  "gtype": "?",
+  "gpl": "20301",
+  "pubdate": "?",
+  "summary": "Background: Liver sinusoidal endothelial cells (LSECs) acquire a proinflammatory phenotype in metabolic dysfunction-associated steatohepatitis (MASH), characterized by elevated adhesion molecules and "
+ },
+ {
+  "accession": "GSE326605",
+  "title": "Bile acid uptake activates STAT signaling and impairs natural killer cells in metabolic dysfunction–associated steatohep",
+  "n_samples": 4,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "Metabolic dysfunction-associated steatotic liver disease (MASLD) encompasses a spectrum of fatty liver diseases ranging from steatotic liver disease to metabolic dysfunction-associated steatohepatitis"
+ },
+ {
+  "accession": "GSE319635",
+  "title": "Methionine and choline deficiency rewires transcriptional programs to recapitulate molecular features of human MASH",
+  "n_samples": 8,
+  "gtype": "?",
+  "gpl": "30173;30172",
+  "pubdate": "?",
+  "summary": "Metabolic dysfunction-associated steatohepatitis (MASH) is a leading cause of cirrhosis and liver related mortality, but it remains unclear how nutrient stresses drive coordinated transcriptional remo"
+ },
+ {
+  "accession": "GSE290642",
+  "title": "Selective targeting of endothelial and perivascular ROCK2 reverses liver fibrosis in  pigs and human patients",
+  "n_samples": 36,
+  "gtype": "?",
+  "gpl": "22918;20795",
+  "pubdate": "?",
+  "summary": "Investigation of ROCK2 distribution and expression in NPC subpopulations of fibrotic and healthy human and minipig livers."
+ },
+ {
+  "accession": "GSE281367",
+  "title": "Single nucleus chromatin accessibility Profiling on the human metabolic dysfunction associated steatotic liver disease s",
+  "n_samples": 12,
+  "gtype": "?",
+  "gpl": "34284",
+  "pubdate": "?",
+  "summary": "Single-nucleus Assay for Transposase-Accessible Chromatin with sequencing (snATAC-seq) in human mapping of chromatin accessibility in specific cell clusters profiled alterations in Metabolic Dysfuncti"
+ },
+ {
+  "accession": "GSE271997",
+  "title": "Landscape of the m6A modification and expression of circRNAs in MASH-related hepatocellular carcinoma",
+  "n_samples": 10,
+  "gtype": "?",
+  "gpl": "25758",
+  "pubdate": "?",
+  "summary": "N6-methyladenosine (m6A) RNA methylation is the most abundant form of RNA modification in eukaryotes, and it affects various aspects of posttranscriptional regulation of circRNA functions. This study "
+ },
+ {
+  "accession": "GSE260956",
+  "title": "Hepatic GPNMB aggravates NASH through binding to RYK [RNA-Seq]",
+  "n_samples": 8,
+  "gtype": "?",
+  "gpl": "30209;30215",
+  "pubdate": "?",
+  "summary": "The goals of this study are to define the moelcular events in NASH and to determine the role of GPNMB and RYK in NASH development"
+ },
+ {
+  "accession": "GSE307420",
+  "title": "Inhibition of Acetyl-CoA metabolic enzymes by EVT0185 impairs hepatic stellate cell activation and reverses MASH and fib",
+  "n_samples": 12,
+  "gtype": "?",
+  "gpl": "11154",
+  "pubdate": "?",
+  "summary": "Metabolic Dysfunction-Associated Steatohepatitis (MASH) is characterized by liver steatosis and inflammation which lead to fibrosis following hepatic stellate cell (HSC) activation. Acetyl-CoA is fund"
+ },
+ {
+  "accession": "GSE308064",
+  "title": "PAD4⁺ Neutrophils Promote Hepatic Stellate Cell Activation and Accelerate MASH Fibrosis Progression via NETs-DNA/TAOK1/M",
+  "n_samples": 6,
+  "gtype": "?",
+  "gpl": "23227",
+  "pubdate": "?",
+  "summary": "Neutrophils play a pivotal role in the progression of metabolic-associated steatohepatitis (MASH) by mediating inflammatory responses. However, the heterogeneity of neutrophil subsets in MASH and thei"
+ },
+ {
+  "accession": "GSE304513",
+  "title": "Genome-wide DNA methylation profiles of liver tissue samples obtained from patients with metabolic dysfunction-associate",
+  "n_samples": 41,
+  "gtype": "?",
+  "gpl": "13534",
+  "pubdate": "?",
+  "summary": "Genome-wide DNA methylation profiling was performed on non-cancerous and cancerous liver tissue samples obtained from patients with MASH using the Illumina Infinium HumanMethylation450 BeadChip."
+ },
+ {
+  "accession": "GSE293003",
+  "title": "Hepatocyte FoxO1 depletion exacerbates hepatic inflammation in MASH",
+  "n_samples": 6,
+  "gtype": "?",
+  "gpl": "34284",
+  "pubdate": "?",
+  "summary": "The transcription factor Forkhead box protein O1 (FoxO1) is a well-established regulator of glucose and lipid metabolism, yet its role in metabolic dysfunction-associated steatohepatitis (MASH) pathog"
+ },
+ {
+  "accession": "GSE292999",
+  "title": "Peroxisome Proliferator-activated Receptor Agonist IVA337 Alleviates Inflammation",
+  "n_samples": 14,
+  "gtype": "?",
+  "gpl": "29480",
+  "pubdate": "?",
+  "summary": "Metabolic dysfunction-associated steatohepatitis (MASH), an advanced stage of metabolic dysfunction-associated steatotic liver disease (MASLD), is characterized by significant hepatic fibrosis and inf"
+ },
+ {
+  "accession": "GSE205179",
+  "title": "3D bioprinting of human liver models with biliary branching morphogenesis for hepatotoxicity, regeneration and NASH",
+  "n_samples": 12,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "The study of liver disease and drug discovery has been constrained by a lack of liver tissue with intrahepatic bile ducts (IHBD) network. Here we created functional bioprinting human liver with IHBD t"
+ },
+ {
+  "accession": "GSE267195",
+  "title": "Single-cell landscape of peripheral immune cells in MAFLD/MASH",
+  "n_samples": 68,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "This SuperSeries is composed of the SubSeries listed below."
+ },
+ {
+  "accession": "GSE267033",
+  "title": "Single-cell landscape of peripheral immune cells in MAFLD/MASH [scRNA-seq]",
+  "n_samples": 15,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "Background & Aims: Metabolic dysfunction associated steatotic liver disease (MAFLD) progresses to metabolic dysfunction-associated steatohepatitis (MASH) and is a major cause of liver cirrhosis. Altho"
+ },
+ {
+  "accession": "GSE267032",
+  "title": "Bulk White Blood Cells in MAFLD/MASH",
+  "n_samples": 35,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "Background & Aims: Metabolic dysfunction associated steatotic liver disease (MAFLD) progresses to steatohepatitis (MASH) and is a major cause of liver cirrhosis. In the early disease stage, liver infl"
+ },
+ {
+  "accession": "GSE267031",
+  "title": "Bulk Liver in MAFLD/MASH",
+  "n_samples": 18,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "Background & Aims: Metabolic dysfunction associated steatotic liver disease (MAFLD) progresses to steatohepatitis (MASH) and is a major cause of liver cirrhosis. In the early disease stage, liver infl"
+ },
+ {
+  "accession": "GSE224645",
+  "title": "NASH LiverModel transcriptome",
+  "n_samples": 7,
+  "gtype": "?",
+  "gpl": "13667",
+  "pubdate": "?",
+  "summary": "Mitochondrial reactive oxygen species (mROS) is central to normal physiology, but their excessive production correlates with the etiology of many human metabolic pathologies. We assessed in human live"
+ },
+ {
+  "accession": "GSE256398",
+  "title": "Hepatic stellate cells control liver zonation and function via R-spondin 3",
+  "n_samples": 30,
+  "gtype": "?",
+  "gpl": "24676;24247;34328",
+  "pubdate": "?",
+  "summary": "Hepatic stellate cells (HSCs) exert a central pathogenic role in the development of liver fibrosis. However, the fibrosis-independent and homeostatic functions of these specialized liver pericytes rem"
+ },
+ {
+  "accession": "GSE267145",
+  "title": "The transcription factor ZNF469 regulates collagen production in liver fibrosis",
+  "n_samples": 508,
+  "gtype": "?",
+  "gpl": "24247;24676",
+  "pubdate": "?",
+  "summary": "This SuperSeries is composed of the SubSeries listed below."
+ },
+ {
+  "accession": "GSE267119",
+  "title": "The transcription factor ZNF469 regulates collagen production in liver fibrosis [Cohort_CUTRUN_H3K27ac]",
+  "n_samples": 99,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "Non-alcoholic fatty liver disease (NAFLD)—characterized by excess accumulation of fat in the liver—now affects one third of the world’s population. As NAFLD progresses, extracellular matrix components"
+ },
+ {
+  "accession": "GSE289173",
+  "title": "Single-cell eQTL analysis identifies genetic variation underlying metabolic dysfunction-associated steatohepatitis",
+  "n_samples": 48,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "Metabolic dysfunction-associated steatotic liver disease (MASLD) is increasingly recognized for its medical and socioeconomic impacts, driven by diverse genetic and environmental factors. To address t"
+ },
+ {
+  "accession": "GSE282660",
+  "title": "Salsalate improves the anti-tumor efficacy of Lenvatinib in MASH-driven hepatocellular carcinoma.",
+  "n_samples": 36,
+  "gtype": "?",
+  "gpl": "30172;18460",
+  "pubdate": "?",
+  "summary": "Rates of hepatocellular carcinoma (HCC) are increasing rapidly due to the epidemic of metabolic dysfunction-associated steatohepatitis (MASH). In addition to increased incidence, emerging evidence sug"
+ },
+ {
+  "accession": "GSE270488",
+  "title": "Antigen-driven CD8+ T cell clonal expansion is a prominent feature of MASH in humans and mice [human]",
+  "n_samples": 18,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "Metabolic dysfunction-associated steatoheptaitis (MASH) is a chronic liver disease caused by prolonged poor diet. During MASH-induced chirrosis in humans and diet-induced MASH in murine models, T cell"
+ },
+ {
+  "accession": "GSE205881",
+  "title": "RNA Sequencing Facilitates Quantitative Analysis of Humanized Normal Livers, NASH Livers, and HCC Transcriptomes",
+  "n_samples": 66,
+  "gtype": "?",
+  "gpl": "16512",
+  "pubdate": "?",
+  "summary": "RNAseq analysis that will help to define 1) the circadian dysfunction induced liver transcriptome that drives fatty liver disease induced hepatocarcinogenesis in a humanized mouse model; 2) the curren"
+ },
+ {
+  "accession": "GSE238060",
+  "title": "HSD17B13 liquid-liquid phase separation activates autocrine platelet-activating factor signaling in NASH",
+  "n_samples": 12,
+  "gtype": "?",
+  "gpl": "24247;24676",
+  "pubdate": "?",
+  "summary": "Loss-of-function variants in 17-beta hydroxysteroid dehydrogenase 13 (HSD17B13) are associated with decreased inflammation in human chronic liver disease. The underlying mechanism by which HSD17B13 pr"
+ },
+ {
+  "accession": "GSE268518",
+  "title": "Duodenal-derived organoids from MASH patients exhibit altered digestive homeostasis.",
+  "n_samples": 39,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "Metabolic dysfunction-associated steatohepatitis (MASH) is a progressive disease linked to conditions like fibrosis, cirrhosis, and liver cancer, often resulting in higher mortality rates, primarily d"
+ },
+ {
+  "accession": "GSE280378",
+  "title": "Induction of MASH in Three-Dimensional Bioprinted Human Liver Tissue",
+  "n_samples": 22,
+  "gtype": "?",
+  "gpl": "16791",
+  "pubdate": "?",
+  "summary": "Non-alcoholic steatohepatitis (NASH) represents a significant and growing public health concern worldwide, characterized by hepatic steatosis, inflammation, and varying degrees of fibrosis. In vitro m"
+ },
+ {
+  "accession": "GSE274114",
+  "title": "Metabolic dysfunction-associated steatohepatitis reduces interferon and macrophage liver gene signatures in chronic HBV ",
+  "n_samples": 39,
+  "gtype": "?",
+  "gpl": "20301;24676",
+  "pubdate": "?",
+  "summary": "Background & Aims: Chronic HBV patients with concomitant metabolic dysfunction-associated steatohepatitis (MASH) have been shown to develop more advanced fibrosis faster with more severe liver disease"
+ },
+ {
+  "accession": "GSE253380",
+  "title": "ACMSD inhibition corrects fibrosis, inflammation, and DNA damage in MASLD/MASH",
+  "n_samples": 48,
+  "gtype": "?",
+  "gpl": "23479;23227",
+  "pubdate": "?",
+  "summary": "Recent findings reveal the importance of tryptophan-initiated de novo nicotinamide adenine dinucleotide (NAD+) synthesis in the liver, a process previously considered secondary to biosynthesis from ni"
+ },
+ {
+  "accession": "GSE234415",
+  "title": "A new Nuclear-erythroid-2-Related Factor 2 activator for the treatment of human metabolic associated fatty liver disease",
+  "n_samples": 36,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "Background and aims: Oxidative stress triggers nonalcoholic steatohepatitis (NASH) and fibrosis. Previous animal studies demonstrated that the transcription factor NRF2, the master regulator of antiox"
+ },
+ {
+  "accession": "GSE260666",
+  "title": "Differential analysis of gene expression in liver tissues of patients with nonalcoholic fatty liver disease and controls",
+  "n_samples": 16,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "Non-alcoholic fatty liver disease (NAFLD) comprises a collection of chronic liver disorders distinguished by the excessive accumulation of lipids within hepatocytes and the presence of steatosis. It c"
+ },
+ {
+  "accession": "GSE247467",
+  "title": "Transcriptomic characterization of circulating neutrophils isolated from patients with metabolic dysfunction-associated ",
+  "n_samples": 12,
+  "gtype": "?",
+  "gpl": "18573",
+  "pubdate": "?",
+  "summary": "Neutrophils, a major innate immune cell population, are the most abundant circulating white blood cell in humans. They play a crucial role in host defense against infection; however, aberrant neutroph"
+ },
+ {
+  "accession": "GSE229609",
+  "title": "Multicellular liver organoid model for recapitulating hepatitis C virus infection and non-alcoholic fatty liver disease ",
+  "n_samples": 15,
+  "gtype": "?",
+  "gpl": "24676;20795",
+  "pubdate": "?",
+  "summary": "This SuperSeries is composed of the SubSeries listed below."
+ },
+ {
+  "accession": "GSE229608",
+  "title": "Multicellular liver organoid model for recapitulating hepatitis C virus infection and non-alcoholic fatty liver disease ",
+  "n_samples": 3,
+  "gtype": "?",
+  "gpl": "20795",
+  "pubdate": "?",
+  "summary": "Hepatitis C virus (HCV) infection has been successfully managed by anti-viral therapies, however, high prevalence to severe chronic liver disease state including non-alcoholic fatty liver disease (NAF"
+ },
+ {
+  "accession": "GSE229596",
+  "title": "Multicellular liver organoid model for recapitulating hepatitis C virus infection and non-alcoholic fatty liver disease ",
+  "n_samples": 12,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "Hepatitis C virus (HCV) infection has been successfully managed by anti-viral therapies, however, high prevalence to severe chronic liver disease state including non-alcoholic fatty liver disease (NAF"
+ },
+ {
+  "accession": "GSE261938",
+  "title": "Potential utility of L-carnitine for preventing liver tumors derived from metabolic dysfunction-associated steatohepatit",
+  "n_samples": 10,
+  "gtype": "?",
+  "gpl": "570",
+  "pubdate": "?",
+  "summary": "We examined the potential utility of L-carnitine for alleviating metabolic dysfunction-associated steatohepatitis (MASH) and preventing the development of hepatocellular carcinoma. Short-term L-carnit"
+ },
+ {
+  "accession": "GSE261297",
+  "title": "The fatty liver disease-causing protein PNPLA3-I148M alters lipid droplet-Golgi dynamics",
+  "n_samples": 60,
+  "gtype": "?",
+  "gpl": "16791",
+  "pubdate": "?",
+  "summary": "Non-alcoholic fatty liver disease (NAFLD), recently renamed metabolic dysfunction-associated steatotic liver disease (MASLD), is a progressive metabolic disorder that begins with aberrant triglyceride"
+ },
+ {
+  "accession": "GSE202379",
+  "title": "Single Nuclei RNA-Seq to map progression of non-alcoholic fatty liver disease (NAFLD) in patients II",
+  "n_samples": 59,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "Non-alcoholic fatty liver disease (NAFLD) is of increasing prevalence and concern. NAFLD can progress to non-alcoholic steatohepatitis (NASH), to cirrhosis and finally to end-stage liver disease where"
+ },
+ {
+  "accession": "GSE241366",
+  "title": "DNA methylation analysis of liver samples from healthy individuals and patients with advanced metabolic dysfunction asso",
+  "n_samples": 8,
+  "gtype": "?",
+  "gpl": "21145",
+  "pubdate": "?",
+  "summary": "To investigate MASH-associated changes in DNA-methylation, a genome-wide DNA methylation profiling of livers from healthy individuals compared to those with MASH was performed using the 850K Methylati"
+ },
+ {
+  "accession": "GSE243112",
+  "title": "Protein-truncating variants in BSN are associated with severe adult-onset obesity, type 2 diabetes and fatty liver disea",
+  "n_samples": 15,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "Obesity is a major risk factor for many common diseases and has a significant heritable component. While clinical and large-scale population studies have identified several genes harbouring rare allel"
+ },
+ {
+  "accession": "GSE182129",
+  "title": "Hepatic enhancer signature and regulatory network of non-alcoholic steatohepatitis (NASH) resistance in humans with obes",
+  "n_samples": 18,
+  "gtype": "?",
+  "gpl": "18573",
+  "pubdate": "?",
+  "summary": "Assessment of chromatin transcription activity of liver biopsies from individuales who were stratified to either NASH prone (NP) or NASH resistance (NR)"
+ },
+ {
+  "accession": "GSE231368",
+  "title": "To investigate the effect of TMAO intervention on fatty liver cells in vitro and potential genetic changes",
+  "n_samples": 6,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "To construct the optimal fatty liver cell model in vitro and use TMAO intervention to observe its effect on fatty liver cells and identify potential key genes for change by transcriptomics."
+ },
+ {
+  "accession": "GSE251855",
+  "title": "Serum Protein Risk Stratification Score for Diagnostic Evaluation of Metabolic Dysfunction-Associated Steatohepatitis (M",
+  "n_samples": 57,
+  "gtype": "?",
+  "gpl": "33741",
+  "pubdate": "?",
+  "summary": "Reliable non-invasive tools to diagnose at risk metabolic dysfunction-associated steatohepatitis (MASH) are urgently needed to improve management. We developed a risk stratification score incorporatin"
+ },
+ {
+  "accession": "GSE176025",
+  "title": "Liver microRNA transcriptome reveals miR-182 as link between type 2 diabetes and fatty liver disease in obesity",
+  "n_samples": 40,
+  "gtype": "?",
+  "gpl": "21572",
+  "pubdate": "?",
+  "summary": "Although the global prevalence of type 2 diabetes is still rising, the molecular mechanisms of dysregulated glucose and lipid metabolism are still incompletely understood. Epigenetic mechanisms were s"
+ },
+ {
+  "accession": "GSE211848",
+  "title": "Loss of KDM6B confers resistance to lipotoxicity through epigenetic downregulation of G0S2 expression in NASH-related HC",
+  "n_samples": 4,
+  "gtype": "?",
+  "gpl": "570",
+  "pubdate": "?",
+  "summary": "Background& Aims: The incidence of nonhepatitis B and nonhepatitis C viral (NBNC)- HCC has been rising in recent years due to the increase in NAFLD and NASH　worldwide with fibrosis. However, the molec"
+ },
+ {
+  "accession": "GSE207889",
+  "title": "Stem cell-derived human liver organoids to model the progression of inflammatory and fibrotic injury in non-alcoholic fa",
+  "n_samples": 19,
+  "gtype": "?",
+  "gpl": "24676;30173",
+  "pubdate": "?",
+  "summary": "Chronic liver injury promotes fibrosis, which can progress to cirrhosis, a major cause of morbidity and mortality worldwide. Resolving the cell-type-specific transcriptional changes orchestrating this"
+ },
+ {
+  "accession": "GSE235079",
+  "title": "Steatosis Drives monocyte-derived Macrophage Accumulation in Human Metabolic Dysfunction-Associated Fatty Liver Disease",
+  "n_samples": 3,
+  "gtype": "?",
+  "gpl": "24676",
+  "pubdate": "?",
+  "summary": "Background & Aims: Metabolic dysfunction-associated fatty liver disease (MAFLD) is a common complication of obesity with a hallmark feature of hepatic steatosis. Recent data from animal models of MALF"
+ },
+ {
+  "accession": "GSE240886",
+  "title": "Human fatty liver RT-PCR array on primary human hepatocytes grown with 3t3-J2 stromal cells in a micropatterned co-cultu",
+  "n_samples": 7,
+  "gtype": "?",
+  "gpl": "33680",
+  "pubdate": "?",
+  "summary": "Non-alcoholic fatty liver disease (NAFLD) is a highly prevalent, progressive disorder and growing public health concern. To address this issue considerable research has been undertaken in pursuit of n"
+ },
+ {
+  "accession": "GSE239422",
+  "title": "A functional interaction between hepatic Estrogen Receptor-a and PNPLA3 p.I148M variant drives fatty liver diseases susc",
+  "n_samples": 125,
+  "gtype": "?",
+  "gpl": "20301",
+  "pubdate": "?",
+  "summary": "Fatty liver disease (FLD) caused by metabolic dysfunction is the leading cause of liver disease, and the prevalence is rising, especially in women. Although during reproductive age women are protected"
+ },
+ {
+  "accession": "GSE214432",
+  "title": "Transcriptome profile of hepatocellular carcinoma from non-alcoholic fatty liver.",
+  "n_samples": 45,
+  "gtype": "?",
+  "gpl": "18573",
+  "pubdate": "?",
+  "summary": "Non-alcoholic fatty liver disease (NAFLD) is a major global health problem with its high prevalence and risk of developing lethal complications, progressive liver fibrosis and hepatocellular carcinoma"
+ },
+ {
+  "accession": "GSE169538",
+  "title": "Identification of HSPA5 targets involved in non-alcoholic fatty liver disease",
+  "n_samples": 4,
+  "gtype": "?",
+  "gpl": "20795",
+  "pubdate": "?",
+  "summary": "Background: It has been reported that HSPA5 is an endoplasmic reticulum chaperone, which regulates cell metabolism, especially lipid metabolism. There are many reports about the interaction between HS"
+ },
+ {
+  "accession": "GSE223652",
+  "title": "Hepatocyte mARC1 Promotes Fatty Liver Disease",
+  "n_samples": 60,
+  "gtype": "?",
+  "gpl": "18573",
+  "pubdate": "?",
+  "summary": "Background and Aims Non-alcoholic fatty liver disease (NAFLD) has a prevalence of ~25% worldwide, with significant public health consequences yet has few effective treatments. Human genetics can help "
+ },
+ {
+  "accession": "GSE147304",
+  "title": "RNA-Seq analylsis of human NASH and Normal liver tissues",
+  "n_samples": 10,
+  "gtype": "?",
+  "gpl": "20795",
+  "pubdate": "?",
+  "summary": "To understand the mechanisms of NASH, we detected mRNA level in human NASH (n=5) and normal tissue (n=5) by RNA-Seq.  The normal tissues were collected from the patients who received hepatic haemangio"
+ }
+]

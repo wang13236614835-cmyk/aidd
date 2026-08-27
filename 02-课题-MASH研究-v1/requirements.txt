@@ -1,0 +1,19 @@
+# Python environment for the full pipeline (tested on Windows, CPython 3.x)
+# Core scientific stack
+numpy
+pandas
+scipy
+scikit-learn
+xgboost
+statsmodels
+# Chemistry
+rdkit
+# Deep learning (CPU)
+torch==2.2.*
+torch_geometric==2.5.*
+# Docking helpers
+meeko==0.7.*
+prody
+# AutoDock Vina 1.2.5 official Windows executable placed in tools/ (not pip)
+# Visualization
+matplotlib

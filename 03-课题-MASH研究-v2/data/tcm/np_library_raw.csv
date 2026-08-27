@@ -1,0 +1,71 @@
+herb,name,status,smiles,mw_pubchem,cid
+Artemisia capillaris(茵陈),scoparone,OK,COC1=C(C=C2C(=C1)C=CC(=O)O2)OC,206.19,8417.0
+Artemisia capillaris(茵陈),scopoletin,OK,COC1=C(C=C2C(=C1)C=CC(=O)O2)O,192.17,5280460.0
+Artemisia capillaris(茵陈),umbelliferone,OK,C1=CC(=CC2=C1C=CC(=O)O2)O,162.14,5281426.0
+Artemisia capillaris(茵陈),capillarisin,OK,COC1=C(C2=C(C=C1O)OC(=CC2=O)OC3=CC=C(C=C3)O)O,316.26,5281342.0
+Artemisia capillaris(茵陈),arcapillin,OK,COC1=C(C=C(C(=C1)C2=CC(=O)C3=C(C(=C(C=C3O2)OC)OC)O)O)O,360.3,158311.0
+Artemisia capillaris(茵陈),capillin,OK,CC#CC#CC(=O)C1=CC=CC=C1,168.19,10321.0
+Artemisia capillaris(茵陈),capillene,OK,CC#CC#CCC1=CC=CC=C1,154.21,3083613.0
+Artemisia capillaris(茵陈),"1,2-dimethoxy-4-vinylbenzene",OK,COC1=C(C=C(C=C1)C=C)OC,164.20,61400.0
+Artemisia capillaris(茵陈),isorhamnetin,OK,COC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O,316.26,5281654.0
+Artemisia capillaris(茵陈),methyl capillate,PUBCHEM_NOT_FOUND,,,
+Gynostemma pentaphyllum(绞股蓝),ginsenoside Rb1,OK,CC(=CCC[C@@](C)([C@H]1CC[C@@]2([C@@H]1[C@@H](C[C@H]3[C@]2(CC[C@@H]4[C@@]3(CC[C@@H](C4(C)C)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)O[C@H]6[C@@H]([C@H]([C@@H]([C@H](O6)CO)O)O)O)C)C)O)C)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO[C@H]8[C@@H]([C@H]([C@@H]([C@H](O8)CO)O)O)O)O)O)O)C,1109.3,9898279.0
+Gynostemma pentaphyllum(绞股蓝),ginsenoside Rd,OK,CC(=CCC[C@@](C)([C@H]1CC[C@@]2([C@@H]1[C@@H](C[C@H]3[C@]2(CC[C@@H]4[C@@]3(CC[C@@H](C4(C)C)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)O[C@H]6[C@@H]([C@H]([C@@H]([C@H](O6)CO)O)O)O)C)C)O)C)O[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O)O)C,947.2,11679800.0
+Gynostemma pentaphyllum(绞股蓝),gypenoside XLIX,OK,C[C@H]1[C@@H]([C@H]([C@H]([C@@H](O1)O[C@@H]2[C@H]([C@H](CO[C@H]2O[C@H]3CC[C@@]4([C@H]5CC[C@@H]6[C@H](CC[C@]6([C@@]5(CC[C@H]4C3(C)C)C)C)[C@@](CCC=C(C)C)(CO[C@H]7[C@@H]([C@H]([C@@H]([C@H](O7)CO)O)O)O)O)C=O)O)O[C@H]8[C@@H]([C@H]([C@@H](CO8)O)O)O)O)O)O,1047.2,16007240.0
+Gynostemma pentaphyllum(绞股蓝),damulin A,OK,CC(=CC/C=C(\C)/[C@H]1CC[C@@]2([C@@H]1[C@@H](C[C@H]3[C@]2(CC[C@@H]4[C@@]3(C[C@H]([C@@H](C4(C)C)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)O[C@H]6[C@@H]([C@H]([C@@H]([C@H](O6)CO)O)O)O)O)C)C)O)C)C,783.0,57393857.0
+Gynostemma pentaphyllum(绞股蓝),damulin B,OK,CC(=CCCC(=C)[C@H]1CC[C@@]2([C@@H]1[C@@H](C[C@H]3[C@]2(CC[C@@H]4[C@@]3(C[C@H]([C@@H](C4(C)C)O[C@H]5[C@@H]([C@H]([C@@H]([C@H](O5)CO)O)O)O[C@H]6[C@@H]([C@H]([C@@H]([C@H](O6)CO)O)O)O)O)C)C)O)C)C,783.0,57390324.0
+Gynostemma pentaphyllum(绞股蓝),spinasterol,OK,CC[C@H](/C=C/[C@@H](C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3C2=CC[C@@H]4[C@@]3(CC[C@@H](C4)O)C)C)C(C)C,412.7,5281331.0
+Gynostemma pentaphyllum(绞股蓝),stigmasterol,OK,CC[C@H](/C=C/[C@@H](C)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CC=C4[C@@]3(CC[C@@H](C4)O)C)C)C(C)C,412.7,5280794.0
+Crataegus pinnatifida(山楂),vitexin,OK,C1=CC(=CC=C1C2=CC(=O)C3=C(O2)C(=C(C=C3O)O)[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O,432.4,5280441.0
+Crataegus pinnatifida(山楂),isovitexin,OK,C1=CC(=CC=C1C2=CC(=O)C3=C(O2)C=C(C(=C3O)[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O)O,432.4,162350.0
+Crataegus pinnatifida(山楂),hyperoside,OK,C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O[C@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)O)O)O,464.4,5281643.0
+Crataegus pinnatifida(山楂),isoquercitrin,OK,C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O[C@H]4[C@@H]([C@H]([C@H](O4)[C@@H](CO)O)O)O)O)O,464.4,5484006.0
+Crataegus pinnatifida(山楂),epicatechin,OK,C1[C@H]([C@H](OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O,290.27,72276.0
+Crataegus pinnatifida(山楂),procyanidin B2,OK,C1[C@H]([C@H](OC2=C1C(=CC(=C2[C@@H]3[C@H]([C@H](OC4=CC(=CC(=C34)O)O)C5=CC(=C(C=C5)O)O)O)O)O)C6=CC(=C(C=C6)O)O)O,578.5,122738.0
+Crataegus pinnatifida(山楂),ursolic acid,OK,C[C@@H]1CC[C@@]2(CC[C@@]3(C(=CC[C@H]4[C@]3(CC[C@@H]5[C@@]4(CC[C@@H](C5(C)C)O)C)C)[C@@H]2[C@H]1C)C)C(=O)O,456.7,64945.0
+Crataegus pinnatifida(山楂),oleanolic acid,OK,C[C@]12CC[C@@H](C([C@@H]1CC[C@@]3([C@@H]2CC=C4[C@]3(CC[C@@]5([C@H]4CC(CC5)(C)C)C(=O)O)C)C)(C)C)O,456.7,10494.0
+Crataegus pinnatifida(山楂),corosolic acid,OK,C[C@@H]1CC[C@@]2(CC[C@@]3(C(=CC[C@H]4[C@]3(CC[C@@H]5[C@@]4(C[C@H]([C@@H](C5(C)C)O)O)C)C)[C@@H]2[C@H]1C)C)C(=O)O,472.7,6918774.0
+Crataegus pinnatifida(山楂),maslinic acid,OK,C[C@@]12CC[C@@H]3[C@@]([C@H]1CC=C4[C@]2(CC[C@@]5([C@H]4CC(CC5)(C)C)C(=O)O)C)(C[C@H]([C@@H](C3(C)C)O)O)C,472.7,73659.0
+Crataegus pinnatifida(山楂),tormentic acid,OK,C[C@@H]1CC[C@@]2(CC[C@@]3(C(=CC[C@H]4[C@]3(CC[C@@H]5[C@@]4(C[C@H]([C@@H](C5(C)C)O)O)C)C)[C@@H]2[C@]1(C)O)C)C(=O)O,488.7,73193.0
+Alisma orientale(泽泻),alisol A,OK,C[C@H](C[C@@H]([C@H](C(C)(C)O)O)O)C1=C2C[C@@H]([C@H]3[C@]4(CCC(=O)C([C@@H]4CC[C@@]3([C@]2(CC1)C)C)(C)C)C)O,490.7,15558616.0
+Alisma orientale(泽泻),alisol B,OK,C[C@H](C[C@@H]([C@@H]1C(O1)(C)C)O)C2=C3C[C@@H]([C@H]4[C@]5(CCC(=O)C([C@@H]5CC[C@@]4([C@]3(CC2)C)C)(C)C)C)O,472.7,15558620.0
+Alisma orientale(泽泻),alisol C,OK,C[C@H](C[C@@H]([C@@H]1C(O1)(C)C)O)C2=C3C[C@@H]([C@H]4[C@]5(CCC(=O)C([C@@H]5CC[C@@]4([C@]3(CC2=O)C)C)(C)C)C)O,486.7,101306923.0
+Alisma orientale(泽泻),alisol A acetate,PUBCHEM_NOT_FOUND,,,
+Alisma orientale(泽泻),alisol B acetate,OK,C[C@H](C[C@@H]([C@@H]1C(O1)(C)C)OC(=O)C)C2=C3C[C@@H]([C@H]4[C@]5(CCC(=O)C([C@@H]5CC[C@@]4([C@]3(CC2)C)C)(C)C)C)O,514.7,14036811.0
+Alisma orientale(泽泻),alisol C acetate,PUBCHEM_NOT_FOUND,,,
+Alisma orientale(泽泻),16-oxo-alisol A,OK,C[C@H](C[C@@H]([C@H](C(C)(C)O)O)O)C1=C2C[C@@H]([C@H]3[C@]4(CCC(=O)C([C@@H]4CC[C@@]3([C@]2(CC1=O)C)C)(C)C)C)O,504.7,9983614.0
+Alisma orientale(泽泻),alisol E acetate,PUBCHEM_NOT_FOUND,,,
+Alisma orientale(泽泻),alismol,OK,CC(C)C1=C[C@H]2[C@H](CC[C@@]2(C)O)C(=C)CC1,220.35,137357.0
+Alisma orientale(泽泻),alismoxide,OK,CC(C)C1=C[C@H]2[C@@H](CC[C@]2(C)O)[C@](CC1)(C)O,238.37,10988340.0
+Cassia obtusifolia(决明子),obtusifolin,OK,CC1=CC2=C(C(=C1O)OC)C(=O)C3=C(C2=O)C=CC=C3O,284.26,3083575.0
+Cassia obtusifolia(决明子),obtusin,OK,CC1=CC2=C(C(=C1O)OC)C(=O)C3=C(C(=C(C=C3C2=O)OC)OC)O,344.3,155380.0
+Cassia obtusifolia(决明子),aurantio-obtusin,OK,CC1=CC2=C(C(=C1O)OC)C(=O)C3=C(C(=C(C=C3C2=O)O)OC)O,330.29,155011.0
+Cassia obtusifolia(决明子),chryso-obtusin,OK,CC1=CC2=C(C(=C1O)OC)C(=O)C3=C(C(=C(C=C3C2=O)OC)OC)OC,358.3,155381.0
+Cassia obtusifolia(决明子),rubrofusarin,OK,CC1=CC(=O)C2=C(C3=C(C=C(C=C3C=C2O1)OC)O)O,272.25,72537.0
+Cassia obtusifolia(决明子),nigrofusarin,PUBCHEM_NOT_FOUND,,,
+Cassia obtusifolia(决明子),toralactone,OK,CC1=CC2=CC3=CC(=CC(=C3C(=C2C(=O)O1)O)O)OC,272.25,5321980.0
+Pueraria lobata(葛根),puerarin,OK,C1=CC(=CC=C1C2=COC3=C(C2=O)C=CC(=C3[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O)O,416.4,5281807.0
+Pueraria lobata(葛根),daidzein,OK,C1=CC(=CC=C1C2=COC3=C(C2=O)C=CC(=C3)O)O,254.24,5281708.0
+Pueraria lobata(葛根),daidzin,OK,C1=CC(=CC=C1C2=COC3=C(C2=O)C=CC(=C3)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O,416.4,107971.0
+Pueraria lobata(葛根),genistin,OK,C1=CC(=CC=C1C2=COC3=CC(=CC(=C3C2=O)O)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O,432.4,5281377.0
+Pueraria lobata(葛根),formononetin,OK,COC1=CC=C(C=C1)C2=COC3=C(C2=O)C=CC(=C3)O,268.26,5280378.0
+Pueraria lobata(葛根),biochanin A,OK,COC1=CC=C(C=C1)C2=COC3=CC(=CC(=C3C2=O)O)O,284.26,5280373.0
+Pueraria lobata(葛根),3'-methoxydaidzein,OK,COC1=C(C=CC(=C1)C2=COC3=C(C2=O)C=CC(=C3)O)O,284.26,5319422.0
+Pueraria lobata(葛根),ononin,OK,COC1=CC=C(C=C1)C2=COC3=C(C2=O)C=CC(=C3)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O,430.4,442813.0
+Sedum sarmentosum(垂盆草),sarmentosin,OK,C(/C=C(/CO)\C#N)O[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O,275.25,5281123.0
+Sedum sarmentosum(垂盆草),N-methylalloxanthine,PUBCHEM_NOT_FOUND,,,
+Phyllanthus niruri(叶下珠),phyllanthin,OK,COC[C@@H](CC1=CC(=C(C=C1)OC)OC)[C@H](CC2=CC(=C(C=C2)OC)OC)COC,418.5,358901.0
+Phyllanthus niruri(叶下珠),hypophyllanthin,OK,COC[C@@H]1CC2=CC(=C3C(=C2[C@@H]([C@H]1COC)C4=CC(=C(C=C4)OC)OC)OCO3)OC,430.5,182140.0
+Phyllanthus niruri(叶下珠),nirtetralin,OK,COC[C@H]1CC2=CC3=C(C(=C2[C@H]([C@@H]1COC)C4=CC(=C(C=C4)OC)OC)OC)OCO3,430.5,182644.0
+Phyllanthus niruri(叶下珠),niranthin,OK,COC[C@@H](CC1=CC(=C(C=C1)OC)OC)[C@H](CC2=CC3=C(C(=C2)OC)OCO3)COC,432.5,11575632.0
+Phyllanthus niruri(叶下珠),phytetralin,PUBCHEM_NOT_FOUND,,,
+Morus alba(桑叶),1-deoxynojirimycin,OK,C1[C@@H]([C@H]([C@@H]([C@H](N1)CO)O)O)O,163.17,29435.0
+Morus alba(桑叶),oxyresveratrol,OK,C1=CC(=C(C=C1O)O)/C=C/C2=CC(=CC(=C2)O)O,244.24,5281717.0
+Morus alba(桑叶),astragalin,OK,C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O,448.4,5282102.0
+Morus alba(桑叶),isoquercitrin-dup-ok,PUBCHEM_NOT_FOUND,,,
+Morus alba(桑叶),moracin N,OK,CC(=CCC1=C(C=C2C(=C1)C=C(O2)C3=CC(=CC(=C3)O)O)O)C,310.3,641376.0
+Morus alba(桑叶),moracin M,OK,C1=CC2=C(C=C1O)OC(=C2)C3=CC(=CC(=C3)O)O,242.23,185848.0
+Morus alba(桑叶),mulberrofuran G,OK,CC1=C[C@@H]2[C@@H]3[C@@H](C1)C4=C(C=C(C=C4)O)O[C@@]3(OC5=CC(=CC(=C25)O)C6=CC7=C(O6)C=C(C=C7)O)C8=C(C=C(C=C8)O)O,562.6,9959532.0
+Polygonum cuspidatum(虎杖),piceid,OK,C1=CC(=CC=C1/C=C/C2=CC(=CC(=C2)O[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)O)O,390.4,5281718.0
+Polygonum cuspidatum(虎杖),catechin,OK,C1[C@@H]([C@H](OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O,290.27,9064.0
+Polygonum cuspidatum(虎杖),torachrysone,OK,CC1=CC2=CC(=CC(=C2C(=C1C(=O)C)O)O)OC,246.26,5321977.0

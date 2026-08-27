@@ -1,0 +1,38 @@
+{
+ "THRB": {
+  "target": "CHEMBL1947",
+  "raw": 519,
+  "exact_nm": 519,
+  "unique": 403,
+  "final": 403,
+  "pic50_range": [
+   4.0,
+   10.72
+  ],
+  "median_rep": 1.0
+ },
+ "FASN": {
+  "target": "CHEMBL4158",
+  "raw": 1614,
+  "exact_nm": 1614,
+  "unique": 1110,
+  "final": 1110,
+  "pic50_range": [
+   3.68,
+   8.52
+  ],
+  "median_rep": 1.0
+ },
+ "SCD1": {
+  "target": "CHEMBL1275210",
+  "raw": 240,
+  "exact_nm": 239,
+  "unique": 239,
+  "final": 239,
+  "pic50_range": [
+   4.36,
+   8.4
+  ],
+  "median_rep": 1.0
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "weights": {
+  "THRB_pIC50": 0.25,
+  "FASN_pIC50": 0.15,
+  "SCD1_pIC50": 0.1,
+  "negdG_THRB": 0.2,
+  "negdG_FASN": 0.1,
+  "ad_score": 0.15,
+  "evidence": 0.05
+ },
+ "tiers": {
+  "T2_borderline(边缘)": 39,
+  "T3_extrapolated(域外,仅供假设)": 15
+ }
+}

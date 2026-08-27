@@ -1,0 +1,4 @@
+tier,count,median_sigma
+in_domain_high_conf(域内高置信),72,0.583
+in_domain_low_conf(域内低置信),32,0.769
+OOD_warning(域外预警),27,0.805

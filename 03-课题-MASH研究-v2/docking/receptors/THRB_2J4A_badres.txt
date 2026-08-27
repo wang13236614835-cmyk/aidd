@@ -1,0 +1,5 @@
+residue_key='A:299'
+residue_key='A:333'
+residue_key='A:394'
+residue_key='A:448'
+residue_key='A:461'

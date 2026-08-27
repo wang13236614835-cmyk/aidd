@@ -1,0 +1,10 @@
+{
+ "GSE48452": {
+  "platform": "GPL11532",
+  "group_col": "group"
+ },
+ "GSE63067": {
+  "platform": "GPL570",
+  "group_col": "disease status"
+ }
+}

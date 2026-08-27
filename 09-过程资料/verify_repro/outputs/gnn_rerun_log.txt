@@ -1,0 +1,24 @@
+
+===== SCAFFOLD split (strict): train 284 / val 36 / test 34 =====
+  seed 42 done, best val RMSE 0.917
+  seed 7 done, best val RMSE 0.890
+  seed 2024 done, best val RMSE 0.928
+  seed 11 done, best val RMSE 0.892
+  seed 99 done, best val RMSE 0.885
+[BGNN test] R2=-0.610 RMSE=1.290 MAE=1.039 Spearman=0.533
+[BGNN UQ pooled n=70] sp(sig,|err|)=-0.027 cov=[0.37142857142857144, 0.6571428571428571, 0.8] ECE=0.062
+[RF test] R2=0.047 RMSE=0.992 MAE=0.713 Spearman=0.641
+[XGB test] R2=-0.127 RMSE=1.079 MAE=0.803 Spearman=0.483
+
+===== RANDOM split (proposal-style): train 283 / val 35 / test 36 =====
+  seed 42 done, best val RMSE 1.013
+  seed 7 done, best val RMSE 1.064
+  seed 2024 done, best val RMSE 1.042
+  seed 11 done, best val RMSE 1.021
+  seed 99 done, best val RMSE 1.050
+[BGNN test] R2=0.790 RMSE=0.723 MAE=0.592 Spearman=0.768
+[BGNN UQ pooled n=71] sp(sig,|err|)=0.340 cov=[0.352112676056338, 0.6338028169014085, 0.9436619718309859] ECE=0.029
+[RF test] R2=0.845 RMSE=0.620 MAE=0.498 Spearman=0.811
+[XGB test] R2=0.811 RMSE=0.686 MAE=0.507 Spearman=0.820
+
+saved -> verify_repro/outputs/gnn_metrics_v2_rerun.json

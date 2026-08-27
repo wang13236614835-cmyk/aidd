@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>国创赛项目计划书封面</title>
+<style>
+  @page { size: 794px 1123px; margin: 0; }
+  html, body {
+    margin: 0; padding: 0;
+    background: #ffffff;
+  }
+  .poster {
+    position: relative;
+    width: 794px; height: 1123px;
+    background: #ffffff;
+    font-family: "Microsoft YaHei", "SimHei", sans-serif;
+    color: #1a1b1c;
+  }
+  /* Layer 1: 几何装饰（低饱和，克制） */
+  .deco-top {
+    position: absolute; top: 0; left: 0; right: 0; height: 7px;
+    background: #334650;
+  }
+  .deco-block {
+    position: absolute; top: 96px; right: 96px;
+    width: 150px; height: 150px;
+    border: 1.5px solid #b8c8cf;
+    border-radius: 6px;
+    opacity: 0.75;
+  }
+  .deco-block-inner {
+    position: absolute; top: 122px; right: 122px;
+    width: 98px; height: 98px;
+    background: #e4e7e8;
+    border-radius: 4px;
+    opacity: 0.9;
+  }
+  .deco-line-v {
+    position: absolute; left: 44px; top: 320px;
+    width: 3px; height: 210px;
+    background: #52798c;
+  }
+  /* Layer 3: 文本 */
+  .kicker {
+    position: absolute; left: 111px; top: 176px;
+    font-size: 21px; letter-spacing: 4px;
+    color: #52798c; opacity: 0.72;
+    font-weight: 600;
+  }
+  .hero {
+    position: absolute; left: 111px; top: 300px;
+    width: 572px;
+    font-size: 58px; line-height: 1.32;
+    font-weight: 800; color: #334650;
+    letter-spacing: 2px;
+  }
+  .hero-sub {
+    position: absolute; left: 111px; top: 492px;
+    font-size: 25px; color: #5a7886;
+    font-weight: 600; letter-spacing: 3px;
+  }
+  .summary {
+    position: absolute; left: 111px; top: 610px;
+    width: 560px;
+    background: #f0f1f2;
+    border-left: 4px solid #52798c;
+    padding: 26px 30px;
+    font-size: 17.5px; line-height: 1.75;
+    color: #3d4750;
+  }
+  .meta {
+    position: absolute; left: 111px; bottom: 128px;
+    font-size: 20px; line-height: 1.9;
+    color: #1a1b1c;
+  }
+  .meta .label { color: #6f7578; margin-right: 14px; font-size: 18px; }
+  .footer {
+    position: absolute; left: 111px; bottom: 72px;
+    font-size: 16px; letter-spacing: 3px;
+    color: #6f7578; opacity: 0.7;
+  }
+  @media screen {
+    html { background: #ffffff; }
+    body {
+      transform: scale(0.68);
+      transform-origin: top left;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="poster">
+  <div class="deco-top"></div>
+  <div class="deco-block"></div>
+  <div class="deco-block-inner"></div>
+  <div class="deco-line-v"></div>
+
+  <div class="kicker">中国国际大学生创新大赛（2026） · 项目计划书</div>
+
+  <div class="hero">基于贝叶斯图神经网络的<br>抗MASH天然药物<br>智能筛选</div>
+  <div class="hero-sub">让每一次预测都附带可信度</div>
+
+  <div class="summary">
+    将预测不确定性量化（UQ）系统性引入天然产物虚拟筛选：以贝叶斯图神经网络在输出活性预测的同时输出置信方差，
+    以首创CW-BCS评分量化中药成分群的多靶点覆盖潜力。三套已审计计算管线 + 抗MASH候选分子管线双轮驱动，
+    为1.5亿量级疾病人群的药物发现提供"可信AI"基础设施。
+  </div>
+
+  <div class="meta">
+    <div><span class="label">申报赛道</span>高教主赛道 · 本科生创意组</div>
+    <div><span class="label">项目类别</span>新医科</div>
+    <div><span class="label">所在院校</span>沈阳药科大学 · 医疗器械学院</div>
+  </div>
+
+  <div class="footer">BAYESCREEN · 2026年9月</div>
+</div>
+</body>
+</html>
