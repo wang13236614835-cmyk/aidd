@@ -6,7 +6,9 @@ import os
 import re
 import sys
 
-PDF_SKILL_DIR = r"C:\Users\user\.zcode\cli\plugins\cache\zcode-plugins-official\document-skills\0.1.0\skills\pdf"
+import glob as _glob
+_skill_candidates = sorted(_glob.glob(r"C:\Users\user\.zcode\cli\plugins\cache\zcode-plugins-official\document-skills\*\skills\pdf"))
+PDF_SKILL_DIR = _skill_candidates[-1] if _skill_candidates else r"C:\Users\user\.zcode\cli\plugins\cache\zcode-plugins-official\document-skills\0.1.4\skills\pdf"
 sys.path.insert(0, os.path.join(PDF_SKILL_DIR, "scripts"))
 
 from reportlab.lib import colors
@@ -210,6 +212,8 @@ META = {
     'docs/PHASE_PLAN.md': '两阶段总规划 | 负责人：王启龙 | 阶段：总纲',
     'docs/MANIFEST.md': '全文件清单 | 负责人：王启龙 | 阶段：总纲',
     'docs/VERIFY_MANUAL.md': '人工核验手册 | 负责人：王启龙 | 阶段：总纲',
+    'docs/VERIFY_TASKS.md': '人工校验任务分派表 | 负责人：王启龙 | 阶段：总纲（宁代码·龙辅助·衣+代数据·曼文献）',
+    'docs/MEMBER_WORKBENCH.md': '全员工作台·按人导航 | 负责人：王启龙 | 阶段：总纲（五人全名分节）',
     'docs/minutes/week1-2.md': '组会纪要 | 记录：王启龙 | 阶段：第一阶段（W1-2）',
     'docs/minutes/week3-4.md': '组会纪要 | 记录：王启龙 | 阶段：第一阶段（W3-4）',
     'docs/minutes/week5-6.md': '组会纪要 | 记录：王启龙 | 阶段：第一阶段（W5-6）',
@@ -221,7 +225,16 @@ META = {
     'phase2_semester/WP3_data_expansion.md': '工作包 | 主责：衣思淼 | 阶段：第二阶段（第3-8周）',
     'phase2_semester/WP4_model_upgrade.md': '工作包 | 主责：宁显泷 | 阶段：第二阶段（第7-10周）',
     'phase2_semester/WP5_experiment_bridge.md': '工作包 | 主责：王散曼 | 阶段：第二阶段（第9-16周）',
+    'phase2_semester/推进程序_负责人_王启龙.md': '负责人16周推进程序 | 主责：王启龙 | 阶段：第二学期',
+    'tools/使用说明_学期推进流.md': '工具使用说明 | 主责：王启龙 | 阶段：工具层',
+    '王启龙/工作台.md': '个人工作台（公用一份+我的一份） | 王启龙 | 一级按人',
+    '宁显泷/工作台.md': '个人工作台（公用一份+我的一份） | 宁显泷 | 一级按人',
+    '衣思淼/工作台.md': '个人工作台（公用一份+我的一份） | 衣思淼 | 一级按人',
+    '代维斯丹/工作台.md': '个人工作台（公用一份+我的一份） | 代维斯丹 | 一级按人',
+    '王散曼/工作台.md': '个人工作台（公用一份+我的一份） | 王散曼 | 一级按人',
     'reports/midterm_report.md': '中期考核报告 | 汇编：王启龙 | 阶段：第一阶段（暑假）',
+    'reports/真实对接与统一筛选报告.md': '真实对接与统一筛选报告 | 主责：代维斯丹+全员 | 阶段：真实版',
+    'results/docking/real/README.md': '真实对接数据说明 | 主责：代维斯丹 | 阶段：暑期后增量（真实对接主线）',
     'docs/personal/00_工作量与成果总表.md': '工作量与成果总表 | 负责人：王启龙 | 阶段：两阶段',
     'docs/personal/P1_王启龙.md': '个人工作档案 | 王启龙 | 阶段：两阶段',
     'docs/personal/P2_宁显泷.md': '个人工作档案 | 宁显泷 | 阶段：两阶段',
