@@ -1477,5 +1477,22 @@
     "aidd": "完整MASH研究链、正式数据版本与指导老师汇报",
     "leader": "王启龙"
   },
-  "aidd_url": "https://github.com/wang13236614835-cmyk/aidd"
+  "aidd_url": "https://github.com/wang13236614835-cmyk/aidd",
+  "manuscript_execution": {
+    "authoritative_plan": "中文核心投稿/投稿任务.json",
+    "human_task_table": "中文核心投稿/任务总表.md",
+    "scope": "已立项FXR/GNN/CW-BCS主稿",
+    "first_submission_target": "2026-12-15",
+    "internal_deadline": "2027-02-01",
+    "precedence": "本字段指向的25项计划用于科研投稿；原80项保留教学，避免重复统计",
+    "approval": "conditional_ai_review_not_real_teacher_signoff"
+  },
+  "week_card_alignment": {
+    "semester_start": "2026-09-07",
+    "semester_end": "2026-12-27",
+    "presemester": "仅预习",
+    "mapping_workspace_path": "hepato-gnn-screening/docs/打卡修缮/周卡修缮来源.json",
+    "html_status": "未生成/未修改，需按清单手工同步",
+    "rule": "旧任务ID/原学习节奏保留；投稿任务仅关联不重复计算；旧完成状态不代替新验收"
+  }
 }

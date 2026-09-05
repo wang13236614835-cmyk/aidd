@@ -1,0 +1,450 @@
+{
+  "version": "2026-09-05-fxr-core-submission",
+  "scope": "既定FXR/GNN/CW-BCS主稿",
+  "approval": "AI辅助有条件同意准备，真实导师未签核",
+  "first_submission_target": "2026-12-15",
+  "internal_deadline": "2027-02-01",
+  "school_exact_deadline": "待王启龙核实；用户要求2月",
+  "publication_target": "2027-05，非保证",
+  "tasks": [
+    {
+      "id": "Q01",
+      "owner": "王启龙",
+      "reviewer": "宁显泷",
+      "due": "2026-09-13",
+      "depends_on": [],
+      "title": "主稿与申报、三轮意见逐条映射",
+      "acceptance": "每项连到版本/修改/复算证据，区分V1/教学/V2；不能只写已完成",
+      "deliverable": "selected_version.json、意见关闭表",
+      "mooc_application": "版本追溯",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "Q02",
+      "owner": "王启龙",
+      "reviewer": "王散曼",
+      "due": "2026-09-20",
+      "depends_on": [
+        "Q01"
+      ],
+      "title": "导师与学校、期刊约束核对",
+      "acceptance": "记录中文核心目录/2月确切日/5月认可方式、三刊范围费用；待联系不等于已回信",
+      "deliverable": "导师纪要、期刊比较表",
+      "mooc_application": "研究边界",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "Q03",
+      "owner": "王启龙",
+      "reviewer": "衣思淼",
+      "due": "2026-11-08",
+      "depends_on": [
+        "N03",
+        "D03",
+        "Y04"
+      ],
+      "title": "整合CW-BCS应用与创新证据",
+      "acceptance": "公式/单位统一，等权去UQ去冗余消融和效用/稳定性分开，不强凑药效",
+      "deliverable": "融合验收报告",
+      "mooc_application": "多指标评价",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "Q04",
+      "owner": "王启龙",
+      "reviewer": "宁显泷、王散曼",
+      "due": "2026-11-22",
+      "depends_on": [
+        "N04",
+        "Y05",
+        "D05",
+        "S04"
+      ],
+      "title": "组织真人主稿与真实导师终审",
+      "acceptance": "每个核心结论有原始证据，作者亲写亲核模块；AI用途记录和期刊政策匹配",
+      "deliverable": "稿件冻结包、作者贡献、导师意见",
+      "mooc_application": "科研写作",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "Q05",
+      "owner": "王启龙",
+      "reviewer": "全体作者、真实导师",
+      "due": "2026-12-15",
+      "depends_on": [
+        "Q04",
+        "N05",
+        "D05",
+        "S05"
+      ],
+      "title": "完成正式首投并管理返修",
+      "acceptance": "只有审核通过才实际投稿；留回执/稿号，拒稿后结束前刊流程再转投；内部最晚2027-02-01",
+      "deliverable": "投稿回执、返修逐条表",
+      "mooc_application": "发表流程",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "N01",
+      "owner": "宁显泷",
+      "reviewer": "代维斯丹",
+      "due": "2026-09-13",
+      "depends_on": [],
+      "title": "复算V1一组核心结果并量测算力",
+      "acceptance": "从原始预测重算指标，明确不是教学17例结果，画出早停/校准数据角色",
+      "deliverable": "最小复算记录、耗时",
+      "mooc_application": "回归与校准",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "N02",
+      "owner": "宁显泷",
+      "reviewer": "衣思淼",
+      "due": "2026-09-27",
+      "depends_on": [
+        "N01",
+        "Y01",
+        "S01"
+      ],
+      "title": "冻结比较与校准协议",
+      "acceptance": "预定划分/种子/模型/预算/阈值及失败规则；外部标签由衣保管，不临时择优",
+      "deliverable": "validation_protocol.md",
+      "mooc_application": "数据划分和泄漏",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "N03",
+      "owner": "宁显泷",
+      "reviewer": "衣思淼",
+      "due": "2026-10-25",
+      "depends_on": [
+        "N02",
+        "Y03"
+      ],
+      "title": "执行全套基线与GNN比较",
+      "acceptance": "全部预定运行留存，报告配对差异与样本依赖，外部不足如实说明",
+      "deliverable": "全预测表、性能区间、运行manifest",
+      "mooc_application": "公平比较",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "N04",
+      "owner": "宁显泷",
+      "reviewer": "代维斯丹",
+      "due": "2026-11-01",
+      "depends_on": [
+        "N03"
+      ],
+      "title": "完成UQ与拒判验证",
+      "acceptance": "80/90/95覆盖与宽度、区间评分和风险-保留率，训练/校准模型一致",
+      "deliverable": "UQ结果、参数与局限",
+      "mooc_application": "不确定性",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "N05",
+      "owner": "宁显泷",
+      "reviewer": "代维斯丹",
+      "due": "2026-11-22",
+      "depends_on": [
+        "N04",
+        "Q03"
+      ],
+      "title": "锁定分析环境和复現入口",
+      "acceptance": "依赖、源码/数据哈希、模型与完整命令一致，解释容差；不新开模型竞赛",
+      "deliverable": "环境与复现说明",
+      "mooc_application": "可重复计算",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "Y01",
+      "owner": "衣思淼",
+      "reviewer": "王散曼",
+      "due": "2026-09-13",
+      "depends_on": [],
+      "title": "一个FXR assay全记录来源样例",
+      "acceptance": "活动/文献/单位/关系符/实体一一对应，记录争议和耗时，不只挑容易条目",
+      "deliverable": "assay样例、工作量估计",
+      "mooc_application": "数据来源",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "Y02",
+      "owner": "衣思淼",
+      "reviewer": "王散曼",
+      "due": "2026-09-27",
+      "depends_on": [
+        "Y01",
+        "S01"
+      ],
+      "title": "完成主稿FXR数据与成分登记",
+      "acceptance": "所有正式纳入记录有来源规则，数量链闭合，身份和实验终点审核分列",
+      "deliverable": "FXR审核表、标准化映射、候选来源表",
+      "mooc_application": "结构标准化",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "Y03",
+      "owner": "衣思淼",
+      "reviewer": "宁显泷",
+      "due": "2026-10-11",
+      "depends_on": [
+        "Y02",
+        "N02"
+      ],
+      "title": "数据与独立验证最终冻结",
+      "acceptance": "同实体/簇/文献泄漏检查，真正外部与同源留出区别；所有旧试验视开发证据",
+      "deliverable": "split_ids.csv、相似度表、封存记录",
+      "mooc_application": "训练测试隔离",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "Y04",
+      "owner": "衣思淼",
+      "reviewer": "代维斯丹",
+      "due": "2026-11-01",
+      "depends_on": [
+        "Y03"
+      ],
+      "title": "核验CW-BCS数据输入和药材成分数偏倚",
+      "acceptance": "分榜、成分数匹配、留一成分、权重公式手算；不能把分数稳定当有效",
+      "deliverable": "输入核验表、敏感性结果",
+      "mooc_application": "聚合偏倚",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "Y05",
+      "owner": "衣思淼",
+      "reviewer": "王散曼",
+      "due": "2026-11-15",
+      "depends_on": [
+        "Y04",
+        "Q03"
+      ],
+      "title": "论文表格和数据共享检查",
+      "acceptance": "每表行数/单位/舍入/来源一致，数据许可与不可公开内容说明真实",
+      "deliverable": "表格验收、数据字典",
+      "mooc_application": "数据可用性",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "D01",
+      "owner": "代维斯丹",
+      "reviewer": "宁显泷",
+      "due": "2026-09-13",
+      "depends_on": [],
+      "title": "V1一个共晶系统证据链样例",
+      "acceptance": "确认主稿实际PDB，不套教学/独立V2；原CCD化学和RMSD方法有依据",
+      "deliverable": "共晶样例、图源核对",
+      "mooc_application": "分子对接原理",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "D02",
+      "owner": "代维斯丹",
+      "reviewer": "王散曼",
+      "due": "2026-10-11",
+      "depends_on": [
+        "D01",
+        "S02"
+      ],
+      "title": "V1 FXR/THRβ/ACC结构与药理审查",
+      "acceptance": "链/口袋/构建体/电荷/水与作用方向匹配，失败原因及修改协议留痕",
+      "deliverable": "受体配体清单、冻结对接协议",
+      "mooc_application": "结构质量",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "D03",
+      "owner": "代维斯丹",
+      "reviewer": "宁显泷",
+      "due": "2026-10-25",
+      "depends_on": [
+        "D02"
+      ],
+      "title": "对接稳健性与必要对照",
+      "acceptance": "全部种子不叠合RMSD；姿态与筛选效用分开，门控失败不出有效性主张",
+      "deliverable": "门控日志、对照基准及失败表",
+      "mooc_application": "对接验证",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "D04",
+      "owner": "代维斯丹",
+      "reviewer": "衣思淼",
+      "due": "2026-11-15",
+      "depends_on": [
+        "D03",
+        "Q03",
+        "N04"
+      ],
+      "title": "逐图核验与统一生成",
+      "acceptance": "图从冻结数据生成，标签/对象/分箱/误差棒正确，不手改数字",
+      "deliverable": "图源台账、图表审阅",
+      "mooc_application": "科学可视化",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "D05",
+      "owner": "代维斯丹",
+      "reviewer": "王启龙",
+      "due": "2026-11-22",
+      "depends_on": [
+        "D04",
+        "N05"
+      ],
+      "title": "非实现者干净环境独立复现",
+      "acceptance": "按说明重建主表主图，差异有容差与解释，记录失败与修复",
+      "deliverable": "独立复现记录、最终复核签名",
+      "mooc_application": "复现与误差",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "S01",
+      "owner": "王散曼",
+      "reviewer": "衣思淼",
+      "due": "2026-09-13",
+      "depends_on": [],
+      "title": "主稿FXR终点和创新原文样例",
+      "acceptance": "核验一个assay作用方向与一条主张；至少5篇最接近研究比较，不虚构空白",
+      "deliverable": "终点语义、文献差异表",
+      "mooc_application": "文献批判阅读",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "S02",
+      "owner": "王散曼",
+      "reviewer": "代维斯丹",
+      "due": "2026-09-27",
+      "depends_on": [
+        "S01",
+        "Y01"
+      ],
+      "title": "纳入assay组与天然产物证据复核",
+      "acceptance": "结合/激动/拮抗、物种、来源、药材归属与安全边界均可回原文",
+      "deliverable": "文献-数据关联表",
+      "mooc_application": "药理作用方向",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "S03",
+      "owner": "王散曼",
+      "reviewer": "宁显泷",
+      "due": "2026-10-18",
+      "depends_on": [
+        "S02"
+      ],
+      "title": "V1 GSE135251与背景主张核对",
+      "acceptance": "样本和实际统计方法匹配，不预设差异显著；如需重算仅补主文必要分析",
+      "deliverable": "样本/方法审查和必要结果",
+      "mooc_application": "转录组设计",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "S04",
+      "owner": "王散曼",
+      "reviewer": "衣思淼",
+      "due": "2026-11-15",
+      "depends_on": [
+        "S03",
+        "N04",
+        "Q03"
+      ],
+      "title": "真人论述与候选证据矩阵",
+      "acceptance": "每条创新/边界/候选说法有原文或结果支持，删除普遍不可能/疗效确证语言",
+      "deliverable": "引言讨论依据、候选证据矩阵",
+      "mooc_application": "证据等级",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    },
+    {
+      "id": "S05",
+      "owner": "王散曼",
+      "reviewer": "王启龙",
+      "due": "2026-11-22",
+      "depends_on": [
+        "S04",
+        "Q02"
+      ],
+      "title": "目标期刊最终核查",
+      "acceptance": "目录版本、AI政策、格式、原文引用、收费与出版方式核实；记录未确认项",
+      "deliverable": "投稿要求检查表",
+      "mooc_application": "学术发表规范",
+      "status": "待本人确认",
+      "evidence": "",
+      "reviewer_signoff": "",
+      "teacher_signoff": ""
+    }
+  ],
+  "overall_goal": "争取2027-02达到投稿水准（first_submission_target为内部争取线）；湿实验为进度按时完成、质量优秀、创意新颖前提下的可选后续（锦上添花）——2026-09-05组长确认"
+}
