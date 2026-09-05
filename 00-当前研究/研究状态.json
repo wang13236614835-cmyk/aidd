@@ -19,6 +19,6 @@
   "closing_route": "thesis_landing_or_wetlab_evaluation",
   "closing_route_default": "not_thesis_defense",
   "mooc_checkin": "GNN_16week_semester_plan_from_2026-09-07",
-  "teacher_package": "docs/REPO_SCOPE.md + 给指导老师的研究进展.md + GNN docs/audit/20260905",
+  "teacher_package": "00-当前研究/REPO_SCOPE.md + 00-当前研究/给指导老师的研究进展.md + GNN库docs/audit/20260905",
   "ai_edit_policy": "仅 research-audit-20260905 审计报告可信采信；其余AI改动(两周收尾计划/提前打卡/撤回表述)已回滚或标注待全组复核"
 }
