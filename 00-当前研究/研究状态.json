@@ -3,7 +3,7 @@
   "leader": "王启龙",
   "priority": "dry_research",
   "wetlab_materials": "none",
-  "wetlab": "optional_not_planned",
+  "wetlab": "conditional_after_dry_gates",
   "data_review": "pending",
   "method_review": "blocked_redock_FASN_and_assay_provenance",
   "candidate_release": false,
@@ -16,5 +16,9 @@
     "historical-label RF diagnostics",
     "CCD identity and independent-start redocking",
     "5-member evidence checkin and early MOOC integration"
-  ]
+  ],
+  "closing_route": "thesis_landing_or_wetlab_evaluation",
+  "closing_route_default": "not_thesis_defense",
+  "mooc_checkin": "GNN_W1_M01-M04_W2_M05-M08",
+  "teacher_package": "docs/REPO_SCOPE.md + 给指导老师的研究进展.md + GNN docs/audit/20260905"
 }
