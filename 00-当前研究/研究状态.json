@@ -5,7 +5,7 @@
   "wetlab_materials": "none",
   "wetlab": "conditional_after_dry_gates",
   "data_review": "pending",
-  "method_review": "blocked_redock_FASN_and_assay_provenance",
+  "method_review": "pending_team_review_redock_FASN_and_assay_provenance",
   "candidate_release": false,
   "teacher_approval": "not_recorded",
   "human_learning": "no_completion_assumed",
@@ -14,11 +14,11 @@
     "GNN audit and repairs",
     "MASH v2 numerical corrections",
     "historical-label RF diagnostics",
-    "CCD identity and independent-start redocking",
-    "5-member evidence checkin and early MOOC integration"
+    "CCD identity and independent-start redocking"
   ],
   "closing_route": "thesis_landing_or_wetlab_evaluation",
   "closing_route_default": "not_thesis_defense",
-  "mooc_checkin": "GNN_W1_M01-M04_W2_M05-M08",
-  "teacher_package": "docs/REPO_SCOPE.md + 给指导老师的研究进展.md + GNN docs/audit/20260905"
+  "mooc_checkin": "GNN_16week_semester_plan_from_2026-09-07",
+  "teacher_package": "docs/REPO_SCOPE.md + 给指导老师的研究进展.md + GNN docs/audit/20260905",
+  "ai_edit_policy": "仅 research-audit-20260905 审计报告可信采信；其余AI改动(两周收尾计划/提前打卡/撤回表述)已回滚或标注待全组复核"
 }
