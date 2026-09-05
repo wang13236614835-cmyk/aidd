@@ -1,0 +1,177 @@
+{
+  "mode": "historical_input_diagnostic",
+  "scientific_validation": "not_granted",
+  "wetlab_ready": false,
+  "generated_at": "2026-09-05T04:25:03.698974+00:00",
+  "python": "3.12.0",
+  "rdkit": "2026.03.3",
+  "targets": {
+    "THRB": {
+      "n": 403,
+      "canonical_unique": 403,
+      "old_clusters": 91,
+      "correct_clusters": 91,
+      "old_members_outside_center_cutoff": 309,
+      "correct_members_outside_center_cutoff": 0,
+      "correct_split_sizes": [
+        325,
+        41,
+        37
+      ],
+      "distance_cutoff": 0.4,
+      "equivalent_center_similarity": 0.6,
+      "test_to_train_max_similarity": 0.8,
+      "test_near_neighbor_ge_0_8": 1,
+      "assay_provenance_present": false,
+      "corrected_RF_diagnostic": {
+        "seed": 42,
+        "n_estimators": 300,
+        "RMSE": 0.980881640498348,
+        "mean_baseline_RMSE": 1.6229900117864393,
+        "R2": 0.5282651686626707,
+        "Spearman": 0.7933139721125702,
+        "calibration_radius": 1.2291455217021436,
+        "empirical_test_coverage": 0.8108108108108109,
+        "interval_claim": "empirical only; cluster shift/extrapolation do not guarantee 95% coverage"
+      }
+    },
+    "FASN": {
+      "n": 1110,
+      "canonical_unique": 1110,
+      "old_clusters": 72,
+      "correct_clusters": 127,
+      "old_members_outside_center_cutoff": 1004,
+      "correct_members_outside_center_cutoff": 0,
+      "correct_split_sizes": [
+        889,
+        111,
+        110
+      ],
+      "distance_cutoff": 0.4,
+      "equivalent_center_similarity": 0.6,
+      "test_to_train_max_similarity": 0.8888888888888888,
+      "test_near_neighbor_ge_0_8": 27,
+      "assay_provenance_present": false,
+      "corrected_RF_diagnostic": {
+        "seed": 42,
+        "n_estimators": 300,
+        "RMSE": 0.973743295615209,
+        "mean_baseline_RMSE": 1.5389418083046935,
+        "R2": 0.3392298852911503,
+        "Spearman": 0.6287111665162446,
+        "calibration_radius": 1.437969800360551,
+        "empirical_test_coverage": 0.8363636363636363,
+        "interval_claim": "empirical only; cluster shift/extrapolation do not guarantee 95% coverage"
+      }
+    },
+    "SCD1": {
+      "n": 239,
+      "canonical_unique": 239,
+      "old_clusters": 41,
+      "correct_clusters": 52,
+      "old_members_outside_center_cutoff": 184,
+      "correct_members_outside_center_cutoff": 0,
+      "correct_split_sizes": [
+        193,
+        24,
+        22
+      ],
+      "distance_cutoff": 0.4,
+      "equivalent_center_similarity": 0.6,
+      "test_to_train_max_similarity": 0.7741935483870968,
+      "test_near_neighbor_ge_0_8": 0,
+      "assay_provenance_present": false,
+      "corrected_RF_diagnostic": {
+        "seed": 42,
+        "n_estimators": 300,
+        "RMSE": 1.118116672189451,
+        "mean_baseline_RMSE": 1.013597331357007,
+        "R2": -0.23884975920834717,
+        "Spearman": 0.08187464709203841,
+        "calibration_radius": 1.6402778504538258,
+        "empirical_test_coverage": 0.8636363636363636,
+        "interval_claim": "empirical only; cluster shift/extrapolation do not guarantee 95% coverage"
+      }
+    }
+  },
+  "input_hashes": {
+    "03-课题-MASH研究-v2\\data\\chembl\\THRB_clean.csv": "6ba3cdc86044b8714e8f50b3a9c40de06f0e986a8ecfe27cd27b4b2d95f4b3d2",
+    "03-课题-MASH研究-v2\\data\\chembl\\FASN_clean.csv": "d61419f458e9505ff1682362e0b8ed4adc96ad35fc071b72286ce5d92e1d5aa6",
+    "03-课题-MASH研究-v2\\data\\chembl\\SCD1_clean.csv": "bf24f102c2083e4834a9e79bbf2d539ea12bffd659f81e01c4c0eef16135084c",
+    "03-课题-MASH研究-v2\\data\\geo\\GSE48452_gene_expr.csv.gz": "9f408672d44cd816043c1fe0454d94f5c3350d465b9712537dda2c8a5f437191",
+    "03-课题-MASH研究-v2\\data\\geo\\GSE48452_meta.csv": "e5fb3fa2378551dbb4f877256476de8d961453c7924aeae4a93afb513d234561",
+    "03-课题-MASH研究-v2\\data\\geo\\GSE63067_gene_expr.csv.gz": "0ae2d29e09337a9fc0642787c5ad8289ff0158b604c876cc3e0544a1a2ced914",
+    "03-课题-MASH研究-v2\\data\\geo\\GSE63067_meta.csv": "e3029d8b357ea74752c12594ea455aea948d7b355b67d788139244ccb5b42058"
+  },
+  "scope": "MASH v2 molecular tables, clustering, optional RF, stored transcriptome reanalysis; no new activity assay review or efficacy validation",
+  "np_library": {
+    "rows": 54,
+    "columns": [
+      "herb",
+      "name",
+      "status",
+      "smiles",
+      "mw_pubchem",
+      "cid",
+      "mw",
+      "logp",
+      "hbd",
+      "hba",
+      "rotb",
+      "tpsa",
+      "admet_fail"
+    ],
+    "valid_smiles": 54,
+    "unique_isomeric_smiles": 54
+  },
+  "historical_target_FDR": [
+    {
+      "gene": "THRB",
+      "p_meta": 0.0132,
+      "padj_meta": 0.336
+    },
+    {
+      "gene": "FASN",
+      "p_meta": 0.0485,
+      "padj_meta": 0.504
+    },
+    {
+      "gene": "SCD",
+      "p_meta": 0.0024,
+      "padj_meta": 0.158
+    },
+    {
+      "gene": "DGAT2",
+      "p_meta": 0.000402,
+      "padj_meta": 0.0629
+    }
+  ],
+  "clinical_target_confirmation_from_expression": "not established: all four historical FDR > 0.05; expression association is not intervention causality",
+  "welch_meta_focus": [
+    {
+      "symbol": "DGAT2",
+      "z_meta": 3.1428046865176564,
+      "p_meta": 0.001673374563065007,
+      "padj_meta": 0.15488316037811525
+    },
+    {
+      "symbol": "FASN",
+      "z_meta": 2.0591973552381795,
+      "p_meta": 0.03947533643859825,
+      "padj_meta": 0.4956510367657354
+    },
+    {
+      "symbol": "SCD",
+      "z_meta": 2.6396465303262517,
+      "p_meta": 0.00829925370489717,
+      "padj_meta": 0.3134474069271675
+    },
+    {
+      "symbol": "THRB",
+      "z_meta": 2.2272261646636125,
+      "p_meta": 0.025932162296835246,
+      "padj_meta": 0.4439187583626669
+    }
+  ],
+  "transcriptome_limit": "Unadjusted diagnostic, not limma; covariates, annotation ambiguity, independent cohorts and normalization require review."
+}

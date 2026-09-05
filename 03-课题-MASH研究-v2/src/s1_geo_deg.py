@@ -6,6 +6,9 @@ S1: 病理学靶点确证（全新数据）。
      THRB/FASN/SCD1 靶点方向验证 + 经典对照基因 + KEGG ORA。
 不使用旧项目任何代码或数据。
 """
+
+# Historical pipeline: its outputs are invalidated; corrected code lives in 00-当前研究.
+raise RuntimeError("此历史入口已停用以保留原数据与结果；请使用仓库00-当前研究中的诊断/修订流程。")
 import gzip, io, json, os, re, urllib.request
 import numpy as np
 import pandas as pd

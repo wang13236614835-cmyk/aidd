@@ -5,6 +5,9 @@ S5a: 对接准备（全新实现）。
 配体制备: 晶体配体直接取坐标; 化合物SMILES -> ETKDG/MMFF -> meeko pdbqt。
 结构: THRB=2J4A(OEF/sobetirome共晶), FASN=7MHD(ZEP磺酰胺噻唑抑制剂共晶)。
 """
+
+# Historical pipeline: its outputs are invalidated; corrected code lives in 00-当前研究.
+raise RuntimeError("此历史入口已停用以保留原数据与结果；请使用仓库00-当前研究中的诊断/修订流程。")
 import json, os, re, subprocess, sys
 import numpy as np
 import pandas as pd

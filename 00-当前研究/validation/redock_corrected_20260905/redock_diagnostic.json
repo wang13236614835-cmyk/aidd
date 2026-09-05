@@ -1,0 +1,110 @@
+{
+  "THRB": {
+    "CCD_formula": "C18H18Br2O4",
+    "rmsd_no_alignment": 0.7192312541304148,
+    "pose_threshold_pass": true,
+    "seed": 42,
+    "independent_start": true,
+    "box": {
+      "center": [
+        4.25,
+        20.95,
+        32.03
+      ],
+      "size": [
+        31.6,
+        29.8,
+        25.0
+      ]
+    },
+    "command": [
+      "D:\\zcode-workspace\\hepato-gnn-screening\\final-aidd-screening\\docking\\vina.exe",
+      "--receptor",
+      "D:\\zcode-workspace\\aidd-repo-work\\03-课题-MASH研究-v2\\docking\\receptors\\THRB_2J4A.pdbqt",
+      "--ligand",
+      "D:\\zcode-workspace\\research-audit-20260905\\aidd-redock-corrected\\THRB_initial.pdbqt",
+      "--out",
+      "D:\\zcode-workspace\\research-audit-20260905\\aidd-redock-corrected\\THRB_pose.pdbqt",
+      "--center_x",
+      "4.25",
+      "--center_y",
+      "20.95",
+      "--center_z",
+      "32.03",
+      "--size_x",
+      "31.6",
+      "--size_y",
+      "29.8",
+      "--size_z",
+      "25.0",
+      "--seed",
+      "42",
+      "--exhaustiveness",
+      "16",
+      "--num_modes",
+      "9",
+      "--cpu",
+      "4"
+    ],
+    "receptor_sha256": "c9a69f39abb9a8363c10a97d9c3e6001f0b338f8cd21198fcd9d4d2289a86e04",
+    "raw_PDB_sha256": "3927d873fe47522ad8c102a03ed06778c2771f8fd9944eada01c7293dbc79d07",
+    "vina_sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5",
+    "pose_sha256": "49ff47af1ec2e40a7d18364164f1611704d6606c529d0e2e71c574e7ecbf673d",
+    "scientific_gate": "pending_receptor_review_and_multiseed",
+    "limitation": "Archived receptor reused; no receptor protonation/chain review; single seed does not validate target function or MASH efficacy."
+  },
+  "FASN": {
+    "CCD_formula": "C20H21FN2O2S2",
+    "rmsd_no_alignment": 2.076567383188259,
+    "pose_threshold_pass": false,
+    "seed": 42,
+    "independent_start": true,
+    "box": {
+      "center": [
+        1.43,
+        61.22,
+        170.07
+      ],
+      "size": [
+        23.0,
+        26.8,
+        26.9
+      ]
+    },
+    "command": [
+      "D:\\zcode-workspace\\hepato-gnn-screening\\final-aidd-screening\\docking\\vina.exe",
+      "--receptor",
+      "D:\\zcode-workspace\\aidd-repo-work\\03-课题-MASH研究-v2\\docking\\receptors\\FASN_7MHD.pdbqt",
+      "--ligand",
+      "D:\\zcode-workspace\\research-audit-20260905\\aidd-redock-corrected\\FASN_initial.pdbqt",
+      "--out",
+      "D:\\zcode-workspace\\research-audit-20260905\\aidd-redock-corrected\\FASN_pose.pdbqt",
+      "--center_x",
+      "1.43",
+      "--center_y",
+      "61.22",
+      "--center_z",
+      "170.07",
+      "--size_x",
+      "23.0",
+      "--size_y",
+      "26.8",
+      "--size_z",
+      "26.9",
+      "--seed",
+      "42",
+      "--exhaustiveness",
+      "32",
+      "--num_modes",
+      "9",
+      "--cpu",
+      "4"
+    ],
+    "receptor_sha256": "0a926334af2eae1ba6b551cdc8da2db2be95659e535b5a35b0501dbbe8f2e701",
+    "raw_PDB_sha256": "e9ae749587bd6f168d2aaf782ad24d879aae8a7b40c8f54722ffdbb28f98d1f6",
+    "vina_sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5",
+    "pose_sha256": "044eeb3b9f8ddd35dbb85e8e6cdd7cc7de5727b54322213124c767147b9d2660",
+    "scientific_gate": "pending_receptor_review_and_multiseed",
+    "limitation": "Archived receptor reused; no receptor protonation/chain review; single seed does not validate target function or MASH efficacy."
+  }
+}

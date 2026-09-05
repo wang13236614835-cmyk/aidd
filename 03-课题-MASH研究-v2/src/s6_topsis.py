@@ -7,6 +7,9 @@ S6: TOPSIS多准则优先级排序（全新评分设计，非旧CW-BCS）。
   C6 域适用度(三靶点maxTan均值) 0.15 | C7 药材证据等级(A=1,B=0.66,C+=0.33) 0.05
 输出: 化合物TOPSIS贴近度+置信分层(域内/边缘/域外) + 药材级汇总 + 前20优先清单。
 """
+
+# Historical pipeline: its outputs are invalidated; corrected code lives in 00-当前研究.
+raise RuntimeError("此历史入口已停用以保留原数据与结果；请使用仓库00-当前研究中的诊断/修订流程。")
 import json
 import numpy as np
 import pandas as pd

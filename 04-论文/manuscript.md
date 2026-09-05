@@ -1,3 +1,5 @@
+> **2026-09-05历史状态：本文保留旧叙事/数值供审计，未作为当前研究结论。当前修订、范围与未解决项见仓库根目录00-当前研究/给指导老师的研究进展.md。MASH干实验优先，湿实验为可选。**
+
 # When random splits mislead: quantifying scaffold-level extrapolation collapse and the limits of post-hoc uncertainty recalibration in Bayesian graph neural network screening of natural products
 
 **Qilong Wang, [Additional team members], Xiwei Jiang\***

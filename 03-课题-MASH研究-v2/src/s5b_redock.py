@@ -4,6 +4,9 @@ S5b: 重对接门控(RMSD<2Å) + 阳性对照。
 晶体配体(OEF/ZEP)原位坐标制备pdbqt -> Vina重对接(exh=16,seed=42) -> 与晶体构象GetBestRMS。
 阳性对照: resmetirom(THRb获批药) / orlistat(FASN-TE经典抑制剂)。
 """
+
+# Historical pipeline: its outputs are invalidated; corrected code lives in 00-当前研究.
+raise RuntimeError("此历史入口已停用以保留原数据与结果；请使用仓库00-当前研究中的诊断/修订流程。")
 import json, os, re, subprocess
 import numpy as np
 from rdkit import Chem, RDLogger

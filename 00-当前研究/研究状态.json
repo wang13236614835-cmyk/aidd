@@ -1,0 +1,20 @@
+{
+  "direction": "MASH",
+  "leader": "王启龙",
+  "priority": "dry_research",
+  "wetlab_materials": "none",
+  "wetlab": "optional_not_planned",
+  "data_review": "pending",
+  "method_review": "blocked_redock_FASN_and_assay_provenance",
+  "candidate_release": false,
+  "teacher_approval": "not_recorded",
+  "human_learning": "no_completion_assumed",
+  "completed_machine_work": [
+    "inventory",
+    "GNN audit and repairs",
+    "MASH v2 numerical corrections",
+    "historical-label RF diagnostics",
+    "CCD identity and independent-start redocking",
+    "5-member evidence checkin and early MOOC integration"
+  ]
+}

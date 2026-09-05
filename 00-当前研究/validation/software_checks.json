@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-09-05T04:43:17.596266+00:00",
+  "software_passed": true,
+  "scientific_validation": "not_granted",
+  "checks": [
+    {
+      "name": "Butina_distance_order",
+      "passed": true,
+      "detail": "Lower-triangle implementation agrees with independent full-matrix clustering."
+    },
+    {
+      "name": "finite_sample_conformal",
+      "passed": true,
+      "detail": "Exact order statistic and insufficient-calibration infinite radius verified."
+    },
+    {
+      "name": "Welch_formula",
+      "passed": true,
+      "detail": "Welch statistic uses unequal-variance degrees of freedom; BH includes all valid tests."
+    },
+    {
+      "name": "signed_meta_weights",
+      "passed": true,
+      "detail": "Signed effects and effective-sample weights independently checked."
+    },
+    {
+      "name": "ORA_test_family",
+      "passed": true,
+      "detail": "Zero-overlap tested pathways retained in BH family."
+    }
+  ]
+}

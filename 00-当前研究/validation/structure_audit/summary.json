@@ -1,0 +1,41 @@
+{
+  "THRB": {
+    "source_url": "https://www.rcsb.org/ligand/OEF",
+    "CCD_smiles": "CC(C)c1cc(ccc1O)Oc2c(cc(cc2Br)CCC(=O)O)Br",
+    "CCD_formula": "C18H18Br2O4",
+    "saved_reference_formula": "C18H32Br2O4",
+    "saved_reference_bond_types": [
+      "SINGLE"
+    ],
+    "pose_files": [
+      {
+        "file": "03-课题-MASH研究-v2/docking/outputs/THRB_OEF_redock_THRB_out.pdbqt",
+        "no_alignment_RMSD": 0.6639465877833124,
+        "aligned_RMSD": 0.5642648934142245
+      }
+    ],
+    "scientific_gate": "invalid_reference_chemistry"
+  },
+  "FASN": {
+    "source_url": "https://www.rcsb.org/ligand/ZEP",
+    "CCD_smiles": "CCN(CC)S(=O)(=O)c1ccc(cc1)c2csc(n2)Cc3ccccc3F",
+    "CCD_formula": "C20H21FN2O2S2",
+    "saved_reference_formula": "C20H39FN2O2S2",
+    "saved_reference_bond_types": [
+      "SINGLE"
+    ],
+    "pose_files": [
+      {
+        "file": "03-课题-MASH研究-v2/docking/outputs/FASN_ZEP_redock_FASN_out.pdbqt",
+        "no_alignment_RMSD": 2.1067663185946492,
+        "aligned_RMSD": 2.073855226352703
+      },
+      {
+        "file": "03-课题-MASH研究-v2/docking/outputs/FASN_ZEP_redock_retry.pdbqt",
+        "no_alignment_RMSD": 1.6569902276523873,
+        "aligned_RMSD": 1.6187002560852606
+      }
+    ],
+    "scientific_gate": "invalid_reference_chemistry"
+  }
+}

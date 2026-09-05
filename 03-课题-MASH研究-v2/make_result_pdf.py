@@ -2,6 +2,9 @@
 """
 结果可视化PDF：聚焦排名与研究过程，直观展示。
 """
+
+# Historical pipeline: its outputs are invalidated; corrected code lives in 00-当前研究.
+raise RuntimeError("此历史入口已停用以保留原数据与结果；请使用仓库00-当前研究中的诊断/修订流程。")
 import json, os
 import numpy as np
 import pandas as pd

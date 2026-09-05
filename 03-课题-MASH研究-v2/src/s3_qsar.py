@@ -8,6 +8,9 @@ S3: 三靶点QSAR（全新方法设计）。
 域外判据: 对训练集最大Tanimoto相似度(kNN-AD)。
 输出: 各靶点模型指标 + NP库54化合物预测(μ, conformal区间, kNN-AD)。
 """
+
+# Historical pipeline: its outputs are invalidated; corrected code lives in 00-当前研究.
+raise RuntimeError("此历史入口已停用以保留原数据与结果；请使用仓库00-当前研究中的诊断/修订流程。")
 import json, math
 import numpy as np
 import pandas as pd

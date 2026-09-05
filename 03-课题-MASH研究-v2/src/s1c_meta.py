@@ -3,6 +3,9 @@
 S1c: 跨队列meta-DE + 靶点证据总表 + 基于meta-DEG的KEGG ORA + 纤维化/NAS相关。
 GSE48452(NASH vs Control, n=18/14) 与 GSE63067(NASH vs Healthy, n=9/7) 的z值Stouffer合并。
 """
+
+# Historical pipeline: its outputs are invalidated; corrected code lives in 00-当前研究.
+raise RuntimeError("此历史入口已停用以保留原数据与结果；请使用仓库00-当前研究中的诊断/修订流程。")
 import json
 import numpy as np
 import pandas as pd

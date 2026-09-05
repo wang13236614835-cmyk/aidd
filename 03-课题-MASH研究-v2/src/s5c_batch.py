@@ -4,6 +4,9 @@ S5c: NP库批量对接（54化合物 × THRB/FASN）。
 盒子使用门控验证过的: THRB(pad10) / FASN(pad8)。exh=8, seed=42, num_modes=9。
 输出: results/tables/np_docking_raw_new.csv
 """
+
+# Historical pipeline: its outputs are invalidated; corrected code lives in 00-当前研究.
+raise RuntimeError("此历史入口已停用以保留原数据与结果；请使用仓库00-当前研究中的诊断/修订流程。")
 import json, os, re, subprocess
 import numpy as np
 import pandas as pd

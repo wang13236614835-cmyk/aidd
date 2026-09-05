@@ -5,6 +5,9 @@
 2) ChEMBL: activity.json 用过滤参数而非q
 3) RCSB: search API v2 用POST
 """
+
+# Historical pipeline: its outputs are invalidated; corrected code lives in 00-当前研究.
+raise RuntimeError("此历史入口已停用以保留原数据与结果；请使用仓库00-当前研究中的诊断/修订流程。")
 import json, time, urllib.request, urllib.parse
 
 UA = {"User-Agent": "academic-drug-research/2.0 (fresh independent project)",

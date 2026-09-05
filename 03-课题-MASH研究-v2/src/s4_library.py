@@ -5,6 +5,9 @@ S4: 天然产物库构建（全新，文献驱动）。
 依据: 2024-2026 TCM-NAFLD系统综述 + 经典药理文献（research/literature_notes.md）。
 流程: 名称清单 -> PubChem PUG-REST (CID+IsomericSMILES) -> RDKit性质过滤 -> 排除清单 -> NP库。
 """
+
+# Historical pipeline: its outputs are invalidated; corrected code lives in 00-当前研究.
+raise RuntimeError("此历史入口已停用以保留原数据与结果；请使用仓库00-当前研究中的诊断/修订流程。")
 import json, time, urllib.parse, urllib.request
 import pandas as pd
 from rdkit import Chem, RDLogger

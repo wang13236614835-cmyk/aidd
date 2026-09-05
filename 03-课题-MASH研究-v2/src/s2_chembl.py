@@ -5,6 +5,9 @@ S2: ChEMBL数据获取+清洗（全新实现）。
 拉取: target_chembl_id + standard_type=IC50 + assay_type=B + Homo sapiens + relation '=' + nM。
 清洗: 盐剥离→最大片段→混合物剔除→MW>=150→pIC50→规范SMILES去重(均值)→PAINS A/B/C。
 """
+
+# Historical pipeline: its outputs are invalidated; corrected code lives in 00-当前研究.
+raise RuntimeError("此历史入口已停用以保留原数据与结果；请使用仓库00-当前研究中的诊断/修订流程。")
 import json, time, urllib.parse, urllib.request
 import numpy as np
 import pandas as pd

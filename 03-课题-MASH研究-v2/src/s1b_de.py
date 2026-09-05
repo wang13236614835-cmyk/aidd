@@ -5,6 +5,9 @@ GSE48452 (GPL11532 HuGene1.1ST, 主): NASH(18) vs Control(14), 次对照NASH vs 
 GSE63067 (GPL570 U133Plus2, 复验): NASH(9) vs Healthy(7)。
 探针->基因: 每符号取IQR最大探针。DE: Welch t + BH。
 """
+
+# Historical pipeline: its outputs are invalidated; corrected code lives in 00-当前研究.
+raise RuntimeError("此历史入口已停用以保留原数据与结果；请使用仓库00-当前研究中的诊断/修订流程。")
 import gzip, io, json, os, re, urllib.request
 import numpy as np
 import pandas as pd

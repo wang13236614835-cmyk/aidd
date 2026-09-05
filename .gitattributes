@@ -1,0 +1,6 @@
+# Molecular coordinate columns and archived evidence are not source-code diffs.
+*.pdb -text -diff
+*.pdbqt -text -diff
+*.sdf -text -diff
+docs/archive/** -diff
+*.log -text -diff

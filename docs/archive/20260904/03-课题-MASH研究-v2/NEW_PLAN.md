@@ -1,0 +1,60 @@
+# 全新研究计划：抗MASH天然药物发现（独立重做版）
+
+> **本项目为完全独立的重新开始**：不使用旧申报书、旧数据、旧管线、旧结果。
+> 唯一保留的是课题方向——抗MASH（代谢功能障碍相关脂肪性肝炎）中药/天然药物发现。
+> 全部数据2026-08-23起从公共数据库重新获取；全部方法重新设计。
+
+## 0. 与旧方案的独立性声明
+
+| 维度 | 旧项目（不复用） | 本项目（全新） |
+|---|---|---|
+| 疾病转录组 | GSE135251 (RNA-seq, 216例) | **GSE48452 (n=73, 主) + GSE63067 (n=18, 复验)**，芯片数据，limma风格分析 |
+| 靶点组合 | FXR / THRβ / ACC2 | **THRβ(激动) / FASN(抑制) / SCD1(抑制)**——DNL(脂肪酸从头合成)+甲状腺轴 |
+| ML方法 | 贝叶斯GIN + MC Dropout | **Morgan指纹 + 梯度提升/随机森林集成 + split conformal区间**；**骨架聚类划分为首要评估**，随机划分为次要 |
+| 适用域 | PCA杠杆 | **指纹空间kNN Tanimoto距离域** |
+| 中药库 | 黄连/苦参/丹参等10味 | **茵陈/绞股蓝/山楂/泽泻/决明子/葛根/垂盆草/叶下珠/桑叶/菊苣**（2024-2026文献驱动的新清单） |
+| 对接结构 | 3FLI/1OSH/3GWS/5KKN/3GID | **THRβ 2J4A(GC-1共晶)/FASN 2PX6(orlistat共晶)/SCD1人源结构**（全新选择） |
+| 综合评分 | CW-BCS几何均值 | **TOPSIS多准则决策**（QSAR分位×对接z分×域适用度×证据等级×安全性规则） |
+
+## 1. 靶点选择依据（2026-08独立调研）
+
+三线证据交叉（文献→转录组→数据可用性）：
+
+1. **THRβ（激动）**：resmetirom 2024-03 FDA首个获批MASH药；2025-08 semaglutide第二。
+   ChEMBL人源IC50 644条；人源结构40个≤3Å。
+2. **FASN（抑制）**：TVB-2640（firsocostat类DNL轴）MASH 2b期临床；DNL是MASH核心病理轴。
+   ChEMBL人源IC50 1,864条；TE结构域-药物共晶（2PX6 orlistat）可用。
+3. **SCD1（抑制）**：MK-8245等SCD1抑制剂临床 lineage；单不饱和脂肪酸合成限速酶。
+   ChEMBL人源IC50 485条；人源结构待核（候选4ZMV等）。
+4. 备选被排除记录：DGAT2（ION224 Lancet 2b期验证，但无实验结构且ChEMBL仅288条→不入主管线，写入局限）；ACACA/ACACB数据量不足（49/8条）；PPARα/δ数据量大但elafibranor 3期失败且属旧邻域。
+
+## 2. 技术路线（7步）
+
+```
+S1 病理学靶点确证   GSE48452主队列+GSE63067复验 → limma风格DE → THRB/FASN/SCD1方向验证 + KEGG通路
+S2 活性数据集构建   ChEMBL REST新拉取 THRβ/FASN/SCD1 IC50 → 盐剥离/去重均值/PAINS → 三靶点清洗集
+S3 QSAR建模        Morgan2048 + XGB/RF集成, split conformal区间; 骨架聚类划分(主)+随机划分(次); kNN-Tanimoto域
+S4 天然产物库      10味新中药成分(文献清单) → PubChem CID解析 → 性质过滤+新排除清单 → NP集
+S5 分子对接        2J4A/2PX6/SCD1 → 重对接门控(RMSD<2Å) → 阳性对照(sobetirome/orlistat/MK-8245类) → NP批量
+S6 综合优先级      TOPSIS: QSAR方向分位 + 对接z + 域适用度 + 文献证据层 + 安全规则; 化合物/药材两级输出
+S7 报告           新最终报告 + 全部表格可溯源
+```
+
+## 3. 判定标准（事先声明）
+
+- 重对接门控：RMSD<2.0Å，未过则换结构/盒子
+- QSAR可报线：骨架划分下Spearman>0.3且RMSE优于"训练集均值基线"
+- 阳性对照合理性：已知药物在其靶点排名需进入前列（THRβ: sobetirome/resmetirom类；FASN: orlistat/TVB类）
+- 候选输出：TOPSIS前排 + 域内 + 无安全警示 → 分层推荐（非二元结论）
+
+## 4. 风险与备选
+
+- SCD1人源配体结构若不可用 → 改用小鼠SCD1共晶（4YMK系）并声明种属局限；或SCD1降级为QSAR-only
+- GSE63067样本小(n=18) → 仅作方向复验，不做定量合并
+- PubChem解析率低 → 允许逐条人工补SMILES（记录来源）
+
+## 5. 交付物
+
+- `src/s1~s7` 全流程脚本 + `research/` 调研记录
+- `results/tables|figures/` + `NEW_REPORT.md`
+- 全部原始数据在 `data/`（获取日期2026-08-23）
