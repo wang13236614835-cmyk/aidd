@@ -5,7 +5,7 @@
   "wetlab_materials": "none",
   "wetlab": "conditional_after_dry_gates",
   "data_review": "pending",
-  "method_review": "pending_team_review_redock_FASN_and_assay_provenance",
+  "method_review": "selected_V1_FXR_manuscript_evidence_acceptance_pending",
   "candidate_release": false,
   "teacher_approval": "not_recorded",
   "human_learning": "no_completion_assumed",
@@ -20,5 +20,36 @@
   "closing_route_default": "not_thesis_defense",
   "mooc_checkin": "GNN_16week_semester_plan_from_2026-09-07",
   "teacher_package": "00-当前研究/REPO_SCOPE.md + 00-当前研究/给指导老师的研究进展.md + GNN库docs/audit/20260905",
-  "ai_edit_policy": "仅 research-audit-20260905 审计报告可信采信；其余AI改动(两周收尾计划/提前打卡/撤回表述)已回滚或标注待全组复核"
+  "ai_edit_policy": "仅 research-audit-20260905 审计报告可信采信；其余AI改动(两周收尾计划/提前打卡/撤回表述)已回滚或标注待全组复核",
+  "revision_batches": {
+    "batch1_20260905": {
+      "trigger": "核心期刊审查20260905(60项)",
+      "scope": "口径/统计/证据结构修正;未放行候选",
+      "artifacts": [
+        "00-当前研究/研究问题协议_G0.md(项01,待导师批准)",
+        "00-当前研究/验证状态分类_20260905.md(项51/54)",
+        "00-当前研究/run_validation_extras.py + validation/extras_20260905/(项19/20/22/23)",
+        "hepato-gnn-screening/final-aidd-screening/run_revision1.py + results/validation/fxr_revision1_20260905/(项17/34/35/36/37/39/46/47)"
+      ],
+      "open_P0": "数据审核05-13;外部验证14/16;终点方向09;对接门控27/28;转录组41-45;期刊对照02/03",
+      "ledger": "核心期刊审查_20260905/大修整改台账.md"
+    }
+  },
+  "status_classes": {
+    "software_fix": "18/20通过(F05开放,F19部分)",
+    "data_review": "0完成(GNN身份100,标签100,AIDD活性1752,天然产物54均pending)",
+    "external_validation": "未开始",
+    "scientific_conclusion": "干研究定位成立;药效/机制/双靶/候选主张冻结",
+    "scope_note": "现有18/20、100/1752/54等状态对应教学或独立V2，不能代判V1主稿；见验证状态分类_20260905.md"
+  },
+  "manuscript_scope": "申报V1 FXR/GNN/CW-BCS；教学分类与独立V2隔离",
+  "manuscript_execution": {
+    "review": "AI辅助有条件进入投稿准备，非真人导师签核",
+    "plan": "00-当前研究/中文核心投稿审批与五人执行方案.md",
+    "tasks": "10-任务分配与进度/中文核心投稿/投稿任务.json",
+    "first_submission_target": "2026-12-15",
+    "internal_deadline": "2027-02-01",
+    "target": "中文核心；目录版本与学校认可待核实",
+    "status": "任务待本人确认；最终科学验证和投稿均未完成"
+  }
 }

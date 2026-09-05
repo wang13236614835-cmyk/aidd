@@ -1,0 +1,421 @@
+{
+  "mode": "validation_extras_descriptive",
+  "scientific_validation": "not_granted",
+  "basis": "同 validation/20260905 冻结输入与同一划分/模型设定(seed=42)",
+  "review_items": {
+    "19": "跨集相似度分布",
+    "20": "划分选择性测量",
+    "22": "误差按近邻分层",
+    "23": "覆盖率Wilson CI"
+  },
+  "targets": {
+    "THRB": {
+      "item19_similarity": {
+        "test_to_train": {
+          "n": 37,
+          "quantiles_p05_p25_p50_p75_p95": [
+            0.2375,
+            0.5455,
+            0.6098,
+            0.7,
+            0.7742
+          ],
+          "share_ge_0.8": 0.027,
+          "share_ge_0.6": 0.6216,
+          "share_lt_0.4": 0.1892
+        },
+        "val_to_train": {
+          "n": 41,
+          "quantiles_p05_p25_p50_p75_p95": [
+            0.2892,
+            0.5882,
+            0.7027,
+            0.7636,
+            0.8372
+          ],
+          "share_ge_0.8": 0.0732,
+          "share_ge_0.6": 0.6829,
+          "share_lt_0.4": 0.122
+        },
+        "train_leave_one_out": {
+          "n": 325,
+          "quantiles_p05_p50_p95": [
+            0.6735,
+            0.7826,
+            1.0
+          ]
+        },
+        "note": "0.8为诊断阈值,不是通用泄漏界线;骨架/簇不交叉不排除指纹相似"
+      },
+      "item20_split_selectivity": {
+        "splits": [
+          {
+            "split": "train",
+            "n": 325,
+            "n_clusters": 36,
+            "cluster_size_median": 8.0,
+            "cluster_size_max": 32,
+            "pIC50_min": 4.0,
+            "pIC50_max": 10.72,
+            "pIC50_mean": 6.718,
+            "pIC50_std": 1.486,
+            "intra_set_mean_tanimoto": 0.1959
+          },
+          {
+            "split": "calibration",
+            "n": 41,
+            "n_clusters": 18,
+            "cluster_size_median": 2.0,
+            "cluster_size_max": 3,
+            "pIC50_min": 4.337,
+            "pIC50_max": 10.046,
+            "pIC50_mean": 6.453,
+            "pIC50_std": 1.407,
+            "intra_set_mean_tanimoto": 0.1887
+          },
+          {
+            "split": "test",
+            "n": 37,
+            "n_clusters": 37,
+            "cluster_size_median": 1.0,
+            "cluster_size_max": 1,
+            "pIC50_min": 4.066,
+            "pIC50_max": 9.551,
+            "pIC50_mean": 5.947,
+            "pIC50_std": 1.428,
+            "intra_set_mean_tanimoto": 0.1724
+          }
+        ],
+        "mechanism": "split_groups按簇大小降序依次填80/10/10%,测试集系统性偏向小簇",
+        "label_range_overlap_traintest": [
+          4.0,
+          10.72
+        ]
+      },
+      "item22_error_stratified": {
+        "overall_abs_err_quantiles_p50_p90_max": [
+          0.453,
+          1.703,
+          2.927
+        ],
+        "near_ge_0.8": {
+          "n": 1,
+          "RMSE": 0.662,
+          "mean_abs_err": 0.662
+        },
+        "mid_0.55_0.8": {
+          "n": 26,
+          "RMSE": 0.897,
+          "mean_abs_err": 0.596
+        },
+        "far_lt_0.55": {
+          "n": 10,
+          "RMSE": 1.193,
+          "mean_abs_err": 1.0
+        },
+        "spearman_maxsim_abs_err": -0.256,
+        "log_scale_note": "RMSE单位为pIC50;约1个log单位=活性约10倍尺度,非每样本固定10倍"
+      },
+      "item23_coverage": {
+        "radius_pIC50": 1.2291,
+        "empirical_coverage": "30/37",
+        "coverage_wilson95": [
+          0.6579,
+          0.9052
+        ],
+        "nominal": 0.95,
+        "claim": "经验覆盖率仅对本次测试分布成立;簇偏移/外推不保证95%",
+        "coverage_near_ge_0.8": {
+          "k_n": "1/1",
+          "wilson95": [
+            0.2065,
+            1.0
+          ]
+        },
+        "coverage_mid_0.55_0.8": {
+          "k_n": "22/26",
+          "wilson95": [
+            0.6647,
+            0.9385
+          ]
+        },
+        "coverage_far_lt_0.55": {
+          "k_n": "7/10",
+          "wilson95": [
+            0.3968,
+            0.8922
+          ]
+        }
+      }
+    },
+    "FASN": {
+      "item19_similarity": {
+        "test_to_train": {
+          "n": 110,
+          "quantiles_p05_p25_p50_p75_p95": [
+            0.1598,
+            0.3809,
+            0.6336,
+            0.7805,
+            0.8634
+          ],
+          "share_ge_0.8": 0.2455,
+          "share_ge_0.6": 0.5455,
+          "share_lt_0.4": 0.2545
+        },
+        "val_to_train": {
+          "n": 111,
+          "quantiles_p05_p25_p50_p75_p95": [
+            0.5315,
+            0.6853,
+            0.7746,
+            0.8394,
+            0.8978
+          ],
+          "share_ge_0.8": 0.4054,
+          "share_ge_0.6": 0.8468,
+          "share_lt_0.4": 0.0
+        },
+        "train_leave_one_out": {
+          "n": 889,
+          "quantiles_p05_p50_p95": [
+            0.729,
+            0.8548,
+            1.0
+          ]
+        },
+        "note": "0.8为诊断阈值,不是通用泄漏界线;骨架/簇不交叉不排除指纹相似"
+      },
+      "item20_split_selectivity": {
+        "splits": [
+          {
+            "split": "train",
+            "n": 889,
+            "n_clusters": 30,
+            "cluster_size_median": 14.5,
+            "cluster_size_max": 139,
+            "pIC50_min": 4.144,
+            "pIC50_max": 8.301,
+            "pIC50_mean": 6.815,
+            "pIC50_std": 0.823,
+            "intra_set_mean_tanimoto": 0.3042
+          },
+          {
+            "split": "calibration",
+            "n": 111,
+            "n_clusters": 21,
+            "cluster_size_median": 5.0,
+            "cluster_size_max": 7,
+            "pIC50_min": 4.374,
+            "pIC50_max": 8.523,
+            "pIC50_mean": 6.566,
+            "pIC50_std": 0.86,
+            "intra_set_mean_tanimoto": 0.2674
+          },
+          {
+            "split": "test",
+            "n": 110,
+            "n_clusters": 76,
+            "cluster_size_median": 1.0,
+            "cluster_size_max": 3,
+            "pIC50_min": 3.682,
+            "pIC50_max": 8.222,
+            "pIC50_mean": 5.849,
+            "pIC50_std": 1.198,
+            "intra_set_mean_tanimoto": 0.172
+          }
+        ],
+        "mechanism": "split_groups按簇大小降序依次填80/10/10%,测试集系统性偏向小簇",
+        "label_range_overlap_traintest": [
+          4.144,
+          8.301
+        ]
+      },
+      "item22_error_stratified": {
+        "overall_abs_err_quantiles_p50_p90_max": [
+          0.544,
+          1.624,
+          2.659
+        ],
+        "near_ge_0.8": {
+          "n": 27,
+          "RMSE": 0.523,
+          "mean_abs_err": 0.401
+        },
+        "mid_0.55_0.8": {
+          "n": 44,
+          "RMSE": 0.872,
+          "mean_abs_err": 0.656
+        },
+        "far_lt_0.55": {
+          "n": 39,
+          "RMSE": 1.276,
+          "mean_abs_err": 1.116
+        },
+        "spearman_maxsim_abs_err": -0.513,
+        "log_scale_note": "RMSE单位为pIC50;约1个log单位=活性约10倍尺度,非每样本固定10倍"
+      },
+      "item23_coverage": {
+        "radius_pIC50": 1.438,
+        "empirical_coverage": "92/110",
+        "coverage_wilson95": [
+          0.7561,
+          0.8939
+        ],
+        "nominal": 0.95,
+        "claim": "经验覆盖率仅对本次测试分布成立;簇偏移/外推不保证95%",
+        "coverage_near_ge_0.8": {
+          "k_n": "26/27",
+          "wilson95": [
+            0.8172,
+            0.9934
+          ]
+        },
+        "coverage_mid_0.55_0.8": {
+          "k_n": "40/44",
+          "wilson95": [
+            0.7884,
+            0.9641
+          ]
+        },
+        "coverage_far_lt_0.55": {
+          "k_n": "26/39",
+          "wilson95": [
+            0.5098,
+            0.7937
+          ]
+        }
+      }
+    },
+    "SCD1": {
+      "item19_similarity": {
+        "test_to_train": {
+          "n": 22,
+          "quantiles_p05_p25_p50_p75_p95": [
+            0.2837,
+            0.5496,
+            0.6156,
+            0.7013,
+            0.7676
+          ],
+          "share_ge_0.8": 0.0,
+          "share_ge_0.6": 0.5455,
+          "share_lt_0.4": 0.0909
+        },
+        "val_to_train": {
+          "n": 24,
+          "quantiles_p05_p25_p50_p75_p95": [
+            0.5201,
+            0.5422,
+            0.6438,
+            0.6878,
+            0.748
+          ],
+          "share_ge_0.8": 0.0,
+          "share_ge_0.6": 0.6667,
+          "share_lt_0.4": 0.0417
+        },
+        "train_leave_one_out": {
+          "n": 193,
+          "quantiles_p05_p50_p95": [
+            0.6847,
+            0.8,
+            1.0
+          ]
+        },
+        "note": "0.8为诊断阈值,不是通用泄漏界线;骨架/簇不交叉不排除指纹相似"
+      },
+      "item20_split_selectivity": {
+        "splits": [
+          {
+            "split": "train",
+            "n": 193,
+            "n_clusters": 14,
+            "cluster_size_median": 7.5,
+            "cluster_size_max": 50,
+            "pIC50_min": 4.363,
+            "pIC50_max": 8.0,
+            "pIC50_mean": 5.442,
+            "pIC50_std": 0.847,
+            "intra_set_mean_tanimoto": 0.3515
+          },
+          {
+            "split": "calibration",
+            "n": 24,
+            "n_clusters": 16,
+            "cluster_size_median": 1.5,
+            "cluster_size_max": 2,
+            "pIC50_min": 4.38,
+            "pIC50_max": 7.046,
+            "pIC50_mean": 5.185,
+            "pIC50_std": 0.739,
+            "intra_set_mean_tanimoto": 0.2957
+          },
+          {
+            "split": "test",
+            "n": 22,
+            "n_clusters": 22,
+            "cluster_size_median": 1.0,
+            "cluster_size_max": 1,
+            "pIC50_min": 4.407,
+            "pIC50_max": 8.398,
+            "pIC50_mean": 5.307,
+            "pIC50_std": 1.005,
+            "intra_set_mean_tanimoto": 0.2794
+          }
+        ],
+        "mechanism": "split_groups按簇大小降序依次填80/10/10%,测试集系统性偏向小簇",
+        "label_range_overlap_traintest": [
+          4.363,
+          8.0
+        ]
+      },
+      "item22_error_stratified": {
+        "overall_abs_err_quantiles_p50_p90_max": [
+          0.663,
+          1.665,
+          2.974
+        ],
+        "near_ge_0.8": {
+          "n": 0
+        },
+        "mid_0.55_0.8": {
+          "n": 16,
+          "RMSE": 0.817,
+          "mean_abs_err": 0.649
+        },
+        "far_lt_0.55": {
+          "n": 6,
+          "RMSE": 1.675,
+          "mean_abs_err": 1.424
+        },
+        "spearman_maxsim_abs_err": -0.608,
+        "log_scale_note": "RMSE单位为pIC50;约1个log单位=活性约10倍尺度,非每样本固定10倍"
+      },
+      "item23_coverage": {
+        "radius_pIC50": 1.6403,
+        "empirical_coverage": "19/22",
+        "coverage_wilson95": [
+          0.6666,
+          0.9525
+        ],
+        "nominal": 0.95,
+        "claim": "经验覆盖率仅对本次测试分布成立;簇偏移/外推不保证95%",
+        "coverage_mid_0.55_0.8": {
+          "k_n": "15/16",
+          "wilson95": [
+            0.7167,
+            0.9889
+          ]
+        },
+        "coverage_far_lt_0.55": {
+          "k_n": "4/6",
+          "wilson95": [
+            0.3,
+            0.9032
+          ]
+        }
+      }
+    }
+  }
+}
