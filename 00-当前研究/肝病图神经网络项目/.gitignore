@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+*.npy
+docking/vina.exe
+final-aidd-screening/docking/vina.exe
+final-aidd-screening/**/__pycache__/
+final-aidd-screening/results/runs/
+final-aidd-screening/results/revised/

@@ -1,0 +1,32 @@
+{
+  "command": [
+    "D:\\zcode-workspace\\hepato-gnn-screening\\final-aidd-screening\\docking\\vina.exe",
+    "--receptor",
+    "D:\\zcode-workspace\\hepato-gnn-screening\\final-aidd-screening\\results\\runs\\20260905-162905-336627\\docking\\receptors\\KEAP1_KELCH_4IQK.pdbqt",
+    "--ligand",
+    "D:\\zcode-workspace\\hepato-gnn-screening\\final-aidd-screening\\results\\runs\\20260905-162905-336627\\docking\\ligands\\KEAP1_KELCH_IQK_sens32_s2026.pdbqt",
+    "--out",
+    "D:\\zcode-workspace\\hepato-gnn-screening\\final-aidd-screening\\results\\runs\\20260905-162905-336627\\docking\\outputs\\KEAP1_KELCH_IQK_sens32_s2026_out.pdbqt",
+    "--center_x",
+    "-47.07",
+    "--center_y",
+    "4.21",
+    "--center_z",
+    "-13.13",
+    "--size_x",
+    "22.1",
+    "--size_y",
+    "21.9",
+    "--size_z",
+    "18.6",
+    "--exhaustiveness",
+    "32",
+    "--seed",
+    "2026",
+    "--num_modes",
+    "9",
+    "--cpu",
+    "4"
+  ],
+  "returncode": 0
+}

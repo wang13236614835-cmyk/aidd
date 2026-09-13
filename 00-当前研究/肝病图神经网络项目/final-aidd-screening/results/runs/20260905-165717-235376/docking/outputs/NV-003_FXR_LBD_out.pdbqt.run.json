@@ -1,0 +1,32 @@
+{
+  "command": [
+    "D:\\zcode-workspace\\hepato-gnn-screening\\final-aidd-screening\\docking\\vina.exe",
+    "--receptor",
+    "D:\\zcode-workspace\\hepato-gnn-screening\\final-aidd-screening\\results\\runs\\20260905-165717-235376\\docking\\receptors\\FXR_LBD_1OSH.pdbqt",
+    "--ligand",
+    "D:\\zcode-workspace\\hepato-gnn-screening\\final-aidd-screening\\results\\runs\\20260905-165717-235376\\docking\\ligands\\NV-003.pdbqt",
+    "--out",
+    "D:\\zcode-workspace\\hepato-gnn-screening\\final-aidd-screening\\results\\runs\\20260905-165717-235376\\docking\\outputs\\NV-003_FXR_LBD_out.pdbqt",
+    "--center_x",
+    "5.23",
+    "--center_y",
+    "29.0",
+    "--center_z",
+    "53.67",
+    "--size_x",
+    "19.4",
+    "--size_y",
+    "22.5",
+    "--size_z",
+    "24.8",
+    "--exhaustiveness",
+    "8",
+    "--seed",
+    "42",
+    "--num_modes",
+    "9",
+    "--cpu",
+    "4"
+  ],
+  "returncode": 0
+}
