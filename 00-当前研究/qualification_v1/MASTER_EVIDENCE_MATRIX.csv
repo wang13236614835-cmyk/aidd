@@ -1,0 +1,22 @@
+claim_id,claim(必须带限定语),evidence,evidence_type,source,confidence,status,关联门控
+E01,FASN canonical assay(CHEMBL5731051)系列内存在可学习结构-活性信号,96分子/39骨架 10-seed scaffold split ECFP-Ridge R²中位0.732(IQR0.55-0.76) Spearman中位0.820;均值基线中位-0.017,计算(资格轮实跑),qualification_round_20260913/FASN_10seed_scaffold_results.csv,high,成立(限canonical),G2
+E02,canonical 模型非伪学习,Y-scrambling×20 Ridge/RF/XGB permutation最大R²(-0.141/0.078/-0.019)全低于真实;0/20 exceeded(+1校正p=0.0476),计算(资格轮实跑),qualification_round_20260913/FASN_y_scrambling_results.csv,high,成立,G2
+E03,canonical 内部性能属化学系列集中而非泄漏,10-seed无结构重复/骨架共享/复制跨集;NN Tanimoto 100%≥0.60 67%≥0.85 max0.90;训练LOO NN中位0.885,计算(资格轮实跑),qualification_round_20260913/FASN_leakage_audit.csv,high,成立(定性confinement),G2
+E04,canonical 模型跨 assay 外推失败(阴性结论),外部105分子/3文献assay(排镜像CHEMBL5734379+重叠) Ridge R²0.180 Spearman0.482;分assay R² -0.163/-0.206/-1.352 全负,计算(资格轮实跑),qualification_round_20260913/FASN_external_validation.md,high,阴性成立,G3
+E05,FASN 模型对天然产物不具备定量筛选资格(阴性结论),NP54 0/54域内(max-Tanimoto中位0.136 vs阈值0.812);桥接数据人源+逐化合物直接生化点≈0-5,计算(资格轮+推进轮),qualification_round_20260913/NP54_FASN_domain_gap_report.md;advancement_round_20260913/FASN_natural_product_bridge_v2.csv,high,阴性成立,G3
+E06,FASN 化学域内排序可迁移但绝对效价不可(A2裁决;三重限定:n=14/偏移未校正/需T1复验),E1_ADin(n=14同检测SPA+域内)Ridge rho=0.880偏移-0.663 R²-1.457;小标签校准10-seed池化rho0.689/0.691;pooled R²≤0.267不敌cal_mean0.272,计算(推进轮实跑),advancement_round_20260913/FASN_transferability_report.md,medium,成立(带三重限定),G3
+E07,GNN 在当前冻结数据上未证明优于经典 baseline(本轮实证),同数据/同split/同10种子: GCN R²中位0.078 GINE -0.040 vs Ridge 0.732/XGB 0.594/RF 0.217;Y-scrambling GCN 0/20 exceeded GINE 13/20反超;外部105分子 GNN R²全负且无ADin排序优势(Ridge ADin rho=0.880逐位复现),计算(本轮实跑),qualification_v1/derived/GNN_benchmark_*.csv+GNN_clean_benchmark_report.md,high,成立(阴性;限定当前数据规模),G2
+E08,Moracin N 具备抗铁死亡直接功能证据(非MASH语境),HT22海马神经元erastin模型 抗铁死亡EC50<0.50μM;抑制GSH耗竭/GPx4失活/ROS/铁积累,文献,PMID 34281775(Phytomedicine 2021;90:153641),high,成立(限神经元铁死亡模型),G0
+E09,Moracin N 保护效应呈 NRF2 依赖(involvement级非因果级),小鼠MCAO+原代神经元OGD:降FTH1/ACSL4增GSH合成;ML385(Nrf2抑制剂)阻断保护效应,文献,PMID 40972263(Phytomedicine 2025;148:157253),high,成立(中枢模型;siNRF2前不升因果等级),G0
+E10,Moracin N 存在细胞类型依赖反向警示,A549/PC9肿瘤细胞10-45μM诱导ROS/凋亡(NAC逆转)——不能与神经/肝保护结果外推相加,文献,PMID 32477104(Front Pharmacol 2020;11:391),high,成立(警示),G0
+E11,铁死亡驱动 NASH/MASH 进展(疾病侧),MCD小鼠RSL3加重/selenite+liproxstatin-1+DFO改善NASH与肝GPX4/脂质过氧化,文献,PMID 31610178(Am J Pathol 2020;190(1)),high,成立,G0
+E12,NRF2-GSH防线与NAFLD相关(疾病侧),HFD小鼠/肝细胞+人体脂肪肝组织:NRF2下调伴脂质过氧化/铁死亡增强;上调缓解,文献,PMID 36495698(Free Radic Biol Med 2023;196:18-31),high,成立,G0
+E13,Nrf2靶向抑制肝细胞铁死亡改善MASH有天然产物先例(可行性非Moracin N证据),Hinokitiol HFHC/PO肝细胞模型经Nrf2/GPX4抑制铁死亡改善MASH,文献,PMID 39922149(Phytomedicine 2025;139:156472),medium,成立(先例),G0
+E14,Moracin N 在肝细胞/MASH语境零数据(空白即定位),无肝细胞/MASH数据/无口服PK/无TR/FXR/Nrf2直接结合;桑叶来源定量2.19mg/100g干重,文献+检索留痕,PMID 31008101(来源定量);fifth/qualification_round检索审计,high,空白确认(创新位依据),G0
+E15,MASH 已有两个FDA获批药物+OCA无MASH批准,resmetirom(2024-03)+semaglutide(2025-08)获批;OCA无MASH批准且EU PBC适应证2024-08撤销,监管检索留痕,fifth_round_20260912(监管审计;570条API查询含19条失败原样保留),high,成立,G0
+E16,FASN 靶点临床可行性成立,denifanstat(委福司他)Ph2b MASH组织学阳性终点,文献,PMID 39396529,high,成立,G0
+E17,docking 分数不具备候选排序区分能力(阴性结论),WT TRβ 14配体区分门控 ROC-AUC 0.472(CI 0.341-0.607),计算(fifth轮实跑),fifth_round_20260912(WT gate),high,阴性成立(排序用途永久废弃),G4
+E18,Moracin N 湿验证全部判读点未执行,Gate M0/B0/1/2/3 全部 not_executed;物料未到货无COA/批号,实验计划(冻结),advancement_round_20260913/MoracinN_*(启动包),high,未执行(外部阻塞),G5
+E19,3'-methoxydaidzein 因NaV off-target 风险降级,NaV1.7/1.8/1.3=181/397/505nM 本体电生理,文献,PMID 31262454,high,成立(降级依据),G5
+E20,FASN 全量数据 provenance 完整,1652条/51assay记录级lineage(assay/document/DOI/PMID/物种/单位转换);本轮审计0缺失,计算+数据库快照,final_strategy_round_20260912/FASN_activity_master.csv+qualification_v1/derived/provenance_audit.json,high,成立,G1
+E21,EGCG等NP的动物源FASN活性数值可用于桥接参考但不可入训练集,EGCG IC50=51.97μM(动物FASN);(-)-CG 1.5μg/mL(acyl transferase域);物种/assay不明点不入正式训练,文献(推进轮审计),PMID 21605850;15943584;advancement_round_20260913/FASN_natural_product_bridge_v2.csv,medium,成立(仅参考),G1

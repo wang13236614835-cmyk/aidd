@@ -1,0 +1,39 @@
+asset_id,资产,仓库,路径,来源轮次,分类,理由,处置
+A01,FASN 全量活性主表(1652条/51 assay/记录级 lineage),aidd,00-当前研究/final_strategy_round_20260912/FASN_activity_master.csv,最终战略冻结轮,VERIFIED,provenance 完整(assay/document/DOI/PMID/物种/转换方法)；本轮 provenance 审计 PASS(0 缺失),冻结保留；Gate T1 的数据源
+A02,FASN canonical 清洗集(96分子/39骨架),aidd,00-当前研究/qualification_round_20260913/FASN_canonical_clean.csv,资格验证轮,VERIFIED,QC 0异常(重复/立体对/盐/不可能值)；本轮复用为唯一训练数据,冻结；GNN benchmark 输入
+A03,10-seed scaffold 基线结果(Ridge/RF/XGB/均值),aidd,00-当前研究/qualification_round_20260913/FASN_10seed_scaffold_results.csv,资格验证轮,VERIFIED,种子20260912-20260921全留痕；Ridge R²中位0.732,冻结保留；GNN benchmark 的对照数字直接引用
+A04,Y-scrambling ×20 结果,aidd,00-当前研究/qualification_round_20260913/FASN_y_scrambling_results.csv,资格验证轮,VERIFIED,0/20 exceeded(+1校正p=0.0476),冻结保留
+A05,泄漏审计(10 seed),aidd,00-当前研究/qualification_round_20260913/FASN_leakage_audit.csv,资格验证轮,VERIFIED,无结构重复/骨架共享/复制跨集,冻结保留
+A06,外部验证集(105分子/3 assay)+结果,aidd,00-当前研究/qualification_round_20260913/FASN_external_set.csv,资格验证轮,VERIFIED,排除镜像assay+重叠分子；阴性结果(R²0.180/分assay全负)同样冻结,阴性结果保留；禁止为翻盘改split
+A07,AD/UQ 报告(阈值0.812/conformal),aidd,00-当前研究/qualification_round_20260913/FASN_AD_UQ_report.md,资格验证轮,VERIFIED,AD正确隔离外部91/105与NP54 54/54,冻结保留
+A08,FASN GO/NOGO 判定文档,aidd,00-当前研究/qualification_round_20260913/FASN_GO_NOGO.md,资格验证轮,VERIFIED,CONDITIONAL GO+两条件精确化,冻结保留；本轮引用不修改
+A09,外部验证分层(E1/E2/ADin/OOD)+A2失败分解,aidd,00-当前研究/advancement_round_20260913/FASN_external_stratified_results.csv,推进轮,VERIFIED,E1_ADin rho=0.880(n=14)三重限定在案,冻结保留；引用必须带n=14/偏移未校正/需T1复验
+A10,FASN assay 效价校准结果,aidd,00-当前研究/advancement_round_20260913/FASN_assay_calibration_results.csv,推进轮,VERIFIED,小标签校准(10seeds)rho 0.487→0.689/0.691；pooled R²≤0.267不敌cal_mean 0.272,冻结保留(效价不可迁移的证据)
+A11,NP 桥接数据审计 v2,aidd,00-当前研究/advancement_round_20260913/FASN_natural_product_bridge_v2.csv,推进轮,VERIFIED,人源+逐化合物可用点≈0-5→域适应不做,冻结保留(阴性决策证据)
+A12,NP54 域状态 v2,aidd,00-当前研究/advancement_round_20260913/NP54_domain_status_v2.csv,推进轮,VERIFIED,0/54域内(中位0.136),冻结保留
+A13,Moracin N 实验启动包(M0六项/B0五项/毒窗/Gate1判读/Gate2-3计划),aidd,00-当前研究/advancement_round_20260913/MoracinN_*.csv+*.md,推进轮,VERIFIED,实验前资格全部冻结(not_executed)；判读框架可执行,冻结保留；到货即执行；0个生物学结果
+A14,监管口径审计(resmetirom/semaglutide/OCA),aidd,00-当前研究/fifth_round_20260912/(监管审计交付),第五轮候选审计,VERIFIED,FDA批准事实+EU撤销记录；570条API查询留痕,冻结保留
+A15,零信任抽样验证(2026-09-13),aidd,00-当前研究/validation/zero_trust_sample_20260913/,主库持续验证,VERIFIED,抽样复算与来源核对通过,保留
+A16,研究状态.json+当前研究README口径,aidd,00-当前研究/研究状态.json,主库,VERIFIED,唯一状态入口；本轮同步更新指针,保留(本轮末更新指向qualification_v1)
+A17,FASN_activity_master 下载与清洗脚本,aidd,00-当前研究/final_strategy_round_20260912/download_fasn_all_activity.py,最终战略冻结轮,VERIFIED,可重跑复现主表(需ChEMBL在线),保留
+A18,资格轮/推进轮 QC 脚本与 manifest,aidd,00-当前研究/qualification_round_20260913/run_qualification_qc.py;00-当前研究/advancement_round_20260913/run_advancement_qc.py,资格/推进轮,VERIFIED,哈希+交付完整性检查；本轮复跑作为回归测试,保留
+A19,Workbench v0.5.2 平台+qualification smoke,workbench,D:/aidd destoop(app.py+pages/+qualification/frozen_smoke_v052.py),workbench v0.5.2,VERIFIED,软件层验证通过；不承载科研结论,保留；本轮仅加只读 Research State/Gates 页
+A20,Workbench Literature Evidence Hub(15/16页),workbench,D:/aidd destoop/pages/15_Literature_Evidence.py;16_Literature_Batch.py,workbench v0.5.x,VERIFIED,基础设施可用；本轮灌入正式文献链,保留；证据内容以主库 MASTER_EVIDENCE_MATRIX 为准
+A21,GNN numpy 实现本体(graph/GCN/反向传播/MC dropout),hepato-gnn-screening,src/models/gnn.py;src/models/dataset.py,GNN库(宁显泷),VERIFIED,软件层审计通过(梯度/骨架/真实描述符)；分类任务+旧标签,代码资产保留；不用于正式回归结论
+A22,GNN benchmark(本轮同折 RF/XGB/GCN/GIN),aidd,00-当前研究/qualification_v1/(run_gnn_clean_benchmark.py+derived/),qualification_v1,VERIFIED,与资格轮完全同折同种子；GNN首次实证,本轮交付
+B01,GNN库 100条结构修订(52连接不符/43分子式不符),hepato-gnn-screening,data/curation/,GNN库数据线,REQUALIFY,自动修订完成但全部待逐条身份人工审核；不可自动签名,保留待成员核验(任务在VERIFY_TASKS)
+B02,FXR 历史主稿的模型/校准证据,aidd,02-课题-MASH研究-v1/,历史课题线,REQUALIFY,跨模型沿用校准区间+FDR不显著已登记；如FXR支线重启需全部重做,保留不动；重启前禁止引用
+C01,首轮虚拟筛选干跑+Phase2(docking筛选全流程),aidd,00-当前研究/screening_dry_20260909/;screening_phase2_20260909/,第一轮(20260909),HISTORICAL,WT TRβ区分门控失败(C9)前产物；方法学记录有价值,不删；不得用于候选排序或结论
+C02,候选决策包(20260910),aidd,00-当前研究/candidate_decision_20260910/,第二轮(20260910),HISTORICAL,五候选角色已被第五轮重定位(moracin N转NRF2等),保留历史；引用以fifth_round+为准
+C03,第六轮采购/预注册/预算包,aidd,00-当前研究/sixth_round_20260912/,第三轮(20260912),HISTORICAL,供应商货号已更正、方案被后续轮细化；预算三档仍可参考,保留
+C04,第七轮战略收敛文档,aidd,00-当前研究/seventh_round_20260912/,第三轮(20260912),HISTORICAL,被最终战略冻结轮取代(Nrf2/ferroptosis唯一主线→双轴),保留
+C05,第五轮五候选角色分配(五文档),aidd,00-当前研究/fifth_round_20260912/,第五轮候选审计,HISTORICAL,moracin N=B/formononetin=C等角色分配被推进轮双轴架构细化和修正,角色表述以最终战略+推进轮为准
+C06,h1_mash TRβ受体工程与redock工件,h1(工作区),D:/zcode-workspace/h1_mash/,第一轮结构线,HISTORICAL,受体制备/CCD修复方法学保留；WT gate FAIL后docking排序废弃,保留
+C07,旧Top-10/黄芩苷居首/完整筛选管线/旧FXR/Keap1/FASN榜单(含final-aidd-screening管线),hepato-gnn-screening,results/rankings/,GNN库历史,HISTORICAL,未通过当前资格门控；只能称历史结果/验证对象/教学示例；PROJECT_STATUS.md已标注,保留+状态已标注
+C08,FXR/GNN/CW-BCS历史主稿与投稿资产,aidd,01-课题-保肝中药成分虚拟筛选/;02-课题-MASH研究-v1/;03-课题-MASH研究-v2/;04-论文/,历史课题线,HISTORICAL,导师未签核；按历史版本阅读,保留
+C09,打卡/学习/MOOC材料(两库),aidd,10-任务分配与进度/,学期运营,HISTORICAL,运营资产非科研结论,保留
+D01,docking score 候选排序(方法/用途),aidd,00-当前研究/fifth_round_20260912/(WT gate),第五轮候选审计,REJECTED,WT TRβ ROC-AUC 0.472(CI 0.341-0.607)区分失败→排序用途永久废弃,文件保留作失败证据；仅允许结构假说支持用途
+D02,"唯一获批MASH药物"类监管表述,aidd,00-当前研究/fifth_round_20260912/历史错误与修正记录.md,历史表述,REJECTED,与FDA事实冲突(两药获批)；已修正,旧文档按历史版本阅读；禁止再产出
+D03,AIDD MASH v2 聚类成绩/跨模型校准区间/靶点确证表述,aidd,03-课题-MASH研究-v2/(诊断见validation),MASH v2,REJECTED,聚类距离顺序错误+跨模型沿用校准区间+靶点FDR均不显著,表述废弃；原始数据保留可复评
+D04,AI生成"两周收尾计划+提前打卡"批次,hepato-gnn-screening,docs/audit/20260905/AI生成_两周收尾提案/,2026-09-05,REJECTED,当日已回滚；留档作AI改动治理案例,保留留档；禁止复用
+D05,旧标签体系(未知当阴性/混合终点),hepato-gnn-screening,data/(旧标签),GNN库历史,REJECTED,标签不代表统一MASH终点且有未知当阴性反例,旧标签禁止进入正式训练；资格轮数据(A02)取代

@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-13",
+  "environment": {
+    "python": "3.12.0",
+    "pandas": "2.2.1",
+    "numpy": "1.26.4"
+  },
+  "master_records": 1652,
+  "master_assays": 51,
+  "records_missing_assay_id": 0,
+  "canonical_clean_molecules": 96,
+  "canonical_activity_ids_not_in_master": 0,
+  "external_molecules": 105,
+  "external_assays": [
+    "CHEMBL4123591",
+    "CHEMBL4402021",
+    "CHEMBL5730715"
+  ],
+  "external_overlapping_canonical_flagged": 0,
+  "role_counts": {
+    "unused_by_frozen_sets": 46,
+    "external_validation": 3,
+    "canonical_training": 1,
+    "mirror_excluded": 1
+  },
+  "verdict": "PASS",
+  "notes": [
+    "canonical=CHEMBL5731051 (96分子/39骨架)；mirror=CHEMBL5734379 已排除",
+    "外部集 3 个文献 assay，与 canonical 训练重叠分子已在资格轮排除",
+    "未进入冻结训练/外部集的 assay 记录保留在 master 中作历史/复评池"
+  ]
+}

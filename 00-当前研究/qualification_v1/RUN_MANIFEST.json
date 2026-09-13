@@ -1,0 +1,160 @@
+{
+  "round": "qualification_v1",
+  "generated_at": "2026-09-13T21:31:54",
+  "runs": [
+    {
+      "id": "assay_provenance_audit",
+      "script": "audit_assay_provenance.py",
+      "purpose": "FASN 全量数据 assay 级 lineage 审计（只读）",
+      "verdict": "PASS",
+      "key_results": {
+        "master_records": 1652,
+        "master_assays": 51,
+        "records_missing_assay_id": 0,
+        "canonical_activity_ids_not_in_master": 0,
+        "external_overlapping_canonical_flagged": 0
+      }
+    },
+    {
+      "id": "gnn_clean_benchmark",
+      "script": "run_gnn_clean_benchmark.py",
+      "purpose": "GNN vs 经典 baseline 同折对比（10 seed + Y-scrambling×20 + 外部 105 + MC-dropout）",
+      "runtime_sec": null,
+      "verdict": "COMPLETED",
+      "key_results": {
+        "split_identity_assert": {
+          "ecfp_ridge_median_r2": 0.7320079614617288,
+          "frozen": 0.7320079614617288,
+          "verdict": "PASS"
+        },
+        "y_scrambling": {
+          "gnn_gcn": {
+            "real_r2": 0.0963941503113479,
+            "max_perm_r2": 0.0778283945469022,
+            "median_perm_r2": -0.105475077537152,
+            "n_exceeded": 0,
+            "n_permutations": 20
+          },
+          "gnn_gin": {
+            "real_r2": -0.2596640446433447,
+            "max_perm_r2": 0.0728983401459103,
+            "median_perm_r2": -0.10236044521160145,
+            "n_exceeded": 13,
+            "n_permutations": 20
+          }
+        },
+        "summary_csv": "derived/GNN_benchmark_summary.csv"
+      },
+      "environment": {
+        "python": "3.12.0",
+        "numpy": "1.26.4",
+        "pandas": "2.2.1",
+        "rdkit": "2026.03.3",
+        "sklearn": "1.4.0",
+        "torch": "2.2.0+cpu",
+        "torch_geometric": "2.5.3",
+        "platform": "Windows-11-10.0.22621-SP0"
+      }
+    }
+  ],
+  "_missing": [],
+  "files": {
+    "README.md": {
+      "sha256": "0972c6b0294ed9d96a88aae831cdf3b0762692ddd8c135a98fac48aa6e151f39",
+      "bytes": 2774
+    },
+    "RESEARCH_STATE.md": {
+      "sha256": "c2f471715960c7d78adc31a175193501659a5434a35fca5caf12dd37887671a1",
+      "bytes": 6460
+    },
+    "ASSET_AUDIT.csv": {
+      "sha256": "0b67f5c65bcb3d3eb676f0a349bb242531c840b3109f9ddf5cc84aa0abdfa24b",
+      "bytes": 8821
+    },
+    "MASTER_EVIDENCE_MATRIX.csv": {
+      "sha256": "ef4239c7ca40a8e14c7fcb86c1ba045412de661618f3a20785d3b706e9ab1b4d",
+      "bytes": 5721
+    },
+    "QUALIFICATION_GATES.md": {
+      "sha256": "de957a47e024b877ea36cb284efb35023af845a3bb3bd0bb120b86bdbb761805",
+      "bytes": 3529
+    },
+    "RERUN_DECISION.md": {
+      "sha256": "fc350cc4f65ad1c6e9fd3bb6be3672cd09c7d7f1d9d769d278797293bf3410f5",
+      "bytes": 3798
+    },
+    "OPEN_ISSUES.md": {
+      "sha256": "836c85ca80ddc3b871f4ab8bad4874d0bc82e9f513442a5d22ef69623a16a616",
+      "bytes": 2239
+    },
+    "AGENT_PROGRESS.md": {
+      "sha256": "a6772f97ead14e6a0091a1c61cd65551b9d6ddf73d5e8972d915afea156077d2",
+      "bytes": 4579
+    },
+    "GNN_clean_benchmark_report.md": {
+      "sha256": "80d7b99304e857c1b60fb4bb28714d2ba0e8d4a0b34dba4bd0e3c3246189c1c8",
+      "bytes": 5019
+    },
+    "GNN_方法学习审计.md": {
+      "sha256": "62d0d1ec4da64fc34485e675d9e840d9bd527f6a74da5c9f9e138efc537f13c3",
+      "bytes": 4648
+    },
+    "audit_assay_provenance.py": {
+      "sha256": "13c174fb36f07120f61cd66866e26e72e3d6c77adca0677813c18d0911d5664b",
+      "bytes": 5497
+    },
+    "run_gnn_clean_benchmark.py": {
+      "sha256": "b4c63c2d5a0bd465c65efc5098b0e6c8e025cdb8d01aeea7a2bc01b8e03b59ef",
+      "bytes": 20424
+    },
+    "write_run_manifest.py": {
+      "sha256": "7b74e1ac10def121766912923c6278c01d2ba3829c2fe6e0bd27ed194dc47dab",
+      "bytes": 4408
+    },
+    "run_qualification_qc.py": {
+      "sha256": "163b9ba5677c6160bd42182cf5ed5af7de9a87876852f877fd72afcb2122e4e5",
+      "bytes": 9797
+    },
+    "derived/ASSAY_PROVENANCE.csv": {
+      "sha256": "d7b714e65d049860e33423906b54b107db882d38110e0b262edfe9da7b82c6a1",
+      "bytes": 7226
+    },
+    "derived/provenance_audit.json": {
+      "sha256": "b94fab598c118c09eeaa08606d24f7cfdea92f99412a4f4c6957a1a42f9dc340",
+      "bytes": 926
+    },
+    "derived/GNN_benchmark_10seed_results.csv": {
+      "sha256": "46c62eff90cf318d24cdd44ef029e8da78b7c98ac560216f9d465aef73050d4e",
+      "bytes": 5686
+    },
+    "derived/GNN_benchmark_summary.csv": {
+      "sha256": "1e6c8ff42a59ba57d9763d6793fcfb604b6bbd3a330c00dbc5c5ebf092cdf705",
+      "bytes": 1029
+    },
+    "derived/GNN_y_scrambling_results.csv": {
+      "sha256": "48b7ed0d4f1a3955e9e0330a85f9b2d8a29c27604662bd3a93bac198bd4ee5ef",
+      "bytes": 2340
+    },
+    "derived/GNN_external_validation.csv": {
+      "sha256": "8a18ce884a4d62e70be6abbcea6d6b98da1b00965d806d51b90da5d079ff9fc2",
+      "bytes": 1496
+    },
+    "derived/gnn_benchmark_summary.json": {
+      "sha256": "52bdf1586f9af7f434bc35a7c22670613f7123daf71ecc2966319cdf1ca52339",
+      "bytes": 1161
+    },
+    "../qualification_round_20260913/FASN_canonical_clean.csv": {
+      "sha256": "cca2817fed8c12d8bfd9a6223780f26332dbe44453e901c84c480c93fb658608",
+      "bytes": 22067
+    },
+    "../qualification_round_20260913/FASN_external_set.csv": {
+      "sha256": "06b513acab30a4d3b50e36df92323a9e09c352c97ccece70a0ab315bf01d92f6",
+      "bytes": 21384
+    },
+    "../qualification_round_20260913/FASN_10seed_scaffold_results.csv": {
+      "sha256": "b33a30e55e1253fb01330c90b70502dec099956c650d8c4be8f0bf8630caaa2a",
+      "bytes": 3572
+    }
+  },
+  "input_freeze_note": "训练/外部数据与资格轮同源同哈希输入；本 manifest 在 QC 之后生成则包含 QC 产物"
+}

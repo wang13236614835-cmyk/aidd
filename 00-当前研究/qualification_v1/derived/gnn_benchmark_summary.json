@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-13",
+  "environment": {
+    "python": "3.12.0",
+    "numpy": "1.26.4",
+    "pandas": "2.2.1",
+    "rdkit": "2026.03.3",
+    "sklearn": "1.4.0",
+    "torch": "2.2.0+cpu",
+    "torch_geometric": "2.5.3",
+    "platform": "Windows-11-10.0.22621-SP0"
+  },
+  "epochs": 300,
+  "seeds": [
+    20260912,
+    20260913,
+    20260914,
+    20260915,
+    20260916,
+    20260917,
+    20260918,
+    20260919,
+    20260920,
+    20260921
+  ],
+  "n_scramble": 20,
+  "split_identity_assert": {
+    "ecfp_ridge_median_r2": 0.7320079614617288,
+    "frozen": 0.7320079614617288,
+    "verdict": "PASS"
+  },
+  "y_scrambling": {
+    "gnn_gcn": {
+      "real_r2": 0.0963941503113479,
+      "max_perm_r2": 0.0778283945469022,
+      "median_perm_r2": -0.105475077537152,
+      "n_exceeded": 0,
+      "n_permutations": 20
+    },
+    "gnn_gin": {
+      "real_r2": -0.2596640446433447,
+      "max_perm_r2": 0.0728983401459103,
+      "median_perm_r2": -0.10236044521160145,
+      "n_exceeded": 13,
+      "n_permutations": 20
+    }
+  },
+  "note": "summary-only rebuild: 汇总逻辑修正后从 CSV 重建，模型未重训"
+}

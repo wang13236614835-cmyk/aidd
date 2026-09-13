@@ -2,10 +2,10 @@
   "direction": "MASH",
   "leader": "王启龙",
   "priority": "dry_research",
-  "wetlab_materials": "none",
+  "wetlab_materials": "第六轮已给出可采购清单与预算三档（sixth_round_20260912/候选采购清单.csv），待导师批准后下单；moracin N 供应商≥2家已核实（GlpBio/MCE），MCE试用装待申请",
   "wetlab": "conditional_after_dry_gates",
   "data_review": "pending",
-  "method_review": "selected_V1_FXR_manuscript_evidence_acceptance_pending",
+  "method_review": "qualification_v1三库统一审计+GNN实证(benchmark阴性:GCN 0.078/GINE -0.040 vs Ridge 0.732同折)；FASN维持CONDITIONAL GO(canonical assay model限定)；Moracin N维持GO待物料",
   "candidate_release": false,
   "teacher_approval": "not_recorded",
   "human_learning": "no_completion_assumed",
@@ -14,14 +14,36 @@
     "GNN audit and repairs",
     "MASH v2 numerical corrections",
     "historical-label RF diagnostics",
-    "CCD identity and independent-start redocking"
+    "CCD identity and independent-start redocking",
+    "qualification_v1 三库统一审计与资产A/B/C/D分类",
+    "assay-level provenance审计(51 assay/0缺失)PASS",
+    "GNN clean benchmark同折10-seed+Y-scrambling+外部105(GNN未证明优于经典baseline)"
   ],
-  "closing_route": "thesis_landing_or_wetlab_evaluation",
+  "closing_route": "final_dual_axis_teacher_approval_then_FASN_AIDD_or_MoracinN_wetlab",
   "closing_route_default": "not_thesis_defense",
   "mooc_checkin": "GNN_16week_semester_plan_from_2026-09-07",
-  "teacher_package": "00-当前研究/REPO_SCOPE.md + 00-当前研究/给指导老师的研究进展.md + GNN库docs/audit/20260905",
+  "teacher_package": "00-当前研究/final_strategy_round_20260912/导师审批版_最终战略冻结.md + 00-当前研究/final_strategy_round_20260912/最终战略冻结_执行总览.md + 00-当前研究/final_strategy_round_20260912/最终双轴战略矩阵.csv",
   "ai_edit_policy": "仅 research-audit-20260905 审计报告可信采信；其余AI改动(两周收尾计划/提前打卡/撤回表述)已回滚或标注待全组复核",
   "revision_batches": {
+    "batch_fifth_round_20260912": {
+      "trigger": "第五轮候选审计指令（18 条）",
+      "scope": "五候选外部证据/天然来源/可开发性/WT结构与门控审计；角色释放；最小湿实验方案；历史表述修正",
+      "artifacts": [
+        "00-当前研究/fifth_round_20260912/（12 个交付文件 + raw/derived/logs/manifest）"
+      ],
+      "key_results": {
+        "wt_gate": "FAIL: ROC-AUC 0.472 (CI 0.341-0.607) → docking 分数停止用于候选排序，仅 structural hypothesis support",
+        "old_gate_2J4A_N331S": "historical exploratory system, FAIL 0.346 保留不覆盖",
+        "moracin_N": "主假说转为 Nrf2/ferroptosis 抗 MASH 机制重定位（B）；THRβ 降为 structure-based hypothesis",
+        "formononetin": "疾病/机制锚点（C）；增量=FXR 依赖性定量与 FXR-SIRT1 因果层级",
+        "3'-methoxydaidzein": "D（暂缓）：NaV1.7/1.8/1.3 = 181/397/505 nM 本体电生理 off-target 风险（PMID 31262454）",
+        "isorhamnetin": "备用（B-），须先过 Gate 0 干扰门；桑来源标 database-only 未证实",
+        "biochanin_A": "FXR 阳性对照（C），不占创新位",
+        "regulatory": "FDA 已批准 resmetirom(2024-03)+semaglutide(2025-08)；OCA 无 MASH 批准（EU PBC 撤销 2024-08）；禁止'唯一批准'表述",
+        "external_queries": "570 条 API 查询留痕（含 19 条非 200 失败原样保留）"
+      },
+      "open_P0": "见 fifth_round_20260912/未完成项与人工裁决.md（CNIPA/CNKI 检索边界、供应商 blocked、ADMET-AI 未运行、导师 5 项裁决）"
+    },
     "batch1_20260905": {
       "trigger": "核心期刊审查20260905(60项)",
       "scope": "口径/统计/证据结构修正;未放行候选",
@@ -33,6 +55,105 @@
       ],
       "open_P0": "数据审核05-13;外部验证14/16;终点方向09;对接门控27/28;转录组41-45;期刊对照02/03",
       "ledger": "核心期刊审查_20260905/大修整改台账.md"
+    },
+    "batch_sixth_round_20260912": {
+      "trigger": "第六轮候选验证指令（14 条）：第五轮释放清单 → 可采购/可执行/可证伪最小湿实验包",
+      "scope": "moracin N 物料审计与采购、模型选择、剂量设计、三级门控、FMN FXR 依赖性支线、对照体系、统计预注册、预算三档、Go/NoGo、一页导师方案；不扩池",
+      "artifacts": [
+        "00-当前研究/sixth_round_20260912/（13 个交付文件 + raw/derived/manifest，QC PASS + SHA-256）"
+      ],
+      "key_results": {
+        "model": "路线A冻结：HepG2 + PA:OA(1:2) 总1mM BSA偶联 24h；只模拟脂质蓄积+脂毒性氧化应激，非完整MASH",
+        "dose": "moracin N 0.1-30μM 7点（HT22 亚微摩尔活性 EC50<0.5μM 下界锚，肿瘤系96h IC50>32μM 上界锚），DMSO恒定0.1%",
+        "gates": "Gate1 表型(TG↓≥25%晋级/无15%降幅淘汰) → 采购闸 → Gate2 机制方向(GSH/ROS/GPX4≥2改善+Fer-1系统对照) → 采购闸 → Gate3 因果(ML385四组，削减率≥70% Nrf2依赖/<30%主张失败)；化合物失败与机制失败分列；判据全部预冻结",
+        "suppliers": "≥2家落实：GlpBio GC71917 $72≈¥520/1mg(快照)+MCE HY-N11849 ¥2320/1mg(现货)；ML385=HY-100523(更正旧记HY-100622) ¥300/1mg；FMN=HY-N0183(更正旧记HY-N0177) ¥299/5mg；Fer-1 GlpBio $32/5mg；MCE 免费试用装(年3名额)为预算杠杆",
+        "budget": "三档 ¥3685(试用装全成功)/¥4804(标准,杠杆后≈¥4505)/¥8845(扩展)；分期下单，Gate1失败最大沉没¥3419",
+        "fmn_branch": "仅FXR依赖性单问题(5组板，削减率预冻结)；FMN无表型=支线关闭≠FXR机制失败",
+        "thrb_branch": "冻结为平台现成时的最小reporter裁决，零新预算零新计算；否则维持structure-based hypothesis",
+        "no_expansion": "不引入54库第6-8位候选；isorhamnetin仅书面备选(启用前须过3项无细胞干扰预筛)"
+      },
+      "open_P0": "见 sixth_round_20260912/第六轮未完成项.md（GlpBio 403下单确认、试用装申请、导师6项裁决、通用试剂实价回填）"
+    },
+    "batch_seventh_round_20260912": {
+      "trigger": "战略收敛轮：基于前四轮及第五/六轮真实数据冻结未来1–2年唯一主方向",
+      "scope": "路线竞争（Nrf2/ferroptosis、FASN、THRβ、FXR、ACC）、ChEMBL数据可建模性、临床转化审计、GNN/QSAR历史资产审计、候选库重构、Plan B与停止投入清单",
+      "artifacts": [
+        "00-当前研究/seventh_round_20260912/（16份交付文件 + raw/derived/manifest，QC PASS）"
+      ],
+      "key_results": {
+        "primary_route": "MASH相关肝细胞脂毒性中的Nrf2依赖性抗脂质过氧化/铁死亡机制；主候选Moracin N；KEAP1为上游调节背景，不宣称直接结合",
+        "plan_b": "FASN/de novo lipogenesis；先重建assay/document/construct谱系，RF/XGB优先，GNN后置",
+        "thrb": "临床锚点/现成reporter裁决线；dock分数永久不参与候选排序",
+        "fxr": "formononetin/biochanin A机制锚点和体系QC；天然产物主发现线降级",
+        "acc": "ACC1/ACC2降为DNL比较附录，不启动主线实验",
+        "aidd": "证据驱动机制重定位 + 化学信息学身份/干扰/适用域审计 + 最小因果实验；不训练无可靠标签的NRF2/GPX4 GNN",
+        "hard_fact": "WT TRβ docking gate ROC-AUC 0.472（95% CI 0.341–0.607）；FASN ChEMBL最新精确记录1652、去重分子1139；FXR同一LanthaScreen模型54/54天然产物OOD"
+      },
+      "open_P0": "导师方向/预算/平台签核、Moracin N COA与采购、湿实验材料和FASN Plan B数据冻结均未完成；未完成不等于阴性"
+    },
+    "batch_final_strategy_round_20260912": {
+      "trigger": "最终战略冻结轮（25条交付要求）：复核前七轮原始数据后冻结双轴架构",
+      "scope": "FASN全量activity审计/主表provenance/canonical assay多种子baseline/scaffold-disjoint conformal UQ；Moracin N近期验证轴；THRβ/FXR/ACC最终定位；Plan B、打卡映射、GitHub架构、24个月路线图、课题题目、成果拆分、导师审批版",
+      "artifacts": [
+        "00-当前研究/final_strategy_round_20260912/（25个精确交付文件 + raw/derived/logs/manifest，QC PASS）"
+      ],
+      "key_results": {
+        "architecture": "长期主AIDD轴=FASN/de novo lipogenesis（assay-aware RF/XGB/Ridge优先，GNN后置）；近期高创新验证轴=Moracin N相关NRF2-dependent ferroptosis regulation→MASH相关肝细胞脂毒性",
+        "fasn_data": "ChEMBL全量5541条activity，其中relation=仅3197条，censor/缺失2344条；精确主表1652条/1139分子/51 assay/34 document；canonical SPA assay CHEMBL5731051=96分子/39骨架；镜像assay CHEMBL5734379(89共享分子)不作外部验证",
+        "fasn_baseline": "canonical 5 seed scaffold split中位R2：ECFP-RF 0.336、ECFP-XGBoost 0.626、ECFP-Ridge 0.736；宽口径time sensitivity R2：RF −0.061、XGB −0.423；54天然产物max Tanimoto中位0.136→候选不放行",
+        "fasn_uq": "scaffold-disjoint split-conformal：alpha=0.10时RF覆盖率中位0.923(0.889–1.000)、XGB 0.955(0.722–1.000)，区间宽度~1.7–1.9 pActivity；覆盖率随seed波动=小样本校准不稳",
+        "moracin_n_axis": "H2=Moracin N-associated NRF2-dependent ferroptosis regulation；Gate0-3最小闭环沿用第六轮预注册；KEAP1仅pathway component",
+        "thrb_fxr_acc": "THRβ=临床机制参照/备选reporter线；FXR=疾病锚点+QC（formononetin/biochanin A已发表）；ACC=DNL附录",
+        "docking": "永久退出候选排序，仅结构解释；WT gate ROC-AUC 0.472(N331S 0.346)保留",
+        "titles": "大创兼容版=基于生物信息学与机器学习定量预测的抗MASH天然产物筛选及机制研究；推荐研究版=FASN定量建模与Moracin N相关NRF2依赖性铁死亡调控的MASH天然产物研究"
+      },
+      "open_P0": "导师双轴签核、Moracin N采购/COA/Gate0、FASN外部验证锁定、assay人工复核、HepG2平台确认；未完成≠阴性"
+    },
+    "batch_qualification_round_20260913": {
+      "trigger": "资格验证阶段指令（35条）：双轴各自生死问题裁决",
+      "scope": "Track A FASN实跑(canonical QC/10seed/Y-scrambling/泄漏/外部验证/AD-UQ/NP54复验/桥接审计/GNN门控)；Track B MoracinN实验前资格(身份/known-unknown/桥接图/M0干扰/Gate vFinal)",
+      "artifacts": [
+        "00-当前研究/qualification_round_20260913/（25份交付+raw/derived/logs/manifest，自动QC PASS）"
+      ],
+      "key_results": {
+        "fasn_verdict": "CONDITIONAL GO：canonical assay model资格成立(96分子/39骨架，10seed Ridge R2中位0.732，Y-scrambling 0/20 exceeded(+1校正p=0.0476))；外部验证失败(champion R2=0.180，分assay全负−0.16/−0.21/−1.35，conformal覆盖0.629)；近重复审计无泄漏、高相似定性为chemical-series confinement(NN Tanimoto中位0.85，scaffold重叠0)；NP54 0/54域内(中位0.136/阈值0.812)→天然产物排序资格不发放；GNN保持关闭",
+        "fasn_conditions": "①多assay融合/assay-aware校准解决外部泛化前，模型只能称canonical assay model；②桥接数据(直接生化+人源)≈0点，域适应不值得做",
+        "moracin_verdict": "GO：身份QC PASS(多库一致+供应≥2家+剂量窗双锚)；分子侧直接功能证据+ML385药理阻断支持NRF2 involvement+疾病侧独立成立+连接空白真实；Gate编号vFinal(M0物料干扰/B0模型资格含Fer-1 rescue硬门/G1表型禁TG-only判读/G2 C11+GSH+GPX4+Fer-1同向/G3 ML385四组+NRF2下游读出生效证明)；实验前资格完成，生物学结果未执行",
+        "champion_model": "ECFP-Ridge(train-test gap 0.207<XGB 0.405<RF 0.423；内部与外部均最优)；禁止以AI味道换掉"
+      },
+      "open_P0": "导师签核、GlpBio下单确认/试用装申请、COA+E/Z复核、湿实验、FASN外部校准集锁定协议"
+    },
+    "batch_advancement_round_20260913": {
+      "trigger": "资格验证后推进轮指令（26条）：FASN跨assay迁移攻关 + Moracin N第一份真实肝细胞数据",
+      "scope": "Track A：assay-aware master/E1-E5分层外部验证/小标签校准试点A-E(10 seeds)/桥接v2/NP54 v2；Track B：物料核验→未到货→实验启动包冻结(全部not_executed)；三项方法学口径修正(Y-scrambling/系列集中/NRF2证据等级)",
+      "artifacts": [
+        "00-当前研究/advancement_round_20260913/（22份交付+raw/derived/logs/manifest，自动QC PASS）"
+      ],
+      "key_results": {
+        "methodology_fixes": "Y-scrambling统一为0/20 exceeded(p=0.0476+1校正)；无结构重复/scaffold共享/复制跨集时高Tanimoto定性为chemical-series confinement不称leakage；Moracin N NRF2证据统一为直接功能+ML385药理阻断支持involvement(遗传学验证前不升因果等级)",
+        "fasn_transfer": "失败分解=化学域(主)×assay效价标尺(次)：E1_ADin(n=14,同检测+域内)Ridge排序rho=0.880但偏移-0.663毁掉R2(-1.457)；OOD侧rho仅0.08-0.52；endpoint/unit/construct/species四因素核验为非因素(全IC50/nM/=/全长/人源)",
+        "fasn_calibration": "小标签校准试点(每assay 6-12标签,10 seeds)：池化C_indicator/E_pool使跨assay排序rho 0.487→0.689/0.691(稳定,min 0.62)；offset校正把CHEMBL5730715的R2从-1.42修到-0.29(bias +0.64→+0.03)；但pooled R2(≤0.267)仍不敌cal_mean基线(0.272)——模型只贡献排序信息,不贡献效价水平",
+        "fasn_verdict_v2": "A2：仅化学域内+assay-near可迁移排序；绝对效价迁移不成立；NP54仍0/54域内；GNN继续关闭；FASN维持CONDITIONAL GO但适用范围收窄为(1)化学域内查询(2)必须过AD(3)排序+不确定性输出(4)绝对pIC50禁止",
+        "bridge_v2": "BindingDB 1241条FASN记录与18个天然产物参照InChIKey匹配=0；新数值证据：EGCG IC50=51.97μM(PMID 21605850摘要)、(-)-CG 1.5μg/mL(15943584)、Nephelium分离物6.69-204.40μM(21605850)、Acer/Alpinia提取物级IC50；直接生化+人源+逐化合物可用点仍≈0-5个→域适应仍不值得做",
+        "moracin_trackB": "Moracin N未到货(无COA/批号/到货记录,采购未确认)→本轮转为实验启动包冻结；M0/B0/毒窗/Gate1全部not_executed,不伪造数据；双轴判读框架(A+ B+等)与Gate2/3计划冻结"
+      },
+      "open_P0": "导师批准+Moracin N采购下单(唯一阻塞)；FASN Gate T1=多assay对齐数据集组装；COA/E-Z复核"
+    },
+    "batch_qualification_v1_20260913": {
+      "trigger": "第五轮资格裁决指令（AIDD Research Qualification v1）",
+      "scope": "三库统一状态冻结；前四轮资产A/B/C/D审计；assay provenance审计；RERUN_DECISION逐项裁决(仅GNN benchmark进入复算)；GNN方法学习审计；Workbench只读Research State接线",
+      "artifacts": [
+        "00-当前研究/qualification_v1/（README/RESEARCH_STATE/ASSET_AUDIT/MASTER_EVIDENCE_MATRIX/QUALIFICATION_GATES/RERUN_DECISION/OPEN_ISSUES/RUN_MANIFEST/QC PASS）"
+      ],
+      "key_results": {
+        "asset_audit": "38项资产: VERIFIED/REQUALIFY/HISTORICAL/REJECTED四类台账",
+        "provenance": "51 assay全lineage/0缺失; canonical 96全覆盖; 外部0重叠 -> PASS",
+        "gnn_benchmark": "同折断言PASS(Ridge中位R²=0.732008逐位复现); GCN R²中位0.078 GINE -0.040 vs Ridge 0.732; Y-scrambling GCN 0/20 exceeded GINE 13/20反超; 外部105 GNN全负无ADin排序优势; MC-dropout UQ无效(|rho|<0.1)",
+        "gnn_gate": "保持关闭(模型增益维度证据=不支持启用)",
+        "gates": "G0 PASS/G1 PASS(canonical限定)/G2 PASS(GNN补齐)/G3 FAIL/G4 FAIL(排序用途)/G5 candidate_release=false",
+        "workbench": "新增pages/17_Research_State.py只读镜像+测试(AppTest渲染0异常;套件113通过)"
+      },
+      "open_P0": "见 qualification_v1/OPEN_ISSUES.md（O1物料/O2导师签核外部阻塞；O5 Gate T1下一轮计算）"
     }
   },
   "status_classes": {
@@ -42,7 +163,7 @@
     "scientific_conclusion": "干研究定位成立;药效/机制/双靶/候选主张冻结",
     "scope_note": "现有18/20、100/1752/54等状态对应教学或独立V2，不能代判V1主稿；见验证状态分类_20260905.md"
   },
-  "manuscript_scope": "申报V1 FXR/GNN/CW-BCS；教学分类与独立V2隔离",
+  "manuscript_scope": "当前主发现线：Moracin N–Nrf2/ferroptosis机制重定位；历史V1 FXR/GNN/CW-BCS投稿线单独保留，不代表当前主线",
   "manuscript_execution": {
     "review": "AI辅助有条件进入投稿准备，非真人导师签核",
     "plan": "00-当前研究/中文核心投稿审批与五人执行方案.md",

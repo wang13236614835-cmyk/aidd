@@ -1,0 +1,22 @@
+# qualification_v1 QC 报告
+
+**判定：PASS**（0 项问题）
+
+## 检查项
+
+- deliverables_total: 20
+- deliverables_missing: []
+- asset_audit_rows: 38
+- asset_audit_classes: ['HISTORICAL', 'REJECTED', 'REQUALIFY', 'VERIFIED']
+- asset_audit_class_valid: True
+- evidence_rows: 21
+- evidence_confidence_valid: True
+- asset_paths_missing: []
+- ridge_median_r2: {'frozen': 0.7320079614617288, 'benchmark_recomputed': 0.732}
+- gnn_median_r2: {'gcn': 0.0784, 'gin': -0.0403}
+- report_numbers_present: True
+- independent_ridge_median_r2: 0.7320079614617288
+- scaffold_overlap_seeds: 0
+- ad_in_ridge: {'r2': -1.4568640696660933, 'spearman': 0.8795628436783615, 'n': 14}
+- banned_hits: []
+- provenance_verdict: PASS

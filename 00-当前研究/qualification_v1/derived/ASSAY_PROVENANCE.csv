@@ -1,0 +1,52 @@
+﻿assay_id,n_records,n_molecules,assay_type,assay_format,biochemical_or_cellular,species,activity_types,n_documents,document_ids,years,pmids,role_in_frozen_pipeline
+CHEMBL5731051,97,96,B,assay format,biochemical_recombinant_or_purified,Homo sapiens,IC50,1,CHEMBL5725564,2017,,canonical_training
+CHEMBL4123591,45,45,B,single protein format,biochemical_recombinant_or_purified,Homo sapiens,IC50,1,CHEMBL4118196,2018,29779975.0,external_validation
+CHEMBL5730715,37,37,B,cell-based format,biochemical_recombinant_or_purified,Homo sapiens,IC50,1,CHEMBL5725391,2017,,external_validation
+CHEMBL4402021,26,26,B,single protein format,biochemical_recombinant_or_purified,Homo sapiens,IC50,1,CHEMBL4400560,2019,30803804.0,external_validation
+CHEMBL5734379,97,96,B,single protein format,biochemical_recombinant_or_purified,Homo sapiens,IC50,1,CHEMBL5727297,2019,,mirror_excluded
+CHEMBL3705868,444,442,B,cell-based format,cell_extract_or_cellular,Homo sapiens,IC50,1,CHEMBL3638966,2014,,unused_by_frozen_sets
+CHEMBL3888977,338,334,B,cell-based format,cell_extract_or_cellular,Homo sapiens,IC50,1,CHEMBL3886904,2016,,unused_by_frozen_sets
+CHEMBL5733207,338,335,B,single protein format,cell_extract_or_cellular,Homo sapiens,IC50,1,CHEMBL5726717,2019,,unused_by_frozen_sets
+CHEMBL1839595,23,23,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL1833814,2011,21873051.0,unused_by_frozen_sets
+CHEMBL2328957,19,19,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL2321667,2013,24900571.0,unused_by_frozen_sets
+CHEMBL4402023,17,17,B,cell-based format,cell_extract_or_cellular,Homo sapiens,IC50,1,CHEMBL4400560,2019,30803804.0,unused_by_frozen_sets
+CHEMBL869274,15,15,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL1149512,2006,16784844.0,unused_by_frozen_sets
+CHEMBL4020854,13,13,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL4020701,2017,28236510.0,unused_by_frozen_sets
+CHEMBL828726,13,11,B,cell-based format,biochemical_recombinant_or_purified,Homo sapiens,IC50,1,CHEMBL1142684,2005,15715465.0,unused_by_frozen_sets
+CHEMBL1260142,12,12,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL1255179,2010,20817450.0,unused_by_frozen_sets
+CHEMBL3706007,12,12,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL3638836,2014,,unused_by_frozen_sets
+CHEMBL862461,12,12,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL1149347,2006,16870425.0,unused_by_frozen_sets
+CHEMBL4418321,11,11,B,cell-based format,cell_extract_or_cellular,Homo sapiens,IC50,1,CHEMBL4418260,2017,,unused_by_frozen_sets
+CHEMBL682484,11,9,B,single protein format,unknown_biochemical_context,Homo sapiens,Ki,1,CHEMBL1148231,2004,15026045.0,unused_by_frozen_sets
+CHEMBL3411198,8,4,B,single protein format,biochemical_recombinant_or_purified,Homo sapiens,IC50;Ki,1,CHEMBL3407413,2015,25513712.0,unused_by_frozen_sets
+CHEMBL5734012,8,8,B,assay format,cell_extract_or_cellular,Homo sapiens,IC50,1,CHEMBL5727096,2018,,unused_by_frozen_sets
+CHEMBL3619925,6,6,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL3616391,2015,26288680.0,unused_by_frozen_sets
+CHEMBL3625457,6,6,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL3621185,2015,26364942.0,unused_by_frozen_sets
+CHEMBL3619926,4,4,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL3616391,2015,26288680.0,unused_by_frozen_sets
+CHEMBL2150656,3,3,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL2146465,2012,24900519.0,unused_by_frozen_sets
+CHEMBL2169026,3,3,B,single protein format,biochemical_recombinant_or_purified,Homo sapiens,IC50,1,CHEMBL2163275,2011,21726077.0,unused_by_frozen_sets
+CHEMBL4020860,3,3,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL4020701,2017,28236510.0,unused_by_frozen_sets
+CHEMBL2169042,2,2,B,cell-based format,cell_extract_or_cellular,Homo sapiens,IC50,1,CHEMBL2163275,2011,21726077.0,unused_by_frozen_sets
+CHEMBL2169045,2,2,B,cell-based format,cell_extract_or_cellular,Homo sapiens,IC50,1,CHEMBL2163275,2011,21726077.0,unused_by_frozen_sets
+CHEMBL2169046,2,2,F,assay format,biochemical_recombinant_or_purified,Homo sapiens,Ki,1,CHEMBL2163275,2011,21726077.0,unused_by_frozen_sets
+CHEMBL3411205,2,2,B,cell-based format,cell_extract_or_cellular,Homo sapiens,IC50,1,CHEMBL3407413,2015,25513712.0,unused_by_frozen_sets
+CHEMBL3625458,2,2,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL3621185,2015,26364942.0,unused_by_frozen_sets
+CHEMBL5651415,2,2,B,single protein format,unknown_biochemical_context,Homo sapiens,Kd,1,CHEMBL5649169,2018,29928781.0,unused_by_frozen_sets
+CHEMBL863392,2,2,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL1148604,2006,16392800.0,unused_by_frozen_sets
+CHEMBL2169021,1,1,B,single protein format,biochemical_recombinant_or_purified,Homo sapiens,IC50,1,CHEMBL2163275,2011,21726077.0,unused_by_frozen_sets
+CHEMBL2169022,1,1,F,assay format,biochemical_recombinant_or_purified,Homo sapiens,Ki,1,CHEMBL2163275,2011,21726077.0,unused_by_frozen_sets
+CHEMBL2169038,1,1,B,cell-based format,cell_extract_or_cellular,Homo sapiens,IC50,1,CHEMBL2163275,2011,21726077.0,unused_by_frozen_sets
+CHEMBL2328950,1,1,B,cell-based format,cell_extract_or_cellular,Homo sapiens,IC50,1,CHEMBL2321667,2013,24900571.0,unused_by_frozen_sets
+CHEMBL3411206,1,1,B,cell-based format,cell_extract_or_cellular,Homo sapiens,IC50,1,CHEMBL3407413,2015,25513712.0,unused_by_frozen_sets
+CHEMBL3625454,1,1,B,single protein format,unknown_biochemical_context,Homo sapiens,Ki,1,CHEMBL3621185,2015,26364942.0,unused_by_frozen_sets
+CHEMBL4123592,1,1,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL4118196,2018,29779975.0,unused_by_frozen_sets
+CHEMBL4882378,1,1,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL4507280,2021,,unused_by_frozen_sets
+CHEMBL4882379,1,1,B,assay format,cell_extract_or_cellular,Homo sapiens,IC50,1,CHEMBL4507280,2021,,unused_by_frozen_sets
+CHEMBL4882380,1,1,B,cell-based format,cell_extract_or_cellular,Homo sapiens,IC50,1,CHEMBL4507280,2021,,unused_by_frozen_sets
+CHEMBL5112963,1,1,B,single protein format,unknown_biochemical_context,Homo sapiens,Ki,1,CHEMBL5108079,2022,36257066.0,unused_by_frozen_sets
+CHEMBL5210219,1,1,B,assay format,cell_extract_or_cellular,Homo sapiens,IC50,1,CHEMBL5210121,2023,,unused_by_frozen_sets
+CHEMBL5210491,1,1,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL5210307,2023,,unused_by_frozen_sets
+CHEMBL5723241,1,1,F,assay format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL5723035,2024,,unused_by_frozen_sets
+CHEMBL5723552,1,1,B,cell-based format,cell_extract_or_cellular,Homo sapiens,IC50,1,CHEMBL5723379,2024,,unused_by_frozen_sets
+CHEMBL960231,1,1,B,single protein format,unknown_biochemical_context,Homo sapiens,IC50,1,CHEMBL1158883,2003,12542342.0,unused_by_frozen_sets
+CHEMBL985841,1,1,B,cell-based format,cell_extract_or_cellular,Homo sapiens,IC50,1,CHEMBL1146563,2003,12932120.0,unused_by_frozen_sets
