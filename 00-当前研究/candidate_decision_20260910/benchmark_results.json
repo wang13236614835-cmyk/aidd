@@ -1,0 +1,252 @@
+{
+  "generated_at": "2026-09-10T04:59:13.997247+00:00",
+  "formal_batch": "H1Valid_20260910_104825_329168",
+  "protocol": {
+    "start": "2026-09-10T10:44:21.241777",
+    "deadline_local": "2026-09-10T11:42:05+08:00",
+    "molecules": [
+      {
+        "brd_id": "ish",
+        "label": "isorhamnetin",
+        "smiles": "COC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+      },
+      {
+        "brd_id": "dai",
+        "label": "daidzein",
+        "smiles": "C1=CC(=CC=C1C2=COC3=C(C2=O)C=CC(=C3)O)O"
+      },
+      {
+        "brd_id": "fmn",
+        "label": "formononetin",
+        "smiles": "COC1=CC=C(C=C1)C2=COC3=C(C2=O)C=CC(=C3)O"
+      },
+      {
+        "brd_id": "bca",
+        "label": "biochanin A",
+        "smiles": "COC1=CC=C(C=C1)C2=COC3=CC(=CC(=C3C2=O)O)O"
+      },
+      {
+        "brd_id": "mrn",
+        "label": "moracin N",
+        "smiles": "CC(=CCC1=C(C=C2C(=C1)C=C(O2)C3=CC(=CC(=C3)O)O)O)C"
+      },
+      {
+        "brd_id": "t3",
+        "label": "liothyronine",
+        "smiles": "C1=CC(=C(C=C1OC2=C(C=C(C=C2I)C[C@@H](C(=O)O)N)I)I)O"
+      },
+      {
+        "brd_id": "gc1",
+        "label": "sobetirome",
+        "smiles": "CC1=CC(=CC(=C1CC2=CC(=C(C=C2)O)C(C)C)C)OCC(=O)O"
+      },
+      {
+        "brd_id": "res",
+        "label": "resmetirom",
+        "smiles": "CC(C)C1=CC(=NNC1=O)OC2=C(C=C(C=C2Cl)N3C(=O)NC(=O)C(=N3)C#N)Cl"
+      }
+    ],
+    "seeds": [
+      7,
+      42,
+      123,
+      20260910
+    ],
+    "vina_exhaustiveness": 8,
+    "box": {
+      "center": [
+        5.157,
+        20.08,
+        29.01
+      ],
+      "size": [
+        22.156,
+        19.867,
+        20.893
+      ]
+    },
+    "T3_check": "top-scoring pose heavy-atom symmetry-aware RMSD in original receptor frame, report all seeds; descriptive pass if each <=2 A",
+    "selection_rule": "Disease-model and direct experimental mechanism evidence lead prioritization; docking only checks computational plausibility and reproducibility, cannot upgrade to THRB agonist or MASH efficacy. No blind discriminative benchmark completed in this hour. No WT-vs-mutant score comparison."
+  },
+  "repeat_table": {
+    "bca": {
+      "n": 4,
+      "seeds": [
+        7,
+        42,
+        123,
+        20260910
+      ],
+      "median": -9.255,
+      "min": -9.261,
+      "max": -9.211,
+      "range": 0.05
+    },
+    "dai": {
+      "n": 4,
+      "seeds": [
+        7,
+        42,
+        123,
+        20260910
+      ],
+      "median": -9.601,
+      "min": -9.606,
+      "max": -9.595,
+      "range": 0.011
+    },
+    "fmn": {
+      "n": 4,
+      "seeds": [
+        7,
+        42,
+        123,
+        20260910
+      ],
+      "median": -9.072,
+      "min": -9.078,
+      "max": -9.046,
+      "range": 0.032
+    },
+    "gc1": {
+      "n": 4,
+      "seeds": [
+        7,
+        42,
+        123,
+        20260910
+      ],
+      "median": -10.232,
+      "min": -10.246,
+      "max": -10.226,
+      "range": 0.02
+    },
+    "ish": {
+      "n": 4,
+      "seeds": [
+        7,
+        42,
+        123,
+        20260910
+      ],
+      "median": -8.244,
+      "min": -8.246,
+      "max": -8.234,
+      "range": 0.012
+    },
+    "mrn": {
+      "n": 4,
+      "seeds": [
+        7,
+        42,
+        123,
+        20260910
+      ],
+      "median": -10.875,
+      "min": -10.881,
+      "max": -10.853,
+      "range": 0.028
+    },
+    "res": {
+      "n": 4,
+      "seeds": [
+        7,
+        42,
+        123,
+        20260910
+      ],
+      "median": -10.215,
+      "min": -10.231,
+      "max": -10.196,
+      "range": 0.035
+    },
+    "t3": {
+      "n": 4,
+      "seeds": [
+        7,
+        42,
+        123,
+        20260910
+      ],
+      "median": -9.498,
+      "min": -9.503,
+      "max": -9.497,
+      "range": 0.006
+    }
+  },
+  "repeat_records_count": 32,
+  "pose_validation": [
+    {
+      "batch_id": "H1Valid_20260910_104825_329168",
+      "ligand": "liothyronine/T3",
+      "reported_seed": "7",
+      "engine_seed": "1",
+      "metric": "top-scored-pose heavy-atom symmetry-aware RMSD in original receptor frame",
+      "rmsd_A": 0.441,
+      "threshold_A": 2.0,
+      "pass_descriptive": true,
+      "all_modes_rmsd_A": "[0.441, 0.488, 8.043, 2.108, 8.028]",
+      "note": "Other modes include ~8 Å; only top-scored pose gate passed"
+    },
+    {
+      "batch_id": "H1Valid_20260910_104825_329168",
+      "ligand": "liothyronine/T3",
+      "reported_seed": "42",
+      "engine_seed": "42",
+      "metric": "top-scored-pose heavy-atom symmetry-aware RMSD in original receptor frame",
+      "rmsd_A": 0.473,
+      "threshold_A": 2.0,
+      "pass_descriptive": true,
+      "all_modes_rmsd_A": "[0.473, 0.479, 8.045, 8.03]",
+      "note": "Other modes include ~8 Å; only top-scored pose gate passed"
+    },
+    {
+      "batch_id": "H1Valid_20260910_104825_329168",
+      "ligand": "liothyronine/T3",
+      "reported_seed": "123",
+      "engine_seed": "123",
+      "metric": "top-scored-pose heavy-atom symmetry-aware RMSD in original receptor frame",
+      "rmsd_A": 0.469,
+      "threshold_A": 2.0,
+      "pass_descriptive": true,
+      "all_modes_rmsd_A": "[0.469, 0.481, 8.041, 8.028, 2.221]",
+      "note": "Other modes include ~8 Å; only top-scored pose gate passed"
+    },
+    {
+      "batch_id": "H1Valid_20260910_104825_329168",
+      "ligand": "liothyronine/T3",
+      "reported_seed": "20260910",
+      "engine_seed": "20260910",
+      "metric": "top-scored-pose heavy-atom symmetry-aware RMSD in original receptor frame",
+      "rmsd_A": 0.474,
+      "threshold_A": 2.0,
+      "pass_descriptive": true,
+      "all_modes_rmsd_A": "[0.474, 0.485, 1.617, 8.038, 8.028]",
+      "note": "Other modes include ~8 Å; only top-scored pose gate passed"
+    }
+  ],
+  "method_verdict": {
+    "receptor_input": "pass_limited",
+    "pose_recovery": "descriptive_pass",
+    "repeatability": "pass_technical",
+    "discrimination": "fail_or_insufficient",
+    "candidate_prediction": "not_applicable"
+  },
+  "interpretation": "Scores support descriptive pocket-occupancy/reproducibility only; not TRβ activity, TRα selectivity, Kd, MASH efficacy, or safety.",
+  "full54_summary": {
+    "path": "D:\\zcode-workspace\\h1_mash\\wt_full54_t3box.json",
+    "scope": "supplementary_unapproved",
+    "records": 54,
+    "provenance_complete": false
+  },
+  "supplementary_meo": {
+    "ligand": "3'-methoxydaidzein",
+    "per_seed": {
+      "7": -9.747,
+      "42": -9.735,
+      "123": -9.727,
+      "20260910": -9.763
+    },
+    "median": -9.741
+  }
+}

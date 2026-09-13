@@ -1,0 +1,718 @@
+{
+  "audit_author": [
+    {
+      "name": "Nascimento, A.S.",
+      "pdbx_ordinal": 1
+    },
+    {
+      "name": "Dias, S.M.G.",
+      "pdbx_ordinal": 2
+    },
+    {
+      "name": "Nunes, F.M.",
+      "pdbx_ordinal": 3
+    },
+    {
+      "name": "Aparicio, R.",
+      "pdbx_ordinal": 4
+    },
+    {
+      "name": "Polikarpov, I.",
+      "pdbx_ordinal": 5
+    },
+    {
+      "name": "Baxter, J.D.",
+      "pdbx_ordinal": 6
+    },
+    {
+      "name": "Webb, P.",
+      "pdbx_ordinal": 7
+    }
+  ],
+  "cell": {
+    "Z_PDB": 6,
+    "angle_alpha": 90.0,
+    "angle_beta": 90.0,
+    "angle_gamma": 120.0,
+    "length_a": 68.974,
+    "length_b": 68.974,
+    "length_c": 131.247
+  },
+  "citation": [
+    {
+      "country": "UK",
+      "id": "primary",
+      "journal_abbrev": "J.Mol.Biol.",
+      "journal_id_ASTM": "JMOBAK",
+      "journal_id_CSD": "0070",
+      "journal_id_ISSN": "0022-2836",
+      "journal_volume": "360",
+      "page_first": "586",
+      "page_last": "598",
+      "pdbx_database_id_DOI": "10.1016/j.jmb.2006.05.008",
+      "pdbx_database_id_PubMed": 16781732,
+      "rcsb_authors": [
+        "Nascimento, A.S.",
+        "Dias, S.M.G.",
+        "Nunes, F.M.",
+        "Aparicio, R.",
+        "Ambrosio, A.L.B.",
+        "Bleicher, L.",
+        "Figueira, A.C.M.",
+        "Santos, M.A.M.",
+        "de Oliveira Neto, M.",
+        "Fischer, H.",
+        "Togashi, M.",
+        "Craievich, A.F.",
+        "Garratt, R.C.",
+        "Baxter, J.D.",
+        "Webb, P.",
+        "Polikarpov, I."
+      ],
+      "rcsb_is_primary": "Y",
+      "rcsb_journal_abbrev": "J Mol Biol",
+      "title": "Structural rearrangements in the thyroid hormone receptor hinge domain and their putative role in the receptor function",
+      "year": 2006
+    }
+  ],
+  "database_2": [
+    {
+      "database_code": "3GWS",
+      "database_id": "PDB",
+      "pdbx_DOI": "10.2210/pdb3gws/pdb",
+      "pdbx_database_accession": "pdb_00003gws"
+    },
+    {
+      "database_code": "RCSB052404",
+      "database_id": "RCSB"
+    },
+    {
+      "database_code": "D_1000052404",
+      "database_id": "WWPDB"
+    }
+  ],
+  "diffrn": [
+    {
+      "ambient_temp": 100.0,
+      "crystal_id": "1",
+      "id": "1"
+    }
+  ],
+  "diffrn_detector": [
+    {
+      "details": "MIRRORS",
+      "detector": "IMAGE PLATE",
+      "diffrn_id": "1",
+      "pdbx_collection_date": "2004-01-01T00:00:00.000+00:00",
+      "type": "MAR scanner 345 mm plate"
+    }
+  ],
+  "diffrn_radiation": [
+    {
+      "diffrn_id": "1",
+      "pdbx_diffrn_protocol": "SINGLE WAVELENGTH",
+      "pdbx_monochromatic_or_laue_m_l": "M",
+      "pdbx_scattering_type": "x-ray",
+      "wavelength_id": "1"
+    }
+  ],
+  "diffrn_source": [
+    {
+      "diffrn_id": "1",
+      "pdbx_wavelength_list": "1.5478",
+      "source": "ROTATING ANODE",
+      "type": "RIGAKU ULTRAX 18"
+    }
+  ],
+  "entry": {
+    "id": "3GWS"
+  },
+  "exptl": [
+    {
+      "crystals_number": 1,
+      "method": "X-RAY DIFFRACTION"
+    }
+  ],
+  "exptl_crystal": [
+    {
+      "density_Matthews": 3.04,
+      "density_percent_sol": 59.59,
+      "id": "1"
+    }
+  ],
+  "exptl_crystal_grow": [
+    {
+      "crystal_id": "1",
+      "method": "VAPOR DIFFUSION, HANGING DROP",
+      "pH": 6.8,
+      "pdbx_details": "100MM SODIUM CACODYLATE, 1.4M SODIUM ACETATE, pH 6.8, VAPOR DIFFUSION, HANGING DROP, temperature 298K",
+      "temp": 298.0
+    }
+  ],
+  "pdbx_audit_revision_category": [
+    {
+      "category": "chem_comp_atom",
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "chem_comp_bond",
+      "data_content_type": "Structure model",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "database_2",
+      "data_content_type": "Structure model",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "pdbx_initial_refinement_model",
+      "data_content_type": "Structure model",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "struct_conn",
+      "data_content_type": "Structure model",
+      "ordinal": 5,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "struct_site",
+      "data_content_type": "Structure model",
+      "ordinal": 6,
+      "revision_ordinal": 3
+    },
+    {
+      "category": "atom_site",
+      "data_content_type": "Structure model",
+      "ordinal": 7,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "chem_comp_atom",
+      "data_content_type": "Structure model",
+      "ordinal": 8,
+      "revision_ordinal": 4
+    },
+    {
+      "category": "chem_comp_bond",
+      "data_content_type": "Structure model",
+      "ordinal": 9,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_audit_revision_details": [
+    {
+      "data_content_type": "Structure model",
+      "ordinal": 1,
+      "provider": "repository",
+      "revision_ordinal": 1,
+      "type": "Initial release"
+    }
+  ],
+  "pdbx_audit_revision_group": [
+    {
+      "data_content_type": "Structure model",
+      "group": "Version format compliance",
+      "ordinal": 1,
+      "revision_ordinal": 2
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Database references",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Derived calculations",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Refinement description",
+      "ordinal": 5,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Atomic model",
+      "ordinal": 6,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "group": "Data collection",
+      "ordinal": 7,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_audit_revision_history": [
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 0,
+      "ordinal": 1,
+      "revision_date": "2009-04-28T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 1,
+      "ordinal": 2,
+      "revision_date": "2011-07-13T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 1,
+      "minor_revision": 2,
+      "ordinal": 3,
+      "revision_date": "2023-09-06T00:00:00.000+00:00"
+    },
+    {
+      "data_content_type": "Structure model",
+      "major_revision": 2,
+      "minor_revision": 0,
+      "ordinal": 4,
+      "revision_date": "2023-11-15T00:00:00.000+00:00"
+    }
+  ],
+  "pdbx_audit_revision_item": [
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_DOI",
+      "ordinal": 1,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_database_2.pdbx_database_accession",
+      "ordinal": 2,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_conn.pdbx_leaving_atom_flag",
+      "ordinal": 3,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_asym_id",
+      "ordinal": 4,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_comp_id",
+      "ordinal": 5,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_struct_site.pdbx_auth_seq_id",
+      "ordinal": 6,
+      "revision_ordinal": 3
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.auth_atom_id",
+      "ordinal": 7,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_atom_site.label_atom_id",
+      "ordinal": 8,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_chem_comp_atom.atom_id",
+      "ordinal": 9,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_chem_comp_bond.atom_id_1",
+      "ordinal": 10,
+      "revision_ordinal": 4
+    },
+    {
+      "data_content_type": "Structure model",
+      "item": "_chem_comp_bond.atom_id_2",
+      "ordinal": 11,
+      "revision_ordinal": 4
+    }
+  ],
+  "pdbx_database_PDB_obs_spr": [
+    {
+      "date": "2009-04-28T00:00:00.000+00:00",
+      "id": "SPRSDE",
+      "pdb_id": "3GWS",
+      "replace_pdb_id": "2H6W"
+    }
+  ],
+  "pdbx_database_related": [
+    {
+      "content_type": "unspecified",
+      "db_id": "2H77",
+      "db_name": "PDB"
+    },
+    {
+      "content_type": "unspecified",
+      "db_id": "2H79",
+      "db_name": "PDB"
+    }
+  ],
+  "pdbx_database_status": {
+    "deposit_site": "RCSB",
+    "pdb_format_compatible": "Y",
+    "process_site": "RCSB",
+    "recvd_initial_deposition_date": "2009-04-01T00:00:00.000+00:00",
+    "status_code": "REL",
+    "status_code_sf": "REL"
+  },
+  "pdbx_initial_refinement_model": [
+    {
+      "accession_code": "2H6W",
+      "details": "PDB entry 2H6W",
+      "id": 1,
+      "source_name": "PDB",
+      "type": "experimental model"
+    }
+  ],
+  "pdbx_vrpt_summary": {
+    "attempted_validation_steps": "molprobity,validation-pack,xtriage,eds,mogul,buster-report,validation_schema,percentiles,writexml,writecif,writepdf",
+    "ligands_for_buster_report": "Y",
+    "report_creation_date": "2026-03-08T17:36:00.000+00:00"
+  },
+  "pdbx_vrpt_summary_diffraction": [
+    {
+      "B_factor_type": "FULL",
+      "CCP4_version": "9.0.010 (Gargrove)",
+      "DCC_R": 0.1834,
+      "DCC_Rfree": 0.2285,
+      "EDS_R": 0.1999,
+      "EDS_res_high": 2.2,
+      "EDS_res_low": 24.67,
+      "Fo_Fc_correlation": 0.949,
+      "I_over_sigma": "2.21(2.19A)",
+      "Padilla_Yeates_L2_mean": 0.326,
+      "Padilla_Yeates_L_mean": 0.495,
+      "Wilson_B_aniso": "[39.858,39.858,32.592,-0.000,0.000,0.000]",
+      "Wilson_B_estimate": 36.611,
+      "acentric_outliers": 0,
+      "bulk_solvent_b": 53.104,
+      "bulk_solvent_k": 0.324,
+      "centric_outliers": 0,
+      "data_anisotropy": 0.194,
+      "data_completeness": 74.27,
+      "density_fitness_version": "1.0.12",
+      "exp_method": "x-ray",
+      "num_miller_indices": 14110,
+      "number_reflns_R_free": 716,
+      "percent_RSRZ_outliers": 2.46,
+      "percent_free_reflections": 4.07,
+      "trans_NCS_details": "The largest off-origin peak in the Patterson function is 6.84% of the height of the origin peak. No significant pseudotranslation is detected.",
+      "twin_fraction": "-h,-k,l:0.035"
+    }
+  ],
+  "pdbx_vrpt_summary_geometry": [
+    {
+      "angles_RMSZ": 0.69,
+      "bonds_RMSZ": 0.32,
+      "clashscore": 8.06,
+      "num_H_reduce": 1887,
+      "num_angles_RMSZ": 2628,
+      "num_bonds_RMSZ": 1945,
+      "percent_ramachandran_outliers": 0.0,
+      "percent_rotamer_outliers": 1.95
+    }
+  ],
+  "rcsb_accession_info": {
+    "deposit_date": "2009-04-01T00:00:00.000+00:00",
+    "has_released_experimental_data": "Y",
+    "initial_release_date": "2009-04-28T00:00:00.000+00:00",
+    "major_revision": 2,
+    "minor_revision": 0,
+    "revision_date": "2023-11-15T00:00:00.000+00:00",
+    "status_code": "REL"
+  },
+  "rcsb_entry_container_identifiers": {
+    "assembly_ids": [
+      "1"
+    ],
+    "entity_ids": [
+      "1",
+      "2",
+      "3"
+    ],
+    "entry_id": "3GWS",
+    "model_ids": [
+      1
+    ],
+    "non_polymer_entity_ids": [
+      "2"
+    ],
+    "polymer_entity_ids": [
+      "1"
+    ],
+    "pubmed_id": 16781732,
+    "rcsb_id": "3GWS"
+  },
+  "rcsb_entry_info": {
+    "assembly_count": 1,
+    "branched_entity_count": 0,
+    "cis_peptide_count": 0,
+    "deposited_atom_count": 2132,
+    "deposited_deuterated_water_count": 0,
+    "deposited_hydrogen_atom_count": 0,
+    "deposited_model_count": 1,
+    "deposited_modeled_polymer_monomer_count": 247,
+    "deposited_nonpolymer_entity_instance_count": 1,
+    "deposited_polymer_entity_instance_count": 1,
+    "deposited_polymer_monomer_count": 259,
+    "deposited_solvent_atom_count": 175,
+    "deposited_unmodeled_polymer_monomer_count": 12,
+    "diffrn_radiation_wavelength_maximum": 1.5478,
+    "diffrn_radiation_wavelength_minimum": 1.5478,
+    "disulfide_bond_count": 0,
+    "entity_count": 3,
+    "experimental_method": "X-ray",
+    "experimental_method_count": 1,
+    "inter_mol_covalent_bond_count": 6,
+    "inter_mol_metalic_bond_count": 0,
+    "molecular_weight": 30.26,
+    "na_polymer_entity_types": "Other",
+    "nonpolymer_entity_count": 1,
+    "nonpolymer_molecular_weight_maximum": 0.65,
+    "nonpolymer_molecular_weight_minimum": 0.65,
+    "polymer_composition": "homomeric protein",
+    "polymer_entity_count": 1,
+    "polymer_entity_count_DNA": 0,
+    "polymer_entity_count_RNA": 0,
+    "polymer_entity_count_nucleic_acid": 0,
+    "polymer_entity_count_nucleic_acid_hybrid": 0,
+    "polymer_entity_count_protein": 1,
+    "polymer_entity_taxonomy_count": 1,
+    "polymer_molecular_weight_maximum": 29.61,
+    "polymer_molecular_weight_minimum": 29.61,
+    "polymer_monomer_count_maximum": 259,
+    "polymer_monomer_count_minimum": 259,
+    "resolution_combined": [
+      2.2
+    ],
+    "selected_polymer_entity_types": "Protein (only)",
+    "software_programs_combined": [
+      "MAR345DTB",
+      "MOLREP",
+      "MOSFLM",
+      "PHENIX",
+      "SCALA"
+    ],
+    "solvent_entity_count": 1,
+    "structure_determination_methodology": "experimental",
+    "structure_determination_methodology_priority": 10,
+    "diffrn_resolution_high": {
+      "provenance_source": "Depositor assigned",
+      "value": 2.2
+    }
+  },
+  "rcsb_primary_citation": {
+    "country": "UK",
+    "id": "primary",
+    "journal_abbrev": "J.Mol.Biol.",
+    "journal_id_ASTM": "JMOBAK",
+    "journal_id_CSD": "0070",
+    "journal_id_ISSN": "0022-2836",
+    "journal_volume": "360",
+    "page_first": "586",
+    "page_last": "598",
+    "pdbx_database_id_DOI": "10.1016/j.jmb.2006.05.008",
+    "pdbx_database_id_PubMed": 16781732,
+    "rcsb_ORCID_identifiers": [
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?",
+      "?"
+    ],
+    "rcsb_authors": [
+      "Nascimento, A.S.",
+      "Dias, S.M.G.",
+      "Nunes, F.M.",
+      "Aparicio, R.",
+      "Ambrosio, A.L.B.",
+      "Bleicher, L.",
+      "Figueira, A.C.M.",
+      "Santos, M.A.M.",
+      "de Oliveira Neto, M.",
+      "Fischer, H.",
+      "Togashi, M.",
+      "Craievich, A.F.",
+      "Garratt, R.C.",
+      "Baxter, J.D.",
+      "Webb, P.",
+      "Polikarpov, I."
+    ],
+    "rcsb_journal_abbrev": "J Mol Biol",
+    "title": "Structural rearrangements in the thyroid hormone receptor hinge domain and their putative role in the receptor function",
+    "year": 2006
+  },
+  "refine": [
+    {
+      "ls_R_factor_R_free": 0.233,
+      "ls_R_factor_R_work": 0.1909,
+      "ls_R_factor_obs": 0.193,
+      "ls_d_res_high": 2.2,
+      "ls_d_res_low": 24.667,
+      "ls_number_reflns_R_free": 1471,
+      "ls_number_reflns_all": 35459,
+      "ls_number_reflns_obs": 29016,
+      "ls_percent_reflns_R_free": 5.07,
+      "ls_percent_reflns_obs": 81.83,
+      "overall_SU_ML": 1.41,
+      "pdbx_R_Free_selection_details": "RANDOM",
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_ls_cross_valid_method": "THROUGHOUT",
+      "pdbx_ls_sigma_F": 0.03,
+      "pdbx_method_to_determine_struct": "MOLECULAR REPLACEMENT",
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "pdbx_solvent_shrinkage_radii": 0.9,
+      "pdbx_solvent_vdw_probe_radii": 1.11,
+      "pdbx_starting_model": "PDB entry 2H6W",
+      "pdbx_stereochemistry_target_values": "ML",
+      "solvent_model_details": "FLAT BULK SOLVENT MODEL",
+      "solvent_model_param_bsol": 55.973,
+      "solvent_model_param_ksol": 0.308
+    }
+  ],
+  "refine_hist": [
+    {
+      "cycle_id": "LAST",
+      "d_res_high": 2.2,
+      "d_res_low": 24.667,
+      "number_atoms_solvent": 175,
+      "number_atoms_total": 2132,
+      "pdbx_number_atoms_ligand": 23,
+      "pdbx_number_atoms_nucleic_acid": 0,
+      "pdbx_number_atoms_protein": 1934,
+      "pdbx_refine_id": "X-RAY DIFFRACTION"
+    }
+  ],
+  "refine_ls_restr": [
+    {
+      "dev_ideal": 0.003,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_bond_d"
+    },
+    {
+      "dev_ideal": 0.709,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_angle_deg"
+    },
+    {
+      "dev_ideal": 16.03,
+      "pdbx_refine_id": "X-RAY DIFFRACTION",
+      "type": "f_dihedral_angle_d"
+    }
+  ],
+  "reflns": [
+    {
+      "B_iso_Wilson_estimate": 42.844,
+      "d_resolution_high": 2.2,
+      "d_resolution_low": 24.667,
+      "number_all": 18952,
+      "number_obs": 18232,
+      "observed_criterion_sigma_F": 2.0,
+      "observed_criterion_sigma_I": 2.0,
+      "pdbx_Rmerge_I_obs": 0.067,
+      "pdbx_Rsym_value": 0.067,
+      "pdbx_diffrn_id": [
+        "1"
+      ],
+      "pdbx_netI_over_sigmaI": 16.9,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.3,
+      "percent_possible_obs": 96.2
+    }
+  ],
+  "reflns_shell": [
+    {
+      "Rmerge_I_obs": 0.618,
+      "d_res_high": 2.2,
+      "d_res_low": 2.32,
+      "meanI_over_sigI_obs": 2.5,
+      "number_unique_all": 2583,
+      "pdbx_Rsym_value": 0.618,
+      "pdbx_ordinal": 1,
+      "pdbx_redundancy": 6.1,
+      "percent_possible_all": 95.2
+    }
+  ],
+  "software": [
+    {
+      "classification": "data collection",
+      "name": "MAR345dtb",
+      "pdbx_ordinal": 1
+    },
+    {
+      "classification": "phasing",
+      "name": "MOLREP",
+      "pdbx_ordinal": 2
+    },
+    {
+      "classification": "refinement",
+      "name": "PHENIX",
+      "pdbx_ordinal": 3,
+      "version": "(phenix.refine)"
+    },
+    {
+      "classification": "data reduction",
+      "name": "MOSFLM",
+      "pdbx_ordinal": 4
+    },
+    {
+      "classification": "data scaling",
+      "name": "SCALA",
+      "pdbx_ordinal": 5
+    }
+  ],
+  "struct": {
+    "title": "Crystal Structure of T3-Bound Thyroid Hormone Receptor"
+  },
+  "struct_keywords": {
+    "pdbx_keywords": "Hormone activator",
+    "text": "Thyroid hormone receptor, T3, hinge, Alternative splicing, Deafness, Disease mutation, DNA-binding, Metal-binding, Nucleus, Polymorphism, Receptor, Transcription, Transcription regulation, Zinc, Zinc-finger, Hormone activator"
+  },
+  "symmetry": {
+    "Int_Tables_number": 152,
+    "space_group_name_H_M": "P 31 2 1"
+  },
+  "rcsb_id": "3GWS"
+}

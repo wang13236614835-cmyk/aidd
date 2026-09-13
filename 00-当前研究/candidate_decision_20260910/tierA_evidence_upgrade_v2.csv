@@ -1,0 +1,8 @@
+﻿record_id,candidate,disease_model_upgrade,mechanism_upgrade,evidence_level,decision_update,key_abstract_limit
+NP54-001,scoparone,MCD-NASH小鼠4周治疗；AML12 PA脂毒性和RAW264.7 LPS模型；摘要报告NASH关键特征、自噬、炎症/凋亡/纤维化改善,ROS/P38/Nrf2、PI3K/AKT/mTOR、自噬；另一研究TLR4/NF-kB；HFD-MASLD有miR-3073a-3p/CAMKK2线索,摘要级（未完成全文）,A-tier竞争者：优先全文和身份/可测性复核,摘要级本体证据；MCD与HFD模型均有，但剂量/组织学/偏倚需全文核查
+NP54-022,alisol B,HFD-MASLD小鼠和肝细胞；DIO+CCl4、CDA饮食NASH小鼠；摘要报告脂变、炎症和纤维化改善,Ces2a-AMPK/自噬/脂肪酸氧化；RARα-HNF4α-PPARγ-CD36；需区分母体与AB23A衍生物,摘要级（未完成全文）,A-tier竞争者：优先全文核查,摘要级本体证据；NASH病理较强，但来源/剂量/样本量待全文
+NP54-012,hyperoside,高脂高糖NAFLD大鼠、HFD NASH纤维化小鼠、LX2焦亡模型；摘要报告脂变/纤维化和肝酶改善,Flot2/TLR4/NLRP3焦亡；菌群/胆汁酸/脂质代谢；摘要称CETSA/ITC等需全文核验,摘要级（未完成全文）,A-tier竞争者：优先全文、聚集/可测性核查,摘要级本体证据，纤维化覆盖较好；直接结合条件未核实
+NP54-016,ursolic acid,HFD MASLD/NASH小鼠及脂毒性细胞；摘要报告脂变、炎症/缺氧和肝病理改善,SPP1-ITGB1/CD44-ERK-Th17；decorin-IGF-IR/HIF-1；部分SPR/pull-down/Co-IP线索需全文核查,摘要级（未完成全文）,A-tier竞争者：优先全文和可开发性复核,摘要级本体证据；三萜溶解度/递送是主要风险
+NP54-034,puerarin,NASH小鼠、MAFLD小鼠、HFD-MASLD小鼠、AML12/巨噬细胞/斑马鱼；摘要报告肝病理、胶原/炎症或脂质改善,PAI-1-自噬-巨噬M2；SIRT1/Nrf2、铁死亡；肠道菌群/短链脂肪酸/屏障,摘要级（未完成全文）,A-tier竞争者：优先全文和可测性复核,摘要级本体证据较丰富；糖苷暴露和实验形式待核查
+NP54-013,isoquercitrin,HFD-NASH小鼠、MCD脂肪性肝炎小鼠、IR-HepG2；摘要报告脂质/肝功能/炎症改善,galectin-3介导胰岛素抵抗/脂代谢；NLRP3-HSP90；AMPK/ACC线索,摘要级（未完成全文）,A-tier竞争者：优先全文核查,摘要级本体证据；需区分本体、α-glycosyl衍生物和提取物
+NP54-046,1-deoxynojirimycin,CDAHFD-MASH小鼠和HFD-NASH小鼠；摘要报告肝损伤、脂变、炎症和纤维化改善,PI3K/AKT/mTOR-自噬；肠道菌群重塑；直接靶点仍未确认,摘要级（未完成全文）,A-tier竞争者：优先全文核查,摘要级本体证据；公开摘要对组织学和剂量需全文核查

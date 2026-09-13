@@ -1,0 +1,7 @@
+第五轮独立审计包
+日期: 2026-09-12
+原始证据包仅引用，不覆盖：
+- D:/zcode-workspace/aidd-repo-work/00-当前研究/candidate_decision_20260910
+- D:/zcode-workspace/aidd-repo-work/00-当前研究/wp_exec_20260909
+- D:/zcode-workspace/弟4。5轮/TAME_VS_FXR_REPRODUCTION
+审计对象: moracin N; formononetin; 3'-methoxydaidzein; isorhamnetin; biochanin A

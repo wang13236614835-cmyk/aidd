@@ -1,0 +1,14 @@
+项目,FASN轴,Moracin N轴
+生物学问题,异常de novo lipogenesis是否通过FASN增加肝脏脂质负荷并参与MASH相关脂毒性,已有神经元抗铁死亡机制能否迁移到MASH相关肝细胞脂质过氧化/铁死亡防御
+靶点/机制,FASN；抑制方向；不把不同结构域或细胞裂解物混成一个标签,NRF2-dependent ferroptosis regulation；KEAP1为上游通路成分而非已证实直接靶点；GPX4/SLC7A11/GSH/ACSL4为读出
+已有临床证据,denifanstat Phase 2b FASCINATE-2在F2/F3 MASH组织学终点阳性；2025披露称MASH Phase 3需资金，不能写已启动；非获批,Ferroptosis/NRF2在MASH有细胞和动物机制证据；Moracin N直接证据来自HT22和脑缺血，不是MASH临床证据
+已有候选证据,天然FASN直接抑制先例包括phloretin/EGCG等，但多为库外或肿瘤/其他疾病；现有54库没有已验证FASN候选,莫拉辛N在HT22抗铁死亡EC50<0.50 μM并有ML385阻断脑缺血保护；肝细胞/MASH连接未完成
+数据可建模性,全量5541 activity；relation=的仅3197；精确主表1652/1139分子/51 assays/34 documents；canonical SPA 96分子/39骨架；provenance尚需进一步同质化,KEAP1有615条精确记录/460分子但PPI、肽竞争、Kd/Ki/IC50混杂；NRF2/GPX4不是同一直接结合标签；不适合直接GNN
+AIDD适配,最适合做assay-frozen RF/XGBoost并评估AD/UQ；GNN后置；docking只解释结构,证据驱动机制重定位+身份/干扰审计+最小因果实验；不训练伪造的NRF2/GPX4 GNN
+创新性,具体问题是来源可追溯天然产物对同一人FASN assay的直接抑制与肝细胞DNL读出的连接；已有多酚先例压缩笼统新颖性,具体问题是Moracin N已发表神经元Nrf2/ferroptosis证据是否能在肝细胞脂毒性中复制；不是声称铁死亡领域空白
+实验成本,需重组FASN酶抑制、阳性/阴性对照、酶与细胞两级读出；高于Moracin N支线,Gate0–3使用HepG2 PA/OA、TG/GSH/ROS/GPX4/Fer-1/ML385；可分期采购，低至中
+1–3个月产出,完成master/provenance规则、baseline和是否可进入扩展库的判断；不保证产生可释放候选,获得Gate0/1和必要时Gate2的真实表型/机制信号或材料不可行结论
+1–2年潜力,若外部验证和实验均通过，可形成真正的AIDD数据—模型—AD/UQ—实验链；若严格外推失败，应保留为方法学阴性,若Gate3通过，可形成机制重定位和跨细胞类型证据链；若失败也能明确撤销主张
+最大风险,assay异质性、跨年份外推失败、天然库OOD、直接酶实验成本、模型分数被误读,细胞类型迁移失败、抗氧化/荧光/聚集假阳性、长期NRF2安全性和口服暴露未知
+Go/No-Go,FASN baseline在严格scaffold/time/external中稳定且AD可解释，才进入天然产物预测；否则停止GNN和候选排序,Gate1无毒窗口无表型或Gate3 ML385削减<30%则撤销相应主张；不以docking翻案
+当前角色,长期主AIDD轴；模型资格赛进行中,近期高创新功能验证轴；主候选Moracin N

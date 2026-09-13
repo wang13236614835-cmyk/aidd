@@ -1,0 +1,89 @@
+{
+  "THRB": {
+    "pdb": "2J4A.pdb",
+    "chains_raw": [
+      "A"
+    ],
+    "chains_clean": [
+      "A"
+    ],
+    "res_raw": 358,
+    "res_clean": 251,
+    "res_pdbqt": 246,
+    "remark465_missing": [],
+    "hetatm_nonwater": [
+      "OEF"
+    ],
+    "cocrystal_ligand_atoms": 24,
+    "box_covers_ligand_atoms_pct": 100.0,
+    "box_lining_residues": 251,
+    "residues_within_4p5A_of_ligand": 24,
+    "receptor_pdbqt_records": 2344,
+    "pdbqt_h_records": 400,
+    "histidines_in_clean": 9,
+    "tierB_manual_pending": [
+      "docking-pH protonation/tautomer (HIS/ASP/GLU/LYS) review e.g. PDB2PQR/PROPKA",
+      "chain/domain biological relevance vs MASH cell context",
+      "missing-loop impact on pocket",
+      "reviewer sign-off"
+    ]
+  },
+  "FASN": {
+    "pdb": "7MHD.pdb",
+    "chains_raw": [
+      "A"
+    ],
+    "chains_clean": [
+      "A"
+    ],
+    "res_raw": 388,
+    "res_clean": 282,
+    "res_pdbqt": 282,
+    "remark465_missing": [],
+    "hetatm_nonwater": [
+      "ZEP"
+    ],
+    "cocrystal_ligand_atoms": 27,
+    "box_covers_ligand_atoms_pct": 100.0,
+    "box_lining_residues": 282,
+    "residues_within_4p5A_of_ligand": 20,
+    "receptor_pdbqt_records": 2673,
+    "pdbqt_h_records": 484,
+    "histidines_in_clean": 10,
+    "tierB_manual_pending": [
+      "docking-pH protonation/tautomer (HIS/ASP/GLU/LYS) review e.g. PDB2PQR/PROPKA",
+      "chain/domain biological relevance vs MASH cell context",
+      "missing-loop impact on pocket",
+      "reviewer sign-off"
+    ]
+  },
+  "FXR": {
+    "pdb": "1OSH.pdb",
+    "chains_raw": [
+      "A"
+    ],
+    "chains_clean": [
+      "A"
+    ],
+    "res_raw": 395,
+    "res_clean": 216,
+    "res_pdbqt": 216,
+    "remark465_missing": [],
+    "hetatm_nonwater": [
+      "FEX"
+    ],
+    "cocrystal_ligand_atoms": 37,
+    "box_covers_ligand_atoms_pct": 100.0,
+    "box_lining_residues": 216,
+    "residues_within_4p5A_of_ligand": 29,
+    "receptor_pdbqt_records": 2143,
+    "pdbqt_h_records": 375,
+    "histidines_in_clean": 11,
+    "tierB_manual_pending": [
+      "docking-pH protonation/tautomer (HIS/ASP/GLU/LYS) review e.g. PDB2PQR/PROPKA",
+      "chain/domain biological relevance vs MASH cell context",
+      "missing-loop impact on pocket",
+      "reviewer sign-off"
+    ]
+  }
+}

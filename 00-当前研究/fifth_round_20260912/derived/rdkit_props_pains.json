@@ -1,0 +1,47 @@
+{
+ "moracin N": {
+  "rdkit_MW": 310.35,
+  "clogP": 4.73,
+  "TPSA": 73.83,
+  "HBD": 3,
+  "HBA": 4,
+  "rotb": 3,
+  "PAINS_alert": "none"
+ },
+ "formononetin": {
+  "rdkit_MW": 268.27,
+  "clogP": 3.17,
+  "TPSA": 59.67,
+  "HBD": 1,
+  "HBA": 4,
+  "rotb": 2,
+  "PAINS_alert": "none"
+ },
+ "3'-methoxydaidzein": {
+  "rdkit_MW": 284.27,
+  "clogP": 2.88,
+  "TPSA": 79.9,
+  "HBD": 2,
+  "HBA": 5,
+  "rotb": 2,
+  "PAINS_alert": "none"
+ },
+ "isorhamnetin": {
+  "rdkit_MW": 316.26,
+  "clogP": 2.29,
+  "TPSA": 120.36,
+  "HBD": 4,
+  "HBA": 7,
+  "rotb": 2,
+  "PAINS_alert": "none"
+ },
+ "biochanin A": {
+  "rdkit_MW": 284.27,
+  "clogP": 2.88,
+  "TPSA": 79.9,
+  "HBD": 2,
+  "HBA": 5,
+  "rotb": 2,
+  "PAINS_alert": "none"
+ }
+}

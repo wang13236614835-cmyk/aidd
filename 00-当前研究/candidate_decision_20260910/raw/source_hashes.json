@@ -1,0 +1,27 @@
+[
+  {
+    "path": "D:\\zcode-workspace\\ds_in\\np54_ligands.csv",
+    "size": 10342,
+    "sha256": "e8c7d3bb4ee5d83a34b04f86696bbfa663dfdd4135772f2b9aec0c2dd1aeab5a"
+  },
+  {
+    "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\data_review\\np_identity_review.csv",
+    "size": 10719,
+    "sha256": "4d16de164bba0a022abbb6f2fa9e89b23c88ce652ba50e814fc9ee86b439786e"
+  },
+  {
+    "path": "D:\\zcode-workspace\\h1_mash\\repeat_results.json",
+    "size": 35303,
+    "sha256": "7e7555158978f4a7c5fe49c612d9ea92bbb3722978b6e1056e548aafaf8edc26"
+  },
+  {
+    "path": "D:\\zcode-workspace\\h1_mash\\wt_full54_t3box.json",
+    "size": 4656,
+    "sha256": "5c712bd3518c6ba5d1b88fd10f7f46973fe745f26b7c9c099d028c0412efa733"
+  },
+  {
+    "path": "D:\\zcode-workspace\\h1_mash\\deliverables\\t3_pose_rmsd_per_seed.json",
+    "size": 521,
+    "sha256": "d9c10e1aaf3c4a3b4242bb800faf32bf21fd83b455192d23e9d6f68d80722b45"
+  }
+]

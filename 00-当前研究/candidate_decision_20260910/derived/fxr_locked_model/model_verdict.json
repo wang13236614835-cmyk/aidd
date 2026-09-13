@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "locked_test_roc_auc_lower_bound_gt_0.5": true,
+    "topk_enrichment_over_random": true,
+    "property_baseline_comparison_reported": true
+  },
+  "values": {
+    "locked_test_roc_auc": 0.9343137254901961,
+    "locked_test_roc_auc_95ci": {
+      "n_boot": 2000,
+      "lo": 0.8620613590263693,
+      "median": 0.9382352941176471,
+      "hi": 0.9888738008815141
+    },
+    "topk": {
+      "k": 10,
+      "hits": 10,
+      "test_positive_rate": 0.53125,
+      "random_expected_hits": 5.3125,
+      "enrichment_factor": 1.8823529411764706,
+      "theoretical_max_enrichment": 1.8823529411764706
+    },
+    "regression": {
+      "MAE": 0.43154436098941834,
+      "RMSE": 0.600731054480095,
+      "Spearman": 0.6730467107161633
+    },
+    "descriptor_baseline": {
+      "MAE": 0.5168355383997572,
+      "RMSE": 0.7300393812331664,
+      "Spearman": 0.45483929667800066
+    }
+  },
+  "decision": "eligible_for_exploratory_model_assisted_use",
+  "reason": "criteria are project-specific development rules, not drug efficacy standards; this is an internal scaffold split, not external validation"
+}

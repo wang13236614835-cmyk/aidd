@@ -1,0 +1,51 @@
+﻿record_id,candidate,reason,disease_query_hits,mechanism_query_hits,status
+NP54-001,scoparone,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,16,14,excluded_or_deferred_not_proven_inactive
+NP54-002,scopoletin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,11,23,excluded_or_deferred_not_proven_inactive
+NP54-003,umbelliferone,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,12,29,excluded_or_deferred_not_proven_inactive
+NP54-004,capillarisin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,1,4,excluded_or_deferred_not_proven_inactive
+NP54-005,arcapillin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,0,0,excluded_or_deferred_not_proven_inactive
+NP54-006,capillin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,2,1,excluded_or_deferred_not_proven_inactive
+NP54-007,capillene,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,0,0,excluded_or_deferred_not_proven_inactive
+NP54-008,"1,2-dimethoxy-4-vinylbenzene",未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,0,0,excluded_or_deferred_not_proven_inactive
+NP54-010,vitexin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,8,48,excluded_or_deferred_not_proven_inactive
+NP54-011,isovitexin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,2,20,excluded_or_deferred_not_proven_inactive
+NP54-012,hyperoside,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,16,60,excluded_or_deferred_not_proven_inactive
+NP54-013,isoquercitrin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,19,53,excluded_or_deferred_not_proven_inactive
+NP54-014,epicatechin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,52,241,excluded_or_deferred_not_proven_inactive
+NP54-015,procyanidin B2,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,10,25,excluded_or_deferred_not_proven_inactive
+NP54-016,ursolic acid,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,52,91,excluded_or_deferred_not_proven_inactive
+NP54-017,oleanolic acid,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,42,102,excluded_or_deferred_not_proven_inactive
+NP54-018,corosolic acid,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,8,16,excluded_or_deferred_not_proven_inactive
+NP54-019,maslinic acid,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,7,12,excluded_or_deferred_not_proven_inactive
+NP54-020,tormentic acid,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,6,4,excluded_or_deferred_not_proven_inactive
+NP54-021,alisol A,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,8,4,excluded_or_deferred_not_proven_inactive
+NP54-022,alisol B,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,18,16,excluded_or_deferred_not_proven_inactive
+NP54-023,alisol C,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,0,2,excluded_or_deferred_not_proven_inactive
+NP54-024,alisol B acetate,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,0,0,excluded_or_deferred_not_proven_inactive
+NP54-025,16-oxo-alisol A,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,0,0,excluded_or_deferred_not_proven_inactive
+NP54-026,alismol,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,2,0,excluded_or_deferred_not_proven_inactive
+NP54-027,alismoxide,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,0,0,excluded_or_deferred_not_proven_inactive
+NP54-028,obtusifolin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,1,2,excluded_or_deferred_not_proven_inactive
+NP54-029,obtusin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,9,3,excluded_or_deferred_not_proven_inactive
+NP54-030,aurantio-obtusin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,9,3,excluded_or_deferred_not_proven_inactive
+NP54-031,chryso-obtusin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,0,0,excluded_or_deferred_not_proven_inactive
+NP54-032,rubrofusarin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,4,3,excluded_or_deferred_not_proven_inactive
+NP54-033,toralactone,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,1,1,excluded_or_deferred_not_proven_inactive
+NP54-034,puerarin,糖苷/异黄酮有方向线索，但疾病、直接靶点和暴露条件尚未按本轮标准闭环,50,90,excluded_or_deferred_not_proven_inactive
+NP54-035,daidzein,有非代谢性CCl4/BDL纤维化证据和TR敏化文献，但与总问题的MASH疾病锚不够直接,44,90,excluded_or_deferred_not_proven_inactive
+NP54-036,daidzin,糖苷/异黄酮有方向线索，但疾病、直接靶点和暴露条件尚未按本轮标准闭环,9,16,excluded_or_deferred_not_proven_inactive
+NP54-037,genistin,糖苷/异黄酮有方向线索，但疾病、直接靶点和暴露条件尚未按本轮标准闭环,3,13,excluded_or_deferred_not_proven_inactive
+NP54-040,3'-methoxydaidzein,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,0,1,excluded_or_deferred_not_proven_inactive
+NP54-041,ononin,糖苷/异黄酮有方向线索，但疾病、直接靶点和暴露条件尚未按本轮标准闭环,6,6,excluded_or_deferred_not_proven_inactive
+NP54-042,sarmentosin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,1,1,excluded_or_deferred_not_proven_inactive
+NP54-043,hypophyllanthin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,0,1,excluded_or_deferred_not_proven_inactive
+NP54-044,nirtetralin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,0,0,excluded_or_deferred_not_proven_inactive
+NP54-045,niranthin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,0,1,excluded_or_deferred_not_proven_inactive
+NP54-046,1-deoxynojirimycin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,19,3,excluded_or_deferred_not_proven_inactive
+NP54-047,oxyresveratrol,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,3,6,excluded_or_deferred_not_proven_inactive
+NP54-048,astragalin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,6,12,excluded_or_deferred_not_proven_inactive
+NP54-050,moracin M,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,0,2,excluded_or_deferred_not_proven_inactive
+NP54-051,mulberrofuran G,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,0,1,excluded_or_deferred_not_proven_inactive
+NP54-052,piceid,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,2,5,excluded_or_deferred_not_proven_inactive
+NP54-053,catechin,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,110,510,excluded_or_deferred_not_proven_inactive
+NP54-054,torachrysone,未形成可核查的MASH/NASH直接证据与可操作机制假说；本轮仅记录检索命中，不将未知当阴性,0,1,excluded_or_deferred_not_proven_inactive

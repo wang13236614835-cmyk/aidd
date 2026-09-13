@@ -1,0 +1,239 @@
+{
+ "note": "protocol_sd: ETKDG start + search seed both vary (4 seeds). search_only_sd: fixed seed42 start, vary vina search seed (3 seeds + seed42 anchor). difference approximates start-conformation contribution; both are exploratory diagnostics",
+ "per_row": [
+  {
+   "name": "3'-methoxydaidzein",
+   "target": "FXR",
+   "protocol_sd": 0.012,
+   "search_only_sd": 0.023
+  },
+  {
+   "name": "biochanin A",
+   "target": "FXR",
+   "protocol_sd": 0.014,
+   "search_only_sd": 0.012
+  },
+  {
+   "name": "capillarisin",
+   "target": "FXR",
+   "protocol_sd": 0.031,
+   "search_only_sd": 0.008
+  },
+  {
+   "name": "daidzein",
+   "target": "FXR",
+   "protocol_sd": 0.02,
+   "search_only_sd": 0.14
+  },
+  {
+   "name": "daidzin",
+   "target": "FXR",
+   "protocol_sd": 0.698,
+   "search_only_sd": 0.014
+  },
+  {
+   "name": "epicatechin",
+   "target": "FXR",
+   "protocol_sd": 0.538,
+   "search_only_sd": 0.012
+  },
+  {
+   "name": "formononetin",
+   "target": "FXR",
+   "protocol_sd": 0.023,
+   "search_only_sd": 0.012
+  },
+  {
+   "name": "genistin",
+   "target": "FXR",
+   "protocol_sd": 1.051,
+   "search_only_sd": 0.019
+  },
+  {
+   "name": "isorhamnetin",
+   "target": "FXR",
+   "protocol_sd": 0.077,
+   "search_only_sd": 0.059
+  },
+  {
+   "name": "moracin M",
+   "target": "FXR",
+   "protocol_sd": 0.036,
+   "search_only_sd": 0.007
+  },
+  {
+   "name": "moracin N",
+   "target": "FXR",
+   "protocol_sd": 0.005,
+   "search_only_sd": 0.017
+  },
+  {
+   "name": "piceid",
+   "target": "FXR",
+   "protocol_sd": 0.2,
+   "search_only_sd": 0.01
+  },
+  {
+   "name": "toralactone",
+   "target": "FXR",
+   "protocol_sd": 0.015,
+   "search_only_sd": 0.011
+  },
+  {
+   "name": "3'-methoxydaidzein",
+   "target": "THRB",
+   "protocol_sd": 0.03,
+   "search_only_sd": 0.008
+  },
+  {
+   "name": "biochanin A",
+   "target": "THRB",
+   "protocol_sd": 0.043,
+   "search_only_sd": 0.008
+  },
+  {
+   "name": "capillarisin",
+   "target": "THRB",
+   "protocol_sd": 0.183,
+   "search_only_sd": 0.01
+  },
+  {
+   "name": "daidzein",
+   "target": "THRB",
+   "protocol_sd": 0.044,
+   "search_only_sd": 0.005
+  },
+  {
+   "name": "daidzin",
+   "target": "THRB",
+   "protocol_sd": 0.494,
+   "search_only_sd": 0.021
+  },
+  {
+   "name": "epicatechin",
+   "target": "THRB",
+   "protocol_sd": 0.425,
+   "search_only_sd": 0.006
+  },
+  {
+   "name": "formononetin",
+   "target": "THRB",
+   "protocol_sd": 0.029,
+   "search_only_sd": 0.069
+  },
+  {
+   "name": "genistin",
+   "target": "THRB",
+   "protocol_sd": 0.535,
+   "search_only_sd": 0.115
+  },
+  {
+   "name": "isorhamnetin",
+   "target": "THRB",
+   "protocol_sd": 0.047,
+   "search_only_sd": 0.003
+  },
+  {
+   "name": "moracin M",
+   "target": "THRB",
+   "protocol_sd": 0.024,
+   "search_only_sd": 0.004
+  },
+  {
+   "name": "moracin N",
+   "target": "THRB",
+   "protocol_sd": 0.019,
+   "search_only_sd": 0.01
+  },
+  {
+   "name": "piceid",
+   "target": "THRB",
+   "protocol_sd": 1.156,
+   "search_only_sd": 0.28
+  },
+  {
+   "name": "toralactone",
+   "target": "THRB",
+   "protocol_sd": 0.191,
+   "search_only_sd": 0.012
+  },
+  {
+   "name": "3'-methoxydaidzein",
+   "target": "FASN",
+   "protocol_sd": 0.067,
+   "search_only_sd": 0.031
+  },
+  {
+   "name": "biochanin A",
+   "target": "FASN",
+   "protocol_sd": 0.021,
+   "search_only_sd": 0.006
+  },
+  {
+   "name": "capillarisin",
+   "target": "FASN",
+   "protocol_sd": 0.086,
+   "search_only_sd": 0.028
+  },
+  {
+   "name": "daidzein",
+   "target": "FASN",
+   "protocol_sd": 0.012,
+   "search_only_sd": 0.003
+  },
+  {
+   "name": "daidzin",
+   "target": "FASN",
+   "protocol_sd": 0.159,
+   "search_only_sd": 0.014
+  },
+  {
+   "name": "epicatechin",
+   "target": "FASN",
+   "protocol_sd": 0.486,
+   "search_only_sd": 0.009
+  },
+  {
+   "name": "formononetin",
+   "target": "FASN",
+   "protocol_sd": 0.012,
+   "search_only_sd": 0.005
+  },
+  {
+   "name": "genistin",
+   "target": "FASN",
+   "protocol_sd": 0.261,
+   "search_only_sd": 0.013
+  },
+  {
+   "name": "isorhamnetin",
+   "target": "FASN",
+   "protocol_sd": 0.035,
+   "search_only_sd": 0.003
+  },
+  {
+   "name": "moracin M",
+   "target": "FASN",
+   "protocol_sd": 0.009,
+   "search_only_sd": 0.012
+  },
+  {
+   "name": "moracin N",
+   "target": "FASN",
+   "protocol_sd": 0.045,
+   "search_only_sd": 0.032
+  },
+  {
+   "name": "piceid",
+   "target": "FASN",
+   "protocol_sd": 0.191,
+   "search_only_sd": 0.02
+  },
+  {
+   "name": "toralactone",
+   "target": "FASN",
+   "protocol_sd": 0.054,
+   "search_only_sd": 0.026
+  }
+ ]
+}

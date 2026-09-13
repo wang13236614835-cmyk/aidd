@@ -1,0 +1,69 @@
+{
+  "query_date": "2026-09-12",
+  "target_chembl_id": "CHEMBL4158",
+  "total_activity_records": 5541,
+  "unique_activity_id": 5541,
+  "unique_record_id": 2973,
+  "standard_type": {
+    "IC50": 3926,
+    "kon": 713,
+    "k_off": 713,
+    "Inhibition": 99,
+    "Ratio": 60,
+    "Ki": 21,
+    "FC": 5,
+    "Kd": 2,
+    "ED50": 2
+  },
+  "standard_relation": {
+    "=": 3197,
+    "None": 2108,
+    "<": 136,
+    ">": 85,
+    "<=": 11,
+    ">=": 4
+  },
+  "standard_units": {
+    "nM": 3903,
+    "None": 781,
+    "s-1": 713,
+    "%": 99,
+    "ug.mL-1": 45
+  },
+  "assay_format": {
+    "assay format": 2385,
+    "single protein format": 1622,
+    "cell-based format": 1527,
+    "subcellular format": 7
+  },
+  "organism": {
+    "Homo sapiens": 5541
+  },
+  "standard_flag": {
+    "1": 4001,
+    "0": 1540
+  },
+  "potential_duplicate": {
+    "0": 5099,
+    "1": 442
+  },
+  "numeric_standard_value": 4068,
+  "positive_standard_value": 4058,
+  "nonpositive_standard_value": 10,
+  "missing_standard_value": 1473,
+  "has_data_validity_comment": 17,
+  "has_canonical_smiles": 5541,
+  "has_molecule_id": 5541,
+  "has_assay_id": 5541,
+  "has_document_id": 5541,
+  "molecule_assay_type_unit_groups": 5512,
+  "groups_with_multiple_numeric_values": 14,
+  "censor_relations_not_equal": 2344,
+  "exact_relation_nM_IC50": 1615,
+  "exact_relation_all_standard_types_nM": 1639,
+  "quality_notes": [
+    "standard_value missing for many non-active/censored records; missing relation retained as unresolved, not converted to exact",
+    "standard_flag=0 records are retained in raw audit and excluded from modeling unless separately justified",
+    "molecule-level and assay-level duplicates require explicit aggregation; master table currently contains exact relation records only"
+  ]
+}

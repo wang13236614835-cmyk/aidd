@@ -1,0 +1,326 @@
+[
+ {
+  "name": "epicatechin",
+  "TRB": -9.45,
+  "TRA": -7.151,
+  "delta_TRB_minus_TRA": -2.299
+ },
+ {
+  "name": "toralactone",
+  "TRB": -8.872,
+  "TRA": -6.915,
+  "delta_TRB_minus_TRA": -1.957
+ },
+ {
+  "name": "rubrofusarin",
+  "TRB": -8.393,
+  "TRA": -6.519,
+  "delta_TRB_minus_TRA": -1.874
+ },
+ {
+  "name": "isoquercitrin",
+  "TRB": -5.841,
+  "TRA": -4.241,
+  "delta_TRB_minus_TRA": -1.6
+ },
+ {
+  "name": "corosolic acid",
+  "TRB": -6.628,
+  "TRA": -5.115,
+  "delta_TRB_minus_TRA": -1.513
+ },
+ {
+  "name": "procyanidin B2",
+  "TRB": -7.019,
+  "TRA": -5.545,
+  "delta_TRB_minus_TRA": -1.474
+ },
+ {
+  "name": "aurantio-obtusin",
+  "TRB": -7.386,
+  "TRA": -6.006,
+  "delta_TRB_minus_TRA": -1.38
+ },
+ {
+  "name": "moracin N",
+  "TRB": -11.297,
+  "TRA": -9.978,
+  "delta_TRB_minus_TRA": -1.319
+ },
+ {
+  "name": "ursolic acid",
+  "TRB": -6.602,
+  "TRA": -5.289,
+  "delta_TRB_minus_TRA": -1.313
+ },
+ {
+  "name": "puerarin",
+  "TRB": -6.148,
+  "TRA": -4.883,
+  "delta_TRB_minus_TRA": -1.265
+ },
+ {
+  "name": "hyperoside",
+  "TRB": -6.092,
+  "TRA": -4.834,
+  "delta_TRB_minus_TRA": -1.258
+ },
+ {
+  "name": "maslinic acid",
+  "TRB": -6.588,
+  "TRA": -5.336,
+  "delta_TRB_minus_TRA": -1.252
+ },
+ {
+  "name": "tormentic acid",
+  "TRB": -6.454,
+  "TRA": -5.225,
+  "delta_TRB_minus_TRA": -1.229
+ },
+ {
+  "name": "capillarisin",
+  "TRB": -9.508,
+  "TRA": -8.314,
+  "delta_TRB_minus_TRA": -1.194
+ },
+ {
+  "name": "catechin",
+  "TRB": -9.654,
+  "TRA": -8.483,
+  "delta_TRB_minus_TRA": -1.171
+ },
+ {
+  "name": "oleanolic acid",
+  "TRB": -6.735,
+  "TRA": -5.564,
+  "delta_TRB_minus_TRA": -1.171
+ },
+ {
+  "name": "hypophyllanthin",
+  "TRB": -4.893,
+  "TRA": -3.725,
+  "delta_TRB_minus_TRA": -1.168
+ },
+ {
+  "name": "oxyresveratrol",
+  "TRB": -9.637,
+  "TRA": -8.52,
+  "delta_TRB_minus_TRA": -1.117
+ },
+ {
+  "name": "vitexin",
+  "TRB": -6.336,
+  "TRA": -5.239,
+  "delta_TRB_minus_TRA": -1.097
+ },
+ {
+  "name": "moracin M",
+  "TRB": -9.676,
+  "TRA": -8.725,
+  "delta_TRB_minus_TRA": -0.951
+ },
+ {
+  "name": "isorhamnetin",
+  "TRB": -8.437,
+  "TRA": -7.638,
+  "delta_TRB_minus_TRA": -0.799
+ },
+ {
+  "name": "mulberrofuran G",
+  "TRB": -6.476,
+  "TRA": -5.69,
+  "delta_TRB_minus_TRA": -0.786
+ },
+ {
+  "name": "3'-methoxydaidzein",
+  "TRB": -9.619,
+  "TRA": -8.861,
+  "delta_TRB_minus_TRA": -0.758
+ },
+ {
+  "name": "daidzein",
+  "TRB": -10.108,
+  "TRA": -9.351,
+  "delta_TRB_minus_TRA": -0.757
+ },
+ {
+  "name": "isovitexin",
+  "TRB": -7.748,
+  "TRA": -7.068,
+  "delta_TRB_minus_TRA": -0.68
+ },
+ {
+  "name": "astragalin",
+  "TRB": -5.611,
+  "TRA": -4.957,
+  "delta_TRB_minus_TRA": -0.654
+ },
+ {
+  "name": "alisol A",
+  "TRB": -5.79,
+  "TRA": -5.156,
+  "delta_TRB_minus_TRA": -0.634
+ },
+ {
+  "name": "alismoxide",
+  "TRB": -6.842,
+  "TRA": -6.236,
+  "delta_TRB_minus_TRA": -0.606
+ },
+ {
+  "name": "umbelliferone",
+  "TRB": -7.272,
+  "TRA": -6.667,
+  "delta_TRB_minus_TRA": -0.605
+ },
+ {
+  "name": "alisol B",
+  "TRB": -6.556,
+  "TRA": -5.954,
+  "delta_TRB_minus_TRA": -0.602
+ },
+ {
+  "name": "arcapillin",
+  "TRB": -7.216,
+  "TRA": -6.616,
+  "delta_TRB_minus_TRA": -0.6
+ },
+ {
+  "name": "scopoletin",
+  "TRB": -7.458,
+  "TRA": -6.898,
+  "delta_TRB_minus_TRA": -0.56
+ },
+ {
+  "name": "scoparone",
+  "TRB": -7.023,
+  "TRA": -6.536,
+  "delta_TRB_minus_TRA": -0.487
+ },
+ {
+  "name": "obtusifolin",
+  "TRB": -7.696,
+  "TRA": -7.25,
+  "delta_TRB_minus_TRA": -0.446
+ },
+ {
+  "name": "nirtetralin",
+  "TRB": -4.813,
+  "TRA": -4.465,
+  "delta_TRB_minus_TRA": -0.348
+ },
+ {
+  "name": "16-oxo-alisol A",
+  "TRB": -5.966,
+  "TRA": -5.626,
+  "delta_TRB_minus_TRA": -0.34
+ },
+ {
+  "name": "chryso-obtusin",
+  "TRB": -5.348,
+  "TRA": -5.008,
+  "delta_TRB_minus_TRA": -0.34
+ },
+ {
+  "name": "alismol",
+  "TRB": -7.091,
+  "TRA": -6.779,
+  "delta_TRB_minus_TRA": -0.312
+ },
+ {
+  "name": "1,2-dimethoxy-4-vinylbenzene",
+  "TRB": -6.442,
+  "TRA": -6.141,
+  "delta_TRB_minus_TRA": -0.301
+ },
+ {
+  "name": "capillene",
+  "TRB": -7.274,
+  "TRA": -6.979,
+  "delta_TRB_minus_TRA": -0.295
+ },
+ {
+  "name": "alisol C",
+  "TRB": -6.516,
+  "TRA": -6.257,
+  "delta_TRB_minus_TRA": -0.259
+ },
+ {
+  "name": "obtusin",
+  "TRB": -5.87,
+  "TRA": -5.654,
+  "delta_TRB_minus_TRA": -0.216
+ },
+ {
+  "name": "sarmentosin",
+  "TRB": -6.512,
+  "TRA": -6.325,
+  "delta_TRB_minus_TRA": -0.187
+ },
+ {
+  "name": "torachrysone",
+  "TRB": -8.144,
+  "TRA": -7.963,
+  "delta_TRB_minus_TRA": -0.181
+ },
+ {
+  "name": "biochanin A",
+  "TRB": -9.317,
+  "TRA": -9.142,
+  "delta_TRB_minus_TRA": -0.175
+ },
+ {
+  "name": "capillin",
+  "TRB": -7.209,
+  "TRA": -7.054,
+  "delta_TRB_minus_TRA": -0.155
+ },
+ {
+  "name": "genistin",
+  "TRB": -8.227,
+  "TRA": -8.201,
+  "delta_TRB_minus_TRA": -0.026
+ },
+ {
+  "name": "alisol B acetate",
+  "TRB": -6.39,
+  "TRA": -6.427,
+  "delta_TRB_minus_TRA": 0.037
+ },
+ {
+  "name": "formononetin",
+  "TRB": -9.241,
+  "TRA": -9.345,
+  "delta_TRB_minus_TRA": 0.104
+ },
+ {
+  "name": "1-deoxynojirimycin",
+  "TRB": -5.123,
+  "TRA": -5.263,
+  "delta_TRB_minus_TRA": 0.14
+ },
+ {
+  "name": "niranthin",
+  "TRB": -7.551,
+  "TRA": -7.94,
+  "delta_TRB_minus_TRA": 0.389
+ },
+ {
+  "name": "ononin",
+  "TRB": -6.727,
+  "TRA": -7.54,
+  "delta_TRB_minus_TRA": 0.813
+ },
+ {
+  "name": "piceid",
+  "TRB": -6.269,
+  "TRA": -7.09,
+  "delta_TRB_minus_TRA": 0.821
+ },
+ {
+  "name": "daidzin",
+  "TRB": -7.983,
+  "TRA": -9.034,
+  "delta_TRB_minus_TRA": 1.051
+ }
+]

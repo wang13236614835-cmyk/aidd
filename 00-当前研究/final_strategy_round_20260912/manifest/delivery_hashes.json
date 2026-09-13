@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-12",
+  "scope": "exact 25 root deliverables",
+  "files": {
+    "最终战略冻结_执行总览.md": "61fd1bf725459f2cc0876bd2b666fd82b45fe9adc560b212a5456b769196c9f5",
+    "最终双轴战略矩阵.csv": "b56e969f039a7d18b34fb8bcfaa4f07ab5a371684a8bf198bf09942a71b3b14e",
+    "FASN_疾病与临床证据审计.md": "9963691713c8465182a1c54ec10ed2f03e89b37cd4cfcc284397d724facfb8f4",
+    "FASN_数据可建模性终审.md": "e7a1a4beca5b560f08f2b1e2801f780097d512dcf9f36c450b590eebe18d75f0",
+    "FASN_activity_master.csv": "51189faf67b274dd27ba42d99a4ff7a66d8795f2c75598cdc622218455737fe7",
+    "FASN_数据清洗规则.md": "12d61dcee6f571118ef8adccdae7fa7c9c31e0564855befcd84ae0bd378722a6",
+    "FASN_baseline建模方案.md": "bfe16773cfc5d2c81c98ab30d64e2f2435e437f3e606a0e633678463db4680fa",
+    "FASN_GNN启用门控.md": "f22f1c6f454bbb25a64f96eabfcda79007bef4253ee85e21e50eae54b6542709",
+    "天然产物库重构方案.md": "973295dd8ec83ae4ee4d4b8d39522feb02b065b0e1ae6211266e22c131622112",
+    "FASN_AIDD完整工作流.md": "fc46013f6f0b5c228ec9fbeebb5c2fbab016fd92d9b70703a1f050c5bef18280",
+    "MoracinN_机制重定位最终审计.md": "77f361d022d13867c3deb78226a3d8124302b05df518538dd5578aa47561de8f",
+    "MoracinN_NRF2_ferroptosis证据链.md": "38d01ceede51df6627b065f6bcb9dea03f8fd01ecf216dd93690bf560764e1c4",
+    "MoracinN_最小验证闭环.md": "b9a87ffc390f51ac3edfecab2e3b2c1e5847a9d3e5baf88f54260ca0ed957a11",
+    "THRB_FXR_ACC最终定位.md": "6040d526a36cd6fadea5eda67ca8ea0766fe5bf76decffcce6aa0a9648d6970b",
+    "Docking历史失败与方法学结论.md": "08eacdbb74302780927cb9c31cf671ca16b8b1da74dce3bf17bf7898dc7b94f3",
+    "Plan_B触发条件.md": "5246825bbda60a722b339f376d9350167bedb20973b7fb6723f31610984a3c2d",
+    "打卡体系映射_v2.md": "73141da65cb97e9423e66a73aa12834b71fdef0c1bc94b7daf6109e5dcd24166",
+    "GitHub项目架构调整建议.md": "afdfc577f388996d3fb45637dbc9f15ee7e68df5ba0db82b0b743e426c42187f",
+    "未来24个月路线图.md": "9f51a85bc0c283f828e6da6551be0548e11af038a8bbe9a60b16275ce26f8a6b",
+    "课题题目最终建议.md": "d44a63e7019e99e19ec9f3f1fe76eadd9188d668d36dd89a11a7cae07bdc358e",
+    "成果与论文拆分规划.md": "3a6c06d6bdd415be3be1afa875640298dab2d550d76be4de329143d096d2e89c",
+    "导师审批版_最终战略冻结.md": "b55ed0c9ae752d0dc862a0f19a43fb24dc3bb3120a92a7cebebae029183b3054",
+    "停止投入事项.md": "a1248c9d2f5a651f44d6e0ef47c659b25ca3634510a7ab81db81b87f335daa33",
+    "未完成项与风险登记.md": "ba9727f5e7f4828cbf7a05d2b7487a2cd0ac7fa78acf460d1f01ef9b762b92f9",
+    "最终战略_QC报告.md": "641551cb0370120550c02da87de34e752209f382558f5fd5f5ff5f5d29c5d31a"
+  }
+}

@@ -1,0 +1,16 @@
+item,evidence_level,system,concentration_or_dose,direction,detail,source,status
+抗铁死亡表型(erastin),直接实验,HT22小鼠海马神经元,EC50<0.5 uM,保护,抑制GSH耗竭/GPx4失活/ROS/铁积累,PMID 34281775,已确认
+Keap1/Nrf2通路激活,直接实验,小鼠MCAO+原代神经元OGD,20 mg/kg/day icv x3d,保护,FTH1/ACSL4下调+GSH合成上调+Keap1/Nrf2激活,PMID 40972263,已确认
+ML385因果阻断,直接实验,同上,同上,阻断保护,ML385消除神经保护与铁死亡防线恢复,PMID 40972263,已确认
+ML385剂量,未获取,同上,摘要未给出,n/a,不能补写;Gate3自设5uM+毒性对照,PMID 40972263,未确认
+肝细胞/MASH任何表型,检索边界行,HepG2/AML12/L02/原代肝细胞,无,无,截至2026-09-12指定检索式未发现直接研究,第五轮raw/external,未确认(空白成立)
+直接KEAP1结合(SPR/ITC/MST/CETSA/DARTS/pull-down),检索边界行,无,无,无,未发现任何直接结合实验,第五轮+本轮复核,未确认(禁止写靶向KEAP1)
+直接NRF2结合,检索边界行,无,无,无,未发现,同上,未确认
+GPX4/SLC7A11直接相互作用,未确认,无,无,无,均为下游读出证据非直接靶点,本轮归纳,未确认
+口服吸收/肝暴露/PK,未确认,无,无,无,唯一体内证据为脑室内给药;moracin C小鼠PK不可迁移,第五轮审计,未确认
+肝毒性数据,未确认,无,无,无,无本体肝毒性记录;A549/PC9呈相反促氧化方向(10-45uM),PMID 32477104,未确认(风险项)
+MASH疗效(体内),未确认,无,无,无,无MASH动物实验,检索矩阵,未确认
+MASH侧铁死亡病理,独立疾病证据,MCD/HFHC小鼠+PA/OA肝细胞,多,疾病链成立,RSL3加重/selenite/liproxstatin/DFO改善,PMID 31610178,已确认(MASH侧)
+MASH侧NRF2防线,独立疾病证据,HFD小鼠+人脂肪肝组织,多,疾病链成立,NRF2上调缓解脂质过氧化/铁死亡,PMID 36495698,已确认(MASH侧)
+天然产物先例(hinokitiol),独立先证,HFHC小鼠+PA/OA肝细胞,治疗剂量,保护,靶向肝Nrf2抑制肝细胞铁死亡改善MASH,PMID 39922149,已确认(非Moracin N证据)
+天然产物先例(baicalein),独立先证,WD小鼠+Raw264.7,治疗剂量,保护,Nrf2/FSP1轴巨噬细胞铁死亡,PMID 40803417,已确认(非Moracin N证据;细胞类型异质性提示)

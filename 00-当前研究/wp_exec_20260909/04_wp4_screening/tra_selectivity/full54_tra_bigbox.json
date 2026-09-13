@@ -1,0 +1,854 @@
+[
+ {
+  "name": "mulberrofuran G",
+  "autopocket": "-7.733",
+  "crystalbox_best": -5.69,
+  "modes": [
+   -5.69,
+   -5.368,
+   -2.729
+  ],
+  "task_id": "mulberrofuran_G__TRA_3ILZ__C1"
+ },
+ {
+  "name": "oleanolic acid",
+  "autopocket": "-7.713",
+  "crystalbox_best": -5.564,
+  "modes": [
+   -5.564,
+   -5.314,
+   -5.211
+  ],
+  "task_id": "oleanolic_acid__TRA_3ILZ__C1"
+ },
+ {
+  "name": "ursolic acid",
+  "autopocket": "-7.589",
+  "crystalbox_best": -5.289,
+  "modes": [
+   -5.289,
+   -5.185,
+   -5.002,
+   -4.937,
+   -4.924,
+   -4.733,
+   -4.627,
+   -4.415,
+   -4.365
+  ],
+  "task_id": "ursolic_acid__TRA_3ILZ__C1"
+ },
+ {
+  "name": "procyanidin B2",
+  "autopocket": "-7.102",
+  "crystalbox_best": -5.545,
+  "modes": [
+   -5.545,
+   -4.286,
+   -3.016,
+   -2.833,
+   -2.814,
+   -2.568
+  ],
+  "task_id": "procyanidin_B2__TRA_3ILZ__C1"
+ },
+ {
+  "name": "corosolic acid",
+  "autopocket": "-6.903",
+  "crystalbox_best": -5.115,
+  "modes": [
+   -5.115,
+   -4.993,
+   -4.818,
+   -4.802,
+   -4.758,
+   -4.599,
+   -4.57,
+   -4.39,
+   -4.351
+  ],
+  "task_id": "corosolic_acid__TRA_3ILZ__C1"
+ },
+ {
+  "name": "maslinic acid",
+  "autopocket": "-6.82",
+  "crystalbox_best": -5.336,
+  "modes": [
+   -5.336,
+   -5.023,
+   -4.945,
+   -4.727,
+   -4.118,
+   -4.064,
+   -3.827,
+   -3.574,
+   -3.411
+  ],
+  "task_id": "maslinic_acid__TRA_3ILZ__C1"
+ },
+ {
+  "name": "ononin",
+  "autopocket": "-6.77",
+  "crystalbox_best": -7.54,
+  "modes": [
+   -7.54,
+   -5.759,
+   -5.715,
+   -5.594,
+   -5.591,
+   -5.482,
+   -5.199,
+   -5.122,
+   -5.005
+  ],
+  "task_id": "ononin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "puerarin",
+  "autopocket": "-6.757",
+  "crystalbox_best": -4.883,
+  "modes": [
+   -4.883,
+   -4.804,
+   -4.8,
+   -4.794,
+   -4.728,
+   -4.545,
+   -4.529,
+   -4.487,
+   -4.433
+  ],
+  "task_id": "puerarin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "daidzin",
+  "autopocket": "-6.728",
+  "crystalbox_best": -9.034,
+  "modes": [
+   -9.034,
+   -7.174
+  ],
+  "task_id": "daidzin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "moracin N",
+  "autopocket": "-6.692",
+  "crystalbox_best": -9.978,
+  "modes": [
+   -9.978,
+   -9.751,
+   -9.53,
+   -9.527,
+   -8.829
+  ],
+  "task_id": "moracin_N__TRA_3ILZ__C1"
+ },
+ {
+  "name": "isovitexin",
+  "autopocket": "-6.405",
+  "crystalbox_best": -7.068,
+  "modes": [
+   -7.068,
+   -6.855,
+   -5.356,
+   -5.293,
+   -5.211,
+   -4.863,
+   -4.426,
+   -4.396,
+   -4.384
+  ],
+  "task_id": "isovitexin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "vitexin",
+  "autopocket": "-6.401",
+  "crystalbox_best": -5.239,
+  "modes": [
+   -5.239,
+   -4.799,
+   -4.624,
+   -4.437,
+   -4.314,
+   -4.218,
+   -4.207,
+   -4.132,
+   -4.112
+  ],
+  "task_id": "vitexin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "genistin",
+  "autopocket": "-6.372",
+  "crystalbox_best": -8.201,
+  "modes": [
+   -8.201,
+   -6.45,
+   -6.426,
+   -5.884,
+   -5.409,
+   -5.381,
+   -5.364
+  ],
+  "task_id": "genistin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "piceid",
+  "autopocket": "-6.371",
+  "crystalbox_best": -7.09,
+  "modes": [
+   -7.09,
+   -6.838,
+   -6.531,
+   -5.59,
+   -5.454,
+   -5.26,
+   -5.156,
+   -5.078,
+   -4.9
+  ],
+  "task_id": "piceid__TRA_3ILZ__C1"
+ },
+ {
+  "name": "alisol A",
+  "autopocket": "-6.321",
+  "crystalbox_best": -5.156,
+  "modes": [
+   -5.156,
+   -4.887,
+   -4.755,
+   -4.724,
+   -4.632,
+   -4.579,
+   -4.576,
+   -4.485,
+   -4.471
+  ],
+  "task_id": "alisol_A__TRA_3ILZ__C1"
+ },
+ {
+  "name": "alisol B acetate",
+  "autopocket": "-6.28",
+  "crystalbox_best": -6.427,
+  "modes": [
+   -6.427,
+   -5.59,
+   -5.439,
+   -5.343,
+   -5.21,
+   -5.208,
+   -5.182,
+   -5.163,
+   -5.013
+  ],
+  "task_id": "alisol_B_acetate__TRA_3ILZ__C1"
+ },
+ {
+  "name": "hyperoside",
+  "autopocket": "-6.261",
+  "crystalbox_best": -4.834,
+  "modes": [
+   -4.834,
+   -4.62,
+   -4.511,
+   -4.369,
+   -4.321,
+   -4.193,
+   -4.183,
+   -4.15
+  ],
+  "task_id": "hyperoside__TRA_3ILZ__C1"
+ },
+ {
+  "name": "tormentic acid",
+  "autopocket": "-6.253",
+  "crystalbox_best": -5.225,
+  "modes": [
+   -5.225,
+   -5.053,
+   -4.466
+  ],
+  "task_id": "tormentic_acid__TRA_3ILZ__C1"
+ },
+ {
+  "name": "isorhamnetin",
+  "autopocket": "-6.248",
+  "crystalbox_best": -7.638,
+  "modes": [
+   -7.638,
+   -7.102,
+   -6.349,
+   -5.552,
+   -5.428,
+   -5.285,
+   -5.233
+  ],
+  "task_id": "isorhamnetin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "formononetin",
+  "autopocket": "-6.227",
+  "crystalbox_best": -9.345,
+  "modes": [
+   -9.345,
+   -8.545,
+   -8.415,
+   -8.069,
+   -7.49
+  ],
+  "task_id": "formononetin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "alisol B",
+  "autopocket": "-6.215",
+  "crystalbox_best": -5.954,
+  "modes": [
+   -5.954,
+   -5.277,
+   -5.059,
+   -4.945,
+   -4.909,
+   -4.85,
+   -4.816,
+   -4.798,
+   -4.774
+  ],
+  "task_id": "alisol_B__TRA_3ILZ__C1"
+ },
+ {
+  "name": "moracin M",
+  "autopocket": "-6.198",
+  "crystalbox_best": -8.725,
+  "modes": [
+   -8.725,
+   -8.703,
+   -8.411,
+   -8.39,
+   -8.282,
+   -7.744,
+   -7.577
+  ],
+  "task_id": "moracin_M__TRA_3ILZ__C1"
+ },
+ {
+  "name": "arcapillin",
+  "autopocket": "-6.195",
+  "crystalbox_best": -6.616,
+  "modes": [
+   -6.616,
+   -6.143,
+   -6.016,
+   -5.539,
+   -5.333,
+   -5.225,
+   -5.08,
+   -5.072,
+   -5.061
+  ],
+  "task_id": "arcapillin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "isoquercitrin",
+  "autopocket": "-6.177",
+  "crystalbox_best": -4.241,
+  "modes": [
+   -4.241,
+   -3.982,
+   -3.958,
+   -3.912,
+   -3.9,
+   -3.828,
+   -3.722,
+   -3.601,
+   -3.423
+  ],
+  "task_id": "isoquercitrin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "alisol C",
+  "autopocket": "-6.173",
+  "crystalbox_best": -6.257,
+  "modes": [
+   -6.257,
+   -5.41,
+   -5.168,
+   -5.15,
+   -5.141,
+   -5.126,
+   -5.001,
+   -4.845,
+   -4.768
+  ],
+  "task_id": "alisol_C__TRA_3ILZ__C1"
+ },
+ {
+  "name": "16-oxo-alisol A",
+  "autopocket": "-6.139",
+  "crystalbox_best": -5.626,
+  "modes": [
+   -5.626,
+   -5.565,
+   -5.322,
+   -5.219,
+   -5.143,
+   -5.055,
+   -4.968,
+   -4.7,
+   -4.678
+  ],
+  "task_id": "16-oxo-alisol_A__TRA_3ILZ__C1"
+ },
+ {
+  "name": "obtusifolin",
+  "autopocket": "-6.11",
+  "crystalbox_best": -7.25,
+  "modes": [
+   -7.25,
+   -6.573,
+   -6.508,
+   -5.192,
+   -5.16,
+   -5.082,
+   -4.947,
+   -4.806,
+   -4.69
+  ],
+  "task_id": "obtusifolin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "oxyresveratrol",
+  "autopocket": "-6.085",
+  "crystalbox_best": -8.52,
+  "modes": [
+   -8.52,
+   -8.395,
+   -8.377,
+   -8.331,
+   -8.049,
+   -7.603,
+   -7.306,
+   -7.102,
+   -6.431
+  ],
+  "task_id": "oxyresveratrol__TRA_3ILZ__C1"
+ },
+ {
+  "name": "obtusin",
+  "autopocket": "-6.061",
+  "crystalbox_best": -5.654,
+  "modes": [
+   -5.654,
+   -5.516,
+   -5.148,
+   -4.864,
+   -4.783,
+   -4.654,
+   -4.638,
+   -4.576,
+   -4.366
+  ],
+  "task_id": "obtusin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "epicatechin",
+  "autopocket": "-6.032",
+  "crystalbox_best": -7.151,
+  "modes": [
+   -7.151,
+   -7.106,
+   -7.025,
+   -6.924,
+   -6.259,
+   -5.685,
+   -4.997,
+   -4.928,
+   -4.849
+  ],
+  "task_id": "epicatechin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "biochanin A",
+  "autopocket": "-6.012",
+  "crystalbox_best": -9.142,
+  "modes": [
+   -9.142,
+   -8.611,
+   -8.16,
+   -7.783,
+   -6.513
+  ],
+  "task_id": "biochanin_A__TRA_3ILZ__C1"
+ },
+ {
+  "name": "aurantio-obtusin",
+  "autopocket": "-6.006",
+  "crystalbox_best": -6.006,
+  "modes": [
+   -6.006,
+   -5.157,
+   -4.956,
+   -4.883,
+   -4.82,
+   -4.716,
+   -4.532,
+   -4.384,
+   -4.305
+  ],
+  "task_id": "aurantio-obtusin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "chryso-obtusin",
+  "autopocket": "-5.975",
+  "crystalbox_best": -5.008,
+  "modes": [
+   -5.008,
+   -4.865,
+   -4.664,
+   -4.572,
+   -4.385,
+   -4.361,
+   -4.075,
+   -3.98,
+   -3.897
+  ],
+  "task_id": "chryso-obtusin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "capillarisin",
+  "autopocket": "-5.966",
+  "crystalbox_best": -8.314,
+  "modes": [
+   -8.314,
+   -8.203,
+   -8.016,
+   -7.312,
+   -5.741,
+   -5.481
+  ],
+  "task_id": "capillarisin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "daidzein",
+  "autopocket": "-5.852",
+  "crystalbox_best": -9.351,
+  "modes": [
+   -9.351,
+   -9.193,
+   -8.827,
+   -8.825
+  ],
+  "task_id": "daidzein__TRA_3ILZ__C1"
+ },
+ {
+  "name": "astragalin",
+  "autopocket": "-5.851",
+  "crystalbox_best": -4.957,
+  "modes": [
+   -4.957,
+   -4.408,
+   -4.397,
+   -4.363,
+   -4.312,
+   -4.227,
+   -4.158,
+   -4.127,
+   -4.055
+  ],
+  "task_id": "astragalin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "3'-methoxydaidzein",
+  "autopocket": "-5.846",
+  "crystalbox_best": -8.861,
+  "modes": [
+   -8.861,
+   -8.618,
+   -7.525,
+   -7.436,
+   -6.729
+  ],
+  "task_id": "3-methoxydaidzein__TRA_3ILZ__C1"
+ },
+ {
+  "name": "catechin",
+  "autopocket": "-5.829",
+  "crystalbox_best": -8.483,
+  "modes": [
+   -8.483,
+   -7.738,
+   -7.213,
+   -7.006,
+   -5.867
+  ],
+  "task_id": "catechin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "rubrofusarin",
+  "autopocket": "-5.698",
+  "crystalbox_best": -6.519,
+  "modes": [
+   -6.519,
+   -6.176,
+   -6.105,
+   -5.42,
+   -5.188,
+   -4.926,
+   -4.849,
+   -4.807,
+   -4.594
+  ],
+  "task_id": "rubrofusarin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "toralactone",
+  "autopocket": "-5.683",
+  "crystalbox_best": -6.915,
+  "modes": [
+   -6.915,
+   -6.85,
+   -6.775,
+   -6.048,
+   -5.134,
+   -5.084,
+   -4.785,
+   -4.739,
+   -4.723
+  ],
+  "task_id": "toralactone__TRA_3ILZ__C1"
+ },
+ {
+  "name": "niranthin",
+  "autopocket": "-5.53",
+  "crystalbox_best": -7.94,
+  "modes": [
+   -7.94,
+   -7.405,
+   -7.341,
+   -7.16,
+   -6.981,
+   -6.682,
+   -5.974
+  ],
+  "task_id": "niranthin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "torachrysone",
+  "autopocket": "-5.493",
+  "crystalbox_best": -7.963,
+  "modes": [
+   -7.963,
+   -7.356,
+   -7.253,
+   -7.066,
+   -6.574,
+   -6.089,
+   -5.656,
+   -5.602
+  ],
+  "task_id": "torachrysone__TRA_3ILZ__C1"
+ },
+ {
+  "name": "hypophyllanthin",
+  "autopocket": "-5.294",
+  "crystalbox_best": -3.725,
+  "modes": [
+   -3.725,
+   -3.69,
+   -3.561,
+   -3.308,
+   -3.272,
+   -3.2,
+   -2.966,
+   -2.885,
+   -1.47
+  ],
+  "task_id": "hypophyllanthin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "umbelliferone",
+  "autopocket": "-5.223",
+  "crystalbox_best": -6.667,
+  "modes": [
+   -6.667,
+   -6.646,
+   -6.495,
+   -6.474,
+   -6.334,
+   -6.312,
+   -5.971,
+   -5.9,
+   -5.806
+  ],
+  "task_id": "umbelliferone__TRA_3ILZ__C1"
+ },
+ {
+  "name": "nirtetralin",
+  "autopocket": "-5.117",
+  "crystalbox_best": -4.465,
+  "modes": [
+   -4.465,
+   -4.376,
+   -4.081,
+   -4.071,
+   -4.038,
+   -3.868,
+   -3.864,
+   -3.84,
+   -3.818
+  ],
+  "task_id": "nirtetralin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "capillin",
+  "autopocket": "-5.105",
+  "crystalbox_best": -7.054,
+  "modes": [
+   -7.054,
+   -7.046,
+   -7.033,
+   -6.817,
+   -6.801,
+   -6.741,
+   -6.581,
+   -6.379,
+   -5.525
+  ],
+  "task_id": "capillin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "scopoletin",
+  "autopocket": "-4.965",
+  "crystalbox_best": -6.898,
+  "modes": [
+   -6.898,
+   -6.59,
+   -6.582,
+   -6.53,
+   -6.282,
+   -6.218,
+   -6.17,
+   -5.996,
+   -4.579
+  ],
+  "task_id": "scopoletin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "capillene",
+  "autopocket": "-4.937",
+  "crystalbox_best": -6.979,
+  "modes": [
+   -6.979,
+   -6.947,
+   -6.868,
+   -6.714,
+   -6.678,
+   -6.54,
+   -6.523,
+   -6.395,
+   -6.299
+  ],
+  "task_id": "capillene__TRA_3ILZ__C1"
+ },
+ {
+  "name": "sarmentosin",
+  "autopocket": "-4.883",
+  "crystalbox_best": -6.325,
+  "modes": [
+   -6.325,
+   -6.304,
+   -6.038,
+   -5.664,
+   -5.565,
+   -5.497,
+   -5.355,
+   -5.293,
+   -4.931
+  ],
+  "task_id": "sarmentosin__TRA_3ILZ__C1"
+ },
+ {
+  "name": "alismol",
+  "autopocket": "-4.857",
+  "crystalbox_best": -6.779,
+  "modes": [
+   -6.779,
+   -6.626,
+   -6.077,
+   -5.88,
+   -5.56,
+   -5.523,
+   -4.82,
+   -4.625,
+   -4.287
+  ],
+  "task_id": "alismol__TRA_3ILZ__C1"
+ },
+ {
+  "name": "scoparone",
+  "autopocket": "-4.782",
+  "crystalbox_best": -6.536,
+  "modes": [
+   -6.536,
+   -6.502,
+   -6.459,
+   -6.457,
+   -6.41,
+   -6.403,
+   -5.96,
+   -4.477,
+   -4.287
+  ],
+  "task_id": "scoparone__TRA_3ILZ__C1"
+ },
+ {
+  "name": "alismoxide",
+  "autopocket": "-4.731",
+  "crystalbox_best": -6.236,
+  "modes": [
+   -6.236,
+   -5.722,
+   -5.696,
+   -4.88,
+   -4.726,
+   -4.641,
+   -4.307,
+   -4.162,
+   -4.052
+  ],
+  "task_id": "alismoxide__TRA_3ILZ__C1"
+ },
+ {
+  "name": "1,2-dimethoxy-4-vinylbenzene",
+  "autopocket": "-4.326",
+  "crystalbox_best": -6.141,
+  "modes": [
+   -6.141,
+   -5.757,
+   -5.743,
+   -5.534,
+   -5.488,
+   -5.44,
+   -5.384,
+   -5.078,
+   -4.524
+  ],
+  "task_id": "1_2-dimethoxy-4-vinylbenzene__TRA_3ILZ__C1"
+ },
+ {
+  "name": "1-deoxynojirimycin",
+  "autopocket": "-4.09",
+  "crystalbox_best": -5.263,
+  "modes": [
+   -5.263,
+   -5.011,
+   -4.855,
+   -4.848,
+   -4.734,
+   -4.647,
+   -4.628,
+   -4.451,
+   -4.331
+  ],
+  "task_id": "1-deoxynojirimycin__TRA_3ILZ__C1"
+ }
+]

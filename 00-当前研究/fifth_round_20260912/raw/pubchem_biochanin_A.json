@@ -1,0 +1,19 @@
+{
+  "PropertyTable": {
+    "Properties": [
+      {
+        "CID": 5280373,
+        "MolecularWeight": "284.26",
+        "SMILES": "COC1=CC=C(C=C1)C2=COC3=CC(=CC(=C3C2=O)O)O",
+        "ConnectivitySMILES": "COC1=CC=C(C=C1)C2=COC3=CC(=CC(=C3C2=O)O)O",
+        "InChI": "InChI=1S/C16H12O5/c1-20-11-4-2-9(3-5-11)12-8-21-14-7-10(17)6-13(18)15(14)16(12)19/h2-8,17-18H,1H3",
+        "InChIKey": "WUADCCWRTIWANL-UHFFFAOYSA-N",
+        "XLogP": 3,
+        "TPSA": 76,
+        "HBondDonorCount": 2,
+        "HBondAcceptorCount": 5,
+        "RotatableBondCount": 2
+      }
+    ]
+  }
+}

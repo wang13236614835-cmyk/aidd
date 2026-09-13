@@ -1,0 +1,6 @@
+﻿test_id,test_name,group,planned_procedure,acceptance_rule,status,result_value,note
+B0-1,脂质蓄积成立,Control vs PA/OA Model,HepG2+PA:OA(1:2)总1mM BSA偶联24h;油红O+TG,模型/空白TG≥1.8,not_executed,,不通过→模型资格失败
+B0-2,模型活力可解释,PA/OA Model,CCK-8,模型活力≥70%,not_executed,,不通过→降低FFA浓度重试一次后仍失败→换模型
+B0-3,脂质过氧化可测,PA/OA Model,C11-BODIPY(或M0确认可用的替代),模型较空白脂质过氧化显著上升,not_executed,,M0-3/4通过的前提下执行
+B0-4,Fer-1 rescue硬门,PA/OA+Fer-1(1µM),同板与Model对比,Fer-1使活力/脂质过氧化方向性改善≥20%,not_executed,,Fer-1完全无rescue→本模型不具备ferroptosis因果裁决资格;不得继续解释Moracin N阴性
+B0-5,批间重复,B0-1至B0-4重复一批,两批方向一致,not_executed,,连续2批无效→暂停报导师,

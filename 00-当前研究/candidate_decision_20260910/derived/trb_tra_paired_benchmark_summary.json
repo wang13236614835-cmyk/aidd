@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-09-10",
+  "target_beta": {
+    "chembl_target": "CHEMBL1947",
+    "assay": "CHEMBL925135",
+    "organism": "Homo sapiens"
+  },
+  "target_alpha": {
+    "chembl_target": "CHEMBL1860",
+    "assay": "CHEMBL925134",
+    "organism": "Homo sapiens"
+  },
+  "common_document": "CHEMBL1140629",
+  "endpoint": "IC50",
+  "format": "single protein",
+  "n_paired_molecules": 39,
+  "n_beta_preferential_delta_ge_0.5": 37,
+  "n_beta_preferential_delta_ge_1.0": 30,
+  "delta_summary": {
+    "count": 39.0,
+    "mean": 1.2154021180707684,
+    "std": 0.3921305801002138,
+    "min": 0.06997702637483982,
+    "25%": 1.0450087361139717,
+    "50%": 1.3000579877850118,
+    "75%": 1.5000022153318047,
+    "max": 1.8099729630010266
+  },
+  "limitations": [
+    "same ChEMBL document and assay family, but full construct/condition audit remains pending",
+    "paired n is small for a robust selectivity model",
+    "delta thresholds are assay-specific and not universal receptor-selectivity standards",
+    "candidate library has no experimental paired TRalpha/TRbeta labels",
+    "not used to claim TRbeta selectivity for any natural product"
+  ]
+}

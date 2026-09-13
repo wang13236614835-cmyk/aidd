@@ -1,0 +1,155 @@
+{
+  "protocol_seed42": {
+    "rmsd_to_crystal": 2.077,
+    "known_best_mode_rmsd": 2.0766,
+    "gate_pass": false,
+    "centroid": [
+      1.27,
+      61.22,
+      170.0
+    ],
+    "centroid_offset_A": 0.18,
+    "internal_conformation_rmsd_to_crystal": 2.077,
+    "n_contacts": 20,
+    "contact_overlap_with_crystal": 1.0,
+    "shared_contacts": [
+      "A250",
+      "A308",
+      "A309",
+      "A343",
+      "A344",
+      "A347",
+      "A348",
+      "A351",
+      "A352",
+      "A363",
+      "A364",
+      "A366"
+    ]
+  },
+  "protocol_seed7": {
+    "rmsd_to_crystal": 2.088,
+    "known_best_mode_rmsd": 2.0878,
+    "gate_pass": false,
+    "centroid": [
+      1.25,
+      61.17,
+      170.08
+    ],
+    "centroid_offset_A": 0.19,
+    "internal_conformation_rmsd_to_crystal": 2.088,
+    "n_contacts": 19,
+    "contact_overlap_with_crystal": 0.95,
+    "shared_contacts": [
+      "A250",
+      "A308",
+      "A309",
+      "A343",
+      "A344",
+      "A347",
+      "A348",
+      "A351",
+      "A352",
+      "A363",
+      "A366",
+      "A367"
+    ]
+  },
+  "protocol_seed123": {
+    "rmsd_to_crystal": 2.08,
+    "known_best_mode_rmsd": 2.0797,
+    "gate_pass": false,
+    "centroid": [
+      1.23,
+      61.16,
+      170.13
+    ],
+    "centroid_offset_A": 0.22,
+    "internal_conformation_rmsd_to_crystal": 2.08,
+    "n_contacts": 20,
+    "contact_overlap_with_crystal": 1.0,
+    "shared_contacts": [
+      "A250",
+      "A308",
+      "A309",
+      "A343",
+      "A344",
+      "A347",
+      "A348",
+      "A351",
+      "A352",
+      "A363",
+      "A364",
+      "A366"
+    ]
+  },
+  "protocol_seed20260909": {
+    "rmsd_to_crystal": 1.629,
+    "known_best_mode_rmsd": 1.6287,
+    "gate_pass": true,
+    "centroid": [
+      1.25,
+      61.24,
+      170.18
+    ],
+    "centroid_offset_A": 0.21,
+    "internal_conformation_rmsd_to_crystal": 1.629,
+    "n_contacts": 20,
+    "contact_overlap_with_crystal": 0.95,
+    "shared_contacts": [
+      "A250",
+      "A308",
+      "A309",
+      "A343",
+      "A344",
+      "A347",
+      "A348",
+      "A351",
+      "A352",
+      "A363",
+      "A366",
+      "A367"
+    ]
+  },
+  "platform_fixedbox_seed1": {
+    "rmsd_to_crystal": 1.654,
+    "known_best_mode_rmsd": 1.654,
+    "gate_pass": true,
+    "centroid": [
+      1.19,
+      61.26,
+      170.11
+    ],
+    "centroid_offset_A": 0.24,
+    "internal_conformation_rmsd_to_crystal": 1.654,
+    "n_contacts": 19,
+    "contact_overlap_with_crystal": 0.95,
+    "shared_contacts": [
+      "A250",
+      "A308",
+      "A309",
+      "A343",
+      "A344",
+      "A347",
+      "A348",
+      "A351",
+      "A352",
+      "A363",
+      "A366",
+      "A367"
+    ]
+  },
+  "_pairwise_pose_rmsd": {
+    "protocol_seed42|protocol_seed7": 0.21,
+    "protocol_seed42|protocol_seed123": 0.25,
+    "protocol_seed42|protocol_seed20260909": 1.3,
+    "protocol_seed42|platform_fixedbox_seed1": 1.29,
+    "protocol_seed7|protocol_seed123": 0.09,
+    "protocol_seed7|protocol_seed20260909": 1.29,
+    "protocol_seed7|platform_fixedbox_seed1": 1.32,
+    "protocol_seed123|protocol_seed20260909": 1.29,
+    "protocol_seed123|platform_fixedbox_seed1": 1.32,
+    "protocol_seed20260909|platform_fixedbox_seed1": 0.34
+  },
+  "_crystal_contact_count": 20
+}

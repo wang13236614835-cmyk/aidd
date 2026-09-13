@@ -1,0 +1,4 @@
+﻿target_label,standard_type,bao_label,n_records,n_scaffolds,n_train,n_test,train_scaffolds,test_scaffolds,mae_model,mae_mean_baseline,rmse_model,r2_model,seed,split,status
+fxr,EC50,single protein format,1233,378,1058,175,302,76,0.5082361016421726,0.9649885678144382,0.6667818558164927,0.6251112594749335,20260910,Bemis-Murcko scaffold group holdout; exploratory lock,pilot_locked_stratum_not_external_validation
+thrb,IC50,single protein format,329,85,288,41,68,17,0.40175094300447245,1.1661415745462076,0.5194910608783793,0.8622425043449182,20260910,Bemis-Murcko scaffold group holdout; exploratory lock,pilot_locked_stratum_not_external_validation
+thra,IC50,single protein format,201,58,136,65,46,12,1.2110101892814498,1.460549149314027,1.6508693137602404,0.12504849584676136,20260910,Bemis-Murcko scaffold group holdout; exploratory lock,pilot_locked_stratum_not_external_validation

@@ -1,0 +1,10 @@
+﻿target_label,standard_type,bao_label,records,molecules,assays,recommended_use
+fxr,EC50,cell-based format,2312,2082,116,candidate development stratum; lock assay review before model training
+fxr,EC50,single protein format,1235,1092,99,candidate development stratum; lock assay review before model training
+fxr,IC50,single protein format,255,244,23,candidate development stratum; lock assay review before model training
+fxr,IC50,cell-based format,214,202,33,candidate development stratum; lock assay review before model training
+fxr,EC50,assay format,168,160,15,candidate development stratum; lock assay review before model training
+thra,IC50,single protein format,201,160,15,candidate development stratum; lock assay review before model training
+thrb,Potency,assay format,5920,4988,12,candidate development stratum; lock assay review before model training
+thrb,IC50,single protein format,329,225,15,candidate development stratum; lock assay review before model training
+thrb,IC50,assay format,148,148,2,candidate development stratum; lock assay review before model training

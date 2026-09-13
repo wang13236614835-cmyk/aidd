@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-13",
+  "scope": "25 deliverables",
+  "files": {
+    "资格验证_执行总览.md": "14268e62b5a65c7e91d758e8f1989911718147983a3a13fed821e25ae674f47c",
+    "FASN_canonical_QC_report.md": "d9b86a0331c6140a196de6979db765af26eeb1f70c2ccbd8e3fa4e9eff84a825",
+    "FASN_canonical_clean.csv": "cca2817fed8c12d8bfd9a6223780f26332dbe44453e901c84c480c93fb658608",
+    "FASN_baseline_results.csv": "80f995efa932598fe030cce20ef3df1074577b8d75549cf7731e1f035c48a5e5",
+    "FASN_10seed_scaffold_results.csv": "b33a30e55e1253fb01330c90b70502dec099956c650d8c4be8f0bf8630caaa2a",
+    "FASN_y_scrambling_results.csv": "7c7722ff2e2378f3fbb0eed0213eabdb4b23df3ca70530934142ff8511135cd5",
+    "FASN_leakage_audit.csv": "8030e1e89571ac404b221a13c74f2572a8ae2ab0a728ef28de691061d82658ee",
+    "FASN_document_time_split.md": "630a7f941048e909ece3651cea49266e0e45da5f37fb04e880353327c40e9b1d",
+    "FASN_external_set.csv": "06b513acab30a4d3b50e36df92323a9e09c352c97ccece70a0ab315bf01d92f6",
+    "FASN_external_validation.md": "63c67b3ef852531dcf3f1667c1ff54b970dd1a42384b1f6fc58edd3ed58913d0",
+    "FASN_AD_UQ_report.md": "ee08ac8f6612fc519397e290cf46fcf6af980eebe7682da047bd4292309eb91a",
+    "NP54_FASN_domain_gap_report.md": "69daf913bc7692e78b953c6368dcc9dd1bde93ce1c32a1a0a745c99809051ef9",
+    "FASN_natural_product_bridge_set.csv": "1b0c1ff469f81ecf905fcb324516d72d996bc7feb8662c9c7f48697e160e3d6e",
+    "FASN_GNN_gate_decision.md": "2d547fca7a1b29a6e35c4d7e3d305a373c1017a05bd05fea41194b17e601af7f",
+    "FASN_GO_NOGO.md": "b18fc56d3820f29c7e6e42d58eed575e0eafd5512c6f8f1f098cfc5bdb9754e8",
+    "MoracinN_identity_QC.md": "b1fc05720066c98dfdc936d38a5a8e2e28ef9886f2d4dafe66fd297ad773c2d2",
+    "MoracinN_known_unknown_matrix.csv": "7b79a0388feacac096ebc17ae8a22a9db0e80c830cb5a55227961796551fa2bd",
+    "MoracinN_MASH_bridge_map.md": "0aa8829da2c36cd0eac3c194004aa03189bede52c3a28f9c536f92a5da07adac",
+    "MoracinN_assay_interference_plan.md": "9f42910f0dd535c63a4a28d286d419926e3da62eab4884b4a57e4821ff5a4f06",
+    "MoracinN_gate_plan_vFinal.md": "353d1ab33c4bac2f2280960a1061846d57f66bb6f705856cd64c0e9848c65b8a",
+    "MoracinN_GO_NOGO.md": "1590f42e6e09e9935a6b9b788886fdf41fab49cda539d88e41a6878472cada98",
+    "双轴资格验证决策.md": "b33e8ef05264eb0b401fa0db8c5c51a0e36dfcc3c8aadbda337d7f93d905256f",
+    "下一阶段路线.md": "803c4278682ac703f1ef36899f320691f79a315c9acdd8ad40d9796f2ba738ee",
+    "未完成项与风险.md": "8b2ecc1234dcb3cd8d0308d5a36720e98df235798566a577eb7bed151ab6d6b7",
+    "QC_report.md": "10b92678c312810cf86101ecbd712dd6c1680d4d146ae98a70c5e7097b0e9b42"
+  }
+}

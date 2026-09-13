@@ -1,0 +1,295 @@
+{
+  "generated_at": "2026-09-10T09:00:00+00:00",
+  "task_file": "D:\\zcode-workspace\\抗MASH完整研究执行任务_GLM.md",
+  "delivery_root": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910",
+  "overall": "completed_with_blockers",
+  "candidate_release": false,
+  "wetlab_executed": false,
+  "statuses": [
+    {
+      "id": "inventory_and_scope",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "task file v2026-09-10 + current repo rules",
+      "next_step": "none"
+    },
+    {
+      "id": "identity_54_pubchem_layer",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\data_review\\np_identity_review.csv",
+      "next_step": "manual source/stereo/plant-part review remains pending"
+    },
+    {
+      "id": "identity_manual_source_review",
+      "status": "blocked",
+      "time": "2026-09-10",
+      "input_version": "np_identity_review.csv",
+      "next_step": "reviewer must confirm plant part, isolation provenance, stereochemistry, lot/purity"
+    },
+    {
+      "id": "pubmed_full_coverage_search",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "PubMed E-utilities exact disease/mechanism queries",
+      "next_step": "full-text screening if experimental team prioritizes a compound"
+    },
+    {
+      "id": "focus_literature_review",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "PMID list + local CJNM full text",
+      "next_step": "manual full-text review for non-CJNM abstracts if needed"
+    },
+    {
+      "id": "H1Valid_receptor_and_protocol_audit",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "3GWS-derived WTheavy / H1Valid",
+      "next_step": "PROPKA/pH ensemble and domain-context review if formal gate is reopened"
+    },
+    {
+      "id": "H1Valid_pose_and_repeatability",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "H1Valid 8 ligands x 4 nominal seeds",
+      "next_step": "none for current descriptive package"
+    },
+    {
+      "id": "WT_discrimination_benchmark",
+      "status": "failed",
+      "time": "2026-09-10",
+      "input_version": "old P0 2J4A N331S gate + no locked WT set",
+      "next_step": "freeze assay-level TRα/TRβ benchmark before any ranking; do not tune on revealed set"
+    },
+    {
+      "id": "H1WT_H1Full_diagnostic_batches",
+      "status": "failed",
+      "time": "2026-09-10",
+      "input_version": "run_created.json/run_full_created.json",
+      "next_step": "do not resubmit; retain queued creation records as failures"
+    },
+    {
+      "id": "WT_full54_summary",
+      "status": "blocked",
+      "time": "2026-09-10",
+      "input_version": "wt_full54_t3box.json",
+      "next_step": "retain as unapproved supplementary summary; no candidate migration"
+    },
+    {
+      "id": "candidate_comparison",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "54 evidence matrix + formal technical results",
+      "next_step": "run minimal wet validation if/when approved"
+    },
+    {
+      "id": "wetlab_validation",
+      "status": "not_run",
+      "time": "2026-09-10",
+      "input_version": "no materials/approval",
+      "next_step": "experiment owner confirms identity, purity, model, controls, budget and primary endpoint"
+    },
+    {
+      "id": "animal_or_human_study",
+      "status": "not_run",
+      "time": "2026-09-10",
+      "input_version": "out of scope",
+      "next_step": "only after first three experimental gates"
+    },
+    {
+      "id": "initial_pubchem_smiles_endpoint",
+      "status": "failed",
+      "time": "2026-09-10",
+      "input_version": "PUG REST smiles path",
+      "next_step": "replaced by valid CID property queries; failed JSONL retained"
+    },
+    {
+      "id": "week1_competitor_screen",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "PubMed relevance top-10 abstract review",
+      "next_step": "full-text review for A-tier competitors before candidate migration"
+    },
+    {
+      "id": "week1_interference_protocol",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "PubMed searches + category-risk review",
+      "next_step": "execute no-cell pretests; no biological interpretation before results"
+    },
+    {
+      "id": "week1_chembl_collection",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "human FXR/TRβ/TRα ChEMBL targets",
+      "next_step": "freeze strata and external validation before final model"
+    },
+    {
+      "id": "week1_chembl_pilot",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "assay-stratified Morgan/RF pilot",
+      "next_step": "not for candidate release; build locked split"
+    },
+    {
+      "id": "supplier_public_lookup",
+      "status": "blocked",
+      "time": "2026-09-10",
+      "input_version": "public web lookup",
+      "next_step": "manual procurement team verifies product pages/CoA/lot/price/stock; no purchase made"
+    },
+    {
+      "id": "tierA_open_fulltext_upgrade",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "Europe PMC XML for 6 A-tier records; PMID abstracts for remaining",
+      "next_step": "experiment owner/full-text reviewer confirms methods, dose, bias and exposure"
+    },
+    {
+      "id": "tierA_candidate_pool_update",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "tierA_evidence_upgrade_v2.csv + evidence_matrix_v2.csv",
+      "next_step": "Gate 0/1 experiments; no candidate release"
+    },
+    {
+      "id": "fxr_locked_model_v1",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "CHEMBL5735838 homogeneous FXR-LBD EC50 assay",
+      "next_step": "external/temporal validation and experimental active-learning feedback"
+    },
+    {
+      "id": "fxr_model_domain_refusal",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "fxr_model_domain_assessment.json",
+      "next_step": "do not use model to rank current 54 natural products"
+    },
+    {
+      "id": "trb_tra_paired_benchmark",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "CHEMBL1140629 paired assays CHEMBL925135/CHEMBL925134",
+      "next_step": "full construct/condition audit before any selectivity claim"
+    },
+    {
+      "id": "tierA_fulltext_reconciliation",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "Europe PMC XML for 6 PMCID; PMID abstracts for remaining",
+      "next_step": "experiment owner reviews methods, dose, randomization and statistics per paper"
+    },
+    {
+      "id": "evidence_matrix_v3",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "evidence_matrix_v2.csv + open full-text facts",
+      "next_step": "treat as authoritative evidence record; v1/v2 retained as historical"
+    },
+    {
+      "id": "candidate_decision_reconvergence",
+      "status": "completed",
+      "time": "2026-09-10",
+      "input_version": "evidence_matrix_v3 + open full-text + ChEMBL sensitivity",
+      "next_step": "run Gate 0/1 in wet lab before any further candidate re-ranking"
+    },
+    {
+      "id": "fxr_model_reproducibility_audit",
+      "status": "blocked",
+      "time": "2026-09-10",
+      "input_version": "fxr_locked_model scripts and metrics",
+      "next_step": "resubmit audit when agent capacity returns; report any reproducibility gaps"
+    }
+  ],
+  "open_items": [
+    "manual 54-compound source/stereo review",
+    "locked WT/TRα/TRβ discrimination benchmark",
+    "isorhamnetin aggregation/interference",
+    "compound-specific solubility/purity/PK",
+    "wet-lab approval and materials",
+    "supplier product/CoA/lot/price/stock verification",
+    "A-tier competitor full-text review",
+    "assay-stratified locked ChEMBL model",
+    "isorhamnetin no-cell interference experiment",
+    "6-compound Gate0/Gate1 experimental screen",
+    "A-tier full methods review and raw figure verification",
+    "external/temporal FXR model validation",
+    "TRβ/TRα construct and condition audit",
+    "standard品人工采购/CoA/溶解性",
+    "patent prior art public lookup (subagent blocked, manual search needed)",
+    "Gate 0/1 wet experiments on 6-compound panel",
+    "full-text reconciliation for the remaining A-tier records without PMC"
+  ],
+  "decision": "Final v2 decision: no single \"verified candidate\"; first disease panel = scoparone, alisol B, hyperoside, puerarin, isorhamnetin, formononetin; second panel = isoquercitrin, 1-deoxynojirimycin, ursolic acid, moracin N. FXR model is exploratory/OOD for all 54 natural products. Evidence matrix v3 is the authoritative record. Main deliverables (中文文件名) updated and readme aligned.",
+  "week1_outputs": [
+    "extended_screening_top10.csv",
+    "top10_evidence_summary.md",
+    "week1_status_risk_map.md",
+    "priority_compounds_identity_audit.csv",
+    "procurement_recommendation.md",
+    "isorhamnetin_interference_literature_review.md",
+    "interference_pretest_protocol.md",
+    "chembl_fxr_data.csv",
+    "chembl_thrb_data.csv",
+    "chembl_thra_data.csv",
+    "derived/chembl_activity_all_targets.csv",
+    "derived/chembl_numeric_nM_exact_candidates.csv",
+    "derived/chembl_pilot_model_metrics.csv",
+    "model_readiness_report.md"
+  ],
+  "week1_validation": {
+    "required_files_checked": true,
+    "identity_audit_rows": 6,
+    "competitor_screen_rows": 12,
+    "chembl_records": 22790,
+    "chembl_strict_candidates": 11587,
+    "pilot_strata_metrics": 18,
+    "supplier_lookup": "blocked_public_web_not_fabricated",
+    "wetlab_executed": false
+  },
+  "week2_update": {
+    "new_files": [
+      "candidate_decision_v2.md",
+      "tierA_evidence_upgrade_v2.csv",
+      "evidence_matrix_v2.csv",
+      "derived/europepmc_fulltext_audit_v2.json",
+      "derived/trb_tra_paired_benchmark.csv",
+      "derived/trb_tra_paired_benchmark_summary.json",
+      "model_card_fxr_v1.md",
+      "model_domain_assessment.md",
+      "derived/fxr_model_predictions_54_domain_audited.csv",
+      "wetlab_candidate_panel_v2.csv",
+      "next_experiment_order_v2.md",
+      "research_status_matrix.csv",
+      "failure_mode_tree.md",
+      "wetlab_handover_package.md",
+      "chembl_model_freeze_protocol.md",
+      "procurement_blocker_log.md"
+    ],
+    "model_sensitivity": "10 predeclared scaffold splits; mean ROC-AUC 0.864, range 0.755-0.990; model not external validated",
+    "candidate_scope": "disease-first panel expanded; no release"
+  },
+  "week3_update": {
+    "final_files": [
+      "结论一页纸.md",
+      "候选比较与淘汰理由.md",
+      "最小实验验证方案.md",
+      "证据矩阵_v3.csv",
+      "tierA_fulltext_review_v2.md",
+      "derived/europepmc_fulltext_audit_v2.json",
+      "derived/fxr_locked_model/model_card_fxr_v1.md",
+      "derived/fxr_locked_model/sensitivity/multiseed_locked_summary.json",
+      "derived/trb_tra_paired_benchmark.csv",
+      "wetlab_candidate_panel_v2.csv",
+      "next_experiment_order_v2.md",
+      "model_domain_assessment.md",
+      "failure_mode_tree.md",
+      "procurement_blocker_log.md"
+    ],
+    "model_status": "FXR LanthaScreen 10-seed scaffold split: mean ROC-AUC 0.864, range 0.755-0.990; 54/54 natural products below OOD rejection threshold; model not used for candidate ranking",
+    "evidence_status": "v3 matrix based on open full text and abstract reconciliation; Tier-A evidence stratified",
+    "candidate_release": false
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-09-10",
+  "targets": [
+    {
+      "target_label": "fxr",
+      "target_chembl_id": "CHEMBL2047",
+      "records_downloaded": 13588,
+      "page_total": 13588,
+      "valid_standard_smiles_records": 5924,
+      "candidate_comparable_records": 5924,
+      "standard_type_counts": {
+        "EC50": 4511,
+        "Efficacy": 777,
+        "Effective concentration": 1,
+        "RE": 11,
+        "IC50": 569,
+        "Ki": 2,
+        "Activity": 1456,
+        "Fold change": 3,
+        "FC": 287,
+        "%max": 100,
+        "Inhibition": 460,
+        "Emax": 308,
+        "Potency": 665,
+        "Ratio": 15,
+        "RLU": 5,
+        "Ratio IC50": 10,
+        "max activation": 146,
+        "Tm": 2,
+        "Kd": 8,
+        "K": 1,
+        "AC50": 142,
+        "Fold activation": 1,
+        "kon": 2054,
+        "k_off": 2054
+      },
+      "standard_unit_counts": {
+        "nM": 5718,
+        "UNKNOWN": 3478,
+        "%": 2323,
+        "uM": 1,
+        "RLU": 12,
+        "degrees C": 2,
+        "s-1": 2054
+      },
+      "assay_type_counts": {
+        "B": 11536,
+        "F": 2027,
+        "U": 6,
+        "A": 19
+      }
+    },
+    {
+      "target_label": "thrb",
+      "target_chembl_id": "CHEMBL1947",
+      "records_downloaded": 8122,
+      "page_total": 8122,
+      "valid_standard_smiles_records": 7692,
+      "candidate_comparable_records": 7681,
+      "standard_type_counts": {
+        "Kd": 35,
+        "Activation": 7,
+        "EC50": 216,
+        "IC50": 666,
+        "Ki": 139,
+        "Activity": 193,
+        "XC50": 1,
+        "Potency": 6691,
+        "Inhibition": 57,
+        "FC": 4,
+        "Emax": 13,
+        "Delta Tm": 10,
+        "kon": 45,
+        "k_off": 45
+      },
+      "standard_unit_counts": {
+        "nM": 7744,
+        "%": 208,
+        "UNKNOWN": 115,
+        "degrees C": 10,
+        "s-1": 45
+      },
+      "assay_type_counts": {
+        "B": 1287,
+        "F": 6835
+      }
+    },
+    {
+      "target_label": "thra",
+      "target_chembl_id": "CHEMBL1860",
+      "records_downloaded": 1080,
+      "page_total": 1080,
+      "valid_standard_smiles_records": 745,
+      "candidate_comparable_records": 739,
+      "standard_type_counts": {
+        "Kd": 31,
+        "Activation": 4,
+        "EC50": 195,
+        "IC50": 426,
+        "Ki": 113,
+        "Activity": 189,
+        "Efficacy": 3,
+        "Inhibition": 6,
+        "FC": 4,
+        "Emax": 13,
+        "Delta Tm": 6,
+        "kon": 45,
+        "k_off": 45
+      },
+      "standard_unit_counts": {
+        "nM": 759,
+        "%": 149,
+        "UNKNOWN": 121,
+        "degrees C": 6,
+        "s-1": 45
+      },
+      "assay_type_counts": {
+        "B": 950,
+        "F": 128,
+        "A": 2
+      }
+    }
+  ],
+  "all_records": 22790,
+  "training_candidate_records": 14361,
+  "limitations": [
+    "ChEMBL records span heterogeneous assays/endpoints and constructs",
+    "no labels are pooled or converted into a final training target in Week 1",
+    "activity records require assay-level review and locked development/validation split",
+    "human FXR/TRβ/TRα target IDs are explicit; rodent targets excluded from this collection"
+  ]
+}

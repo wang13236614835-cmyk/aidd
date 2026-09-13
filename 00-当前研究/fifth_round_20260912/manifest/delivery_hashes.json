@@ -1,0 +1,28 @@
+{
+ "generated_utc": "2026-09-12",
+ "deliverables": {
+  "第五轮_执行总览.md": "1858e003a375d7abfff2d4e03cb1ba8f69bd09cd159ecc1de942f6aba688b789",
+  "历史错误与修正记录.md": "90199d110347451679710fa64e8ad6e73ffdacc37a86f140b3524fa46ede0f06",
+  "候选天然来源审计.csv": "0043663d2a0a6b832d2130f2c0c12f18501d149ee672b66f9bd417c93844c19d",
+  "外部研究与创新性矩阵.csv": "29089acf5eab209361df2463bbeae91677232c178b4a734ac9b45082b4fc2a6f",
+  "MoracinN_机制竞争分析.md": "5dc27244158a03424d3586b0f3a8ade7c194a6a50968103fcb160427063306af",
+  "WT_THRB结构审计.md": "cdd03fb9d0134b346610d419b535f0009e34f02dc6785740084e7cad63fc9e7b",
+  "WT_gate_preregistration.md": "20b1bfe60529dc1d08695b177df2b301fe89ed30c4d27af6c682b2787b67fccb",
+  "WT_gate_results.md": "d73ebba781584ec9bf2c881795c6d2e2dda56184872869f410a045f6495fd161",
+  "候选可开发性审计.csv": "c350b00a95666838a3331923ef9729a88a3158ca58fd9e851c2cb6b0c0366b28",
+  "候选榜单_v3_释放版.md": "9115482131a9188c84d9d23a336125134e7eadf064858f80a104ba5dcda2fd66",
+  "最小湿实验方案_v3.md": "d0d4204ef4a84d0a2c44f816b20e212a22fca3156fe210945bb5ec9298b9e8e4",
+  "未完成项与人工裁决.md": "545452f286d5c7502270b40fdc15bb8612dfcbe775a9cf20b79073ccbe153c08"
+ },
+ "key_artifacts": {
+  "raw/rcsb_3GWS.json": "be5958ad0959fb5290fe669b3fa915904cc3abbe65122314528d173f6d0ae8de",
+  "raw/rcsb_3IMY.json": "cd9ee09fd91fcae779806d70c1ccebbcd298177a374ae5a843395a0e85b9e48c",
+  "raw/3GWS.fasta": "4e23699ca64870b65f3f39232cfd6da91bce08e6d28aa58696446e52a8b13ad6",
+  "derived/wt_gate_run/gate_metrics.json": "c0273c9c1e37538aa3d9a883d657498c23020bb9e7b58351976d2e7c9ca26571",
+  "derived/wt_gate_run/raw_results.json": "8173cc8f68e21253d9209c046dc4e639e16adee918f6ab2d9a8465f52067cd35",
+  "derived/gc1_pose_rmsd_per_seed.json": "3aeee625132f49b32047626ac4b0897d143c28ea63afd31526acc0243a955f58",
+  "derived/rdkit_props_pains.json": "26acd6ad9582c98b1bbbdce429a2b605161997a1b7f833999b50a3791bf5b645",
+  "logs/external_query_log.jsonl": "acc72277b4d153e1a799ee5f63f05854127e037722e7e8e471990edaf51ec118",
+  "derived/external_query_summary.json": "4f2fa59c15d36d7617ba74dd655f852fe002413638e98c5cc03abfac74b38344"
+ }
+}

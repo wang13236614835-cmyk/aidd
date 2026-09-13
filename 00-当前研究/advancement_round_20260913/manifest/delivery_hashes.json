@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-13",
+  "scope": "22 deliverables",
+  "files": {
+    "推进轮_执行总览.md": "7f4e316b77a5ef96eab0490e4a3c11fa5ad50168b4a26902c0dc0001da1451b1",
+    "方法学口径修正记录.md": "bb394971e67ef06b7f1b77cebd43cf2e166201639eeddc2d18a962d051da4ad8",
+    "FASN_assay_aware_master.csv": "7811cb850af66be47e4db91ac1f589d05f0762de9c0583c8a2ab5c04e44b4157",
+    "FASN_external_stratified.csv": "81c7c82bcbabf67e4923de21d84d7f6820d9052139655e782d63ee01cf2fea75",
+    "FASN_external_stratified_results.csv": "0be2eb5bf640190ead74cc6feb417f7b46ad3c5f0c36288e768b8a0dade0154d",
+    "FASN_assay_calibration_results.csv": "08083b277f2504cd9de68675528d5fc27e466425f8d78458a80cf7e722957f08",
+    "FASN_transferability_report.md": "ddbfbe9112e76d43b6aea8b0a3894c79301e756bfdca81179255458a8c231416",
+    "FASN_natural_product_bridge_v2.csv": "b0cf23a3d59763fe86a144524742efc81b577e5190c85321fa06a1eaaccc1ec4",
+    "NP54_domain_status_v2.csv": "8d7fc43293c5ec19ffe5b13d64de4839aede1d07111f0382857f916f9616ce97",
+    "FASN_next_gate_decision.md": "a50e71eeb73aaca71d7d09883bf9ec234f9ce56600283040bbe5100c4b77af09",
+    "MoracinN_material_status.md": "0553597fae751c5889ad11d0dacf680a113b41ae44d50d1c05081dda9f54646f",
+    "MoracinN_M0_results.csv": "82f14641c0d5875f78556c35edb7081c2539f407f4cd11f73644d26030dedd49",
+    "PAOA_B0_results.csv": "e4cb33cece4a88f76a22ae03fe93b5c01be46821909f886cc521fd637d3499eb",
+    "MoracinN_toxicity_window.csv": "bba45520e782471f7a0fa947d61b22655521bad126ac35e406942aaac4ce805e",
+    "MoracinN_Gate1_results.csv": "a2da19bc7748a44eb1c0b0a9199f12735966a2cae7fa950ddbfbab5c9cb5b950",
+    "MoracinN_dual_axis_interpretation.md": "5aa4ac64a984fdd4d1e0619f6c48b5d1220eb2ad0371aee288f3c6057cf8863e",
+    "MoracinN_Gate2_plan_or_results.md": "c08537dce958522b6cb450e48975b51556a460cc42ee8f8aca2d174a0e69476e",
+    "MoracinN_Gate3_plan_or_results.md": "eaacf4807cbf1b38775280d7d26e531ae00d4629c1d23262f61927ad20aea229",
+    "双轴推进决策.md": "df11f4a2e10ee52b4665de420f2b4378f9d040629b0215d6f2bdcacbc9554e75",
+    "下一阶段唯一动作.md": "84b39d961fc0f080a378fca8b64e89232f0611baa78a983c6054a85f9c96cbc0",
+    "风险与未完成项.md": "7bba5c3c39f2ad1063d77c064f4de50758adc74b9d93ff0e6bc77a6abbea622f",
+    "QC_report.md": "fdcabb8878693d60c2578977ab087a4750566051ffab00dbb96243c9abdd44e2"
+  }
+}

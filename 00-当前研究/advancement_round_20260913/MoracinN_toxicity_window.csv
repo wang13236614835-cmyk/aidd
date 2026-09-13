@@ -1,0 +1,8 @@
+concentration_uM,viability_percent_of_control,morphology,precipitation_or_turbidity,status,note
+0,100,not_executed,none,not_executed,溶剂对照DMSO恒0.1%
+0.1,,not_executed,,not_executed,
+0.3,,not_executed,,not_executed,
+1,,not_executed,,not_executed,
+3,,not_executed,,not_executed,
+10,,not_executed,,not_executed,
+30,,not_executed,,not_executed,须≥80%活力方可进入Gate1;不做PA/OA共处理

@@ -1,0 +1,92 @@
+[
+ {
+  "ligand": "resmetirom",
+  "returncode": 0,
+  "best": -10.28,
+  "all_modes": [
+   -10.28,
+   -6.584,
+   -6.395,
+   -5.963,
+   -5.933,
+   -5.755,
+   -5.648,
+   -5.38,
+   -5.303
+  ],
+  "autopocket": "-8.12",
+  "out": "D:\\zcode-workspace\\ds_replay\\resmetirom\\docked.pdbqt"
+ },
+ {
+  "ligand": "daidzein",
+  "returncode": 0,
+  "best": -10.11,
+  "all_modes": [
+   -10.11,
+   -9.709,
+   -9.209,
+   -8.817,
+   -8.254,
+   -8.064,
+   -7.545,
+   -5.873,
+   -5.768
+  ],
+  "autopocket": "-7.841",
+  "out": "D:\\zcode-workspace\\ds_replay\\daidzein\\docked.pdbqt"
+ },
+ {
+  "ligand": "formononetin",
+  "returncode": 0,
+  "best": -9.241,
+  "all_modes": [
+   -9.241,
+   -9.233,
+   -9.118,
+   -8.354,
+   -7.173,
+   -6.042,
+   -5.38,
+   -5.316,
+   -5.229
+  ],
+  "autopocket": "-7.492",
+  "out": "D:\\zcode-workspace\\ds_replay\\formononetin\\docked.pdbqt"
+ },
+ {
+  "ligand": "biochanin_A",
+  "returncode": 0,
+  "best": -9.317,
+  "all_modes": [
+   -9.317,
+   -9.263,
+   -9.049,
+   -8.006,
+   -7.608,
+   -7.504,
+   -5.842,
+   -5.484,
+   -5.414
+  ],
+  "autopocket": "-6.748",
+  "out": "D:\\zcode-workspace\\ds_replay\\biochanin_A\\docked.pdbqt"
+ },
+ {
+  "ligand": "moracin_N",
+  "returncode": 0,
+  "best": -11.3,
+  "all_modes": [
+   -11.3,
+   -11.14,
+   -10.77,
+   -9.876,
+   -6.193,
+   -6.057,
+   -6.016,
+   -5.796,
+   -5.715
+  ],
+  "autopocket": "-6.583",
+  "out": "D:\\zcode-workspace\\ds_replay\\moracin_N\\docked.pdbqt"
+ }
+]

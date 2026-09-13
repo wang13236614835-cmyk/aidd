@@ -1,0 +1,296 @@
+{
+  "generated_at": "2026-09-10T04:59:13.998249+00:00",
+  "delivery_root": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910",
+  "source_files": [
+    {
+      "path": "D:\\zcode-workspace\\p0_refs\\wt_3GWS.pdb",
+      "scope": "input receptor",
+      "exists": true,
+      "note": "",
+      "size": 376812,
+      "mtime": "2026-09-09T22:37:04.158762",
+      "sha256": "560cc44ac5e75eec1a6c4eb69e45d0755e7ac7399adb99ee377ad39055bc7a1e"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\WTfix.pdb",
+      "scope": "repaired receptor",
+      "exists": true,
+      "note": "",
+      "size": 157860,
+      "mtime": "2026-09-10T10:44:21.236695",
+      "sha256": "bcc45d558c59a329bc7810dd55e61871063538841130e4511660b47d784a30b4"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\WTfull.pdb",
+      "scope": "PDBFixer intermediate",
+      "exists": true,
+      "note": "",
+      "size": 323845,
+      "mtime": "2026-09-10T10:46:59.576527",
+      "sha256": "708d2b716877bf12658609e960bc770c0b1f4d65430b788f3ee8a1032c12cf97"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\WTheavy.pdb",
+      "scope": "formal receptor input",
+      "exists": true,
+      "note": "",
+      "size": 161813,
+      "mtime": "2026-09-10T10:48:05.399389",
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\WTstrict.pdbqt",
+      "scope": "formal receptor",
+      "exists": true,
+      "note": "",
+      "size": 192780,
+      "mtime": "2026-09-10T10:48:10.080958",
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\receptor_final.pdbqt",
+      "scope": "formal receptor",
+      "exists": true,
+      "note": "",
+      "size": 192780,
+      "mtime": "2026-09-10T10:49:04.424179",
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\lig.csv",
+      "scope": "formal raw ligand CSV",
+      "exists": true,
+      "note": "",
+      "size": 1323,
+      "mtime": "2026-09-10T10:44:21.241777",
+      "sha256": "3916a31e659c35c3d9cf1ad56b099e17681031461a1cb0585a07d85a75694d1d"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\repeat_results.json",
+      "scope": "formal repeat results",
+      "exists": true,
+      "note": "",
+      "size": 35303,
+      "mtime": "2026-09-10T10:52:19.155675",
+      "sha256": "7e7555158978f4a7c5fe49c612d9ea92bbb3722978b6e1056e548aafaf8edc26"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\repeat_table.json",
+      "scope": "formal score summary",
+      "exists": true,
+      "note": "",
+      "size": 1281,
+      "mtime": "2026-09-10T10:56:07.831031",
+      "sha256": "7a54f4559d44ab8e2ec2ad205c9dcc0e9054fb6c63f79fbbd6f68ce7956247e5"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\t3_pose_rmsd_per_seed.json",
+      "scope": "formal pose validation",
+      "exists": true,
+      "note": "",
+      "size": 521,
+      "mtime": "2026-09-10T10:57:46.911910",
+      "sha256": "d9c10e1aaf3c4a3b4242bb800faf32bf21fd83b455192d23e9d6f68d80722b45"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\meo_4seed.json",
+      "scope": "supplementary",
+      "exists": true,
+      "note": "",
+      "size": 151,
+      "mtime": "2026-09-10T11:26:19.120102",
+      "sha256": "ac393bdb3aeb78ca981d77068d275bd31facaf92946625c0f1330414399a582a"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\wt_full54_t3box.json",
+      "scope": "supplementary unapproved",
+      "exists": true,
+      "note": "",
+      "size": 4656,
+      "mtime": "2026-09-10T11:25:31.506835",
+      "sha256": "5c712bd3518c6ba5d1b88fd10f7f46973fe745f26b7c9c099d028c0412efa733"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\platform_run_final.json",
+      "scope": "formal platform status",
+      "exists": true,
+      "note": "",
+      "size": 2342,
+      "mtime": "2026-09-10T10:49:54.181401",
+      "sha256": "e3c5152284650ee9c30ea632d08edbc8470553289342db964968744e2787246b"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\repair_audit.json",
+      "scope": "formal audit",
+      "exists": true,
+      "note": "",
+      "size": 3389,
+      "mtime": "2026-09-10T10:44:21.239736",
+      "sha256": "93cb97876270439c0c92b4b12ae7fa86f47b69373ccbad5570ca11dc019ee990"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\completion_audit.json",
+      "scope": "formal audit",
+      "exists": true,
+      "note": "",
+      "size": 3895,
+      "mtime": "2026-09-10T10:46:59.589564",
+      "sha256": "b54b839926b99d9ce8839b103c3964ca8c4ce641692468042d33e544e936aa7b"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\final_receptor_audit.json",
+      "scope": "formal audit",
+      "exists": true,
+      "note": "",
+      "size": 1175,
+      "mtime": "2026-09-10T10:49:54.186769",
+      "sha256": "2875647f57f6c7db188296e05003a099c68af85be6d7284e0040309c257088a3"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\protocol_before_results.json",
+      "scope": "formal protocol",
+      "exists": true,
+      "note": "",
+      "size": 1904,
+      "mtime": "2026-09-10T10:44:21.241777",
+      "sha256": "b28fe957fa4d6c7ef6e2acf8ae7440cb6df8962b0b443b5d18a856c44adb77e2"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\run_valid_created.json",
+      "scope": "creation snapshot",
+      "exists": true,
+      "note": "",
+      "size": 1131,
+      "mtime": "2026-09-10T10:48:25.227686",
+      "sha256": "a8b84af14792833bb3a6030b0751c9bcedfe481c97036695562791e03a460f47"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\run_created.json",
+      "scope": "H1WT creation/failure record",
+      "exists": true,
+      "note": "",
+      "size": 1116,
+      "mtime": "2026-09-10T10:44:21.286602",
+      "sha256": "7a4774ca84b3e6dc094053c612aea4b453948030ffd6702ac10eb1d52f4ba22a"
+    },
+    {
+      "path": "D:\\zcode-workspace\\h1_mash\\run_full_created.json",
+      "scope": "H1Full creation/failure record",
+      "exists": true,
+      "note": "",
+      "size": 1126,
+      "mtime": "2026-09-10T10:47:16.441243",
+      "sha256": "de6b510dac3a8cabe1a9e27eb8c6db04fe5f92e06a1558f059801b39df199c97"
+    },
+    {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\derived\\pubchem_properties_by_cid_complete.jsonl",
+      "scope": "generated API-derived identity",
+      "exists": true,
+      "note": "",
+      "size": 70974,
+      "mtime": "2026-09-10T12:35:01.770262",
+      "sha256": "885bacd22b919eb8a66091c1175c80c8e65548be6251f46dca73ce1e432cbe73"
+    },
+    {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\derived\\pubchem_synonyms.jsonl",
+      "scope": "generated API-derived synonyms",
+      "exists": true,
+      "note": "",
+      "size": 59501,
+      "mtime": "2026-09-10T12:45:08.092572",
+      "sha256": "06d5bc6b76a4388957a96896a6c9d41f38c466299c7e81e39a899e7c063cb64d"
+    },
+    {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\derived\\pubmed_54_search.jsonl",
+      "scope": "generated search log",
+      "exists": true,
+      "note": "",
+      "size": 125674,
+      "mtime": "2026-09-10T12:41:21.121834",
+      "sha256": "04ca7d56c23a186f526724bdb7dc2e3144ba84ab4f9eca226f1deaf1f0586d89"
+    },
+    {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\evidence\\pubmed_focus_abstracts.json",
+      "scope": "saved abstracts",
+      "exists": true,
+      "note": "",
+      "size": 30785,
+      "mtime": "2026-09-10T12:42:32.283730",
+      "sha256": "917fc9c442a38e4688b62e6bcce4d45a83a618c82dbec1b7c2b40abb5486778d"
+    },
+    {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\library_identity.csv",
+      "scope": "generated identity table",
+      "exists": true,
+      "note": "",
+      "size": 98077,
+      "mtime": "2026-09-10T12:52:54.500460",
+      "sha256": "ad977402d23b20cdb4663d143a10d7bdf84163ff69ec8b1a5c04717da6a26bc5"
+    },
+    {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\evidence_matrix.csv",
+      "scope": "generated evidence matrix",
+      "exists": true,
+      "note": "",
+      "size": 39108,
+      "mtime": "2026-09-10T12:52:54.501463",
+      "sha256": "014e8ed9bba9bffdd05d536b8c90eaadc89f1fdc0a03a9e2bb237f531813ece6"
+    },
+    {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\candidate_computation.csv",
+      "scope": "generated computation summary",
+      "exists": true,
+      "note": "",
+      "size": 1982,
+      "mtime": "2026-09-10T12:52:54.502465",
+      "sha256": "963729221ca5ae199a3bec87c257030fe8ed2f584ecdc0ea85e6380cb9714391"
+    },
+    {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\compound_feasibility.csv",
+      "scope": "generated feasibility",
+      "exists": true,
+      "note": "",
+      "size": 16083,
+      "mtime": "2026-09-10T12:52:54.502465",
+      "sha256": "f1098d3e64666523712c2ec15fe3b1f764de70d931989c96ff6353b943689a95"
+    },
+    {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\excluded_candidates.csv",
+      "scope": "generated exclusion/defer table",
+      "exists": true,
+      "note": "",
+      "size": 9436,
+      "mtime": "2026-09-10T12:52:54.503468",
+      "sha256": "99a8edf14f87288916cfb9201f0c6646584005c2e5197a91051206d20a28b5a2"
+    }
+  ],
+  "dockscope_job_manifest": {
+    "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\raw\\dockscope_job_manifest.json",
+    "scope": "formal provenance",
+    "exists": true,
+    "note": "",
+    "size": 46641,
+    "mtime": "2026-09-10T12:28:05.686012",
+    "sha256": "db5d8610f5183a3e3fe981286d259f2be9ebe15c0e595b96ff4d1ab22308e950"
+  },
+  "external_sources": [
+    {
+      "type": "PubMed",
+      "query_log": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\derived\\pubmed_54_search.jsonl"
+    },
+    {
+      "type": "PubChem PUG REST",
+      "records": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\derived\\pubchem_properties_by_cid_complete.jsonl"
+    },
+    {
+      "type": "CJNM 2024",
+      "doi": "10.1016/S1875-5364(24)60706-5",
+      "local_source": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\wp_exec_20260909\\02_wp2_asset_audit\\cjnm2024_60706-5_fulltext.pdf"
+    },
+    {
+      "type": "FDA background",
+      "url": "https://content.govdelivery.com/accounts/USFDA/bulletins/3ee537d"
+    }
+  ],
+  "hash_policy": "SHA-256 of bytes as inspected; original files remain in their source directories; copied raw audit files are retained under raw/audits"
+}

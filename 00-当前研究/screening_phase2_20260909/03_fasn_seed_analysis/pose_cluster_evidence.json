@@ -1,0 +1,188 @@
+{
+  "n_poses": 45,
+  "linkage": "single @2.0A heavy-atom CalcRMS (symmetry-corrected)",
+  "clusters": [
+    {
+      "cluster": 1,
+      "n": 24,
+      "members": [
+        "seed42:mode1",
+        "seed42:mode2",
+        "seed42:mode4",
+        "seed7:mode1",
+        "seed7:mode3",
+        "seed7:mode4",
+        "seed7:mode5",
+        "seed7:mode6",
+        "seed123:mode1",
+        "seed123:mode2",
+        "seed123:mode3",
+        "seed123:mode4",
+        "seed123:mode5",
+        "seed123:mode6",
+        "seed20260909:mode1",
+        "seed20260909:mode2",
+        "seed20260909:mode3",
+        "seed20260909:mode4",
+        "seed20260909:mode5",
+        "seed20260909:mode6",
+        "platform_seed1:mode1",
+        "platform_seed1:mode2",
+        "platform_seed1:mode3",
+        "platform_seed1:mode5"
+      ],
+      "rmsd_to_crystal": [
+        2.08,
+        1.66,
+        2.48,
+        2.09,
+        0.92,
+        2.54,
+        2.21,
+        2.57,
+        2.08,
+        2.14,
+        1.81,
+        2.51,
+        2.1,
+        2.66,
+        1.63,
+        2.09,
+        2.3,
+        2.45,
+        2.39,
+        2.92,
+        1.65,
+        2.04,
+        2.55,
+        3.15
+      ],
+      "best_mode_count": 5
+    },
+    {
+      "cluster": 2,
+      "n": 4,
+      "members": [
+        "seed42:mode3",
+        "seed42:mode5",
+        "seed7:mode2",
+        "seed7:mode8"
+      ],
+      "rmsd_to_crystal": [
+        2.24,
+        1.81,
+        2.14,
+        3.14
+      ],
+      "best_mode_count": 0
+    },
+    {
+      "cluster": 3,
+      "n": 5,
+      "members": [
+        "seed42:mode6",
+        "seed7:mode7",
+        "seed123:mode7",
+        "seed20260909:mode7",
+        "platform_seed1:mode4"
+      ],
+      "rmsd_to_crystal": [
+        9.26,
+        9.25,
+        9.26,
+        9.24,
+        9.26
+      ],
+      "best_mode_count": 0
+    },
+    {
+      "cluster": 4,
+      "n": 1,
+      "members": [
+        "seed42:mode7"
+      ],
+      "rmsd_to_crystal": [
+        2.74
+      ],
+      "best_mode_count": 0
+    },
+    {
+      "cluster": 5,
+      "n": 3,
+      "members": [
+        "seed42:mode8",
+        "seed123:mode9",
+        "platform_seed1:mode6"
+      ],
+      "rmsd_to_crystal": [
+        5.83,
+        6.14,
+        5.84
+      ],
+      "best_mode_count": 0
+    },
+    {
+      "cluster": 6,
+      "n": 4,
+      "members": [
+        "seed42:mode9",
+        "seed7:mode9",
+        "seed123:mode8",
+        "seed20260909:mode8"
+      ],
+      "rmsd_to_crystal": [
+        9.47,
+        9.56,
+        9.48,
+        9.56
+      ],
+      "best_mode_count": 0
+    },
+    {
+      "cluster": 7,
+      "n": 2,
+      "members": [
+        "seed20260909:mode9",
+        "platform_seed1:mode7"
+      ],
+      "rmsd_to_crystal": [
+        10.42,
+        10.35
+      ],
+      "best_mode_count": 0
+    },
+    {
+      "cluster": 8,
+      "n": 1,
+      "members": [
+        "platform_seed1:mode8"
+      ],
+      "rmsd_to_crystal": [
+        13.35
+      ],
+      "best_mode_count": 0
+    },
+    {
+      "cluster": 9,
+      "n": 1,
+      "members": [
+        "platform_seed1:mode9"
+      ],
+      "rmsd_to_crystal": [
+        13.09
+      ],
+      "best_mode_count": 0
+    }
+  ],
+  "best_mode_affinity_clusterA": [
+    -10.36,
+    -10.39,
+    -10.43,
+    -10.4
+  ],
+  "best_mode_affinity_clusterB": [],
+  "gap_452_456_note": "residues 448-460 nearest box-surface distance (max-axis) = 10.7 A",
+  "caveat": "two-pose-cluster is a geometrical observation (HYPOTHESIS); not a proven two-basin energy landscape; atom mapping via RDKit symmetry-corrected match; all failing seeds retained",
+  "revised_interpretation_20260909": "REVISED (supersedes earlier 'two-pose-groups/two-basin' wording): full-mode clustering shows ALL five best modes fall in ONE dominant cluster whose RMSD-to-crystal spans 0.92-3.15 A continuously; the earlier apparent two-group split (best-pose pairwise 0.09-0.25 vs 1.29-1.32) is a best-mode-subset artifact. Correct statement: FASN pose recovery sits on a continuous conformational gradient straddling the 2.0 A gate (1.63-2.09 A across seeds), with correct pocket (contact overlap 95-100%). The 'dual-basin' claim is WITHDRAWN; what remains is a geometric observation + hypothesis that Vina scoring lacks resolution to consistently rank near-crystal poses within ~0.5 A on this system. All failing seeds retained.",
+  "best_mode_affinity_note": "seed42-family best affinities approx -10.36..-10.43 (from archived logs); clusterB empty because all best modes are in cluster 1"
+}

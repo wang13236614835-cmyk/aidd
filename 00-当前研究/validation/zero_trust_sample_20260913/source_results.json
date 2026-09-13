@@ -1,0 +1,144 @@
+{
+  "hashes": [
+    {
+      "file": "data/chembl/FASN_clean.csv",
+      "historical_sha": "d61419f458e9505ff1682362e0b8ed4adc96ad35fc071b72286ce5d92e1d5aa6",
+      "current_sha": "d61419f458e9505ff1682362e0b8ed4adc96ad35fc071b72286ce5d92e1d5aa6",
+      "git_sha": "d61419f458e9505ff1682362e0b8ed4adc96ad35fc071b72286ce5d92e1d5aa6",
+      "original_current_equal": true,
+      "original_git_equal": true,
+      "original_git_text_equal": true
+    },
+    {
+      "file": "src/s2_chembl.py",
+      "historical_sha": "ec9461ad8d7121d2b5f6b1b17ad948323d0a0818a49a607c174e2e1787a0e8cd",
+      "current_sha": "8021f949dcab7ebf7a5bae25d3f0a11ddb3774d9d555f6dffe763d18d3011f74",
+      "git_sha": "ec9461ad8d7121d2b5f6b1b17ad948323d0a0818a49a607c174e2e1787a0e8cd",
+      "original_current_equal": false,
+      "original_git_equal": true,
+      "original_git_text_equal": true
+    },
+    {
+      "file": "src/s3_qsar.py",
+      "historical_sha": "23e2f5f11d840f49274dc6b4b6c84c794c6088f218b372ae494f6a49b668c955",
+      "current_sha": "d3f7f7176a476089878dccf2ee742bd4411ceee049778fabf413a18fb01b1c95",
+      "git_sha": "23e2f5f11d840f49274dc6b4b6c84c794c6088f218b372ae494f6a49b668c955",
+      "original_current_equal": false,
+      "original_git_equal": true,
+      "original_git_text_equal": true
+    },
+    {
+      "file": "results/tables/FASN_cluster_split_testpred.csv",
+      "historical_sha": "6dfa200c42c52d5b24afa5da23abc3b2d84c2b070e3992121e0a8fdb3ef31b96",
+      "current_sha": "6dfa200c42c52d5b24afa5da23abc3b2d84c2b070e3992121e0a8fdb3ef31b96",
+      "git_sha": "6dfa200c42c52d5b24afa5da23abc3b2d84c2b070e3992121e0a8fdb3ef31b96",
+      "original_current_equal": true,
+      "original_git_equal": true,
+      "original_git_text_equal": true
+    },
+    {
+      "file": "results/tables/s3_qsar_metrics.json",
+      "historical_sha": "8fde9593d7e3a05b03cbc25d9c3885d27f49560df8e790c2967ecda578912470",
+      "current_sha": "8fde9593d7e3a05b03cbc25d9c3885d27f49560df8e790c2967ecda578912470",
+      "git_sha": "8fde9593d7e3a05b03cbc25d9c3885d27f49560df8e790c2967ecda578912470",
+      "original_current_equal": true,
+      "original_git_equal": true,
+      "original_git_text_equal": true
+    },
+    {
+      "file": "docking/receptors/THRB_2J4A.pdbqt",
+      "historical_sha": "c9a69f39abb9a8363c10a97d9c3e6001f0b338f8cd21198fcd9d4d2289a86e04",
+      "current_sha": "c9a69f39abb9a8363c10a97d9c3e6001f0b338f8cd21198fcd9d4d2289a86e04",
+      "git_sha": "c9a69f39abb9a8363c10a97d9c3e6001f0b338f8cd21198fcd9d4d2289a86e04",
+      "original_current_equal": true,
+      "original_git_equal": true,
+      "original_git_text_equal": true
+    },
+    {
+      "file": "data/pdb/2J4A.pdb",
+      "historical_sha": "c63a8a7f8024284a89e841fef6bf0242627370c3769a8cbb1210864636791b97",
+      "current_sha": "3927d873fe47522ad8c102a03ed06778c2771f8fd9944eada01c7293dbc79d07",
+      "git_sha": "c63a8a7f8024284a89e841fef6bf0242627370c3769a8cbb1210864636791b97",
+      "original_current_equal": false,
+      "original_git_equal": true,
+      "original_git_text_equal": true
+    },
+    {
+      "file": "results/tables/np_docking_raw_new.csv",
+      "historical_sha": "bd140abc28211b49c3ffb4af9cbc055314c6d5969bf56f32f19a6cf7bf68cb77",
+      "current_sha": "bd140abc28211b49c3ffb4af9cbc055314c6d5969bf56f32f19a6cf7bf68cb77",
+      "git_sha": "bd140abc28211b49c3ffb4af9cbc055314c6d5969bf56f32f19a6cf7bf68cb77",
+      "original_current_equal": true,
+      "original_git_equal": true,
+      "original_git_text_equal": true
+    }
+  ],
+  "FASN_original_split": {
+    "n": [
+      893,
+      115,
+      102
+    ],
+    "seed_argument": 42,
+    "seed_used_for_random_assignment": false,
+    "saved_y_equal": true,
+    "similarity_ge08": 55,
+    "shared_scaffold": 58,
+    "row_overlap": 0,
+    "persisted_split_files": [
+      "results\\tables\\FASN_cluster_split_testpred.csv",
+      "results\\tables\\SCD1_cluster_split_testpred.csv",
+      "results\\tables\\THRB_cluster_split_testpred.csv"
+    ]
+  },
+  "provenance": {
+    "sample_n": 10,
+    "persisted_columns": [
+      "std_smiles",
+      "pIC50",
+      "n_rep"
+    ],
+    "sample_replicates": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      2,
+      1,
+      2,
+      1,
+      2
+    ],
+    "complete_activity_mapping_found": false
+  },
+  "gate": {
+    "original_code": "D:\\zcode-workspace\\p0_refs\\run_discrimination.py",
+    "saved": {
+      "n_active_docked": 45,
+      "n_negative_docked": 31,
+      "ROC_AUC": 0.346,
+      "EF_at_20pct": 1.44,
+      "MW_t_stat": 5.27,
+      "MW_residual_AUC": 0.647,
+      "layer_AUC": {
+        "layer_0": 0.43,
+        "layer_1": 0.194,
+        "layer_2": 0.415
+      },
+      "verdict": "FAIL",
+      "anchors": {
+        "T3_liothyronine": -9.574,
+        "resmetirom": -10.32
+      }
+    },
+    "correct_residual_AUC": 0.3526881720430107,
+    "copied_metrics_hash_equal": true
+  },
+  "FXR": {
+    "labels_equal_ge8": true,
+    "labels_different_from_ge7": 25,
+    "threshold_nM": 10,
+    "original_separate_asset_found": false
+  }
+}

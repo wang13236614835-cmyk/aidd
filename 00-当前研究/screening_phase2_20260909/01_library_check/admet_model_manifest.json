@@ -1,0 +1,19 @@
+{
+  "endpoints": [
+    "AMES",
+    "BBB_Martins",
+    "Bioavailability_Ma",
+    "ClinTox",
+    "DILI",
+    "HIA_Hou",
+    "Pgp_Broccatelli",
+    "hERG",
+    "Caco2_Wang",
+    "Solubility_AqSolDB"
+  ],
+  "error": "ModuleNotFoundError: No module named 'admet_ai'",
+  "model": "ADMET-AI",
+  "required_version": "2.0.1",
+  "status": "unavailable",
+  "version": "2.0.1"
+}

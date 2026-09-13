@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "checks": {
+    "deliverables": 25,
+    "csv_parsed": true,
+    "ridge_median_r2": 0.7320079614617288,
+    "seeds": 10,
+    "y_scramble_rows": 60,
+    "external_evaluated": 105,
+    "np54_ood": 54,
+    "clean": [
+      96,
+      39
+    ],
+    "leakage": {
+      "max_test_train_tanimoto": 0.9,
+      "all_test_nn_ge_0.60": true
+    },
+    "ridge_rerun_r2": 0.8155185593098742,
+    "banned_phrase_hits": 0,
+    "history_protection": "PASS",
+    "manifest": 25
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "generated_at": "2026-09-10",
+  "source": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\derived\\chembl_activity_all_targets.csv",
+  "raw_records": 22790,
+  "numeric_exact_nM_candidates": 11587,
+  "targets": {
+    "fxr": {
+      "records": 4208,
+      "molecules": 3293,
+      "assays": 292,
+      "types": {
+        "EC50": 3715,
+        "IC50": 469,
+        "AC50": 16,
+        "Kd": 8
+      },
+      "bao_formats": {
+        "cell-based format": 2529,
+        "single protein format": 1495,
+        "assay format": 184
+      }
+    },
+    "thrb": {
+      "records": 6805,
+      "molecules": 5642,
+      "assays": 85,
+      "types": {
+        "Potency": 5920,
+        "IC50": 541,
+        "EC50": 191,
+        "Ki": 118,
+        "Kd": 35
+      },
+      "bao_formats": {
+        "assay format": 6095,
+        "single protein format": 499,
+        "cell-based format": 210,
+        "cell-free format": 1
+      }
+    },
+    "thra": {
+      "records": 574,
+      "molecules": 445,
+      "assays": 64,
+      "types": {
+        "IC50": 293,
+        "EC50": 162,
+        "Ki": 88,
+        "Kd": 31
+      },
+      "bao_formats": {
+        "single protein format": 333,
+        "cell-based format": 124,
+        "assay format": 117
+      }
+    }
+  },
+  "rules": [
+    "human targets only: FXR CHEMBL2047, TRβ CHEMBL1947, TRα CHEMBL1860",
+    "standard_flag=1, standard_units=nM, standard_relation==, numeric positive values",
+    "assay/endpoint/construct strata retained; no cross-assay averaging or label inversion",
+    "this is a candidate dataset, not a frozen final training set or external validation result"
+  ]
+}

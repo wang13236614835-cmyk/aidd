@@ -1,0 +1,1243 @@
+=== PAGE 1 ===
+Dual-function natural products: Farnesoid X receptor agonist/inflammation inhibitor for metabolic dysfunction-associated steatotic
+liver disease therapy
+Kang WANG, Pengfei ZHANG, Huiyong SUN, Shuang CUI, Lanjia AO, Ming CUI, Xiaowei XU, Lin WANG, Yuanyuan XU, Guangji
+WANG, Hong WANG, Haiping HAO
+Citation: Kang WANG, Pengfei ZHANG, Huiyong SUN, Shuang CUI, Lanjia AO, Ming CUI, Xiaowei XU, Lin WANG, Yuanyuan
+XU, Guangji WANG, Hong WANG, Haiping HAO, Dual-function natural products: Farnesoid X receptor agonist/inflammation
+inhibitor for metabolic dysfunction-associated steatotic liver disease therapy, Chinese Journal of Natural Medicines, 2024, 22(11), 1-
+12. doi: 10.1016/S1875-5364(24)60706-5.
+View online: https://doi.org/10.1016/S1875-5364(24)60706-5
+Related articles that may interest you
+Xenopus GLP-1-based glycopeptides as dual glucagon-like peptide 1 receptor/glucagon receptor agonists with improved in vivo
+stability for treating diabetes and obesity
+Chinese Journal of Natural Medicines. 2022, 20(11), 863-872 https://doi.org/10.1016/S1875-5364(22)60196-1
+Modulation of type I interferon signaling by natural products in the treatment of immune-related diseases
+Chinese Journal of Natural Medicines. 2023, 21(1), 3-18 https://doi.org/10.1016/S1875-5364(23)60381-4
+Natural products: potential therapeutic agents for atherosclerosis
+Chinese Journal of Natural Medicines. 2022, 20(11), 830-845 https://doi.org/10.1016/S1875-5364(22)60219-X
+Combining microbial and chemical syntheses for the production of complex natural products
+Chinese Journal of Natural Medicines. 2022, 20(10), 729-736 https://doi.org/10.1016/S1875-5364(22)60191-2
+Pathogenesis of NASH and Promising Natural Products
+Chinese Journal of Natural Medicines. 2021, 19(1), 12-27 https://doi.org/10.1016/S1875-5364(21)60002-X
+Advances in the role of natural products in human gene expression
+Chinese Journal of Natural Medicines. 2022, 20(1), 1-8 https://doi.org/10.1016/S1875-5364(22)60147-X
+Wechat
+=== PAGE 2 ===
+Available online at www.sciencedirect.com
+Chinese Journal of Natural Medicines 2024, 22(11): 965-976
+doi: 10.1016/S1875-5364(24)60706-5
+•Original article•
+Dual-function natural products: Farnesoid X receptor agonist/in-
+flammation inhibitor for metabolic dysfunction-associated steatotic
+liver disease therapy
+WANG Kang1Δ, ZHANG Pengfei1Δ, SUN Huiyong1, CUI Shuang1, AO Lanjia1, CUI Ming1,
+XU Xiaowei1, WANG Lin2, XU Yuanyuan1, 3, WANG Guangji1*, WANG Hong1*, HAO Haiping1*
+1 State Key Laboratory of Natural Medicines, Key Laboratory of Drug Metabolism & Pharmacokinetics, China Pharmaceutical
+University, Nanjing 210009, China;
+2 Basic Science Research Center Base (Pharmaceutical Science), Shandong province, Yantai University, Yantai 264005, China;
+3 Jiangsu Tasly Diyi Pharmaceutical Co., Ltd, Huaian 223002, China
+Available online 20 Nov., 2024
+[ABSTRACT] Metabolic dysfunction-associated steatotic liver disease (MASLD) is the most prevalent chronic liver disease globally,
+with only one Food and Drug Administration (FDA)-approved drug for its treatment. Given MASLD’s complex pathophysiology, ther-
+apies that simultaneously target multiple pathways are highly desirable. One promising approach is dual-modulation of the farnesoid X
+receptor (FXR), which regulates lipid and bile acid metabolism. However, FXR agonists alone are insufficient due to their limited anti-
+inflammatory effects. This study aimed to dto identify natural products capable of both FXR activation and inflammation inhibition to
+provide a comprehensive therapeutic approach for MASLD. Potential FXR ligands from the Natural Product Library were predicted
+via virtual screening using the Protein Preparation Wizard module in Schrodinger (2018) for molecular docking. Direct binding and
+regulation of candidate compounds on FXR were analyzed using surface plasmon resonance (SPR) binding assay, reporter gene ana-
+lysis, and reverse transcription-polymerase chain reaction (RT-PCR). The anti-inflammatory properties of these compounds were eval-
+uated in AML12 cells treated with tumor necrosis factor-alpha (TNF-α). Dual-function compounds with FXR agonism and inflamma-
+tion inhibition were further identified in cells transfected with Fxr siRNA and treated with TNF-α. The effects of these dual-function
+compounds on lipid accumulation and inflammation were evaluated in cells treated with palmitic acid. Results revealed that 17 natural
+products were predicted via computational molecular docking as potential FXR agonists, with 15 exhibiting a strong affinity for FXR
+recombinant protein. Nine isoflavone compounds significantly enhanced FXR reporter luciferase activity and the mRNA expressions
+of Shp and Ostb. Structure-activity relationship analysis indicated that introducing isopropyl or methoxy groups at the C7 position or a
+methoxy group at the C6 position could enhance the agonistic efficacy of isoflavones. Three compounds (2, 6, and 8) were identified as
+dual-function natural products functioning as FXR agonists and inflammatory inhibitors, while one compound (12) acted as an FXR
+agonist to inhibit inflammation. These natural products protected hepatocytes against palmitic acid-induced lipid accumulation and in-
+flammation. In conclusion, compounds 2, 6, and 8 (genistein, biochanin A, and 7-methoxyisoflavone, respectively) were identified as
+dual-function bioactive products that transactivate FXR and inhibit inflammation, serving as potential candidates or lead compounds
+for MASLD therapy.
+[KEY WORDS] FXR agonist; Inflammation; Dual modulator; Natural products; MASLD
+[CLC Number] R965 [Document code] A [Article ID] 2095-6975(2024)11-0965-12
+Introduction
+[Received on] 13-Feb.-2024
+[Research funding] This work is supported by the National Natural Metabolic dysfunction-associated steatotic liver disease
+Science Foundation of China (Nos. 81930109, 82321005, 82073926,
+(MASLD), formerly referred to as nonalcoholic fatty liver
+82373946 and 82073928); the Major State Basic Research Develop-
+disease (NAFLD) [1], is the most prevalent chronic liver dis-
+ment Program of China (Nos. 2021YFA1301300 and
+2022YFA1303800); Overseas Expertise Introduction Project for Dis- ease worldwide [2]. MASLD encompasses a progression of
+cipline Innovation (No. G20582017001); the Project of State Key hepatic pathologies, from simple steatosis to metabolic dys-
+Laboratory of Natural Medicines, China Pharmaceutical University
+function-associated steatohepatitis (MASH, previously
+(Nos. SKLNMZZ202202 and SKLNMZZ202402); the Fundamental
+termed nonalcoholic steatohepatitis), fibrosis, and potentially
+Research Funds for the Central Universities (No. 2632023TD10), and
+the Project Program of Basic Science Research Center Base (Pharma- hepatocellular carcinoma (HCC). The etiology of MASLD is
+ceutical Science) of Yantai University (No. Y202204). multifactorial, involving lipid accumulation, inflammation,
+[*Corresponding author] E-mails: gjwang@cpu.edu.cn (WANG Gu- hepatocellular injury, and progressive fibrosis [3, 4]. MASLD
+angji); wanghong@cpu.edu.cn (WANG Hong); haipinghao@cpu.
+is now a leading cause of end-stage liver disease and a well-
+edu.cn (HAO Haiping)
+∆These authors contributed equally to this work. established risk factor for HCC. Despite the high global bur-
+These authors have no conflict of interest to declare. den of MASLD, the FDA has approved only one therapeutic
+– 965 –
+=== PAGE 3 ===
+WANG Kang, et al. / Chin J Nat Med, 2024, 22(11): 965-976
+agent, Resmetirom, emphasizing the urgent need for further al sources that exhibit potent anti-inflammatory properties,
+pharmacological interventions to address this complex dis- potentially serving as candidates or lead compounds for
+ease comprehensively. MASLD therapy.
+Farnesoid X receptor (FXR), a member of the nuclear re-
+Materials and Methods
+ceptor superfamily of ligand-activated transcription factors, is
+highly expressed in the liver [5]. Research indicates that FXR Agents
+and its target genes contribute to metabolic regulation and Natural Product Library (HY-L021) for screening, api-
+fibrogenesis suppression [5-7]. Furthermore, studies have genin (HY-N1201, purity, 98.03%), genistein (HY-14596,
+shown that FXR suppresses inflammation by inhibiting NF- purity, 99.18%), fisetin (HY-N0182, purity, ≥ 98%), for-
+κB [8] or the NLRP3 inflammasome [9]. Consequently, FXR is mononetin (HY-N0183, purity, 97.67%), baicalein (HY-
+widely recognized as a promising target for MASH treatment. N0196, purity, 98.84%), biochanin A (HY-14595, purity,
+Numerous FXR agonists with diverse chemical structures 99.01%), chrysin (HY-14589, purity, 99.55%), 7-methoxy-
+have been developed for MASH therapy [10]. Among isoflavone (HY-N6631, purity, 99.73%), calycosin (HY-
+these, obeticholic acid (OCA) emerged as the pioneering
+N0519, purity, 99.8%), 5-methyl-7-methoxyisoflavone (HY-
+N1993, purity, 99.78%), ipriflavone (HY-N0094, purity,
+frontrunner and the first successful MASH therapy in clinical
+≥ 98%), tectorigenin (HY-N0792, purity, 99.36%), glycitein
+trials. However, OCA did not receive regulatory approval as
+(HY-N0016, purity, 98.03%), OCA (HY-12222, purity, ≥
+a MASH pharmacotherapy due to its moderate benefits not
+98%), and Z-guggulsterone (GS, HY-110066, purity,
+outweighing its safety risks [11].
+98.88%) were acquired from MedChemExpress (Monmouth
+While OCA demonstrated notable improvements in liver
+Junction, NJ, USA). Methylophiopogonone A (D266807,
+histopathology for patients with MASH and achieved certain
+purity, 99.15%), methylophiopogonanone B (A1180, purity,
+endpoints in clinical trials, its hepatoprotective efficacy re-
+99.77%), 4′,7-dimethoxyisoflavone (D113596, purity, ≥ 98%)
+mains suboptimal. In the phase 3 REGENERATE trial (NCT
+and glycyrrhisoflavone (D113348, purity, ≥ 98%) were ob-
+02548351), the primary endpoint of MASH resolution did not
+tained from the National Center for Standard Materials of
+reach statistical significance. This endpoint encompasses spe-
+China (Beijing, China). Palmitic acid (PA,76119) and di-
+cific conditions: fatty liver disease without steatohepatitis or
+methyl sulfoxide (67-68-5) were procured from Sigma‒Ald-
+absence of fatty liver disease, a NAFLD activity score (NAS)
+rich (St. Louis, MO, USA). Recombinant murine TNF-α (315-
+of 0 for ballooning, and a NAS of 0−1 for inflammation,
+01A) was obtained from PeproTech (Rocky Hill, USA). Re-
+without fibrosis progression. Improvement in lobular inflam-
+combinant FXR protein was sourced from Sangon Biotech
+mation by at least 1 point was observed in 35% of placebo
+(Shanghai, China). Modified Oil Red O Staining Kit
+patients, 39% in the OCA 10 mg group (P = 0.34), and 44%
+(C0158S) was acquired from Beyotime Biotechnology
+in the OCA 25 mg group (P = 0.032) [12]. The phase 2 FLINT
+(Shanghai, China).
+trial (NCT01265498) showed improvement in lobular inflam-
+Molecular docking
+mation in 35% of placebo patients and 54% in the OCA
+The ligand binding domain (LBD) of FXR (PDB code:
+group (P = 0.006), while portal inflammation improvement 1OSH) was utilized for molecular docking [25]. The Protein
+was observed in 13% of placebo patients and 12% in the
+Preparation Wizard module in Schrodinger (2018) was em-
+OCA group (P = 0.90) [13]. These findings suggest that FXR
+ployed to perform various steps, including the removal of
+agonists have a limited impact on inflammation.
+crystallized water molecules, the addition of missing loops,
+Given its limited impact on inflammation, coadministra-
+the repair of imperfect sidechains, and the determination of
+tion with anti-inflammatory agents may yield synergistic ef-
+protonated states of the residues. The active pocket was
+fects. C-C motif receptor 2/5 (CCR2/5) is a recognized target
+defined based on the original ligand in the crystal complex.
+for inflammation and MASH [14]. Cenicriviroc, a CCR2/5 dual
+The FXR LBD was then designated as the receptor with the
+antagonist, is currently under evaluation for MASH treatment.
+docking space set to 20 Å × 20 Å × 20 Å around the active
+A preclinical study demonstrated enhanced hepatoprotection
+pocket. A total of 3922 compounds from the Natural Product
+when tropifexor, another FXR agonist, was combined with
+cenicriviroc [15]. However, a randomized, double-blind, multi- Library (HY-L021) were prepared using Discovery Studio
+2019 to standardize their structures. Standard Glide docking
+center, phase 2b clinical trial (NCT03517540) showed no sig-
+nificant improvement in ALT, body weight, or histological (Glide SP) was employed to screen the library. Precision
+endpoints with combination therapy compared to monother- Glide docking (Glide XP) was utilized to analyze the top-
+apy [16]. This outcome may be attributed to cenicriviroc's lack scored 1,000 molecules. The top 500 molecules were sub-
+of efficacy against MASH (NCT03028740) [17]. Con- sequently clustered.
+sequently, there is a pressing need to identify novel mo- Surface plasmon resonance (SPR) binding assay
+lecules with potent anti-inflammatory properties that can act A surface plasmon resonance (SPR) binding assay was
+synergistically with FXR agonists in combating MASH. performed using a Biacore T200 (General Electric Company)
+Numerous natural products demonstrate promising anti- to assess interactions between FXR protein and test com-
+inflammatory effects through diverse mechanisms [18-24]. This pounds in real-time [26]. Recombinant FXR protein was im-
+study aimed to investigate potential FXR agonists from natur- mobilized on a CM5 sensor chip, while test compounds, di-
+– 966 –
+=== PAGE 4 ===
+WANG Kang, et al. / Chin J Nat Med, 2024, 22(11): 965-976
+luted in phosphate-buffered saline (PBS) to concentrations Eraser (Vazyme Biotech Co., Ltd, Nanjing, China). RT‒PCR
+ranging from 0.078 to 66.7 μmol·L−1 were flowed over the was subsequently performed using ChamQ SYBR quantitat-
+chip surface at a rate of 30 μL·min−1. The contact and dissoci- ive PCR (qPCR) Master Mix (Vazyme Biotech Co., Ltd.,
+ation times were set to 60 s or 120 s, respectively. Blank flow Nanjing, China). The sequences of primers employed are
+cells without immobilized protein served as controls. The provided in Supporting Information Table S1.
+binding affinity of the test compounds to the FXR protein Measurement of lipid content
+was quantified by calculating the equilibrium dissociation HepG2 cells were stained with oil red O after treatment
+constant (K ). with compounds using the Modified Oil Red O Staining Kit,
+D
+Cell culture and treatment following the manufacturer’s protocols. The positive area in
+Murine AML12 cells were procured from the Shanghai the images was quantified using ImageJ software [29, 30].
+Cell Bank of the Chinese Academy of Sciences (Shanghai, Statistical analysis
+China) and cultivated in Dulbecco’s modified Eagle’s medi- analysis was conducted using GraphPad Prism (Graph-
+um/Nutrient Mixture F-12 (DMEM/F12) supplemented with Pad Software, Inc., San Diego, CA, USA), with results
+10% fetal bovine serum and antibiotics (100 U·mL−1 spenicil- presented as mean ± standard error of the mean (SEM). Stat-
+lin and 100 μg·mL−1 streptomycin). Human HepG2 cells were istical comparisons between two groups were performed us-
+acquired from ATCC and maintained in Dulbecco’s modi- ing a two-tailed Student’s t-test, while comparisons among
+fied Eagle’s medium containing 10% fetal bovine serum and multiple groups employed one-way analysis of variance (AN-
+antibiotics (100 U·mL−1 penicillin and 100 μg·mL−1 strepto- OVA) with Tukey post hoc analysis. Statistical significance
+mycin). Both cell lines were cultured at 37 ºC in a humidi- was established at P values less than 0.05.
+fied atmosphere with 5% CO .
+2 Results
+To assess the impact of these compounds on FXR trans-
+activation activity, AML12 cells were treated with the test Prediction of FXR ligands from natural products via molecu-
+compounds at 50 μmol·L−1. To evaluate their effect on in- lar docking
+flammation, AML12 cells were exposed to murine TNF-α (20 A structure-guided virtual screening and molecular dock-
+ng·mL−1) for 2 h with or without the test compounds (10 ing approach was employed to identify potential FXR lig-
+μmol·L−1). To examine the compounds’ influence on MASH, ands from natural products. The FXR LBD (PDB code:
+hepatocytes were treated with PA-Na (0.4 mmol·L−1) for 4 h 1OSH) was utilized for molecular docking (Fig. 1A). 3922
+in the presence or absence of the test compounds (25, 50, and compounds from the Natural Product Library (HY-L021,
+100 μmol·L−1 for compounds 2, 8, and 12, or 6.25, 12.5, and MedChemExpress) were prepared using Discovery Studio
+25 μmol·L−1 for compound 6, respectively). 2019. OCA, a well-established FXR agonist, served as a pos-
+Cell transfection itive control. The binding affinity, defined as the energy dif-
+Negative control siRNA and FXR siRNA were procured ference between the lowest binding energy state and the aver-
+from Nanjing EKBIO Technology. Cell transfection with age binding energy, was recorded and used for ranking. OCA
+these siRNAs was performed using Lipofectamine RNAi- exhibited an affinity of −10.08 kcal·mol−1. The docking res-
+MAX transfection reagent (Invitrogen, Carlsbad, CA, USA) ults of OCA with FXR aligned well with previously pub-
+in accordance with the manufacturer’s instructions [27]. lished crystallographic data [25], validating the docking meth-
+Reporter gene analysis odology. Using identical docking parameters, compounds
+The cells underwent co-transfection with the FXR ex- from the Natural Product Library were docked into the LBD
+pression plasmid and the FXR target gene OSTb promoter re- of FXR. Notably, 17 natural compounds were predicted to in-
+porter vector, utilizing Lipofectamine 3000 reagent accord- teract with the LBD of FXR with high affinity. Furthermore,
+ing to previously described methods [6]. compounds 1, 2, and 12 were predicted to have affinities
+To assess the agonistic effect on FXR, cells were ex- comparable to OCA. Their chemical structures are illustrated
+posed to the test compounds or OCA, a known FXR agonist. in Fig. 1B, with their Glide scores presented in Table 1. In
+For evaluating the antagonistic effect on FXR, cells were first summary, the docking results suggest that 17 compounds
+treated with test compounds or GS (10 μmol·L−1), a validated from the Natural Product Library potentially bind to FXR,
+FXR antagonist, followed by OCA (10 μmol·L−1). Sub- warranting further investigation as novel FXR ligands.
+sequently, the cells were lysed, and luciferase activities were Identification of potential FXR ligands that directly bind the
+measured using a Bright-Lite Luciferase Assay System FXR protein
+(Vazyme Biotech Co., Ltd., Nanjing, China). To identify potential FXR ligands, we determined the
+Reverse transcription-polymerase chain reaction (RT-PCR) binding potencies of the aforementioned 17 compounds to
+RT-PCR was conducted according to previously estab- purified human FXR protein using SPR technology-based Bi-
+lished protocols [28]. In summary, total RNA was extracted acore assay. OCA served as a positive control. Fig. 2 dis-
+from cells using RNAiso Plus reagent (TaKaRa Biotechno- plays the sensor diagram and fitting curve. The results
+logy, Tokyo, Japan). The isolated RNA was then reverse tran- demonstrated that compounds 1, 2, 4 to 8, and 10 to 17, as
+scribed utilizing the PrimeScript RT Reagent Kit with gDNA well as OCA, directly bound to the FXR protein in a concen-
+– 967 –
+=== PAGE 5 ===
+WANG Kang, et al. / Chin J Nat Med, 2024, 22(11): 965-976
+A B OH OH
+HO O HO O HO O
+OH
+OH
+OH O OH O O
+Apigenin (1) Genistein (2) OH Fisetin (3)
+HO O HO O HO O
+HO
+O OH O OH O
+O O
+Formononetin (4) Baicalein (5) BiochaninA (6)
+HO O O O HO O
+OH
+OH O O O
+O
+Chrysin (7) 7-Methoxyisoflavone (8) Calycosin (9)
+O O O O HO O
+O
+C O O OH O
+OH
+Standard Glide docking 5-Methyl-7-methoxyisoflavone (10) Ipriflavone (11) Tectorigenin (12)
+(3922 virtual compounds)
+Precision Glide docking
+(1000 virtual compounds) HO O HO O O HO O O
+O O
+Cluster
+O OH O OH O
+(top-500 virtual compounds) Glycitein (13) OH Methylophiopogonone A (14) Methylophiopogonanone B (15)
+Evaluation by SPR
+O O HO O
+(17 compounds)
+Evaluation by Reporter
+O OH O
+Gene Assay O OH
+(15 compounds) OH
+4',7-Dimethoxyisoflavone (16) Glycyrrhisoflavone (17)
+Fig. 1 In silico prediction of FXR ligands by molecular docking. (A) Structure of FXR LBD. (B) Chemical structures of poten-
+tial ligands. (C) Workflow for virtual screening of FXR ligands.
+tration-dependent manner. Compounds 3 and 9 exhibited ted. Results indicated that the Ostb promoter reporter is more
+minimal binding to the FXR protein fixed on the sensor chip sensitive than the Shp promoter reporter, consistent with their
+surface. The binding affinity of OCA and the test compounds mRNA expression in the RT-PCR assay in response to OCA
+to the FXR protein was evaluated using K values (Table 1). (Fig. S1). Consequently, the Ostb promoter reporter was em-
+D
+We determined the K value of OCA binding to be 2.272 × ployed in this study. AML12 cells were transiently cotrans-
+D
+10−6 μmol·L−1. Pleasantly, the K values for the interaction fected with an FXR expression plasmid and an FXR target
+D
+between 15 compounds and the FXR protein ranged from gene OSTb promoter reporter vector. As anticipated, OCA
+8.156 × 10−5 to 3.469 × 10−7 μmol·L−1. Furthermore, the K treatment significantly increased the luciferase activity of the
+D
+values for compounds 2, 6, 8, and 15 were lower than that of FXR reporter gene in a dose-dependent manner (Fig. 3A). GS
+OCA. Collectively, these results indicate that compounds 1, significantly decreased the luciferase activity of the FXR re-
+2, 4‒8, and 10‒17 directly bind to the FXR protein with high porter gene when coadministered with OCA but had a minim-
+affinities. al effect on its luciferase activity when individually admin-
+Validation of FXR agonists and antagonists istered (Figs. 3 and 3C). These results suggest that this report-
+We identified potential FXR ligands through SPR assays; er gene system is suitable for identifying FXR agonists and
+however, distinguishing between agonists and antagonists re- antagonists. The efficacies of the aforementioned ligands on
+mains challenging. To further investigate whether the afore- FXR transactivation activity were then assessed using this
+mentioned compounds (compounds 1, 2, 4‒8, and 10‒17) can system. The potential FXR ligands exhibited varying activit-
+transactivate FXR, their effects on FXR activation were ex- ies toward FXR. Compounds 2, 4, 6, 8, 10, 11, 12, 13, and 16
+amined using a luciferase reporter gene assay. FXR, a nucle- significantly increased the luciferase activity of FXR. Com-
+ar receptor, regulates the transcription of various target genes, paring the activity of these natural compounds, compounds 2
+including Shp and Ostb. A reporter gene system containing and 6 demonstrated effects similar to OCA (Fig. 3D). To fur-
+either the Shp promoter or the Ostb promoter was construc- ther validate the agonistic effect of these compounds on FXR,
+– 968 –
+=== PAGE 6 ===
+WANG Kang, et al. / Chin J Nat Med, 2024, 22(11): 965-976
+Table 1 Glide scores and K values of 17 compounds that can fit into FXR LBD.
+D
+No． Name Glide scores (kcal·mol−1) K D values
+1 Apigenin −10.0934 4.412 × 10−6
+2 Genistein −9.9588 5.941 × 10−7
+3 Fisetin −9.8189 Non-convergence
+4 Formononetin −9.3634 1.323 × 10−6
+5 Baicalein −9.3222 2.761 × 10−6
+6 Biochanin A −9.2301 3.469 × 10−7
+7 Chrysin −9.2117 2.850 × 10−6
+8 7-Methoxyisoflavone −9.4862 8.929 × 10−7
+9 Calycosin −9.3139 Non-convergence
+10 5-Methyl-7-methoxyisoflavone −9.3758 4.232 × 10−6
+11 Ipriflavone −8.9740 4.969 × 10−6
+12 Tectorigenin −10.0182 2.612 × 10−6
+13 Glycitein −9.5116 8.156 × 10−5
+14 Methylophiopogonone A −8.4636 2.156 × 10−5
+15 Methylophiopogonanone B −8.2072 6.172 × 10−7
+16 4′,7-Dimethoxyisoflavone −8.7459 1.849 × 10−6
+17 Glycyrrhisoflavone −8.8813 3.075 × 10−6
+/ OCA −10.08 2.272 × 10−6
+RT‒PCR assays were conducted. Corroborating with the res- tion. Compounds 1, 5, and 7 exhibit minimal impact on FXR
+ults from reporter gene analysis, compounds 2, 4, 6, 8, 10, 11, trans-activity.
+12, 13, and 16 significantly upregulated the mRNA levels of Structure-activity relationship analysis
+Shp and Ostb (Fig. 3E). Given that these newly identified FXR agonists and ant-
+In addition to the aforementioned validated agonists, agonists share a common chemical skeleton, we conducted a
+compounds 1, 5, 7, 14, 15, and 17, which directly bind to the structure-activity relationship analysis. The antagonist be-
+FXR protein in SPR assays, were identified as potential FXR longs to the flavone family, while the agonists are part of the
+ligands. Some of these compounds may function as FXR ant- isoflavone family, indicating that the positioning of the B ring
+agonists, inhibiting FXR transactivation, while others may at the C3 position induced an agonistic effect on FXR. Sub-
+bind without significantly affecting its trans-activities. To sequently, we performed a structure-activity relationship
+identify potential FXR antagonists among these ligands, we (SAR) analysis of the aforementioned FXR agonists. Fig. 4
+employed a reporter gene system. Compounds 14, 15, and 17 displays the concentration-activating activity plots for all ag-
+significantly inhibited FXR luciferase activity in cells co- onists. Their EC values, simulated using Prism software, are
+50
+treated with OCA (Fig. 3F). This observation was further cor- presented in Table 2. Among the nine isoflavone analogs,
+roborated by RT-PCR assay (Fig. 3G). However, compounds compounds 8, 11, and 16 demonstrated potent agonistic activ-
+1, 5, and 7 neither trans-activated FXR nor antagonized OCA- ity with EC values below 0.1 μmol·L−1, followed by com-
+50
+induced trans-activation (Fig. S2). pounds 4, 6, 10, and 12 with EC values under 0.5 μmol·L−1,
+50
+Collectively, these findings demonstrate that compounds while compound 13 exhibited the weakest activity. Based on
+2, 4, 6, 8, 10, 11, 12, 13, and 16 function as FXR agonists, ac- the EC values of agonists listed in Table 2, the introduction
+50
+tivating FXR transactivation. Conversely, compounds 14, 15, of a substituent at the C7 position (R1) is crucial for its activ-
+and 17 act as FXR antagonists, inhibiting FXR transactiva- ity. Specifically, the addition of isopropoxyl or methoxyl
+– 969 –
+=== PAGE 7 ===
+10 8 6 4 2 0
+0 2.0e−006 4.0e−006 6.0e−006 8.0e−006 1.0e−005
+C/(mol·L−1) C/(mol·L−1) C/(mol·L−1)
+C/(mol·L−1) C/(mol·L−1) C/(mol·L−1)
+C/(mol·L−1) C/(mol·L−1) C/(mol·L−1)
+C/(mol·L−1) C/(mol·L−1) C/(mol·L−1)
+C/(mol·L−1) C/(mol·L−1) C/(mol·L−1)
+C/(mol·L−1) C/(mol·L−1) C/(mol·L−1)
+groups significantly enhances the agonistic efficacy of iso- flammatory effects. An inflammatory response in hepato-
+flavones. Furthermore, introducing a methoxyl group at the cytes was induced by TNF-α treatment. Notably, treatment
+C6 position (R2) also augments the agonistic efficacy, as with compounds 2, 6, 8, and 12 significantly suppressed the
+evidenced by comparing compounds 2 and 12. However, a mRNA levels of Tnfa (Fig. 5A). Previous research has shown
+comparison of compounds 8 and 10 reveals that the methyl that FXR activation can inhibit inflammation by suppressing
+group at the C5 position (R3) diminishes the agonistic effic- NF-κB. We sought to determine whether the anti-inflammat-
+acy. The hydroxyl group at the C5 position may also influ- ory effects of these natural compounds were dependent on
+ence its agonistic activity, with this effect largely dependent their FXR agonistic activity. To this end, Fxr-specific siRNA
+on the substituent at the C6 position. The introduction of a was used to knock down its expression in hepatocytes. In
+hydroxyl group at the C5 position decreases its agonistic cells transfected with scramble siRNA, treatment with com-
+activity when the C6 position lacks a substituent (compounds pounds 2, 6, 8, and 12 significantly reduced Tnfa mRNA ex-
+4 vs. 6), while it increases agonistic activity when the C6 pos- pression (Fig. 5B). In cells transfected with Fxr siRNA, com-
+ition contains a methoxy group (compounds 12 vs 13). pounds 2, 6, and 8 significantly decreased Tnfa mRNA levels,
+Furthermore, the methoxy group at the C4' position (R4) while compound 12 failed to reduce its expression (Fig. 5B).
+enhances agonistic efficacy in comparison to the hydroxyl These results suggest that compounds 2, 6, 8, and 12, exhibit
+group. potent anti-inflammatory effects. The effect of compound 12
+FXR-dependent and independent anti-inflammatory effects of is largely dependent on its FXR agonistic efficacy, while
+the above agonists compounds 2, 6, and 8 are FXR agonists with additional anti-
+The aforementioned studies successfully identified sever- inflammatory properties.
+al FXR agonists. Subsequently, we evaluated their anti-in- MASH is characterized by lipid accumulation and in-
+)UR( esnopseR 6 4 2 0
+0 1.0e−006 2.0e−006
+)UR( esnopseR 40 30 20 10 0
+0 4.0e−006 8.0e−006 1.2e−005 1.6e−005 2.0e−005
+)UR( esnopseR
+5 4 3 2 1
+0
+0 2.0e−006 4.0e−006 6.0e−006 8.0e−006 1.0e−005
+)UR( esnopseR
+)UR( esnopseR
+)UR( esnopseR
+)UR( esnopseR
+)UR( esnopseR
+)UR( esnopseR
+)UR( esnopseR
+)UR( esnopseR
+)UR( esnopseR
+)UR( esnopseR
+)UR( esnopseR
+)UR( esnopseR
+)UR( esnopseR
+)UR( esnopseR
+)UR( esnopseR
+5 4 3 2 1 0 −1−10010203T0im4e0/s50607080
+10 1.5 1.0 0.5 5 0 −0.5 −10010203T0im4e0/s50607080
+0 −1.0
+0 2.0e−006 4.0e−006 6.0e−006 8.0e−006 1.0e−005 0 2.0e−006
+8 3 8
+6 6 2 4 4 2 1 2 0
+0 0
+0 4.0e−006 8.0e−006 1.2e−005 1.6e−005 2.0e−005 0 2.0e−006 4.0e−006 6.0e−006 8.0e−006 1.0e−005 0 4.0e−006 8.0e−006 1.2e−005 1.6e−005 2.0e−005 2.4e−005
+4 2.0 1.5 3 1.5 1.0 2 1.0 0.5 1 0.5 0 0 0
+0 4.0e−006 8.0e−006 1.2e−005 1.6e−005 2.0e−005 0 2.0e−006 4.0e−006 6.0e−006 8.0e−006 1.0e−005 0 2.0e−006 4.0e−006 6.0e−006 8.0e−006
+10 10 1.5
+5 5 1.0 0 0 0.5
+0 5.0e−005 1.0e−004 1.5e−004 2.0e−004 0 1.0e−005 2.0e−005 3.0e−005 4.0e−005 5.0e−005 6.0e−005 7.0e−005 0 4.0e−006 8.0e−006 1.2e−005 1.6e−005 2.0e−005
+2 5 25 1 4 20 3 15 0 2 10 −1 1 5 0 0
+0 2.0e−005 4.0e−005 6.0e−005 0 4.0e−006 8.0e−006 1.2e−005 1.6e−005 2.0e−005 0 2.0e−006 4.0e−006 6.0e−006 8.0e−006 1.0e−005
+stinU esnopseR )UR(
+stinU esnopseR )UR(
+stinU ) e U s R no ( pseR
+stinU ) e U s R no ( pseR
+stinU ) e U s R no ( pseR
+stinU ) e U s R no ( pseR
+stinU esnopseR
+stinU esnopseR
+stinU esnopseR
+)UR(
+)UR(
+)UR(
+stinU esnopseR )UR(
+stinU esnopseR
+stinU esnopseR
+)UR(
+)UR(
+stinU ) e U s R no ( pseR
+stinU ) e U s R no ( pseR
+stinU ) e U s R no ( pseR
+stinU ) e U s R no ( pseR
+WANG Kang, et al. / Chin J Nat Med, 2024, 22(11): 965-976
+K D = 4.412 × 10−6 mol·L−1 K D = 5.941 × 10−7 mol·L−1 Nonspecific binding 6 00001251 ...... 0 013625μ 751250 μm 86250 m μo μμμμμmlo· mmmmm lLo ·L − oooool·1− lllllL ····· 1 LLLLL−1 −−−−− 11111 000012 ...... 013625 751250 86250 μ μμμμμm mmmmmo oooool· lllllL ····· LLLLL−1 −−−−− 11111 −3 0 3 −1001020T3i0m4e0 (s5)0607080
+1 2 3
+K D = 1.323 × 10−6 mol·L−1 K D = 2.761 × 10−6 mol·L−1 K D = 3.469 × 10−7 mol·L−1 5 9 2 0001251 0..... 0 .13625μ 0 51250 μ 7 m 6250 8 m μo μμμμ μ mlo· mmmm m lLo ·L − ooool o ·1− llll l L ···· · 1 LLLL L −1 −−−− −1111 1 −1 0 1 2 3 4 00001251 ...... 0 013625μ 751250 μm 86250 m μo μμμμμmlo· mmmmm lLo ·L − oooool·1− lllllL ····· 1 LLLLL−1 −−−−− 11111 −1 1 3 5 7 −1001020T3im0e4 0(s)50607080 000012 ...... 013625 751250 86250 μ μμμμμm mmmmmo oooool· lllllL ····· LLLLL−1 −−−−− 11111 − 0 1 1−1001020Ti3m0e4 (0s)50607080
+4 5 6
+K D = 2.850 × 10−6 mol·L−1 K D = 8.929 × 10−7 mol·L−1 Nonspecific binding
+4 00001251 2 ...... 0 0 013625μ 751250 μ μ m 86250 m m μo μμμμμmlo o · mmmmm l l Lo · · L L − oooool·1− − lllllL ····· 1 1 LLLLL−1 −−−−− 11111 −1 1 3 5 7 9 −1001020T3im0e4 0(s)50607080 00001251 ...... 0 013625μ 751250 μm 86250 m μo μμμμμmlo· mmmmm lLo ·L − oooool·1− lllllL ····· 1 LLLLL−1 −−−−− 11111 − 0 1 2 3 1−1001020T3i0m4e 0(s5)0607080
+7 8 9 K D = 4.232 × 10−6 mol· 001251 2 .... 0 0 L 3625μ 1250 μ μ m 250 m m − μo 1 μμμmlo o · mmm l l Lo · · L L − oool·1− − lllL ··· 1 1 LLL−1 −−− 111 −1 0 1 2 3 4 5 −1001020T3im0e4 0(s)50607080 K D = 4.969 × 10− 00001251 6 ...... 0 013625μ 751250 μm m 86250 m μo μμμμμmlo· mmmmm l o Lo ·L − oooool·1 l − lllllL ····· 1 · LLLLL− L 1 −−−−− 11111 −1 −1 0 1 2 −10010203T0im4e0 (5s)0607080 K D = 2.612 × 10−6 m 00027 ..... 02844 o 95280 μμμμμ l mmmmm · ooooo L lllll ····· LLLLL − −−−−− 1 11111 −1 0 1 2 3 0 30 Ti6m0e (s) 90 120
+10 11 12
+K D = 8.156 × 10−5 mol·L−1 K D = 2.156 × 10−5 mol·L−1 K D = 6.172 × 10−7 mol·L−1
+10 14 3 7 11 2 00 027262 .. ...280 20 844..0 79 20 27 μ μ μμ μμ μμ m m mm mm mm o o oo oolool · ll ll ll· L ·· ·· ··L LL LL LL − − 1 −− −− −−1 11 11 11 −2 1 4 0 30Ti6m0e (s)90 120 002726 ....28 2844.. 720 27 μ μμμ μμ m mmm mm o oooloo · lll ll L ··· ·· LLL LL −1 −−− −− 111 11 −1 2 5 8 0 30Ti6m0e (s)90 120 2 0 0 1 50 . . . 0 3 2 μ μ 7 1 5 mm 8 2 0 o μ μ μ ol·l m m m L·L− o o o1− l l l 1 · · · L L L − − − 1 1 1 −1 0 1 −10010203T0im4e0 (5s)0607080
+13 14 15
+K D = 1.849 × 10− 00 02726 6 .. ...28 20 844.. 79 20 27 μ m μμ μμ μμ m mm mm mm o o oo ooloo · ll ll ll L ·· ·· ·· l LL LL LL − · 1 −− −− −− L 11 11 11 −1 −1 0 1 2 3 4 0 30Ti6m0e (s)90 120 K D = 3.075 × 10 00001251 2 − ...... 0 0 013625μ 6 751250 μ μ m 86250 m m μo m μμμμμmlo o · mmmmm l l Lo · · L L o − oooool·1− − lllllL ····· 1 1 l LLLLL− · 1 −−−−− 11111 L−1 − 1 3 5 7 1 −10010203T0im4e0 (5s)0607080 K D = 2.272 × 10−6 m 00 01331 .. ....2 21 7512 o . 99 86255 05 125 l μμ 63 26 · μmm μμ 5μ L moo mm mμ oll·· − moo olLL · ll l 1 L−− o·· · 11 LL L− l· 1 −− −L 11 1−1 1 1 2 2 0 5 0 5 0 5 0 30Ti6m0e (s)90 120
+16 17 OCA
+Fig. 2 Affinity sensing diagram and fitting curve of potential ligands with FXR.
+– 970 –
+=== PAGE 8 ===
+A B C D
+500
+400
+300 200 100
+0
+E F
+G
+flammation. To assess the potential therapeutic effects of munity has recognized that addressing this multifaceted dis-
+compounds 2, 6, 8, and 12 on MASH, an in vitro evaluation order requires a multifaceted therapeutic approach to target
+was conducted. HepG2 cells were treated with PA-Na to in- its diverse pathological components [31, 32]. In this investiga-
+duce fat accumulation and inflammation. Treatment with tion, we identified four naturally occurring compounds that
+compounds 2, 6, and 8 resulted in a significant reduction of concurrently activate FXR and suppress inflammation.
+fat accumulation (Fig. 5C). Furthermore, these compounds MASLD represents a leading cause of chronic liver dis-
+significantly decreased the mRNA expression levels of in- ease globally [3]. Despite its high prevalence and substantial
+flammation-related genes (Fig. 5D). Similarly, compound 12 burden, no effective medication has been approved for
+demonstrated efficacy in reducing cellular lipid accumula- MASLD treatment. A primary reason for this lack of medica-
+tion and mRNA levels of inflammation-related genes (Fig. tion is the multifaceted nature of the disease, involving vari-
+5C, 5D). These findings suggest that compounds 2, 6, and 8 ous pathologic factors such as metabolic dyshomeostasis, in-
+may be promising candidates or lead compounds for MASH flammation activation, and oxidative stress. These factors
+therapy. simultaneously or sequentially drive the development and
+progression of MASLD. The coadministration of two or more
+Discussion
+medicines targeting different pathogenic factors is anticip-
+MASLD represents a complex spectrum of liver dis- ated to achieve complementary or synergistic effects [11]. Con-
+eases driven by multiple factors, including metabolic imbal- sequently, combination therapies have gained widespread ac-
+ance and inflammatory processes [3]. The scientific com- ceptance as a rational alternative approach to address the
+ytivitca
+esareficuL evitaleR
+150
+*** ***
+*** 100 *** *** 50 ***
+0
+ytivitca
+esareficuL evitaleR
+200
+ns 150
+100 50
+0
+ytivitca
+esareficuL evitaleR
+*** * 600 ns
+400 200
+0
+GS − + − + −OCA1 2 3 4 5 6 7 8 9 1011121314151617
+OCA − − + +
+ytivitca
+esareficuL evitaleR
+*** ***
+*** ***
+ns *** *** * * * * ns ns ns ns ns ns ns
+Comps
+4
+3
+2
+1
+0
+Shp Ostb Shp Ostb Shp Ostb
+Shp Ostb Shp Ostb Shp Ostb
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel ANRm
+evitaleR
+slevel ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+Comp 2
+* *** 6
+4
+2
+0
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+Comp 4 Comp 6
+*** 0.08 6 0.06 ** 800
+600
+4
+400
+2 200
+0 0
+Comp 8 Comp 10 Comp 11
+6 * ** 2.0 ** ** 2.5 * *** 1.5 2.0 4 1.5 1.0
+1.0 2 0.5 0.5
+0 0.0 0.0
+Comp 12 Comp 13 Comp 16
+2.0 ** * 2.5 * *** 6 ** * DMSO
+2.0 Comps 1.5
+4 1.5 1.0
+1.0 2
+0.5 0.5
+0.0 0.0 0
+Shp Ostb Shp Ostb Shp Ostb
+ytivitca
+esareficuL
+evitaleR
+ytivitca
+esareficuL
+evitaleR
+ytivitca
+esareficuL
+evitaleR
+*** *** 1000 *** *** 800 *** *** ns ns ns
+800 600
+600
+400
+400 200 200
+0 0
+OCA − + − + OCA − + − + OCA − + − + Comp14 − − + + Comp15 − − + + Comp17 − − + +
+80 *** *** 70 ns 60 50 40 10
+8 6 4
+2
+0
+slevel ANRm
+evitaleR
+slevel ANRm
+evitaleR
+slevel ANRm
+evitaleR
+Shp Shp Shp
+80 *** *** 100 *** *** 70 ns ns 60 80 50 2 4 0 0 60 40 15 10
+10 6 8 5 4
+2
+0 0
+OCA − + − + OCA − + − + OCA − + − + Comp14 − − + + Comp15 − − + + Comp17 − − + +
+Ostb
+130 *** *** 120 120 ns 100
+110 100 80
+90 60 1 8 0 0 40
+8 20 6 10
+2 4 5
+0 0
+OCA − + − +
+Comp 14 − − + +
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+WANG Kang, et al. / Chin J Nat Med, 2024, 22(11): 965-976
+OCA concentration GS concentration
+Ostb Ostb
+*** *** 120 *** *** ns 100 ns
+80
+60 40
+4
+2
+0
+OCA − + − + OCA − + − +
+Comp 15 − − + + Comp 17 − − + +
+Fig. 3 Identification of FXR agonists and antagonists. (A) Effect of OCA (0.25−10 μmol·L−1) on luciferase activity of FXR (n =
+5). (B) Effects of GS (3−100 μmol·L−1) on luciferase activity of FXR (n = 8). (C) Effect of GS (10 μmol·L−1) in the presence or ab-
+sence of OCA (10 μmol·L−1) on luciferase activity of FXR (n = 5). (D) Effects of potential FXR ligands from natural products on
+luciferase activity (n = 5). (E) Effects of potential FXR agonists from natural products on mRNA expression of Shp and Ostb (n =
+3) . (F−G) Effects of potential FXR antagonists on FXR luciferase activity ( n = 8) (F) and mRNA expression of Shp and Ostb (n =
+3) (G). Results are presented as mean ± SEM. Statistical significance was determined by a two-tailed paired t-test (E) or ANOVA
+(F−G). * P < 0.05; **P < 0.01; ***P < 0.001; ns, not statistically significant.
+– 971 –
+=== PAGE 9 ===
+Comp 2 Comp 4 Comp 6
+150
+EC = 0.6142 μmol·L−1
+50
+100
+50
+0
+−2 −1 0 1 2
+log/(μmol·L−1)
+Comp 8 Comp 10 Comp 11
+Comp 12 Comp 13 Comp 16
+complex pathophysiology of the disease [32, 33]. However, the ance protein 2 and bile salt export pump, classical target
+resulting polypharmacy, involving multiple medications, genes of FXR [36, 37]. These results suggest that the com-
+presents disadvantages, such as intricate and problematic pounds regulate FXR signaling, and our present study further
+drug-drug interactions and additional adverse effects. Many provides compelling evidence that the compounds directly
+limitations of polypharmacology can be mitigated by employ- bind to FXR and exert hepatoprotective effects.
+ing multitarget agents that simultaneously address multiple While FXR demonstrates various beneficial properties,
+desired therapeutic mechanisms. therapy based solely on pure FXR agonists appears insuffi-
+FXR, a member of the nuclear receptor superfamily of cient for patients with MASH. Consequently, drug combina-
+ligand-activated transcription factors, is highly expressed in tions incorporating FXR agonists have been proposed and
+the liver. FXR and its target genes have been reported to con- validated for enhanced hepatoprotection. Several strategies
+tribute to metabolic regulation [34] and fibrogenesis suppres- combining FXR agonists with apoptosis inhibitors, glucagon-
+sion [6]. Significant efforts have been dedicated to screening like peptide-1 receptor agonists, dipeptidyl peptidase-4 inhib-
+and developing FXR agonists for the treatment of liver dis- itors, SIRT1 activators, or SUMO inhibitors have been sug-
+eases [10]. In this study, we identified several FXR agonists gested [11]. Furthermore, researchers have developed dual
+from natural products. Compounds 2, 4, 6, 8, 10, 11, 12, 13, modulators that simultaneously regulate FXR and other tar-
+and 16 function as FXR agonists that directly bind to and gets, including FXR/PPARγ dual agonists, FXR/fatty acid
+trans-activate FXR. Consistent with our findings, the binding binding protein 1 dual modulators, and FXR/soluble epoxide
+of compound 2 (genistein) to FXR was recently predicted and hydrolase (sEH) dual modulators [11]. These combinations and
+reported through molecular docking [35]. Our study provides dual modulators demonstrate excellent hepatoprotective ef-
+substantial evidence for the direct binding and regulation of fects.
+compound 2 (genistein) on FXR. Compound 4 (formononet- To address the limitations in anti-inflammatory efficacy
+in) and compound 12 (tectorigenin) were recently reported to observed in clinical trials, crucial strategies for drug combin-
+alleviate alpha-naphthylisothiocyanate-induced cholestatic ations have been proposed. Preclinical studies have demon-
+liver injury and upregulate the expression of multidrug resist- strated superior hepatoprotection with the combination of
+%/ytivitca
+esareficuL
+evitaleR
+150
+EC = 0.1972 μmol·L−1
+50
+100
+50
+0
+−3 −2 −1 0 1
+log/(μmol·L−1)
+%/ytivitca
+esareficuL
+evitaleR
+150
+EC = 0.09785 μmol·L−1 50
+100
+50
+0
+−3 −2 −1 0 1
+log/(μmol·L−1)
+%/ytivitca
+esareficuL
+evitaleR
+150
+EC = 0.4259 μmol·L−1
+50
+100
+50
+0
+−3 −2 −1 0 1 2 −1.0−0.5 0 0.5 1.0 1.5 2.0
+log/(μmol·L−1)
+%/ytivitca
+esareficuL
+evitaleR
+150
+EC = 2.487 μmol·L−1
+50
+100
+50
+0
+log/(μmol·L−1)
+%/ytivitca
+esareficuL
+evitaleR
+150
+EC = 0.06456 μmol·L−1 50
+100
+50
+0
+−3 −2 −1 0 1
+log/(μmol·L−1)
+%/ytivitca
+esareficuL
+evitaleR
+150
+EC = 0.08818 μmol·L−1
+50
+100
+50
+0
+−3 −2 −1 0 1
+log/(μmol·L−1)
+%/ytivitca
+esareficuL
+evitaleR
+150
+EC = 0.3302 μmol·L−1 50
+100
+50
+0
+−3 −2 −1 0 1 2
+log/(μmol·L−1)
+%/ytivitca
+esareficuL
+evitaleR
+150
+EC = 0.4441 μmol·L−1
+50
+100
+50
+0
+−3 −2 −1 0 1 2
+log/(μmol·L−1)
+%/ytivitca
+esareficuL
+evitaleR
+WANG Kang, et al. / Chin J Nat Med, 2024, 22(11): 965-976
+Fig. 4 Dose-dependent effects of potential agonists on FXR luciferase activity.
+– 972 –
+=== PAGE 10 ===
+WANG Kang, et al. / Chin J Nat Med, 2024, 22(11): 965-976
+Table 2 EC value of FXR agonists identified by report gene system.
+50
+1
+R 8 O
+1 7
+2
+6 3 2'
+R 1' 3'
+2 5 4
+R O 4'
+3 6' R
+5' 4
+No． Name R1 R2 R3 R4 EC 50 (μmol·L−1)
+2 Genistein HO H HO HO 0.6142
+4 Formononetin HO H H O 0.1972
+6 Biochanin A HO H HO O 0.4441
+8 7-Methoxyisoflavone O H H H 0.0979
+10 5-Methyl-7-methoxyisoflavone O H CH 3 H 0.2685
+O
+11 Ipriflavone H H H 0.0646
+12 Tectorigenin HO O HO HO 0.4259
+13 Glycitein HO O H HO 2.4870
+16 4′,7-Dimethoxyisoflavone O H H O 0.0882
+tropifexor (an FXR agonist) and cenicriviroc (a C-C motif re- thesize that the effectiveness of compounds with FXR-inde-
+ceptor 2/5 (CCR2/5) antagonist). A phase 2 clinical trial is pendent anti-inflammatory activity would be greater than that
+currently evaluating the effect of this combination in patients of compounds with FXR-dependent anti-inflammatory activ-
+with MASH (NCT03517540) [38]. Considering the drawbacks ity. Indeed, these dual modulators show powerful hepatopro-
+of drug combinations, we aimed to identify dual modulators tective effects in PA-treated hepatocytes. Further investiga-
+that simultaneously function as FXR agonists and inflamma- tion is needed to evaluate their hepatoprotective effects
+tion inhibitors. We successfully identified three dual modulat- against MASH in animal models. Compounds 4 (formononet-
+ors from natural compounds, exhibiting excellent agonistic in) and 12 (tectorigenin) have been reported to exhibit excel-
+efficacy against FXR and robust anti-inflammatory activities. lent effects against cholestasis in animals [36, 37]. More re-
+Previous studies have shown that FXR agonists can inhibit cently, compound 4 (formononetin) has demonstrated excel-
+inflammation [39]. Among these identified dual modulators, lent hepatoprotective effects against MASLD [40]. Based on
+compound 12 (tectorigenin) exhibits anti-inflammatory activ- this evidence, we believe these compounds possess drug-like
+ity by regulating FXR, while compounds 2 (genistein), 6 properties. Natural products are valuable resources for devel-
+(biochanin A), and 8 (7-methoxyisoflavone) demonstrate anti- oping novel drugs and can serve as promising candidates, or
+inflammatory activities independent of their FXR regulation. at least lead compounds, for MASH therapy.
+We have previously demonstrated that FXR protein degrades
+Conclusion
+in inflammatory hepatocytes. Moreover, the loss of FXR pro-
+tein is one of the main factors limiting the hepatoprotective In summary, this study identified 15 ligands of the FXR
+efficacy of FXR agonists [33]. Since compound 12 exhibited protein derived from natural products, with 9 demonstrating
+potent anti-inflammatory effects primarily through its FXR FXR transactivation. Notably, compounds 2, 6, and 8 (gen-
+agonistic efficacy, we posit that the loss of FXR protein may istein, biochanin A, and 7-methoxyisoflavone, respectively)
+limit both its agonistic and anti-inflammatory effects. Con- exhibited significant anti-inflammatory activity independent
+versely, compounds 2, 6, and 8 displayed anti-inflammatory of FXR, while compound 12 (tectorigenin) displayed FXR-
+properties irrespective of their FXR agonist activity. Inhibi- dependent activity. These compounds effectively reduced lip-
+tion of inflammation would preclude FXR protein degrada- id accumulation and inflammatory response in PA-loaded
+tion, facilitating the metabolic regulation and anti-inflammat- hepatocytes, positioning them as potential candidates for
+ory effects of these compounds via FXR. Hence, we hypo- MASH therapy.
+– 973 –
+=== PAGE 11 ===
+20
+15
+10
+5
+0
+− − 2 4 6 8 10 11 12 13 16
+PA−Na
+− − 25 50 100 Comp 2
+(μmol·L−1)
+6.25 12.5 25 Comp 6
+(μmol·L−1)
+25 50 100 Comp 8
+(μmol·L−1)
+25 50 100 Comp 12
+(μmol·L−1)
+Comp 2 (μmol·L−1)
+Comp 6 (μmol·L−1)
+Comp 8 (μmol·L−1)
+Comp 12 (μmol·L−1)
+Comp 2 (μmol·L−1) Comp 2 (μmol·L−1) Comp 2 (μmol·L−1) Comp 2 (μmol·L−1)
+Comp 6 (μmol·L−1) Comp 6 (μmol·L−1) Comp 6 (μmol·L−1) Comp 6 (μmol·L−1)
+μmol·L−1 μmol·L−1 μmol·L−1 μmol·L−1
+μmol·L−1 μmol·L−1 μmol·L−1 μmol·L−1
+slevel
+ANRm
+evitaleR
+A Tnfa B
+4
+ns
+3
+*** ns ns ns
+2
+ns
+#
+1 ###
+### ###
+0
+− − 2 6 8 12 Comps
+Tnfa − + + + + + + + + + +
+C
+D
+slevel
+ANRm
+evitaleR
+Tnfa
+10
+**
+8
+6
+#
+##
+4
+### ###
+2
+0
+Comps − − 2 6 8 12
+Tnfa − + + + + +
+Scrambled siRNA
+slevel
+ANRm
+evitaleR
+Tnfa
+***
+ns
+##
+### ###
+Comps
+Tnfa − + + + + +
+Fxr siRNA
+18 000
+15 000
+12 000
+9000
+6000
+3000
+0
+deR
+liO
+fo
+aerA
+evitaleR
+***
+### ### ### ###
+### ### ### ### ###
+### ### ###
+− − 2550100− − − − − − − − −
+− − − − −6.2512.525 − − − − − −
+− − − − − − − − 2550100 − − −
+− − − − − − − − − − − 2550100
+PA-Na − + + + + + + + + + + + + +
+TNFa
+15
+10
+5
+0
+25 50 100
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+WANG Kang, et al. / Chin J Nat Med, 2024, 22(11): 965-976
+CXCL1 CXCL2 CCL2
+15 40 6
+*** ns ##
+*** ns # 30 *** ns
+10 *** 4
+## 20 ###
+### ### 5 ## ### 2
+10 ###
+0 0 0
+− − − − 25 50 100 − − 25 50 100 − − 25 50 100
+PA-Na − + + + + PA-Na − + + + + PA-Na − + + + + PA-Na − + + + +
+15 15 25 4
+ns
+***
+10 *** 10 *** # 20 # 3 ** ns
+# ## ### ### 15 ### ###
+2
+5 5 ### 10 ##
+1
+5
+0 0 0 0
+− − 6.25 12.5 25 − − 6.25 12.5 25 − − 6.25 12.5 25 − − 6.25 12.5 25
+PA-Na − + + + + PA-Na − + + + + PA-Na − + + + + PA-Na − + + + +
+ns
+– 974 –
+− − − − − − − −
+Na − Na − Na − Na −
+ns
+− − − − − − − −
+Na − Na − Na − Na −
+=== PAGE 12 ===
+− −
+PA−Na
+− −
+μmol·L−1
+μmol·L−1
+μmol·L−1
+μmol·L−1
+μmol·L−1
+μmol·L−1
+μmol·L−1
+μmol·L−1
+μmol·L−1 μmol·L−1 μmol·L−1 μmol·L−1
+μmol·L−1 μmol·L−1 μmol·L−1 μmol·L−1
+Comp 8 (μmol·L−1) Comp 8 (μmol·L−1) Comp 8 (μmol·L−1) Comp 8 (μmol·L−1)
+Comp 12 (μmol·L−1) Comp 12 (μmol·L−1) Comp 12 (μmol·L−1) Comp 12 (μmol·L−1)
+References ised, placebo-controlled trial [J]. Lancet, 2015, 385(9972):
+956-65.
+[1] Rinella ME, Lazarus JV, Ratziu V, et al. A multisociety Delphi [14] Zhang C, Yang M. Current options and future directions for
+consensus statement on new fatty liver disease nomenclature NAFLD and NASH treatment [J]. Int J Mol Sci, 2021, 22(14):
+[J]. J Hepatol, 2023, 79(6): 1542-1556. 7571.
+[2] Younossi ZM, Stepanova M, Younossi Y, et al. Epidemiology [15] Laffitte B, Vig P, Mueller P, et al. Combination treatment of
+of chronic liver diseases in the USA in the past three decades LJN452 and cenicriviroc shows additive effects in a diet-in-
+[J]. Gut, 2020, 69(3): 564-568. duced NASH model [J]. Hepatology, 2017, 66: 1083A-1084A.
+[3] Younossi Z, Anstee QM, Marietti M, et al. Global burden of [16] Anstee QM, Lucas KJ, Francque S, et al. Tropifexor plus cen-
+NAFLD and Nonalcoholic steatohepatitis (NASH): trends, pre- icriviroc combination versus monotherapy in nonalcoholic ste-
+dictions, risk factors and prevention [J]. Nat Rev Gastroenterol atohepatitis: results from the phase 2b TANDEM study [J].
+Hepatol, 2018, 15(1): 11-20. Hepatology, 2023, 78(4): 1223-1239.
+[4] Zhu JZ, Yi HW, Huang W, et al. Fatty liver diseases, mechan- [17] Anstee QM, Neuschwander-Tetri BA, Wong WS, et al. Cen-
+isms, and potential therapeutic plant medicines [J]. Chin J Nat icriviroc lacked efficacy to treat liver fibrosis in nonalcoholic
+Med, 2020, 18(3): 161-168. steatohepatitis: AURORA phase III randomized study [J]. Clin
+[5] Tian SY, Chen SM, Pan CX, et al. FXR: structures, biology, Gastroenterol Hepatol, 2024, 22 (1): 124-134 e1. doi:
+and drug development for NASH and fibrosis diseases [J]. Acta 10.1016/j.cgh.2023.04.003
+Pharmacol Sin, 2022, 43(5): 1120-1132. [18] Cui S, Pan XJ, Ge CL, et al. Silybin alleviates hepatic lipid ac-
+[6] Zhou J, Cui S, He Q, et al. SUMOylation inhibitors synergize cumulation in methionine-choline deficient diet-induced nonal-
+with FXR agonists in combating liver fibrosis [J]. Nat Com- coholic fatty liver disease in mice via peroxisome proliferator-
+mun, 2020, 11(1): 240. activated receptor alpha [J]. Chin J Nat Med, 2021, 19(6):
+[7] Wang J, Yang N, Xu Y. Natural products in the modulation of 401-411.
+farnesoid x receptor against nonalcoholic fatty liver disease [J]. [19] Wu Y, Zhou J, Zuo X, et al. Yanggan Jiangmei Formula allevi-
+Am J Chin Med, 2024, 52(2): 291-314. ates hepatic inflammation and lipid accumulation in non-alco-
+[8] Yan T, Yan N, Wang H, et al. FXR-deoxycholic acid-TNF-al- holic steatohepatitis by inhibiting the NF-kappaB/NLRP3 sig-
+pha axis modulates acetaminophen-induced hepatotoxicity [J]. naling pathway [J]. Chin J Nat Med, 2024, 22(3): 224-234.
+Toxicol Sci, 2021, 181(2): 273-284. [20] Dong Z, Wang H, Wang G. Research progress on the pharma-
+[9] Hao H, Cao L, Jiang C, et al. Farnesoid X receptor regulation cological effects and chemical constituents of Pien Tze Huang
+of the NLRP3 inflammasome underlies cholestasis-associated and its potential Q-markers [J]. Chin J Nat Med, 2023, 21(9):
+sepsis [J]. Cell Metab, 2017, 25 (4): 856-867 e5. doi: 658-669.
+10.1016/j.cmet.2017.03.007 [21] Yan T, Wang H, Cao L, et al. Glycyrrhizin alleviates nonalco-
+[10] Wang H, He Q, Wang G, et al. FXR modulators for enterohep- holic steatohepatitis via modulating bile acids and meta-inflam-
+atic and metabolic diseases [J]. Expert Opin Ther Pat, 2018, mation [J]. Drug Metab Dispos, 2018, 46(9): 1310-1319.
+28(11): 765-782. [22] Hu Yalin, Xu Tianqi, Yin Wenjing, et al. Anti-inflammatory
+[11] Wang K, Zhang Y, Wang G, et al. FXR agonists for MASH sesquiterpene polyol esters from the stem and branch of Tri-
+therapy: lessons and perspectives from obeticholic acid [J]. pterygium wilfordii [J]. Chin J Nat Med, 2023, 21(3): 233-240.
+Med Res Rev, 2024, 44(2): 568-586. [23] Hu Jianghui, Ni Jimin, Zheng Junping, et al. Tripterygium hy-
+[12] Younossi ZM, Ratziu V, Loomba R, et al. Obeticholic acid for poglaucum extract ameliorates adjuvant-induced arthritis in
+the treatment of non-alcoholic steatohepatitis: interim analysis mice through the gut microbiota [J]. Chin J Nat Med, 2023,
+from a multicentre, randomised, placebo-controlled phase 3 tri- 21(10): 730-744.
+al [J]. Lancet, 2019, 394(10215): 2184-2196. [24] Teng Li, Shen Yue, Qu Yuhan, et al. Cyasterone inhibits IL-1β-
+[13] Neuschwander-Tetri BA, Loomba R, Sanyal AJ, et al. Farnes- mediated apoptosis and inflammation via the NF-κB and
+oid X nuclear receptor ligand obeticholic acid for non-cirrhotic, MAPK signaling pathways in rat chondrocytes and ameliorates
+non-alcoholic steatohepatitis (FLINT): a multicentre, random- osteoarthritis in vivo [J]. Chin J Nat Med, 2023, 21(2): 99-112.
+slevel
+ANRm
+evitaleR
+ns
+ns
+ns ns
+ns
+− −
+Comps
+−
+slevel
+ANRm
+evitaleR
+Comps − −
+−
+Scrambled siRNA
+slevel
+ANRm
+evitaleR
+ns
+Comps
+−
+siRNA
+deR
+liO
+fo
+aerA
+evitaleR
+− − − − − − − − − − −
+− − − − − − − − − − −
+− − − − − − − − − − −
+− − − − − − − − − − −
+PA-Na −
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+slevel
+ANRm
+evitaleR
+ns
+ns ns
+− − − − − − − −
+Na − Na − Na − PA-Na −
+ns
+ns
+WANG Kang, et al. / Chin J Nat Med, 2024, 22(11): 965-976
+− − − − − − − −
+Na − Na − Na − Na −
+15 15 25 5
+***
+*** **
+# *** 20 4 ns
+10 ### 10 15 # ### 3
+###
+#
+10 ### 2
+5 5 ### ### ### ##
+5 1
+0 0 0 0
+− − 25 50 100 − − 25 50 100 − − 25 50 100 − − 25 50 100
+PA-Na − + + + + PA-Na − + + + + PA-Na − + + + + PA-Na − + + + +
+15 15 25 5
+*** *** 20 *** 4 *** ns 10 # 10
+15 3
+###
+###
+### 10 ### 2 ###
+5 5 ### ### ###
+### ### 5 1
+0 0 0 0
+− − 25 50 100 − − 25 50 100 − − 25 50 100 − − 25 50 100
+PA-Na − + + + + PA-Na − + + + + PA-Na − + + + + PA-Na − + + + +
+Fig. 5 Hepatoprotective effects of FXR agonists. (A) Impact of FXR agonists on Tnfa expression in cells under inflammatory
+conditions (n = 3). (B) Influence of compounds 2, 6, 8, and 12 on Tnfa mRNA in inflammatory cells transfected with control
+siRNA (left) or FXR-specific siRNA (right) (n = 3). (C) Effects of compounds 2, 6, 8, and 12 on lipid accumulation induced by
+Palmitic acid (PA)-Na treatment (n = 3). (D) Impact of compounds 2, 6, 8, and 12 on inflammatory-related genes in cells treated
+with PA-Na (n = 3). Statistical significance was determined by ANOVA. Results are presented as mean ± SEM. Statistical signific-
+ance was determined by ANOVA. **P < 0.01, ***P < 0.001 vs control; # P < 0.05, ## P < 0.05, ### P < 0.001 vs model; and ns, statistic-
+ally not significant.
+– 975 –
+=== PAGE 13 ===
+WANG Kang, et al. / Chin J Nat Med, 2024, 22(11): 965-976
+[25] Xiang S, Wang Z, Tang R, et al. Exhaustively exploring the plasmic shuttling and degradation of FXR [J]. Acta Pharm Sin
+prevalent interaction pathways of ligands targeting the ligand- B, 2023, 13(2): 559-576.
+binding pocket of farnesoid X receptor via combined enhanced [34] Ren Q, Chen Y, Zhou Z, et al. Discovery of the first-in-class
+sampling [J]. J Chem Inf Model, 2023, 63(23): 7529-7544. intestinal restricted FXR and FABP1 dual modulator ZLY28
+[26] Li S, Xu F, Yu L, et al. Stigmasterol protects human brain mi- for the treatment of nonalcoholic fatty liver disease [J]. J Med
+crovessel endothelial cells against ischemia-reperfusion injury Chem, 2023, 66(9): 6082-6104.
+through suppressing EPHA2 phosphorylation [J]. Chin J Nat [35] Teng F, Lu Z, Gao F, et al. Systems biology approaches to
+Med, 2023, 21(2): 127-135. identify potential targets and inhibitors of the intestinal micro-
+[27] Wang H, Ge C, Zhou J, et al. Noncanonical farnesoid X recept- biota to treat depression [J]. Sci Rep, 2023, 13(1): 11225.
+or signaling inhibits apoptosis and impedes liver fibrosis [J]. [36] Cao P, Gan J, Wu S, et al. Molecular mechanisms of hepato-
+EBioMedicine, 2018, 37: 322-333.
+protective effect of tectorigenin against ANIT-induced chole-
+[28] Wang H, Yan T, Xie Y, et al. Mechanism-based inhibitory and
+peroxisome proliferator-activated receptor alpha-dependent
+static liver injury: Role of FXR and Nrf2 pathways [J]. Food
+Chem Toxicol, 2023, 178: 113914.
+modulating effects of silybin on principal hepatic drug-meta-
+[37] Yang S, Wei L, Xia R, et al. Formononetin ameliorates cho-
+bolizing enzymes [J]. Drug Metab Dispos, 2015, 43(4): 444-54.
+lestasis by regulating hepatic SIRT1 and PPARalpha [J]. Bio-
+[29] Mehlem A, Hagberg CE, Muhl L, et al. Imaging of neutral lip-
+ids by oil red O for analyzing the metabolic status in health and
+chem Biophys Res Commun, 2019, 512(4): 770-778.
+[38] Pedrosa M, Seyedkazemi S, Francque S, et al. A randomized,
+disease [J]. Nat Protoc, 2013, 8(6): 1149-54.
+double-blind, multicenter, phase 2b study to evaluate the safety
+[30] Kong XL, Lyu Q, Zhang YQ, et al. Effect of astragaloside IV
+and salvianolic acid B on antioxidant stress and vascular en-
+and efficacy of a combination of tropifexor and cenicriviroc in
+dothelial protection in the treatment of atherosclerosis based on patients with nonalcoholic steatohepatitis and liver fibrosis:
+metabonomics [J]. Chin J Nat Med, 2022, 20(8): 601-613. Study design of the TANDEM trial [J]. Contemp Clin Trials,
+[31] Zhou J, Huang N, Guo Y, et al. Combined obeticholic acid and 2020, 88: 105889.
+apoptosis inhibitor treatment alleviates liver fibrosis [J]. Acta [39] Leng YR, Zhang MH, Luo JG, et al. Pathogenesis of NASH
+Pharm Sin B, 2019, 9(3): 526-536. and promising natural products [J]. Chin J Nat Med, 2021,
+[32] Dufour JF, Caussy C, Loomba R. Combination therapy for non- 19(1): 12-27.
+alcoholic steatohepatitis: rationale, opportunities and chal- [40] Liao J, Xie X, Wang N, et al. Formononetin promotes fatty
+lenges [J]. Gut, 2020, 69(10): 1877-1884. acid beta-oxidation to treat non-alcoholic steatohepatitis
+[33] Cui S, Hu H, Chen A, et al. SIRT1 activation synergizes with through SIRT1/PGC-1alpha/PPARalpha pathway [J].
+FXR agonism in hepatoprotection via governing nucleocyto- Phytomedicine, 2024, 124: 155285.
+Cite this article as: WANG Kang, ZHANG Pengfei, SUN Huiyong, et al. Dual-function natural products: Farnesoid X recept-
+or agonist/inflammation inhibitor for metabolic dysfunction-associated steatotic liver disease therapy [J]. Chin J Nat Med, 2024,
+22(11): 965-976.
+WANG Guangji received his PhD degree in Pharmacy in 1993 at University of Otago. He is a professor in State
+Key Laboratory of Natural Medicines and Key Laboratory of Drug Metabolism and Pharmacokinetics, China
+Pharmaceutical University. He is currently an academician of the Academy of Engineering. His research interests
+include drug metabolism and pharmacokinetics. He has been in charge of more than 30 significant projects of sci-
+entific research, including the Project for Major New Drug Innovation and Development and Natural Science
+Foundation of China. Prof. Wang has published over 600 papers in Cell Metabolism, Nature Communications,
+Acta Pharmaceutica Sinica B and other journals. Prof. Wang has won the Second Prize of National Science and
+Technology Progress Award four times.
+WANG Hong received his PhD degree in Drug Metabolism and Pharmacokinetics in 2015 at China Pharmaceut-
+ical University. He later continued his postdoctoral training at the same university. He is currently a professor in
+State Key Laboratory of Natural Medicines and Key Laboratory of Drug Metabolism and Pharmacokinetics,
+China Pharmaceutical University. His research has been focused on fine regulation of nuclear receptors guided
+drug discovery for metabolic diseases. Prof. Wang has been in charge of several scientific research projects, in-
+cluding the National Natural Science Foundation of China and China Postdoctoral Science Foundation. As main
+participant, Prof. Wang has published a serious of papers in Nature Communications, Acta Pharmaceutica Sinica
+B, EBioMedicines, Chinese Journal of Natural Medicines and other journals.
+HAO Haiping received his PhD degree in Drug Metabolism and Pharmacokinetics in 2006 at China Pharmaceut-
+ical University. He is a professor in State Key Laboratory of Natural Medicines and Key Laboratory of Drug
+Metabolism and Pharmacokinetics, China Pharmaceutical University. He is currently the present of China Phar-
+maceutical University. Prof. Hao is also titled as “Ministry of Education Yangtze River Scholar” professor and
+“The National Science Fund for Distinguished Young Scholars” winner. His research has been focused on meta-
+bolic regulation for target validation and drug discovery. He has been in charge of more than 30 significant
+projects of scientific research, including the Project for Major New Drug Innovation and Development and The
+Innovative Research Group Project of Natural Science Foundation of China. Prof. Hao has published over 300 papers in Cell
+Metabolism, Cell Host & Microbe, Nature Methods, Nature Chemical Biology and other journals. Prof. Hao has won the Second
+Prize of National Science and Technology Progress Award twice.
+– 976 –

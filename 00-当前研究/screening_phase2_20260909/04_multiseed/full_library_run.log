@@ -1,0 +1,371 @@
+remaining compounds: 41
+[1/41] scoparone x THRB seed7: -7.05
+[1/41] scoparone x FASN seed7: -7.50
+[1/41] scoparone x FXR seed7: -7.75
+[1/41] scoparone x THRB seed123: -7.04
+[1/41] scoparone x FASN seed123: -7.47
+[1/41] scoparone x FXR seed123: -7.72
+[1/41] scoparone x THRB seed20260909: -7.02
+[1/41] scoparone x FASN seed20260909: -7.46
+[1/41] scoparone x FXR seed20260909: -7.73
+[2/41] scopoletin x THRB seed7: -7.46
+[2/41] scopoletin x FASN seed7: -7.72
+[2/41] scopoletin x FXR seed7: -7.54
+[2/41] scopoletin x THRB seed123: -7.45
+[2/41] scopoletin x FASN seed123: -7.72
+[2/41] scopoletin x FXR seed123: -7.55
+[2/41] scopoletin x THRB seed20260909: -7.47
+[2/41] scopoletin x FASN seed20260909: -7.68
+[2/41] scopoletin x FXR seed20260909: -7.54
+[3/41] umbelliferone x THRB seed7: -7.25
+[3/41] umbelliferone x FASN seed7: -7.64
+[3/41] umbelliferone x FXR seed7: -7.47
+[3/41] umbelliferone x THRB seed123: -7.03
+[3/41] umbelliferone x FASN seed123: -7.76
+[3/41] umbelliferone x FXR seed123: -7.48
+[3/41] umbelliferone x THRB seed20260909: -7.27
+[3/41] umbelliferone x FASN seed20260909: -7.73
+[3/41] umbelliferone x FXR seed20260909: -7.48
+[4/41] arcapillin x THRB seed7: -7.42
+[4/41] arcapillin x FASN seed7: -8.17
+[4/41] arcapillin x FXR seed7: -7.65
+[4/41] arcapillin x THRB seed123: -6.30
+[4/41] arcapillin x FASN seed123: -8.03
+[4/41] arcapillin x FXR seed123: -7.73
+[4/41] arcapillin x THRB seed20260909: -6.54
+[4/41] arcapillin x FASN seed20260909: -8.21
+[4/41] arcapillin x FXR seed20260909: -8.08
+[5/41] capillin x THRB seed7: -7.21
+[5/41] capillin x FASN seed7: -8.41
+[5/41] capillin x FXR seed7: -6.99
+[5/41] capillin x THRB seed123: -7.17
+[5/41] capillin x FASN seed123: -8.44
+[5/41] capillin x FXR seed123: -6.98
+[5/41] capillin x THRB seed20260909: -7.18
+[5/41] capillin x FASN seed20260909: -8.44
+[5/41] capillin x FXR seed20260909: -6.98
+[6/41] capillene x THRB seed7: -7.29
+[6/41] capillene x FASN seed7: -8.45
+[6/41] capillene x FXR seed7: -6.97
+[6/41] capillene x THRB seed123: -7.28
+[6/41] capillene x FASN seed123: -8.43
+[6/41] capillene x FXR seed123: -6.91
+[6/41] capillene x THRB seed20260909: -7.31
+[6/41] capillene x FASN seed20260909: -8.42
+[6/41] capillene x FXR seed20260909: -6.91
+[7/41] 1,2-dimethoxy-4-vinylbenzene x THRB seed7: -6.44
+[7/41] 1,2-dimethoxy-4-vinylbenzene x FASN seed7: -6.79
+[7/41] 1,2-dimethoxy-4-vinylbenzene x FXR seed7: -6.26
+[7/41] 1,2-dimethoxy-4-vinylbenzene x THRB seed123: -6.43
+[7/41] 1,2-dimethoxy-4-vinylbenzene x FASN seed123: -6.85
+[7/41] 1,2-dimethoxy-4-vinylbenzene x FXR seed123: -6.25
+[7/41] 1,2-dimethoxy-4-vinylbenzene x THRB seed20260909: -6.44
+[7/41] 1,2-dimethoxy-4-vinylbenzene x FASN seed20260909: -6.82
+[7/41] 1,2-dimethoxy-4-vinylbenzene x FXR seed20260909: -6.28
+[8/41] vitexin x THRB seed7: -6.22
+[8/41] vitexin x FASN seed7: -8.34
+[8/41] vitexin x FXR seed7: -7.71
+[8/41] vitexin x THRB seed123: -6.17
+[8/41] vitexin x FASN seed123: -8.53
+[8/41] vitexin x FXR seed123: -7.42
+[8/41] vitexin x THRB seed20260909: -6.75
+[8/41] vitexin x FASN seed20260909: -8.59
+[8/41] vitexin x FXR seed20260909: -7.42
+[9/41] isovitexin x THRB seed7: -7.72
+[9/41] isovitexin x FASN seed7: -8.35
+[9/41] isovitexin x FXR seed7: -7.92
+[9/41] isovitexin x THRB seed123: -7.67
+[9/41] isovitexin x FASN seed123: -8.37
+[9/41] isovitexin x FXR seed123: -8.05
+[9/41] isovitexin x THRB seed20260909: -8.04
+[9/41] isovitexin x FASN seed20260909: -8.16
+[9/41] isovitexin x FXR seed20260909: -7.79
+[10/41] hyperoside x THRB seed7: -6.08
+[10/41] hyperoside x FASN seed7: -7.17
+[10/41] hyperoside x FXR seed7: -7.85
+[10/41] hyperoside x THRB seed123: -6.22
+[10/41] hyperoside x FASN seed123: -7.86
+[10/41] hyperoside x FXR seed123: -6.69
+[10/41] hyperoside x THRB seed20260909: -6.32
+[10/41] hyperoside x FASN seed20260909: -7.82
+[10/41] hyperoside x FXR seed20260909: -7.34
+[11/41] isoquercitrin x THRB seed7: -5.89
+[11/41] isoquercitrin x FASN seed7: -7.26
+[11/41] isoquercitrin x FXR seed7: -6.61
+[11/41] isoquercitrin x THRB seed123: -6.19
+[11/41] isoquercitrin x FASN seed123: -7.25
+[11/41] isoquercitrin x FXR seed123: -6.79
+[11/41] isoquercitrin x THRB seed20260909: -6.17
+[11/41] isoquercitrin x FASN seed20260909: -7.76
+[11/41] isoquercitrin x FXR seed20260909: -7.37
+[12/41] procyanidin B2 x THRB seed7: -5.51
+[12/41] procyanidin B2 x FASN seed7: -8.42
+[12/41] procyanidin B2 x FXR seed7: -5.39
+[12/41] procyanidin B2 x THRB seed123: -6.00
+[12/41] procyanidin B2 x FASN seed123: -8.20
+[12/41] procyanidin B2 x FXR seed123: -5.23
+[12/41] procyanidin B2 x THRB seed20260909: -5.87
+[12/41] procyanidin B2 x FASN seed20260909: -9.21
+[12/41] procyanidin B2 x FXR seed20260909: -7.04
+[13/41] ursolic acid x THRB seed7: -7.08
+[13/41] ursolic acid x FASN seed7: -9.11
+[13/41] ursolic acid x FXR seed7: -7.76
+[13/41] ursolic acid x THRB seed123: -6.57
+[13/41] ursolic acid x FASN seed123: -8.27
+[13/41] ursolic acid x FXR seed123: -8.37
+[13/41] ursolic acid x THRB seed20260909: -6.59
+[13/41] ursolic acid x FASN seed20260909: -8.53
+[13/41] ursolic acid x FXR seed20260909: -8.50
+[14/41] oleanolic acid x THRB seed7: -6.57
+[14/41] oleanolic acid x FASN seed7: -9.22
+[14/41] oleanolic acid x FXR seed7: -8.79
+[14/41] oleanolic acid x THRB seed123: -6.91
+[14/41] oleanolic acid x FASN seed123: -9.27
+[14/41] oleanolic acid x FXR seed123: -8.60
+[14/41] oleanolic acid x THRB seed20260909: -7.07
+[14/41] oleanolic acid x FASN seed20260909: -7.98
+[14/41] oleanolic acid x FXR seed20260909: -7.30
+[15/41] corosolic acid x THRB seed7: -6.49
+[15/41] corosolic acid x FASN seed7: -7.86
+[15/41] corosolic acid x FXR seed7: -5.80
+[15/41] corosolic acid x THRB seed123: -6.67
+[15/41] corosolic acid x FASN seed123: -8.29
+[15/41] corosolic acid x FXR seed123: -5.40
+[15/41] corosolic acid x THRB seed20260909: -6.44
+[15/41] corosolic acid x FASN seed20260909: -8.17
+[15/41] corosolic acid x FXR seed20260909: -5.50
+[16/41] maslinic acid x THRB seed7: -6.98
+[16/41] maslinic acid x FASN seed7: -9.06
+[16/41] maslinic acid x FXR seed7: -5.89
+[16/41] maslinic acid x THRB seed123: -6.99
+[16/41] maslinic acid x FASN seed123: -8.88
+[16/41] maslinic acid x FXR seed123: -5.98
+[16/41] maslinic acid x THRB seed20260909: -6.99
+[16/41] maslinic acid x FASN seed20260909: -8.85
+[16/41] maslinic acid x FXR seed20260909: -6.03
+[17/41] tormentic acid x THRB seed7: -6.79
+[17/41] tormentic acid x FASN seed7: -8.04
+[17/41] tormentic acid x FXR seed7: -5.29
+[17/41] tormentic acid x THRB seed123: -6.84
+[17/41] tormentic acid x FASN seed123: -8.47
+[17/41] tormentic acid x FXR seed123: -4.90
+[17/41] tormentic acid x THRB seed20260909: -6.78
+[17/41] tormentic acid x FASN seed20260909: -8.04
+[17/41] tormentic acid x FXR seed20260909: -5.29
+[18/41] alisol A x THRB seed7: -5.96
+[18/41] alisol A x FASN seed7: -7.93
+[18/41] alisol A x FXR seed7: -6.59
+[18/41] alisol A x THRB seed123: -6.56
+[18/41] alisol A x FASN seed123: -8.14
+[18/41] alisol A x FXR seed123: -6.40
+[18/41] alisol A x THRB seed20260909: -6.87
+[18/41] alisol A x FASN seed20260909: -8.08
+[18/41] alisol A x FXR seed20260909: -6.25
+[19/41] alisol B x THRB seed7: -5.93
+[19/41] alisol B x FASN seed7: -8.49
+[19/41] alisol B x FXR seed7: -7.08
+[19/41] alisol B x THRB seed123: -6.73
+[19/41] alisol B x FASN seed123: -9.40
+[19/41] alisol B x FXR seed123: -7.26
+[19/41] alisol B x THRB seed20260909: -6.03
+[19/41] alisol B x FASN seed20260909: -8.49
+[19/41] alisol B x FXR seed20260909: -7.08
+[20/41] alisol C x THRB seed7: -6.48
+[20/41] alisol C x FASN seed7: -8.66
+[20/41] alisol C x FXR seed7: -7.28
+[20/41] alisol C x THRB seed123: -6.28
+[20/41] alisol C x FASN seed123: -8.85
+[20/41] alisol C x FXR seed123: -7.29
+[20/41] alisol C x THRB seed20260909: -6.83
+[20/41] alisol C x FASN seed20260909: -9.18
+[20/41] alisol C x FXR seed20260909: -7.18
+[21/41] alisol B acetate x THRB seed7: -6.38
+[21/41] alisol B acetate x FASN seed7: -9.37
+[21/41] alisol B acetate x FXR seed7: -6.91
+[21/41] alisol B acetate x THRB seed123: -6.34
+[21/41] alisol B acetate x FASN seed123: -9.34
+[21/41] alisol B acetate x FXR seed123: -7.16
+[21/41] alisol B acetate x THRB seed20260909: -6.40
+[21/41] alisol B acetate x FASN seed20260909: -9.35
+[21/41] alisol B acetate x FXR seed20260909: -7.06
+[22/41] 16-oxo-alisol A x THRB seed7: -6.54
+[22/41] 16-oxo-alisol A x FASN seed7: -8.27
+[22/41] 16-oxo-alisol A x FXR seed7: -6.60
+[22/41] 16-oxo-alisol A x THRB seed123: -6.09
+[22/41] 16-oxo-alisol A x FASN seed123: -7.85
+[22/41] 16-oxo-alisol A x FXR seed123: -6.81
+[22/41] 16-oxo-alisol A x THRB seed20260909: -5.96
+[22/41] 16-oxo-alisol A x FASN seed20260909: -7.93
+[22/41] 16-oxo-alisol A x FXR seed20260909: -6.12
+[23/41] alismol x THRB seed7: -6.19
+[23/41] alismol x FASN seed7: -5.76
+[23/41] alismol x FXR seed7: -5.25
+[23/41] alismol x THRB seed123: -6.25
+[23/41] alismol x FASN seed123: -5.79
+[23/41] alismol x FXR seed123: -5.16
+[23/41] alismol x THRB seed20260909: -6.09
+[23/41] alismol x FASN seed20260909: -6.06
+[23/41] alismol x FXR seed20260909: -5.57
+[24/41] alismoxide x THRB seed7: -5.81
+[24/41] alismoxide x FASN seed7: -5.74
+[24/41] alismoxide x FXR seed7: -5.37
+[24/41] alismoxide x THRB seed123: -5.93
+[24/41] alismoxide x FASN seed123: -5.78
+[24/41] alismoxide x FXR seed123: -5.29
+[24/41] alismoxide x THRB seed20260909: -5.92
+[24/41] alismoxide x FASN seed20260909: -5.75
+[24/41] alismoxide x FXR seed20260909: -5.30
+[25/41] obtusifolin x THRB seed7: -7.46
+[25/41] obtusifolin x FASN seed7: -8.14
+[25/41] obtusifolin x FXR seed7: -6.83
+[25/41] obtusifolin x THRB seed123: -7.47
+[25/41] obtusifolin x FASN seed123: -8.13
+[25/41] obtusifolin x FXR seed123: -6.98
+[25/41] obtusifolin x THRB seed20260909: -7.47
+[25/41] obtusifolin x FASN seed20260909: -8.17
+[25/41] obtusifolin x FXR seed20260909: -6.87
+[26/41] obtusin x THRB seed7: -6.45
+[26/41] obtusin x FASN seed7: -7.82
+[26/41] obtusin x FXR seed7: -6.16
+[26/41] obtusin x THRB seed123: -6.75
+[26/41] obtusin x FASN seed123: -7.92
+[26/41] obtusin x FXR seed123: -7.21
+[26/41] obtusin x THRB seed20260909: -6.76
+[26/41] obtusin x FASN seed20260909: -7.91
+[26/41] obtusin x FXR seed20260909: -7.22
+[27/41] aurantio-obtusin x THRB seed7: -7.46
+[27/41] aurantio-obtusin x FASN seed7: -7.94
+[27/41] aurantio-obtusin x FXR seed7: -5.97
+[27/41] aurantio-obtusin x THRB seed123: -7.48
+[27/41] aurantio-obtusin x FASN seed123: -7.92
+[27/41] aurantio-obtusin x FXR seed123: -6.12
+[27/41] aurantio-obtusin x THRB seed20260909: -7.03
+[27/41] aurantio-obtusin x FASN seed20260909: -7.92
+[27/41] aurantio-obtusin x FXR seed20260909: -6.01
+[28/41] chryso-obtusin x THRB seed7: -5.45
+[28/41] chryso-obtusin x FASN seed7: -7.58
+[28/41] chryso-obtusin x FXR seed7: -5.53
+[28/41] chryso-obtusin x THRB seed123: -5.96
+[28/41] chryso-obtusin x FASN seed123: -7.38
+[28/41] chryso-obtusin x FXR seed123: -5.22
+[28/41] chryso-obtusin x THRB seed20260909: -5.38
+[28/41] chryso-obtusin x FASN seed20260909: -7.26
+[28/41] chryso-obtusin x FXR seed20260909: -5.50
+[29/41] rubrofusarin x THRB seed7: -8.37
+[29/41] rubrofusarin x FASN seed7: -8.00
+[29/41] rubrofusarin x FXR seed7: -8.26
+[29/41] rubrofusarin x THRB seed123: -8.75
+[29/41] rubrofusarin x FASN seed123: -8.07
+[29/41] rubrofusarin x FXR seed123: -8.28
+[29/41] rubrofusarin x THRB seed20260909: -8.79
+[29/41] rubrofusarin x FASN seed20260909: -8.06
+[29/41] rubrofusarin x FXR seed20260909: -8.29
+[30/41] puerarin x THRB seed7: -6.47
+[30/41] puerarin x FASN seed7: -10.18
+[30/41] puerarin x FXR seed7: -9.66
+[30/41] puerarin x THRB seed123: -6.07
+[30/41] puerarin x FASN seed123: -9.84
+[30/41] puerarin x FXR seed123: -9.13
+[30/41] puerarin x THRB seed20260909: -6.72
+[30/41] puerarin x FASN seed20260909: -9.92
+[30/41] puerarin x FXR seed20260909: -9.13
+[31/41] ononin x THRB seed7: -7.20
+[31/41] ononin x FASN seed7: -9.28
+[31/41] ononin x FXR seed7: -7.43
+[31/41] ononin x THRB seed123: -7.23
+[31/41] ononin x FASN seed123: -10.39
+[31/41] ononin x FXR seed123: -8.18
+[31/41] ononin x THRB seed20260909: -7.78
+[31/41] ononin x FASN seed20260909: -9.93
+[31/41] ononin x FXR seed20260909: -8.43
+[32/41] sarmentosin x THRB seed7: -6.54
+[32/41] sarmentosin x FASN seed7: -6.28
+[32/41] sarmentosin x FXR seed7: -6.83
+[32/41] sarmentosin x THRB seed123: -7.34
+[32/41] sarmentosin x FASN seed123: -6.57
+[32/41] sarmentosin x FXR seed123: -7.19
+[32/41] sarmentosin x THRB seed20260909: -7.22
+[32/41] sarmentosin x FASN seed20260909: -6.58
+[32/41] sarmentosin x FXR seed20260909: -7.18
+[33/41] hypophyllanthin x THRB seed7: -5.84
+[33/41] hypophyllanthin x FASN seed7: -7.05
+[33/41] hypophyllanthin x FXR seed7: -6.54
+[33/41] hypophyllanthin x THRB seed123: -4.87
+[33/41] hypophyllanthin x FASN seed123: -7.29
+[33/41] hypophyllanthin x FXR seed123: -6.55
+[33/41] hypophyllanthin x THRB seed20260909: -4.95
+[33/41] hypophyllanthin x FASN seed20260909: -7.16
+[33/41] hypophyllanthin x FXR seed20260909: -6.60
+[34/41] nirtetralin x THRB seed7: -4.70
+[34/41] nirtetralin x FASN seed7: -6.99
+[34/41] nirtetralin x FXR seed7: -4.96
+[34/41] nirtetralin x THRB seed123: -4.57
+[34/41] nirtetralin x FASN seed123: -7.44
+[34/41] nirtetralin x FXR seed123: -6.14
+[34/41] nirtetralin x THRB seed20260909: -4.69
+[34/41] nirtetralin x FASN seed20260909: -6.96
+[34/41] nirtetralin x FXR seed20260909: -4.89
+[35/41] niranthin x THRB seed7: -7.73
+[35/41] niranthin x FASN seed7: -7.82
+[35/41] niranthin x FXR seed7: -8.07
+[35/41] niranthin x THRB seed123: -7.82
+[35/41] niranthin x FASN seed123: -7.82
+[35/41] niranthin x FXR seed123: -7.90
+[35/41] niranthin x THRB seed20260909: -7.83
+[35/41] niranthin x FASN seed20260909: -7.98
+[35/41] niranthin x FXR seed20260909: -7.81
+[36/41] 1-deoxynojirimycin x THRB seed7: -4.45
+[36/41] 1-deoxynojirimycin x FASN seed7: -5.28
+[36/41] 1-deoxynojirimycin x FXR seed7: -4.26
+[36/41] 1-deoxynojirimycin x THRB seed123: -5.01
+[36/41] 1-deoxynojirimycin x FASN seed123: -5.25
+[36/41] 1-deoxynojirimycin x FXR seed123: -5.09
+[36/41] 1-deoxynojirimycin x THRB seed20260909: -5.39
+[36/41] 1-deoxynojirimycin x FASN seed20260909: -5.27
+[36/41] 1-deoxynojirimycin x FXR seed20260909: -5.51
+[37/41] oxyresveratrol x THRB seed7: -9.62
+[37/41] oxyresveratrol x FASN seed7: -8.58
+[37/41] oxyresveratrol x FXR seed7: -8.60
+[37/41] oxyresveratrol x THRB seed123: -9.38
+[37/41] oxyresveratrol x FASN seed123: -8.65
+[37/41] oxyresveratrol x FXR seed123: -8.59
+[37/41] oxyresveratrol x THRB seed20260909: -9.54
+[37/41] oxyresveratrol x FASN seed20260909: -8.57
+[37/41] oxyresveratrol x FXR seed20260909: -8.56
+[38/41] astragalin x THRB seed7: -5.70
+[38/41] astragalin x FASN seed7: -7.67
+[38/41] astragalin x FXR seed7: -8.39
+[38/41] astragalin x THRB seed123: -6.05
+[38/41] astragalin x FASN seed123: -8.10
+[38/41] astragalin x FXR seed123: -7.58
+[38/41] astragalin x THRB seed20260909: -5.77
+[38/41] astragalin x FASN seed20260909: -7.67
+[38/41] astragalin x FXR seed20260909: -7.62
+[39/41] mulberrofuran G x THRB seed7: -6.21
+[39/41] mulberrofuran G x FASN seed7: -9.74
+[39/41] mulberrofuran G x FXR seed7: -7.23
+[39/41] mulberrofuran G x THRB seed123: -6.48
+[39/41] mulberrofuran G x FASN seed123: -9.86
+[39/41] mulberrofuran G x FXR seed123: -7.17
+[39/41] mulberrofuran G x THRB seed20260909: -6.13
+[39/41] mulberrofuran G x FASN seed20260909: -11.63
+[39/41] mulberrofuran G x FXR seed20260909: -7.12
+[40/41] catechin x THRB seed7: -9.69
+[40/41] catechin x FASN seed7: -8.73
+[40/41] catechin x FXR seed7: -8.96
+[40/41] catechin x THRB seed123: -9.78
+[40/41] catechin x FASN seed123: -8.60
+[40/41] catechin x FXR seed123: -9.07
+[40/41] catechin x THRB seed20260909: -9.80
+[40/41] catechin x FASN seed20260909: -8.59
+[40/41] catechin x FXR seed20260909: -7.70
+[41/41] torachrysone x THRB seed7: -8.34
+[41/41] torachrysone x FASN seed7: -7.92
+[41/41] torachrysone x FXR seed7: -7.48
+[41/41] torachrysone x THRB seed123: -8.38
+[41/41] torachrysone x FASN seed123: -7.93
+[41/41] torachrysone x FXR seed123: -7.43
+[41/41] torachrysone x THRB seed20260909: -8.20
+[41/41] torachrysone x FASN seed20260909: -7.99
+[41/41] torachrysone x FXR seed20260909: -7.42
+DONE 369 in 5725 s

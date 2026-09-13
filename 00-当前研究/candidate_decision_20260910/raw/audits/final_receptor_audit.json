@@ -1,0 +1,26 @@
+{
+  "created": "2026-09-10T10:49:54.184262",
+  "run_id": "H1Valid_20260910_104825_329168",
+  "residue_count": 247,
+  "special_residues_ok": true,
+  "receptor_sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963",
+  "strict_local_sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963",
+  "same_as_strict_local": true,
+  "preparation": {
+    "atom_count": 1972,
+    "command": [
+      "D:\\dockscope\\DockScopeLicensed\\resources\\backend\\DockScopeBackend.exe",
+      "-m",
+      "meeko.cli.mk_prepare_receptor",
+      "--read_pdb",
+      "C:\\DockScopeData\\workspace\\dockscope\\data\\jobs\\H1Valid_20260910_104825_329168\\input\\PDB\\WTheavy.pdb",
+      "-p",
+      "C:\\DockScopeData\\workspace\\dockscope\\data\\jobs\\H1Valid_20260910_104825_329168\\run\\prepared\\proteins\\WTheavy\\receptor.pdbqt",
+      "--allow_bad_res",
+      "--charge_model",
+      "gasteiger"
+    ],
+    "method": "meeko_cli"
+  },
+  "protonation": "Meeko templates/Gasteiger charges after removal of PDBFixer hydrogens; not a pH/tautomer ensemble. PDBFixer pH7.4 hydrogen file is an intermediate, not the final docking state."
+}

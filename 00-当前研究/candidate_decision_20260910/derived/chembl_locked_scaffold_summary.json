@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-09-10",
+  "strata": [
+    {
+      "target_label": "fxr",
+      "standard_type": "EC50",
+      "bao_label": "single protein format",
+      "n_records": 1233,
+      "n_scaffolds": 378,
+      "n_train": 1058,
+      "n_test": 175,
+      "train_scaffolds": 302,
+      "test_scaffolds": 76,
+      "mae_model": 0.5082361016421726,
+      "mae_mean_baseline": 0.9649885678144382,
+      "rmse_model": 0.6667818558164927,
+      "r2_model": 0.6251112594749335,
+      "seed": 20260910,
+      "split": "Bemis-Murcko scaffold group holdout; exploratory lock",
+      "status": "pilot_locked_stratum_not_external_validation"
+    },
+    {
+      "target_label": "thrb",
+      "standard_type": "IC50",
+      "bao_label": "single protein format",
+      "n_records": 329,
+      "n_scaffolds": 85,
+      "n_train": 288,
+      "n_test": 41,
+      "train_scaffolds": 68,
+      "test_scaffolds": 17,
+      "mae_model": 0.40175094300447245,
+      "mae_mean_baseline": 1.1661415745462076,
+      "rmse_model": 0.5194910608783793,
+      "r2_model": 0.8622425043449182,
+      "seed": 20260910,
+      "split": "Bemis-Murcko scaffold group holdout; exploratory lock",
+      "status": "pilot_locked_stratum_not_external_validation"
+    },
+    {
+      "target_label": "thra",
+      "standard_type": "IC50",
+      "bao_label": "single protein format",
+      "n_records": 201,
+      "n_scaffolds": 58,
+      "n_train": 136,
+      "n_test": 65,
+      "train_scaffolds": 46,
+      "test_scaffolds": 12,
+      "mae_model": 1.2110101892814498,
+      "mae_mean_baseline": 1.460549149314027,
+      "rmse_model": 1.6508693137602404,
+      "r2_model": 0.12504849584676136,
+      "seed": 20260910,
+      "split": "Bemis-Murcko scaffold group holdout; exploratory lock",
+      "status": "pilot_locked_stratum_not_external_validation"
+    }
+  ],
+  "limitations": [
+    "locked test is computational holdout, not external prospective validation",
+    "assay heterogeneity is reduced but not eliminated",
+    "no tuning after locked split; this pilot does not authorize candidate ranking",
+    "future final model requires manual assay/endpoint review and true independent validation"
+  ]
+}

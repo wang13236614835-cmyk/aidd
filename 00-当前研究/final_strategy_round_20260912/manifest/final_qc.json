@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "exact_deliverables": 25,
+  "missing": [],
+  "extra_root_support_files": [
+    "download_fasn_all_activity.py",
+    "run_fasn_baseline.py",
+    "run_fasn_canonical_multiseed.py",
+    "run_fasn_conformal_uq.py"
+  ],
+  "csv_checks": [
+    {
+      "file": "最终双轴战略矩阵.csv",
+      "rows": 13,
+      "columns": 3,
+      "widths": [
+        3
+      ]
+    },
+    {
+      "file": "FASN_activity_master.csv",
+      "rows": 1652,
+      "columns": 32,
+      "widths": [
+        32
+      ]
+    }
+  ],
+  "architecture": "dual_axis_FASN_long_term_AIDD_plus_MoracinN_recent_functional_validation",
+  "scientific_gates": "open"
+}

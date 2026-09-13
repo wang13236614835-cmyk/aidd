@@ -1,0 +1,15 @@
+{
+  "rdkit_version": "2026.03.3 (validated env)",
+  "rule_source": "locally curated, REOS/Brenk-informed chemotypes; NOT full PAINS A/B/C",
+  "rules": {
+    "quinone": "[#6]1=[#6](~[#8])~[#6](~[#8])=[#6]~[#6]=1",
+    "catechol": "[#6]1~[#6]([OH])~[#6]([OH])~[#6]~[#6]~1",
+    "Michael_acceptor_enone_rough": "[#6]=[#6]-[#6]=[#8]",
+    "aldehyde": "[CH2]=[O]",
+    "epoxide_3ring": "[C;r3]1[C;r3][O;r3]1",
+    "reactive_halide_aryl": "[c][Cl,Br,I]",
+    "sulfonate_ester_rough": "S(=O)(=O)O[C,N]"
+  },
+  "scope_limit": "no online FAF-Drugs4; no ZINC aggregator DB; alerts are risk leads not interference proof",
+  "n_flagged": 4
+}

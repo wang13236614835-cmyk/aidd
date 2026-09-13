@@ -1,0 +1,326 @@
+[
+ {
+  "ligand": "isoquercitrin",
+  "status": "completed",
+  "best": -5.841,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "hyperoside",
+  "status": "completed",
+  "best": -6.092,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "alisol_C",
+  "status": "completed",
+  "best": -6.516,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "alisol_A",
+  "status": "completed",
+  "best": -5.79,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "procyanidin_B2",
+  "status": "completed",
+  "best": -7.019,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "puerarin",
+  "status": "completed",
+  "best": -6.148,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "piceid",
+  "status": "completed",
+  "best": -6.269,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "daidzein",
+  "status": "completed",
+  "best": -10.108,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "16-oxo-alisol_A",
+  "status": "completed",
+  "best": -5.966,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "alisol_B",
+  "status": "completed",
+  "best": -6.556,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "catechin",
+  "status": "completed",
+  "best": -9.654,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "moracin_M",
+  "status": "completed",
+  "best": -9.676,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "oxyresveratrol",
+  "status": "completed",
+  "best": -9.637,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "alisol_B_acetate",
+  "status": "completed",
+  "best": -6.39,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "epicatechin",
+  "status": "completed",
+  "best": -9.45,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "ursolic_acid",
+  "status": "completed",
+  "best": -6.602,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "isorhamnetin",
+  "status": "completed",
+  "best": -8.437,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "vitexin",
+  "status": "completed",
+  "best": -6.336,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "aurantio-obtusin",
+  "status": "completed",
+  "best": -7.386,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "obtusifolin",
+  "status": "completed",
+  "best": -7.696,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "formononetin",
+  "status": "completed",
+  "best": -9.241,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "scopoletin",
+  "status": "completed",
+  "best": -7.458,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "mulberrofuran_G",
+  "status": "completed",
+  "best": -6.476,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "maslinic_acid",
+  "status": "completed",
+  "best": -6.588,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "rubrofusarin",
+  "status": "completed",
+  "best": -8.393,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "corosolic_acid",
+  "status": "completed",
+  "best": -6.628,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "astragalin",
+  "status": "completed",
+  "best": -5.611,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "umbelliferone",
+  "status": "completed",
+  "best": -7.272,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "daidzin",
+  "status": "completed",
+  "best": -7.983,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "isovitexin",
+  "status": "completed",
+  "best": -7.748,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "toralactone",
+  "status": "completed",
+  "best": -8.872,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "ononin",
+  "status": "completed",
+  "best": -6.727,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "capillarisin",
+  "status": "completed",
+  "best": -9.508,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "genistin",
+  "status": "completed",
+  "best": -8.227,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "tormentic_acid",
+  "status": "completed",
+  "best": -6.454,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "arcapillin",
+  "status": "completed",
+  "best": -7.216,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "oleanolic_acid",
+  "status": "completed",
+  "best": -6.735,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "obtusin",
+  "status": "completed",
+  "best": -5.87,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "3-methoxydaidzein",
+  "status": "completed",
+  "best": -9.619,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "biochanin_A",
+  "status": "completed",
+  "best": -9.317,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "niranthin",
+  "status": "completed",
+  "best": -7.551,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "chryso-obtusin",
+  "status": "completed",
+  "best": -5.348,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "moracin_N",
+  "status": "completed",
+  "best": -11.297,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "1_2-dimethoxy-4-vinylbenzene",
+  "status": "completed",
+  "best": -6.442,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "nirtetralin",
+  "status": "completed",
+  "best": -4.813,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "sarmentosin",
+  "status": "completed",
+  "best": -6.512,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "scoparone",
+  "status": "completed",
+  "best": -7.023,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "torachrysone",
+  "status": "completed",
+  "best": -8.144,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "hypophyllanthin",
+  "status": "completed",
+  "best": -4.893,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "alismol",
+  "status": "completed",
+  "best": -7.091,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "alismoxide",
+  "status": "completed",
+  "best": -6.842,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "capillin",
+  "status": "completed",
+  "best": -7.209,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "capillene",
+  "status": "completed",
+  "best": -7.274,
+  "detail": "returncode=0"
+ },
+ {
+  "ligand": "1-deoxynojirimycin",
+  "status": "completed",
+  "best": -5.123,
+  "detail": "returncode=0"
+ }
+]

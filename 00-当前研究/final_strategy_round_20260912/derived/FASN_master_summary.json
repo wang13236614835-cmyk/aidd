@@ -1,0 +1,29 @@
+{
+  "query_date": "2026-09-12",
+  "raw_records": 1652,
+  "master_records": 1652,
+  "distinct_molecules": 1139,
+  "distinct_assays": 51,
+  "distinct_documents": 34,
+  "units": {
+    "ug.mL-1": 15,
+    "nM": 1637
+  },
+  "valid_smiles": 1652,
+  "multiple_fragments": 2,
+  "assay_family_record_counts": {
+    "cell_extract": 1139,
+    "full_length_stated": 302,
+    "other_or_unknown": 185,
+    "TE_domain": 24,
+    "KR_domain": 2
+  },
+  "assay_family_assay_counts": {
+    "other_or_unknown": 37,
+    "cell_extract": 5,
+    "full_length_stated": 5,
+    "TE_domain": 3,
+    "KR_domain": 1
+  },
+  "canonical_development_assay": "CHEMBL5731051 (96 molecules, 39 Murcko scaffolds; mirror assay CHEMBL5734379 not used as external validation)"
+}

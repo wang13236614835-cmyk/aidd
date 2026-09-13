@@ -1,0 +1,48 @@
+AutoDock Vina v1.2.7
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# J. Eberhardt, D. Santos-Martins, A. F. Tillack, and S. Forli  #
+# AutoDock Vina 1.2.0: New Docking Methods, Expanded Force      #
+# Field, and Python Bindings, J. Chem. Inf. Model. (2021)       #
+# DOI 10.1021/acs.jcim.1c00203                                  #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, J. Comp. Chem. (2010)                         #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see https://github.com/ccsb-scripps/AutoDock-Vina for  #
+# more information.                                             #
+#################################################################
+
+Scoring function : vina
+Rigid receptor: C:\DockScopeData\workspace\dockscope\data\jobs\AIDD-WP3-THRB-5ligands_20260909_203921_75b37d\run\tasks\C_DockScopeData_workspace_dockscope_data_jobs_AIDD-WP3-THRB-5ligands_20260909_203921_75b37__THRB_2J4A__C1\receptor.pdbqt
+Ligand: C:\DockScopeData\workspace\dockscope\data\jobs\AIDD-WP3-THRB-5ligands_20260909_203921_75b37d\run\tasks\C_DockScopeData_workspace_dockscope_data_jobs_AIDD-WP3-THRB-5ligands_20260909_203921_75b37__THRB_2J4A__C1\ligand.pdbqt
+Grid center: X 4.25 Y 20.95 Z 32.03
+Grid size  : X 31.6 Y 29.8 Z 25
+Grid space : 0.375
+Exhaustiveness: 8
+CPU: 16
+Verbosity: 1
+
+Computing Vina grid ... done.
+WARNING: At low exhaustiveness, it may be impossible to utilize all CPUs.
+Performing docking (random seed: 1) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1        -11.3          0          0
+   2       -11.14    0.07358      1.724
+   3       -10.77      2.127      8.959
+   4       -9.876      2.114      9.058
+   5       -6.193      12.06      13.32
+   6       -6.057      16.39      17.67
+   7       -6.016      12.59      13.75
+   8       -5.796      12.39      15.05
+   9       -5.715      16.03      17.28

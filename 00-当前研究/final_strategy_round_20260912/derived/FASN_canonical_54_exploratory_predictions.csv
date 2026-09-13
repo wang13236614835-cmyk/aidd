@@ -1,0 +1,109 @@
+﻿model,herb,name,prediction_pActivity,tree_sd_exploratory,max_Tanimoto_to_primary_training,AD_status
+ecfp_rf,Artemisia capillaris(茵陈),scoparone,6.717760074288352,0.42146328997746224,0.16666666666666666,exploratory_only_no_release_threshold
+ecfp_rf,Artemisia capillaris(茵陈),scopoletin,6.717760074288352,0.42146328997746224,0.17073170731707318,exploratory_only_no_release_threshold
+ecfp_rf,Artemisia capillaris(茵陈),umbelliferone,6.721003200308211,0.42105945626260427,0.14285714285714285,exploratory_only_no_release_threshold
+ecfp_rf,Artemisia capillaris(茵陈),capillarisin,6.699567756129951,0.4725793095146015,0.1276595744680851,exploratory_only_no_release_threshold
+ecfp_rf,Artemisia capillaris(茵陈),arcapillin,6.684352102540301,0.4192022902564132,0.12903225806451613,exploratory_only_no_release_threshold
+ecfp_rf,Artemisia capillaris(茵陈),capillin,6.552031020848042,0.4803630765025469,0.1267605633802817,exploratory_only_no_release_threshold
+ecfp_rf,Artemisia capillaris(茵陈),capillene,6.6013031553242785,0.47535198001697454,0.11392405063291139,exploratory_only_no_release_threshold
+ecfp_rf,Artemisia capillaris(茵陈),"1,2-dimethoxy-4-vinylbenzene",6.691708676540659,0.41321311598021937,0.08641975308641975,exploratory_only_no_release_threshold
+ecfp_rf,Artemisia capillaris(茵陈),isorhamnetin,6.661292009841738,0.4355225331853038,0.15217391304347827,exploratory_only_no_release_threshold
+ecfp_rf,Crataegus pinnatifida(山楂),vitexin,6.633669928704565,0.4642049101613336,0.14444444444444443,exploratory_only_no_release_threshold
+ecfp_rf,Crataegus pinnatifida(山楂),isovitexin,6.629819309505449,0.4660359310440781,0.15217391304347827,exploratory_only_no_release_threshold
+ecfp_rf,Crataegus pinnatifida(山楂),hyperoside,6.660413640021474,0.46260788904072275,0.14583333333333334,exploratory_only_no_release_threshold
+ecfp_rf,Crataegus pinnatifida(山楂),isoquercitrin,6.660413640021474,0.46260788904072275,0.14150943396226415,exploratory_only_no_release_threshold
+ecfp_rf,Crataegus pinnatifida(山楂),epicatechin,6.637500987270658,0.4331406667936483,0.0989010989010989,exploratory_only_no_release_threshold
+ecfp_rf,Crataegus pinnatifida(山楂),procyanidin B2,6.654490542058364,0.45878341144448953,0.09473684210526316,exploratory_only_no_release_threshold
+ecfp_rf,Crataegus pinnatifida(山楂),ursolic acid,6.652361813843598,0.46997651652261885,0.13953488372093023,exploratory_only_no_release_threshold
+ecfp_rf,Crataegus pinnatifida(山楂),oleanolic acid,6.669211909699462,0.49499280530158773,0.1326530612244898,exploratory_only_no_release_threshold
+ecfp_rf,Crataegus pinnatifida(山楂),corosolic acid,6.67754751859342,0.4418809501660247,0.13793103448275862,exploratory_only_no_release_threshold
+ecfp_rf,Crataegus pinnatifida(山楂),maslinic acid,6.694397614449285,0.46749327509469546,0.1326530612244898,exploratory_only_no_release_threshold
+ecfp_rf,Crataegus pinnatifida(山楂),tormentic acid,6.708186464006034,0.4334089010736666,0.14423076923076922,exploratory_only_no_release_threshold
+ecfp_rf,Alisma orientale(泽泻),alisol A,6.689978401160816,0.4412018758745727,0.1388888888888889,exploratory_only_no_release_threshold
+ecfp_rf,Alisma orientale(泽泻),alisol B,6.600722833940636,0.513573913716938,0.14018691588785046,exploratory_only_no_release_threshold
+ecfp_rf,Alisma orientale(泽泻),alisol C,6.605659934320012,0.5122629530439363,0.13761467889908258,exploratory_only_no_release_threshold
+ecfp_rf,Alisma orientale(泽泻),alisol B acetate,6.6540447747942695,0.46801707555924876,0.14285714285714285,exploratory_only_no_release_threshold
+ecfp_rf,Alisma orientale(泽泻),16-oxo-alisol A,6.697155698490302,0.43641442320470364,0.13636363636363635,exploratory_only_no_release_threshold
+ecfp_rf,Alisma orientale(泽泻),alismol,6.680709852920961,0.44702580920986384,0.1411764705882353,exploratory_only_no_release_threshold
+ecfp_rf,Alisma orientale(泽泻),alismoxide,6.680709852920961,0.44702580920986384,0.13253012048192772,exploratory_only_no_release_threshold
+ecfp_rf,Cassia obtusifolia(决明子),obtusifolin,6.670355561531452,0.43691028689136774,0.1348314606741573,exploratory_only_no_release_threshold
+ecfp_rf,Cassia obtusifolia(决明子),obtusin,6.750838067524902,0.4298275731496804,0.13414634146341464,exploratory_only_no_release_threshold
+ecfp_rf,Cassia obtusifolia(决明子),aurantio-obtusin,6.750838067524902,0.4298275731496804,0.13580246913580246,exploratory_only_no_release_threshold
+ecfp_rf,Cassia obtusifolia(决明子),chryso-obtusin,6.767688577522144,0.42177205437575954,0.13580246913580246,exploratory_only_no_release_threshold
+ecfp_rf,Cassia obtusifolia(决明子),rubrofusarin,6.756280894099621,0.42783970898193163,0.13333333333333333,exploratory_only_no_release_threshold
+ecfp_rf,Cassia obtusifolia(决明子),toralactone,6.761636948596814,0.42444326852342007,0.13253012048192772,exploratory_only_no_release_threshold
+ecfp_rf,Pueraria lobata(葛根),puerarin,6.597928850851575,0.4945044735570027,0.15555555555555556,exploratory_only_no_release_threshold
+ecfp_rf,Pueraria lobata(葛根),daidzein,6.670027596482655,0.43494604736106307,0.15584415584415584,exploratory_only_no_release_threshold
+ecfp_rf,Pueraria lobata(葛根),daidzin,6.736368533453826,0.46978801652105184,0.14893617021276595,exploratory_only_no_release_threshold
+ecfp_rf,Pueraria lobata(葛根),genistin,6.745603620428029,0.46083887622004266,0.14893617021276595,exploratory_only_no_release_threshold
+ecfp_rf,Pueraria lobata(葛根),formononetin,6.725570565738594,0.44561370745657725,0.17045454545454544,exploratory_only_no_release_threshold
+ecfp_rf,Pueraria lobata(葛根),biochanin A,6.737008139810636,0.43083490304303523,0.16853932584269662,exploratory_only_no_release_threshold
+ecfp_rf,Pueraria lobata(葛根),3'-methoxydaidzein,6.680639593225093,0.42742269857895904,0.16483516483516483,exploratory_only_no_release_threshold
+ecfp_rf,Pueraria lobata(葛根),ononin,6.736368533453826,0.46978801652105184,0.17,exploratory_only_no_release_threshold
+ecfp_rf,Sedum sarmentosum(垂盆草),sarmentosin,6.660770360764748,0.47640728325069726,0.07777777777777778,exploratory_only_no_release_threshold
+ecfp_rf,Phyllanthus niruri(叶下珠),hypophyllanthin,6.710330179165691,0.4092864444408588,0.13131313131313133,exploratory_only_no_release_threshold
+ecfp_rf,Phyllanthus niruri(叶下珠),nirtetralin,6.712512159662972,0.4091437078425796,0.1262135922330097,exploratory_only_no_release_threshold
+ecfp_rf,Phyllanthus niruri(叶下珠),niranthin,6.702214913661296,0.4129298460127022,0.11458333333333333,exploratory_only_no_release_threshold
+ecfp_rf,Morus alba(桑叶),1-deoxynojirimycin,6.655637171412029,0.4853110555938879,0.08450704225352113,exploratory_only_no_release_threshold
+ecfp_rf,Morus alba(桑叶),oxyresveratrol,6.613421404000482,0.46679397604449946,0.09090909090909091,exploratory_only_no_release_threshold
+ecfp_rf,Morus alba(桑叶),astragalin,6.660413640021474,0.46260788904072275,0.14893617021276595,exploratory_only_no_release_threshold
+ecfp_rf,Morus alba(桑叶),moracin N,6.705593920182682,0.4124473950832712,0.13333333333333333,exploratory_only_no_release_threshold
+ecfp_rf,Morus alba(桑叶),moracin M,6.7206875200719605,0.4216526263630084,0.13333333333333333,exploratory_only_no_release_threshold
+ecfp_rf,Morus alba(桑叶),mulberrofuran G,6.742152197171929,0.4218460002799272,0.13636363636363635,exploratory_only_no_release_threshold
+ecfp_rf,Polygonum cuspidatum(虎杖),piceid,6.7384322797206755,0.46393209628941473,0.10465116279069768,exploratory_only_no_release_threshold
+ecfp_rf,Polygonum cuspidatum(虎杖),catechin,6.637500987270658,0.4331406667936483,0.0989010989010989,exploratory_only_no_release_threshold
+ecfp_rf,Polygonum cuspidatum(虎杖),torachrysone,6.78344912736008,0.4170855137814961,0.15,exploratory_only_no_release_threshold
+ecfp_xgb,Artemisia capillaris(茵陈),scoparone,6.741205215454102,,0.16666666666666666,exploratory_only_no_release_threshold
+ecfp_xgb,Artemisia capillaris(茵陈),scopoletin,6.741205215454102,,0.17073170731707318,exploratory_only_no_release_threshold
+ecfp_xgb,Artemisia capillaris(茵陈),umbelliferone,6.756324768066406,,0.14285714285714285,exploratory_only_no_release_threshold
+ecfp_xgb,Artemisia capillaris(茵陈),capillarisin,6.597680568695068,,0.1276595744680851,exploratory_only_no_release_threshold
+ecfp_xgb,Artemisia capillaris(茵陈),arcapillin,6.539724826812744,,0.12903225806451613,exploratory_only_no_release_threshold
+ecfp_xgb,Artemisia capillaris(茵陈),capillin,6.204513072967529,,0.1267605633802817,exploratory_only_no_release_threshold
+ecfp_xgb,Artemisia capillaris(茵陈),capillene,6.365242958068848,,0.11392405063291139,exploratory_only_no_release_threshold
+ecfp_xgb,Artemisia capillaris(茵陈),"1,2-dimethoxy-4-vinylbenzene",6.535709857940674,,0.08641975308641975,exploratory_only_no_release_threshold
+ecfp_xgb,Artemisia capillaris(茵陈),isorhamnetin,6.523841381072998,,0.15217391304347827,exploratory_only_no_release_threshold
+ecfp_xgb,Crataegus pinnatifida(山楂),vitexin,6.438253879547119,,0.14444444444444443,exploratory_only_no_release_threshold
+ecfp_xgb,Crataegus pinnatifida(山楂),isovitexin,6.438122272491455,,0.15217391304347827,exploratory_only_no_release_threshold
+ecfp_xgb,Crataegus pinnatifida(山楂),hyperoside,6.53151798248291,,0.14583333333333334,exploratory_only_no_release_threshold
+ecfp_xgb,Crataegus pinnatifida(山楂),isoquercitrin,6.53151798248291,,0.14150943396226415,exploratory_only_no_release_threshold
+ecfp_xgb,Crataegus pinnatifida(山楂),epicatechin,6.418325901031494,,0.0989010989010989,exploratory_only_no_release_threshold
+ecfp_xgb,Crataegus pinnatifida(山楂),procyanidin B2,6.429440975189209,,0.09473684210526316,exploratory_only_no_release_threshold
+ecfp_xgb,Crataegus pinnatifida(山楂),ursolic acid,6.53239631652832,,0.13953488372093023,exploratory_only_no_release_threshold
+ecfp_xgb,Crataegus pinnatifida(山楂),oleanolic acid,6.501652240753174,,0.1326530612244898,exploratory_only_no_release_threshold
+ecfp_xgb,Crataegus pinnatifida(山楂),corosolic acid,6.53239631652832,,0.13793103448275862,exploratory_only_no_release_threshold
+ecfp_xgb,Crataegus pinnatifida(山楂),maslinic acid,6.501652240753174,,0.1326530612244898,exploratory_only_no_release_threshold
+ecfp_xgb,Crataegus pinnatifida(山楂),tormentic acid,6.549931049346924,,0.14423076923076922,exploratory_only_no_release_threshold
+ecfp_xgb,Alisma orientale(泽泻),alisol A,6.393911838531494,,0.1388888888888889,exploratory_only_no_release_threshold
+ecfp_xgb,Alisma orientale(泽泻),alisol B,6.35034704208374,,0.14018691588785046,exploratory_only_no_release_threshold
+ecfp_xgb,Alisma orientale(泽泻),alisol C,6.383195877075195,,0.13761467889908258,exploratory_only_no_release_threshold
+ecfp_xgb,Alisma orientale(泽泻),alisol B acetate,6.36636209487915,,0.14285714285714285,exploratory_only_no_release_threshold
+ecfp_xgb,Alisma orientale(泽泻),16-oxo-alisol A,6.432313919067383,,0.13636363636363635,exploratory_only_no_release_threshold
+ecfp_xgb,Alisma orientale(泽泻),alismol,6.496763229370117,,0.1411764705882353,exploratory_only_no_release_threshold
+ecfp_xgb,Alisma orientale(泽泻),alismoxide,6.496763229370117,,0.13253012048192772,exploratory_only_no_release_threshold
+ecfp_xgb,Cassia obtusifolia(决明子),obtusifolin,6.467411041259766,,0.1348314606741573,exploratory_only_no_release_threshold
+ecfp_xgb,Cassia obtusifolia(决明子),obtusin,6.55955171585083,,0.13414634146341464,exploratory_only_no_release_threshold
+ecfp_xgb,Cassia obtusifolia(决明子),aurantio-obtusin,6.567479133605957,,0.13580246913580246,exploratory_only_no_release_threshold
+ecfp_xgb,Cassia obtusifolia(决明子),chryso-obtusin,6.549736976623535,,0.13580246913580246,exploratory_only_no_release_threshold
+ecfp_xgb,Cassia obtusifolia(决明子),rubrofusarin,6.556048393249512,,0.13333333333333333,exploratory_only_no_release_threshold
+ecfp_xgb,Cassia obtusifolia(决明子),toralactone,6.556180000305176,,0.13253012048192772,exploratory_only_no_release_threshold
+ecfp_xgb,Pueraria lobata(葛根),puerarin,6.334719181060791,,0.15555555555555556,exploratory_only_no_release_threshold
+ecfp_xgb,Pueraria lobata(葛根),daidzein,6.544651031494141,,0.15584415584415584,exploratory_only_no_release_threshold
+ecfp_xgb,Pueraria lobata(葛根),daidzin,6.602029323577881,,0.14893617021276595,exploratory_only_no_release_threshold
+ecfp_xgb,Pueraria lobata(葛根),genistin,6.608972072601318,,0.14893617021276595,exploratory_only_no_release_threshold
+ecfp_xgb,Pueraria lobata(葛根),formononetin,6.610240459442139,,0.17045454545454544,exploratory_only_no_release_threshold
+ecfp_xgb,Pueraria lobata(葛根),biochanin A,6.617183208465576,,0.16853932584269662,exploratory_only_no_release_threshold
+ecfp_xgb,Pueraria lobata(葛根),3'-methoxydaidzein,6.549417018890381,,0.16483516483516483,exploratory_only_no_release_threshold
+ecfp_xgb,Pueraria lobata(葛根),ononin,6.602029323577881,,0.17,exploratory_only_no_release_threshold
+ecfp_xgb,Sedum sarmentosum(垂盆草),sarmentosin,6.5166239738464355,,0.07777777777777778,exploratory_only_no_release_threshold
+ecfp_xgb,Phyllanthus niruri(叶下珠),hypophyllanthin,6.528550148010254,,0.13131313131313133,exploratory_only_no_release_threshold
+ecfp_xgb,Phyllanthus niruri(叶下珠),nirtetralin,6.528550148010254,,0.1262135922330097,exploratory_only_no_release_threshold
+ecfp_xgb,Phyllanthus niruri(叶下珠),niranthin,6.554553508758545,,0.11458333333333333,exploratory_only_no_release_threshold
+ecfp_xgb,Morus alba(桑叶),1-deoxynojirimycin,6.52008581161499,,0.08450704225352113,exploratory_only_no_release_threshold
+ecfp_xgb,Morus alba(桑叶),oxyresveratrol,6.094461917877197,,0.09090909090909091,exploratory_only_no_release_threshold
+ecfp_xgb,Morus alba(桑叶),astragalin,6.53151798248291,,0.14893617021276595,exploratory_only_no_release_threshold
+ecfp_xgb,Morus alba(桑叶),moracin N,6.529767990112305,,0.13333333333333333,exploratory_only_no_release_threshold
+ecfp_xgb,Morus alba(桑叶),moracin M,6.756324768066406,,0.13333333333333333,exploratory_only_no_release_threshold
+ecfp_xgb,Morus alba(桑叶),mulberrofuran G,6.734127044677734,,0.13636363636363635,exploratory_only_no_release_threshold
+ecfp_xgb,Polygonum cuspidatum(虎杖),piceid,6.584878921508789,,0.10465116279069768,exploratory_only_no_release_threshold
+ecfp_xgb,Polygonum cuspidatum(虎杖),catechin,6.418325901031494,,0.0989010989010989,exploratory_only_no_release_threshold
+ecfp_xgb,Polygonum cuspidatum(虎杖),torachrysone,6.560764789581299,,0.15,exploratory_only_no_release_threshold

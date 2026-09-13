@@ -1,0 +1,398 @@
+[
+ {
+  "name": "moracin N",
+  "target": "THRB",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -12.36594,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "moracin N",
+  "target": "FASN",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -11.43841,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "moracin N",
+  "target": "FXR",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -9.82343,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "daidzein",
+  "target": "THRB",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -9.61831,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "daidzein",
+  "target": "FASN",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -9.29177,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "daidzein",
+  "target": "FXR",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -8.37239,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "formononetin",
+  "target": "THRB",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -7.63745,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "formononetin",
+  "target": "FASN",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -9.19553,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "formononetin",
+  "target": "FXR",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -8.50947,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "3'-methoxydaidzein",
+  "target": "THRB",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -8.75411,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "3'-methoxydaidzein",
+  "target": "FASN",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -10.06327,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "3'-methoxydaidzein",
+  "target": "FXR",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -8.08223,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "daidzin",
+  "target": "THRB",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -8.26809,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "daidzin",
+  "target": "FASN",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -9.55518,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "daidzin",
+  "target": "FXR",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -7.73069,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "moracin M",
+  "target": "THRB",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -10.32296,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "moracin M",
+  "target": "FASN",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -9.48543,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "moracin M",
+  "target": "FXR",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -9.80832,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "piceid",
+  "target": "THRB",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -7.08924,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "piceid",
+  "target": "FASN",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -10.27136,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "piceid",
+  "target": "FXR",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -9.86503,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "biochanin A",
+  "target": "THRB",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -8.54398,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "biochanin A",
+  "target": "FASN",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -8.88614,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "biochanin A",
+  "target": "FXR",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -8.54016,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "genistin",
+  "target": "THRB",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -8.33023,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "genistin",
+  "target": "FASN",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -8.83519,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "genistin",
+  "target": "FXR",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -9.28474,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "epicatechin",
+  "target": "THRB",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -9.92062,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "epicatechin",
+  "target": "FASN",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -9.43537,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "epicatechin",
+  "target": "FXR",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -8.47734,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "capillarisin",
+  "target": "THRB",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -9.59975,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "capillarisin",
+  "target": "FASN",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -9.13074,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "capillarisin",
+  "target": "FXR",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -7.49503,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "isorhamnetin",
+  "target": "THRB",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -8.07994,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "isorhamnetin",
+  "target": "FASN",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -8.06743,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "isorhamnetin",
+  "target": "FXR",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -8.6973,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "toralactone",
+  "target": "THRB",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -6.24946,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "toralactone",
+  "target": "FASN",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -7.85824,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "toralactone",
+  "target": "FXR",
+  "method": "smina_vinardo_score_only",
+  "vina_affinity_seed42": null,
+  "smina_vinardo": -6.9716,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "THRB_OEF",
+  "target": "THRB",
+  "method": "smina_vinardo_score_only_control",
+  "smina_vinardo": -0.0,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "FASN_ZEP",
+  "target": "FASN",
+  "method": "smina_vinardo_score_only_control",
+  "smina_vinardo": 0.0,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "FXR_FEX",
+  "target": "FXR",
+  "method": "smina_vinardo_score_only_control",
+  "smina_vinardo": 0.0,
+  "returncode": 0,
+  "status": "completed"
+ },
+ {
+  "name": "THRB_OEF_pocket_pose",
+  "target": "THRB",
+  "method": "smina_vinardo_score_only_control_pocket_pose",
+  "smina_vinardo": -12.27483,
+  "status": "completed"
+ },
+ {
+  "name": "FASN_ZEP_pocket_pose",
+  "target": "FASN",
+  "method": "smina_vinardo_score_only_control_pocket_pose",
+  "smina_vinardo": -11.85785,
+  "status": "completed"
+ },
+ {
+  "name": "FXR_FEX_pocket_pose",
+  "target": "FXR",
+  "method": "smina_vinardo_score_only_control_pocket_pose",
+  "smina_vinardo": -11.51176,
+  "status": "completed"
+ }
+]

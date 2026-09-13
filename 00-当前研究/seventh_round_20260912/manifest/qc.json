@@ -1,0 +1,23 @@
+{
+  "expected_count": 16,
+  "existing_count": 16,
+  "missing": [],
+  "csv_checks": [
+    {
+      "file": "MASH方向竞争矩阵.csv",
+      "data_rows": 5,
+      "columns": 16
+    },
+    {
+      "file": "靶点临床转化审计.csv",
+      "data_rows": 8,
+      "columns": 7
+    },
+    {
+      "file": "靶点数据可建模性审计.csv",
+      "data_rows": 5,
+      "columns": 11
+    }
+  ],
+  "status": "PASS"
+}

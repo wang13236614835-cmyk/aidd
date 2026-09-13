@@ -1,0 +1,10 @@
+﻿candidate,target,median_kcal_mol,min_kcal_mol,max_kcal_mol,range_kcal_mol,seeds,completed,source,interpretation
+biochanin A,TRβ/THRB WT 3GWS-derived,-9.255,-9.261,-9.211,0.05,"7,42,123,20260910",yes,H1Valid formal 4 nominal seeds,Descriptive pocket-occupancy/reproducibility only; no activity/Kd/efficacy conversion
+daidzein,TRβ/THRB WT 3GWS-derived,-9.601,-9.606,-9.595,0.011,"7,42,123,20260910",yes,H1Valid formal 4 nominal seeds,Descriptive pocket-occupancy/reproducibility only; no activity/Kd/efficacy conversion
+formononetin,TRβ/THRB WT 3GWS-derived,-9.072,-9.078,-9.046,0.032,"7,42,123,20260910",yes,H1Valid formal 4 nominal seeds,Descriptive pocket-occupancy/reproducibility only; no activity/Kd/efficacy conversion
+isorhamnetin,TRβ/THRB WT 3GWS-derived,-8.244,-8.246,-8.234,0.012,"7,42,123,20260910",yes,H1Valid formal 4 nominal seeds,Descriptive pocket-occupancy/reproducibility only; no activity/Kd/efficacy conversion
+moracin N,TRβ/THRB WT 3GWS-derived,-10.875,-10.881,-10.853,0.028,"7,42,123,20260910",yes,H1Valid formal 4 nominal seeds,Descriptive pocket-occupancy/reproducibility only; no activity/Kd/efficacy conversion
+liothyronine,TRβ/THRB WT 3GWS-derived,-9.498,-9.503,-9.497,0.006,"7,42,123,20260910",yes,H1Valid formal 4 nominal seeds,Descriptive pocket-occupancy/reproducibility only; no activity/Kd/efficacy conversion
+sobetirome,TRβ/THRB WT 3GWS-derived,-10.232,-10.246,-10.226,0.02,"7,42,123,20260910",yes,H1Valid formal 4 nominal seeds,Descriptive pocket-occupancy/reproducibility only; no activity/Kd/efficacy conversion
+resmetirom,TRβ/THRB WT 3GWS-derived,-10.215,-10.231,-10.196,0.035,"7,42,123,20260910",yes,H1Valid formal 4 nominal seeds,Descriptive pocket-occupancy/reproducibility only; no activity/Kd/efficacy conversion
+3'-methoxydaidzein,TRβ/THRB WT 3GWS-derived,-9.741,-9.763,-9.727,0.036,"7,42,123,20260910",yes,supplementary meo_4seed,Descriptive pocket-occupancy/reproducibility only; no activity/Kd/efficacy conversion

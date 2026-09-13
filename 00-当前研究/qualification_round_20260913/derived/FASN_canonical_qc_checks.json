@@ -1,0 +1,54 @@
+{
+  "assay_id": "CHEMBL5731051",
+  "raw_records": 97,
+  "distinct_molecules": 96,
+  "documents": [
+    "CHEMBL5725564"
+  ],
+  "document_year": [
+    2017
+  ],
+  "units": {
+    "nM": 97
+  },
+  "species": [
+    "Homo sapiens"
+  ],
+  "target": [
+    "CHEMBL4158"
+  ],
+  "endpoint": [
+    "IC50"
+  ],
+  "inchikey_duplicate_molecules": 0,
+  "duplicate_smiles_groups": 0,
+  "stereoisomer_pairs_within_assay": [],
+  "stereoisomer_pair_count": 0,
+  "multi_fragment_records": 0,
+  "molecules_with_replicate_records": 1,
+  "replicate_detail": [
+    {
+      "molecule_id": "CHEMBL5917086",
+      "activity_id": 26834050,
+      "standardized_nM": 513.0,
+      "pActivity": 6.289882634888183
+    },
+    {
+      "molecule_id": "CHEMBL5917086",
+      "activity_id": 26834161,
+      "standardized_nM": 110.0,
+      "pActivity": 6.958607314841775
+    }
+  ],
+  "mad3_outlier_records": 0,
+  "mad3_outlier_molecule_ids": [],
+  "mad3_bounds": [
+    4.849988159095954,
+    8.769348444563462
+  ],
+  "impossible_records": 0,
+  "nonpositive_nM": 0,
+  "clean_molecules": 96,
+  "clean_scaffolds": 39,
+  "exclusions": []
+}

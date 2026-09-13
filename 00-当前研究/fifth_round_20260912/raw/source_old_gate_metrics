@@ -1,0 +1,18 @@
+{
+ "n_active_docked": 45,
+ "n_negative_docked": 31,
+ "ROC_AUC": 0.346,
+ "EF_at_20pct": 1.44,
+ "MW_t_stat": 5.27,
+ "MW_residual_AUC": 0.647,
+ "layer_AUC": {
+  "layer_0": 0.43,
+  "layer_1": 0.194,
+  "layer_2": 0.415
+ },
+ "verdict": "FAIL",
+ "anchors": {
+  "T3_liothyronine": -9.574,
+  "resmetirom": -10.32
+ }
+}

@@ -1,0 +1,591 @@
+[
+ {
+  "id": "CHEMBL1377437",
+  "label": "active",
+  "score": -6.124,
+  "potency_nM": 0.01259,
+  "layer": 0,
+  "mw": 368.39299999999974
+ },
+ {
+  "id": "CHEMBL1590245",
+  "label": "active",
+  "score": -5.673,
+  "potency_nM": 0.01259,
+  "layer": 0,
+  "mw": 565.6160000000019
+ },
+ {
+  "id": "CHEMBL291053",
+  "label": "active",
+  "score": -9.41,
+  "potency_nM": 0.019,
+  "layer": 0,
+  "mw": 635.9610000000005
+ },
+ {
+  "id": "CHEMBL1555687",
+  "label": "active",
+  "score": -6.997,
+  "potency_nM": 0.01995,
+  "layer": 0,
+  "mw": 429.51699999999977
+ },
+ {
+  "id": "CHEMBL124126",
+  "label": "active",
+  "score": -7.462,
+  "potency_nM": 0.02,
+  "layer": 0,
+  "mw": 513.3589999999999
+ },
+ {
+  "id": "CHEMBL289343",
+  "label": "active",
+  "score": -10.7,
+  "potency_nM": 0.025,
+  "layer": 0,
+  "mw": 458.1459999999998
+ },
+ {
+  "id": "CHEMBL125381",
+  "label": "active",
+  "score": -11.34,
+  "potency_nM": 0.03,
+  "layer": 0,
+  "mw": 367.40499999999975
+ },
+ {
+  "id": "CHEMBL124205",
+  "label": "active",
+  "score": -7.528,
+  "potency_nM": 0.04,
+  "layer": 0,
+  "mw": 531.396000000001
+ },
+ {
+  "id": "CHEMBL41632",
+  "label": "active",
+  "score": -8.999,
+  "potency_nM": 0.04074,
+  "layer": 0,
+  "mw": 621.9340000000004
+ },
+ {
+  "id": "CHEMBL1362933",
+  "label": "active",
+  "score": -6.465,
+  "potency_nM": 0.04467,
+  "layer": 0,
+  "mw": 212.64000000000007
+ },
+ {
+  "id": "CHEMBL1314540",
+  "label": "active",
+  "score": -5.461,
+  "potency_nM": 0.05623,
+  "layer": 0,
+  "mw": 392.45499999999964
+ },
+ {
+  "id": "CHEMBL203777",
+  "label": "active",
+  "score": -11.39,
+  "potency_nM": 0.06,
+  "layer": 0,
+  "mw": 380.22699999999975
+ },
+ {
+  "id": "CHEMBL413699",
+  "label": "active",
+  "score": -6.662,
+  "potency_nM": 0.07,
+  "layer": 0,
+  "mw": 491.33099999999985
+ },
+ {
+  "id": "CHEMBL1335040",
+  "label": "active",
+  "score": -9.188,
+  "potency_nM": 0.07943,
+  "layer": 0,
+  "mw": 330.2279999999997
+ },
+ {
+  "id": "CHEMBL1449693",
+  "label": "active",
+  "score": -6.948,
+  "potency_nM": 0.07943,
+  "layer": 0,
+  "mw": 428.50999999999976
+ },
+ {
+  "id": "CHEMBL394644",
+  "label": "active",
+  "score": -10.31,
+  "potency_nM": 10.96,
+  "layer": 1,
+  "mw": 419.2599999999999
+ },
+ {
+  "id": "CHEMBL1337516",
+  "label": "active",
+  "score": -6.465,
+  "potency_nM": 11.2,
+  "layer": 1,
+  "mw": 433.3419999999999
+ },
+ {
+  "id": "CHEMBL1432973",
+  "label": "active",
+  "score": -5.774,
+  "potency_nM": 11.2,
+  "layer": 1,
+  "mw": 393.51599999999974
+ },
+ {
+  "id": "CHEMBL1583087",
+  "label": "active",
+  "score": -7.484,
+  "potency_nM": 11.2,
+  "layer": 1,
+  "mw": 486.54999999999995
+ },
+ {
+  "id": "CHEMBL3193119",
+  "label": "active",
+  "score": -6.574,
+  "potency_nM": 11.2,
+  "layer": 1,
+  "mw": 360.4819999999997
+ },
+ {
+  "id": "CHEMBL236499",
+  "label": "active",
+  "score": -6.729,
+  "potency_nM": 12.0,
+  "layer": 1,
+  "mw": 561.2420000000012
+ },
+ {
+  "id": "CHEMBL1337338",
+  "label": "active",
+  "score": -6.359,
+  "potency_nM": 12.6,
+  "layer": 1,
+  "mw": 489.59699999999975
+ },
+ {
+  "id": "CHEMBL1356614",
+  "label": "active",
+  "score": -7.168,
+  "potency_nM": 12.6,
+  "layer": 1,
+  "mw": 421.736
+ },
+ {
+  "id": "CHEMBL1435076",
+  "label": "active",
+  "score": -6.533,
+  "potency_nM": 12.6,
+  "layer": 1,
+  "mw": 354.4059999999998
+ },
+ {
+  "id": "CHEMBL1514466",
+  "label": "active",
+  "score": -8.056,
+  "potency_nM": 12.6,
+  "layer": 1,
+  "mw": 510.5939999999998
+ },
+ {
+  "id": "CHEMBL1590363",
+  "label": "active",
+  "score": -5.9,
+  "potency_nM": 12.6,
+  "layer": 1,
+  "mw": 510.61199999999985
+ },
+ {
+  "id": "CHEMBL3193892",
+  "label": "active",
+  "score": -6.373,
+  "potency_nM": 12.6,
+  "layer": 1,
+  "mw": 390.87099999999964
+ },
+ {
+  "id": "CHEMBL127338",
+  "label": "active",
+  "score": -6.289,
+  "potency_nM": 13.0,
+  "layer": 1,
+  "mw": 507.9559999999999
+ },
+ {
+  "id": "CHEMBL195079",
+  "label": "active",
+  "score": -8.908,
+  "potency_nM": 13.0,
+  "layer": 1,
+  "mw": 426.09299999999996
+ },
+ {
+  "id": "CHEMBL1355950",
+  "label": "active",
+  "score": -7.226,
+  "potency_nM": 14.1,
+  "layer": 1,
+  "mw": 507.0779999999997
+ },
+ {
+  "id": "CHEMBL121795",
+  "label": "active",
+  "score": -6.057,
+  "potency_nM": 104.0,
+  "layer": 2,
+  "mw": 312.37599999999975
+ },
+ {
+  "id": "CHEMBL485939",
+  "label": "active",
+  "score": -8.257,
+  "potency_nM": 106.0,
+  "layer": 2,
+  "mw": 398.39499999999975
+ },
+ {
+  "id": "CHEMBL119936",
+  "label": "active",
+  "score": -6.279,
+  "potency_nM": 110.0,
+  "layer": 2,
+  "mw": 372.49699999999973
+ },
+ {
+  "id": "CHEMBL1319888",
+  "label": "active",
+  "score": -8.962,
+  "potency_nM": 112.2,
+  "layer": 2,
+  "mw": 377.4729999999998
+ },
+ {
+  "id": "CHEMBL1330875",
+  "label": "active",
+  "score": -6.524,
+  "potency_nM": 112.2,
+  "layer": 2,
+  "mw": 489.61999999999966
+ },
+ {
+  "id": "CHEMBL1367813",
+  "label": "active",
+  "score": -5.378,
+  "potency_nM": 112.2,
+  "layer": 2,
+  "mw": 396.5349999999995
+ },
+ {
+  "id": "CHEMBL1382733",
+  "label": "active",
+  "score": -8.932,
+  "potency_nM": 112.2,
+  "layer": 2,
+  "mw": 225.25100000000006
+ },
+ {
+  "id": "CHEMBL1478349",
+  "label": "active",
+  "score": -5.833,
+  "potency_nM": 112.2,
+  "layer": 2,
+  "mw": 451.8809999999998
+ },
+ {
+  "id": "CHEMBL1566032",
+  "label": "active",
+  "score": -6.796,
+  "potency_nM": 112.2,
+  "layer": 2,
+  "mw": 368.4579999999997
+ },
+ {
+  "id": "CHEMBL316992",
+  "label": "active",
+  "score": -5.973,
+  "potency_nM": 112.2,
+  "layer": 2,
+  "mw": 154.12500000000003
+ },
+ {
+  "id": "CHEMBL264410",
+  "label": "active",
+  "score": -8.963,
+  "potency_nM": 119.0,
+  "layer": 2,
+  "mw": 580.1160000000007
+ },
+ {
+  "id": "CHEMBL192427",
+  "label": "active",
+  "score": -8.37,
+  "potency_nM": 120.0,
+  "layer": 2,
+  "mw": 420.1409999999997
+ },
+ {
+  "id": "CHEMBL249895",
+  "label": "active",
+  "score": -10.14,
+  "potency_nM": 120.0,
+  "layer": 2,
+  "mw": 428.1199999999998
+ },
+ {
+  "id": "CHEMBL120211",
+  "label": "active",
+  "score": -5.676,
+  "potency_nM": 121.0,
+  "layer": 2,
+  "mw": 305.3809999999997
+ },
+ {
+  "id": "CHEMBL428729",
+  "label": "active",
+  "score": -9.461,
+  "potency_nM": 123.03,
+  "layer": 2,
+  "mw": 390.22199999999987
+ },
+ {
+  "id": "CHEMBL237821_neg",
+  "label": "negative_floor",
+  "score": -8.201,
+  "floor_nM": 100000.0,
+  "mw": 218.34000000000017
+ },
+ {
+  "id": "CHEMBL449354_neg",
+  "label": "negative_floor",
+  "score": -5.996,
+  "floor_nM": 100000.0,
+  "mw": 306.4489999999995
+ },
+ {
+  "id": "CHEMBL237820_neg",
+  "label": "negative_floor",
+  "score": -7.823,
+  "floor_nM": 100000.0,
+  "mw": 258.40500000000014
+ },
+ {
+  "id": "CHEMBL396437_neg",
+  "label": "negative_floor",
+  "score": -8.832,
+  "floor_nM": 100000.0,
+  "mw": 258.40500000000014
+ },
+ {
+  "id": "CHEMBL391785_neg",
+  "label": "negative_floor",
+  "score": -8.509,
+  "floor_nM": 100000.0,
+  "mw": 277.3639999999995
+ },
+ {
+  "id": "CHEMBL235489_neg",
+  "label": "negative_floor",
+  "score": -8.507,
+  "floor_nM": 100000.0,
+  "mw": 289.37499999999955
+ },
+ {
+  "id": "CHEMBL235276_neg",
+  "label": "negative_floor",
+  "score": -8.581,
+  "floor_nM": 100000.0,
+  "mw": 307.4369999999995
+ },
+ {
+  "id": "CHEMBL394061_neg",
+  "label": "negative_floor",
+  "score": -8.573,
+  "floor_nM": 100000.0,
+  "mw": 259.3930000000001
+ },
+ {
+  "id": "CHEMBL398107_neg",
+  "label": "negative_floor",
+  "score": -8.164,
+  "floor_nM": 100000.0,
+  "mw": 245.36600000000018
+ },
+ {
+  "id": "CHEMBL236307_neg",
+  "label": "negative_floor",
+  "score": -8.215,
+  "floor_nM": 100000.0,
+  "mw": 311.2629999999996
+ },
+ {
+  "id": "CHEMBL236341_neg",
+  "label": "negative_floor",
+  "score": -8.021,
+  "floor_nM": 100000.0,
+  "mw": 222.30300000000014
+ },
+ {
+  "id": "CHEMBL407819_neg",
+  "label": "negative_floor",
+  "score": -8.694,
+  "floor_nM": 20000.0,
+  "mw": 550.0900000000006
+ },
+ {
+  "id": "CHEMBL476302_neg",
+  "label": "negative_floor",
+  "score": -7.438,
+  "floor_nM": 20000.0,
+  "mw": 532.4230000000013
+ },
+ {
+  "id": "CHEMBL560148_neg",
+  "label": "negative_floor",
+  "score": -7.152,
+  "floor_nM": 50000.0,
+  "mw": 291.43499999999943
+ },
+ {
+  "id": "CHEMBL552742_neg",
+  "label": "negative_floor",
+  "score": -7.83,
+  "floor_nM": 50000.0,
+  "mw": 320.4769999999994
+ },
+ {
+  "id": "CHEMBL549685_neg",
+  "label": "negative_floor",
+  "score": -8.659,
+  "floor_nM": 50000.0,
+  "mw": 367.5329999999995
+ },
+ {
+  "id": "CHEMBL561653_neg",
+  "label": "negative_floor",
+  "score": -7.545,
+  "floor_nM": 50000.0,
+  "mw": 353.5059999999995
+ },
+ {
+  "id": "CHEMBL538150_neg",
+  "label": "negative_floor",
+  "score": -9.086,
+  "floor_nM": 50000.0,
+  "mw": 327.4679999999995
+ },
+ {
+  "id": "CHEMBL570307_neg",
+  "label": "negative_floor",
+  "score": -7.188,
+  "floor_nM": 50000.0,
+  "mw": 291.43499999999943
+ },
+ {
+  "id": "CHEMBL550765_neg",
+  "label": "negative_floor",
+  "score": -7.705,
+  "floor_nM": 50000.0,
+  "mw": 319.4889999999994
+ },
+ {
+  "id": "CHEMBL550766_neg",
+  "label": "negative_floor",
+  "score": -8.6,
+  "floor_nM": 50000.0,
+  "mw": 353.5059999999995
+ },
+ {
+  "id": "CHEMBL541227_neg",
+  "label": "negative_floor",
+  "score": -8.161,
+  "floor_nM": 50000.0,
+  "mw": 339.47899999999953
+ },
+ {
+  "id": "CHEMBL550841_neg",
+  "label": "negative_floor",
+  "score": -8.179,
+  "floor_nM": 50000.0,
+  "mw": 325.45199999999954
+ },
+ {
+  "id": "CHEMBL540227_neg",
+  "label": "negative_floor",
+  "score": -8.241,
+  "floor_nM": 50000.0,
+  "mw": 359.89699999999954
+ },
+ {
+  "id": "CHEMBL560309_neg",
+  "label": "negative_floor",
+  "score": -8.283,
+  "floor_nM": 50000.0,
+  "mw": 300.40199999999953
+ },
+ {
+  "id": "CHEMBL551046_neg",
+  "label": "negative_floor",
+  "score": -7.932,
+  "floor_nM": 50000.0,
+  "mw": 331.4119999999996
+ },
+ {
+  "id": "CHEMBL539139_neg",
+  "label": "negative_floor",
+  "score": -7.192,
+  "floor_nM": 50000.0,
+  "mw": 265.3529999999999
+ },
+ {
+  "id": "CHEMBL551244_neg",
+  "label": "negative_floor",
+  "score": -8.373,
+  "floor_nM": 50000.0,
+  "mw": 302.4619999999994
+ },
+ {
+  "id": "CHEMBL560310_neg",
+  "label": "negative_floor",
+  "score": -8.268,
+  "floor_nM": 50000.0,
+  "mw": 303.4499999999995
+ },
+ {
+  "id": "CHEMBL555726_neg",
+  "label": "negative_floor",
+  "score": -8.346,
+  "floor_nM": 50000.0,
+  "mw": 326.46199999999953
+ },
+ {
+  "id": "CHEMBL560675_neg",
+  "label": "negative_floor",
+  "score": -8.447,
+  "floor_nM": 50000.0,
+  "mw": 291.3949999999995
+ },
+ {
+  "id": "T3_liothyronine",
+  "label": "anchor",
+  "score": -9.574,
+  "mw": 650.9760000000006
+ },
+ {
+  "id": "resmetirom",
+  "label": "anchor",
+  "score": -10.32,
+  "mw": 435.22699999999986
+ }
+]

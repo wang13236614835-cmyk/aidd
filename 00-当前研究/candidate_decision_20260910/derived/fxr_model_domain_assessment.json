@@ -1,0 +1,20 @@
+{
+  "model_id": "FXR_LanthaScreen_EC50_ECFP_RF_v1",
+  "training_n": 324,
+  "loo_nearest_tanimoto_summary": {
+    "q05": 0.7804878048780488,
+    "median": 0.875,
+    "q95": 1.0,
+    "min": 0.7037037037037037,
+    "max": 1.0
+  },
+  "candidate_nearest_tanimoto_summary": {
+    "min": 0.0631578947368421,
+    "median": 0.1291708796764408,
+    "max": 0.1704545454545454,
+    "n_below_loo_q05": 54,
+    "n_candidates": 54
+  },
+  "domain_rule": "below 5th percentile of leave-one-out nearest-neighbor similarity is rejected for model-assisted candidate ranking",
+  "decision": "54 natural products are exploratory/OOD for this model; model predictions are not evidence of FXR activity"
+}

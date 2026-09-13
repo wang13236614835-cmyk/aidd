@@ -1,0 +1,16 @@
+﻿candidate,disease_model,direct_mechanism,exposure_pk,identity_purity,interference,overall_risk,next_decision
+isorhamnetin,摘要级✓,摘要/条件有限⚠,未知⚠,pending⚠,未测⚠,高,先做无细胞干扰+PA/OA+FXR依赖
+formononetin,摘要级✓,全文FXR✓/疾病桥接⚠,未知⚠,pending⚠,未测⚠,中-高,与首选并行做FXR依赖和正交结合
+moracin N,本体MASH未找到✗,神经铁死亡摘要/外推⚠,未知⚠,pending⚠,未测⚠,高,仅做肝细胞铁死亡区分实验
+scoparone,摘要级NASH/MASLD较强⚠,摘要级多通路⚠,未知⚠,pending⚠,未测⚠,中-高,全文核查后进入并行最小表型
+alisol B,摘要级MASLD/NASH较强⚠,摘要级Ces2a/RARα等⚠,未知⚠,母体/衍生物需分开⚠,未测⚠,中-高,确认母体与AB23A身份后再实验
+hyperoside,摘要级NASH/纤维化较强⚠,摘要级Flot2/TLR4/NLRP3/FXR⚠,未知⚠,糖苷身份pending⚠,多酚/糖苷未测⚠,高,全文核查ITC/CETSA与聚集风险
+ursolic acid,摘要级MASLD/NASH⚠,摘要级SPP1/decorin⚠,未知⚠,pending⚠,未测⚠,中-高,全文核查并评估溶解度/递送
+puerarin,摘要级NASH/MASLD强⚠,摘要级PAI-1/自噬/铁死亡⚠,未知⚠,糖苷/母体身份pending⚠,未测⚠,中-高,优先全文核查与可测性
+isoquercitrin,摘要级NASH/steatohepatitis⚠,摘要级galectin-3/NLRP3/AMPK⚠,未知⚠,异构/衍生物需分开⚠,未测⚠,中-高,核查本体与α-glycosyl衍生物
+1-deoxynojirimycin,摘要级CDAHFD/HFD-NASH⚠,摘要级菌群/自噬/PI3K⚠,未知⚠,pending⚠,未测⚠,中-高,全文核查CDAHFD纤维化数据
+vitexin,摘要级NAFLD/MASLD⚠,摘要级AMPK/自噬/PPARα⚠,未知⚠,糖苷立体/制剂需分开⚠,未测⚠,中,第二梯队
+epicatechin,摘要级NASH/MASLD⚠,摘要级AMPK/mTOR/EGR1⚠,低溶解/递送未知⚠,立体/母体需核查⚠,多酚未测⚠,中-高,第二梯队，先解决递送
+biochanin A,脂变级摘要✓,FXR全文✓,未知⚠,pending⚠,未测⚠,中,体系阳性对照
+daidzein,非代谢性纤维化摘要⚠,TR条件依赖摘要⚠,未知⚠,pending⚠,未测⚠,中-高,TR条件对照，不作MASH首选
+3'-methoxydaidzein,本体疾病未找到✗,直接FXR/TR未找到✗,未知⚠,取代位点需人工核查⚠,未测⚠,高,SAR探针，暂不首轮

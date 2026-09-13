@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-10",
+  "records": [
+    {
+      "pmcid": "PMC9231195",
+      "attempts": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9231195/pdf/",
+          "error": "HTTPSConnectionPool(host='pmc.ncbi.nlm.nih.gov', port=443): Max retries exceeded with url: /articles/PMC9231195/pdf/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='pmc.ncbi.nlm.nih.gov', port=443) at 0x27ff668a0c0>, 'Connection to pmc.ncbi.nlm.nih.gov timed out. (connect timeout=60)'))"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9231195/",
+          "status": 200,
+          "bytes": 21313,
+          "content_type": "text/html; charset=utf-8",
+          "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9231195/"
+        }
+      ],
+      "saved_html": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\evidence\\PMC9231195.html"
+    },
+    {
+      "pmcid": "PMC12832275",
+      "attempts": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12832275/pdf/",
+          "status": 200,
+          "bytes": 21326,
+          "content_type": "text/html; charset=utf-8",
+          "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12832275/pdf/"
+        }
+      ],
+      "saved_html": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\evidence\\PMC12832275.html"
+    },
+    {
+      "pmcid": "PMC12869213",
+      "attempts": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12869213/pdf/",
+          "status": 200,
+          "bytes": 21326,
+          "content_type": "text/html; charset=utf-8",
+          "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12869213/pdf/"
+        }
+      ],
+      "saved_html": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\evidence\\PMC12869213.html"
+    },
+    {
+      "pmcid": "PMC11261229",
+      "attempts": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11261229/pdf/",
+          "status": 200,
+          "bytes": 1817,
+          "content_type": "text/html; charset=utf-8",
+          "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11261229/pdf/cmh-2024-0047.pdf"
+        }
+      ],
+      "saved_html": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\evidence\\PMC11261229.html"
+    },
+    {
+      "pmcid": "PMC10668385",
+      "attempts": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10668385/pdf/",
+          "error": "HTTPSConnectionPool(host='pmc.ncbi.nlm.nih.gov', port=443): Max retries exceeded with url: /articles/PMC10668385/pdf/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='pmc.ncbi.nlm.nih.gov', port=443) at 0x27ff7028590>, 'Connection to pmc.ncbi.nlm.nih.gov timed out. (connect timeout=60)'))"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10668385/",
+          "status": 200,
+          "bytes": 21312,
+          "content_type": "text/html; charset=utf-8",
+          "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10668385/"
+        }
+      ],
+      "saved_html": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\evidence\\PMC10668385.html"
+    },
+    {
+      "pmcid": "PMC10218527",
+      "attempts": [
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10218527/pdf/",
+          "error": "HTTPSConnectionPool(host='pmc.ncbi.nlm.nih.gov', port=443): Max retries exceeded with url: /articles/PMC10218527/pdf/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='pmc.ncbi.nlm.nih.gov', port=443) at 0x27ff7028bf0>, 'Connection to pmc.ncbi.nlm.nih.gov timed out. (connect timeout=60)'))"
+        },
+        {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10218527/",
+          "status": 200,
+          "bytes": 21317,
+          "content_type": "text/html; charset=utf-8",
+          "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10218527/"
+        }
+      ],
+      "saved_html": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\evidence\\PMC10218527.html"
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "THRB": {
+    "dockscope_job_id": "AIDD-verify-THRB-2J4A-OEF-redock_20260909_122155_a8a07f",
+    "vina_best_affinity_kcal_mol": -7.028,
+    "pocket": {
+      "atom_count": 420,
+      "cavity_score": 28.186560098831244,
+      "center": [
+        1.7330000000000005,
+        9.207,
+        28.866
+      ],
+      "features": {
+        "base_size": 15.835,
+        "burial_neighbors": 71.0,
+        "contact_distance": 2.4596125711176544,
+        "local_atoms": 141.0,
+        "raw_extent_x": 15.835,
+        "raw_extent_y": 14.229,
+        "raw_extent_z": 14.145
+      },
+      "method": "cb_dock2_inspired_grid",
+      "pocket_id": "C1",
+      "residues": [
+        "A:ALA317",
+        "A:ALA318",
+        "A:ALA335",
+        "A:ALA352",
+        "A:ARG243",
+        "A:ARG316",
+        "A:ARG320",
+        "A:ARG338",
+        "A:ASN364",
+        "A:ASP322",
+        "A:ASP351",
+        "A:ASP355",
+        "A:ASP427",
+        "A:GLN340",
+        "A:GLU311",
+        "A:GLU324",
+        "A:GLU326",
+        "A:GLY339",
+        "A:GLY357",
+        "A:ILE353",
+        "A:ILE431",
+        "A:LEU315",
+        "A:LEU328",
+        "A:LEU341",
+        "A:LEU356",
+        "A:LEU360",
+        "A:LEU428",
+        "A:LYS240",
+        "A:LYS342",
+        "A:LYS424",
+        "A:MET313",
+        "A:MET358",
+        "A:PHE245",
+        "A:PHE354",
+        "A:PHE363",
+        "A:PRO323",
+        "A:SER314",
+        "A:SER325",
+        "A:SER350",
+        "A:SER359",
+        "A:SER361",
+        "A:SER362",
+        "A:THR327",
+        "A:THR337",
+        "A:TYR321",
+        "A:VAL319",
+        "A:VAL336",
+        "A:VAL348",
+        "A:VAL349"
+      ],
+      "size": [
+        25.835,
+        25.835,
+        25.835
+      ],
+      "volume": 15113.712811175
+    },
+    "rmsd_no_alignment_per_mode_A": [
+      18.8334,
+      17.9774,
+      18.8332,
+      18.1113,
+      18.9642,
+      18.9836,
+      18.2299,
+      19.1481,
+      19.8063
+    ],
+    "rmsd_best_mode_A": 18.8334,
+    "pose_threshold_pass_best_mode": false,
+    "rmsd_min_any_mode_A": 17.9774,
+    "project_ref_rmsd_seed42_A": 0.7192,
+    "project_ref_pass": true,
+    "docked_sha256": "84b3e2cfe1d6dd85f38645f1beb032ed4f454e64da797ffcdb9758b78fe1f929",
+    "receptor_input_sha256": "c9a69f39abb9a8363c10a97d9c3e6001f0b338f8cd21198fcd9d4d2289a86e04",
+    "ligand_input_sha256": "5148755484379200de97f5349ce6e0230cdcaef31397b146f5ee5f1459fe4e7e",
+    "command": "D:\\dockscope\\DockScopeLicensed\\resources\\tools\\vina.exe --receptor C:\\DockScopeData\\workspace\\dockscope\\data\\jobs\\AIDD-verify-THRB-2J4A-OEF-redock_20260909_122155_a8a07f\\run\\prepared\\proteins\\THRB_2J4A\\receptor.pdbqt --ligand C:\\DockScopeData\\workspace\\dockscope\\data\\jobs\\AIDD-verify-THRB-2J4A-OEF-redock_20260909_122155_a8a07f\\run\\prepared\\ligands\\C_DockScopeData_workspace_dockscope_data_jobs_AIDD-verify-THRB-2J4A-OEF-redock_20260909_12\\ligand.pdbqt --center_x 1.733 --center_y 9.207 --center_z 28.866 --size_x 25.835 --size_y 25.835 --size_z 25.835 --cpu 16 --exhaustiveness 8 --num_modes 9 --seed 1 --out C:\\DockScopeData\\workspace\\dockscope\\data\\jobs\\AIDD-verify-THRB-2J4A-OEF-redock_20260909_122155_a8a07f\\run\\tasks\\C_DockScopeData_workspace_dockscope_data_jobs_AIDD-verify-THRB-2J4A-OEF-redock_20260909_12__THRB_2J4A__C1\\engines\\vina_cpu\\C1\\docked.pdbqt"
+  },
+  "FASN": {
+    "dockscope_job_id": "AIDD-verify-FASN-7MHD-ZEP-redock_20260909_122431_b66e44",
+    "vina_best_affinity_kcal_mol": -7.911,
+    "pocket": {
+      "atom_count": 479,
+      "cavity_score": 27.239797953519652,
+      "center": [
+        8.114,
+        59.919,
+        159.588
+      ],
+      "features": {
+        "base_size": 15.132000000000005,
+        "burial_neighbors": 67.0,
+        "contact_distance": 2.2339418076574855,
+        "local_atoms": 137.0,
+        "raw_extent_x": 14.975999999999999,
+        "raw_extent_y": 13.392000000000003,
+        "raw_extent_z": 15.132000000000005
+      },
+      "method": "cb_dock2_inspired_grid",
+      "pocket_id": "C1",
+      "residues": [
+        "A:ALA286",
+        "A:ALA305",
+        "A:ALA311",
+        "A:ALA314",
+        "A:ALA429",
+        "A:ALA430",
+        "A:ARG447",
+        "A:ASN463",
+        "A:ASP338",
+        "A:CYS312",
+        "A:CYS318",
+        "A:CYS468",
+        "A:GLU316",
+        "A:GLY306",
+        "A:GLY310",
+        "A:GLY339",
+        "A:HIS248",
+        "A:ILE282",
+        "A:LEU246",
+        "A:LEU285",
+        "A:LEU334",
+        "A:LEU336",
+        "A:LEU345",
+        "A:LEU445",
+        "A:LEU446",
+        "A:LEU464",
+        "A:LEU484",
+        "A:LEU485",
+        "A:LYS426",
+        "A:MET317",
+        "A:MET444",
+        "A:PHE257",
+        "A:PHE315",
+        "A:PHE335",
+        "A:PHE337",
+        "A:PRO249",
+        "A:PRO341",
+        "A:PRO435",
+        "A:SER308",
+        "A:SER319",
+        "A:SER340",
+        "A:SER473",
+        "A:THR342",
+        "A:THR434",
+        "A:TYR289",
+        "A:TYR307",
+        "A:TYR309",
+        "A:TYR433",
+        "A:TYR439",
+        "A:VAL247",
+        "A:VAL304",
+        "A:VAL313",
+        "A:VAL344",
+        "A:VAL443",
+        "A:VAL467",
+        "A:VAL472"
+      ],
+      "size": [
+        25.132000000000005,
+        25.132000000000005,
+        25.132000000000005
+      ],
+      "volume": 14683.084294144004
+    },
+    "rmsd_no_alignment_per_mode_A": [
+      13.1536,
+      6.9048,
+      13.1434,
+      12.246,
+      12.253,
+      12.3518,
+      11.5703,
+      16.7484,
+      16.9473
+    ],
+    "rmsd_best_mode_A": 13.1536,
+    "pose_threshold_pass_best_mode": false,
+    "rmsd_min_any_mode_A": 6.9048,
+    "project_ref_rmsd_seed42_A": 2.0766,
+    "project_ref_pass": false,
+    "docked_sha256": "e089b345a70d0b3caf900ec380b571eed467afeaf6004a2c206774941f1e6a4b",
+    "receptor_input_sha256": "0a926334af2eae1ba6b551cdc8da2db2be95659e535b5a35b0501dbbe8f2e701",
+    "ligand_input_sha256": "896921ad1a1002dd5864a1674dc0a385058964401927338a842c2bf15a013275",
+    "command": "D:\\dockscope\\DockScopeLicensed\\resources\\tools\\vina.exe --receptor C:\\DockScopeData\\workspace\\dockscope\\data\\jobs\\AIDD-verify-FASN-7MHD-ZEP-redock_20260909_122431_b66e44\\run\\prepared\\proteins\\FASN_7MHD\\receptor.pdbqt --ligand C:\\DockScopeData\\workspace\\dockscope\\data\\jobs\\AIDD-verify-FASN-7MHD-ZEP-redock_20260909_122431_b66e44\\run\\prepared\\ligands\\C_DockScopeData_workspace_dockscope_data_jobs_AIDD-verify-FASN-7MHD-ZEP-redock_20260909_12\\ligand.pdbqt --center_x 8.114 --center_y 59.919 --center_z 159.588 --size_x 25.132 --size_y 25.132 --size_z 25.132 --cpu 16 --exhaustiveness 8 --num_modes 9 --seed 1 --out C:\\DockScopeData\\workspace\\dockscope\\data\\jobs\\AIDD-verify-FASN-7MHD-ZEP-redock_20260909_122431_b66e44\\run\\tasks\\C_DockScopeData_workspace_dockscope_data_jobs_AIDD-verify-FASN-7MHD-ZEP-redock_20260909_12__FASN_7MHD__C1\\engines\\vina_cpu\\C1\\docked.pdbqt"
+  },
+  "multiseed_project_protocol_dockscope_vina": {
+    "123": {
+      "THRB": {
+        "rmsd_no_alignment": 0.6254,
+        "pose_threshold_pass": true,
+        "vina_sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5"
+      },
+      "FASN": {
+        "rmsd_no_alignment": 2.0797,
+        "pose_threshold_pass": false,
+        "vina_sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5"
+      }
+    },
+    "20260909": {
+      "THRB": {
+        "rmsd_no_alignment": 0.7279,
+        "pose_threshold_pass": true,
+        "vina_sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5"
+      },
+      "FASN": {
+        "rmsd_no_alignment": 1.6287,
+        "pose_threshold_pass": true,
+        "vina_sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5"
+      }
+    },
+    "42": {
+      "THRB": {
+        "rmsd_no_alignment": 0.7192,
+        "pose_threshold_pass": true,
+        "vina_sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5"
+      },
+      "FASN": {
+        "rmsd_no_alignment": 2.0766,
+        "pose_threshold_pass": false,
+        "vina_sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5"
+      }
+    },
+    "7": {
+      "THRB": {
+        "rmsd_no_alignment": 0.7238,
+        "pose_threshold_pass": true,
+        "vina_sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5"
+      },
+      "FASN": {
+        "rmsd_no_alignment": 2.0878,
+        "pose_threshold_pass": false,
+        "vina_sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5"
+      }
+    }
+  },
+  "vina_binary": {
+    "path": "D:\\dockscope\\DockScopeLicensed\\resources\\tools\\vina.exe",
+    "sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5",
+    "note": "Byte-identical to DockScope bundled vina.exe and the vina.exe used by the 20260905 archived diagnostic (e0c4b271...)."
+  },
+  "conclusions": {
+    "THRB_2J4A_OEF": "4/4 seeds recover crystal pose (0.63-0.73 A). Pose-recovery gate robustly supported under CCD-corrected chemistry; receptor review still open per project protocol.",
+    "FASN_7MHD_ZEP": "1/4 seeds pass (1.63 A); other seeds 2.08 A sit at the 2.0 A threshold edge. Seed-sensitive; report recovery rate, do not adjudicate on a single seed. Platform fixed-box run also passes (1.654 A), consistent with site-marginal-recoverable interpretation: failures trace to pocket selection, not chemistry/engine.",
+    "dockscope_gui_auto_pocket": "Auto pocket (cb_dock2_inspired_grid) top-1 pocket misses the orthosteric site on both receptors (center offset ~12.4/12.5 A; only ~60% of crystal-ligand atoms inside box). THRB orthosteric pocket ranks 9th of 10 candidates; FASN best candidate is 12.5 A away. Platform default mode is NOT suitable for redocking validation; fixed crystallographic box (project protocol) required. NOTE: the result workbench DOES expose \"Edit docking box -> Save & re-dock\"; with crystal boxes both targets PASS (THRB 0.609 A, FASN 1.654 A), so the platform is suitable for fixed-box redocking via the workbench, just not via the upload-page auto-pocket default."
+  },
+  "platform_manual_crystal_box_redock": {
+    "what": "DockScope workbench \"Edit docking box -> Save & re-dock\": crystallographic boxes set in GUI; engine = platform vina.exe; receptor/ligand = platform-prepared files from the GUI runs.",
+    "THRB": {
+      "box_center": [
+        4.25,
+        20.95,
+        32.03
+      ],
+      "box_size": [
+        31.6,
+        29.8,
+        25.0
+      ],
+      "exhaustiveness": 16,
+      "seed": 1,
+      "best_affinity": -10.73,
+      "rmsd_best_mode_A": 0.609,
+      "pose_threshold_pass": true,
+      "pose_file": "dockscope_THRB/THRB_crystalbox_docked.pdbqt"
+    },
+    "FASN": {
+      "box_center": [
+        1.43,
+        61.22,
+        170.07
+      ],
+      "box_size": [
+        23.0,
+        26.8,
+        26.9
+      ],
+      "exhaustiveness": 8,
+      "seed": 1,
+      "best_affinity": -10.33,
+      "rmsd_best_mode_A": 1.654,
+      "pose_threshold_pass": true,
+      "pose_file": "dockscope_FASN/FASN_crystalbox_docked.pdbqt",
+      "note": "Platform in-app re-dock wrote scores but failed to write docked.pdbqt (Windows MAX_PATH: ligand_id embeds full source path, task dir exceeds 260 chars, vina fopen fails). Replayed the exact command from the platform log with a short --out path; modes 2-9 bitwise identical to platform log."
+    },
+    "platform_bug_long_path": "DockScope task directory name embeds the full input file path; on deep paths the vina output file open fails (returncode=1). Affects \"Save & re-dock\" outputs; scores still computed."
+  }
+}

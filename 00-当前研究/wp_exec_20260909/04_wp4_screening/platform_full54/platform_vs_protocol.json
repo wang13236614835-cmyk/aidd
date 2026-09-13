@@ -1,0 +1,499 @@
+{
+ "stats": {
+  "n": 54,
+  "spearman": 0.9058,
+  "kendall": 0.7904,
+  "absdiff_median": 0.103,
+  "absdiff_max": 2.578,
+  "within_0p5": 43,
+  "within_1p0": 51
+ },
+ "rows": [
+  {
+   "name": "moracin N",
+   "platform_box": -11.297,
+   "platform_autopocket": "-6.583",
+   "protocol_seed42": -11.24,
+   "diff": -0.057,
+   "platform_rank": 1,
+   "protocol_rank": 1
+  },
+  {
+   "name": "daidzein",
+   "platform_box": -10.108,
+   "platform_autopocket": "-7.841",
+   "protocol_seed42": -10.09,
+   "diff": -0.018,
+   "platform_rank": 2,
+   "protocol_rank": 2
+  },
+  {
+   "name": "moracin M",
+   "platform_box": -9.676,
+   "platform_autopocket": "-7.687",
+   "protocol_seed42": -9.66,
+   "diff": -0.016,
+   "platform_rank": 3,
+   "protocol_rank": 5
+  },
+  {
+   "name": "catechin",
+   "platform_box": -9.654,
+   "platform_autopocket": "-7.714",
+   "protocol_seed42": -9.771,
+   "diff": 0.117,
+   "platform_rank": 4,
+   "protocol_rank": 3
+  },
+  {
+   "name": "oxyresveratrol",
+   "platform_box": -9.637,
+   "platform_autopocket": "-7.673",
+   "protocol_seed42": -9.597,
+   "diff": -0.04,
+   "platform_rank": 5,
+   "protocol_rank": 7
+  },
+  {
+   "name": "3'-methoxydaidzein",
+   "platform_box": -9.619,
+   "platform_autopocket": "-6.883",
+   "protocol_seed42": -9.639,
+   "diff": 0.02,
+   "platform_rank": 6,
+   "protocol_rank": 6
+  },
+  {
+   "name": "capillarisin",
+   "platform_box": -9.508,
+   "platform_autopocket": "-7.006",
+   "protocol_seed42": -9.729,
+   "diff": 0.221,
+   "platform_rank": 7,
+   "protocol_rank": 4
+  },
+  {
+   "name": "epicatechin",
+   "platform_box": -9.45,
+   "platform_autopocket": "-7.616",
+   "protocol_seed42": -9.458,
+   "diff": 0.008,
+   "platform_rank": 8,
+   "protocol_rank": 8
+  },
+  {
+   "name": "biochanin A",
+   "platform_box": -9.317,
+   "platform_autopocket": "-6.748",
+   "protocol_seed42": -9.324,
+   "diff": 0.007,
+   "platform_rank": 9,
+   "protocol_rank": 9
+  },
+  {
+   "name": "formononetin",
+   "platform_box": -9.241,
+   "platform_autopocket": "-7.492",
+   "protocol_seed42": -9.234,
+   "diff": -0.007,
+   "platform_rank": 10,
+   "protocol_rank": 10
+  },
+  {
+   "name": "toralactone",
+   "platform_box": -8.872,
+   "platform_autopocket": "-7.133",
+   "protocol_seed42": -8.453,
+   "diff": -0.419,
+   "platform_rank": 11,
+   "protocol_rank": 13
+  },
+  {
+   "name": "isorhamnetin",
+   "platform_box": -8.437,
+   "platform_autopocket": "-7.61",
+   "protocol_seed42": -8.424,
+   "diff": -0.013,
+   "platform_rank": 12,
+   "protocol_rank": 14
+  },
+  {
+   "name": "rubrofusarin",
+   "platform_box": -8.393,
+   "platform_autopocket": "-7.345",
+   "protocol_seed42": -8.761,
+   "diff": 0.368,
+   "platform_rank": 13,
+   "protocol_rank": 12
+  },
+  {
+   "name": "genistin",
+   "platform_box": -8.227,
+   "platform_autopocket": "-7.004",
+   "protocol_seed42": -7.984,
+   "diff": -0.243,
+   "platform_rank": 14,
+   "protocol_rank": 17
+  },
+  {
+   "name": "torachrysone",
+   "platform_box": -8.144,
+   "platform_autopocket": "-6.179",
+   "protocol_seed42": -8.167,
+   "diff": 0.023,
+   "platform_rank": 15,
+   "protocol_rank": 16
+  },
+  {
+   "name": "daidzin",
+   "platform_box": -7.983,
+   "platform_autopocket": "-7.288",
+   "protocol_seed42": -8.909,
+   "diff": 0.926,
+   "platform_rank": 16,
+   "protocol_rank": 11
+  },
+  {
+   "name": "isovitexin",
+   "platform_box": -7.748,
+   "platform_autopocket": "-7.161",
+   "protocol_seed42": -8.319,
+   "diff": 0.571,
+   "platform_rank": 17,
+   "protocol_rank": 15
+  },
+  {
+   "name": "obtusifolin",
+   "platform_box": -7.696,
+   "platform_autopocket": "-7.517",
+   "protocol_seed42": -7.654,
+   "diff": -0.042,
+   "platform_rank": 18,
+   "protocol_rank": 20
+  },
+  {
+   "name": "niranthin",
+   "platform_box": -7.551,
+   "platform_autopocket": "-6.702",
+   "protocol_seed42": -7.717,
+   "diff": 0.166,
+   "platform_rank": 19,
+   "protocol_rank": 18
+  },
+  {
+   "name": "scopoletin",
+   "platform_box": -7.458,
+   "platform_autopocket": "-7.431",
+   "protocol_seed42": -7.454,
+   "diff": -0.004,
+   "platform_rank": 20,
+   "protocol_rank": 21
+  },
+  {
+   "name": "aurantio-obtusin",
+   "platform_box": -7.386,
+   "platform_autopocket": "-7.57",
+   "protocol_seed42": -7.421,
+   "diff": 0.035,
+   "platform_rank": 21,
+   "protocol_rank": 22
+  },
+  {
+   "name": "capillene",
+   "platform_box": -7.274,
+   "platform_autopocket": "-5.087",
+   "protocol_seed42": -7.291,
+   "diff": 0.017,
+   "platform_rank": 22,
+   "protocol_rank": 23
+  },
+  {
+   "name": "umbelliferone",
+   "platform_box": -7.272,
+   "platform_autopocket": "-7.295",
+   "protocol_seed42": -7.237,
+   "diff": -0.035,
+   "platform_rank": 23,
+   "protocol_rank": 25
+  },
+  {
+   "name": "arcapillin",
+   "platform_box": -7.216,
+   "platform_autopocket": "-6.952",
+   "protocol_seed42": -7.149,
+   "diff": -0.067,
+   "platform_rank": 24,
+   "protocol_rank": 27
+  },
+  {
+   "name": "capillin",
+   "platform_box": -7.209,
+   "platform_autopocket": "-5.248",
+   "protocol_seed42": -7.198,
+   "diff": -0.011,
+   "platform_rank": 25,
+   "protocol_rank": 26
+  },
+  {
+   "name": "alismol",
+   "platform_box": -7.091,
+   "platform_autopocket": "-5.999",
+   "protocol_seed42": -6.562,
+   "diff": -0.529,
+   "platform_rank": 26,
+   "protocol_rank": 38
+  },
+  {
+   "name": "scoparone",
+   "platform_box": -7.023,
+   "platform_autopocket": "-6.343",
+   "protocol_seed42": -7.064,
+   "diff": 0.041,
+   "platform_rank": 27,
+   "protocol_rank": 28
+  },
+  {
+   "name": "procyanidin B2",
+   "platform_box": -7.019,
+   "platform_autopocket": "-7.974",
+   "protocol_seed42": -5.69,
+   "diff": -1.329,
+   "platform_rank": 28,
+   "protocol_rank": 48
+  },
+  {
+   "name": "alismoxide",
+   "platform_box": -6.842,
+   "platform_autopocket": "-5.407",
+   "protocol_seed42": -4.264,
+   "diff": -2.578,
+   "platform_rank": 29,
+   "protocol_rank": 53
+  },
+  {
+   "name": "oleanolic acid",
+   "platform_box": -6.735,
+   "platform_autopocket": "-6.945",
+   "protocol_seed42": -6.861,
+   "diff": 0.126,
+   "platform_rank": 30,
+   "protocol_rank": 32
+  },
+  {
+   "name": "ononin",
+   "platform_box": -6.727,
+   "platform_autopocket": "-7.073",
+   "protocol_seed42": -6.631,
+   "diff": -0.096,
+   "platform_rank": 31,
+   "protocol_rank": 37
+  },
+  {
+   "name": "corosolic acid",
+   "platform_box": -6.628,
+   "platform_autopocket": "-7.315",
+   "protocol_seed42": -6.721,
+   "diff": 0.093,
+   "platform_rank": 32,
+   "protocol_rank": 34
+  },
+  {
+   "name": "ursolic acid",
+   "platform_box": -6.602,
+   "platform_autopocket": "-7.611",
+   "protocol_seed42": -6.975,
+   "diff": 0.373,
+   "platform_rank": 33,
+   "protocol_rank": 31
+  },
+  {
+   "name": "maslinic acid",
+   "platform_box": -6.588,
+   "platform_autopocket": "-7.373",
+   "protocol_seed42": -7.011,
+   "diff": 0.423,
+   "platform_rank": 34,
+   "protocol_rank": 30
+  },
+  {
+   "name": "alisol B",
+   "platform_box": -6.556,
+   "platform_autopocket": "-7.776",
+   "protocol_seed42": -6.659,
+   "diff": 0.103,
+   "platform_rank": 35,
+   "protocol_rank": 36
+  },
+  {
+   "name": "alisol C",
+   "platform_box": -6.516,
+   "platform_autopocket": "-8.176",
+   "protocol_seed42": -6.481,
+   "diff": -0.035,
+   "platform_rank": 36,
+   "protocol_rank": 39
+  },
+  {
+   "name": "sarmentosin",
+   "platform_box": -6.512,
+   "platform_autopocket": "-6.346",
+   "protocol_seed42": -7.28,
+   "diff": 0.768,
+   "platform_rank": 37,
+   "protocol_rank": 24
+  },
+  {
+   "name": "mulberrofuran G",
+   "platform_box": -6.476,
+   "platform_autopocket": "-7.38",
+   "protocol_seed42": -6.401,
+   "diff": -0.075,
+   "platform_rank": 38,
+   "protocol_rank": 41
+  },
+  {
+   "name": "tormentic acid",
+   "platform_box": -6.454,
+   "platform_autopocket": "-6.959",
+   "protocol_seed42": -6.683,
+   "diff": 0.229,
+   "platform_rank": 39,
+   "protocol_rank": 35
+  },
+  {
+   "name": "1,2-dimethoxy-4-vinylbenzene",
+   "platform_box": -6.442,
+   "platform_autopocket": "-6.422",
+   "protocol_seed42": -6.407,
+   "diff": -0.035,
+   "platform_rank": 40,
+   "protocol_rank": 40
+  },
+  {
+   "name": "alisol B acetate",
+   "platform_box": -6.39,
+   "platform_autopocket": "-7.636",
+   "protocol_seed42": -7.055,
+   "diff": 0.665,
+   "platform_rank": 41,
+   "protocol_rank": 29
+  },
+  {
+   "name": "vitexin",
+   "platform_box": -6.336,
+   "platform_autopocket": "-7.606",
+   "protocol_seed42": -6.377,
+   "diff": 0.041,
+   "platform_rank": 42,
+   "protocol_rank": 43
+  },
+  {
+   "name": "piceid",
+   "platform_box": -6.269,
+   "platform_autopocket": "-7.881",
+   "protocol_seed42": -7.694,
+   "diff": 1.425,
+   "platform_rank": 43,
+   "protocol_rank": 19
+  },
+  {
+   "name": "puerarin",
+   "platform_box": -6.148,
+   "platform_autopocket": "-7.923",
+   "protocol_seed42": -6.076,
+   "diff": -0.072,
+   "platform_rank": 44,
+   "protocol_rank": 45
+  },
+  {
+   "name": "hyperoside",
+   "platform_box": -6.092,
+   "platform_autopocket": "-8.279",
+   "protocol_seed42": -5.906,
+   "diff": -0.186,
+   "platform_rank": 45,
+   "protocol_rank": 47
+  },
+  {
+   "name": "16-oxo-alisol A",
+   "platform_box": -5.966,
+   "platform_autopocket": "-7.824",
+   "protocol_seed42": -6.055,
+   "diff": 0.089,
+   "platform_rank": 46,
+   "protocol_rank": 46
+  },
+  {
+   "name": "obtusin",
+   "platform_box": -5.87,
+   "platform_autopocket": "-6.935",
+   "protocol_seed42": -6.76,
+   "diff": 0.89,
+   "platform_rank": 47,
+   "protocol_rank": 33
+  },
+  {
+   "name": "isoquercitrin",
+   "platform_box": -5.841,
+   "platform_autopocket": "-8.369",
+   "protocol_seed42": -6.234,
+   "diff": 0.393,
+   "platform_rank": 48,
+   "protocol_rank": 44
+  },
+  {
+   "name": "alisol A",
+   "platform_box": -5.79,
+   "platform_autopocket": "-8.163",
+   "protocol_seed42": -6.382,
+   "diff": 0.592,
+   "platform_rank": 49,
+   "protocol_rank": 42
+  },
+  {
+   "name": "astragalin",
+   "platform_box": -5.611,
+   "platform_autopocket": "-7.303",
+   "protocol_seed42": -5.565,
+   "diff": -0.046,
+   "platform_rank": 50,
+   "protocol_rank": 49
+  },
+  {
+   "name": "chryso-obtusin",
+   "platform_box": -5.348,
+   "platform_autopocket": "-6.696",
+   "protocol_seed42": -5.468,
+   "diff": 0.12,
+   "platform_rank": 51,
+   "protocol_rank": 50
+  },
+  {
+   "name": "1-deoxynojirimycin",
+   "platform_box": -5.123,
+   "platform_autopocket": "-5.045",
+   "protocol_seed42": -5.409,
+   "diff": 0.286,
+   "platform_rank": 52,
+   "protocol_rank": 51
+  },
+  {
+   "name": "hypophyllanthin",
+   "platform_box": -4.893,
+   "platform_autopocket": "-6.156",
+   "protocol_seed42": -4.231,
+   "diff": -0.662,
+   "platform_rank": 53,
+   "protocol_rank": 54
+  },
+  {
+   "name": "nirtetralin",
+   "platform_box": -4.813,
+   "platform_autopocket": "-6.394",
+   "protocol_seed42": -4.586,
+   "diff": -0.227,
+   "platform_rank": 54,
+   "protocol_rank": 52
+  }
+ ]
+}

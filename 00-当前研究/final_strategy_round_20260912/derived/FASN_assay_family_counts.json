@@ -1,0 +1,25 @@
+{
+  "record_counts_by_assay_family": {
+    "cell_extract": 1139,
+    "full_length_stated": 302,
+    "other_or_unknown": 185,
+    "TE_domain": 24,
+    "KR_domain": 2
+  },
+  "molecule_counts_by_assay_family": {
+    "KR_domain": 2,
+    "TE_domain": 19,
+    "cell_extract": 804,
+    "full_length_stated": 208,
+    "other_or_unknown": 160
+  },
+  "assay_counts_by_family": {
+    "other_or_unknown": 37,
+    "TE_domain": 3,
+    "KR_domain": 1,
+    "cell_extract": 5,
+    "full_length_stated": 5
+  },
+  "spa_mirror_common_molecules": 89,
+  "spa_mirror_exact_value_matches": 90
+}

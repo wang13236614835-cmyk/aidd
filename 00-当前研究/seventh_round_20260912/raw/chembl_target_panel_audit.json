@@ -1,0 +1,89 @@
+{
+  "query_date": "2026-09-12",
+  "panel": {
+    "FASN_human": {
+      "target_chembl_id": "CHEMBL4158",
+      "total_activities": 5541,
+      "exact_eq_by_type": {
+        "IC50": 1630,
+        "EC50": 0,
+        "Ki": 20,
+        "Kd": 2,
+        "AC50": 0,
+        "Potency": 0
+      }
+    },
+    "THRB_human": {
+      "target_chembl_id": "CHEMBL1947",
+      "total_activities": 8122,
+      "exact_eq_by_type": {
+        "IC50": 541,
+        "EC50": 191,
+        "Ki": 118,
+        "Kd": 35,
+        "AC50": 0,
+        "Potency": 5954
+      }
+    },
+    "THRA_human": {
+      "target_chembl_id": "CHEMBL2035",
+      "total_activities": 5620,
+      "exact_eq_by_type": {
+        "IC50": 487,
+        "EC50": 213,
+        "Ki": 790,
+        "Kd": 4,
+        "AC50": 23,
+        "Potency": 0
+      }
+    },
+    "FXR_human": {
+      "target_chembl_id": "CHEMBL2047",
+      "total_activities": 13588,
+      "exact_eq_by_type": {
+        "IC50": 470,
+        "EC50": 3774,
+        "Ki": 0,
+        "Kd": 8,
+        "AC50": 16,
+        "Potency": 0
+      }
+    },
+    "ACACA_human": {
+      "target_chembl_id": "CHEMBL3351",
+      "total_activities": 1137,
+      "exact_eq_by_type": {
+        "IC50": 689,
+        "EC50": 6,
+        "Ki": 0,
+        "Kd": 2,
+        "AC50": 0,
+        "Potency": 0
+      }
+    },
+    "ACACB_human": {
+      "target_chembl_id": "CHEMBL4829",
+      "total_activities": 6083,
+      "exact_eq_by_type": {
+        "IC50": 4220,
+        "EC50": 0,
+        "Ki": 0,
+        "Kd": 2,
+        "AC50": 0,
+        "Potency": 0
+      }
+    },
+    "KEAP1_human": {
+      "target_chembl_id": "CHEMBL2069156",
+      "total_activities": 1835,
+      "exact_eq_by_type": {
+        "IC50": 292,
+        "EC50": 30,
+        "Ki": 27,
+        "Kd": 266,
+        "AC50": 0,
+        "Potency": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,272 @@
+[
+ {
+  "name": "ursolic acid",
+  "wt_box_best": -5.846,
+  "status": "completed"
+ },
+ {
+  "name": "oleanolic acid",
+  "wt_box_best": -5.39,
+  "status": "completed"
+ },
+ {
+  "name": "alisol C",
+  "wt_box_best": -5.658,
+  "status": "completed"
+ },
+ {
+  "name": "ononin",
+  "wt_box_best": -7.66,
+  "status": "completed"
+ },
+ {
+  "name": "puerarin",
+  "wt_box_best": -5.319,
+  "status": "completed"
+ },
+ {
+  "name": "alisol B",
+  "wt_box_best": -5.726,
+  "status": "completed"
+ },
+ {
+  "name": "daidzin",
+  "wt_box_best": -9.325,
+  "status": "completed"
+ },
+ {
+  "name": "mulberrofuran G",
+  "wt_box_best": -5.851,
+  "status": "completed"
+ },
+ {
+  "name": "corosolic acid",
+  "wt_box_best": -5.608,
+  "status": "completed"
+ },
+ {
+  "name": "maslinic acid",
+  "wt_box_best": -5.373,
+  "status": "completed"
+ },
+ {
+  "name": "obtusin",
+  "wt_box_best": -6.296,
+  "status": "completed"
+ },
+ {
+  "name": "tormentic acid",
+  "wt_box_best": -5.045,
+  "status": "completed"
+ },
+ {
+  "name": "aurantio-obtusin",
+  "wt_box_best": -6.388,
+  "status": "completed"
+ },
+ {
+  "name": "alisol A",
+  "wt_box_best": -6.921,
+  "status": "completed"
+ },
+ {
+  "name": "genistin",
+  "wt_box_best": -8.585,
+  "status": "completed"
+ },
+ {
+  "name": "isovitexin",
+  "wt_box_best": -8.002,
+  "status": "completed"
+ },
+ {
+  "name": "piceid",
+  "wt_box_best": -8.244,
+  "status": "completed"
+ },
+ {
+  "name": "16-oxo-alisol A",
+  "wt_box_best": -5.612,
+  "status": "completed"
+ },
+ {
+  "name": "moracin N",
+  "wt_box_best": -10.792,
+  "status": "completed"
+ },
+ {
+  "name": "astragalin",
+  "wt_box_best": -5.423,
+  "status": "completed"
+ },
+ {
+  "name": "vitexin",
+  "wt_box_best": -5.836,
+  "status": "completed"
+ },
+ {
+  "name": "obtusifolin",
+  "wt_box_best": -6.955,
+  "status": "completed"
+ },
+ {
+  "name": "isoquercitrin",
+  "wt_box_best": -5.361,
+  "status": "completed"
+ },
+ {
+  "name": "epicatechin",
+  "wt_box_best": -8.541,
+  "status": "completed"
+ },
+ {
+  "name": "hyperoside",
+  "wt_box_best": -5.165,
+  "status": "completed"
+ },
+ {
+  "name": "arcapillin",
+  "wt_box_best": -7.301,
+  "status": "completed"
+ },
+ {
+  "name": "chryso-obtusin",
+  "wt_box_best": -4.784,
+  "status": "completed"
+ },
+ {
+  "name": "alisol B acetate",
+  "wt_box_best": -5.416,
+  "status": "completed"
+ },
+ {
+  "name": "daidzein",
+  "wt_box_best": -9.582,
+  "status": "completed"
+ },
+ {
+  "name": "formononetin",
+  "wt_box_best": -9.025,
+  "status": "completed"
+ },
+ {
+  "name": "toralactone",
+  "wt_box_best": -7.752,
+  "status": "completed"
+ },
+ {
+  "name": "biochanin A",
+  "wt_box_best": -9.26,
+  "status": "completed"
+ },
+ {
+  "name": "catechin",
+  "wt_box_best": -8.258,
+  "status": "completed"
+ },
+ {
+  "name": "oxyresveratrol",
+  "wt_box_best": -9.081,
+  "status": "completed"
+ },
+ {
+  "name": "moracin M",
+  "wt_box_best": -9.214,
+  "status": "completed"
+ },
+ {
+  "name": "3'-methoxydaidzein",
+  "wt_box_best": -9.72,
+  "status": "completed"
+ },
+ {
+  "name": "capillarisin",
+  "wt_box_best": -9.036,
+  "status": "completed"
+ },
+ {
+  "name": "rubrofusarin",
+  "wt_box_best": -7.008,
+  "status": "completed"
+ },
+ {
+  "name": "niranthin",
+  "wt_box_best": -9.19,
+  "status": "completed"
+ },
+ {
+  "name": "isorhamnetin",
+  "wt_box_best": -8.23,
+  "status": "completed"
+ },
+ {
+  "name": "hypophyllanthin",
+  "wt_box_best": -3.95,
+  "status": "completed"
+ },
+ {
+  "name": "procyanidin B2",
+  "wt_box_best": 5.462,
+  "status": "completed"
+ },
+ {
+  "name": "torachrysone",
+  "wt_box_best": -7.678,
+  "status": "completed"
+ },
+ {
+  "name": "scopoletin",
+  "wt_box_best": -6.903,
+  "status": "completed"
+ },
+ {
+  "name": "umbelliferone",
+  "wt_box_best": -6.742,
+  "status": "completed"
+ },
+ {
+  "name": "sarmentosin",
+  "wt_box_best": -6.979,
+  "status": "completed"
+ },
+ {
+  "name": "capillin",
+  "wt_box_best": -6.727,
+  "status": "completed"
+ },
+ {
+  "name": "nirtetralin",
+  "wt_box_best": -4.352,
+  "status": "completed"
+ },
+ {
+  "name": "scoparone",
+  "wt_box_best": -6.65,
+  "status": "completed"
+ },
+ {
+  "name": "capillene",
+  "wt_box_best": -6.788,
+  "status": "completed"
+ },
+ {
+  "name": "alismoxide",
+  "wt_box_best": -6.997,
+  "status": "completed"
+ },
+ {
+  "name": "alismol",
+  "wt_box_best": -7.327,
+  "status": "completed"
+ },
+ {
+  "name": "1-deoxynojirimycin",
+  "wt_box_best": -5.164,
+  "status": "completed"
+ },
+ {
+  "name": "1,2-dimethoxy-4-vinylbenzene",
+  "wt_box_best": -6.294,
+  "status": "completed"
+ }
+]

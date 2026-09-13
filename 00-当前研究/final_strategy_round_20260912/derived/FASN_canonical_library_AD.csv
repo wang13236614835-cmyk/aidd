@@ -1,0 +1,55 @@
+﻿herb,name,max_Tanimoto_to_canonical_training,AD_status
+Artemisia capillaris(茵陈),scoparone,0.16666666666666666,exploratory_OOD_no_release_threshold
+Artemisia capillaris(茵陈),scopoletin,0.17073170731707318,exploratory_OOD_no_release_threshold
+Artemisia capillaris(茵陈),umbelliferone,0.14285714285714285,exploratory_OOD_no_release_threshold
+Artemisia capillaris(茵陈),capillarisin,0.1276595744680851,exploratory_OOD_no_release_threshold
+Artemisia capillaris(茵陈),arcapillin,0.12903225806451613,exploratory_OOD_no_release_threshold
+Artemisia capillaris(茵陈),capillin,0.1267605633802817,exploratory_OOD_no_release_threshold
+Artemisia capillaris(茵陈),capillene,0.11392405063291139,exploratory_OOD_no_release_threshold
+Artemisia capillaris(茵陈),"1,2-dimethoxy-4-vinylbenzene",0.08641975308641975,exploratory_OOD_no_release_threshold
+Artemisia capillaris(茵陈),isorhamnetin,0.15217391304347827,exploratory_OOD_no_release_threshold
+Crataegus pinnatifida(山楂),vitexin,0.14444444444444443,exploratory_OOD_no_release_threshold
+Crataegus pinnatifida(山楂),isovitexin,0.15217391304347827,exploratory_OOD_no_release_threshold
+Crataegus pinnatifida(山楂),hyperoside,0.14583333333333334,exploratory_OOD_no_release_threshold
+Crataegus pinnatifida(山楂),isoquercitrin,0.14150943396226415,exploratory_OOD_no_release_threshold
+Crataegus pinnatifida(山楂),epicatechin,0.0989010989010989,exploratory_OOD_no_release_threshold
+Crataegus pinnatifida(山楂),procyanidin B2,0.09473684210526316,exploratory_OOD_no_release_threshold
+Crataegus pinnatifida(山楂),ursolic acid,0.13953488372093023,exploratory_OOD_no_release_threshold
+Crataegus pinnatifida(山楂),oleanolic acid,0.1326530612244898,exploratory_OOD_no_release_threshold
+Crataegus pinnatifida(山楂),corosolic acid,0.13793103448275862,exploratory_OOD_no_release_threshold
+Crataegus pinnatifida(山楂),maslinic acid,0.1326530612244898,exploratory_OOD_no_release_threshold
+Crataegus pinnatifida(山楂),tormentic acid,0.14423076923076922,exploratory_OOD_no_release_threshold
+Alisma orientale(泽泻),alisol A,0.1388888888888889,exploratory_OOD_no_release_threshold
+Alisma orientale(泽泻),alisol B,0.14018691588785046,exploratory_OOD_no_release_threshold
+Alisma orientale(泽泻),alisol C,0.13761467889908258,exploratory_OOD_no_release_threshold
+Alisma orientale(泽泻),alisol B acetate,0.14285714285714285,exploratory_OOD_no_release_threshold
+Alisma orientale(泽泻),16-oxo-alisol A,0.13636363636363635,exploratory_OOD_no_release_threshold
+Alisma orientale(泽泻),alismol,0.1411764705882353,exploratory_OOD_no_release_threshold
+Alisma orientale(泽泻),alismoxide,0.13253012048192772,exploratory_OOD_no_release_threshold
+Cassia obtusifolia(决明子),obtusifolin,0.1348314606741573,exploratory_OOD_no_release_threshold
+Cassia obtusifolia(决明子),obtusin,0.13414634146341464,exploratory_OOD_no_release_threshold
+Cassia obtusifolia(决明子),aurantio-obtusin,0.13580246913580246,exploratory_OOD_no_release_threshold
+Cassia obtusifolia(决明子),chryso-obtusin,0.13580246913580246,exploratory_OOD_no_release_threshold
+Cassia obtusifolia(决明子),rubrofusarin,0.13333333333333333,exploratory_OOD_no_release_threshold
+Cassia obtusifolia(决明子),toralactone,0.13253012048192772,exploratory_OOD_no_release_threshold
+Pueraria lobata(葛根),puerarin,0.15555555555555556,exploratory_OOD_no_release_threshold
+Pueraria lobata(葛根),daidzein,0.15584415584415584,exploratory_OOD_no_release_threshold
+Pueraria lobata(葛根),daidzin,0.14893617021276595,exploratory_OOD_no_release_threshold
+Pueraria lobata(葛根),genistin,0.14893617021276595,exploratory_OOD_no_release_threshold
+Pueraria lobata(葛根),formononetin,0.17045454545454544,exploratory_OOD_no_release_threshold
+Pueraria lobata(葛根),biochanin A,0.16853932584269662,exploratory_OOD_no_release_threshold
+Pueraria lobata(葛根),3'-methoxydaidzein,0.16483516483516483,exploratory_OOD_no_release_threshold
+Pueraria lobata(葛根),ononin,0.17,exploratory_OOD_no_release_threshold
+Sedum sarmentosum(垂盆草),sarmentosin,0.07777777777777778,exploratory_OOD_no_release_threshold
+Phyllanthus niruri(叶下珠),hypophyllanthin,0.13131313131313133,exploratory_OOD_no_release_threshold
+Phyllanthus niruri(叶下珠),nirtetralin,0.1262135922330097,exploratory_OOD_no_release_threshold
+Phyllanthus niruri(叶下珠),niranthin,0.11458333333333333,exploratory_OOD_no_release_threshold
+Morus alba(桑叶),1-deoxynojirimycin,0.08450704225352113,exploratory_OOD_no_release_threshold
+Morus alba(桑叶),oxyresveratrol,0.09090909090909091,exploratory_OOD_no_release_threshold
+Morus alba(桑叶),astragalin,0.14893617021276595,exploratory_OOD_no_release_threshold
+Morus alba(桑叶),moracin N,0.13333333333333333,exploratory_OOD_no_release_threshold
+Morus alba(桑叶),moracin M,0.13333333333333333,exploratory_OOD_no_release_threshold
+Morus alba(桑叶),mulberrofuran G,0.13636363636363635,exploratory_OOD_no_release_threshold
+Polygonum cuspidatum(虎杖),piceid,0.10465116279069768,exploratory_OOD_no_release_threshold
+Polygonum cuspidatum(虎杖),catechin,0.0989010989010989,exploratory_OOD_no_release_threshold
+Polygonum cuspidatum(虎杖),torachrysone,0.15,exploratory_OOD_no_release_threshold

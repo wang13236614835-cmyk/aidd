@@ -1,0 +1,8 @@
+﻿group,viability,TG_lipid_staining,C11_BODIPY,optional_5th_readout,status,axis_A_anti_steatotic,axis_B_anti_lipotoxic,note
+Control,,,,not_executed,,,,
+PA/OA Model,,,,not_executed,,,,
+Model+MN low(0.3µM),,,,not_executed,,,低中高三档从无毒窗内选,
+Model+MN medium(3µM),,,,not_executed,,,,
+Model+MN high(10µM),,,,not_executed,,,,
+Model+Fer-1(1µM),,,,not_executed,,,系统级铁死亡参照,
+判读规则:Axis A=TG/脂滴下降;Axis B=C11/活力改善;A+B+=最佳;A−B+=保留为anti-lipotoxic/anti-ferroptotic候选;A+B−=机制非ferroptosis主导;A−B−=优先级显著下降;禁止TG不降即一票否决,,,,not_executed,,,,仅Gate1出现B+才进入Gate2/3;B−则不购NRF2机制试剂

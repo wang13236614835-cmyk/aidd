@@ -1,0 +1,15 @@
+{
+  "generated": "2026-09-12",
+  "tiers_total_cny": {
+    "最低档(试用装全成功)": 3685,
+    "标准档(全采购)": 4804,
+    "扩展档": 8845
+  },
+  "standard_tier_lever": "若 MCE 试用装成功申领 formononetin（¥299），标准档降至 4505 元",
+  "max_sunk_cost_if_gate1_fails": 3419,
+  "stage_totals_standard": {
+    "Gate1": 3419,
+    "Gate2": 850,
+    "Gate3": 535
+  }
+}

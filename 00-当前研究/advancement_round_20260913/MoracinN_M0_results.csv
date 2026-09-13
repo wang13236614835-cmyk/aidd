@@ -1,0 +1,8 @@
+test_id,test_name,planned_procedure,acceptance_or_interpretation_rule,status,result_value,note
+M0-1a,母液外观与冻融稳定性,10mM DMSO母液外观记录;-80°C冻融1次后复检,记录项无淘汰线,not_executed,,导师批准+到货后执行
+M0-1b,培养基梯度浊度,0.1-30µM梯度(DMSO恒0.1%);肉眼+OD600/OD340;30µM离心上清对比,30µM持续浊度且离心不消除→弃用30µM点;全点浊度→材料不可行,not_executed,,
+M0-2,吸光光谱,无细胞体系含/不含MN(1/10/30µM) 300-700nm全谱,读数窗A>0.05→标记该通道受扰改用替代读数,not_executed,,
+M0-3,荧光本底,Ex488/Em500-550(DCF窗)与Ex581/Em590-620(C11窗)含/不含MN,本底>空白3SD→该探针通道降级exploratory或换读数,not_executed,,
+M0-4,探针直接反应,DCFH-DA+MN无细胞无氧化剂;C11-BODIPY+MN 38°C 1h,DCFH直接反应不可排除→放弃DCF作Gate2读数;C11漂移>10%→标记干扰,not_executed,,关键测试:酚类直接还原DCFH是假阳性经典来源
+M0-5,CCK-8化学干扰,无细胞培养基+CCK-8+MN(0-30µM)标准孵育,A450漂移>10%→活力读数以含药无细胞空白孔扣除并报告修正,not_executed,,
+M0-6,工具药同场复核,ML385 5µM与Fer-1 1µM重复M0-1/2/3,工具药自身干扰不得带入Gate2/3解释,not_executed,,

@@ -1,0 +1,88 @@
+{
+  "query_date": "2026-09-12",
+  "results": {
+    "FASN_human": {
+      "target_chembl_id": "CHEMBL4158",
+      "std_types": [
+        "IC50",
+        "Ki",
+        "Kd"
+      ],
+      "distinct_molecules": 1139,
+      "distinct_assays": 51,
+      "distinct_documents": 34,
+      "records": 1652
+    },
+    "THRB_human": {
+      "target_chembl_id": "CHEMBL1947",
+      "std_types": [
+        "IC50",
+        "EC50",
+        "Ki",
+        "Kd"
+      ],
+      "distinct_molecules": 658,
+      "distinct_assays": 73,
+      "distinct_documents": 49,
+      "records": 885
+    },
+    "FXR_human": {
+      "target_chembl_id": "CHEMBL2047",
+      "std_types": [
+        "IC50",
+        "EC50",
+        "Kd"
+      ],
+      "distinct_molecules": 3338,
+      "distinct_assays": 290,
+      "distinct_documents": 157,
+      "records": 4252
+    },
+    "KEAP1_human": {
+      "target_chembl_id": "CHEMBL2069156",
+      "std_types": [
+        "IC50",
+        "EC50",
+        "Ki",
+        "Kd"
+      ],
+      "distinct_molecules": 460,
+      "distinct_assays": 111,
+      "distinct_documents": 49,
+      "records": 615
+    },
+    "ACACB_human": {
+      "target_chembl_id": "CHEMBL4829",
+      "std_types": [
+        "IC50"
+      ],
+      "distinct_molecules": 4001,
+      "distinct_assays": 60,
+      "distinct_documents": 52,
+      "records": 4220
+    },
+    "ACACA_human": {
+      "target_chembl_id": "CHEMBL3351",
+      "std_types": [
+        "IC50"
+      ],
+      "distinct_molecules": 547,
+      "distinct_assays": 47,
+      "distinct_documents": 40,
+      "records": 689
+    },
+    "THRA_human": {
+      "target_chembl_id": "CHEMBL2035",
+      "std_types": [
+        "IC50",
+        "EC50",
+        "Ki",
+        "Kd"
+      ],
+      "distinct_molecules": 1128,
+      "distinct_assays": 168,
+      "distinct_documents": 138,
+      "records": 1494
+    }
+  }
+}

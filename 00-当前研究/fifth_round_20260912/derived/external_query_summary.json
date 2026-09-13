@@ -1,0 +1,18 @@
+{
+  "generated_utc": "2026-09-12T06:14:12.398643+00:00",
+  "records": 570,
+  "by_database": {
+    "bindingdb": 10,
+    "chembl": 85,
+    "clinicaltrials": 10,
+    "cnipa": 5,
+    "cnki": 5,
+    "crossref": 30,
+    "google_patents": 5,
+    "google_scholar": 5,
+    "pubchem": 5,
+    "pubchem_bioassay": 5,
+    "pubmed": 400,
+    "wipo": 5
+  }
+}

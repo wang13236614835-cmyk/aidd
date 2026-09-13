@@ -1,0 +1,43 @@
+﻿target_label,standard_type,assay_type,bao_label,n_records
+thrb,Potency,F,assay format,5920
+fxr,EC50,B,cell-based format,2072
+fxr,EC50,B,single protein format,1235
+thrb,IC50,B,single protein format,329
+fxr,IC50,B,single protein format,255
+fxr,EC50,F,cell-based format,240
+thra,IC50,B,single protein format,201
+fxr,IC50,B,cell-based format,194
+thrb,IC50,B,assay format,129
+fxr,EC50,F,assay format,96
+thrb,EC50,B,cell-based format,92
+thrb,Ki,B,single protein format,76
+fxr,EC50,B,assay format,70
+thrb,EC50,B,single protein format,60
+thrb,IC50,B,cell-based format,60
+thra,EC50,B,cell-based format,53
+thra,Ki,B,single protein format,51
+thra,EC50,B,single protein format,50
+thra,IC50,B,assay format,47
+thra,EC50,B,assay format,46
+thrb,Ki,B,cell-based format,42
+thra,Ki,B,cell-based format,37
+thrb,Kd,B,single protein format,34
+thra,Kd,B,single protein format,30
+thrb,EC50,B,assay format,26
+thra,IC50,B,cell-based format,25
+fxr,IC50,F,cell-based format,20
+thrb,IC50,F,assay format,19
+thra,IC50,F,assay format,18
+fxr,AC50,F,assay format,16
+thrb,EC50,F,cell-based format,13
+thra,EC50,F,cell-based format,7
+thra,EC50,F,assay format,5
+fxr,Kd,B,single protein format,5
+thrb,IC50,F,cell-based format,3
+fxr,Kd,B,cell-based format,3
+thra,IC50,F,cell-based format,2
+fxr,EC50,U,assay format,2
+thra,Kd,F,assay format,1
+thrb,IC50,B,cell-free format,1
+thra,EC50,A,single protein format,1
+thrb,Kd,F,assay format,1

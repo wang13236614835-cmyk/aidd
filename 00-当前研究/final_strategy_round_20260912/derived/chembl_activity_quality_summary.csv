@@ -1,0 +1,7 @@
+﻿route,target_chembl_id,exact_records,distinct_molecules,distinct_assays,distinct_documents,positive_nM_convertible,nonpositive_numeric,molecules_with_multiple_records,standard_type,standard_units,standard_relation
+FASN,CHEMBL4158,1652,1139,51,34,1637,0,475,"{""IC50"": 1630, ""Ki"": 20, ""Kd"": 2}","{""ug.mL-1"": 15, ""nM"": 1637}","{""="": 1652}"
+THRB,CHEMBL1947,6839,5669,85,50,6839,0,787,"{""IC50"": 541, ""EC50"": 191, ""Ki"": 118, ""Kd"": 35, ""Potency"": 5954}","{""nM"": 6839}","{""="": 6839}"
+FXR,CHEMBL2047,4252,3338,290,157,4196,56,628,"{""IC50"": 470, ""EC50"": 3774, ""Kd"": 8}","{""nM"": 4252}","{""="": 4252}"
+KEAP1,CHEMBL2069156,615,460,111,49,600,0,77,"{""IC50"": 292, ""EC50"": 30, ""Ki"": 27, ""Kd"": 266}","{""nM"": 600, ""10'3/s"": 3, ""10^3nM"": 12}","{""="": 615}"
+ACC1,CHEMBL3351,697,555,49,42,697,0,76,"{""IC50"": 689, ""EC50"": 6, ""Kd"": 2}","{""nM"": 697}","{""="": 697}"
+ACC2,CHEMBL4829,4222,4003,62,54,4222,0,136,"{""IC50"": 4220, ""Kd"": 2}","{""nM"": 4222}","{""="": 4222}"

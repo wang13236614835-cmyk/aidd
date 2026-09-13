@@ -1,0 +1,24 @@
+{
+  "summary": {
+    "query_date": "2026-09-12",
+    "raw_records": 1652,
+    "master_records": 1652,
+    "distinct_molecules": 1139,
+    "distinct_assays": 51,
+    "distinct_documents": 34,
+    "units": {
+      "ug.mL-1": 15,
+      "nM": 1637
+    },
+    "valid_smiles": 1652,
+    "multiple_fragments": 2,
+    "assay_family_record_counts": {
+      "cell_extract": 5,
+      "full_length_stated": 5,
+      "other_or_unknown": 37,
+      "TE_domain": 3,
+      "KR_domain": 1
+    }
+  },
+  "document_fetch_errors": {}
+}

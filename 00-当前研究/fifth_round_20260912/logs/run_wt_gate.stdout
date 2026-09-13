@@ -1,0 +1,134 @@
+selected actives: 45 per-layer: [15, 15, 15] floor negatives: 31
+CHEMBL1377437 active -7.677 6.4s
+CHEMBL1590245 active -4.054 31.9s
+CHEMBL291053 active -9.377 5.2s
+CHEMBL1555687 active -9.198 14.6s
+CHEMBL124126 active -8.739 9.8s
+CHEMBL289343 active -10.08 6.6s
+CHEMBL125381 active -10.63 5.8s
+CHEMBL124205 active 0.9648 12.5s
+CHEMBL41632 active -9.24 5.0s
+CHEMBL1362933 active -6.038 2.1s
+CHEMBL1314540 active -7.132 11.1s
+CHEMBL203777 active -10.44 5.8s
+CHEMBL413699 active -2.765 10.2s
+CHEMBL1335040 active -8.5 4.8s
+CHEMBL1449693 active -7.56 10.5s
+CHEMBL394644 active -8.669 7.8s
+CHEMBL1337516 active -2.004 8.2s
+CHEMBL1432973 active -4.934 14.1s
+CHEMBL1583087 active -2.177 10.0s
+CHEMBL3193119 active -7.815 6.2s
+CHEMBL236499 active -7.578 11.8s
+CHEMBL1337338 active -2.469 12.1s
+CHEMBL1356614 active -7.55 5.4s
+CHEMBL1435076 active -5.22 6.9s
+CHEMBL1514466 active -3.535 14.6s
+CHEMBL1590363 active -2.705 16.1s
+CHEMBL3193892 active -6.827 6.6s
+CHEMBL127338 active -5.09 12.3s
+CHEMBL195079 active -8.575 5.4s
+CHEMBL1355950 active -2.269 14.0s
+CHEMBL121795 active -7.573 4.3s
+CHEMBL485939 active -9.124 8.7s
+CHEMBL119936 active -8.537 10.1s
+CHEMBL1319888 active -7.994 6.1s
+CHEMBL1330875 active 3.771 13.8s
+CHEMBL1367813 active -4.333 9.6s
+CHEMBL1382733 active -8.309 2.4s
+CHEMBL1478349 active -9.048 9.4s
+CHEMBL1566032 active -6.628 7.1s
+CHEMBL316992 active -6.02 2.0s
+CHEMBL264410 active -9.735 6.2s
+CHEMBL192427 active -9.513 5.0s
+CHEMBL249895 active -10.08 5.2s
+CHEMBL120211 active -4.742 5.7s
+CHEMBL428729 active -9.025 10.7s
+CHEMBL237821_neg negative_floor -6.847 3.5s
+CHEMBL449354_neg negative_floor -8.409 6.7s
+CHEMBL237820_neg negative_floor -7.572 7.3s
+CHEMBL396437_neg negative_floor -7.526 5.8s
+CHEMBL391785_neg negative_floor -8.755 8.6s
+CHEMBL235489_neg negative_floor -8.824 6.9s
+CHEMBL235276_neg negative_floor -8.568 9.4s
+CHEMBL394061_neg negative_floor -7.505 4.6s
+CHEMBL398107_neg negative_floor -8.024 6.1s
+CHEMBL236307_neg negative_floor -7.003 6.2s
+CHEMBL236341_neg negative_floor -7.285 5.2s
+CHEMBL407819_neg negative_floor -9.507 5.1s
+CHEMBL476302_neg negative_floor -4.624 14.0s
+CHEMBL560148_neg negative_floor -6.977 6.5s
+CHEMBL552742_neg negative_floor -7.771 7.8s
+CHEMBL549685_neg negative_floor -6.896 10.6s
+CHEMBL561653_neg negative_floor -7.424 16.4s
+CHEMBL538150_neg negative_floor -8.12 7.3s
+CHEMBL570307_neg negative_floor -7.034 6.3s
+CHEMBL550765_neg negative_floor -7.473 8.0s
+CHEMBL550766_neg negative_floor -8.11 18.9s
+CHEMBL541227_neg negative_floor -8.121 9.3s
+CHEMBL550841_neg negative_floor -7.193 15.4s
+CHEMBL540227_neg negative_floor -8.159 17.8s
+CHEMBL560309_neg negative_floor -7.845 11.2s
+CHEMBL551046_neg negative_floor -8.283 7.8s
+CHEMBL539139_neg negative_floor -7.03 5.0s
+CHEMBL551244_neg negative_floor -8.184 4.7s
+CHEMBL560310_neg negative_floor -7.197 4.8s
+CHEMBL555726_neg negative_floor -7.535 7.0s
+CHEMBL560675_neg negative_floor -8.167 7.2s
+T3_liothyronine anchor -9.527 6.9s
+resmetirom anchor -10.22 5.9s
+{
+ "run": {
+  "date_utc": "2026-09-12T07:19:08Z",
+  "receptor": "D:\\zcode-workspace\\aidd-repo-work\\00-\u5f53\u524d\u7814\u7a76\\fifth_round_20260912\\derived\\wt_gate_run\\receptor_WTheavy_3GWS.pdbqt",
+  "receptor_sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963",
+  "box_center": [
+   5.157,
+   20.08,
+   29.01
+  ],
+  "box_size": [
+   22.156,
+   19.867,
+   20.893
+  ],
+  "vina": "1.2.7 (DockScope bundled vina.exe)",
+  "seed": 20260912,
+  "exhaustiveness": 8,
+  "cpu": 8,
+  "num_modes": 9,
+  "score_direction": "positive_score = -vina_score (more positive = predicted active)",
+  "tie_handling": "mid-rank Mann-Whitney; EF@Top15 includes all records tied with the 15th score",
+  "bootstrap": "stratified resampling within labels, 10000 replicates, seed 20260912"
+ },
+ "n_active_docked": 45,
+ "n_negative_docked": 31,
+ "missing_ligand_prep": [],
+ "ROC_AUC": 0.4717,
+ "PR_AUC": 0.693,
+ "ROC_AUC_ci95": [
+  0.3412,
+  0.6072
+ ],
+ "PR_AUC_ci95": [
+  0.5953,
+  0.7851
+ ],
+ "bootstrap_valid": 10000,
+ "EF_at_Top15": {
+  "K_requested": 15,
+  "effective_top_n": 15,
+  "actives_in_top": 14,
+  "top_fraction": 1.5763,
+  "baseline_positive_rate": 0.5921
+ },
+ "layer_AUC": {
+  "layer_0": 0.596,
+  "layer_1": 0.232,
+  "layer_2": 0.587
+ },
+ "anchors": {
+  "T3_liothyronine": -9.527,
+  "resmetirom": -10.22
+ }
+}

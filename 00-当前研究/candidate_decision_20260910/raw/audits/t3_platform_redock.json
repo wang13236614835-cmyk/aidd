@@ -1,0 +1,58 @@
+{
+  "best_score": -9.497,
+  "box": {
+    "center": [
+      5.157,
+      20.08,
+      29.01
+    ],
+    "size": [
+      22.156,
+      19.867,
+      20.893
+    ],
+    "updated_at": "2026-09-10T02:49:54.212253+00:00"
+  },
+  "command": [
+    "D:\\dockscope\\DockScopeLicensed\\resources\\tools\\vina.exe",
+    "--receptor",
+    "C:\\DockScopeData\\workspace\\dockscope\\data\\jobs\\H1Valid_20260910_104825_329168\\run\\tasks\\t3__WTheavy__C1\\receptor.pdbqt",
+    "--ligand",
+    "C:\\DockScopeData\\workspace\\dockscope\\data\\jobs\\H1Valid_20260910_104825_329168\\run\\tasks\\t3__WTheavy__C1\\ligand.pdbqt",
+    "--center_x",
+    "5.157",
+    "--center_y",
+    "20.080",
+    "--center_z",
+    "29.010",
+    "--size_x",
+    "22.156",
+    "--size_y",
+    "19.867",
+    "--size_z",
+    "20.893",
+    "--cpu",
+    "16",
+    "--exhaustiveness",
+    "8",
+    "--num_modes",
+    "9",
+    "--seed",
+    "1",
+    "--out",
+    "C:\\DockScopeData\\workspace\\dockscope\\data\\jobs\\H1Valid_20260910_104825_329168\\run\\tasks\\t3__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_104954\\docked.pdbqt"
+  ],
+  "detail": "returncode=0",
+  "engine": "vina_cpu",
+  "finished_at": "2026-09-10T02:49:59.847041+00:00",
+  "output": "C:\\DockScopeData\\workspace\\dockscope\\data\\jobs\\H1Valid_20260910_104825_329168\\run\\tasks\\t3__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_104954\\docked.pdbqt",
+  "scores": [
+    -9.497,
+    -9.287,
+    -7.229,
+    -7.148,
+    -6.981
+  ],
+  "status": "completed",
+  "task_id": "t3__WTheavy__C1"
+}

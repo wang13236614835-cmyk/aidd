@@ -1,0 +1,278 @@
+{
+  "Table": {
+    "Columns": {
+      "Column": [
+        "AID",
+        "Panel Member ID",
+        "SID",
+        "CID",
+        "Activity Outcome",
+        "Target Accession",
+        "Target GeneID",
+        "Activity Value [uM]",
+        "Activity Name",
+        "Assay Name",
+        "Assay Type",
+        "PubMed ID",
+        "RNAi"
+      ]
+    },
+    "Row": [
+      {
+        "Cell": [
+          "357965",
+          "",
+          "103601296",
+          "641376",
+          "Unspecified",
+          "P11511",
+          "1588",
+          "31.1",
+          "IC50",
+          "Inhibition of aromatase from human placental microsomes",
+          "Confirmatory",
+          "11678652",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1191224",
+          "",
+          "103601296",
+          "641376",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antimicrobial activity against Escherichia coli",
+          "Other",
+          "25461329",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1191225",
+          "",
+          "103601296",
+          "641376",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antimicrobial activity against Klebsiella pneumoniae",
+          "Other",
+          "25461329",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1191226",
+          "",
+          "103601296",
+          "641376",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antimicrobial activity against Pseudomonas aeruginosa",
+          "Other",
+          "25461329",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1191266",
+          "",
+          "103601296",
+          "641376",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human A549 cells after 96 hrs by MTT assay",
+          "Other",
+          "25461329",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1191267",
+          "",
+          "103601296",
+          "641376",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human Bel7402 cells after 96 hrs by MTT assay",
+          "Other",
+          "25461329",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1191268",
+          "",
+          "103601296",
+          "641376",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human BGC823 cells after 96 hrs by MTT assay",
+          "Other",
+          "25461329",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1191269",
+          "",
+          "103601296",
+          "641376",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human HCT8 cells after 96 hrs by MTT assay",
+          "Other",
+          "25461329",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1191270",
+          "",
+          "103601296",
+          "641376",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human A2780 cells after 96 hrs by MTT assay",
+          "Other",
+          "25461329",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1191271",
+          "",
+          "103601296",
+          "641376",
+          "Unspecified",
+          "P11511",
+          "1588",
+          "31.1",
+          "IC50",
+          "Inhibition of human aromatase in term placenta microsome assessed as radioactivity",
+          "Confirmatory",
+          "25461329",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1191278",
+          "",
+          "103601296",
+          "641376",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antioxidant activity in mulberry leaves assessed as UV-stress-induced free radical scavenging activity measured as inhibition of blue formazan at 100 uM",
+          "Other",
+          "25461329",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1191279",
+          "",
+          "103601296",
+          "641376",
+          "Active",
+          "",
+          "",
+          "2.76",
+          "IC50",
+          "Inhibition of alpha-glucosidase (unknown origin)",
+          "Confirmatory",
+          "25461329",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1191280",
+          "",
+          "103601296",
+          "641376",
+          "Active",
+          "O42713",
+          "",
+          "0.924",
+          "IC50",
+          "Inhibition of mushroom tyrosinase",
+          "Confirmatory",
+          "25461329",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1204216",
+          "",
+          "103601296",
+          "641376",
+          "Unspecified",
+          "P00591",
+          "100157809",
+          "",
+          "",
+          "Inhibition of porcine pancreatic lipase using p-nitrophenylbutyrate as substrate assessed as formation of p-nitrophenol at 100 uM preincubated for 15 mins followed by substrate addition measured after 15 mins relative to control",
+          "Other",
+          "25935644",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1204217",
+          "",
+          "103601296",
+          "641376",
+          "Unspecified",
+          "P00591",
+          "100157809",
+          "29.7",
+          "IC50",
+          "Inhibition of porcine pancreatic lipase using p-nitrophenylbutyrate as substrate assessed as formation of p-nitrophenol preincubated for 15 mins followed by substrate addition measured after 15 mins",
+          "Confirmatory",
+          "25935644",
+          ""
+        ]
+      }
+    ]
+  }
+}

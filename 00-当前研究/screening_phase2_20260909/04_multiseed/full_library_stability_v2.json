@@ -1,0 +1,51 @@
+{
+  "design_note": "repeat seeds change ETKDG start AND vina search seed -> protocol repeatability, not pure seed effect",
+  "sd_cutoff_note": "sd<=0.3 threshold is exploratory/post-hoc (defined 2026-09-09 after seeing data); re-register before confirmatory use",
+  "layers": {
+    "FXR": {
+      "n_with_full4seeds": 54,
+      "kendall_vs_seed42": {
+        "tau_seed7": 0.7,
+        "tau_seed123": 0.8,
+        "tau_seed20260909": 0.765
+      },
+      "top5_by_median_rank": [
+        "daidzin",
+        "genistin",
+        "moracin N",
+        "puerarin",
+        "catechin"
+      ]
+    },
+    "THRB": {
+      "n_with_full4seeds": 54,
+      "kendall_vs_seed42": {
+        "tau_seed7": 0.839,
+        "tau_seed123": 0.842,
+        "tau_seed20260909": 0.839
+      },
+      "top5_by_median_rank": [
+        "moracin N",
+        "daidzein",
+        "catechin",
+        "moracin M",
+        "3'-methoxydaidzein"
+      ]
+    },
+    "FASN": {
+      "n_with_full4seeds": 54,
+      "kendall_vs_seed42": {
+        "tau_seed7": 0.825,
+        "tau_seed123": 0.846,
+        "tau_seed20260909": 0.82
+      },
+      "top5_by_median_rank": [
+        "moracin N",
+        "daidzin",
+        "mulberrofuran G",
+        "ononin",
+        "puerarin"
+      ]
+    }
+  }
+}

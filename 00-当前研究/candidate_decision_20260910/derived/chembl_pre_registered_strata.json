@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-09-10",
+  "status": "pre_registered_candidate_strata_not_final",
+  "strata": [
+    {
+      "target_label": "fxr",
+      "standard_type": "EC50",
+      "bao_label": "cell-based format",
+      "rows": 2312,
+      "unique_molecules": 2082,
+      "unique_assays": 116,
+      "unique_documents": 87,
+      "median_pActivity": 6.552841968657781,
+      "min_pActivity": 3.026872146400301,
+      "max_pActivity": 10.045757490560677,
+      "years_min": 2006.0,
+      "years_max": 2025.0,
+      "decision": "candidate strata; need scaffold/time lock and assay audit"
+    },
+    {
+      "target_label": "fxr",
+      "standard_type": "EC50",
+      "bao_label": "single protein format",
+      "rows": 1235,
+      "unique_molecules": 1092,
+      "unique_assays": 99,
+      "unique_documents": 64,
+      "median_pActivity": 6.962573502059376,
+      "min_pActivity": 1.0,
+      "max_pActivity": 10.0,
+      "years_min": 2000.0,
+      "years_max": 2025.0,
+      "decision": "candidate strata; need scaffold/time lock and assay audit"
+    },
+    {
+      "target_label": "thrb",
+      "standard_type": "Potency",
+      "bao_label": "assay format",
+      "rows": 5920,
+      "unique_molecules": 4988,
+      "unique_assays": 12,
+      "unique_documents": 1,
+      "median_pActivity": 4.650000220873455,
+      "min_pActivity": 1.0500000000651724,
+      "max_pActivity": 11.0,
+      "years_min": NaN,
+      "years_max": NaN,
+      "decision": "candidate strata; need scaffold/time lock and assay audit"
+    },
+    {
+      "target_label": "thrb",
+      "standard_type": "IC50",
+      "bao_label": "single protein format",
+      "rows": 329,
+      "unique_molecules": 225,
+      "unique_assays": 15,
+      "unique_documents": 14,
+      "median_pActivity": 7.330032630091495,
+      "min_pActivity": 4.229147988357856,
+      "max_pActivity": 10.721246399047171,
+      "years_min": 2002.0,
+      "years_max": 2020.0,
+      "decision": "candidate strata; need scaffold/time lock and assay audit"
+    },
+    {
+      "target_label": "thra",
+      "standard_type": "IC50",
+      "bao_label": "single protein format",
+      "rows": 201,
+      "unique_molecules": 160,
+      "unique_assays": 15,
+      "unique_documents": 13,
+      "median_pActivity": 6.090000275786018,
+      "min_pActivity": 3.795880017344075,
+      "max_pActivity": 10.389978975335854,
+      "years_min": 1998.0,
+      "years_max": 2014.0,
+      "decision": "candidate strata; need scaffold/time lock and assay audit"
+    }
+  ],
+  "rule": "no training until assay/document/construct audit and locked test set are frozen"
+}

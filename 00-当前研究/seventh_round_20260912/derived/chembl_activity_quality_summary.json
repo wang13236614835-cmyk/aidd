@@ -1,0 +1,142 @@
+{
+  "query_date": "2026-09-12",
+  "summaries": [
+    {
+      "route": "FASN",
+      "target_chembl_id": "CHEMBL4158",
+      "exact_records": 1652,
+      "distinct_molecules": 1139,
+      "distinct_assays": 51,
+      "distinct_documents": 34,
+      "standard_type": {
+        "IC50": 1630,
+        "Ki": 20,
+        "Kd": 2
+      },
+      "standard_units": {
+        "ug.mL-1": 15,
+        "nM": 1637
+      },
+      "standard_relation": {
+        "=": 1652
+      },
+      "positive_nM_convertible": 1637,
+      "nonpositive_numeric": 0,
+      "molecules_with_multiple_records": 475
+    },
+    {
+      "route": "THRB",
+      "target_chembl_id": "CHEMBL1947",
+      "exact_records": 6839,
+      "distinct_molecules": 5669,
+      "distinct_assays": 85,
+      "distinct_documents": 50,
+      "standard_type": {
+        "IC50": 541,
+        "EC50": 191,
+        "Ki": 118,
+        "Kd": 35,
+        "Potency": 5954
+      },
+      "standard_units": {
+        "nM": 6839
+      },
+      "standard_relation": {
+        "=": 6839
+      },
+      "positive_nM_convertible": 6839,
+      "nonpositive_numeric": 0,
+      "molecules_with_multiple_records": 787
+    },
+    {
+      "route": "FXR",
+      "target_chembl_id": "CHEMBL2047",
+      "exact_records": 4252,
+      "distinct_molecules": 3338,
+      "distinct_assays": 290,
+      "distinct_documents": 157,
+      "standard_type": {
+        "IC50": 470,
+        "EC50": 3774,
+        "Kd": 8
+      },
+      "standard_units": {
+        "nM": 4252
+      },
+      "standard_relation": {
+        "=": 4252
+      },
+      "positive_nM_convertible": 4196,
+      "nonpositive_numeric": 56,
+      "molecules_with_multiple_records": 628
+    },
+    {
+      "route": "KEAP1",
+      "target_chembl_id": "CHEMBL2069156",
+      "exact_records": 615,
+      "distinct_molecules": 460,
+      "distinct_assays": 111,
+      "distinct_documents": 49,
+      "standard_type": {
+        "IC50": 292,
+        "EC50": 30,
+        "Ki": 27,
+        "Kd": 266
+      },
+      "standard_units": {
+        "nM": 600,
+        "10'3/s": 3,
+        "10^3nM": 12
+      },
+      "standard_relation": {
+        "=": 615
+      },
+      "positive_nM_convertible": 600,
+      "nonpositive_numeric": 0,
+      "molecules_with_multiple_records": 77
+    },
+    {
+      "route": "ACC1",
+      "target_chembl_id": "CHEMBL3351",
+      "exact_records": 697,
+      "distinct_molecules": 555,
+      "distinct_assays": 49,
+      "distinct_documents": 42,
+      "standard_type": {
+        "IC50": 689,
+        "EC50": 6,
+        "Kd": 2
+      },
+      "standard_units": {
+        "nM": 697
+      },
+      "standard_relation": {
+        "=": 697
+      },
+      "positive_nM_convertible": 697,
+      "nonpositive_numeric": 0,
+      "molecules_with_multiple_records": 76
+    },
+    {
+      "route": "ACC2",
+      "target_chembl_id": "CHEMBL4829",
+      "exact_records": 4222,
+      "distinct_molecules": 4003,
+      "distinct_assays": 62,
+      "distinct_documents": 54,
+      "standard_type": {
+        "IC50": 4220,
+        "Kd": 2
+      },
+      "standard_units": {
+        "nM": 4222
+      },
+      "standard_relation": {
+        "=": 4222
+      },
+      "positive_nM_convertible": 4222,
+      "nonpositive_numeric": 0,
+      "molecules_with_multiple_records": 136
+    }
+  ]
+}

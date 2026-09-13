@@ -1,0 +1,91 @@
+{
+  "THRB": {
+    "seqres_coverage": {
+      "A": {
+        "seqres_len": 253,
+        "atom_residues": 251,
+        "name_matched_residues": 251,
+        "coverage_pct": 99.2
+      }
+    },
+    "atom_numbering_gaps": {},
+    "hetatm_types_in_raw": {
+      "OEF": 1,
+      "HOH": 107
+    },
+    "removed_raw_to_clean": {
+      "n_residues": 0,
+      "protein_residues": 0,
+      "protein_removed_detail": []
+    },
+    "tierB_pending": [
+      "protonation state review (PROPKA) still pending",
+      "domain assignment & MASH cell-context relevance",
+      "gap impact on pocket if any internal gap borders box"
+    ]
+  },
+  "FASN": {
+    "seqres_coverage": {
+      "A": {
+        "seqres_len": 298,
+        "atom_residues": 282,
+        "name_matched_residues": 282,
+        "coverage_pct": 94.6
+      }
+    },
+    "atom_numbering_gaps": {
+      "A": [
+        [
+          452,
+          456
+        ]
+      ]
+    },
+    "hetatm_types_in_raw": {
+      "ZEP": 1,
+      "HOH": 106
+    },
+    "removed_raw_to_clean": {
+      "n_residues": 0,
+      "protein_residues": 0,
+      "protein_removed_detail": []
+    },
+    "tierB_pending": [
+      "protonation state review (PROPKA) still pending",
+      "domain assignment & MASH cell-context relevance",
+      "gap impact on pocket if any internal gap borders box"
+    ]
+  },
+  "FXR": {
+    "seqres_coverage": {
+      "A": {
+        "seqres_len": 232,
+        "atom_residues": 216,
+        "name_matched_residues": 216,
+        "coverage_pct": 93.1
+      }
+    },
+    "atom_numbering_gaps": {
+      "A": [
+        [
+          271,
+          285
+        ]
+      ]
+    },
+    "hetatm_types_in_raw": {
+      "FEX": 1,
+      "HOH": 179
+    },
+    "removed_raw_to_clean": {
+      "n_residues": 0,
+      "protein_residues": 0,
+      "protein_removed_detail": []
+    },
+    "tierB_pending": [
+      "protonation state review (PROPKA) still pending",
+      "domain assignment & MASH cell-context relevance",
+      "gap impact on pocket if any internal gap borders box"
+    ]
+  }
+}

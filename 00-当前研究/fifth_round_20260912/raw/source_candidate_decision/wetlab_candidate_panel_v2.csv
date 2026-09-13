@@ -1,0 +1,14 @@
+﻿panel_id,candidate,role,evidence_basis,first_experiment,critical_caveat
+P1,scoparone,disease-first,NASH/MASLD本体证据密集；摘要级,PA/OA hepatocyte + lipid/inflammation/autophagy; no-cell interference first,同批scoparone identity/purity; do not infer direct target
+P2,alisol B,disease-first,本体MASLD/NASH；母体与AB23A分开,PA/OA and HFD-relevant hepatocyte; Ces2a/RARα mechanism only after phenotype,confirm parent vs acetate/AB23A
+P3,hyperoside,disease-first/fibrosis,本体NASH纤维化摘要级,hepatocyte + LX2/HSC separate; TLR4/NLRP3/Flot2 follow-up,glycoside solubility/aggregation
+P4,puerarin,disease-first/metabolic,本体NASH/MASLD多模型,hepatocyte + macrophage co-culture or separate PAI-1/autophagy/ferroptosis,glycoside exposure
+P5,isorhamnetin,disease-first/current primary,NASH/MASLD本体；FXR方向摘要,no-cell interference then PA/OA + FXR perturbation,polyphenol aggregation and assay interference
+P6,formononetin,mechanism anchor,MCD-NASH摘要 + FXR SPR/reporter全文,PA/OA + FXR perturbation + orthogonal binding,published FXR activity; novelty is bridge
+P7,isoquercitrin,disease-first,HFD-NASH/MCD steatohepatitis摘要,PA/OA + galectin-3/NLRP3 follow-up,isomer/derivative identity
+P8,1-deoxynojirimycin,disease-first,CDAHFD-MASH/HFD-NASH摘要,PA/OA/CDAHFD-relevant cells + autophagy/PI3K,low molecular weight and exposure
+P9,ursolic acid,disease-first/backup,MASLD/NASH摘要 + target interaction clues,PA/OA + SPP1/decorin follow-up,low solubility/vehicle
+P10,moracin N,exploratory,本体MASH未找到；神经铁死亡摘要,erastin/RSL3 + C11-BODIPY/iron/GSH/GPX4 + rescue,not a disease candidate until liver-specific evidence
+C1,biochanin A,positive control,FXR binding/function published,FXR assay positive control and disease assay comparator,not a new candidate
+C2,liothyronine/T3,TR control,endogenous ligand control,TRβ/TRα parallel functional control,not a candidate
+C3,resmetirom,clinical TRβ comparator,MASH treatment context control,TRβ functional and disease positive control,not a natural product candidate

@@ -1,0 +1,747 @@
+[
+ {
+  "id": "CHEMBL1377437",
+  "label": "active",
+  "score": -7.677,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 6.4,
+  "potency_nM": 0.01259,
+  "layer": 0
+ },
+ {
+  "id": "CHEMBL1590245",
+  "label": "active",
+  "score": -4.054,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 31.9,
+  "potency_nM": 0.01259,
+  "layer": 0
+ },
+ {
+  "id": "CHEMBL291053",
+  "label": "active",
+  "score": -9.377,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 5.2,
+  "potency_nM": 0.019,
+  "layer": 0
+ },
+ {
+  "id": "CHEMBL1555687",
+  "label": "active",
+  "score": -9.198,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 14.6,
+  "potency_nM": 0.01995,
+  "layer": 0
+ },
+ {
+  "id": "CHEMBL124126",
+  "label": "active",
+  "score": -8.739,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 9.8,
+  "potency_nM": 0.02,
+  "layer": 0
+ },
+ {
+  "id": "CHEMBL289343",
+  "label": "active",
+  "score": -10.08,
+  "returncode": 0,
+  "n_modes": 8,
+  "seconds": 6.6,
+  "potency_nM": 0.025,
+  "layer": 0
+ },
+ {
+  "id": "CHEMBL125381",
+  "label": "active",
+  "score": -10.63,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 5.8,
+  "potency_nM": 0.03,
+  "layer": 0
+ },
+ {
+  "id": "CHEMBL124205",
+  "label": "active",
+  "score": 0.9648,
+  "returncode": 0,
+  "n_modes": 6,
+  "seconds": 12.5,
+  "potency_nM": 0.04,
+  "layer": 0
+ },
+ {
+  "id": "CHEMBL41632",
+  "label": "active",
+  "score": -9.24,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 5.0,
+  "potency_nM": 0.04074,
+  "layer": 0
+ },
+ {
+  "id": "CHEMBL1362933",
+  "label": "active",
+  "score": -6.038,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 2.1,
+  "potency_nM": 0.04467,
+  "layer": 0
+ },
+ {
+  "id": "CHEMBL1314540",
+  "label": "active",
+  "score": -7.132,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 11.1,
+  "potency_nM": 0.05623,
+  "layer": 0
+ },
+ {
+  "id": "CHEMBL203777",
+  "label": "active",
+  "score": -10.44,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 5.8,
+  "potency_nM": 0.06,
+  "layer": 0
+ },
+ {
+  "id": "CHEMBL413699",
+  "label": "active",
+  "score": -2.765,
+  "returncode": 0,
+  "n_modes": 5,
+  "seconds": 10.2,
+  "potency_nM": 0.07,
+  "layer": 0
+ },
+ {
+  "id": "CHEMBL1335040",
+  "label": "active",
+  "score": -8.5,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 4.8,
+  "potency_nM": 0.07943,
+  "layer": 0
+ },
+ {
+  "id": "CHEMBL1449693",
+  "label": "active",
+  "score": -7.56,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 10.5,
+  "potency_nM": 0.07943,
+  "layer": 0
+ },
+ {
+  "id": "CHEMBL394644",
+  "label": "active",
+  "score": -8.669,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 7.8,
+  "potency_nM": 10.96,
+  "layer": 1
+ },
+ {
+  "id": "CHEMBL1337516",
+  "label": "active",
+  "score": -2.004,
+  "returncode": 0,
+  "n_modes": 6,
+  "seconds": 8.2,
+  "potency_nM": 11.2,
+  "layer": 1
+ },
+ {
+  "id": "CHEMBL1432973",
+  "label": "active",
+  "score": -4.934,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 14.1,
+  "potency_nM": 11.2,
+  "layer": 1
+ },
+ {
+  "id": "CHEMBL1583087",
+  "label": "active",
+  "score": -2.177,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 10.0,
+  "potency_nM": 11.2,
+  "layer": 1
+ },
+ {
+  "id": "CHEMBL3193119",
+  "label": "active",
+  "score": -7.815,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 6.2,
+  "potency_nM": 11.2,
+  "layer": 1
+ },
+ {
+  "id": "CHEMBL236499",
+  "label": "active",
+  "score": -7.578,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 11.8,
+  "potency_nM": 12.0,
+  "layer": 1
+ },
+ {
+  "id": "CHEMBL1337338",
+  "label": "active",
+  "score": -2.469,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 12.1,
+  "potency_nM": 12.6,
+  "layer": 1
+ },
+ {
+  "id": "CHEMBL1356614",
+  "label": "active",
+  "score": -7.55,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 5.4,
+  "potency_nM": 12.6,
+  "layer": 1
+ },
+ {
+  "id": "CHEMBL1435076",
+  "label": "active",
+  "score": -5.22,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 6.9,
+  "potency_nM": 12.6,
+  "layer": 1
+ },
+ {
+  "id": "CHEMBL1514466",
+  "label": "active",
+  "score": -3.535,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 14.6,
+  "potency_nM": 12.6,
+  "layer": 1
+ },
+ {
+  "id": "CHEMBL1590363",
+  "label": "active",
+  "score": -2.705,
+  "returncode": 0,
+  "n_modes": 8,
+  "seconds": 16.1,
+  "potency_nM": 12.6,
+  "layer": 1
+ },
+ {
+  "id": "CHEMBL3193892",
+  "label": "active",
+  "score": -6.827,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 6.6,
+  "potency_nM": 12.6,
+  "layer": 1
+ },
+ {
+  "id": "CHEMBL127338",
+  "label": "active",
+  "score": -5.09,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 12.3,
+  "potency_nM": 13.0,
+  "layer": 1
+ },
+ {
+  "id": "CHEMBL195079",
+  "label": "active",
+  "score": -8.575,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 5.4,
+  "potency_nM": 13.0,
+  "layer": 1
+ },
+ {
+  "id": "CHEMBL1355950",
+  "label": "active",
+  "score": -2.269,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 14.0,
+  "potency_nM": 14.1,
+  "layer": 1
+ },
+ {
+  "id": "CHEMBL121795",
+  "label": "active",
+  "score": -7.573,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 4.3,
+  "potency_nM": 104.0,
+  "layer": 2
+ },
+ {
+  "id": "CHEMBL485939",
+  "label": "active",
+  "score": -9.124,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 8.7,
+  "potency_nM": 106.0,
+  "layer": 2
+ },
+ {
+  "id": "CHEMBL119936",
+  "label": "active",
+  "score": -8.537,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 10.1,
+  "potency_nM": 110.0,
+  "layer": 2
+ },
+ {
+  "id": "CHEMBL1319888",
+  "label": "active",
+  "score": -7.994,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 6.1,
+  "potency_nM": 112.2,
+  "layer": 2
+ },
+ {
+  "id": "CHEMBL1330875",
+  "label": "active",
+  "score": 3.771,
+  "returncode": 0,
+  "n_modes": 1,
+  "seconds": 13.8,
+  "potency_nM": 112.2,
+  "layer": 2
+ },
+ {
+  "id": "CHEMBL1367813",
+  "label": "active",
+  "score": -4.333,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 9.6,
+  "potency_nM": 112.2,
+  "layer": 2
+ },
+ {
+  "id": "CHEMBL1382733",
+  "label": "active",
+  "score": -8.309,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 2.4,
+  "potency_nM": 112.2,
+  "layer": 2
+ },
+ {
+  "id": "CHEMBL1478349",
+  "label": "active",
+  "score": -9.048,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 9.4,
+  "potency_nM": 112.2,
+  "layer": 2
+ },
+ {
+  "id": "CHEMBL1566032",
+  "label": "active",
+  "score": -6.628,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 7.1,
+  "potency_nM": 112.2,
+  "layer": 2
+ },
+ {
+  "id": "CHEMBL316992",
+  "label": "active",
+  "score": -6.02,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 2.0,
+  "potency_nM": 112.2,
+  "layer": 2
+ },
+ {
+  "id": "CHEMBL264410",
+  "label": "active",
+  "score": -9.735,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 6.2,
+  "potency_nM": 119.0,
+  "layer": 2
+ },
+ {
+  "id": "CHEMBL192427",
+  "label": "active",
+  "score": -9.513,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 5.0,
+  "potency_nM": 120.0,
+  "layer": 2
+ },
+ {
+  "id": "CHEMBL249895",
+  "label": "active",
+  "score": -10.08,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 5.2,
+  "potency_nM": 120.0,
+  "layer": 2
+ },
+ {
+  "id": "CHEMBL120211",
+  "label": "active",
+  "score": -4.742,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 5.7,
+  "potency_nM": 121.0,
+  "layer": 2
+ },
+ {
+  "id": "CHEMBL428729",
+  "label": "active",
+  "score": -9.025,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 10.7,
+  "potency_nM": 123.03,
+  "layer": 2
+ },
+ {
+  "id": "CHEMBL237821_neg",
+  "label": "negative_floor",
+  "score": -6.847,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 3.5,
+  "floor_nM": 100000.0
+ },
+ {
+  "id": "CHEMBL449354_neg",
+  "label": "negative_floor",
+  "score": -8.409,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 6.7,
+  "floor_nM": 100000.0
+ },
+ {
+  "id": "CHEMBL237820_neg",
+  "label": "negative_floor",
+  "score": -7.572,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 7.3,
+  "floor_nM": 100000.0
+ },
+ {
+  "id": "CHEMBL396437_neg",
+  "label": "negative_floor",
+  "score": -7.526,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 5.8,
+  "floor_nM": 100000.0
+ },
+ {
+  "id": "CHEMBL391785_neg",
+  "label": "negative_floor",
+  "score": -8.755,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 8.6,
+  "floor_nM": 100000.0
+ },
+ {
+  "id": "CHEMBL235489_neg",
+  "label": "negative_floor",
+  "score": -8.824,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 6.9,
+  "floor_nM": 100000.0
+ },
+ {
+  "id": "CHEMBL235276_neg",
+  "label": "negative_floor",
+  "score": -8.568,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 9.4,
+  "floor_nM": 100000.0
+ },
+ {
+  "id": "CHEMBL394061_neg",
+  "label": "negative_floor",
+  "score": -7.505,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 4.6,
+  "floor_nM": 100000.0
+ },
+ {
+  "id": "CHEMBL398107_neg",
+  "label": "negative_floor",
+  "score": -8.024,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 6.1,
+  "floor_nM": 100000.0
+ },
+ {
+  "id": "CHEMBL236307_neg",
+  "label": "negative_floor",
+  "score": -7.003,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 6.2,
+  "floor_nM": 100000.0
+ },
+ {
+  "id": "CHEMBL236341_neg",
+  "label": "negative_floor",
+  "score": -7.285,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 5.2,
+  "floor_nM": 100000.0
+ },
+ {
+  "id": "CHEMBL407819_neg",
+  "label": "negative_floor",
+  "score": -9.507,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 5.1,
+  "floor_nM": 20000.0
+ },
+ {
+  "id": "CHEMBL476302_neg",
+  "label": "negative_floor",
+  "score": -4.624,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 14.0,
+  "floor_nM": 20000.0
+ },
+ {
+  "id": "CHEMBL560148_neg",
+  "label": "negative_floor",
+  "score": -6.977,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 6.5,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "CHEMBL552742_neg",
+  "label": "negative_floor",
+  "score": -7.771,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 7.8,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "CHEMBL549685_neg",
+  "label": "negative_floor",
+  "score": -6.896,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 10.6,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "CHEMBL561653_neg",
+  "label": "negative_floor",
+  "score": -7.424,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 16.4,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "CHEMBL538150_neg",
+  "label": "negative_floor",
+  "score": -8.12,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 7.3,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "CHEMBL570307_neg",
+  "label": "negative_floor",
+  "score": -7.034,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 6.3,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "CHEMBL550765_neg",
+  "label": "negative_floor",
+  "score": -7.473,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 8.0,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "CHEMBL550766_neg",
+  "label": "negative_floor",
+  "score": -8.11,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 18.9,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "CHEMBL541227_neg",
+  "label": "negative_floor",
+  "score": -8.121,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 9.3,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "CHEMBL550841_neg",
+  "label": "negative_floor",
+  "score": -7.193,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 15.4,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "CHEMBL540227_neg",
+  "label": "negative_floor",
+  "score": -8.159,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 17.8,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "CHEMBL560309_neg",
+  "label": "negative_floor",
+  "score": -7.845,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 11.2,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "CHEMBL551046_neg",
+  "label": "negative_floor",
+  "score": -8.283,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 7.8,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "CHEMBL539139_neg",
+  "label": "negative_floor",
+  "score": -7.03,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 5.0,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "CHEMBL551244_neg",
+  "label": "negative_floor",
+  "score": -8.184,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 4.7,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "CHEMBL560310_neg",
+  "label": "negative_floor",
+  "score": -7.197,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 4.8,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "CHEMBL555726_neg",
+  "label": "negative_floor",
+  "score": -7.535,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 7.0,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "CHEMBL560675_neg",
+  "label": "negative_floor",
+  "score": -8.167,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 7.2,
+  "floor_nM": 50000.0
+ },
+ {
+  "id": "T3_liothyronine",
+  "label": "anchor",
+  "score": -9.527,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 6.9
+ },
+ {
+  "id": "resmetirom",
+  "label": "anchor",
+  "score": -10.22,
+  "returncode": 0,
+  "n_modes": 9,
+  "seconds": 5.9
+ }
+]

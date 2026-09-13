@@ -1,0 +1,72 @@
+{
+  "model_id": "FXR_LanthaScreen_EC50_ECFP_RF_v1",
+  "generated_at": "2026-09-10",
+  "target": "human FXR / CHEMBL2047",
+  "assay": "CHEMBL5735838",
+  "endpoint": "EC50",
+  "format": "single protein / purified FXR-LBD coactivator FRET (assay description retained in source table)",
+  "source_csv": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\candidate_decision_20260910\\derived\\chembl_numeric_nM_exact_candidates.csv",
+  "source_sha256": "8c4e3e4e8aac15add8678d94781a782ef392af80b3bf79d058b2a4246b5b6e53",
+  "input_records_after_filter": 324,
+  "unique_molecules": 324,
+  "unique_scaffolds": 101,
+  "filter": [
+    "standard_flag=1",
+    "standard_relation==",
+    "standard_units=nM",
+    "potential_duplicate=0",
+    "target_label=fxr",
+    "standard_type=EC50",
+    "bao_label=single protein format",
+    "assay_chembl_id=CHEMBL5735838",
+    "one median/first exact molecule record per molecule_chembl_id within this assay"
+  ],
+  "feature": "Morgan/ECFP radius2, 2048 bits",
+  "regressor": {
+    "n_estimators": 500,
+    "random_state": 20260910,
+    "n_jobs": 8,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt"
+  },
+  "classifier": {
+    "n_estimators": 500,
+    "random_state": 20260910,
+    "n_jobs": 8,
+    "min_samples_leaf": 2,
+    "max_features": "sqrt",
+    "class_weight": "balanced_subsample"
+  },
+  "threshold_pActivity": 8.0,
+  "threshold_note": "exploratory assay-specific label (100 nM); not a universal efficacy threshold",
+  "split_seed_used": 20260910,
+  "split_algorithm": "GroupShuffleSplit by Murcko scaffold; outer test=20%; inner dev=20% of total; fallback seeds predeclared [20260910,42,123,7,20260911] only to avoid one-class test",
+  "split_counts": {
+    "train": 226,
+    "development": 34,
+    "locked_test": 64
+  },
+  "scaffold_counts": {
+    "train": 60,
+    "development": 20,
+    "locked_test": 21
+  },
+  "split_log": [
+    {
+      "seed": 20260910,
+      "train": 226,
+      "dev": 34,
+      "test": 64,
+      "test_classes": [
+        0,
+        1
+      ],
+      "train_scaffolds": 60,
+      "dev_scaffolds": 20,
+      "test_scaffolds": 21
+    }
+  ],
+  "locked_test_not_used_for_training": true,
+  "final_fit_records": 260,
+  "status": "locked_internal_scaffold_test_completed; not external validation; release only if predefined lower-bound and enrichment criteria pass"
+}

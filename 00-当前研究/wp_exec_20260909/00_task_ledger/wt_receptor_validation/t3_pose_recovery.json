@@ -1,0 +1,14 @@
+{
+ "task": "C:\\DockScopeData\\workspace\\dockscope\\data\\jobs\\AIDD-TRBWT-3GWS-limval3_20260909_230017_889500\\run\\tasks\\liothyronine__TRBWT_3GWS__C1",
+ "rmsd_per_mode": [
+  1.1682033857225962,
+  1.1839623815399958,
+  8.045227655004949,
+  8.02224195810532,
+  2.09503679718333,
+  1.5978156826400762
+ ],
+ "best": 1.1682033857225962,
+ "min": 1.1682033857225962,
+ "gate_2A_best": true
+}

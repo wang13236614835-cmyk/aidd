@@ -1,0 +1,67 @@
+{
+  "start": "2026-09-10T10:44:21.241777",
+  "deadline_local": "2026-09-10T11:42:05+08:00",
+  "molecules": [
+    {
+      "brd_id": "ish",
+      "label": "isorhamnetin",
+      "smiles": "COC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O"
+    },
+    {
+      "brd_id": "dai",
+      "label": "daidzein",
+      "smiles": "C1=CC(=CC=C1C2=COC3=C(C2=O)C=CC(=C3)O)O"
+    },
+    {
+      "brd_id": "fmn",
+      "label": "formononetin",
+      "smiles": "COC1=CC=C(C=C1)C2=COC3=C(C2=O)C=CC(=C3)O"
+    },
+    {
+      "brd_id": "bca",
+      "label": "biochanin A",
+      "smiles": "COC1=CC=C(C=C1)C2=COC3=CC(=CC(=C3C2=O)O)O"
+    },
+    {
+      "brd_id": "mrn",
+      "label": "moracin N",
+      "smiles": "CC(=CCC1=C(C=C2C(=C1)C=C(O2)C3=CC(=CC(=C3)O)O)O)C"
+    },
+    {
+      "brd_id": "t3",
+      "label": "liothyronine",
+      "smiles": "C1=CC(=C(C=C1OC2=C(C=C(C=C2I)C[C@@H](C(=O)O)N)I)I)O"
+    },
+    {
+      "brd_id": "gc1",
+      "label": "sobetirome",
+      "smiles": "CC1=CC(=CC(=C1CC2=CC(=C(C=C2)O)C(C)C)C)OCC(=O)O"
+    },
+    {
+      "brd_id": "res",
+      "label": "resmetirom",
+      "smiles": "CC(C)C1=CC(=NNC1=O)OC2=C(C=C(C=C2Cl)N3C(=O)NC(=O)C(=N3)C#N)Cl"
+    }
+  ],
+  "seeds": [
+    7,
+    42,
+    123,
+    20260910
+  ],
+  "vina_exhaustiveness": 8,
+  "box": {
+    "center": [
+      5.157,
+      20.08,
+      29.01
+    ],
+    "size": [
+      22.156,
+      19.867,
+      20.893
+    ]
+  },
+  "T3_check": "top-scoring pose heavy-atom symmetry-aware RMSD in original receptor frame, report all seeds; descriptive pass if each <=2 A",
+  "selection_rule": "Disease-model and direct experimental mechanism evidence lead prioritization; docking only checks computational plausibility and reproducibility, cannot upgrade to THRB agonist or MASH efficacy. No blind discriminative benchmark completed in this hour. No WT-vs-mutant score comparison."
+}

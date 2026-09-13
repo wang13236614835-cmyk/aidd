@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "checks": {
+    "deliverables": 22,
+    "external": {
+      "E1": 42,
+      "E2": 63,
+      "ADin": 14,
+      "OOD": 91,
+      "E5": 0
+    },
+    "E1_ADin_rho": 0.8795628436783615,
+    "cal_rows": 280,
+    "pooled_R2_cal_mean_beats_models": true,
+    "np54_ood": 54,
+    "bridge_rows": 19,
+    "banned_hits": 0,
+    "history_protection": "PASS",
+    "manifest": 22
+  }
+}

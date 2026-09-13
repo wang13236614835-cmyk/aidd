@@ -1,0 +1,83 @@
+{
+  "created_at": "2026-09-09T04:21:56.302255+00:00",
+  "pockets": [
+    {
+      "atom_count": 420,
+      "cavity_score": 28.186560098831244,
+      "center": [
+        1.7330000000000005,
+        9.207,
+        28.866
+      ],
+      "features": {
+        "base_size": 15.835,
+        "burial_neighbors": 71.0,
+        "contact_distance": 2.4596125711176544,
+        "local_atoms": 141.0,
+        "raw_extent_x": 15.835,
+        "raw_extent_y": 14.229,
+        "raw_extent_z": 14.145
+      },
+      "method": "cb_dock2_inspired_grid",
+      "pocket_id": "C1",
+      "residues": [
+        "A:ALA317",
+        "A:ALA318",
+        "A:ALA335",
+        "A:ALA352",
+        "A:ARG243",
+        "A:ARG316",
+        "A:ARG320",
+        "A:ARG338",
+        "A:ASN364",
+        "A:ASP322",
+        "A:ASP351",
+        "A:ASP355",
+        "A:ASP427",
+        "A:GLN340",
+        "A:GLU311",
+        "A:GLU324",
+        "A:GLU326",
+        "A:GLY339",
+        "A:GLY357",
+        "A:ILE353",
+        "A:ILE431",
+        "A:LEU315",
+        "A:LEU328",
+        "A:LEU341",
+        "A:LEU356",
+        "A:LEU360",
+        "A:LEU428",
+        "A:LYS240",
+        "A:LYS342",
+        "A:LYS424",
+        "A:MET313",
+        "A:MET358",
+        "A:PHE245",
+        "A:PHE354",
+        "A:PHE363",
+        "A:PRO323",
+        "A:SER314",
+        "A:SER325",
+        "A:SER350",
+        "A:SER359",
+        "A:SER361",
+        "A:SER362",
+        "A:THR327",
+        "A:THR337",
+        "A:TYR321",
+        "A:VAL319",
+        "A:VAL336",
+        "A:VAL348",
+        "A:VAL349"
+      ],
+      "size": [
+        25.835,
+        25.835,
+        25.835
+      ],
+      "volume": 15113.712811175
+    }
+  ],
+  "selected": "C1"
+}

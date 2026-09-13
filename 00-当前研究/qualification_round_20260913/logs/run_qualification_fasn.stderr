@@ -1,0 +1,2 @@
+C:\Users\user\AppData\Roaming\Python\Python312\site-packages\numpy\lib\nanfunctions.py:1215: RuntimeWarning: Mean of empty slice
+  return np.nanmean(a, axis, out=out, keepdims=keepdims)

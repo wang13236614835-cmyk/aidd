@@ -1,0 +1,5 @@
+﻿batch_id,ligand,reported_seed,engine_seed,metric,rmsd_A,threshold_A,pass_descriptive,all_modes_rmsd_A,note
+H1Valid_20260910_104825_329168,liothyronine/T3,7,1,top-scored-pose heavy-atom symmetry-aware RMSD in original receptor frame,0.441,2.0,True,"[0.441, 0.488, 8.043, 2.108, 8.028]",Other modes include ~8 Å; only top-scored pose gate passed
+H1Valid_20260910_104825_329168,liothyronine/T3,42,42,top-scored-pose heavy-atom symmetry-aware RMSD in original receptor frame,0.473,2.0,True,"[0.473, 0.479, 8.045, 8.03]",Other modes include ~8 Å; only top-scored pose gate passed
+H1Valid_20260910_104825_329168,liothyronine/T3,123,123,top-scored-pose heavy-atom symmetry-aware RMSD in original receptor frame,0.469,2.0,True,"[0.469, 0.481, 8.041, 8.028, 2.221]",Other modes include ~8 Å; only top-scored pose gate passed
+H1Valid_20260910_104825_329168,liothyronine/T3,20260910,20260910,top-scored-pose heavy-atom symmetry-aware RMSD in original receptor frame,0.474,2.0,True,"[0.474, 0.485, 1.617, 8.038, 8.028]",Other modes include ~8 Å; only top-scored pose gate passed

@@ -1,0 +1,24 @@
+{
+ "overall": {
+  "n_pairs": 39,
+  "spearman_rho": 0.743
+ },
+ "per_target": {
+  "FXR": {
+   "rho": 0.698,
+   "p": 0.008,
+   "top_divergence": "3'-methoxydaidzein(vina#5/vinardo#10), isorhamnetin(vina#10/vinardo#5), moracin M(vina#7/vinardo#3)"
+  },
+  "THRB": {
+   "rho": 0.841,
+   "p": 0.00032,
+   "top_divergence": "genistin(vina#12/vinardo#8), epicatechin(vina#6/vinardo#3), formononetin(vina#8/vinardo#11)"
+  },
+  "FASN": {
+   "rho": 0.577,
+   "p": 0.03899,
+   "top_divergence": "moracin M(vina#12/vinardo#5), formononetin(vina#3/vinardo#8), genistin(vina#7/vinardo#11)"
+  }
+ },
+ "interpretation": "fixed-pose scoring-function sensitivity only; not binding validation; vinardo shares vina force-field lineage - NOT an independent method family"
+}

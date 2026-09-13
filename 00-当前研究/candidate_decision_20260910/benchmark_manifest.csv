@@ -1,0 +1,7 @@
+﻿batch_id,scope,target,ligands,seeds,box,status,completed,failed,use,exclusion_reason
+H1Valid_20260910_104825_329168,formal,3GWS-derived WT THRB,8,"7,42,123,20260910","T3 crystal box [5.157,20.08,29.01] / [22.156,19.867,20.893]",completed,8,0,technical repeatability and descriptive poses,
+H1WT_20260910_104421_a8c74f,diagnostic,3GWS-derived WT THRB,8,7,unknown from creation snapshot,not_accepted,0,0,failure/creation record only,creation JSON remained queued/0 completed in inspected assets
+H1Full_20260910_104716_d0d5c3,diagnostic,3GWS-derived WT THRB,8,7,unknown from creation snapshot,not_accepted,0,0,failure/creation record only,creation JSON remained queued/0 completed in inspected assets
+H1WT-full54_20260910_110607_d3a0cb,supplementary_unapproved,3GWS-derived WT THRB,54,single seed summary,T3 crystal box (summary only),completed_summary,54,0,exploratory object selection only,not approved for candidate ranking; summary lacks complete provenance
+AIDD-TRBWT-3GWS-limval3_20260909_230017_889500,diagnostic,3GWS WT THRB,3,varied,historical validation,completed_limited,3,0,historical pose recovery only,not same formal H1Valid protocol
+P0_gate_20260909,diagnostic,2J4A N331S THRB,old benchmark,historical,historical,failed_gate,n/a,n/a,failure retained,ROC-AUC 0.346; MW residual AUC 0.3527; EF@Top15 1.4637; mutant cannot support WT conclusion

@@ -1,0 +1,5310 @@
+{
+  "Table": {
+    "Columns": {
+      "Column": [
+        "AID",
+        "Panel Member ID",
+        "SID",
+        "CID",
+        "Activity Outcome",
+        "Target Accession",
+        "Target GeneID",
+        "Activity Value [uM]",
+        "Activity Name",
+        "Assay Name",
+        "Assay Type",
+        "PubMed ID",
+        "RNAi"
+      ]
+    },
+    "Row": [
+      {
+        "Cell": [
+          "1469",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "NP_001121649",
+          "7068",
+          "",
+          "Potency",
+          "qHTS for Inhibitors of the Interaction of Thyroid Hormone Receptor and Steroid Receptor Coregulator 2",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1469",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_001121649",
+          "7068",
+          "",
+          "Potency",
+          "qHTS for Inhibitors of the Interaction of Thyroid Hormone Receptor and Steroid Receptor Coregulator 2",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1477",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "Potency",
+          "qHTS Assay for Compounds Blocking the Interaction Between CBF-beta and RUNX1 for the Treatment of Acute Myeloid Leukemia",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1477",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "Potency",
+          "qHTS Assay for Compounds Blocking the Interaction Between CBF-beta and RUNX1 for the Treatment of Acute Myeloid Leukemia",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1479",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "NP_001121649",
+          "7068",
+          "",
+          "Potency",
+          "Total Fluorescence Counterscreen for Inhibitors of the Interaction of Thyroid Hormone Receptor and Steroid Receptor Coregulator 2",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1479",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_001121649",
+          "7068",
+          "",
+          "Potency",
+          "Total Fluorescence Counterscreen for Inhibitors of the Interaction of Thyroid Hormone Receptor and Steroid Receptor Coregulator 2",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1490",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "AAG24257",
+          "",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors of Bacillus subtilis Sfp phosphopantetheinyl transferase (PPTase)",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1490",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "AAG24257",
+          "",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors of Bacillus subtilis Sfp phosphopantetheinyl transferase (PPTase)",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1766",
+          "",
+          "26756952",
+          "5281654",
+          "Inconclusive",
+          "NP_000235",
+          "4221",
+          "25.1189",
+          "Potency",
+          "qHTS Assay for Inhibitors Targeting the Menin-MLL Interaction in MLL Related Leukemias: Competition With Fluorescein Labeled MLL-derived Peptide",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1766",
+          "",
+          "26756952",
+          "5281654",
+          "Inconclusive",
+          "NP_005924",
+          "4297",
+          "25.1189",
+          "Potency",
+          "qHTS Assay for Inhibitors Targeting the Menin-MLL Interaction in MLL Related Leukemias: Competition With Fluorescein Labeled MLL-derived Peptide",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1766",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_000235",
+          "4221",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors Targeting the Menin-MLL Interaction in MLL Related Leukemias: Competition With Fluorescein Labeled MLL-derived Peptide",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1766",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_005924",
+          "4297",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors Targeting the Menin-MLL Interaction in MLL Related Leukemias: Competition With Fluorescein Labeled MLL-derived Peptide",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1768",
+          "",
+          "26756952",
+          "5281654",
+          "Inconclusive",
+          "NP_000235",
+          "4221",
+          "35.4813",
+          "Potency",
+          "qHTS Assay for Inhibitors Targeting the Menin-MLL Interaction in MLL Related Leukemias: Competition With Texas Red Labeled MLL-derived Mutant Peptide",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1768",
+          "",
+          "26756952",
+          "5281654",
+          "Inconclusive",
+          "NP_005924",
+          "4297",
+          "35.4813",
+          "Potency",
+          "qHTS Assay for Inhibitors Targeting the Menin-MLL Interaction in MLL Related Leukemias: Competition With Texas Red Labeled MLL-derived Mutant Peptide",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1768",
+          "",
+          "26756953",
+          "5281654",
+          "Inconclusive",
+          "NP_000235",
+          "4221",
+          "22.3872",
+          "Potency",
+          "qHTS Assay for Inhibitors Targeting the Menin-MLL Interaction in MLL Related Leukemias: Competition With Texas Red Labeled MLL-derived Mutant Peptide",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1768",
+          "",
+          "26756953",
+          "5281654",
+          "Inconclusive",
+          "NP_005924",
+          "4297",
+          "22.3872",
+          "Potency",
+          "qHTS Assay for Inhibitors Targeting the Menin-MLL Interaction in MLL Related Leukemias: Competition With Texas Red Labeled MLL-derived Mutant Peptide",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2101",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "BAA02545",
+          "2629",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors and Activators of N370S glucocerebrosidase as a Potential Chaperone Treatment of Gaucher Disease",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2101",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "BAA02545",
+          "2629",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors and Activators of N370S glucocerebrosidase as a Potential Chaperone Treatment of Gaucher Disease",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2107",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "CAA29232",
+          "2717",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors and Activators of Human alpha-Galactosidase From Spleen Homogenate",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2107",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "CAA29232",
+          "2717",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors and Activators of Human alpha-Galactosidase From Spleen Homogenate",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2112",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "NP_000143",
+          "2548",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors and Activators of Human alpha-Glucosidase From Spleen Homogenate",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2112",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_000143",
+          "2548",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors and Activators of Human alpha-Glucosidase From Spleen Homogenate",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2240",
+          "",
+          "85843252",
+          "5281654",
+          "Inactive",
+          "NP_937802",
+          "",
+          "",
+          "",
+          "Luminescence Cell-Based Primary HTS to Identify Inhibitors of MITF",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2241",
+          "",
+          "85843252",
+          "5281654",
+          "Inactive",
+          "2VM6_A",
+          "",
+          "",
+          "",
+          "Luminescence Cell-Based Primary HTS to Identify Inhibitors of A1",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2275",
+          "",
+          "85843252",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "",
+          "Luminescence Cell-Based Primary HTS to Measure Viability of BJeLR cells",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2313",
+          "",
+          "85843252",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "",
+          "Luminescence Cell-Based Primary HTS to Identify Inhibitors of the Sonic Hedgehog Signaling Pathway",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2314",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "BAC78637",
+          "",
+          "",
+          "",
+          "Cycloheximide Counterscreen for Small Molecule Inhibitors of Shiga Toxin",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2314",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "BAC78638",
+          "",
+          "",
+          "",
+          "Cycloheximide Counterscreen for Small Molecule Inhibitors of Shiga Toxin",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2314",
+          "",
+          "26756953",
+          "5281654",
+          "Active",
+          "BAC78637",
+          "",
+          "",
+          "",
+          "Cycloheximide Counterscreen for Small Molecule Inhibitors of Shiga Toxin",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2314",
+          "",
+          "26756953",
+          "5281654",
+          "Active",
+          "BAC78638",
+          "",
+          "",
+          "",
+          "Cycloheximide Counterscreen for Small Molecule Inhibitors of Shiga Toxin",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2315",
+          "",
+          "26756952",
+          "5281654",
+          "Active",
+          "BAC78637",
+          "",
+          "",
+          "",
+          "A qHTS for Small Molecule Inhibitors of Shiga Toxin",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2315",
+          "",
+          "26756952",
+          "5281654",
+          "Active",
+          "BAC78638",
+          "",
+          "",
+          "",
+          "A qHTS for Small Molecule Inhibitors of Shiga Toxin",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2315",
+          "",
+          "26756953",
+          "5281654",
+          "Active",
+          "BAC78637",
+          "",
+          "",
+          "",
+          "A qHTS for Small Molecule Inhibitors of Shiga Toxin",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2315",
+          "",
+          "26756953",
+          "5281654",
+          "Active",
+          "BAC78638",
+          "",
+          "",
+          "",
+          "A qHTS for Small Molecule Inhibitors of Shiga Toxin",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2316",
+          "",
+          "85843252",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "",
+          "Luminescence Cell-Based Primary HTS to Identify Activators of the Reversal of PD-1 Mediated Inhibitors of T-Cell Inhibition",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2322",
+          "",
+          "85843252",
+          "5281654",
+          "Active",
+          "",
+          "",
+          "",
+          "",
+          "Luminescence Homogenous Primary HTS to Identify Inhibitors of STK33 Activity",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2330",
+          "",
+          "85843252",
+          "5281654",
+          "Inactive",
+          "CAC29064",
+          "65975",
+          "",
+          "",
+          "Luminescence Cell-Based Primary HTS to Identify Inhibitors of STK33",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2451",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "2ISV_A",
+          "",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors of Fructose-1,6-bisphosphate Aldolase from Giardia Lamblia",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2451",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "2ISV_A",
+          "",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors of Fructose-1,6-bisphosphate Aldolase from Giardia Lamblia",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2472",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "NP_002037",
+          "2597",
+          "",
+          "",
+          "qHTS Assay for Inhibitors of Fructose-1,6-bisphosphate Aldolase from Giardia Lamblia: Coupling assay counterscreen",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2472",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_002037",
+          "2597",
+          "",
+          "",
+          "qHTS Assay for Inhibitors of Fructose-1,6-bisphosphate Aldolase from Giardia Lamblia: Coupling assay counterscreen",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2517",
+          "",
+          "26756952",
+          "5281654",
+          "Inconclusive",
+          "1DE9_A",
+          "",
+          "22.3872",
+          "Potency",
+          "qHTS Assay for Inhibitors of the Human Apurinic/apyrimidinic Endonuclease 1 (APE1)",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2517",
+          "",
+          "26756953",
+          "5281654",
+          "Inconclusive",
+          "1DE9_A",
+          "",
+          "39.8107",
+          "Potency",
+          "qHTS Assay for Inhibitors of the Human Apurinic/apyrimidinic Endonuclease 1 (APE1)",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2528",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "NP_000048",
+          "641",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors of Bloom's syndrome helicase (BLM)",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2528",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_000048",
+          "641",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors of Bloom's syndrome helicase (BLM)",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2546",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "NP_035411",
+          "19885",
+          "",
+          "Potency",
+          "VP16 counterscreen qHTS for inhibitors of ROR gamma transcriptional activity",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2546",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_035411",
+          "19885",
+          "",
+          "Potency",
+          "VP16 counterscreen qHTS for inhibitors of ROR gamma transcriptional activity",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2549",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "2WWY_A",
+          "",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors of RecQ-Like Dna Helicase 1 (RECQ1)",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2549",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "2WWY_A",
+          "",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors of RecQ-Like Dna Helicase 1 (RECQ1)",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2551",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "NP_035411",
+          "19885",
+          "",
+          "Potency",
+          "qHTS for inhibitors of ROR gamma transcriptional activity",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2551",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_035411",
+          "19885",
+          "",
+          "Potency",
+          "qHTS for inhibitors of ROR gamma transcriptional activity",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "38382",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P15145",
+          "397520",
+          "",
+          "",
+          "Inhibition of cell surface aminopeptidase N (APN/CD13) at 0.3*10e-3 M compound concentration",
+          "Other",
+          "12930151",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "147515",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P07861",
+          "24590",
+          "",
+          "",
+          "Inhibition of neutral endopeptidase (NEP/CD13) at 0.3*10e-3 M compound concentration",
+          "Other",
+          "12930151",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "265759",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "Q965D5",
+          "",
+          "5",
+          "IC50",
+          "Inhibition of FabI",
+          "Confirmatory",
+          "16722653",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "265760",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "Q965D6",
+          "",
+          "8.3",
+          "IC50",
+          "Inhibition of FabG",
+          "Confirmatory",
+          "16722653",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "265761",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "14.7",
+          "IC50",
+          "Antiplasmodial activity against chloroquine-sensitive Plasmodium falciparum NF54",
+          "Confirmatory",
+          "16722653",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "265762",
+          "",
+          "103489401",
+          "5281654",
+          "Inconclusive",
+          "",
+          "",
+          "",
+          "Activity",
+          "Antiplasmodial activity against chloroquine-resistant Plasmodium falciparum K1",
+          "Confirmatory",
+          "16722653",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "265763",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q965D7",
+          "",
+          "",
+          "",
+          "Inhibition of FabZ at 100 uM",
+          "Other",
+          "16722653",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "288326",
+          "",
+          "103489401",
+          "5281654",
+          "Inconclusive",
+          "P09917",
+          "240",
+          "",
+          "IC50",
+          "Inhibition of 5-LO activity in ionophore A23187 and arachidonic-stimulated human intact PMNL",
+          "Confirmatory",
+          "17461565",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "338974",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P80457",
+          "280960",
+          "",
+          "",
+          "Inhibition of cow milk xanthine oxidase at 50 ug/mL",
+          "Other",
+          "3379415",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "353590",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Inhibition of heat-induced HSP70 expression in human Jurkat cells at 50 ug/mL treated for 1 hr before heat induction by Western blot",
+          "Other",
+          "19296652",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "353591",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P04792",
+          "",
+          "",
+          "",
+          "Enhancement of HSP27 Ser78 phosphorylation in human HeLa cells at 50 ug/mL treated for 1 hr",
+          "Other",
+          "19296652",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "353598",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "",
+          "",
+          "0.5",
+          "IC50",
+          "Inhibition of CK2 assessed as level of ATP utilized by luciferase-based bioluminescence assay",
+          "Confirmatory",
+          "19296652",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "353599",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "",
+          "",
+          "0.91",
+          "IC50",
+          "Inhibition of CAMK2 assessed as level of ATP utilized by luciferase-based bioluminescence assay",
+          "Confirmatory",
+          "19296652",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "354608",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P80276",
+          "396816",
+          "95",
+          "IC50",
+          "Inhibition of pig lens aldose reductase by spectrophotometry",
+          "Confirmatory",
+          "8699190",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "354609",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "95",
+          "IC50",
+          "Inhibition of pig kidney aldehyde reductase by spectrophotometry",
+          "Confirmatory",
+          "8699190",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "354610",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "88.6",
+          "IC50",
+          "Inhibition of bovine liver NADH oxidase",
+          "Confirmatory",
+          "8699190",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "355885",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antimicrobial activity against Helicobacter pylori isolates after 36 hrs under aerobic condition by microdilution method",
+          "Other",
+          "12762812",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "355887",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antimicrobial activity against Proteus mirabilis isolates after 36 hrs under aerobic condition by microdilution method",
+          "Other",
+          "12762812",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "355888",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antimicrobial activity against Pseudomonas aeruginosa ATCC 27853 after 36 hrs under aerobic condition by microdilution method",
+          "Other",
+          "12762812",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "399340",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "P47989",
+          "7498",
+          "2.51",
+          "IC50",
+          "Inhibition of xanthine oxidase assessed as decrease in uric acid production by spectrophotometry",
+          "Confirmatory",
+          "9461655",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "399341",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "",
+          "",
+          "2.75",
+          "IC50",
+          "Antioxidant activity assessed as superoxide-scavenging activity by nitrite method",
+          "Confirmatory",
+          "9461655",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "400608",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "",
+          "",
+          "3.8",
+          "IC50",
+          "Inhibition of procoagulant activity in monocyte from human blood assessed as counteraction of IL1-induced tissue factor expression after 18 hrs",
+          "Confirmatory",
+          "8882428",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "404692",
+          "",
+          "103489401",
+          "5281654",
+          "Inconclusive",
+          "P0DUB6",
+          "276",
+          "",
+          "IC50",
+          "Inhibition of human salivary alpha-amylase",
+          "Confirmatory",
+          "18507367",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "404692",
+          "",
+          "103489401",
+          "5281654",
+          "Inconclusive",
+          "P0DUB6",
+          "277",
+          "",
+          "IC50",
+          "Inhibition of human salivary alpha-amylase",
+          "Confirmatory",
+          "18507367",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "404692",
+          "",
+          "103489401",
+          "5281654",
+          "Inconclusive",
+          "P0DUB6",
+          "278",
+          "",
+          "IC50",
+          "Inhibition of human salivary alpha-amylase",
+          "Confirmatory",
+          "18507367",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "404692",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P0DUB6",
+          "276",
+          "",
+          "Inhibition",
+          "Inhibition of human salivary alpha-amylase",
+          "Confirmatory",
+          "18507367",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "404692",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P0DUB6",
+          "277",
+          "",
+          "Inhibition",
+          "Inhibition of human salivary alpha-amylase",
+          "Confirmatory",
+          "18507367",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "404692",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P0DUB6",
+          "278",
+          "",
+          "Inhibition",
+          "Inhibition of human salivary alpha-amylase",
+          "Confirmatory",
+          "18507367",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "423636",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "10",
+          "IC50",
+          "Cytotoxicity against human HeLa cells by MTT assay",
+          "Confirmatory",
+          "19278239",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "434959",
+          "",
+          "85843252",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "",
+          "Fluorescence Cell-Based Primary HTS to Measure Inhibition of Y box Binding Protein 1 Expression",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "456317",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antioxidant activity assessed as trolox equivalent by TEAC assay",
+          "Other",
+          "19944611",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "485281",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "3F32_A",
+          "",
+          "",
+          "Potency",
+          "qHTS Assay for Identification of Novel General Anesthetics",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "485281",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "3F32_A",
+          "",
+          "",
+          "Potency",
+          "qHTS Assay for Identification of Novel General Anesthetics",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "485290",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "1JY1_A",
+          "",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors of Tyrosyl-DNA Phosphodiesterase (TDP1)",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "485290",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "1JY1_A",
+          "",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors of Tyrosyl-DNA Phosphodiesterase (TDP1)",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "502473",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "P05177",
+          "1544",
+          "1.261",
+          "IC50",
+          "Inhibition of human CYP1A2 by EROD assay",
+          "Confirmatory",
+          "20696580",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "502474",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "P04798",
+          "1543",
+          "0.056",
+          "IC50",
+          "Inhibition of human CYP1A1 by EROD assay",
+          "Confirmatory",
+          "20696580",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "502475",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "Q16678",
+          "1545",
+          "0.017",
+          "IC50",
+          "Inhibition of human CYP1B1 by EROD assay",
+          "Confirmatory",
+          "20696580",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "504327",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "NP_066564",
+          "2648",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors of GCN5L2",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "504339",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "2QQS_A",
+          "",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors of JMJD2A-Tudor Domain",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "504444",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_001138884",
+          "",
+          "",
+          "Potency",
+          "Nrf2 qHTS screen for inhibitors",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "504648",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "Potency",
+          "Nrf2 qHTS screen for inhibitors: counterscreen for cytotoxicity",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "504845",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "ABC94591",
+          "5999",
+          "",
+          "Potency",
+          "Inhibitors of Regulator of G Protein Signaling (RGS) 4: qHTS",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "504847",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "NP_001017535",
+          "7421",
+          "",
+          "Potency",
+          "Inhibitors of the vitamin D receptor (VDR): qHTS",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "504847",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_001017535",
+          "7421",
+          "",
+          "Potency",
+          "Inhibitors of the vitamin D receptor (VDR): qHTS",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "504891",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_006212",
+          "5300",
+          "",
+          "Potency",
+          "qHTS Assay to Find Inhibitors of Pin1",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "515157",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antimutagenic activity in Salmonella Typhimurium TA98 assessed as inhibition of 3-nitrofluoranthene-induced mutation by Ames test",
+          "Other",
+          "20696502",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "540267",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "",
+          "Small Molecules that selectively kill Giardia lamblia: qHTS",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "540317",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_001120700",
+          "10951",
+          "",
+          "Potency",
+          "HTS for Inhibitors of HP1-beta Chromodomain Interactions with Methylated Histone Tails",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "588453",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "AAC35244",
+          "58819",
+          "",
+          "Potency",
+          "qHTS Assay for Inhibitors of Mammalian Selenoprotein Thioredoxin Reductase 1 (TrxR1): qHTS",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "588456",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "AAC35244",
+          "58819",
+          "",
+          "Potency",
+          "qHTS Assay for Substrates of Mammalian Selenoprotein Thioredoxin Reductase 1 (TrxR1): qHTS",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "588579",
+          "",
+          "26756952",
+          "5281654",
+          "Inconclusive",
+          "NP_057302",
+          "51426",
+          "29.9349",
+          "Potency",
+          "qHTS for Inhibitors of Polymerase Kappa",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "588579",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_057302",
+          "51426",
+          "",
+          "Potency",
+          "qHTS for Inhibitors of Polymerase Kappa",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "588590",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_009126",
+          "11201",
+          "",
+          "Potency",
+          "qHTS for Inhibitors of Polymerase Iota",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "588795",
+          "",
+          "26756953",
+          "5281654",
+          "Inconclusive",
+          "NP_004102",
+          "2237",
+          "56.2341",
+          "Potency",
+          "qHTS Assay for the Inhibitors of Human Flap endonuclease 1 (FEN1).",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "588855",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "AAL68976",
+          "4088",
+          "",
+          "Potency",
+          "qHTS for Inhibitors of TGF-b",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "588856",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "Potency",
+          "qHTS for Inhibitors of TGF-b: Cytotox Counterscreen",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "602310",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_068594",
+          "60489",
+          "",
+          "Potency",
+          "qHTS for Inhibitors of Vif-A3G Interactions: qHTS",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "602332",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "CAQ08732",
+          "",
+          "",
+          "Potency",
+          "qHTS for Inducers of the Endoplasmic Reticulum Stress Response (ERSR) in Human Glioma: qHTS",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "602332",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "CAQ08732",
+          "",
+          "",
+          "Potency",
+          "qHTS for Inducers of the Endoplasmic Reticulum Stress Response (ERSR) in Human Glioma: qHTS",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "616482",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antioxidant activity assessed as DPPH free radical scavenging activity",
+          "Other",
+          "21821414",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "624137",
+          "",
+          "85843252",
+          "5281654",
+          "Inactive",
+          "AAA73923",
+          "3400",
+          "",
+          "",
+          "SMM ID4 Measured in Biochemical System Using Small Molecule MicroArray - 2128-01_Other_SinglePoint_HTS_Activity",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "624156",
+          "",
+          "85843252",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "",
+          "Fluorescence Cell-Based Primary  HTS to Identify Reactive Oxygen Species Inducers in Cancer Cells Measured in Cell-Based System Using Plate Reader and Imaging Combination - 2044-01_Activator_SinglePoint_HTS_Activity",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "624178",
+          "",
+          "26756953",
+          "5281654",
+          "Unspecified",
+          "AAA58377",
+          "6609",
+          "",
+          "Potency",
+          "qHTS for Inhibitors of Human Acid Sphingomyelinase Assay: Native Substrate",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "624260",
+          "",
+          "85843252",
+          "5281654",
+          "Inactive",
+          "NP_001035889",
+          "7468",
+          "",
+          "",
+          "NSD2 Inhibitors Measured in Biochemical System Using Plate Reader - 2115-01_Inhibitor_SinglePoint_HTS_Activity",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "624414",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_065394",
+          "57192",
+          "",
+          "",
+          "qHTS for Agonists of the Human Mucolipin Transient Receptor Potential 1 (TRPML1)",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "624415",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "NP_065394",
+          "57192",
+          "",
+          "",
+          "qHTS for Inhibitors of the Human Mucolipin Transient Receptor Potential 1 (TRPML1)",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "654747",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P03126",
+          "",
+          "",
+          "",
+          "Inhibition of GST-tagged Human papillomavirus 16 protein E6 interaction with His-tagged human caspase 8 expressed in Escherichia coli at 20 nM to 20 uM after 1 hr incubation followed by overnight incubation by Alpha screening technique",
+          "Other",
+          "22300659",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "658254",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antiviral activity against HCV JFH-1 J399EM infected in Human Huh7.5.1 cells assessed as suppression of viral replication at 50 uM after 72 hrs by EGFP assay",
+          "Other",
+          "22445328",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "658255",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "50",
+          "CC50",
+          "Cytotoxicity against human Huh7.5.1 cells by MTT assay",
+          "Confirmatory",
+          "22445328",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "666768",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q28731",
+          "",
+          "",
+          "",
+          "Inhibition of thrombin in New Zealand rabbit plasma assessed as thrombin time at 100 uM after 3 mins by coagulometry",
+          "Other",
+          "22647223",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "666769",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q28731",
+          "",
+          "",
+          "",
+          "Inhibition of thrombin in New Zealand rabbit plasma assessed as prothrombin time at 100 uM by coagulometry",
+          "Other",
+          "22647223",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "666770",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q28731",
+          "",
+          "",
+          "",
+          "Inhibition of thrombin in New Zealand rabbit plasma assessed as activated partial thromboplastin time at 100 uM after 3 mins by coagulometry",
+          "Other",
+          "22647223",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "666771",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q28731",
+          "",
+          "",
+          "",
+          "Inhibition of thrombin in New Zealand rabbit plasma assessed as fibrinogen level at 100 uM by coagulometry",
+          "Other",
+          "22647223",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "671261",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "160",
+          "IC50",
+          "Inhibition of Saccharomyces cerevisiae alpha-glucosidase using p-nitrophenyl-alpha-D-glucopyranoside as substrate preincubated for 5 mins prior to substrate addition measured after 35 mins by spectrophotocolorimetric assay",
+          "Confirmatory",
+          "22587572",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "671262",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "1910",
+          "Ki",
+          "Mixed type inhibition of Saccharomyces cerevisiae alpha-glucosidase using p-nitrophenyl-alpha-D-glucopyranoside as substrate by Lineweaver-Burk plot and Dixon plot analysis",
+          "Confirmatory",
+          "22587572",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "690143",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "Imax",
+          "Inhibition of oleic acid-induced triglyceride over-accumulation in human HepG2 cells incubated for 24 hrs relative to untreated control",
+          "Confirmatory",
+          "21824690",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "690143",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "90.5",
+          "IC30",
+          "Inhibition of oleic acid-induced triglyceride over-accumulation in human HepG2 cells incubated for 24 hrs relative to untreated control",
+          "Confirmatory",
+          "21824690",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "690144",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "Imax",
+          "Antioxidant activity in human HepG2 cells assessed as reduction of oleic acid-induced ROS generation incubated for 24 hrs by DHCF-DA based fluorimetric assay relative to untreated control",
+          "Confirmatory",
+          "21824690",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "690144",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "Inhibition",
+          "Antioxidant activity in human HepG2 cells assessed as reduction of oleic acid-induced ROS generation incubated for 24 hrs by DHCF-DA based fluorimetric assay relative to untreated control",
+          "Confirmatory",
+          "21824690",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "690144",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "69.3",
+          "IC30",
+          "Antioxidant activity in human HepG2 cells assessed as reduction of oleic acid-induced ROS generation incubated for 24 hrs by DHCF-DA based fluorimetric assay relative to untreated control",
+          "Confirmatory",
+          "21824690",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "690145",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "200",
+          "Activity",
+          "Cytotoxicity against human HepG2 cells incubated for 24 hrs by MTT assay",
+          "Confirmatory",
+          "21824690",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "690148",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "1040",
+          "Activity",
+          "Reducing activity assessed as chlorogenic acid equivalent per mmol standard at 37 degC for 30 mins by Folin-Ciocalteu reagent assay assay",
+          "Confirmatory",
+          "21824690",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "690149",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Reducing activity by cyclic voltammetry",
+          "Other",
+          "21824690",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "697852",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "O42275",
+          "113580815",
+          "",
+          "",
+          "Inhibition of electric eel AChE at 2 mg/ml by Ellman's method",
+          "Other",
+          "23062825",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "697853",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P81908",
+          "100033901",
+          "",
+          "",
+          "Inhibition of horse BChE at 2 mg/ml by Ellman's method",
+          "Other",
+          "23062825",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "720532",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "B45705",
+          "",
+          "",
+          "Potency",
+          "qHTS for Inhibitors of binding or entry into cells for Marburg Virus",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "720533",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "Potency",
+          "qHTS for Inhibitors of binding or entry into cells for Lassa Virus",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "735123",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P53051",
+          "853204",
+          "160",
+          "IC50",
+          "Inhibition of baker's yeast alpha-glucosidase",
+          "Confirmatory",
+          "23398496",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1070388",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Neuroprotective activity in mouse HT22 cells assessed as reduction of t-BOOH-induced oxidative stress at 40 uM preincubated for 3 hrs followed by t-BOOH induction measured after 20 hrs by MTT assay",
+          "Other",
+          "24245939",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1070389",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Neuroprotective activity in mouse HT22 cells assessed as reduction of t-BOOH-induced oxidative stress at 40 uM preincubated for 3 hrs followed by t-BOOH induction measured for 20 hrs by time-resolved ECIS analysis",
+          "Other",
+          "24245939",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1082431",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Inhibition of fruit-infesting behavior of Cydia pomonella (codling moth) neonates infested in apple fruit plugs assessed as feeding deterrence index at 3 mg/mL",
+          "Other",
+          "21905729",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1082434",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Inhibition of fruit-infesting behavior of Cydia pomonella (codling moth) neonates infested in apple fruit plugs assessed as feeding deterrence index at 0.01 mg/mL",
+          "Other",
+          "21905729",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1082435",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Inhibition of fruit-infesting behavior of Cydia pomonella (codling moth) neonates infested in apple fruit plugs assessed as feeding deterrence index at 0.1 mg/mL",
+          "Other",
+          "21905729",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1082436",
+          "",
+          "103489401",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "",
+          "Inhibition of fruit-infesting behavior of Cydia pomonella (codling moth) neonates infested in apple fruit plugs assessed as feeding deterrence index at 1 mg/mL",
+          "Other",
+          "21905729",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1115334",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "",
+          "",
+          "2.8",
+          "IC50",
+          "Inhibition of NADPH oxidase in Homo sapiens (human) HUVEC cells",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1162595",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P19838",
+          "",
+          "",
+          "",
+          "Inhibition of PMA-stimulated NF-kappaB signaling (unknown origin) expressed in MDA-MB-231 cells at 5 uM incubated for 16 hrs by luciferase reporter gene assay",
+          "Other",
+          "25190466",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1162595",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q00653",
+          "",
+          "",
+          "",
+          "Inhibition of PMA-stimulated NF-kappaB signaling (unknown origin) expressed in MDA-MB-231 cells at 5 uM incubated for 16 hrs by luciferase reporter gene assay",
+          "Other",
+          "25190466",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1162595",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q04206",
+          "",
+          "",
+          "",
+          "Inhibition of PMA-stimulated NF-kappaB signaling (unknown origin) expressed in MDA-MB-231 cells at 5 uM incubated for 16 hrs by luciferase reporter gene assay",
+          "Other",
+          "25190466",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1162612",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P19838",
+          "",
+          "",
+          "",
+          "Inhibition of NF-kappaB signaling in human MDA-MB-231 cells assessed as reduction in PMA-stimulated MMP9 mRNA expression at 25 uM pre-incubated before PMA stimulation by quantitative RT-PCR method",
+          "Other",
+          "25190466",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1162612",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q00653",
+          "",
+          "",
+          "",
+          "Inhibition of NF-kappaB signaling in human MDA-MB-231 cells assessed as reduction in PMA-stimulated MMP9 mRNA expression at 25 uM pre-incubated before PMA stimulation by quantitative RT-PCR method",
+          "Other",
+          "25190466",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1162612",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q04206",
+          "",
+          "",
+          "",
+          "Inhibition of NF-kappaB signaling in human MDA-MB-231 cells assessed as reduction in PMA-stimulated MMP9 mRNA expression at 25 uM pre-incubated before PMA stimulation by quantitative RT-PCR method",
+          "Other",
+          "25190466",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1162613",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P19838",
+          "",
+          "",
+          "",
+          "Inhibition of NF-kappaB signaling in human MDA-MB-231 cells assessed as reduction in PMA-stimulated COX2 mRNA expression at 25 uM pre-incubated before PMA stimulation by quantitative RT-PCR method",
+          "Other",
+          "25190466",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1162613",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q00653",
+          "",
+          "",
+          "",
+          "Inhibition of NF-kappaB signaling in human MDA-MB-231 cells assessed as reduction in PMA-stimulated COX2 mRNA expression at 25 uM pre-incubated before PMA stimulation by quantitative RT-PCR method",
+          "Other",
+          "25190466",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1162613",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q04206",
+          "",
+          "",
+          "",
+          "Inhibition of NF-kappaB signaling in human MDA-MB-231 cells assessed as reduction in PMA-stimulated COX2 mRNA expression at 25 uM pre-incubated before PMA stimulation by quantitative RT-PCR method",
+          "Other",
+          "25190466",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1204216",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P00591",
+          "100157809",
+          "",
+          "",
+          "Inhibition of porcine pancreatic lipase using p-nitrophenylbutyrate as substrate assessed as formation of p-nitrophenol at 100 uM preincubated for 15 mins followed by substrate addition measured after 15 mins relative to control",
+          "Other",
+          "25935644",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1204217",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P00591",
+          "100157809",
+          "70",
+          "IC50",
+          "Inhibition of porcine pancreatic lipase using p-nitrophenylbutyrate as substrate assessed as formation of p-nitrophenol preincubated for 15 mins followed by substrate addition measured after 15 mins",
+          "Confirmatory",
+          "25935644",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1239713",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Anti-platelet activity in rat platelet rich plasma assessed as inhibition of ADP and calcium-induced platelet aggregation at 100 uM pre-incubated at 37 degC for 10 mins and measured 30 mins after ADP and calcium addition",
+          "Other",
+          "26096681",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1254155",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P00915",
+          "759",
+          "10",
+          "Ki",
+          "Inhibition of human recombinant carbonic anhydrase 1 preincubated for 15 mins at room temperature/6 hrs at 4 deg C by stopped-flow CO2 hydration assay",
+          "Confirmatory",
+          "26498393",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1254156",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P00918",
+          "760",
+          "10",
+          "Ki",
+          "Inhibition of human recombinant carbonic anhydrase 2 preincubated for 15 mins at room temperature/6 hrs at 4 deg C by stopped-flow CO2 hydration assay",
+          "Confirmatory",
+          "26498393",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1254157",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "P22748",
+          "762",
+          "0.2129",
+          "Ki",
+          "Inhibition of human recombinant carbonic anhydrase 4 preincubated for 15 mins at room temperature/6 hrs at 4 deg C by stopped-flow CO2 hydration assay",
+          "Confirmatory",
+          "26498393",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1254158",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "P43166",
+          "766",
+          "0.0044",
+          "Ki",
+          "Inhibition of human recombinant carbonic anhydrase 7 preincubated for 15 mins at room temperature/6 hrs at 4 deg C by stopped-flow CO2 hydration assay",
+          "Confirmatory",
+          "26498393",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1254159",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "O43570",
+          "771",
+          "0.0549",
+          "Ki",
+          "Inhibition of human recombinant carbonic anhydrase 12 preincubated for 15 mins at room temperature/6 hrs at 4 deg C by stopped-flow CO2 hydration assay",
+          "Confirmatory",
+          "26498393",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1254160",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P00915",
+          "759",
+          "10",
+          "Ki",
+          "Inhibition of human recombinant carbonic anhydrase 1",
+          "Confirmatory",
+          "26498393",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1254161",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "P00918",
+          "760",
+          "0.44",
+          "Ki",
+          "Inhibition of human recombinant carbonic anhydrase 2",
+          "Confirmatory",
+          "26498393",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1254163",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "O43570",
+          "771",
+          "0.22",
+          "Ki",
+          "Inhibition of human recombinant carbonic anhydrase 12",
+          "Confirmatory",
+          "26498393",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1259310",
+          "",
+          "333494815",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "",
+          "AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1259310",
+          "",
+          "333495065",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "",
+          "AlphaScreen-based biochemical high throughput primary assay to identify activators of the E3 ligase (FBW7).",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1259374",
+          "",
+          "333494815",
+          "5281654",
+          "Inactive",
+          "NP_001341533",
+          "4286",
+          "",
+          "",
+          "AlphaScreen-based biochemical high throughput primary assay to identify inhibitors of microphthalmia-associated transcription factor (MITF)",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1259374",
+          "",
+          "333495065",
+          "5281654",
+          "Inactive",
+          "NP_001341533",
+          "4286",
+          "",
+          "",
+          "AlphaScreen-based biochemical high throughput primary assay to identify inhibitors of microphthalmia-associated transcription factor (MITF)",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1259389",
+          "",
+          "175607900",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "",
+          "HIV1_TAR : FRET assay measuring displacement of FAM and TAMRA-labeled Tat peptide from HIV-1 TAR RNA.",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1259389",
+          "",
+          "175607928",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "",
+          "HIV1_TAR : FRET assay measuring displacement of FAM and TAMRA-labeled Tat peptide from HIV-1 TAR RNA.",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1259407",
+          "",
+          "363901741",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "",
+          "CCRIS mutagenicity studies",
+          "Other",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1259422",
+          "",
+          "333494815",
+          "5281654",
+          "Inactive",
+          "NP_001123617",
+          "10413",
+          "",
+          "",
+          "Luminescence cell-based high throughput primary assay to identify inhibitors of TEAD-YAP interaction.",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1259422",
+          "",
+          "333495065",
+          "5281654",
+          "Inactive",
+          "NP_001123617",
+          "10413",
+          "",
+          "",
+          "Luminescence cell-based high throughput primary assay to identify inhibitors of TEAD-YAP interaction.",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1264945",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Induction of osteogenic differentiation in human MSC assessed as increase in ALP activity at 1 uM using p-NPP as substrate after 9 days by colorimetric method relative to control",
+          "Other",
+          "26517554",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1264946",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Induction of osteogenic differentiation in human MSC assessed as increase in ALP activity at 5 uM using p-NPP as substrate after 9 days by colorimetric method relative to control",
+          "Other",
+          "26517554",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1264947",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Induction of osteogenic differentiation in human MSC assessed as increase in ALP activity at 10 uM using p-NPP as substrate after 9 days by colorimetric method relative to control",
+          "Other",
+          "26517554",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1264949",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human MSC assessed as decrease in cell number at 1 to 10 uM after 9 days by methylene blue staining based microscopy relative to control",
+          "Other",
+          "26517554",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1264950",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human MSC assessed as cell viability at 1 uM measured on day 1 by alamar blue assay (Rvb = 97 to 101%)",
+          "Other",
+          "26517554",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1264951",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human MSC assessed as cell viability at 5 uM measured on day 1 by alamar blue assay (Rvb = 97 to 101%)",
+          "Other",
+          "26517554",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1264952",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human MSC assessed as cell viability at 10 uM measured on day 1 by alamar blue assay (Rvb = 97 to 101%)",
+          "Other",
+          "26517554",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1264953",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human MSC assessed as cell viability at 1 uM treated for 3 days measured on day 4 by alamar blue assay (Rvb = 97 to 100%)",
+          "Other",
+          "26517554",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1264954",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human MSC assessed as cell viability at 5 uM treated for 3 days measured on day 4 by alamar blue assay (Rvb = 97 to 100%)",
+          "Other",
+          "26517554",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1264955",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human MSC assessed as cell viability at 10 uM treated for 3 days measured on day 4 by alamar blue assay (Rvb = 97 to 100%)",
+          "Other",
+          "26517554",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1264956",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human MSC assessed as cell viability at 1 uM treated for 6 days measured on day 7 by alamar blue assay (Rvb = 96 to 101%)",
+          "Other",
+          "26517554",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1264957",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human MSC assessed as cell viability at 5 uM treated for 6 days measured on day 7 by alamar blue assay (Rvb = 96 to 101%)",
+          "Other",
+          "26517554",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1264958",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human MSC assessed as cell viability at 10 uM treated for 6 days measured on day 7 by alamar blue assay (Rvb = 96 to 101%)",
+          "Other",
+          "26517554",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1323133",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antioxidant activity assessed as DPPH free radical scavenging activity at 5 uM after 15 to 60 mins in presence of CuSO4.5H2O",
+          "Other",
+          "27314621",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1357416",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Inhibition of LPS-induced mPGES1 mRNA expression in mouse J774 cells at 100 uM measured after 6 to 24 hrs by qRT-PCR analysis",
+          "Other",
+          "29329790",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1434704",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "Inhibition",
+          "Antineuroinflammatory activity in mouse N9 cells assessed as inhibition of LPS-induced nitric oxide production after 24 hrs by Griess assay",
+          "Confirmatory",
+          "28073678",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1434704",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "17.87",
+          "IC50",
+          "Antineuroinflammatory activity in mouse N9 cells assessed as inhibition of LPS-induced nitric oxide production after 24 hrs by Griess assay",
+          "Confirmatory",
+          "28073678",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1434705",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against LPS-induced mouse N9 cells assessed as decrease in cell viability at 1 to 100 ug/ml after 24 hrs by MTT assay",
+          "Other",
+          "28073678",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1452993",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "Q16678",
+          "1545",
+          "0.003",
+          "Ki",
+          "Inhibition of human liver microsomes CYP1B1 expressed in baculovirus infected insect cells coexpressing human NADPH-cytochrome P450 reductase using 7-ethoxyresorufin as substrate after 3 mins in presence of NADPH by Lineweaver-Burk plot analysis",
+          "Confirmatory",
+          "28458135",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1508602",
+          "",
+          "333494815",
+          "5281654",
+          "Inactive",
+          "Q8TDV0",
+          "134391",
+          "",
+          "",
+          "Cell-based high throughput primary assay to identify activators of GPR151",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1508602",
+          "",
+          "333495065",
+          "5281654",
+          "Inactive",
+          "Q8TDV0",
+          "134391",
+          "",
+          "",
+          "Cell-based high throughput primary assay to identify activators of GPR151",
+          "Screening",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1533713",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "Q16678",
+          "1545",
+          "3",
+          "Ki",
+          "Inhibition of human liver microsomes CYP1B1 expressed in Escherichia coli DH5alpha cell membranes coexpressing human NADPH-cytochrome P450 reductase using 7-Ethoxyresorufin as substrate preincubated for 3 mins followed by NADPH addition measured after 10 mins by EROD assay",
+          "Confirmatory",
+          "30503941",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1533713",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q16678",
+          "1545",
+          "30.1",
+          "INH",
+          "Inhibition of human liver microsomes CYP1B1 expressed in Escherichia coli DH5alpha cell membranes coexpressing human NADPH-cytochrome P450 reductase using 7-Ethoxyresorufin as substrate preincubated for 3 mins followed by NADPH addition measured after 10 mins by EROD assay",
+          "Confirmatory",
+          "30503941",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1533714",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P04798",
+          "1543",
+          "25",
+          "INH",
+          "Inhibition of human liver microsomes CYP1A1 expressed in Escherichia coli DH5alpha cell membranes coexpressing human NADPH-cytochrome P450 reductase using 7-Ethoxyresorufin as substrate preincubated for 3 mins followed by NADPH addition measured after 10 mins by EROD assay",
+          "Confirmatory",
+          "30503941",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1533715",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P05177",
+          "1544",
+          "137",
+          "INH",
+          "Inhibition of human liver microsomes CYP1A2 expressed in Escherichia coli DH5alpha cell membranes coexpressing human NADPH-cytochrome P450 reductase using 7-Ethoxyresorufin as substrate preincubated for 3 mins followed by NADPH addition measured after 10 mins by EROD assay",
+          "Confirmatory",
+          "30503941",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1533716",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Selectivity index, ratio of Ki for human liver microsomes CYP1A1 to Ki for human liver microsomes CYP1B1",
+          "Other",
+          "30503941",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1533717",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Selectivity index, ratio of Ki for human liver microsomes CYP1A2 to Ki for human liver microsomes CYP1B1",
+          "Other",
+          "30503941",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1546536",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "",
+          "",
+          "8.1",
+          "IC50",
+          "Cytotoxicity against human HeLa cells assessed as reduction in cell viability incubated for 48 hrs by MTT assay",
+          "Confirmatory",
+          "31784199",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1546537",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "10.3",
+          "IC50",
+          "Cytotoxicity against human MCF7 cells assessed as reduction in cell viability incubated for 48 hrs by MTT assay",
+          "Confirmatory",
+          "31784199",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1572024",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "Q9UHH9",
+          "51447",
+          "0.5",
+          "IC50",
+          "Inhibition of human IP6K2 using insP6 as substrate preincubated for 15 mins followed by substrate and measured after 30 mins by TR-FRET assay",
+          "Confirmatory",
+          "30624931",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1572025",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "Q8NFU5",
+          "253430",
+          "2.2",
+          "IC50",
+          "Inhibition of human IPMK using insP3 as substrate preincubated for 15 mins followed by substrate and measured after 30 mins by TR-FRET assay",
+          "Confirmatory",
+          "30624931",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1572026",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Selectivity ratio of IC50 for human IPMK to IC50 for human IP6K2",
+          "Other",
+          "30624931",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1572042",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q9UHH9",
+          "",
+          "",
+          "",
+          "Inhibition of IP6K2 in human [3H]-inositol-labelled HCT116 cells assessed as reduction in insp7 levels at 2.5 uM after 3.5 hrs by HPLC analysis relative to control",
+          "Other",
+          "30624931",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1572043",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Down regulation of insp5 levels in human [3H]-inositol-labelled HCT116 cells at 2.5 uM after 3.5 hrs by HPLC analysis",
+          "Other",
+          "30624931",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1572044",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q8NFU5",
+          "",
+          "",
+          "",
+          "Inhibition of IPMK in human [3H]-inositol-labelled HCT116 cells assessed as reduction in insp5 levels at 2.5 uM after 3.5 hrs by HPLC analysis relative to control",
+          "Other",
+          "30624931",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1594769",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human HeLa cells assessed as reduction in cell viability at 12.5 to 100 ug/ml measured after 12 hrs by crystal violet staining based assay",
+          "Other",
+          "31125231",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1631832",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "13.9",
+          "IC50",
+          "Inhibition of Trypanosoma brucei PTR1 using H2B as substrate incubated for 10 mins followed by addition of NADPH measured for 10 to 50 mins",
+          "Confirmatory",
+          "27411733",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1631834",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "11.2",
+          "IC50",
+          "Antitrypanosomal activity against Trypanosoma brucei brucei Lister 427 bloodstream forms after 72 hrs by resazurin-based assay",
+          "Confirmatory",
+          "27411733",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1631835",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Selectivity index, ratio of IC50 for human thymidylate synthase to IC50 for Trypanosoma brucei PTR1",
+          "Other",
+          "27411733",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1631836",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Selectivity index, ratio of IC50 for human DHFR to IC50 for Trypanosoma brucei PTR1",
+          "Other",
+          "27411733",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634848",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antitubercular activity against Mycobacterium tuberculosis H37Rv P887 at 158 uM incubated for 1 to 9 days by inverted microscopic analysis",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634849",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "158",
+          "MIC90",
+          "Antitubercular activity against Mycobacterium tuberculosis H37Rv P887 incubated for 1 to 9 days by inverted microscopic analysis",
+          "Confirmatory",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634850",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "316",
+          "MIC90",
+          "Antitubercular activity against MDR Mycobacterium tuberculosis M22 incubated for 1 to 9 days by inverted microscopic analysis",
+          "Confirmatory",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634851",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "316",
+          "MIC90",
+          "Antitubercular activity against MDR Mycobacterium tuberculosis X23 incubated for 1 to 9 days by inverted microscopic analysis",
+          "Confirmatory",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634852",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "316",
+          "MIC90",
+          "Antitubercular activity against XDR Mycobacterium tuberculosis X24 incubated for 1 to 9 days by inverted microscopic analysis",
+          "Confirmatory",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634853",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "316",
+          "MIC90",
+          "Antitubercular activity against XDR Mycobacterium tuberculosis X59 incubated for 1 to 9 days by inverted microscopic analysis",
+          "Confirmatory",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634855",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Lipophilicity, logP of the compound",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634856",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antiinflammatory activity against IFN-gamma-stimulated human MRC5 cells assessed as reduction of IL-1beta mRNA level at 20 uM incubated for 3 hrs by RT-PCR analysis relative to control",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634857",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antiinflammatory activity against IFN-gamma-stimulated human MRC5 cells assessed as reduction of IL-6 mRNA level at 20 uM incubated for 3 hrs by RT-PCR analysis relative to control",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634858",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antiinflammatory activity against IFN-gamma-stimulated human MRC5 cells assessed as reduction of IL-12 mRNA level at 20 uM incubated for 3 hrs by RT-PCR analysis relative to control",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634859",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antiinflammatory activity against IFN-gamma-stimulated human MRC5 cells assessed as reduction of TNF-alpha mRNA level at 20 uM incubated for 3 hrs by RT-PCR analysis relative to control",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634860",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antiinflammatory activity against IFN-gamma-stimulated human MRC5 cells assessed as reduction of MMP-1 mRNA level at 20 uM incubated for 3 hrs by RT-PCR analysis relative to control",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634861",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P27361",
+          "",
+          "",
+          "",
+          "Downregulation of ERK1/2 phosphorylation in IFN-gamma-induced human MRC5 cells at 20 uM pretreated for 1 hr followed by IFN-gamma stimulation for 3 hrs by Western blot analysis",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634861",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P28482",
+          "",
+          "",
+          "",
+          "Downregulation of ERK1/2 phosphorylation in IFN-gamma-induced human MRC5 cells at 20 uM pretreated for 1 hr followed by IFN-gamma stimulation for 3 hrs by Western blot analysis",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634862",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "O15264",
+          "",
+          "",
+          "",
+          "Downregulation of p38 phosphorylation in IFN-gamma-induced human MRC5 cells at 20 uM pretreated for 1 hr followed by IFN-gamma stimulation for 3 hrs by Western blot analysis",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634862",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P53778",
+          "",
+          "",
+          "",
+          "Downregulation of p38 phosphorylation in IFN-gamma-induced human MRC5 cells at 20 uM pretreated for 1 hr followed by IFN-gamma stimulation for 3 hrs by Western blot analysis",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634862",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q15759",
+          "",
+          "",
+          "",
+          "Downregulation of p38 phosphorylation in IFN-gamma-induced human MRC5 cells at 20 uM pretreated for 1 hr followed by IFN-gamma stimulation for 3 hrs by Western blot analysis",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634862",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q16539",
+          "",
+          "",
+          "",
+          "Downregulation of p38 phosphorylation in IFN-gamma-induced human MRC5 cells at 20 uM pretreated for 1 hr followed by IFN-gamma stimulation for 3 hrs by Western blot analysis",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634863",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P45983",
+          "",
+          "",
+          "",
+          "Downregulation of JNK1/2 phosphorylation in IFN-gamma-induced human MRC5 cells at 20 uM pretreated for 1 hr followed by IFN-gamma stimulation for 3 hrs by Western blot analysis",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634863",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P45984",
+          "",
+          "",
+          "",
+          "Downregulation of JNK1/2 phosphorylation in IFN-gamma-induced human MRC5 cells at 20 uM pretreated for 1 hr followed by IFN-gamma stimulation for 3 hrs by Western blot analysis",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634864",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antiinflammatory activity against IFN-gamma-stimulated human MRC5 cells assessed as reduction of TNF-alpha production at 5 uM after 24 hrs by ELISA relative to control",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634865",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antiinflammatory activity against IFN-gamma-stimulated human MRC5 cells assessed as reduction of TNF-alpha production at 10 uM after 24 hrs by ELISA relative to control",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634866",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antiinflammatory activity against IFN-gamma-stimulated human MRC5 cells assessed as reduction of IL-12 production at 5 uM after 24 hrs by ELISA relative to control",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634867",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antiinflammatory activity against IFN-gamma-stimulated human MRC5 cells assessed as reduction of IL-12 production at 10 uM after 24 hrs by ELISA relative to control",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634868",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antiinflammatory activity against LPS-induced BALB/c mouse lung inflammation model assessed as lowering of IL-12 level at 0.01 to 0.5 mg/kg, ip administered for 1 hr followed by LPS stimulation for 12 hrs relative to vehicle-treated control",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634869",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antiinflammatory activity against LPS-induced BALB/c mouse lung inflammation model assessed as lowering of IL-1beta level at 0.01 to 0.5 mg/kg, ip administered for 1 hr followed by LPS stimulation for 12 hrs relative to vehicle-treated control",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634870",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antiinflammatory activity against LPS-induced BALB/c mouse lung inflammation model assessed as lowering of IL-6 level at 0.01 to 0.5 mg/kg, ip administered for 1 hr followed by LPS stimulation for 12 hrs relative to vehicle-treated control",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634871",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antiinflammatory activity against LPS-induced BALB/c mouse lung inflammation model assessed as lowering of IFN-gamma level at 0.01 to 0.5 mg/kg, ip administered for 1 hr followed by LPS stimulation for 12 hrs relative to vehicle-treated control",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634872",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Toxicity in mouse at 0.01 to 0.5 mg/kg assessed as irritability",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634873",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Toxicity in mouse at 0.01 to 0.5 mg/kg assessed as twisting",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634874",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Toxicity in mouse at 0.01 to 0.5 mg/kg assessed as breathing",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634875",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Toxicity in mouse at 0.01 to 0.5 mg/kg assessed as weight loss",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634876",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Toxicity in mouse at 0.01 to 0.5 mg/kg assessed as death",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634877",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Toxicity in mouse at 0.01 to 0.5 mg/kg assessed as change in AST level",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634878",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Toxicity in mouse at 0.01 to 0.5 mg/kg assessed as change in ALT level",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634879",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Toxicity in mouse at 0.01 to 0.5 mg/kg assessed as change in BUN level",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634880",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human HaCaT cells assessed as cell survival rate at 158 uM after 24 hrs by MTT assay",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634881",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against mouse NIH/3T3 cells assessed as cell survival rate at 158 uM after 24 hrs by MTT assay",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634882",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human MRC5 cells assessed as cell survival rate at 158 uM after 24 hrs by MTT assay",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634883",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human HaCaT cells assessed as cell survival rate at 316 uM after 24 hrs by MTT assay",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634884",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against mouse NIH/3T3 cells assessed as cell survival rate at 316 uM after 24 hrs by MTT assay",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634885",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human MRC5 cells assessed as cell survival rate at 316 uM after 24 hrs by MTT assay",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634886",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against human HaCaT cells assessed as cell survival rate at 400 uM after 24 hrs by MTT assay",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634887",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against mouse NIH/3T3 cells assessed as cell survival rate at 400 uM after 24 hrs by MTT assay",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634891",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P27361",
+          "5595",
+          "",
+          "",
+          "Binding affinity to human ERK1 expressed in Escherichia coli BL21 by fluorescence quenching based spectrofluorometric analysis",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634892",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "O15264",
+          "5603",
+          "",
+          "",
+          "Binding affinity to human C-terminally His-tagged p38 expressed in Escherichia coli BL21 by fluorescence quenching based spectrofluorometric analysis",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634892",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P53778",
+          "6300",
+          "",
+          "",
+          "Binding affinity to human C-terminally His-tagged p38 expressed in Escherichia coli BL21 by fluorescence quenching based spectrofluorometric analysis",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634892",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q15759",
+          "5600",
+          "",
+          "",
+          "Binding affinity to human C-terminally His-tagged p38 expressed in Escherichia coli BL21 by fluorescence quenching based spectrofluorometric analysis",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1634892",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q16539",
+          "1432",
+          "",
+          "",
+          "Binding affinity to human C-terminally His-tagged p38 expressed in Escherichia coli BL21 by fluorescence quenching based spectrofluorometric analysis",
+          "Other",
+          "26974691",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1640020",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "P0DTD1",
+          "",
+          "",
+          "",
+          "SARS-CoV-2 3CL-Pro protease inhibition percentage at 20µM  by FRET kind of response from peptide substrate",
+          "Other",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1645758",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Antiviral activity determined as inhibition of SARS-CoV-2 induced cytotoxicity of VERO-6 cells at 10 uM after 48 hours exposure to 0.01 MOI SARS CoV-2 virus by high content imaging",
+          "Other",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1745854",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "",
+          "NCATS anti-infectives library activity on HEK293 viability as a counter-qHTS vs the C. elegans viability qHTS",
+          "Confirmatory",
+          "36786055",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1745855",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "Potency",
+          "NCATS anti-infectives library activity on the primary C. elegans qHTS viability assay",
+          "Confirmatory",
+          "36786055",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1794836",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "",
+          "9970",
+          "",
+          "Potency",
+          "Primary qHTS for antagonist of constitutive androstane receptor (CAR) against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1794837",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "",
+          "9970",
+          "",
+          "Potency",
+          "Viability counterscreen for antagonist of constitutive androstane receptor (CAR) against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1794838",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "",
+          "9970",
+          "35.4813",
+          "Potency",
+          "Viability counterscreen for agonist of constitutive androstane receptor (CAR) against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1794839",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "",
+          "9970",
+          "",
+          "Potency",
+          "Primary qHTS for agonist of constitutive androstane receptor (CAR) against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1794840",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "Potency",
+          "HepG2 viability counterscreen (readout 2: ATP content) against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1794841",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "Potency",
+          "HepG2 viability counterscreen (readout 1: protease activity) against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1799639",
+          "",
+          "50091673",
+          "5281654",
+          "Active",
+          "P53779",
+          "5602",
+          "6.3",
+          "IC50",
+          "Kinase Assay from Article 10.1002/cbic.201000487: \"Biological evaluation and structural determinants of p38Î± mitogen-activated-protein kinase and c-Jun-N-terminal kinase 3 inhibition by flavonoids.\"",
+          "Confirmatory",
+          "21108268",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1799639",
+          "",
+          "50091673",
+          "5281654",
+          "Inactive",
+          "Q16539",
+          "1432",
+          "20.1",
+          "IC50",
+          "Kinase Assay from Article 10.1002/cbic.201000487: \"Biological evaluation and structural determinants of p38Î± mitogen-activated-protein kinase and c-Jun-N-terminal kinase 3 inhibition by flavonoids.\"",
+          "Confirmatory",
+          "21108268",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1801097",
+          "",
+          "50091673",
+          "5281654",
+          "Active",
+          "Q96GD4",
+          "9212",
+          "4.34",
+          "IC50",
+          "Aurora B Kinase Assay from Article 10.1111/cbdd.12445: \"Plant-derived flavones as inhibitors of aurora B kinase and their quantitative structure-activity relationships.\"",
+          "Confirmatory",
+          "25298094",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1859367",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q72547",
+          "",
+          "",
+          "",
+          "Inhibition of recombinant HIV-1 reverse transcriptase at 200 ug/ml by ELISA relative to control",
+          "Other",
+          "35276425",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1919971",
+          "",
+          "26756953",
+          "5281654",
+          "Active",
+          "",
+          "1576",
+          "11.2202",
+          "Potency",
+          "qHTS for inhibitors of CYP3A4 against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1919971",
+          "",
+          "26756953",
+          "5281654",
+          "Active",
+          "P08684",
+          "",
+          "11.2202",
+          "Potency",
+          "qHTS for inhibitors of CYP3A4 against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1919972",
+          "",
+          "26756953",
+          "5281654",
+          "Active",
+          "",
+          "1565",
+          "4.4668",
+          "Potency",
+          "qHTS for inhibitors of CYP2D6 against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1919972",
+          "",
+          "26756953",
+          "5281654",
+          "Active",
+          "P10635",
+          "",
+          "4.4668",
+          "Potency",
+          "qHTS for inhibitors of CYP2D6 against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1919973",
+          "",
+          "26756953",
+          "5281654",
+          "Active",
+          "",
+          "1559",
+          "4.4668",
+          "Potency",
+          "qHTS for inhibitors of CYP2C9 against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1919973",
+          "",
+          "26756953",
+          "5281654",
+          "Active",
+          "P11712",
+          "",
+          "4.4668",
+          "Potency",
+          "qHTS for inhibitors of CYP2C9 against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1919974",
+          "",
+          "26756953",
+          "5281654",
+          "Active",
+          "",
+          "1557",
+          "7.9433",
+          "Potency",
+          "qHTS for inhibitors of CYP2C19 against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1919974",
+          "",
+          "26756953",
+          "5281654",
+          "Active",
+          "P33261",
+          "",
+          "7.9433",
+          "Potency",
+          "qHTS for inhibitors of CYP2C19 against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1919975",
+          "",
+          "26756953",
+          "5281654",
+          "Inconclusive",
+          "",
+          "",
+          "25.1189",
+          "Potency",
+          "KB-3-1 P-gp reporter qHTS against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1919976",
+          "",
+          "26756953",
+          "5281654",
+          "Active",
+          "",
+          "1544",
+          "7.0795",
+          "Potency",
+          "qHTS for inhibitors of CYPIA2 against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1919976",
+          "",
+          "26756953",
+          "5281654",
+          "Active",
+          "P05177",
+          "",
+          "7.0795",
+          "Potency",
+          "qHTS for inhibitors of CYPIA2 against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1919977",
+          "",
+          "26756953",
+          "5281654",
+          "Inconclusive",
+          "",
+          "",
+          "25.1189",
+          "Potency",
+          "KB-8-5-11 P-gp reporter qHTS against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1919978",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "",
+          "",
+          "",
+          "Potency",
+          "qHTS Counterscreen for compound interference against the NCATS DSHEA and TCM libraries",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1920058",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "",
+          "8856",
+          "",
+          "Potency",
+          "Dual reporter qHTS for agonist of Pregnane X Receptor (hPXR) against the NCATS DSHEA and TCM libraries: Fluorescence readout",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1920058",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "O75469",
+          "",
+          "",
+          "Potency",
+          "Dual reporter qHTS for agonist of Pregnane X Receptor (hPXR) against the NCATS DSHEA and TCM libraries: Fluorescence readout",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1920059",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "",
+          "8856",
+          "",
+          "Potency",
+          "Dual reporter qHTS for agonist of Pregnane X Receptor (hPXR) against the NCATS DSHEA and TCM libraries: Luminescence readout",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1920059",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "O75469",
+          "",
+          "",
+          "Potency",
+          "Dual reporter qHTS for agonist of Pregnane X Receptor (hPXR) against the NCATS DSHEA and TCM libraries: Luminescence readout",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1920060",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "",
+          "8856",
+          "28.1838",
+          "Potency",
+          "Dual reporter qHTS for antagonist of Pregnane X Receptor (hPXR) against the NCATS DSHEA and TCM libraries: Luminescence Readout",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1920060",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "O75469",
+          "",
+          "28.1838",
+          "Potency",
+          "Dual reporter qHTS for antagonist of Pregnane X Receptor (hPXR) against the NCATS DSHEA and TCM libraries: Luminescence Readout",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1920061",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "",
+          "8856",
+          "",
+          "Potency",
+          "Dual reporter qHTS for antagonist of Pregnane X Receptor (hPXR) against the NCATS DSHEA and TCM libraries: Fluorescence Readout",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1920061",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "O75469",
+          "",
+          "",
+          "Potency",
+          "Dual reporter qHTS for antagonist of Pregnane X Receptor (hPXR) against the NCATS DSHEA and TCM libraries: Fluorescence Readout",
+          "Confirmatory",
+          "37200814",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1938304",
+          "",
+          "103489401",
+          "5281654",
+          "Active",
+          "P37231",
+          "5468",
+          "3.5",
+          "IC50",
+          "Antagonist activity at PPARgamma (unknown origin)",
+          "Confirmatory",
+          "33992930",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1950763",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Neuroprotective activity against human SH-SY5Y cells assessed as increase in cell viability at 25 uM relative to control",
+          "Other",
+          "29763806",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1954072",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Selectivity index, ratio of IC50 for cytotoxicity against rat L6 cells to IC50 for antileishmanial activity against amastigote form of Leishmania donovani",
+          "Other",
+          "30234295",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1954073",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Selectivity index, ratio of IC50 for cytotoxicity against rat L6 cells to IC50 for antitrypanosomal activity against bloodstream form of Trypanosoma brucei rhodesiense",
+          "Other",
+          "30234295",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1963987",
+          "",
+          "598779",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "HIV Cellular Data",
+          "Other",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1963988",
+          "",
+          "598779",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "HIV Enzyme Data",
+          "Other",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1964107",
+          "",
+          "26756952",
+          "5281654",
+          "Inactive",
+          "Q8JUX6",
+          "",
+          "",
+          "Potency",
+          "Primary qHTS for inhibitors of NSP2Pro chikungunya virus (CHIKV)",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1964107",
+          "",
+          "26756953",
+          "5281654",
+          "Inactive",
+          "Q8JUX6",
+          "",
+          "",
+          "Potency",
+          "Primary qHTS for inhibitors of NSP2Pro chikungunya virus (CHIKV)",
+          "Confirmatory",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2061329",
+          "",
+          "598779",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Opportunistic Infection Cellular Data",
+          "Other",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2061330",
+          "",
+          "598779",
+          "5281654",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Opportunistic Infection Enzyme Data",
+          "Other",
+          "",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "2239855",
+          "",
+          "103489401",
+          "5281654",
+          "Unspecified",
+          "Q9C0B1",
+          "",
+          "",
+          "",
+          "Inhibition of His-tagged N-terminal FTO (unknown origin) at 20 uM relative to control",
+          "Other",
+          "40152179",
+          ""
+        ]
+      }
+    ]
+  }
+}

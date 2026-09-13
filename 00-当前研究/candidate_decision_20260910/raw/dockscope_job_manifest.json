@@ -1,0 +1,1221 @@
+{
+  "job_dir": "C:\\DockScopeData\\workspace\\dockscope\\data\\jobs\\H1Valid_20260910_104825_329168",
+  "exists": true,
+  "files": [
+    {
+      "path": "input\\ligand_manifest.json",
+      "size": 2681,
+      "sha256": "6a750929c09690e539c4007ed0db6572efdb9193457b8074a69a03774c538f03"
+    },
+    {
+      "path": "input\\ligands.csv",
+      "size": 1174,
+      "sha256": "8281a35152b4e9152f9bfcc02729ee8517b2150a1e65d626b157c9167c621258"
+    },
+    {
+      "path": "input\\PDB\\WTheavy.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "input\\protein_manifest.json",
+      "size": 652,
+      "sha256": "832d9bdeb3d706456528ace157739c6d40c711e22770b719d6c1b2ceb2219f16"
+    },
+    {
+      "path": "input\\raw\\ligands\\lig.csv",
+      "size": 1323,
+      "sha256": "3916a31e659c35c3d9cf1ad56b099e17681031461a1cb0585a07d85a75694d1d"
+    },
+    {
+      "path": "input\\raw\\proteins\\WTheavy.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "job.json",
+      "size": 2269,
+      "sha256": "0a44f68ecf10adb4517210f950e5823041ec64ab2ed125da17638612beaed8b9"
+    },
+    {
+      "path": "run\\all_docking_results.csv",
+      "size": 9434,
+      "sha256": "fd8311ac55002e155da97e52eda6ef32bb2380d0b3a276ead29a4bea2d53fd67"
+    },
+    {
+      "path": "run\\all_docking_results.partial.csv",
+      "size": 9434,
+      "sha256": "fd8311ac55002e155da97e52eda6ef32bb2380d0b3a276ead29a4bea2d53fd67"
+    },
+    {
+      "path": "run\\all_docking_results_ranked.csv",
+      "size": 9455,
+      "sha256": "1fec15c55419acff95ebd7009bea93a591de276303c144c6f25ad48d16936303"
+    },
+    {
+      "path": "run\\manifest.json",
+      "size": 1230,
+      "sha256": "c51d02e8e63506320deef0913b83eee797ad3ac7718fad9d3d263c6a736905d8"
+    },
+    {
+      "path": "run\\pocket_cache\\WTheavy_2afd1c24c79aa6946de24c55.json",
+      "size": 16855,
+      "sha256": "c85225c14f9183ae1852ac7e15ba34f2a595495a251104dcb0d40f9f9e728f11"
+    },
+    {
+      "path": "run\\prepared\\ligands\\bca\\ligand.pdbqt",
+      "size": 2255,
+      "sha256": "5fcfe0795ad7cefd07487c523aa7454f83392c506f819a216677429106dc6a75"
+    },
+    {
+      "path": "run\\prepared\\ligands\\bca\\ligand.sdf",
+      "size": 2910,
+      "sha256": "410239eaa8767ad491fee7970803674134178ab47af588b75043bb966ef6ac69"
+    },
+    {
+      "path": "run\\prepared\\ligands\\bca\\preparation.json",
+      "size": 244,
+      "sha256": "4691a1a4494fa5b05b5d3dc2e62e6a94f008e06dd18403e75b9f56c51d5f0235"
+    },
+    {
+      "path": "run\\prepared\\ligands\\dai\\ligand.pdbqt",
+      "size": 2043,
+      "sha256": "a1a2e32791863dcbc6e1f2616a4617ef04e40a83b826c12702ed4bc60e21b951"
+    },
+    {
+      "path": "run\\prepared\\ligands\\dai\\ligand.sdf",
+      "size": 2570,
+      "sha256": "4c235ead91821b3ce510200ebf59c2bef9167abd21b334b584c16b7d595598d5"
+    },
+    {
+      "path": "run\\prepared\\ligands\\dai\\preparation.json",
+      "size": 243,
+      "sha256": "58bc4a92638bcfb77c7f959dec2c20b9f9d3d9d47c303a2965cbf8ad44d7b00f"
+    },
+    {
+      "path": "run\\prepared\\ligands\\fmn\\ligand.pdbqt",
+      "size": 2043,
+      "sha256": "fc106c9060150c299d5ae58e4b4a3896c36199c4ebbb07f8b45ccc81263b716d"
+    },
+    {
+      "path": "run\\prepared\\ligands\\fmn\\ligand.sdf",
+      "size": 2825,
+      "sha256": "3bbb46bd06e1414a875554b7089959be9331be424427dca8e4b05f9f70f9226b"
+    },
+    {
+      "path": "run\\prepared\\ligands\\fmn\\preparation.json",
+      "size": 237,
+      "sha256": "ddf3e676d722f462d27be298d35ef472d6f604a928b879a86ed57a55c080c8ab"
+    },
+    {
+      "path": "run\\prepared\\ligands\\gc1\\ligand.pdbqt",
+      "size": 2680,
+      "sha256": "d4f7763dc0ef6aaad7518a3c700c62c84d455595f5f8c6d294c9f7668ff05e56"
+    },
+    {
+      "path": "run\\prepared\\ligands\\gc1\\ligand.sdf",
+      "size": 4171,
+      "sha256": "8b519117c341dfb9bfebfc7eb90a13b559879fba542967c2e6f90b736effc783"
+    },
+    {
+      "path": "run\\prepared\\ligands\\gc1\\preparation.json",
+      "size": 247,
+      "sha256": "07dfc3c38bcfab57abf82ef2d8b17a0d3e91d14e75a9c003eed88a91a4a77be4"
+    },
+    {
+      "path": "run\\prepared\\ligands\\ish\\ligand.pdbqt",
+      "size": 2696,
+      "sha256": "921e063de66f3c24dd35e4d674bd90d08116f89c5607c1ab06dfd4d7b3da4cd2"
+    },
+    {
+      "path": "run\\prepared\\ligands\\ish\\ligand.sdf",
+      "size": 3080,
+      "sha256": "b1ff61ca2056e2b619e1161a10ef629bfad126bd312f5fcd008cda8dca5d6a0b"
+    },
+    {
+      "path": "run\\prepared\\ligands\\ish\\preparation.json",
+      "size": 246,
+      "sha256": "5a7b4cacb19e6ea62515128a4ac4aa21a1b558806dfd8e0426c19fced09857b8"
+    },
+    {
+      "path": "run\\prepared\\ligands\\mrn\\ligand.pdbqt",
+      "size": 2590,
+      "sha256": "790792afa52e2780ba92806f406781578089ab58a003a33b9d1b6b48ac5d6423"
+    },
+    {
+      "path": "run\\prepared\\ligands\\mrn\\ligand.sdf",
+      "size": 3590,
+      "sha256": "0a40e5fc4eb1ca03b97f13029435635a157892e654fbde8662ec1a3eb8ba9031"
+    },
+    {
+      "path": "run\\prepared\\ligands\\mrn\\preparation.json",
+      "size": 246,
+      "sha256": "4012f0fa38fd4d08d2e7285502722472e586354281072db27551f2483f4278e3"
+    },
+    {
+      "path": "run\\prepared\\ligands\\res\\ligand.pdbqt",
+      "size": 2995,
+      "sha256": "3bb62c1bd479b70b810d8ade2524df3daf376779fe1ad62862d43ecb7cf76acc"
+    },
+    {
+      "path": "run\\prepared\\ligands\\res\\ligand.sdf",
+      "size": 3590,
+      "sha256": "2269253c8c8a32bbbd2f888d5ad71f50ad6fd3bb7db85323d433b9f8aa109ab8"
+    },
+    {
+      "path": "run\\prepared\\ligands\\res\\preparation.json",
+      "size": 267,
+      "sha256": "24035ca29ec7e00db987076e27f5faade24ec346c0d7d3cb5f2f0b9d44053c19"
+    },
+    {
+      "path": "run\\prepared\\ligands\\t3\\ligand.pdbqt",
+      "size": 2753,
+      "sha256": "3f9cf313d6efa562d1c043ddf21fea64b04a2d400f00e70c75ffe7cbdbb09980"
+    },
+    {
+      "path": "run\\prepared\\ligands\\t3\\ligand.sdf",
+      "size": 3066,
+      "sha256": "f34af74c70211b9423b332c1927f3a53b7636a6c73f6f627b399a92292ceb1d3"
+    },
+    {
+      "path": "run\\prepared\\ligands\\t3\\preparation.json",
+      "size": 255,
+      "sha256": "003e29a35a6190700f6612bd91fb22ff9d4ebe0dda5cd916e43d6a2783c7490a"
+    },
+    {
+      "path": "run\\prepared\\proteins\\WTheavy\\pockets.json",
+      "size": 17046,
+      "sha256": "8c3fbdd24ab847adcdeac8092fb843bf33955ab1ad025ac2b7758ade962117d1"
+    },
+    {
+      "path": "run\\prepared\\proteins\\WTheavy\\preparation.json",
+      "size": 545,
+      "sha256": "0c29167f821cb47cc683325f4718e4f8eda24613bfb076daae9bd8c1ce61607f"
+    },
+    {
+      "path": "run\\prepared\\proteins\\WTheavy\\receptor.pdbqt",
+      "size": 192780,
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "run\\prepared\\proteins\\WTheavy\\receptor_prepare_meeko.log",
+      "size": 686,
+      "sha256": "062be70e046c9d9cd6bf8c7520be12915797d70f85cc80113a23b98f5a4ee24b"
+    },
+    {
+      "path": "run\\prepared\\task_pockets\\bca__WTheavy.json",
+      "size": 17058,
+      "sha256": "b9298ab28a6c5a1475408d60d4d5249c10b28be3cda0f5b812b85c97d1e1957c"
+    },
+    {
+      "path": "run\\prepared\\task_pockets\\dai__WTheavy.json",
+      "size": 17059,
+      "sha256": "87659bf3be6f534df9c8b28dd3c5bb9e03a53c45599d4000c9af89d7003c8681"
+    },
+    {
+      "path": "run\\prepared\\task_pockets\\fmn__WTheavy.json",
+      "size": 17059,
+      "sha256": "8ae9e080bea9377c78b409c70c25562251c9b4adc3fe3bb462ae543cbb0bdb36"
+    },
+    {
+      "path": "run\\prepared\\task_pockets\\gc1__WTheavy.json",
+      "size": 17058,
+      "sha256": "5f1d05a62f09c921b9f54b32c726096fadaf5c7a217e6e067a1f4f261c90e3f7"
+    },
+    {
+      "path": "run\\prepared\\task_pockets\\ish__WTheavy.json",
+      "size": 17058,
+      "sha256": "117c37a925de156dda4ac6dbb4859a79184fb2bf407fa78b6e8f8be9247368f3"
+    },
+    {
+      "path": "run\\prepared\\task_pockets\\mrn__WTheavy.json",
+      "size": 17058,
+      "sha256": "c042c413d0d15af22c7b480981d942fe4c8691052d54946b0253f38cf526ba6b"
+    },
+    {
+      "path": "run\\prepared\\task_pockets\\res__WTheavy.json",
+      "size": 17058,
+      "sha256": "2483aa800ae15c62de6e25b6d6499acf60bf63e18832d669d93653f28ccabea7"
+    },
+    {
+      "path": "run\\prepared\\task_pockets\\t3__WTheavy.json",
+      "size": 17058,
+      "sha256": "f2b63d8d8a7c5f2094909a62fb1bf1109551dde32077c5f3a158378dea3b5348"
+    },
+    {
+      "path": "run\\progress.json",
+      "size": 174,
+      "sha256": "1b51e7acbd8a51b6661dc746d8fb860bf75c256484af117d56cffb0fb66eafb5"
+    },
+    {
+      "path": "run\\tasks\\bca__WTheavy__C1\\box_override.json",
+      "size": 158,
+      "sha256": "d887dbcf01726084512bd3c8d8f0f90fe825a24e87b0fbca0cdd7a0787ef12cc"
+    },
+    {
+      "path": "run\\tasks\\bca__WTheavy__C1\\engines\\vina_cpu\\C1\\docked.pdbqt",
+      "size": 22689,
+      "sha256": "d936c1c3ef5c8ad4ae08112fa8a6ae4a22719f66661ad8a48d72625591ae6325"
+    },
+    {
+      "path": "run\\tasks\\bca__WTheavy__C1\\engines\\vina_cpu\\C1\\docking.log",
+      "size": 3048,
+      "sha256": "9e47daec88078a797f33f00c81d83c33d855522bdd4c93eb63d758b151b1218d"
+    },
+    {
+      "path": "run\\tasks\\bca__WTheavy__C1\\engines\\vina_cpu\\C1\\state.json",
+      "size": 1439,
+      "sha256": "56541b1b5a8b1592dddae33cd47d0ca04c6e2fcc5177e575903021ace13f7d66"
+    },
+    {
+      "path": "run\\tasks\\bca__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_105000\\docked.pdbqt",
+      "size": 20168,
+      "sha256": "d56b325c1882594a1157afa1822e0dd533f4cd4f108aa1c802f58050c26d8613"
+    },
+    {
+      "path": "run\\tasks\\bca__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_105000\\docking.log",
+      "size": 3143,
+      "sha256": "9f4fa1d16728177fc87d5577f4dd274cef04e7ef277a827fd6f6baa706126816"
+    },
+    {
+      "path": "run\\tasks\\bca__WTheavy__C1\\ligand.pdbqt",
+      "size": 2255,
+      "sha256": "5fcfe0795ad7cefd07487c523aa7454f83392c506f819a216677429106dc6a75"
+    },
+    {
+      "path": "run\\tasks\\bca__WTheavy__C1\\ligand.sdf",
+      "size": 2910,
+      "sha256": "410239eaa8767ad491fee7970803674134178ab47af588b75043bb966ef6ac69"
+    },
+    {
+      "path": "run\\tasks\\bca__WTheavy__C1\\metadata.json",
+      "size": 2078,
+      "sha256": "3c2cc70fe8cd8cd11182efa474ac8da62cce486899bf2780e0b822e6e185c851"
+    },
+    {
+      "path": "run\\tasks\\bca__WTheavy__C1\\pockets.json",
+      "size": 1737,
+      "sha256": "e19569884b2cd378dea5a4f66f17297732507a786eac39b1dc2b3cbf4ba62b84"
+    },
+    {
+      "path": "run\\tasks\\bca__WTheavy__C1\\provenance.json",
+      "size": 4055,
+      "sha256": "5bc0162d47112f28c34e6c973bc383bb3d54732743437bdbc58f9719da7edbdd"
+    },
+    {
+      "path": "run\\tasks\\bca__WTheavy__C1\\receptor.pdbqt",
+      "size": 192780,
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "run\\tasks\\bca__WTheavy__C1\\receptor_source.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "run\\tasks\\bca__WTheavy__C1\\redock_state.json",
+      "size": 1558,
+      "sha256": "cefb9d7ae6eea4e1b8ec9a99dc7b15a3f2b458d1f1ed7a3f31779603d7e01a72"
+    },
+    {
+      "path": "run\\tasks\\dai__WTheavy__C1\\box_override.json",
+      "size": 158,
+      "sha256": "883e81b8abb5a298812edd132db103e55ac7811193c143282b9862ecdff3a609"
+    },
+    {
+      "path": "run\\tasks\\dai__WTheavy__C1\\engines\\vina_cpu\\C1\\docked.pdbqt",
+      "size": 20745,
+      "sha256": "8a64bb29ca9be05ea52453c570603c2f51b6aecac3bc457389fc291c02d0125c"
+    },
+    {
+      "path": "run\\tasks\\dai__WTheavy__C1\\engines\\vina_cpu\\C1\\docking.log",
+      "size": 3048,
+      "sha256": "2ebfa7adf0ecfb0e8f06436cdfa177401cc4bd0b1f1529609bca869d78b10817"
+    },
+    {
+      "path": "run\\tasks\\dai__WTheavy__C1\\engines\\vina_cpu\\C1\\state.json",
+      "size": 1440,
+      "sha256": "a81d4bba20e0b26117de25376533c819496bd4797108855bd131ba1d0f8201a3"
+    },
+    {
+      "path": "run\\tasks\\dai__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_105003\\docked.pdbqt",
+      "size": 16135,
+      "sha256": "d55e33a4393fb7dff312e857387605477bb964547b08359efaa49cc58b30a286"
+    },
+    {
+      "path": "run\\tasks\\dai__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_105003\\docking.log",
+      "size": 3143,
+      "sha256": "2e9e3e19693f7515e9bb972b254e4b815b43e5ea5fd3e481c856156f88ea2fd3"
+    },
+    {
+      "path": "run\\tasks\\dai__WTheavy__C1\\ligand.pdbqt",
+      "size": 2043,
+      "sha256": "a1a2e32791863dcbc6e1f2616a4617ef04e40a83b826c12702ed4bc60e21b951"
+    },
+    {
+      "path": "run\\tasks\\dai__WTheavy__C1\\ligand.sdf",
+      "size": 2570,
+      "sha256": "4c235ead91821b3ce510200ebf59c2bef9167abd21b334b584c16b7d595598d5"
+    },
+    {
+      "path": "run\\tasks\\dai__WTheavy__C1\\metadata.json",
+      "size": 2073,
+      "sha256": "138560a02ff919d5f3446b4759bbe3e926ed071d07dc2f4be888d10e9bfcdd66"
+    },
+    {
+      "path": "run\\tasks\\dai__WTheavy__C1\\pockets.json",
+      "size": 1737,
+      "sha256": "65095611fe67c94bdcacc20108b5de0d653fb84936b6167f347fdc650c2a3197"
+    },
+    {
+      "path": "run\\tasks\\dai__WTheavy__C1\\provenance.json",
+      "size": 4055,
+      "sha256": "2bea8c6daa53e91ee06df64c309650477ddec59393352f5e04b0faf076d2dc6d"
+    },
+    {
+      "path": "run\\tasks\\dai__WTheavy__C1\\receptor.pdbqt",
+      "size": 192780,
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "run\\tasks\\dai__WTheavy__C1\\receptor_source.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "run\\tasks\\dai__WTheavy__C1\\redock_state.json",
+      "size": 1546,
+      "sha256": "68859e83bd4d4df805292865f2938328492a8726011bfef7a3a665e30157e6ca"
+    },
+    {
+      "path": "run\\tasks\\fmn__WTheavy__C1\\box_override.json",
+      "size": 158,
+      "sha256": "853d68e3b489020a3418305e9bf69a917fcbe3c9a4908418838bf4ac5d862181"
+    },
+    {
+      "path": "run\\tasks\\fmn__WTheavy__C1\\engines\\vina_cpu\\C1\\docked.pdbqt",
+      "size": 20745,
+      "sha256": "1f4498bc2c5678c4b69af97dadac3f08c1cbcbdf40895010a662d97a496e9a15"
+    },
+    {
+      "path": "run\\tasks\\fmn__WTheavy__C1\\engines\\vina_cpu\\C1\\docking.log",
+      "size": 3048,
+      "sha256": "74562628e76fd5beb70248e430cdc3776b36b08df1b059b05e3741cadc01efac"
+    },
+    {
+      "path": "run\\tasks\\fmn__WTheavy__C1\\engines\\vina_cpu\\C1\\state.json",
+      "size": 1439,
+      "sha256": "567ce6a28c86e294eb1a8159c660f1c517d68643d37b1fbe7ed53f4bb21cc49c"
+    },
+    {
+      "path": "run\\tasks\\fmn__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_105006\\docked.pdbqt",
+      "size": 18440,
+      "sha256": "7cb887a1ebec931100b6549ded757a3fc28c2a64c753d9c345c46afd19285290"
+    },
+    {
+      "path": "run\\tasks\\fmn__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_105006\\docking.log",
+      "size": 3143,
+      "sha256": "ce82c109b3283cc94a44acdb075aa3e592bce47fe0d29a4cc03fd6a86a703bf6"
+    },
+    {
+      "path": "run\\tasks\\fmn__WTheavy__C1\\ligand.pdbqt",
+      "size": 2043,
+      "sha256": "fc106c9060150c299d5ae58e4b4a3896c36199c4ebbb07f8b45ccc81263b716d"
+    },
+    {
+      "path": "run\\tasks\\fmn__WTheavy__C1\\ligand.sdf",
+      "size": 2825,
+      "sha256": "3bbb46bd06e1414a875554b7089959be9331be424427dca8e4b05f9f70f9226b"
+    },
+    {
+      "path": "run\\tasks\\fmn__WTheavy__C1\\metadata.json",
+      "size": 2076,
+      "sha256": "f648d264d515adfc0ca36e9edb8a1cea57c3b893cf9be0edce607d4d4e9b32c9"
+    },
+    {
+      "path": "run\\tasks\\fmn__WTheavy__C1\\pockets.json",
+      "size": 1737,
+      "sha256": "2ee2dbe112406d18bf36857d963dacc7df5ebab725bc8e04cedf411840ae3f22"
+    },
+    {
+      "path": "run\\tasks\\fmn__WTheavy__C1\\provenance.json",
+      "size": 4048,
+      "sha256": "0d89d63cf8450f8a93f3af5e4a0013f60e53cedba40bcd2b19ef921308775c4a"
+    },
+    {
+      "path": "run\\tasks\\fmn__WTheavy__C1\\receptor.pdbqt",
+      "size": 192780,
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "run\\tasks\\fmn__WTheavy__C1\\receptor_source.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "run\\tasks\\fmn__WTheavy__C1\\redock_state.json",
+      "size": 1558,
+      "sha256": "a6dc0180a4f08344ba14ba92c03caa1e39673c77f0940373783ec276cb0e7e6c"
+    },
+    {
+      "path": "run\\tasks\\gc1__WTheavy__C1\\box_override.json",
+      "size": 158,
+      "sha256": "efab67c1d2c6e0ab2f58509f010f350548eb5c65dace793856521e7940fdfab2"
+    },
+    {
+      "path": "run\\tasks\\gc1__WTheavy__C1\\engines\\vina_cpu\\C1\\docked.pdbqt",
+      "size": 26622,
+      "sha256": "cc30ddd3fdf5f0e6c8992548d12304a3d11c2a32952b919ccc3dd6580a4cb7e2"
+    },
+    {
+      "path": "run\\tasks\\gc1__WTheavy__C1\\engines\\vina_cpu\\C1\\docking.log",
+      "size": 3048,
+      "sha256": "255edaf4c20b377709c24f8dabc089be92b7df2221dbc6a7080f0318537bc76b"
+    },
+    {
+      "path": "run\\tasks\\gc1__WTheavy__C1\\engines\\vina_cpu\\C1\\state.json",
+      "size": 1441,
+      "sha256": "a18e8c15e5fe2b9f39d00a3307ba4a4f8e84186b1e0a8874ddb2b4c7a63425f5"
+    },
+    {
+      "path": "run\\tasks\\gc1__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_105009\\docked.pdbqt",
+      "size": 11832,
+      "sha256": "e579fecd94f4df1816bcd0467365662843d53229e59d0763c4f43f6ba6826039"
+    },
+    {
+      "path": "run\\tasks\\gc1__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_105009\\docking.log",
+      "size": 3143,
+      "sha256": "682ff6fddc8f0dfc07fa3966464f17f6aa5958af8f5e26c91e81e0d86051100c"
+    },
+    {
+      "path": "run\\tasks\\gc1__WTheavy__C1\\ligand.pdbqt",
+      "size": 2680,
+      "sha256": "d4f7763dc0ef6aaad7518a3c700c62c84d455595f5f8c6d294c9f7668ff05e56"
+    },
+    {
+      "path": "run\\tasks\\gc1__WTheavy__C1\\ligand.sdf",
+      "size": 4171,
+      "sha256": "8b519117c341dfb9bfebfc7eb90a13b559879fba542967c2e6f90b736effc783"
+    },
+    {
+      "path": "run\\tasks\\gc1__WTheavy__C1\\metadata.json",
+      "size": 2083,
+      "sha256": "88b9d23739177baf28b26cbf4a8a1a967957fb3aab9ec8853f72b97f3ab135bd"
+    },
+    {
+      "path": "run\\tasks\\gc1__WTheavy__C1\\pockets.json",
+      "size": 1737,
+      "sha256": "7641b6d8159217dc469c442d7544730146d007fbf51c0b75eb09a4fa55cf1194"
+    },
+    {
+      "path": "run\\tasks\\gc1__WTheavy__C1\\provenance.json",
+      "size": 4060,
+      "sha256": "f1101e9c44592a6f790fabbfd7607730b6b4ff4bf5e1fb33fec561f7100427d7"
+    },
+    {
+      "path": "run\\tasks\\gc1__WTheavy__C1\\receptor.pdbqt",
+      "size": 192780,
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "run\\tasks\\gc1__WTheavy__C1\\receptor_source.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "run\\tasks\\gc1__WTheavy__C1\\redock_state.json",
+      "size": 1512,
+      "sha256": "9f4583e10e85d2f47efe605b879f09d4e332abc2a319f0d72e26a87b3f2a8a79"
+    },
+    {
+      "path": "run\\tasks\\ish__WTheavy__C1\\box_override.json",
+      "size": 158,
+      "sha256": "7f0f2eb7914f58d75806d765342fee57bdeecd5d4678f78d121e7fb6a78e9199"
+    },
+    {
+      "path": "run\\tasks\\ish__WTheavy__C1\\engines\\vina_cpu\\C1\\docked.pdbqt",
+      "size": 26739,
+      "sha256": "c30f6d6bf0e5480624cbcb1c77200044952a97b3c2e224befbdb5b8ee7035550"
+    },
+    {
+      "path": "run\\tasks\\ish__WTheavy__C1\\engines\\vina_cpu\\C1\\docking.log",
+      "size": 3048,
+      "sha256": "5811e02bc3e65d30aee0b7c7fff55f249b7ab43a3890ffc840d2b50ac96fdd31"
+    },
+    {
+      "path": "run\\tasks\\ish__WTheavy__C1\\engines\\vina_cpu\\C1\\state.json",
+      "size": 1441,
+      "sha256": "210eebdddf3f6749a84c8e6a21b2f73d13ba201f36f747d62797afbcd5de1bda"
+    },
+    {
+      "path": "run\\tasks\\ish__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_105019\\docked.pdbqt",
+      "size": 23768,
+      "sha256": "43f5e5da1b30434e4dfda7d6a0d2276cee4ea8aafef2530c05fcc6da71f5e5a9"
+    },
+    {
+      "path": "run\\tasks\\ish__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_105019\\docking.log",
+      "size": 3143,
+      "sha256": "b3ae4cd79fc76d040fd123717e3dcbc36ba77805aed18f625bd8611daadf21a9"
+    },
+    {
+      "path": "run\\tasks\\ish__WTheavy__C1\\ligand.pdbqt",
+      "size": 2696,
+      "sha256": "921e063de66f3c24dd35e4d674bd90d08116f89c5607c1ab06dfd4d7b3da4cd2"
+    },
+    {
+      "path": "run\\tasks\\ish__WTheavy__C1\\ligand.sdf",
+      "size": 3080,
+      "sha256": "b1ff61ca2056e2b619e1161a10ef629bfad126bd312f5fcd008cda8dca5d6a0b"
+    },
+    {
+      "path": "run\\tasks\\ish__WTheavy__C1\\metadata.json",
+      "size": 2083,
+      "sha256": "b0fb125fd91c741600701951e37768bd7d6e0ee57ca64b5ab47f6ac209e20da4"
+    },
+    {
+      "path": "run\\tasks\\ish__WTheavy__C1\\pockets.json",
+      "size": 1737,
+      "sha256": "b2eb8dd490d2647a659464b18f27231c6b01bb34d7e551aa58486f5fc2fe025e"
+    },
+    {
+      "path": "run\\tasks\\ish__WTheavy__C1\\provenance.json",
+      "size": 4059,
+      "sha256": "eb31860f5656a426d6862062f379ad0949e613d446ff1c6784fbbaeae02c3167"
+    },
+    {
+      "path": "run\\tasks\\ish__WTheavy__C1\\receptor.pdbqt",
+      "size": 192780,
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "run\\tasks\\ish__WTheavy__C1\\receptor_source.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "run\\tasks\\ish__WTheavy__C1\\redock_state.json",
+      "size": 1558,
+      "sha256": "8f48b6633498a2ee17c90911e8db0eaa52ce9ed9acdfcd5ea09b62a3e71662de"
+    },
+    {
+      "path": "run\\tasks\\mrn__WTheavy__C1\\box_override.json",
+      "size": 158,
+      "sha256": "b367ba5ac2c1687aca56bf11fc36f793ea9e3eb1e0f9752f82ae6f19c7e45db6"
+    },
+    {
+      "path": "run\\tasks\\mrn__WTheavy__C1\\engines\\vina_cpu\\C1\\docked.pdbqt",
+      "size": 25767,
+      "sha256": "6af9685cf5aefd83cee0a3d84c10b9770e9ed214bdd295c4f833b6b7755584ee"
+    },
+    {
+      "path": "run\\tasks\\mrn__WTheavy__C1\\engines\\vina_cpu\\C1\\docking.log",
+      "size": 3048,
+      "sha256": "ab5b013e9433a2f788b3d2b7921b42ac705a8a9e46c138d6fd64b5d296f03627"
+    },
+    {
+      "path": "run\\tasks\\mrn__WTheavy__C1\\engines\\vina_cpu\\C1\\state.json",
+      "size": 1440,
+      "sha256": "e300c3f0d8299aa803480f3966e47843f017c8ca785ca66c1f7028de8962e015"
+    },
+    {
+      "path": "run\\tasks\\mrn__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_105024\\docked.pdbqt",
+      "size": 14315,
+      "sha256": "3ef020084a9ef0416c4b30ca82895495bc66582bec3beaac29b05fe7165d2aec"
+    },
+    {
+      "path": "run\\tasks\\mrn__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_105024\\docking.log",
+      "size": 3143,
+      "sha256": "5416d5f224deeab0811596172c91b5afd920854411b172addc0e190058837971"
+    },
+    {
+      "path": "run\\tasks\\mrn__WTheavy__C1\\ligand.pdbqt",
+      "size": 2590,
+      "sha256": "790792afa52e2780ba92806f406781578089ab58a003a33b9d1b6b48ac5d6423"
+    },
+    {
+      "path": "run\\tasks\\mrn__WTheavy__C1\\ligand.sdf",
+      "size": 3590,
+      "sha256": "0a40e5fc4eb1ca03b97f13029435635a157892e654fbde8662ec1a3eb8ba9031"
+    },
+    {
+      "path": "run\\tasks\\mrn__WTheavy__C1\\metadata.json",
+      "size": 2080,
+      "sha256": "efb724d681ab25c634e0e4546bd5822adc36ff4c17c0de1b064efd19937ad4ff"
+    },
+    {
+      "path": "run\\tasks\\mrn__WTheavy__C1\\pockets.json",
+      "size": 1737,
+      "sha256": "2f1750bb3a0285e17606f854376f498eec02c3099bf0fdba4b25800dfa2e1788"
+    },
+    {
+      "path": "run\\tasks\\mrn__WTheavy__C1\\provenance.json",
+      "size": 4058,
+      "sha256": "51e8a6443c0486308c5594958fbac35a70213ec4d0167e385a85665219a2d4fd"
+    },
+    {
+      "path": "run\\tasks\\mrn__WTheavy__C1\\receptor.pdbqt",
+      "size": 192780,
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "run\\tasks\\mrn__WTheavy__C1\\receptor_source.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "run\\tasks\\mrn__WTheavy__C1\\redock_state.json",
+      "size": 1526,
+      "sha256": "0b3de614c49a454e13743656fda3d36b345a8f241b91a53c611f1d92b54273e1"
+    },
+    {
+      "path": "run\\tasks\\res__WTheavy__C1\\box_override.json",
+      "size": 158,
+      "sha256": "8bd5fa3f03d43556756653a1edeb947ea40a9d67790f6b70bb9803ccc72c4f6e"
+    },
+    {
+      "path": "run\\tasks\\res__WTheavy__C1\\engines\\vina_cpu\\C1\\docked.pdbqt",
+      "size": 29430,
+      "sha256": "07af14bcf53c9c05f27b5d873931e1b2a5538fcb738205d3623ca0db4a31da48"
+    },
+    {
+      "path": "run\\tasks\\res__WTheavy__C1\\engines\\vina_cpu\\C1\\docking.log",
+      "size": 3048,
+      "sha256": "38b2f72bd93636e2856347c793761fac1168dd6ea145181098632bd58fa93888"
+    },
+    {
+      "path": "run\\tasks\\res__WTheavy__C1\\engines\\vina_cpu\\C1\\state.json",
+      "size": 1440,
+      "sha256": "21075ed7432fc51e31796602511210bf7c1876ce92032675a66e5676a3d244d1"
+    },
+    {
+      "path": "run\\tasks\\res__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_105029\\docked.pdbqt",
+      "size": 22890,
+      "sha256": "9d05c78444a58f751fd3c101049847595c99b02667467390c3ce12766cd0caac"
+    },
+    {
+      "path": "run\\tasks\\res__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_105029\\docking.log",
+      "size": 3143,
+      "sha256": "f3eba18b17c82448cd6cb54ae90c51f536a5abea3c79c504b16e366c1d374382"
+    },
+    {
+      "path": "run\\tasks\\res__WTheavy__C1\\ligand.pdbqt",
+      "size": 2995,
+      "sha256": "3bb62c1bd479b70b810d8ade2524df3daf376779fe1ad62862d43ecb7cf76acc"
+    },
+    {
+      "path": "run\\tasks\\res__WTheavy__C1\\ligand.sdf",
+      "size": 3590,
+      "sha256": "2269253c8c8a32bbbd2f888d5ad71f50ad6fd3bb7db85323d433b9f8aa109ab8"
+    },
+    {
+      "path": "run\\tasks\\res__WTheavy__C1\\metadata.json",
+      "size": 2102,
+      "sha256": "759d7c4889f9db5867f08de8bbcf352e70c7144a644eb056e8cf1eebdbfb85a5"
+    },
+    {
+      "path": "run\\tasks\\res__WTheavy__C1\\pockets.json",
+      "size": 1737,
+      "sha256": "d67f6b315cb7a68aa9f6020bdac2841979a588affbd97972ad8e9f154d9beef8"
+    },
+    {
+      "path": "run\\tasks\\res__WTheavy__C1\\provenance.json",
+      "size": 4079,
+      "sha256": "75575f7a9a43eeefaf4ef1de084745db017bdd6e1e685184520877056e5915bf"
+    },
+    {
+      "path": "run\\tasks\\res__WTheavy__C1\\receptor.pdbqt",
+      "size": 192780,
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "run\\tasks\\res__WTheavy__C1\\receptor_source.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "run\\tasks\\res__WTheavy__C1\\redock_state.json",
+      "size": 1548,
+      "sha256": "efceda4195e7bd3102d371073517442a33ab73d7a7cea6d9a4157bbc40850061"
+    },
+    {
+      "path": "run\\tasks\\t3__WTheavy__C1\\box_override.json",
+      "size": 158,
+      "sha256": "29c45f934a12249cd1ec917b2264287cf810a0a4aa243c69b3573e2915e27ada"
+    },
+    {
+      "path": "run\\tasks\\t3__WTheavy__C1\\engines\\vina_cpu\\C1\\docked.pdbqt",
+      "size": 27279,
+      "sha256": "ca58df76c76dc642488e9226628b3d6bf3eba39ce3ab4673f377cadd32bbce38"
+    },
+    {
+      "path": "run\\tasks\\t3__WTheavy__C1\\engines\\vina_cpu\\C1\\docking.log",
+      "size": 3045,
+      "sha256": "9e741b43e2b1639a2e777a0d6075103d12f619b89271c9a6e41c614234ec8fe0"
+    },
+    {
+      "path": "run\\tasks\\t3__WTheavy__C1\\engines\\vina_cpu\\C1\\state.json",
+      "size": 1432,
+      "sha256": "c5eac9b340cb31a0d80c1d58cebfaba3bfd602934f58db73aca21602893a854d"
+    },
+    {
+      "path": "run\\tasks\\t3__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_104954\\docked.pdbqt",
+      "size": 15155,
+      "sha256": "363d74ba92a6dc1edcf4edd03276854da560efb99e69a136230bac186cc0184b"
+    },
+    {
+      "path": "run\\tasks\\t3__WTheavy__C1\\engines\\vina_cpu\\manual_20260910_104954\\docking.log",
+      "size": 3138,
+      "sha256": "ca3df2eba28aafb949a435c83bc85e762d818d7d317664680cce64ff014387a4"
+    },
+    {
+      "path": "run\\tasks\\t3__WTheavy__C1\\ligand.pdbqt",
+      "size": 2753,
+      "sha256": "3f9cf313d6efa562d1c043ddf21fea64b04a2d400f00e70c75ffe7cbdbb09980"
+    },
+    {
+      "path": "run\\tasks\\t3__WTheavy__C1\\ligand.sdf",
+      "size": 3066,
+      "sha256": "f34af74c70211b9423b332c1927f3a53b7636a6c73f6f627b399a92292ceb1d3"
+    },
+    {
+      "path": "run\\tasks\\t3__WTheavy__C1\\metadata.json",
+      "size": 2088,
+      "sha256": "3df67a2d2ad62b95864f99fa4b6a369479c00eb0d87fd00d8cd88addab979956"
+    },
+    {
+      "path": "run\\tasks\\t3__WTheavy__C1\\pockets.json",
+      "size": 1737,
+      "sha256": "0f0a191daab02dfb7bfb80b9f874893eb745477f1553ce5331108cfbf0caf9c5"
+    },
+    {
+      "path": "run\\tasks\\t3__WTheavy__C1\\provenance.json",
+      "size": 4059,
+      "sha256": "63776fb4d7da7fe1ffecb27296e1b26ca31ce307f74d4d5b789fc04ec2103315"
+    },
+    {
+      "path": "run\\tasks\\t3__WTheavy__C1\\receptor.pdbqt",
+      "size": 192780,
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "run\\tasks\\t3__WTheavy__C1\\receptor_source.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "run\\tasks\\t3__WTheavy__C1\\redock_state.json",
+      "size": 1517,
+      "sha256": "19c0844741ae4f4b1e58bed23e8d785ea9f09888755d5a73e31bc235befa6e91"
+    },
+    {
+      "path": "run\\TOP10\\01_res__WTheavy__C1_-6.8\\engines\\vina_cpu\\C1\\docked.pdbqt",
+      "size": 29430,
+      "sha256": "07af14bcf53c9c05f27b5d873931e1b2a5538fcb738205d3623ca0db4a31da48"
+    },
+    {
+      "path": "run\\TOP10\\01_res__WTheavy__C1_-6.8\\engines\\vina_cpu\\C1\\docking.log",
+      "size": 3048,
+      "sha256": "38b2f72bd93636e2856347c793761fac1168dd6ea145181098632bd58fa93888"
+    },
+    {
+      "path": "run\\TOP10\\01_res__WTheavy__C1_-6.8\\engines\\vina_cpu\\C1\\state.json",
+      "size": 1440,
+      "sha256": "21075ed7432fc51e31796602511210bf7c1876ce92032675a66e5676a3d244d1"
+    },
+    {
+      "path": "run\\TOP10\\01_res__WTheavy__C1_-6.8\\ligand.pdbqt",
+      "size": 2995,
+      "sha256": "3bb62c1bd479b70b810d8ade2524df3daf376779fe1ad62862d43ecb7cf76acc"
+    },
+    {
+      "path": "run\\TOP10\\01_res__WTheavy__C1_-6.8\\ligand.sdf",
+      "size": 3590,
+      "sha256": "2269253c8c8a32bbbd2f888d5ad71f50ad6fd3bb7db85323d433b9f8aa109ab8"
+    },
+    {
+      "path": "run\\TOP10\\01_res__WTheavy__C1_-6.8\\metadata.json",
+      "size": 2102,
+      "sha256": "759d7c4889f9db5867f08de8bbcf352e70c7144a644eb056e8cf1eebdbfb85a5"
+    },
+    {
+      "path": "run\\TOP10\\01_res__WTheavy__C1_-6.8\\pockets.json",
+      "size": 1737,
+      "sha256": "d67f6b315cb7a68aa9f6020bdac2841979a588affbd97972ad8e9f154d9beef8"
+    },
+    {
+      "path": "run\\TOP10\\01_res__WTheavy__C1_-6.8\\provenance.json",
+      "size": 4079,
+      "sha256": "75575f7a9a43eeefaf4ef1de084745db017bdd6e1e685184520877056e5915bf"
+    },
+    {
+      "path": "run\\TOP10\\01_res__WTheavy__C1_-6.8\\receptor.pdbqt",
+      "size": 192780,
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "run\\TOP10\\01_res__WTheavy__C1_-6.8\\receptor_source.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "run\\TOP10\\02_gc1__WTheavy__C1_-6.7\\engines\\vina_cpu\\C1\\docked.pdbqt",
+      "size": 26622,
+      "sha256": "cc30ddd3fdf5f0e6c8992548d12304a3d11c2a32952b919ccc3dd6580a4cb7e2"
+    },
+    {
+      "path": "run\\TOP10\\02_gc1__WTheavy__C1_-6.7\\engines\\vina_cpu\\C1\\docking.log",
+      "size": 3048,
+      "sha256": "255edaf4c20b377709c24f8dabc089be92b7df2221dbc6a7080f0318537bc76b"
+    },
+    {
+      "path": "run\\TOP10\\02_gc1__WTheavy__C1_-6.7\\engines\\vina_cpu\\C1\\state.json",
+      "size": 1441,
+      "sha256": "a18e8c15e5fe2b9f39d00a3307ba4a4f8e84186b1e0a8874ddb2b4c7a63425f5"
+    },
+    {
+      "path": "run\\TOP10\\02_gc1__WTheavy__C1_-6.7\\ligand.pdbqt",
+      "size": 2680,
+      "sha256": "d4f7763dc0ef6aaad7518a3c700c62c84d455595f5f8c6d294c9f7668ff05e56"
+    },
+    {
+      "path": "run\\TOP10\\02_gc1__WTheavy__C1_-6.7\\ligand.sdf",
+      "size": 4171,
+      "sha256": "8b519117c341dfb9bfebfc7eb90a13b559879fba542967c2e6f90b736effc783"
+    },
+    {
+      "path": "run\\TOP10\\02_gc1__WTheavy__C1_-6.7\\metadata.json",
+      "size": 2083,
+      "sha256": "88b9d23739177baf28b26cbf4a8a1a967957fb3aab9ec8853f72b97f3ab135bd"
+    },
+    {
+      "path": "run\\TOP10\\02_gc1__WTheavy__C1_-6.7\\pockets.json",
+      "size": 1737,
+      "sha256": "7641b6d8159217dc469c442d7544730146d007fbf51c0b75eb09a4fa55cf1194"
+    },
+    {
+      "path": "run\\TOP10\\02_gc1__WTheavy__C1_-6.7\\provenance.json",
+      "size": 4060,
+      "sha256": "f1101e9c44592a6f790fabbfd7607730b6b4ff4bf5e1fb33fec561f7100427d7"
+    },
+    {
+      "path": "run\\TOP10\\02_gc1__WTheavy__C1_-6.7\\receptor.pdbqt",
+      "size": 192780,
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "run\\TOP10\\02_gc1__WTheavy__C1_-6.7\\receptor_source.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "run\\TOP10\\03_mrn__WTheavy__C1_-6.6\\engines\\vina_cpu\\C1\\docked.pdbqt",
+      "size": 25767,
+      "sha256": "6af9685cf5aefd83cee0a3d84c10b9770e9ed214bdd295c4f833b6b7755584ee"
+    },
+    {
+      "path": "run\\TOP10\\03_mrn__WTheavy__C1_-6.6\\engines\\vina_cpu\\C1\\docking.log",
+      "size": 3048,
+      "sha256": "ab5b013e9433a2f788b3d2b7921b42ac705a8a9e46c138d6fd64b5d296f03627"
+    },
+    {
+      "path": "run\\TOP10\\03_mrn__WTheavy__C1_-6.6\\engines\\vina_cpu\\C1\\state.json",
+      "size": 1440,
+      "sha256": "e300c3f0d8299aa803480f3966e47843f017c8ca785ca66c1f7028de8962e015"
+    },
+    {
+      "path": "run\\TOP10\\03_mrn__WTheavy__C1_-6.6\\ligand.pdbqt",
+      "size": 2590,
+      "sha256": "790792afa52e2780ba92806f406781578089ab58a003a33b9d1b6b48ac5d6423"
+    },
+    {
+      "path": "run\\TOP10\\03_mrn__WTheavy__C1_-6.6\\ligand.sdf",
+      "size": 3590,
+      "sha256": "0a40e5fc4eb1ca03b97f13029435635a157892e654fbde8662ec1a3eb8ba9031"
+    },
+    {
+      "path": "run\\TOP10\\03_mrn__WTheavy__C1_-6.6\\metadata.json",
+      "size": 2080,
+      "sha256": "efb724d681ab25c634e0e4546bd5822adc36ff4c17c0de1b064efd19937ad4ff"
+    },
+    {
+      "path": "run\\TOP10\\03_mrn__WTheavy__C1_-6.6\\pockets.json",
+      "size": 1737,
+      "sha256": "2f1750bb3a0285e17606f854376f498eec02c3099bf0fdba4b25800dfa2e1788"
+    },
+    {
+      "path": "run\\TOP10\\03_mrn__WTheavy__C1_-6.6\\provenance.json",
+      "size": 4058,
+      "sha256": "51e8a6443c0486308c5594958fbac35a70213ec4d0167e385a85665219a2d4fd"
+    },
+    {
+      "path": "run\\TOP10\\03_mrn__WTheavy__C1_-6.6\\receptor.pdbqt",
+      "size": 192780,
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "run\\TOP10\\03_mrn__WTheavy__C1_-6.6\\receptor_source.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "run\\TOP10\\04_dai__WTheavy__C1_-6.3\\engines\\vina_cpu\\C1\\docked.pdbqt",
+      "size": 20745,
+      "sha256": "8a64bb29ca9be05ea52453c570603c2f51b6aecac3bc457389fc291c02d0125c"
+    },
+    {
+      "path": "run\\TOP10\\04_dai__WTheavy__C1_-6.3\\engines\\vina_cpu\\C1\\docking.log",
+      "size": 3048,
+      "sha256": "2ebfa7adf0ecfb0e8f06436cdfa177401cc4bd0b1f1529609bca869d78b10817"
+    },
+    {
+      "path": "run\\TOP10\\04_dai__WTheavy__C1_-6.3\\engines\\vina_cpu\\C1\\state.json",
+      "size": 1440,
+      "sha256": "a81d4bba20e0b26117de25376533c819496bd4797108855bd131ba1d0f8201a3"
+    },
+    {
+      "path": "run\\TOP10\\04_dai__WTheavy__C1_-6.3\\ligand.pdbqt",
+      "size": 2043,
+      "sha256": "a1a2e32791863dcbc6e1f2616a4617ef04e40a83b826c12702ed4bc60e21b951"
+    },
+    {
+      "path": "run\\TOP10\\04_dai__WTheavy__C1_-6.3\\ligand.sdf",
+      "size": 2570,
+      "sha256": "4c235ead91821b3ce510200ebf59c2bef9167abd21b334b584c16b7d595598d5"
+    },
+    {
+      "path": "run\\TOP10\\04_dai__WTheavy__C1_-6.3\\metadata.json",
+      "size": 2073,
+      "sha256": "138560a02ff919d5f3446b4759bbe3e926ed071d07dc2f4be888d10e9bfcdd66"
+    },
+    {
+      "path": "run\\TOP10\\04_dai__WTheavy__C1_-6.3\\pockets.json",
+      "size": 1737,
+      "sha256": "65095611fe67c94bdcacc20108b5de0d653fb84936b6167f347fdc650c2a3197"
+    },
+    {
+      "path": "run\\TOP10\\04_dai__WTheavy__C1_-6.3\\provenance.json",
+      "size": 4055,
+      "sha256": "2bea8c6daa53e91ee06df64c309650477ddec59393352f5e04b0faf076d2dc6d"
+    },
+    {
+      "path": "run\\TOP10\\04_dai__WTheavy__C1_-6.3\\receptor.pdbqt",
+      "size": 192780,
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "run\\TOP10\\04_dai__WTheavy__C1_-6.3\\receptor_source.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "run\\TOP10\\05_fmn__WTheavy__C1_-6.3\\engines\\vina_cpu\\C1\\docked.pdbqt",
+      "size": 20745,
+      "sha256": "1f4498bc2c5678c4b69af97dadac3f08c1cbcbdf40895010a662d97a496e9a15"
+    },
+    {
+      "path": "run\\TOP10\\05_fmn__WTheavy__C1_-6.3\\engines\\vina_cpu\\C1\\docking.log",
+      "size": 3048,
+      "sha256": "74562628e76fd5beb70248e430cdc3776b36b08df1b059b05e3741cadc01efac"
+    },
+    {
+      "path": "run\\TOP10\\05_fmn__WTheavy__C1_-6.3\\engines\\vina_cpu\\C1\\state.json",
+      "size": 1439,
+      "sha256": "567ce6a28c86e294eb1a8159c660f1c517d68643d37b1fbe7ed53f4bb21cc49c"
+    },
+    {
+      "path": "run\\TOP10\\05_fmn__WTheavy__C1_-6.3\\ligand.pdbqt",
+      "size": 2043,
+      "sha256": "fc106c9060150c299d5ae58e4b4a3896c36199c4ebbb07f8b45ccc81263b716d"
+    },
+    {
+      "path": "run\\TOP10\\05_fmn__WTheavy__C1_-6.3\\ligand.sdf",
+      "size": 2825,
+      "sha256": "3bbb46bd06e1414a875554b7089959be9331be424427dca8e4b05f9f70f9226b"
+    },
+    {
+      "path": "run\\TOP10\\05_fmn__WTheavy__C1_-6.3\\metadata.json",
+      "size": 2076,
+      "sha256": "f648d264d515adfc0ca36e9edb8a1cea57c3b893cf9be0edce607d4d4e9b32c9"
+    },
+    {
+      "path": "run\\TOP10\\05_fmn__WTheavy__C1_-6.3\\pockets.json",
+      "size": 1737,
+      "sha256": "2ee2dbe112406d18bf36857d963dacc7df5ebab725bc8e04cedf411840ae3f22"
+    },
+    {
+      "path": "run\\TOP10\\05_fmn__WTheavy__C1_-6.3\\provenance.json",
+      "size": 4048,
+      "sha256": "0d89d63cf8450f8a93f3af5e4a0013f60e53cedba40bcd2b19ef921308775c4a"
+    },
+    {
+      "path": "run\\TOP10\\05_fmn__WTheavy__C1_-6.3\\receptor.pdbqt",
+      "size": 192780,
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "run\\TOP10\\05_fmn__WTheavy__C1_-6.3\\receptor_source.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "run\\TOP10\\06_bca__WTheavy__C1_-6.2\\engines\\vina_cpu\\C1\\docked.pdbqt",
+      "size": 22689,
+      "sha256": "d936c1c3ef5c8ad4ae08112fa8a6ae4a22719f66661ad8a48d72625591ae6325"
+    },
+    {
+      "path": "run\\TOP10\\06_bca__WTheavy__C1_-6.2\\engines\\vina_cpu\\C1\\docking.log",
+      "size": 3048,
+      "sha256": "9e47daec88078a797f33f00c81d83c33d855522bdd4c93eb63d758b151b1218d"
+    },
+    {
+      "path": "run\\TOP10\\06_bca__WTheavy__C1_-6.2\\engines\\vina_cpu\\C1\\state.json",
+      "size": 1439,
+      "sha256": "56541b1b5a8b1592dddae33cd47d0ca04c6e2fcc5177e575903021ace13f7d66"
+    },
+    {
+      "path": "run\\TOP10\\06_bca__WTheavy__C1_-6.2\\ligand.pdbqt",
+      "size": 2255,
+      "sha256": "5fcfe0795ad7cefd07487c523aa7454f83392c506f819a216677429106dc6a75"
+    },
+    {
+      "path": "run\\TOP10\\06_bca__WTheavy__C1_-6.2\\ligand.sdf",
+      "size": 2910,
+      "sha256": "410239eaa8767ad491fee7970803674134178ab47af588b75043bb966ef6ac69"
+    },
+    {
+      "path": "run\\TOP10\\06_bca__WTheavy__C1_-6.2\\metadata.json",
+      "size": 2078,
+      "sha256": "3c2cc70fe8cd8cd11182efa474ac8da62cce486899bf2780e0b822e6e185c851"
+    },
+    {
+      "path": "run\\TOP10\\06_bca__WTheavy__C1_-6.2\\pockets.json",
+      "size": 1737,
+      "sha256": "e19569884b2cd378dea5a4f66f17297732507a786eac39b1dc2b3cbf4ba62b84"
+    },
+    {
+      "path": "run\\TOP10\\06_bca__WTheavy__C1_-6.2\\provenance.json",
+      "size": 4055,
+      "sha256": "5bc0162d47112f28c34e6c973bc383bb3d54732743437bdbc58f9719da7edbdd"
+    },
+    {
+      "path": "run\\TOP10\\06_bca__WTheavy__C1_-6.2\\receptor.pdbqt",
+      "size": 192780,
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "run\\TOP10\\06_bca__WTheavy__C1_-6.2\\receptor_source.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "run\\TOP10\\07_ish__WTheavy__C1_-5.8\\engines\\vina_cpu\\C1\\docked.pdbqt",
+      "size": 26739,
+      "sha256": "c30f6d6bf0e5480624cbcb1c77200044952a97b3c2e224befbdb5b8ee7035550"
+    },
+    {
+      "path": "run\\TOP10\\07_ish__WTheavy__C1_-5.8\\engines\\vina_cpu\\C1\\docking.log",
+      "size": 3048,
+      "sha256": "5811e02bc3e65d30aee0b7c7fff55f249b7ab43a3890ffc840d2b50ac96fdd31"
+    },
+    {
+      "path": "run\\TOP10\\07_ish__WTheavy__C1_-5.8\\engines\\vina_cpu\\C1\\state.json",
+      "size": 1441,
+      "sha256": "210eebdddf3f6749a84c8e6a21b2f73d13ba201f36f747d62797afbcd5de1bda"
+    },
+    {
+      "path": "run\\TOP10\\07_ish__WTheavy__C1_-5.8\\ligand.pdbqt",
+      "size": 2696,
+      "sha256": "921e063de66f3c24dd35e4d674bd90d08116f89c5607c1ab06dfd4d7b3da4cd2"
+    },
+    {
+      "path": "run\\TOP10\\07_ish__WTheavy__C1_-5.8\\ligand.sdf",
+      "size": 3080,
+      "sha256": "b1ff61ca2056e2b619e1161a10ef629bfad126bd312f5fcd008cda8dca5d6a0b"
+    },
+    {
+      "path": "run\\TOP10\\07_ish__WTheavy__C1_-5.8\\metadata.json",
+      "size": 2083,
+      "sha256": "b0fb125fd91c741600701951e37768bd7d6e0ee57ca64b5ab47f6ac209e20da4"
+    },
+    {
+      "path": "run\\TOP10\\07_ish__WTheavy__C1_-5.8\\pockets.json",
+      "size": 1737,
+      "sha256": "b2eb8dd490d2647a659464b18f27231c6b01bb34d7e551aa58486f5fc2fe025e"
+    },
+    {
+      "path": "run\\TOP10\\07_ish__WTheavy__C1_-5.8\\provenance.json",
+      "size": 4059,
+      "sha256": "eb31860f5656a426d6862062f379ad0949e613d446ff1c6784fbbaeae02c3167"
+    },
+    {
+      "path": "run\\TOP10\\07_ish__WTheavy__C1_-5.8\\receptor.pdbqt",
+      "size": 192780,
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "run\\TOP10\\07_ish__WTheavy__C1_-5.8\\receptor_source.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "run\\TOP10\\08_t3__WTheavy__C1_-5.4\\engines\\vina_cpu\\C1\\docked.pdbqt",
+      "size": 27279,
+      "sha256": "ca58df76c76dc642488e9226628b3d6bf3eba39ce3ab4673f377cadd32bbce38"
+    },
+    {
+      "path": "run\\TOP10\\08_t3__WTheavy__C1_-5.4\\engines\\vina_cpu\\C1\\docking.log",
+      "size": 3045,
+      "sha256": "9e741b43e2b1639a2e777a0d6075103d12f619b89271c9a6e41c614234ec8fe0"
+    },
+    {
+      "path": "run\\TOP10\\08_t3__WTheavy__C1_-5.4\\engines\\vina_cpu\\C1\\state.json",
+      "size": 1432,
+      "sha256": "c5eac9b340cb31a0d80c1d58cebfaba3bfd602934f58db73aca21602893a854d"
+    },
+    {
+      "path": "run\\TOP10\\08_t3__WTheavy__C1_-5.4\\ligand.pdbqt",
+      "size": 2753,
+      "sha256": "3f9cf313d6efa562d1c043ddf21fea64b04a2d400f00e70c75ffe7cbdbb09980"
+    },
+    {
+      "path": "run\\TOP10\\08_t3__WTheavy__C1_-5.4\\ligand.sdf",
+      "size": 3066,
+      "sha256": "f34af74c70211b9423b332c1927f3a53b7636a6c73f6f627b399a92292ceb1d3"
+    },
+    {
+      "path": "run\\TOP10\\08_t3__WTheavy__C1_-5.4\\metadata.json",
+      "size": 2088,
+      "sha256": "3df67a2d2ad62b95864f99fa4b6a369479c00eb0d87fd00d8cd88addab979956"
+    },
+    {
+      "path": "run\\TOP10\\08_t3__WTheavy__C1_-5.4\\pockets.json",
+      "size": 1737,
+      "sha256": "0f0a191daab02dfb7bfb80b9f874893eb745477f1553ce5331108cfbf0caf9c5"
+    },
+    {
+      "path": "run\\TOP10\\08_t3__WTheavy__C1_-5.4\\provenance.json",
+      "size": 4059,
+      "sha256": "63776fb4d7da7fe1ffecb27296e1b26ca31ce307f74d4d5b789fc04ec2103315"
+    },
+    {
+      "path": "run\\TOP10\\08_t3__WTheavy__C1_-5.4\\receptor.pdbqt",
+      "size": 192780,
+      "sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963"
+    },
+    {
+      "path": "run\\TOP10\\08_t3__WTheavy__C1_-5.4\\receptor_source.pdb",
+      "size": 161813,
+      "sha256": "acecd5ac64b576912f408547fcc65a043486d9825d2b64b1f4831dc3a2ee019d"
+    },
+    {
+      "path": "run\\top10_docking_results.csv",
+      "size": 9455,
+      "sha256": "1fec15c55419acff95ebd7009bea93a591de276303c144c6f25ad48d16936303"
+    },
+    {
+      "path": "workflow.json",
+      "size": 114,
+      "sha256": "a0807246be198c6fb8b188c09cd730db241ac950869c79085d77c5a31110190f"
+    }
+  ]
+}

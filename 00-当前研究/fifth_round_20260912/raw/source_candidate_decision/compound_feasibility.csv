@@ -1,0 +1,55 @@
+﻿record_id,candidate,manual_identity_status,availability,solubility_aggregation_risk,risk_level,decision_use,note
+NP54-001,scoparone,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-002,scopoletin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-003,umbelliferone,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-004,capillarisin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-005,arcapillin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-006,capillin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-007,capillene,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-008,"1,2-dimethoxy-4-vinylbenzene",pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-009,isorhamnetin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,多酚聚集/荧光素酶或氧化还原检测干扰；溶解度和真实肝暴露未知,中高,先做聚集/干扰、溶解度和PA/OA表型/FXR依赖性,理化/PAINS仅作预警，不作药效或安全结论
+NP54-010,vitexin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-011,isovitexin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-012,hyperoside,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-013,isoquercitrin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-014,epicatechin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-015,procyanidin B2,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-016,ursolic acid,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-017,oleanolic acid,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-018,corosolic acid,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-019,maslinic acid,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-020,tormentic acid,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-021,alisol A,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-022,alisol B,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-023,alisol C,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-024,alisol B acetate,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-025,16-oxo-alisol A,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-026,alismol,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-027,alismoxide,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-028,obtusifolin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-029,obtusin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-030,aurantio-obtusin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-031,chryso-obtusin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-032,rubrofusarin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-033,toralactone,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-034,puerarin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-035,daidzein,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-036,daidzin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-037,genistin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-038,formononetin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,MCD模型外推和FXR-疾病表型桥接未统一；PK/纯度未知,中,先做FXR依赖性脂毒性表型+FXR正交结合/功能,理化/PAINS仅作预警，不作药效或安全结论
+NP54-039,biochanin A,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,疾病证据主要脂变级且已有FXR文献；不应冒充新候选,低到中,体系阳性对照,理化/PAINS仅作预警，不作药效或安全结论
+NP54-040,3'-methoxydaidzein,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,疾病/靶点本体数据空白；3'位命名/文件主键风险；来源/暴露未知,高,作为SAR探索，先做身份/溶解度和FXR报告基因+直接结合,理化/PAINS仅作预警，不作药效或安全结论
+NP54-041,ononin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-042,sarmentosin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-043,hypophyllanthin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-044,nirtetralin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-045,niranthin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-046,1-deoxynojirimycin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-047,oxyresveratrol,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-048,astragalin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-049,moracin N,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,无肝病证据；神经/脑室内给药不能外推；多酚/抗氧化检测假阳性,高,只在低成本肝细胞铁死亡区分实验后升级,理化/PAINS仅作预警，不作药效或安全结论
+NP54-050,moracin M,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-051,mulberrofuran G,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-052,piceid,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-053,catechin,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论
+NP54-054,torachrysone,pending_manual_source_review,未核查具体供应商/批次/纯度（不采购）,未知：需实测溶解度、细胞耐受、检测干扰和准确可购形式,未知,不进入最终短名单，除非新证据改变,理化/PAINS仅作预警，不作药效或安全结论

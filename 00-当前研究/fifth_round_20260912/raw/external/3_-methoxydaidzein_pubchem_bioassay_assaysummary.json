@@ -1,0 +1,278 @@
+{
+  "Table": {
+    "Columns": {
+      "Column": [
+        "AID",
+        "Panel Member ID",
+        "SID",
+        "CID",
+        "Activity Outcome",
+        "Target Accession",
+        "Target GeneID",
+        "Activity Value [uM]",
+        "Activity Name",
+        "Assay Name",
+        "Assay Type",
+        "PubMed ID",
+        "RNAi"
+      ]
+    },
+    "Row": [
+      {
+        "Cell": [
+          "356604",
+          "",
+          "103600032",
+          "5319422",
+          "Active",
+          "",
+          "",
+          "6.8",
+          "IC50",
+          "Antiplasmodial activity after 18 hrs against chloroquine-resistant Plasmodium falciparum FcB1 in human blood by [3H]hypoxanthine uptake",
+          "Confirmatory",
+          "14640516",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "469799",
+          "",
+          "103600032",
+          "5319422",
+          "Unspecified",
+          "",
+          "",
+          "100",
+          "Activity",
+          "Estrogenic activity in human T47D cells assessed as drug level causing stimulation of cell proliferation equivalent to 10 pM estradiol after 96 hrs by alamar blue assay",
+          "Confirmatory",
+          "19928832",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "469800",
+          "",
+          "103600032",
+          "5319422",
+          "Unspecified",
+          "",
+          "",
+          "100",
+          "Activity",
+          "Estrogenic activity in human MCF7 cells assessed as drug level causing stimulation of cell proliferation equivalent to 100 pM estradiol after 96 hrs by alamar blue assay",
+          "Confirmatory",
+          "19928832",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "469801",
+          "",
+          "103600032",
+          "5319422",
+          "Unspecified",
+          "",
+          "",
+          "100",
+          "Activity",
+          "Estrogenic activity in human T47D cells assessed as drug level causing stimulation of cell proliferation equivalent to 100 pM estradiol after 96 hrs by alamar blue assay",
+          "Confirmatory",
+          "19928832",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "469802",
+          "",
+          "103600032",
+          "5319422",
+          "Active",
+          "",
+          "",
+          "4.7",
+          "Activity",
+          "Estrogenic activity in human MCF7 cells assessed as drug level causing stimulation of cell proliferation equivalent to 10 pM estradiol after 96 hrs by alamar blue assay",
+          "Confirmatory",
+          "19928832",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "469803",
+          "",
+          "103600032",
+          "5319422",
+          "Active",
+          "",
+          "",
+          "1.1",
+          "Activity",
+          "Estrogenic activity in luciferase transfected human MCF7 cells assessed as drug level causing stimulation of cell proliferation equivalent to 10 pM estradiol by luciferase reporter gene assay",
+          "Confirmatory",
+          "19928832",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "469804",
+          "",
+          "103600032",
+          "5319422",
+          "Active",
+          "",
+          "",
+          "2.2",
+          "Activity",
+          "Estrogenic activity in luciferase transfected human MCF7 cells assessed as drug level causing stimulation of cell proliferation equivalent to 100 pM estradiol by luciferase reporter gene assay",
+          "Confirmatory",
+          "19928832",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "469805",
+          "",
+          "103600032",
+          "5319422",
+          "Active",
+          "",
+          "",
+          "1.2",
+          "Activity",
+          "Estrogenic activity in luciferase transfected human T47D cells assessed as drug level causing stimulation of cell proliferation equivalent to 10 pM estradiol by luciferase reporter gene assay",
+          "Confirmatory",
+          "19928832",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "469806",
+          "",
+          "103600032",
+          "5319422",
+          "Active",
+          "",
+          "",
+          "5.8",
+          "Activity",
+          "Estrogenic activity in luciferase transfected human T47D cells assessed as drug level causing stimulation of cell proliferation equivalent to 100 pM estradiol by luciferase reporter gene assay",
+          "Confirmatory",
+          "19928832",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "472108",
+          "",
+          "103600032",
+          "5319422",
+          "Unspecified",
+          "",
+          "",
+          "42",
+          "GI50",
+          "Antiproliferative activity against estrogen receptor expressing human MCF7 cells",
+          "Confirmatory",
+          "19818612",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "472109",
+          "",
+          "103600032",
+          "5319422",
+          "Unspecified",
+          "",
+          "",
+          "75",
+          "GI50",
+          "Antiproliferative activity against estrogen receptor expressing human MDA-MB-436 cells",
+          "Confirmatory",
+          "19818612",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "540140",
+          "",
+          "103600032",
+          "5319422",
+          "Unspecified",
+          "",
+          "",
+          "805",
+          "ED50",
+          "Antioxidant activity assessed as DPPH radical scavenging activity",
+          "Confirmatory",
+          "20800321",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1374882",
+          "",
+          "103600032",
+          "5319422",
+          "Unspecified",
+          "",
+          "",
+          "39.8",
+          "IC50",
+          "Antiinflammatory activity in mouse BV2 cells assessed as inhibition of LPS-induced nitric oxide production",
+          "Confirmatory",
+          "29482940",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1374883",
+          "",
+          "103600032",
+          "5319422",
+          "Unspecified",
+          "",
+          "",
+          "",
+          "",
+          "Cytotoxicity against mouse BV2 cells at 50 uM by MTT assay",
+          "Other",
+          "29482940",
+          ""
+        ]
+      },
+      {
+        "Cell": [
+          "1463920",
+          "",
+          "103600032",
+          "5319422",
+          "Unspecified",
+          "Q16236",
+          "",
+          "",
+          "",
+          "Activation of Nrf2 (unknown origin) expressed in human HepG2 cells at 10 uM incubated for 6 hrs by ARE-driven luciferase reporter gene assay relative to untreated control",
+          "Other",
+          "28835349",
+          ""
+        ]
+      }
+    ]
+  }
+}

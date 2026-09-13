@@ -1,0 +1,106 @@
+{
+ "moracin N": {
+  "CID": 641376,
+  "MolecularFormula": "C19H18O4",
+  "MolecularWeight": "310.3",
+  "SMILES": "CC(=CCC1=C(C=C2C(=C1)C=C(O2)C3=CC(=CC(=C3)O)O)O)C",
+  "ConnectivitySMILES": "CC(=CCC1=C(C=C2C(=C1)C=C(O2)C3=CC(=CC(=C3)O)O)O)C",
+  "IUPACName": "5-[6-hydroxy-5-(3-methylbut-2-enyl)-1-benzofuran-2-yl]benzene-1,3-diol"
+ },
+ "daidzein": {
+  "CID": 5281708,
+  "MolecularFormula": "C15H10O4",
+  "MolecularWeight": "254.24",
+  "SMILES": "C1=CC(=CC=C1C2=COC3=C(C2=O)C=CC(=C3)O)O",
+  "ConnectivitySMILES": "C1=CC(=CC=C1C2=COC3=C(C2=O)C=CC(=C3)O)O",
+  "IUPACName": "7-hydroxy-3-(4-hydroxyphenyl)chromen-4-one"
+ },
+ "formononetin": {
+  "CID": 5280378,
+  "MolecularFormula": "C16H12O4",
+  "MolecularWeight": "268.26",
+  "SMILES": "COC1=CC=C(C=C1)C2=COC3=C(C2=O)C=CC(=C3)O",
+  "ConnectivitySMILES": "COC1=CC=C(C=C1)C2=COC3=C(C2=O)C=CC(=C3)O",
+  "IUPACName": "7-hydroxy-3-(4-methoxyphenyl)chromen-4-one"
+ },
+ "3'-methoxydaidzein": {
+  "CID": 5319422,
+  "MolecularFormula": "C16H12O5",
+  "MolecularWeight": "284.26",
+  "SMILES": "COC1=C(C=CC(=C1)C2=COC3=C(C2=O)C=CC(=C3)O)O",
+  "ConnectivitySMILES": "COC1=C(C=CC(=C1)C2=COC3=C(C2=O)C=CC(=C3)O)O",
+  "IUPACName": "7-hydroxy-3-(4-hydroxy-3-methoxyphenyl)chromen-4-one"
+ },
+ "daidzin": {
+  "CID": 107971,
+  "MolecularFormula": "C21H20O9",
+  "MolecularWeight": "416.4",
+  "SMILES": "C1=CC(=CC=C1C2=COC3=C(C2=O)C=CC(=C3)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O",
+  "ConnectivitySMILES": "C1=CC(=CC=C1C2=COC3=C(C2=O)C=CC(=C3)OC4C(C(C(C(O4)CO)O)O)O)O",
+  "IUPACName": "3-(4-hydroxyphenyl)-7-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one"
+ },
+ "moracin M": {
+  "CID": 185848,
+  "MolecularFormula": "C14H10O4",
+  "MolecularWeight": "242.23",
+  "SMILES": "C1=CC2=C(C=C1O)OC(=C2)C3=CC(=CC(=C3)O)O",
+  "ConnectivitySMILES": "C1=CC2=C(C=C1O)OC(=C2)C3=CC(=CC(=C3)O)O",
+  "IUPACName": "5-(6-hydroxy-1-benzofuran-2-yl)benzene-1,3-diol"
+ },
+ "piceid": {
+  "CID": 5281718,
+  "MolecularFormula": "C20H22O8",
+  "MolecularWeight": "390.4",
+  "SMILES": "C1=CC(=CC=C1/C=C/C2=CC(=CC(=C2)O[C@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)O)O",
+  "ConnectivitySMILES": "C1=CC(=CC=C1C=CC2=CC(=CC(=C2)OC3C(C(C(C(O3)CO)O)O)O)O)O",
+  "IUPACName": "(2S,3R,4S,5S,6R)-2-[3-hydroxy-5-[(E)-2-(4-hydroxyphenyl)ethenyl]phenoxy]-6-(hydroxymethyl)oxane-3,4,5-triol"
+ },
+ "biochanin A": {
+  "CID": 5280373,
+  "MolecularFormula": "C16H12O5",
+  "MolecularWeight": "284.26",
+  "SMILES": "COC1=CC=C(C=C1)C2=COC3=CC(=CC(=C3C2=O)O)O",
+  "ConnectivitySMILES": "COC1=CC=C(C=C1)C2=COC3=CC(=CC(=C3C2=O)O)O",
+  "IUPACName": "5,7-dihydroxy-3-(4-methoxyphenyl)chromen-4-one"
+ },
+ "genistin": {
+  "CID": 5281377,
+  "MolecularFormula": "C21H20O10",
+  "MolecularWeight": "432.4",
+  "SMILES": "C1=CC(=CC=C1C2=COC3=CC(=CC(=C3C2=O)O)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O",
+  "ConnectivitySMILES": "C1=CC(=CC=C1C2=COC3=CC(=CC(=C3C2=O)O)OC4C(C(C(C(O4)CO)O)O)O)O",
+  "IUPACName": "5-hydroxy-3-(4-hydroxyphenyl)-7-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one"
+ },
+ "epicatechin": {
+  "CID": 72276,
+  "MolecularFormula": "C15H14O6",
+  "MolecularWeight": "290.27",
+  "SMILES": "C1[C@H]([C@H](OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O",
+  "ConnectivitySMILES": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O",
+  "IUPACName": "(2R,3R)-2-(3,4-dihydroxyphenyl)-3,4-dihydro-2H-chromene-3,5,7-triol"
+ },
+ "capillarisin": {
+  "CID": 5281342,
+  "MolecularFormula": "C16H12O7",
+  "MolecularWeight": "316.26",
+  "SMILES": "COC1=C(C2=C(C=C1O)OC(=CC2=O)OC3=CC=C(C=C3)O)O",
+  "ConnectivitySMILES": "COC1=C(C2=C(C=C1O)OC(=CC2=O)OC3=CC=C(C=C3)O)O",
+  "IUPACName": "5,7-dihydroxy-2-(4-hydroxyphenoxy)-6-methoxychromen-4-one"
+ },
+ "isorhamnetin": {
+  "CID": 5281654,
+  "MolecularFormula": "C16H12O7",
+  "MolecularWeight": "316.26",
+  "SMILES": "COC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O",
+  "ConnectivitySMILES": "COC1=C(C=CC(=C1)C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O)O",
+  "IUPACName": "3,5,7-trihydroxy-2-(4-hydroxy-3-methoxyphenyl)chromen-4-one"
+ },
+ "toralactone": {
+  "CID": 5321980,
+  "MolecularFormula": "C15H12O5",
+  "MolecularWeight": "272.25",
+  "SMILES": "CC1=CC2=CC3=CC(=CC(=C3C(=C2C(=O)O1)O)O)OC",
+  "ConnectivitySMILES": "CC1=CC2=CC3=CC(=CC(=C3C(=C2C(=O)O1)O)O)OC",
+  "IUPACName": "9,10-dihydroxy-7-methoxy-3-methylbenzo[g]isochromen-1-one"
+ }
+}

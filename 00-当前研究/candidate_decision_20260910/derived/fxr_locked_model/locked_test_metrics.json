@@ -1,0 +1,68 @@
+{
+  "locked_test_regression": {
+    "MAE": 0.43154436098941834,
+    "RMSE": 0.600731054480095,
+    "Spearman": 0.6730467107161633
+  },
+  "descriptor_baseline_regression": {
+    "MAE": 0.5168355383997572,
+    "RMSE": 0.7300393812331664,
+    "Spearman": 0.45483929667800066
+  },
+  "mean_baseline_regression": {
+    "MAE": 0.6363967829532111,
+    "RMSE": 0.8372440077120304,
+    "Spearman": NaN
+  },
+  "locked_test_classification": {
+    "ROC_AUC": 0.9343137254901961,
+    "PR_AUC": 0.9431398894881247,
+    "Brier": 0.1350574877988842,
+    "positive_rate": 0.53125
+  },
+  "descriptor_baseline_classification": {
+    "ROC_AUC": 0.8387254901960784,
+    "PR_AUC": 0.8869462003159929,
+    "Brier": 0.1690363070882608,
+    "positive_rate": 0.53125
+  },
+  "topk": {
+    "k": 10,
+    "hits": 10,
+    "test_positive_rate": 0.53125,
+    "random_expected_hits": 5.3125,
+    "enrichment_factor": 1.8823529411764706,
+    "theoretical_max_enrichment": 1.8823529411764706
+  },
+  "bootstrap": {
+    "ROC_AUC": {
+      "n_boot": 2000,
+      "lo": 0.8620613590263693,
+      "median": 0.9382352941176471,
+      "hi": 0.9888738008815141
+    },
+    "PR_AUC": {
+      "n_boot": 2000,
+      "lo": 0.8681380193177373,
+      "median": 0.9488377898820828,
+      "hi": 0.9913135064261471
+    },
+    "MAE": {
+      "n_boot": 2000,
+      "lo": 0.3364530529271509,
+      "median": 0.42857777190758933,
+      "hi": 0.5487877616702955
+    }
+  },
+  "development_regression": {
+    "MAE": 0.5301116463652851,
+    "RMSE": 0.6699978622505327,
+    "Spearman": 0.656927241451452
+  },
+  "development_classification": {
+    "ROC_AUC": 0.8553113553113552,
+    "PR_AUC": 0.9210205583889794,
+    "Brier": 0.16166222505202318,
+    "positive_rate": 0.6176470588235294
+  }
+}

@@ -1,0 +1,55 @@
+{
+ "run": {
+  "date_utc": "2026-09-12T07:19:08Z",
+  "receptor": "D:\\zcode-workspace\\aidd-repo-work\\00-\u5f53\u524d\u7814\u7a76\\fifth_round_20260912\\derived\\wt_gate_run\\receptor_WTheavy_3GWS.pdbqt",
+  "receptor_sha256": "ce03903c86ace0adf82b9d7c202827ba47dd3f66993208c33d977359d1d83963",
+  "box_center": [
+   5.157,
+   20.08,
+   29.01
+  ],
+  "box_size": [
+   22.156,
+   19.867,
+   20.893
+  ],
+  "vina": "1.2.7 (DockScope bundled vina.exe)",
+  "seed": 20260912,
+  "exhaustiveness": 8,
+  "cpu": 8,
+  "num_modes": 9,
+  "score_direction": "positive_score = -vina_score (more positive = predicted active)",
+  "tie_handling": "mid-rank Mann-Whitney; EF@Top15 includes all records tied with the 15th score",
+  "bootstrap": "stratified resampling within labels, 10000 replicates, seed 20260912"
+ },
+ "n_active_docked": 45,
+ "n_negative_docked": 31,
+ "missing_ligand_prep": [],
+ "ROC_AUC": 0.4717,
+ "PR_AUC": 0.693,
+ "ROC_AUC_ci95": [
+  0.3412,
+  0.6072
+ ],
+ "PR_AUC_ci95": [
+  0.5953,
+  0.7851
+ ],
+ "bootstrap_valid": 10000,
+ "EF_at_Top15": {
+  "K_requested": 15,
+  "effective_top_n": 15,
+  "actives_in_top": 14,
+  "top_fraction": 1.5763,
+  "baseline_positive_rate": 0.5921
+ },
+ "layer_AUC": {
+  "layer_0": 0.596,
+  "layer_1": 0.232,
+  "layer_2": 0.587
+ },
+ "anchors": {
+  "T3_liothyronine": -9.527,
+  "resmetirom": -10.22
+ }
+}

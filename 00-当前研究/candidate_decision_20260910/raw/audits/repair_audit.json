@@ -1,0 +1,105 @@
+{
+  "created": "2026-09-10T10:44:21.236694",
+  "source": "D:\\zcode-workspace\\p0_refs\\wt_3GWS.pdb",
+  "source_sha256": "560cc44ac5e75eec1a6c4eb69e45d0755e7ac7399adb99ee377ad39055bc7a1e",
+  "repaired_sha256": "bcc45d558c59a329bc7810dd55e61871063538841130e4511660b47d784a30b4",
+  "n_original": 247,
+  "n_repaired": 247,
+  "removed_adduct_atoms": [
+    {
+      "residue": 294,
+      "atom": "AS"
+    },
+    {
+      "residue": 294,
+      "atom": "CE1"
+    },
+    {
+      "residue": 294,
+      "atom": "CE2"
+    },
+    {
+      "residue": 388,
+      "atom": "AS"
+    },
+    {
+      "residue": 388,
+      "atom": "CE1"
+    },
+    {
+      "residue": 388,
+      "atom": "CE2"
+    },
+    {
+      "residue": 434,
+      "atom": "AS"
+    },
+    {
+      "residue": 434,
+      "atom": "CE1"
+    },
+    {
+      "residue": 434,
+      "atom": "CE2"
+    }
+  ],
+  "fixed_CYS": [
+    294,
+    388,
+    434
+  ],
+  "ASN331": true,
+  "original_missing_residue_records": [
+    "REMARK 465                                                                      ",
+    "REMARK 465 MISSING RESIDUES                                                     ",
+    "REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       ",
+    "REMARK 465 EXPERIMENT. (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               ",
+    "REMARK 465 IDENTIFIER; SSSEQ=SEQUENCE NUMBER; I=INSERTION CODE.)                ",
+    "REMARK 465                                                                      ",
+    "REMARK 465   M RES C SSSEQI                                                     ",
+    "REMARK 465     GLN X   252                                                      ",
+    "REMARK 465     ALA X   253                                                      ",
+    "REMARK 465     PRO X   254                                                      ",
+    "REMARK 465     ILE X   255                                                      ",
+    "REMARK 465     VAL X   256                                                      ",
+    "REMARK 465     ASN X   257                                                      ",
+    "REMARK 465     ALA X   258                                                      ",
+    "REMARK 465     PRO X   259                                                      ",
+    "REMARK 465     GLU X   260                                                      ",
+    "REMARK 465     GLY X   261                                                      ",
+    "REMARK 465     GLY X   262                                                      ",
+    "REMARK 465     LYS X   263                                                      "
+  ],
+  "peptide_CN_distances": {
+    "294": [
+      1.3283877445986885,
+      1.329308466835295
+    ],
+    "388": [
+      1.3293991123812285,
+      1.3292953020303682
+    ],
+    "434": [
+      1.3303570949185013,
+      1.3264950056445743
+    ]
+  },
+  "restored_residue_nearest_T3_A": {
+    "294": 19.679525299152928,
+    "388": 25.856232401492683,
+    "434": 8.749995085712904
+  },
+  "box": {
+    "center": [
+      5.157,
+      20.08,
+      29.01
+    ],
+    "size": [
+      22.156,
+      19.867,
+      20.893
+    ]
+  },
+  "scope": "Limited computational follow-up. Ranking not a validated predictor of activity. Fixed supplied protonation; no pH-state ensemble."
+}

@@ -1,0 +1,330 @@
+{
+ "scoparone": {
+  "CID": 8417,
+  "MolecularFormula": "C11H10O4",
+  "MolecularWeight": "206.19",
+  "SMILES": "COC1=C(C=C2C(=C1)C=CC(=O)O2)OC",
+  "ConnectivitySMILES": "COC1=C(C=C2C(=C1)C=CC(=O)O2)OC",
+  "IUPACName": "6,7-dimethoxychromen-2-one"
+ },
+ "scopoletin": {
+  "CID": 5280460,
+  "MolecularFormula": "C10H8O4",
+  "MolecularWeight": "192.17",
+  "SMILES": "COC1=C(C=C2C(=C1)C=CC(=O)O2)O",
+  "ConnectivitySMILES": "COC1=C(C=C2C(=C1)C=CC(=O)O2)O",
+  "IUPACName": "7-hydroxy-6-methoxychromen-2-one"
+ },
+ "umbelliferone": {
+  "CID": 5281426,
+  "MolecularFormula": "C9H6O3",
+  "MolecularWeight": "162.14",
+  "SMILES": "C1=CC(=CC2=C1C=CC(=O)O2)O",
+  "ConnectivitySMILES": "C1=CC(=CC2=C1C=CC(=O)O2)O",
+  "IUPACName": "7-hydroxychromen-2-one"
+ },
+ "arcapillin": {
+  "CID": 158311,
+  "MolecularFormula": "C18H16O8",
+  "MolecularWeight": "360.3",
+  "SMILES": "COC1=C(C=C(C(=C1)C2=CC(=O)C3=C(C(=C(C=C3O2)OC)OC)O)O)O",
+  "ConnectivitySMILES": "COC1=C(C=C(C(=C1)C2=CC(=O)C3=C(C(=C(C=C3O2)OC)OC)O)O)O",
+  "IUPACName": "2-(2,4-dihydroxy-5-methoxyphenyl)-5-hydroxy-6,7-dimethoxychromen-4-one"
+ },
+ "capillin": {
+  "CID": 10321,
+  "MolecularFormula": "C12H8O",
+  "MolecularWeight": "168.19",
+  "SMILES": "CC#CC#CC(=O)C1=CC=CC=C1",
+  "ConnectivitySMILES": "CC#CC#CC(=O)C1=CC=CC=C1",
+  "IUPACName": "1-phenylhexa-2,4-diyn-1-one"
+ },
+ "capillene": {
+  "CID": 3083613,
+  "MolecularFormula": "C12H10",
+  "MolecularWeight": "154.21",
+  "SMILES": "CC#CC#CCC1=CC=CC=C1",
+  "ConnectivitySMILES": "CC#CC#CCC1=CC=CC=C1",
+  "IUPACName": "hexa-2,4-diynylbenzene"
+ },
+ "1,2-dimethoxy-4-vinylbenzene": {
+  "CID": 61400,
+  "MolecularFormula": "C10H12O2",
+  "MolecularWeight": "164.20",
+  "SMILES": "COC1=C(C=C(C=C1)C=C)OC",
+  "ConnectivitySMILES": "COC1=C(C=C(C=C1)C=C)OC",
+  "IUPACName": "4-ethenyl-1,2-dimethoxybenzene"
+ },
+ "vitexin": {
+  "CID": 5280441,
+  "MolecularFormula": "C21H20O10",
+  "MolecularWeight": "432.4",
+  "SMILES": "C1=CC(=CC=C1C2=CC(=O)C3=C(O2)C(=C(C=C3O)O)[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O",
+  "ConnectivitySMILES": "C1=CC(=CC=C1C2=CC(=O)C3=C(O2)C(=C(C=C3O)O)C4C(C(C(C(O4)CO)O)O)O)O",
+  "IUPACName": "5,7-dihydroxy-2-(4-hydroxyphenyl)-8-[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]chromen-4-one"
+ },
+ "isovitexin": {
+  "CID": 162350,
+  "MolecularFormula": "C21H20O10",
+  "MolecularWeight": "432.4",
+  "SMILES": "C1=CC(=CC=C1C2=CC(=O)C3=C(O2)C=C(C(=C3O)[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O)O",
+  "ConnectivitySMILES": "C1=CC(=CC=C1C2=CC(=O)C3=C(O2)C=C(C(=C3O)C4C(C(C(C(O4)CO)O)O)O)O)O",
+  "IUPACName": "5,7-dihydroxy-2-(4-hydroxyphenyl)-6-[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]chromen-4-one"
+ },
+ "hyperoside": {
+  "CID": 5281643,
+  "MolecularFormula": "C21H20O12",
+  "MolecularWeight": "464.4",
+  "SMILES": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O[C@H]4[C@@H]([C@H]([C@H]([C@H](O4)CO)O)O)O)O)O",
+  "ConnectivitySMILES": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O)O",
+  "IUPACName": "2-(3,4-dihydroxyphenyl)-5,7-dihydroxy-3-[(2S,3R,4S,5R,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one"
+ },
+ "isoquercitrin": {
+  "CID": 5484006,
+  "MolecularFormula": "C21H20O12",
+  "MolecularWeight": "464.4",
+  "SMILES": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O[C@H]4[C@@H]([C@H]([C@H](O4)[C@@H](CO)O)O)O)O)O",
+  "ConnectivitySMILES": "C1=CC(=C(C=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(O4)C(CO)O)O)O)O)O",
+  "IUPACName": "3-[(2S,3R,4R,5R)-5-[(1R)-1,2-dihydroxyethyl]-3,4-dihydroxyoxolan-2-yl]oxy-2-(3,4-dihydroxyphenyl)-5,7-dihydroxychromen-4-one"
+ },
+ "procyanidin B2": {
+  "CID": 122738,
+  "MolecularFormula": "C30H26O12",
+  "MolecularWeight": "578.5",
+  "SMILES": "C1[C@H]([C@H](OC2=C1C(=CC(=C2[C@@H]3[C@H]([C@H](OC4=CC(=CC(=C34)O)O)C5=CC(=C(C=C5)O)O)O)O)O)C6=CC(=C(C=C6)O)O)O",
+  "ConnectivitySMILES": "C1C(C(OC2=C1C(=CC(=C2C3C(C(OC4=CC(=CC(=C34)O)O)C5=CC(=C(C=C5)O)O)O)O)O)C6=CC(=C(C=C6)O)O)O",
+  "IUPACName": "(2R,3R)-2-(3,4-dihydroxyphenyl)-8-[(2R,3R,4R)-2-(3,4-dihydroxyphenyl)-3,5,7-trihydroxy-3,4-dihydro-2H-chromen-4-yl]-3,4-dihydro-2H-chromene-3,5,7-triol"
+ },
+ "ursolic acid": {
+  "CID": 64945,
+  "MolecularFormula": "C30H48O3",
+  "MolecularWeight": "456.7",
+  "SMILES": "C[C@@H]1CC[C@@]2(CC[C@@]3(C(=CC[C@H]4[C@]3(CC[C@@H]5[C@@]4(CC[C@@H](C5(C)C)O)C)C)[C@@H]2[C@H]1C)C)C(=O)O",
+  "ConnectivitySMILES": "CC1CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1C)C)C(=O)O",
+  "IUPACName": "(1S,2R,4aS,6aR,6aS,6bR,8aR,10S,12aR,14bS)-10-hydroxy-1,2,6a,6b,9,9,12a-heptamethyl-2,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydro-1H-picene-4a-carboxylic acid"
+ },
+ "oleanolic acid": {
+  "CID": 10494,
+  "MolecularFormula": "C30H48O3",
+  "MolecularWeight": "456.7",
+  "SMILES": "C[C@]12CC[C@@H](C([C@@H]1CC[C@@]3([C@@H]2CC=C4[C@]3(CC[C@@]5([C@H]4CC(CC5)(C)C)C(=O)O)C)C)(C)C)O",
+  "ConnectivitySMILES": "CC1(CCC2(CCC3(C(=CCC4C3(CCC5C4(CCC(C5(C)C)O)C)C)C2C1)C)C(=O)O)C",
+  "IUPACName": "(4aS,6aR,6aS,6bR,8aR,10S,12aR,14bS)-10-hydroxy-2,2,6a,6b,9,9,12a-heptamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid"
+ },
+ "corosolic acid": {
+  "CID": 6918774,
+  "MolecularFormula": "C30H48O4",
+  "MolecularWeight": "472.7",
+  "SMILES": "C[C@@H]1CC[C@@]2(CC[C@@]3(C(=CC[C@H]4[C@]3(CC[C@@H]5[C@@]4(C[C@H]([C@@H](C5(C)C)O)O)C)C)[C@@H]2[C@H]1C)C)C(=O)O",
+  "ConnectivitySMILES": "CC1CCC2(CCC3(C(=CCC4C3(CCC5C4(CC(C(C5(C)C)O)O)C)C)C2C1C)C)C(=O)O",
+  "IUPACName": "(1S,2R,4aS,6aR,6aS,6bR,8aR,10R,11R,12aR,14bS)-10,11-dihydroxy-1,2,6a,6b,9,9,12a-heptamethyl-2,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydro-1H-picene-4a-carboxylic acid"
+ },
+ "maslinic acid": {
+  "CID": 73659,
+  "MolecularFormula": "C30H48O4",
+  "MolecularWeight": "472.7",
+  "SMILES": "C[C@@]12CC[C@@H]3[C@@]([C@H]1CC=C4[C@]2(CC[C@@]5([C@H]4CC(CC5)(C)C)C(=O)O)C)(C[C@H]([C@@H](C3(C)C)O)O)C",
+  "ConnectivitySMILES": "CC1(CCC2(CCC3(C(=CCC4C3(CCC5C4(CC(C(C5(C)C)O)O)C)C)C2C1)C)C(=O)O)C",
+  "IUPACName": "(4aS,6aR,6aS,6bR,8aR,10R,11R,12aR,14bS)-10,11-dihydroxy-2,2,6a,6b,9,9,12a-heptamethyl-1,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid"
+ },
+ "tormentic acid": {
+  "CID": 73193,
+  "MolecularFormula": "C30H48O5",
+  "MolecularWeight": "488.7",
+  "SMILES": "C[C@@H]1CC[C@@]2(CC[C@@]3(C(=CC[C@H]4[C@]3(CC[C@@H]5[C@@]4(C[C@H]([C@@H](C5(C)C)O)O)C)C)[C@@H]2[C@]1(C)O)C)C(=O)O",
+  "ConnectivitySMILES": "CC1CCC2(CCC3(C(=CCC4C3(CCC5C4(CC(C(C5(C)C)O)O)C)C)C2C1(C)O)C)C(=O)O",
+  "IUPACName": "(1R,2R,4aS,6aR,6aS,6bR,8aR,10R,11R,12aR,14bS)-1,10,11-trihydroxy-1,2,6a,6b,9,9,12a-heptamethyl-2,3,4,5,6,6a,7,8,8a,10,11,12,13,14b-tetradecahydropicene-4a-carboxylic acid"
+ },
+ "alisol A": {
+  "CID": 15558616,
+  "MolecularFormula": "C30H50O5",
+  "MolecularWeight": "490.7",
+  "SMILES": "C[C@H](C[C@@H]([C@H](C(C)(C)O)O)O)C1=C2C[C@@H]([C@H]3[C@]4(CCC(=O)C([C@@H]4CC[C@@]3([C@]2(CC1)C)C)(C)C)C)O",
+  "ConnectivitySMILES": "CC(CC(C(C(C)(C)O)O)O)C1=C2CC(C3C4(CCC(=O)C(C4CCC3(C2(CC1)C)C)(C)C)C)O",
+  "IUPACName": "(5R,8S,9S,10S,11S,14R)-11-hydroxy-4,4,8,10,14-pentamethyl-17-[(2R,4S,5R)-4,5,6-trihydroxy-6-methylheptan-2-yl]-1,2,5,6,7,9,11,12,15,16-decahydrocyclopenta[a]phenanthren-3-one"
+ },
+ "alisol B": {
+  "CID": 15558620,
+  "MolecularFormula": "C30H48O4",
+  "MolecularWeight": "472.7",
+  "SMILES": "C[C@H](C[C@@H]([C@@H]1C(O1)(C)C)O)C2=C3C[C@@H]([C@H]4[C@]5(CCC(=O)C([C@@H]5CC[C@@]4([C@]3(CC2)C)C)(C)C)C)O",
+  "ConnectivitySMILES": "CC(CC(C1C(O1)(C)C)O)C2=C3CC(C4C5(CCC(=O)C(C5CCC4(C3(CC2)C)C)(C)C)C)O",
+  "IUPACName": "(5R,8S,9S,10S,11S,14R)-17-[(2R,4S)-4-[(2R)-3,3-dimethyloxiran-2-yl]-4-hydroxybutan-2-yl]-11-hydroxy-4,4,8,10,14-pentamethyl-1,2,5,6,7,9,11,12,15,16-decahydrocyclopenta[a]phenanthren-3-one"
+ },
+ "alisol C": {
+  "CID": 101306923,
+  "MolecularFormula": "C30H46O5",
+  "MolecularWeight": "486.7",
+  "SMILES": "C[C@H](C[C@@H]([C@@H]1C(O1)(C)C)O)C2=C3C[C@@H]([C@H]4[C@]5(CCC(=O)C([C@@H]5CC[C@@]4([C@]3(CC2=O)C)C)(C)C)C)O",
+  "ConnectivitySMILES": "CC(CC(C1C(O1)(C)C)O)C2=C3CC(C4C5(CCC(=O)C(C5CCC4(C3(CC2=O)C)C)(C)C)C)O",
+  "IUPACName": "(5R,8S,9S,10S,11S,14R)-17-[(2R,4S)-4-[(2R)-3,3-dimethyloxiran-2-yl]-4-hydroxybutan-2-yl]-11-hydroxy-4,4,8,10,14-pentamethyl-2,5,6,7,9,11,12,15-octahydro-1H-cyclopenta[a]phenanthrene-3,16-dione"
+ },
+ "alisol B acetate": {
+  "CID": 14036811,
+  "MolecularFormula": "C32H50O5",
+  "MolecularWeight": "514.7",
+  "SMILES": "C[C@H](C[C@@H]([C@@H]1C(O1)(C)C)OC(=O)C)C2=C3C[C@@H]([C@H]4[C@]5(CCC(=O)C([C@@H]5CC[C@@]4([C@]3(CC2)C)C)(C)C)C)O",
+  "ConnectivitySMILES": "CC(CC(C1C(O1)(C)C)OC(=O)C)C2=C3CC(C4C5(CCC(=O)C(C5CCC4(C3(CC2)C)C)(C)C)C)O",
+  "IUPACName": "[(1S,3R)-1-[(2R)-3,3-dimethyloxiran-2-yl]-3-[(5R,8S,9S,10S,11S,14R)-11-hydroxy-4,4,8,10,14-pentamethyl-3-oxo-1,2,5,6,7,9,11,12,15,16-decahydrocyclopenta[a]phenanthren-17-yl]butyl] acetate"
+ },
+ "16-oxo-alisol A": {
+  "CID": 9983614,
+  "MolecularFormula": "C30H48O6",
+  "MolecularWeight": "504.7",
+  "SMILES": "C[C@H](C[C@@H]([C@H](C(C)(C)O)O)O)C1=C2C[C@@H]([C@H]3[C@]4(CCC(=O)C([C@@H]4CC[C@@]3([C@]2(CC1=O)C)C)(C)C)C)O",
+  "ConnectivitySMILES": "CC(CC(C(C(C)(C)O)O)O)C1=C2CC(C3C4(CCC(=O)C(C4CCC3(C2(CC1=O)C)C)(C)C)C)O",
+  "IUPACName": "(5R,8S,9S,10S,11S,14R)-11-hydroxy-4,4,8,10,14-pentamethyl-17-[(2R,4S,5R)-4,5,6-trihydroxy-6-methylheptan-2-yl]-2,5,6,7,9,11,12,15-octahydro-1H-cyclopenta[a]phenanthrene-3,16-dione"
+ },
+ "alismol": {
+  "CID": 137357,
+  "MolecularFormula": "C15H24O",
+  "MolecularWeight": "220.35",
+  "SMILES": "CC(C)C1=C[C@H]2[C@H](CC[C@@]2(C)O)C(=C)CC1",
+  "ConnectivitySMILES": "CC(C)C1=CC2C(CCC2(C)O)C(=C)CC1",
+  "IUPACName": "(1R,3aS,8aS)-1-methyl-4-methylidene-7-propan-2-yl-2,3,3a,5,6,8a-hexahydroazulen-1-ol"
+ },
+ "alismoxide": {
+  "CID": 10988340,
+  "MolecularFormula": "C15H26O2",
+  "MolecularWeight": "238.37",
+  "SMILES": "CC(C)C1=C[C@H]2[C@@H](CC[C@]2(C)O)[C@](CC1)(C)O",
+  "ConnectivitySMILES": "CC(C)C1=CC2C(CCC2(C)O)C(CC1)(C)O",
+  "IUPACName": "(1S,3aR,4R,8aS)-1,4-dimethyl-7-propan-2-yl-2,3,3a,5,6,8a-hexahydroazulene-1,4-diol"
+ },
+ "obtusifolin": {
+  "CID": 3083575,
+  "MolecularFormula": "C16H12O5",
+  "MolecularWeight": "284.26",
+  "SMILES": "CC1=CC2=C(C(=C1O)OC)C(=O)C3=C(C2=O)C=CC=C3O",
+  "ConnectivitySMILES": "CC1=CC2=C(C(=C1O)OC)C(=O)C3=C(C2=O)C=CC=C3O",
+  "IUPACName": "2,8-dihydroxy-1-methoxy-3-methylanthracene-9,10-dione"
+ },
+ "obtusin": {
+  "CID": 155380,
+  "MolecularFormula": "C18H16O7",
+  "MolecularWeight": "344.3",
+  "SMILES": "CC1=CC2=C(C(=C1O)OC)C(=O)C3=C(C(=C(C=C3C2=O)OC)OC)O",
+  "ConnectivitySMILES": "CC1=CC2=C(C(=C1O)OC)C(=O)C3=C(C(=C(C=C3C2=O)OC)OC)O",
+  "IUPACName": "1,7-dihydroxy-2,3,8-trimethoxy-6-methylanthracene-9,10-dione"
+ },
+ "aurantio-obtusin": {
+  "CID": 155011,
+  "MolecularFormula": "C17H14O7",
+  "MolecularWeight": "330.29",
+  "SMILES": "CC1=CC2=C(C(=C1O)OC)C(=O)C3=C(C(=C(C=C3C2=O)O)OC)O",
+  "ConnectivitySMILES": "CC1=CC2=C(C(=C1O)OC)C(=O)C3=C(C(=C(C=C3C2=O)O)OC)O",
+  "IUPACName": "1,3,7-trihydroxy-2,8-dimethoxy-6-methylanthracene-9,10-dione"
+ },
+ "chryso-obtusin": {
+  "CID": 155381,
+  "MolecularFormula": "C19H18O7",
+  "MolecularWeight": "358.3",
+  "SMILES": "CC1=CC2=C(C(=C1O)OC)C(=O)C3=C(C(=C(C=C3C2=O)OC)OC)OC",
+  "ConnectivitySMILES": "CC1=CC2=C(C(=C1O)OC)C(=O)C3=C(C(=C(C=C3C2=O)OC)OC)OC",
+  "IUPACName": "2-hydroxy-1,6,7,8-tetramethoxy-3-methylanthracene-9,10-dione"
+ },
+ "rubrofusarin": {
+  "CID": 72537,
+  "MolecularFormula": "C15H12O5",
+  "MolecularWeight": "272.25",
+  "SMILES": "CC1=CC(=O)C2=C(C3=C(C=C(C=C3C=C2O1)OC)O)O",
+  "ConnectivitySMILES": "CC1=CC(=O)C2=C(C3=C(C=C(C=C3C=C2O1)OC)O)O",
+  "IUPACName": "5,6-dihydroxy-8-methoxy-2-methylbenzo[g]chromen-4-one"
+ },
+ "puerarin": {
+  "CID": 5281807,
+  "MolecularFormula": "C21H20O9",
+  "MolecularWeight": "416.4",
+  "SMILES": "C1=CC(=CC=C1C2=COC3=C(C2=O)C=CC(=C3[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O)O",
+  "ConnectivitySMILES": "C1=CC(=CC=C1C2=COC3=C(C2=O)C=CC(=C3C4C(C(C(C(O4)CO)O)O)O)O)O",
+  "IUPACName": "7-hydroxy-3-(4-hydroxyphenyl)-8-[(2S,3R,4R,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]chromen-4-one"
+ },
+ "ononin": {
+  "CID": 442813,
+  "MolecularFormula": "C22H22O9",
+  "MolecularWeight": "430.4",
+  "SMILES": "COC1=CC=C(C=C1)C2=COC3=C(C2=O)C=CC(=C3)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O",
+  "ConnectivitySMILES": "COC1=CC=C(C=C1)C2=COC3=C(C2=O)C=CC(=C3)OC4C(C(C(C(O4)CO)O)O)O",
+  "IUPACName": "3-(4-methoxyphenyl)-7-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one"
+ },
+ "sarmentosin": {
+  "CID": 5281123,
+  "MolecularFormula": "C11H17NO7",
+  "MolecularWeight": "275.25",
+  "SMILES": "C(/C=C(/CO)\\C#N)O[C@H]1[C@@H]([C@H]([C@@H]([C@H](O1)CO)O)O)O",
+  "ConnectivitySMILES": "C(C=C(CO)C#N)OC1C(C(C(C(O1)CO)O)O)O",
+  "IUPACName": "(E)-2-(hydroxymethyl)-4-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxybut-2-enenitrile"
+ },
+ "hypophyllanthin": {
+  "CID": 182140,
+  "MolecularFormula": "C24H30O7",
+  "MolecularWeight": "430.5",
+  "SMILES": "COC[C@@H]1CC2=CC(=C3C(=C2[C@@H]([C@H]1COC)C4=CC(=C(C=C4)OC)OC)OCO3)OC",
+  "ConnectivitySMILES": "COCC1CC2=CC(=C3C(=C2C(C1COC)C4=CC(=C(C=C4)OC)OC)OCO3)OC",
+  "IUPACName": "(7R,8R,9S)-9-(3,4-dimethoxyphenyl)-4-methoxy-7,8-bis(methoxymethyl)-6,7,8,9-tetrahydrobenzo[g][1,3]benzodioxole"
+ },
+ "nirtetralin": {
+  "CID": 182644,
+  "MolecularFormula": "C24H30O7",
+  "MolecularWeight": "430.5",
+  "SMILES": "COC[C@H]1CC2=CC3=C(C(=C2[C@H]([C@@H]1COC)C4=CC(=C(C=C4)OC)OC)OC)OCO3",
+  "ConnectivitySMILES": "COCC1CC2=CC3=C(C(=C2C(C1COC)C4=CC(=C(C=C4)OC)OC)OC)OCO3",
+  "IUPACName": "(5R,6S,7S)-5-(3,4-dimethoxyphenyl)-4-methoxy-6,7-bis(methoxymethyl)-5,6,7,8-tetrahydrobenzo[f][1,3]benzodioxole"
+ },
+ "niranthin": {
+  "CID": 11575632,
+  "MolecularFormula": "C24H32O7",
+  "MolecularWeight": "432.5",
+  "SMILES": "COC[C@@H](CC1=CC(=C(C=C1)OC)OC)[C@H](CC2=CC3=C(C(=C2)OC)OCO3)COC",
+  "ConnectivitySMILES": "COCC(CC1=CC(=C(C=C1)OC)OC)C(CC2=CC3=C(C(=C2)OC)OCO3)COC",
+  "IUPACName": "6-[(2S,3S)-3-[(3,4-dimethoxyphenyl)methyl]-4-methoxy-2-(methoxymethyl)butyl]-4-methoxy-1,3-benzodioxole"
+ },
+ "1-deoxynojirimycin": {
+  "CID": 29435,
+  "MolecularFormula": "C6H13NO4",
+  "MolecularWeight": "163.17",
+  "SMILES": "C1[C@@H]([C@H]([C@@H]([C@H](N1)CO)O)O)O",
+  "ConnectivitySMILES": "C1C(C(C(C(N1)CO)O)O)O",
+  "IUPACName": "(2R,3R,4R,5S)-2-(hydroxymethyl)piperidine-3,4,5-triol"
+ },
+ "oxyresveratrol": {
+  "CID": 5281717,
+  "MolecularFormula": "C14H12O4",
+  "MolecularWeight": "244.24",
+  "SMILES": "C1=CC(=C(C=C1O)O)/C=C/C2=CC(=CC(=C2)O)O",
+  "ConnectivitySMILES": "C1=CC(=C(C=C1O)O)C=CC2=CC(=CC(=C2)O)O",
+  "IUPACName": "4-[(E)-2-(3,5-dihydroxyphenyl)ethenyl]benzene-1,3-diol"
+ },
+ "astragalin": {
+  "CID": 5282102,
+  "MolecularFormula": "C21H20O11",
+  "MolecularWeight": "448.4",
+  "SMILES": "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)O[C@H]4[C@@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O",
+  "ConnectivitySMILES": "C1=CC(=CC=C1C2=C(C(=O)C3=C(C=C(C=C3O2)O)O)OC4C(C(C(C(O4)CO)O)O)O)O",
+  "IUPACName": "5,7-dihydroxy-2-(4-hydroxyphenyl)-3-[(2S,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxychromen-4-one"
+ },
+ "mulberrofuran G": {
+  "CID": 9959532,
+  "MolecularFormula": "C34H26O8",
+  "MolecularWeight": "562.6",
+  "SMILES": "CC1=C[C@@H]2[C@@H]3[C@@H](C1)C4=C(C=C(C=C4)O)O[C@@]3(OC5=CC(=CC(=C25)O)C6=CC7=C(O6)C=C(C=C7)O)C8=C(C=C(C=C8)O)O",
+  "ConnectivitySMILES": "CC1=CC2C3C(C1)C4=C(C=C(C=C4)O)OC3(OC5=CC(=CC(=C25)O)C6=CC7=C(O6)C=C(C=C7)O)C8=C(C=C(C=C8)O)O",
+  "IUPACName": "(1S,9R,13R,21S)-1-(2,4-dihydroxyphenyl)-17-(6-hydroxy-1-benzofuran-2-yl)-11-methyl-2,20-dioxapentacyclo[11.7.1.03,8.09,21.014,19]henicosa-3(8),4,6,11,14,16,18-heptaene-5,15-diol"
+ },
+ "catechin": {
+  "CID": 9064,
+  "MolecularFormula": "C15H14O6",
+  "MolecularWeight": "290.27",
+  "SMILES": "C1[C@@H]([C@H](OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O",
+  "ConnectivitySMILES": "C1C(C(OC2=CC(=CC(=C21)O)O)C3=CC(=C(C=C3)O)O)O",
+  "IUPACName": "(2R,3S)-2-(3,4-dihydroxyphenyl)-3,4-dihydro-2H-chromene-3,5,7-triol"
+ },
+ "torachrysone": {
+  "CID": 5321977,
+  "MolecularFormula": "C14H14O4",
+  "MolecularWeight": "246.26",
+  "SMILES": "CC1=CC2=CC(=CC(=C2C(=C1C(=O)C)O)O)OC",
+  "ConnectivitySMILES": "CC1=CC2=CC(=CC(=C2C(=C1C(=O)C)O)O)OC",
+  "IUPACName": "1-(1,8-dihydroxy-6-methoxy-3-methylnaphthalen-2-yl)ethanone"
+ }
+}

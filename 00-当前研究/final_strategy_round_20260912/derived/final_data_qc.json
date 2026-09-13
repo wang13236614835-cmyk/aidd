@@ -1,0 +1,125 @@
+{
+  "date": "2026-09-12",
+  "status": "PASS_WITH_SCIENTIFIC_GATES_OPEN",
+  "checks": {
+    "master_rows": 1652,
+    "master_unique_activity_id": 1652,
+    "master_unique_molecules": 1139,
+    "master_unique_assays": 51,
+    "master_unique_documents": 34,
+    "relation_counts": {
+      "=": 1652
+    },
+    "units": {
+      "nM": 1637,
+      "ug.mL-1": 15
+    },
+    "invalid_smiles": 0,
+    "multiple_fragments": 2,
+    "missing_required_fields": {
+      "molecule_id": 0,
+      "canonical_smiles": 0,
+      "inchikey": 0,
+      "activity_id": 0,
+      "assay_id": 0,
+      "document_id": 0,
+      "target_id": 0,
+      "species": 0,
+      "activity_type": 0,
+      "relation": 0,
+      "value": 0,
+      "unit": 0,
+      "standardized_nM": 0,
+      "pActivity": 0
+    },
+    "pactivity_conversion_max_abs_error": 1.7763568394002505e-15,
+    "nonpositive_standardized_nM": 0,
+    "conversion_methods": {
+      "direct_nM": 1637,
+      "derived_from_ug_per_mL_and_RDKit_MW": 15
+    },
+    "baseline_primary_scope": {
+      "name": "canonical_single_assay",
+      "assay": "CHEMBL5731051",
+      "molecules": 96,
+      "scaffolds": 39,
+      "note": "mirror SPA assay CHEMBL5734379 excluded as external validation; legacy spa_family run retained in FASN_baseline_summary.json as exploratory"
+    },
+    "baseline_metrics_count": 39,
+    "baseline_time_metrics": [
+      {
+        "n": 75,
+        "mae": 0.8290635924191051,
+        "rmse": 0.9829612669637455,
+        "r2": -0.23066695665349446,
+        "spearman": null,
+        "roc_auc_at_pActivity_6": 0.5,
+        "pr_auc_at_pActivity_6": 0.8266666666666667,
+        "model": "mean",
+        "scope": "full_length_stated",
+        "split": "time",
+        "cutoff_year": 2017,
+        "train_n": 133,
+        "test_n": 75,
+        "train_years": [
+          2017
+        ],
+        "test_years": [
+          2018,
+          2019
+        ],
+        "note": "sensitivity only; assay-family heterogeneity and small late cohort"
+      },
+      {
+        "n": 75,
+        "mae": 0.7494087874653947,
+        "rmse": 0.9128694033619458,
+        "r2": -0.06141453862782753,
+        "spearman": 0.22608800890463487,
+        "roc_auc_at_pActivity_6": 0.7009925558312655,
+        "pr_auc_at_pActivity_6": 0.927295098698561,
+        "model": "ecfp_rf",
+        "scope": "full_length_stated",
+        "split": "time",
+        "cutoff_year": 2017,
+        "train_n": 133,
+        "test_n": 75,
+        "train_years": [
+          2017
+        ],
+        "test_years": [
+          2018,
+          2019
+        ],
+        "note": "sensitivity only; assay-family heterogeneity and small late cohort"
+      },
+      {
+        "n": 75,
+        "mae": 0.851756973311627,
+        "rmse": 1.0569719534167366,
+        "r2": -0.4229664379292313,
+        "spearman": 0.2507629384474153,
+        "roc_auc_at_pActivity_6": 0.6339950372208436,
+        "pr_auc_at_pActivity_6": 0.9105453558625265,
+        "model": "ecfp_xgb",
+        "scope": "full_length_stated",
+        "split": "time",
+        "cutoff_year": 2017,
+        "train_n": 133,
+        "test_n": 75,
+        "train_years": [
+          2017
+        ],
+        "test_years": [
+          2018,
+          2019
+        ],
+        "note": "sensitivity only; assay-family heterogeneity and small late cohort"
+      }
+    ],
+    "canonical_multiseed_summary": "derived/FASN_canonical_multiseed_summary.json",
+    "conformal_uq_summary": "derived/FASN_conformal_uq_summary.json",
+    "all_activity_quality_audit": "derived/FASN_all_activity_quality_audit.json",
+    "architecture": "dual_axis: FASN long-term AIDD + Moracin N near-term functional validation"
+  }
+}

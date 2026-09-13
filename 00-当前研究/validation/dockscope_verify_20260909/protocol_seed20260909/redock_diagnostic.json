@@ -1,0 +1,110 @@
+{
+  "THRB": {
+    "CCD_formula": "C18H18Br2O4",
+    "rmsd_no_alignment": 0.7278540776610566,
+    "pose_threshold_pass": true,
+    "seed": 20260909,
+    "independent_start": true,
+    "box": {
+      "center": [
+        4.25,
+        20.95,
+        32.03
+      ],
+      "size": [
+        31.6,
+        29.8,
+        25.0
+      ]
+    },
+    "command": [
+      "D:\\dockscope\\DockScopeLicensed\\resources\\tools\\vina.exe",
+      "--receptor",
+      "D:\\zcode-workspace\\aidd-repo-work\\03-课题-MASH研究-v2\\docking\\receptors\\THRB_2J4A.pdbqt",
+      "--ligand",
+      "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\validation\\dockscope_verify_20260909\\protocol_seed20260909\\THRB_initial.pdbqt",
+      "--out",
+      "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\validation\\dockscope_verify_20260909\\protocol_seed20260909\\THRB_pose.pdbqt",
+      "--center_x",
+      "4.25",
+      "--center_y",
+      "20.95",
+      "--center_z",
+      "32.03",
+      "--size_x",
+      "31.6",
+      "--size_y",
+      "29.8",
+      "--size_z",
+      "25.0",
+      "--seed",
+      "20260909",
+      "--exhaustiveness",
+      "16",
+      "--num_modes",
+      "9",
+      "--cpu",
+      "4"
+    ],
+    "receptor_sha256": "c9a69f39abb9a8363c10a97d9c3e6001f0b338f8cd21198fcd9d4d2289a86e04",
+    "raw_PDB_sha256": "3927d873fe47522ad8c102a03ed06778c2771f8fd9944eada01c7293dbc79d07",
+    "vina_sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5",
+    "pose_sha256": "a69e2b5e258c85158c2b84eb1c5d3d61092c12e1dc45bac3a1c0f30137df4fdc",
+    "scientific_gate": "pending_receptor_review_and_multiseed",
+    "limitation": "Archived receptor reused; no receptor protonation/chain review; single seed does not validate target function or MASH efficacy."
+  },
+  "FASN": {
+    "CCD_formula": "C20H21FN2O2S2",
+    "rmsd_no_alignment": 1.6287151757581848,
+    "pose_threshold_pass": true,
+    "seed": 20260909,
+    "independent_start": true,
+    "box": {
+      "center": [
+        1.43,
+        61.22,
+        170.07
+      ],
+      "size": [
+        23.0,
+        26.8,
+        26.9
+      ]
+    },
+    "command": [
+      "D:\\dockscope\\DockScopeLicensed\\resources\\tools\\vina.exe",
+      "--receptor",
+      "D:\\zcode-workspace\\aidd-repo-work\\03-课题-MASH研究-v2\\docking\\receptors\\FASN_7MHD.pdbqt",
+      "--ligand",
+      "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\validation\\dockscope_verify_20260909\\protocol_seed20260909\\FASN_initial.pdbqt",
+      "--out",
+      "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\validation\\dockscope_verify_20260909\\protocol_seed20260909\\FASN_pose.pdbqt",
+      "--center_x",
+      "1.43",
+      "--center_y",
+      "61.22",
+      "--center_z",
+      "170.07",
+      "--size_x",
+      "23.0",
+      "--size_y",
+      "26.8",
+      "--size_z",
+      "26.9",
+      "--seed",
+      "20260909",
+      "--exhaustiveness",
+      "32",
+      "--num_modes",
+      "9",
+      "--cpu",
+      "4"
+    ],
+    "receptor_sha256": "0a926334af2eae1ba6b551cdc8da2db2be95659e535b5a35b0501dbbe8f2e701",
+    "raw_PDB_sha256": "e9ae749587bd6f168d2aaf782ad24d879aae8a7b40c8f54722ffdbb28f98d1f6",
+    "vina_sha256": "e0c4b2715e0c1a74f6e92d0f3be0328ac97542eafbc111e6b1efad897a73cce5",
+    "pose_sha256": "1394e08e1e38d6acea1dce9fb79b4c386643bafbc1fff25ea7b159a63bc64b48",
+    "scientific_gate": "pending_receptor_review_and_multiseed",
+    "limitation": "Archived receptor reused; no receptor protonation/chain review; single seed does not validate target function or MASH efficacy."
+  }
+}

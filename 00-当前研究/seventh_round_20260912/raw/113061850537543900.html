@@ -1,0 +1,734 @@
+<!DOCTYPE HTML>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<!-- begin spin_special_output(head_start) -->
+<script type="text/javascript" wd_script_id="view_printable_script" nonce="ZWYzYzJlYWExYmMwN2Y1OTllNTkyYWE4OGIxMmQ2OThhYThiMGQ5ZA==">
+	function view_printable() {
+		var loc = window.location;
+		var sep = (loc.search == "") ? "?" : "&";
+		var url = loc.protocol+"//"+loc.host+loc.pathname+loc.search+sep+"printable"+loc.hash;
+		window.open(url, "_blank", "");
+	}
+</script>
+<link href="thirdparty/font-awesome/css/font-awesome.min.css" type="text/css" rel="stylesheet" wd_script_id="font-awesome.min.css">
+<style type="text/css" wd_script_id="toolbar_style" nonce="ZWYzYzJlYWExYmMwN2Y1OTllNTkyYWE4OGIxMmQ2OThhYThiMGQ5ZA==">
+			div.wd_toolbar {
+				border-top: 1px solid #cccccc;
+				border-bottom: 1px solid #cccccc;
+				margin: 15px 0px 15px 0px;
+				padding: 5px;
+				line-height: 1;
+			}
+			div.wd_toolbar-page {
+				clear: both;
+			}
+			div.wd_toolbar ul.wd_tools {
+				display: inline-block;
+				width: 100%;
+				margin: 0;
+				padding: 5px 0;
+			}
+			div.wd_toolbar ul.wd_tools li.wd_tool {
+				display: block;
+				list-style-type: none;
+				margin-right: 5px;
+				padding: 0;
+				float: right;
+			}
+			span.wd_tool_icon > a:link,
+			span.wd_tool_icon > a:visited {
+				border-radius: 2px;
+				display: inline-block;
+				width: 30px;
+				height: 30px;
+				box-sizing: border-box;
+				margin: 0;
+				padding: 7px;
+				font-size: 16px;
+				line-height: 1;
+				text-align: center;
+				color: #ffffff;
+				background-color: #767676;
+			} 
+			span.wd_tool_icon > a:hover {
+				color: #ffffff;
+				background-color: #666666;
+				text-decoration: none;
+			}
+			div.wd_toolbar ul.wd_tools li.wd_tool-addthis {
+				float: left;
+			}
+		</style>
+<script type="text/javascript" src="js/jquery-webdriver.js" wd_script_id="jquery-webdriver.js" nonce="ZWYzYzJlYWExYmMwN2Y1OTllNTkyYWE4OGIxMmQ2OThhYThiMGQ5ZA=="></script>
+<script type="text/javascript" src="js/webdriver.js" wd_script_id="webdriver.js" nonce="ZWYzYzJlYWExYmMwN2Y1OTllNTkyYWE4OGIxMmQ2OThhYThiMGQ5ZA=="></script>
+<script type="text/javascript" src="js/wd_resize.js" wd_script_id="wd_resize.js" nonce="ZWYzYzJlYWExYmMwN2Y1OTllNTkyYWE4OGIxMmQ2OThhYThiMGQ5ZA=="></script>
+<script type="text/javascript" wd_script_id="format_news_script" nonce="ZWYzYzJlYWExYmMwN2Y1OTllNTkyYWE4OGIxMmQ2OThhYThiMGQ5ZA==">
+(function($) {
+	webDriver.formatNews = function() {
+		var $news = $(this);
+		var print_url = $news.attr("wd_print_url");
+		$news.find("table").each(function() {
+			var $table = $(this);
+			var $parent = $table.parent();
+			if ($parent.innerWidth() < $table.outerWidth()) {
+				if ($parent.hasClass("wd_news_table")) {
+					$parent.find(".fullscreen-button").show();
+				} else {
+					var $btn = $("<button>View News Release Full Screen</button>")
+						.addClass("fullscreen-button")
+						.on("click", function() {
+							if (print_url)
+								window.open(print_url, "_blank", "");
+							else
+								view_printable();
+						})
+					;
+
+					var $div = $("<div></div>)")
+						.addClass("wd_news_table")
+						.css("overflow-x", "auto")
+						.append($btn)
+					;
+
+					$table.replaceWith($div);
+					$div.append($table);
+				}
+			} else {
+				if ($parent.hasClass("wd_news_table"))
+					$parent.find(".fullscreen-button").hide();
+			}
+		});
+	}
+})(webDriver.jQuery);
+</script>
+<style type="text/css" wd_script_id="template detail:newsfeed_releases:system style" nonce="ZWYzYzJlYWExYmMwN2Y1OTllNTkyYWE4OGIxMmQ2OThhYThiMGQ5ZA==">
+.wd_title {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.wd_subtitle {
+	font-weight: bold;
+}
+table.wd_extimagetable {
+	border-style: none; 
+	border-spacing:0px;
+	clear: right; 
+	float: right; 
+}
+td.wd_extimagecell {
+	text-align: right; 
+	margin: 0px 0px 5px 5px;
+	padding:0px;
+}
+td.wd_extimagecell img {
+	padding-left:10px;
+	padding-bottom:10px;
+	border-style: none; 
+}
+blockquote.wd_pullquote {
+	font-style: italic;
+	width:200px;
+	margin:0 0 20px 20px;
+	line-height: 1.8em;
+	float: right;
+	clear: right;
+}
+blockquote.wd_pullquote:before {
+	content: "“ ";
+	font-size: xx-large;
+}
+blockquote.wd_pullquote:after {
+	content: " ”";
+	font-size: xx-large;
+	float: right;
+}
+.fullscreen-button {
+	border: 1px solid #d1d1d1;
+	background: #e3e3e3 url(images/webdriver/view_full_screen_button_background.png) no-repeat;
+	padding: 3px 3px 3px 30px;
+	margin: 5px 0px 5px 0px;
+	color: #727272;
+	width: 220px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.wd_contact {
+	margin: 1em 0;
+}
+.wd_release_data {
+	margin: 1em 0;
+}
+.wd_caption {
+	text-align: center;
+	font-size: 0.72em;
+	font-style: italic;
+	margin: 1em 0 0 0;
+}
+</style>
+
+<!-- end spin_special_output(head_start) -->
+
+    <title>Viking Therapeutics Presents Results from Phase 2b VOYAGE Study of VK2809 in Biopsy-Confirmed NASH/MASH at the 75th Liver Meeting® 2024 - Nov 19, 2024</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	
+ <meta name="keywords" content="" />
+ <meta name="description" content="" />
+ <meta name="twitter:card" content="summary" />
+ <meta name="twitter:title" content="Viking Therapeutics Presents Results from Phase 2b VOYAGE Study of VK2809 in Biopsy-Confirmed NASH/MASH at the 75th Liver Meeting® 2024" />
+ <meta name="twitter:description" content="Oral Late Breaker Presentation Summarizes Positive Results Including Successful Achievement of Study's Primary and Secondary Endpoints Data Support VK2809's Best-in-Class Profile Highlighted by..." />
+ <meta name="twitter:image" content="https://mma.prnewswire.com/media/273590/viking_9_15_logo.jpg?p=twitter" />
+ <meta property="og:site_name" content="Viking Therapeutics InvestorRoom" />
+ <meta property="og:url" content="https://ir.vikingtherapeutics.com/2024-11-19-Viking-Therapeutics-Presents-Results-from-Phase-2b-VOYAGE-Study-of-VK2809-in-Biopsy-Confirmed-NASH-MASH-at-the-75th-Liver-Meeting-R-2024" />
+ <meta property="og:title" content="Viking Therapeutics Presents Results from Phase 2b VOYAGE Study of VK2809 in Biopsy-Confirmed NASH/MASH at the 75th Liver Meeting® 2024" />
+ <meta property="og:description" content="Oral Late Breaker Presentation Summarizes Positive Results Including Successful Achievement of Study's Primary and Secondary Endpoints Data Support VK2809's Best-in-Class Profile Highlighted by..." />
+ <meta name="image" property="og:image" content="https://mma.prnewswire.com/media/273590/viking_9_15_logo.jpg?p=facebook" />
+	
+	
+    <!--[if lt IE 9]>
+	<script src="js/html5.js"></script>
+	<![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/wdcontent.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <link rel="alternate" href="https://ir.vikingtherapeutics.com/press-releases?pagetemplate=rss" type="application/rss+xml" title="Viking Therapeutics - Press Releases">		  
+
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id='wp-block-library-inline-css' type='text/css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style><style id='wp-block-button-inline-css' type='text/css'>
+.wp-block-button__link{align-content:center;box-sizing:border-box;cursor:pointer;display:inline-block;height:100%;text-align:center;word-break:break-word}.wp-block-button__link.aligncenter{text-align:center}.wp-block-button__link.alignright{text-align:right}:where(.wp-block-button__link){border-radius:9999px;box-shadow:none;padding:calc(.667em + 2px) calc(1.333em + 2px);text-decoration:none}.wp-block-button[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons>.wp-block-button.has-custom-width{max-width:none}.wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{width:100%}.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons>.wp-block-button.wp-block-button__width-25{width:calc(25% - var(--wp--style--block-gap, .5em)*.75)}.wp-block-buttons>.wp-block-button.wp-block-button__width-50{width:calc(50% - var(--wp--style--block-gap, .5em)*.5)}.wp-block-buttons>.wp-block-button.wp-block-button__width-75{width:calc(75% - var(--wp--style--block-gap, .5em)*.25)}.wp-block-buttons>.wp-block-button.wp-block-button__width-100{flex-basis:100%;width:100%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-25{width:25%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-50{width:50%}.wp-block-buttons.is-vertical>.wp-block-button.wp-block-button__width-75{width:75%}.wp-block-button.is-style-squared,.wp-block-button__link.wp-block-button.is-style-squared{border-radius:0}.wp-block-button.no-border-radius,.wp-block-button__link.no-border-radius{border-radius:0!important}:root :where(.wp-block-button .wp-block-button__link.is-style-outline),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link){border:2px solid;padding:.667em 1.333em}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-text-color)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-text-color)){color:currentColor}:root :where(.wp-block-button .wp-block-button__link.is-style-outline:not(.has-background)),:root :where(.wp-block-button.is-style-outline>.wp-block-button__link:not(.has-background)){background-color:initial;background-image:none}
+/*# sourceURL=https://vikingtherapeutics.com/wp-includes/blocks/button/style.min.css */
+</style>
+<style id='wp-block-heading-inline-css' type='text/css'>
+h1:where(.wp-block-heading).has-background,h2:where(.wp-block-heading).has-background,h3:where(.wp-block-heading).has-background,h4:where(.wp-block-heading).has-background,h5:where(.wp-block-heading).has-background,h6:where(.wp-block-heading).has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+/*# sourceURL=https://vikingtherapeutics.com/wp-includes/blocks/heading/style.min.css */
+</style>
+<style id='wp-block-image-inline-css' type='text/css'>
+.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull>a,.wp-block-image.alignwide>a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;backdrop-filter:blur(16px) saturate(180%);background-color:#5a5a5a40;border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:#5a5a5a40;border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .close-button{align-items:center;cursor:pointer;display:flex;justify-content:center;min-height:40px;min-width:40px;padding:0;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .close-button:focus,.wp-lightbox-overlay .close-button:hover,.wp-lightbox-overlay .close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:9999999999}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+/*# sourceURL=https://vikingtherapeutics.com/wp-includes/blocks/image/style.min.css */
+</style>
+<style id='wp-block-buttons-inline-css' type='text/css'>
+.wp-block-buttons{box-sizing:border-box}.wp-block-buttons.is-vertical{flex-direction:column}.wp-block-buttons.is-vertical>.wp-block-button:last-child{margin-bottom:0}.wp-block-buttons>.wp-block-button{display:inline-block;margin:0}.wp-block-buttons.is-content-justification-left{justify-content:flex-start}.wp-block-buttons.is-content-justification-left.is-vertical{align-items:flex-start}.wp-block-buttons.is-content-justification-center{justify-content:center}.wp-block-buttons.is-content-justification-center.is-vertical{align-items:center}.wp-block-buttons.is-content-justification-right{justify-content:flex-end}.wp-block-buttons.is-content-justification-right.is-vertical{align-items:flex-end}.wp-block-buttons.is-content-justification-space-between{justify-content:space-between}.wp-block-buttons.aligncenter{text-align:center}.wp-block-buttons:not(.is-content-justification-space-between,.is-content-justification-right,.is-content-justification-left,.is-content-justification-center) .wp-block-button.aligncenter{margin-left:auto;margin-right:auto;width:100%}.wp-block-buttons[style*=text-decoration] .wp-block-button,.wp-block-buttons[style*=text-decoration] .wp-block-button__link{text-decoration:inherit}.wp-block-buttons.has-custom-font-size .wp-block-button__link{font-size:inherit}.wp-block-buttons .wp-block-button__link{width:100%}.wp-block-button.aligncenter{text-align:center}
+/*# sourceURL=https://vikingtherapeutics.com/wp-includes/blocks/buttons/style.min.css */
+</style>
+<style id='wp-block-columns-inline-css' type='text/css'>
+.wp-block-columns{box-sizing:border-box;display:flex;flex-wrap:wrap!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns{align-items:normal!important}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns){margin-bottom:1.75em}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;overflow-wrap:break-word;word-break:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-stretch{align-self:stretch}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}
+/*# sourceURL=https://vikingtherapeutics.com/wp-includes/blocks/columns/style.min.css */
+</style>
+<style id='wp-block-paragraph-inline-css' type='text/css'>
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+/*# sourceURL=https://vikingtherapeutics.com/wp-includes/blocks/paragraph/style.min.css */
+</style>
+<style id='wp-block-spacer-inline-css' type='text/css'>
+.wp-block-spacer{clear:both}
+/*# sourceURL=https://vikingtherapeutics.com/wp-includes/blocks/spacer/style.min.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<style id='core-block-supports-inline-css' type='text/css'>
+.wp-container-core-columns-is-layout-9d6595d7{flex-wrap:nowrap;}
+/*# sourceURL=core-block-supports-inline-css */
+</style>
+
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<link rel='stylesheet' id='hamburger.css-css' href='css/wpr-hamburger.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wprmenu.css-css' href='css/wprmenu.css' type='text/css' media='all' />
+<style id='wprmenu.css-inline-css' type='text/css'>
+@media only screen and ( max-width: 900px ) {html body div.wprm-wrapper {overflow: scroll;}#wprmenu_bar {background-image: url();background-size: cover ;background-repeat: repeat;}#wprmenu_bar {background-color: #ffffff;}html body div#mg-wprm-wrap .wpr_submit .icon.icon-search {color: #ffffff;}#wprmenu_bar .menu_title,#wprmenu_bar .wprmenu_icon_menu,#wprmenu_bar .menu_title a {color: #000000;}#wprmenu_bar .menu_title a {font-size: 20px;font-weight: normal;}#mg-wprm-wrap li.menu-item a {font-size: 15px;text-transform: none;font-weight: normal;}#mg-wprm-wrap li.menu-item-has-children ul.sub-menu a {font-size: 15px;text-transform: none;font-weight: normal;}#mg-wprm-wrap li.current-menu-item > a {background: #ffffff;}#mg-wprm-wrap li.current-menu-item > a,#mg-wprm-wrap li.current-menu-item span.wprmenu_icon{color: #000000 !important;}#mg-wprm-wrap {background-color: #ffffff;}.cbp-spmenu-push-toright,.cbp-spmenu-push-toright .mm-slideout {left: 80% ;}.cbp-spmenu-push-toleft {left: -80% ;}#mg-wprm-wrap.cbp-spmenu-right,#mg-wprm-wrap.cbp-spmenu-left,#mg-wprm-wrap.cbp-spmenu-right.custom,#mg-wprm-wrap.cbp-spmenu-left.custom,.cbp-spmenu-vertical {width: 80%;max-width: 400px;}#mg-wprm-wrap ul#wprmenu_menu_ul li.menu-item a,div#mg-wprm-wrap ul li span.wprmenu_icon {color: #000000;}#mg-wprm-wrap ul#wprmenu_menu_ul li.menu-item:valid ~ a{color: #000000;}#mg-wprm-wrap ul#wprmenu_menu_ul li.menu-item a:hover {background: #ffffff;color: #000000 !important;}div#mg-wprm-wrap ul>li:hover>span.wprmenu_icon {color: #000000 !important;}.wprmenu_bar .hamburger-inner,.wprmenu_bar .hamburger-inner::before,.wprmenu_bar .hamburger-inner::after {background: #ffffff;}.wprmenu_bar .hamburger:hover .hamburger-inner,.wprmenu_bar .hamburger:hover .hamburger-inner::before,.wprmenu_bar .hamburger:hover .hamburger-inner::after {background: #ffffff;}#wprmenu_menu.left {width:80%;left: -80%;right: auto;}#wprmenu_menu.right {width:80%;right: -80%;left: auto;}.wprmenu_bar .hamburger {float: right;}.wprmenu_bar #custom_menu_icon.hamburger {top: px;right: 0px;float: right;background-color: #cccccc;}html body div#wprmenu_bar {padding-top: 13.5px;padding-bottom: 13.5px;}.wprmenu_bar div.wpr_search form {top: 43.5px;}html body div#wprmenu_bar {height : 54px;}#mg-wprm-wrap.cbp-spmenu-left,#mg-wprm-wrap.cbp-spmenu-right,#mg-widgetmenu-wrap.cbp-spmenu-widget-left,#mg-widgetmenu-wrap.cbp-spmenu-widget-right {top: 54px !important;}#masthead{ display: none !important; }.wpr_custom_menu #custom_menu_icon {display: block;}html { padding-top: 42px !important; }#wprmenu_bar,#mg-wprm-wrap { display: block; }div#wpadminbar { position: fixed; }}
+/*# sourceURL=wprmenu.css-inline-css */
+</style>
+<link rel='stylesheet' id='wpr_icons-css' href='css/wpr-icons.css' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css' href='css/genericons.css' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfourteen-style-css' href='css/style.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css' href='css/all.css' type='text/css' media='all' />
+<link rel='stylesheet' id='wpb-adobe-fonts-css' href='https://use.typekit.net/mcm0pyf.css?ver=6.9' type='text/css' media='all' />
+<script type="text/javascript" src="js/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="js/modernizr.custom.js" id="modernizr-js"></script>
+<script type="text/javascript" src="js/touchSwipe.js" id="touchSwipe-js"></script>
+<script type="text/javascript" id="wprmenu.js-js-extra">
+/* <![CDATA[ */
+var wprmenu = {"zooming":"","from_width":"900","push_width":"400","menu_width":"80","parent_click":"","swipe":"","enable_overlay":"","wprmenuDemoId":""};
+//# sourceURL=wprmenu.js-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="js/wprmenu.js" id="wprmenu.js-js"></script>
+
+<!-- begin spin_special_output(head_end) -->
+<link rel="canonical" href="https://ir.vikingtherapeutics.com/2024-11-19-Viking-Therapeutics-Presents-Results-from-Phase-2b-VOYAGE-Study-of-VK2809-in-Biopsy-Confirmed-NASH-MASH-at-the-75th-Liver-Meeting-R-2024" />
+<!-- end spin_special_output(head_end) -->
+</head>
+
+<body class="wp-singular page-template-default page page-id-22 wp-theme-viking full-width singular wd_pageid_43 wd_item_page wd_item_242">
+<div id="page">
+	<header id="masthead" class="site-header" role="banner">
+		<div class="safezoneA">
+			<div class="header-main">
+				<div class="logo-cont">
+					<a href="https://vikingtherapeutics.com/" rel="home"><img id="home-logo" src="images/viking-logo.png" alt="Viking Therapeutics logo" /></a>
+				</div>
+				<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+					<div class="menu-main-nav-container"><ul id="menu-main-nav" class="nav-menu"><li id="menu-item-27" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-27"><a href="https://vikingtherapeutics.com/about/overview/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://vikingtherapeutics.com/about/management/">Management</a></li>
+	<li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="https://vikingtherapeutics.com/about/board-of-directors/">Board of Directors</a></li>
+	<li id="menu-item-25" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://recruiting.paylocity.com/recruiting/jobs/All/a5482aa1-9082-41fd-9437-e958794a4393/VIKING-THERAPEUTICS-INC/" target="_blank">Careers</a></li>
+</ul>
+</li>
+<li id="menu-item-39" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-39"><a href="https://vikingtherapeutics.com/pipeline/overview/">Pipeline</a>
+<ul class="sub-menu">
+	<li id="menu-item-38" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="https://vikingtherapeutics.com/pipeline/overview/">Overview</a></li>
+	<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="https://vikingtherapeutics.com/pipeline/vk2735/">VK2735</a></li>
+	<li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a href="https://vikingtherapeutics.com/pipeline/amylin/">VK3019</a></li>
+	<li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://vikingtherapeutics.com/pipeline/vk2809/">VK2809</a></li>
+	<li id="menu-item-30" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="https://vikingtherapeutics.com/pipeline/vk0214/">VK0214</a></li>
+	<li id="menu-item-35" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="https://vikingtherapeutics.com/pipeline/vk5211/">VK5211</a></li>
+	<li id="menu-item-213" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-213"><a href="https://vikingtherapeutics.com/pipeline/publications/">Publications</a></li>
+</ul>
+</li>
+<li id="menu-item-41" class="ir-menu-item menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-22 current_page_item menu-item-has-children menu-item-41"><a href="https://ir.vikingtherapeutics.com/" aria-current="page">Investors</a>
+	<ul class="sub-menu">
+<li id="menu-item-45" class="menu-item menu-item-type-custom menu-item-45"><a href="https://ir.vikingtherapeutics.com/overview" target="_self">Overview</a></li>
+<li id="menu-item-143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-143"><a href="https://ir.vikingtherapeutics.com/stock-information" target="_self">Stock Information</a>
+<ul class="sub-menu">
+<li><a href="https://ir.vikingtherapeutics.com/stock-chart" target="_self">Stock Chart</a></li>
+<li><a href="https://ir.vikingtherapeutics.com/historical-price-lookup" target="_self">Historical Price Lookup</a></li>
+</ul>
+</li>
+<li id="menu-item-68" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-68"><a class="active" href="press-releases" target="_self">News & Events</a>
+<ul class="sub-menu">
+ 
+<li><a class="on" href="https://ir.vikingtherapeutics.com/press-releases" target="_self">Press Releases</a></li>
+<li><a href="https://ir.vikingtherapeutics.com/webcasts" target="_self">Webcasts</a></li>
+</ul>
+</li>
+<li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-127"><a href="https://ir.vikingtherapeutics.com/sec-filings" target="_self">SEC Filings</a></li>
+<li id="menu-item-119" class="menu-item menu-item-type-custom menu-item-119"><a href="https://ir.vikingtherapeutics.com/analyst-coverage" target="_self">Analyst Coverage</a></li>
+<li id="menu-item-64" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-64"><a href="governance-highlights" target="_self">Corporate Governance</a>
+<ul class="sub-menu">
+<li><a href="https://ir.vikingtherapeutics.com/governance-highlights" target="_self">Governance Highlights</a></li>
+<li><a href="http://www.vikingtherapeutics.com/about/management/" target="_self">Management</a></li>
+<li><a href="http://www.vikingtherapeutics.com/about/board-of-directors/" target="_self">Board of Directors</a></li>
+<li><a href="https://ir.vikingtherapeutics.com/committee-composition" target="_self">Committee Composition</a></li>
+</ul>
+</li>
+<li id="menu-item-65" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-65"><a href="information-request" target="_self">Shareholder Services</a>
+<ul class="sub-menu">
+<li><a href="https://ir.vikingtherapeutics.com/information-request" target="_self">Information Request</a></li>
+<li><a href="https://ir.vikingtherapeutics.com/email-alerts" target="_self">E-mail Alerts</a></li>
+<li><a href="https://ir.vikingtherapeutics.com/ir-contacts" target="_self">Investor Relations Contacts </a></li>
+</ul>
+</li>
+<li id="menu-item-67" class="menu-item menu-item-type-custom menu-item-67"><a href="https://ir.vikingtherapeutics.com/corporatepresentation" target="_self">Corporate Presentation </a></li>
+</ul>
+</li>
+<li id="menu-item-40" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="https://vikingtherapeutics.com/contact/">Contact</a></li>
+</ul></div>				</nav>
+			</div>
+		</div>
+	</header><!-- #masthead -->
+
+	<div id="main" class="site-main">
+
+<div id="main-content" class="main-content">
+	<div id="featured_cont">
+		<div id='featured_image' ><div class="entry-header safezoneB"><h1 class="entry-title">Investors</h1></div><!-- .entry-header --></div><!-- #featured_image -->	</div><!-- #featured_cont -->
+	<div id="horizontal-nav">
+		<div>
+	<div class="menu-main-nav-container">
+		<ul id="menu-main-nav-1" class="secondary-nav-menu">
+			<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-27"><a href="https://vikingtherapeutics.com/about/overview/">About</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://vikingtherapeutics.com/about/management/">Management</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="https://vikingtherapeutics.com/about/board-of-directors/">Board of Directors</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://recruiting.paylocity.com/recruiting/jobs/All/a5482aa1-9082-41fd-9437-e958794a4393/VIKING-THERAPEUTICS-INC" target="_blank">Careers</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-39"><a href="https://vikingtherapeutics.com/pipeline/overview/">Pipeline</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="https://vikingtherapeutics.com/pipeline/overview/">Overview</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="https://vikingtherapeutics.com/pipeline/vk2735/">VK2735</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a href="https://vikingtherapeutics.com/pipeline/amylin/">VK3019</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://vikingtherapeutics.com/pipeline/vk2809/">VK2809</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="https://vikingtherapeutics.com/pipeline/vk0214/">VK0214</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="https://vikingtherapeutics.com/pipeline/vk5211/">VK5211</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://vikingtherapeutics.com/pipeline/publications/">Publications</a></li>
+</ul>
+</li>
+<li class="ir-menu-item menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-22 current_page_item menu-item-has-children menu-item-41"><a href="https://ir.vikingtherapeutics.com/" aria-current="page">Investors</a>
+<ul class="sub-menu">
+<li id="menu-item-45" class="menu-item menu-item-type-custom menu-item-45"><a href="https://ir.vikingtherapeutics.com/overview" target="_self">Overview</a></li>
+<li id="menu-item-143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-143"><a href="https://ir.vikingtherapeutics.com/stock-information" target="_self">Stock Information</a>
+<ul class="sub-menu">
+<li><a href="https://ir.vikingtherapeutics.com/stock-chart" target="_self">Stock Chart</a></li>
+<li><a href="https://ir.vikingtherapeutics.com/historical-price-lookup" target="_self">Historical Price Lookup</a></li>
+</ul>
+</li>
+<li id="menu-item-68" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-68"><a class="active" href="press-releases" target="_self">News & Events</a>
+<ul class="sub-menu">
+ 
+<li><a class="on" href="https://ir.vikingtherapeutics.com/press-releases" target="_self">Press Releases</a></li>
+<li><a href="https://ir.vikingtherapeutics.com/webcasts" target="_self">Webcasts</a></li>
+</ul>
+</li>
+<li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-127"><a href="https://ir.vikingtherapeutics.com/sec-filings" target="_self">SEC Filings</a></li>
+<li id="menu-item-119" class="menu-item menu-item-type-custom menu-item-119"><a href="https://ir.vikingtherapeutics.com/analyst-coverage" target="_self">Analyst Coverage</a></li>
+<li id="menu-item-64" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-64"><a href="governance-highlights" target="_self">Corporate Governance</a>
+<ul class="sub-menu">
+<li><a href="https://ir.vikingtherapeutics.com/governance-highlights" target="_self">Governance Highlights</a></li>
+<li><a href="http://www.vikingtherapeutics.com/about/management/" target="_self">Management</a></li>
+<li><a href="http://www.vikingtherapeutics.com/about/board-of-directors/" target="_self">Board of Directors</a></li>
+<li><a href="https://ir.vikingtherapeutics.com/committee-composition" target="_self">Committee Composition</a></li>
+</ul>
+</li>
+<li id="menu-item-65" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-65"><a href="information-request" target="_self">Shareholder Services</a>
+<ul class="sub-menu">
+<li><a href="https://ir.vikingtherapeutics.com/information-request" target="_self">Information Request</a></li>
+<li><a href="https://ir.vikingtherapeutics.com/email-alerts" target="_self">E-mail Alerts</a></li>
+<li><a href="https://ir.vikingtherapeutics.com/ir-contacts" target="_self">Investor Relations Contacts </a></li>
+</ul>
+</li>
+<li id="menu-item-67" class="menu-item menu-item-type-custom menu-item-67"><a href="https://ir.vikingtherapeutics.com/corporatepresentation" target="_self">Corporate Presentation </a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="https://vikingtherapeutics.com/contact/">Contact</a></li>
+</ul>
+</div></div>
+	</div>
+	<div id="primary" class="content-area safezoneB">
+		<div id="content" class="site-content" role="main">
+			<article id="post-22" class="post-22 page type-page status-publish has-post-thumbnail hentry">
+				<div class="entry-content">
+                    													<h2 class="wp-block-heading"><a href="https://ir.vikingtherapeutics.com/press-releases">Back to News & Events</a></h2>
+						                    					<br clear="all">					                        <div id="wd_printable_content" class="fr-view">
+<div class="wd_newsfeed_releases-detail">
+<div class="wd_title wd_language_left">Viking Therapeutics Presents Results from Phase 2b VOYAGE Study of VK2809 in Biopsy-Confirmed NASH/MASH at the 75th Liver Meeting® 2024</div>
+
+<div class="wd_toolbar wd_toolbar-detail"><ul class="wd_tools"><li class="wd_tool wd_tool-print"><span class="wd_tool_icon"><a onclick="view_printable(); return false;" rel="nofollow" href="#print" title="print"><span class="fa fa-print"></span></a></span></li><li class="wd_tool wd_tool-socialshare_facebook"><span class="wd_tool_icon">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fir.vikingtherapeutics.com%2Findex.php%3Fs%3D43%26item%3D242" target="_blank" title="Facebook Share" style="background-color:#4267B2;">
+                    <span class="fa fa-facebook"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable"></span>
+                    </a>
+                </span></li><li class="wd_tool wd_tool-socialshare_linkedin"><span class="wd_tool_icon">
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fir.vikingtherapeutics.com%2Findex.php%3Fs%3D43%26item%3D242" target="_blank" title="Linkedin Share" style="background-color:#0077B5;">
+                    <span class="fa fa-linkedin"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable"></span>
+                    </a>
+                </span></li><li class="wd_tool wd_tool-socialshare_twitter"><span class="wd_tool_icon">
+                    <a href="https://twitter.com/share?url=https%3A%2F%2Fir.vikingtherapeutics.com%2Findex.php%3Fs%3D43%26item%3D242" target="_blank" title="Twitter Share" style="background-color:#000;">
+                    <span class="fa fa-twitter"></span>
+		    <span class="wd_sr-only wd_sr-only-focusable"></span>
+                    </a>
+                </span></li><li class="wd_tool wd_tool-email"><span class="wd_tool_icon"><a onclick="window.location.href = 'mailto:?subject=Viking%20Therapeutics%20Presents%20Results%20from%20Phase%202b%20VOYAGE%20Study%20of%20VK2809%20in%20Biopsy-Confirmed%20NASH%2FMASH%20at%20the%2075th%20Liver%20Meeting%C2%AE%202024%20-%20Nov%2019%2C%202024&amp;body='+encodeURIComponent(window.location.href);return false;" href="#email" title="email"><span class="fa fa-envelope"></span></a></span></li><li class="wd_tool wd_tool-rss"><span class="wd_tool_icon"><a href="https://ir.vikingtherapeutics.com/index.php?s=95&amp;rsspage=43" title="rss"><span class="fa fa-rss"></span></a></span></li></ul></div>
+
+
+
+			
+		
+
+			
+		
+
+<style type="text/css">
+
+
+/* Style Definitions */
+span.prnews_span
+{
+font-size:8pt;
+font-family:"Arial";
+color:black;
+}
+a.prnews_a
+{
+color:blue;
+}
+li.prnews_li
+{
+font-size:8pt;
+font-family:"Arial";
+color:black;
+}
+p.prnews_p
+{
+font-size:0.62em;
+font-family:"Arial";
+color:black;
+margin:0in;
+}
+.prntac{
+TEXT-ALIGN: CENTER
+}
+
+					span.prnews_span{
+						font-size:inherit;
+						font-family:inherit;
+					}
+					li.prnews_li{
+						font-size: inherit;
+						font-family: inherit;           
+					}
+					p.prnews_p{
+						font-size: inherit;
+						font-family: inherit;           
+					}
+				</style>
+
+<div class="wd_body wd_news_body fr-view" wd_resize="formatNews" wd_print_url="https://ir.vikingtherapeutics.com/2024-11-19-Viking-Therapeutics-Presents-Results-from-Phase-2b-VOYAGE-Study-of-VK2809-in-Biopsy-Confirmed-NASH-MASH-at-the-75th-Liver-Meeting-R-2024?printable=1">
+<p class="prntac"><i>Oral Late Breaker Presentation Summarizes Positive Results Including Successful Achievement of Study's Primary and Secondary Endpoints</i></p>
+<p class="prntac"><i>Data Support VK2809's Best-in-Class Profile Highlighted by Robust Liver Fat Reductions, Histologic Results Demonstrating NASH/MASH Resolution and Fibrosis Improvement, and Promising Tolerability and Safety</i></p>
+<p><span class="legendSpanClass"><span class="xn-location">SAN DIEGO</span></span>, <span class="legendSpanClass"><span class="xn-chron">Nov. 19, 2024</span></span> /<a href="http://www.prnewswire.com/" target="_blank">PRNewswire</a>/ -- Viking Therapeutics, Inc. (&quot;Viking&quot;) (NASDAQ: VKTX), a clinical-stage biopharmaceutical company focused on the development of novel therapies for metabolic and endocrine disorders, today announced that final results from the company's Phase <span class="xn-money">2b</span> clinical trial of VK2809, the company's novel liver-selective thyroid hormone receptor beta agonist, in patients with biopsy-confirmed non-alcoholic steatohepatitis (NASH; also referred to as metabolic dysfunction associated steatohepatitis, MASH) were highlighted in an oral late breaker presentation at the 75<sup>th</sup> Liver Meeting<sup>®</sup> 2024, the annual meeting of the American Association for the Study of Liver Disease (AASLD).  The presentation summarized the final 52-week data from the VOYAGE study, showing that VK2809 successfully achieved the trial's primary and secondary endpoints while demonstrating excellent tolerability and promising safety.</p>
+
+    <div class="PRN_ImbeddedAssetReference" id="DivAssetPlaceHolder1">
+                <p>
+                        <a href="https://mma.prnewswire.com/media/273590/viking_9_15_logo.html" target="_blank" rel="nofollow">
+                    <img src="https://mma.prnewswire.com/media/273590/viking_9_15_logo.jpg" title="Viking Therapeutics (PRNewsfoto/Viking Therapeutics, Inc.)" alt="Viking Therapeutics (PRNewsfoto/Viking Therapeutics, Inc.)"/>
+                        </a>
+                </p>
+
+    </div>
+<p>Highlights from the oral presentation included:</p>
+<p><b>Reduction in Liver Fat Content at 52 Weeks</b></p>
+<p>Patients receiving VK2809 demonstrated statistically significant reductions in liver fat at Week 12, which was the primary endpoint in VOYAGE.  Importantly, patients receiving VK2809 continued to demonstrate statistically significant reductions in liver fat content at Week 52, with the mean relative change from baseline ranging from 37% to 55%.  The response rate in this study, defined as the proportion of patients experiencing reduction in liver fat ≥30%, ranged from 64% to 88% at Week 52, with all treatment arms demonstrating statistically significant improvement compared to placebo.</p>
+<p><b>Histologic Results at 52 Weeks</b></p>
+<p>On the secondary endpoint of NASH resolution with no worsening of fibrosis, VK2809-treated patients demonstrated NASH resolution ranging from 63% to 75%, compared with 29% for placebo (p&lt;0.05 for each VK2809 treatment group).  Across the combined VK2809 treatment groups, 69% achieved NASH resolution (p&lt;0.0001 vs. placebo).  Resolution of NASH was defined as a non-alcoholic fatty liver disease activity score (NAS) of 0 or 1 for inflammation and 0 for ballooning.</p>
+<p>On the secondary endpoint evaluating improvement in fibrosis with no worsening of NASH, VK2809-treated patients demonstrated improvement in fibrosis ranging from 44% to 57%, compared with 34% for placebo (p&lt;0.05 for the 5 mg and 10 mg QOD cohorts).  Across the combined VK2809 treatment groups, 51% achieved improvement in fibrosis with no worsening of NASH (p=0.03 vs. placebo).  Improvement in fibrosis without worsening of NASH was defined as a ≥1-stage improvement in fibrosis and no increase in NAS for ballooning, inflammation, or steatosis.</p>
+<p>On the secondary endpoint evaluating the proportion of patients experiencing both resolution of NASH and improvement in fibrosis, VK2809-treated patients demonstrated improvement ranging from 40% to 50%, compared with 20% for placebo (p&lt;0.05 for the 5 mg and 10 mg QOD cohorts).  Across the combined VK2809 treatment groups, 44% achieved this endpoint (p=0.003 vs. placebo).  Resolution of NASH and improvement in fibrosis were defined as described above.</p>
+<p><b>Reduction in Plasma Lipids at Week 52</b></p>
+<p>Patients receiving VK2809 demonstrated placebo-adjusted reductions in LDL-C ranging from 20% to 25% (p&lt;0.01 for each arm), as well as reductions in triglycerides and atherogenic proteins such as apolipoprotein B (ApoB), lipoprotein (a) [Lp(a)], and apolipoprotein C-III (ApoC-III), all of which have been correlated with cardiovascular risk. These results support prior data demonstrating that VK2809 may offer a cardioprotective benefit through its robust reduction in plasma lipids.</p>
+<p><b>Safety and Tolerability</b></p>
+<p>VK2809 demonstrated encouraging safety and tolerability in this study through 52 weeks of treatment, with minimal differences compared with the previously reported results at 12 weeks.  The majority (94%) of treatment related adverse events among patients receiving VK2809 were reported as mild or moderate.  Discontinuations due to adverse events were low and balanced among placebo and treatment arms.  As in prior studies, and at the 12-week timepoint in this study, VK2809 demonstrated excellent gastrointestinal (GI) tolerability throughout the 52-week treatment window in this study.  Rates of nausea, diarrhea, stool frequency, and vomiting were similar among VK2809-treated patients compared to placebo.</p>
+<p>&quot;The final 52-week data from the VOYAGE study provide compelling evidence of the therapeutic potential of VK2809 in NASH/MASH,&quot; said <span class="xn-person">Rohit Loomba</span>, M.D., MHSc, Chief of the Division of Gastroenterology and Hepatology and Director of the MASLD Research Center at <span class="xn-org">University of California San Diego</span> School of Medicine.  &quot;The potent reductions in liver fat, impressive NASH resolution rates, and improvements in fibrosis suggest an attractive potential treatment option for patients.  In addition, the observed improvements in plasma lipids indicate a potential long-term cardioprotective effect, a valuable benefit in this setting.&quot;</p>
+<p><span class="xn-person">Brian Lian</span>, Ph.D., chief executive officer of Viking, added, &quot;VK2809, along with our ongoing clinical activities with subcutaneous and oral VK2735 in obesity, as well as our preclinical program targeting amylin receptor agonists, provides Viking with one of the industry's most exciting and complementary therapeutic pipelines in the field of metabolic disorders.  We look forward to continued advancement of our pipeline programs in important metabolic disorders.&quot;</p>
+<p><b>Study Design</b></p>
+<p>The VOYAGE study was a randomized, double-blind, placebo-controlled, multicenter, international trial designed to assess the efficacy, safety and tolerability of VK2809 in patients with biopsy-confirmed NASH/MASH and fibrosis.  Enrollment included patients with at least 8% liver fat content as measured by MRI-PDFF, as well as F2 and F3 fibrosis.  The study allowed for up to 25% of enrolled patients to have F1 fibrosis provided they also possessed at least one additional risk factor, such as diabetes, obesity or hypertension, among others.  The primary endpoint of the study evaluated the change in liver fat content from baseline to Week 12 in patients treated with VK2809 as compared to patients receiving placebo.  Secondary objectives include the evaluation of histologic changes assessed by hepatic biopsy after 52 weeks of treatment.</p>
+<p><b>About VK2809</b></p>
+<p>VK2809 is an orally available, tissue and receptor-subtype selective agonist of the thyroid hormone beta receptor (TRβ) that possesses selectivity for liver tissue, as well as the beta receptor subtype, suggesting promising therapeutic potential in a range of lipid disorders. The Phase <span class="xn-money">2b</span> VOYAGE study of VK2809 in patients with biopsy-confirmed non-alcoholic steatohepatitis (NASH; also referred to as metabolic dysfunction associated steatohepatitis, MASH) and fibrosis successfully achieved both the trial's primary and secondary endpoints. VK2809 also successfully achieved primary and secondary endpoints in a Phase 2a study for the treatment of patients with elevated LDL-C and non-alcoholic fatty liver disease (NAFLD). Selective activation of the thyroid hormone beta receptor in liver tissue is believed to favorably affect cholesterol and lipoprotein levels via multiple mechanisms, including increasing the expression of genes associated with lipid metabolism and clearance.  </p>
+<p><b>About Viking Therapeutics, Inc. </b></p>
+<p>Viking Therapeutics, Inc. is a clinical-stage biopharmaceutical company focused on the development of novel first-in-class or best-in-class therapies for the treatment of metabolic and endocrine disorders, with three compounds currently in clinical trials. Viking's research and development activities leverage its expertise in metabolism to develop innovative therapeutics designed to improve patients' lives. Viking's clinical programs include VK2735, a novel dual agonist of the glucagon-like peptide 1 (GLP-1) and glucose-dependent insulinotropic polypeptide (GIP) receptors for the potential treatment of various metabolic disorders. Data from a Phase 1 and a Phase 2 trial evaluating VK2735 (dosed subcutaneously) for metabolic disorders demonstrated an encouraging safety and tolerability profile as well as positive signs of clinical benefit. Concurrently, the company is evaluating an oral formulation of VK2735 in a Phase 1 trial. Viking is also developing VK2809, a novel, orally available, small molecule selective thyroid hormone receptor beta agonist for the treatment of lipid and metabolic disorders. The compound successfully achieved both the primary and secondary endpoints in a recently completed Phase 2b study for the treatment of biopsy-confirmed non-alcoholic steatohepatitis (NASH; also referred to as metabolic dysfunction associated steatohepatitis, MASH) and fibrosis. In a Phase 2a trial for the treatment of non-alcoholic fatty liver disease (NAFLD) and elevated LDL-C, patients who received VK2809 demonstrated statistically significant reductions in LDL-C and liver fat content compared with patients who received placebo.  The company's newest program is evaluating a series of internally developed dual amylin and calcitonin receptor agonists (or DACRAs) for the treatment of obesity and other metabolic disorders.  In the rare disease space, Viking is developing VK0214, a novel, orally available, small molecule selective thyroid hormone receptor beta agonist for the potential treatment of X-linked adrenoleukodystrophy (X-ALD).  In a Phase 1b clinical trial in patients with the adrenomyeloneuropathy (AMN) form of X-ALD, VK0214 was shown to be safe and well-tolerated, while driving significant reductions in plasma levels of very long-chain fatty acids (VLCFAs) and other lipids, as compared to placebo.</p>
+<p>For more information about Viking Therapeutics, please visit <a href="https://c212.net/c/link/?t=0&amp;l=en&amp;o=4306399-1&amp;h=1337501615&amp;u=https%3A%2F%2Fc212.net%2Fc%2Flink%2F%3Ft%3D0%26l%3Den%26o%3D4197323-1%26h%3D4201129706%26u%3Dhttps%253A%252F%252Fc212.net%252Fc%252Flink%252F%253Ft%253D0%2526l%253Den%2526o%253D4124488-1%2526h%253D3719708903%2526u%253Dhttps%25253A%25252F%25252Fc212.net%25252Fc%25252Flink%25252F%25253Ft%25253D0%252526l%25253Den%252526o%25253D3866590-1%252526h%25253D4076357968%252526u%25253Dhttps%2525253A%2525252F%2525252Fc212.net%2525252Fc%2525252Flink%2525252F%2525253Ft%2525253D0%25252526l%2525253Den%25252526o%2525253D3821369-1%25252526h%2525253D1599847740%25252526u%2525253Dhttps%252525253A%252525252F%252525252Fc212.net%252525252Fc%252525252Flink%252525252F%252525253Ft%252525253D0%2525252526l%252525253Den%2525252526o%252525253D3586345-1%2525252526h%252525253D65010134%2525252526u%252525253Dhttps%25252525253A%25252525252F%25252525252Fc212.net%25252525252Fc%25252525252Flink%25252525252F%25252525253Ft%25252525253D0%252525252526l%25252525253Den%252525252526o%25252525253D3117978-1%252525252526h%25252525253D1140731627%252525252526u%25252525253Dhttp%2525252525253A%2525252525252F%2525252525252Fwww.vikingtherapeutics.com%2525252525252F%252525252526a%25252525253Dwww.vikingtherapeutics.com%2525252526a%252525253Dwww.vikingtherapeutics.com%25252526a%2525253Dwww.vikingtherapeutics.com%252526a%25253Dwww.vikingtherapeutics.com%2526a%253Dwww.vikingtherapeutics.com%26a%3Dwww.vikingtherapeutics.com&amp;a=www.vikingtherapeutics.com" target="_blank" rel="nofollow">www.vikingtherapeutics.com</a>.</p>
+<p><b><i>Forward-Looking Statements</i></b></p>
+<p><i>This press release contains forward-looking statements regarding Viking Therapeutics, Inc., under the safe harbor provisions of the U.S. Private Securities Litigation Reform Act of 1995, including statements about Viking's expectations regarding its clinical and preclinical development programs, anticipated timing for reporting clinical data and cash resources.  Forward-looking statements are subject to risks and uncertainties that could cause actual results to differ materially and adversely and reported results should not be considered as an indication of future performance.  These risks and uncertainties include, but are not limited to: risks associated with the success, cost and timing of Viking's product candidate development activities and clinical trials, including those for VK2735, VK0214, VK2809, and the company's other incretin receptor agonists; risks that prior clinical and preclinical results may not be replicated; risks regarding regulatory requirements; and other risks that are described in Viking's most recent periodic reports filed with the Securities and Exchange Commission, including Viking's Annual Report on Form 10-K for the year ended December 31, 2023, and subsequent Quarterly Reports on Form 10-Q, including the risk factors set forth in those filings.  These forward-looking statements speak only as of the date hereof.  Viking disclaims any obligation to update these forward-looking statements except as required by law.</i></p>
+
+
+
+
+
+
+
+<p>SOURCE  Viking Therapeutics, Inc.</p></div>
+
+<div class="wd_contact">For further information: CONTACTS: Viking Therapeutics, Inc., Greg Zante, Chief Financial Officer, 858-704-4672, gzante@vikingtherapeutics.com; Vida Strategic Partners, Stephanie Diaz (Investors), 415-675-7401, sdiaz@vidasp.com; Tim Brons (Media), 415-675-7402, tbrons@vidasp.com</div>
+
+
+ 
+				
+			
+
+<!-- ITEMDATE: 2024-11-19 16:03:00 EST -->
+
+</div>
+</div>															</div><!-- .entry-content -->
+			</article><!-- #post-## -->
+		</div><!-- #content -->
+	</div><!-- #primary -->
+</div><!-- #main-content -->
+
+
+	</div><!-- #main -->
+		<footer class="site-footer" role="contentinfo">
+			<div class="site-info safezoneA">
+				<div class="logo-block">
+					<a href="https://vikingtherapeutics.com/"><img src="images/viking-logo-color.png" alt="logo" width="220" height="auto" /></a>
+					<p>&copy; Viking Therapeutics 2026</p>
+					<p>All Rights Reserved.</p>
+				</div>
+				<div class="contact-block">
+					<p><strong>Contact</strong></p>
+					<p class="footer-email"><a href="mailto:info@vikingtherapeutics.com">info@vikingtherapeutics.com</a></p>
+					<p>9920 Pacific Heights Blvd, Suite 500<br>
+					San Diego, CA 92121<br>
+					<a href="tel:+18587044660">858-704-4660</a></p>
+				</div>
+				<div class="follow-block">
+					<p><strong>Follow</strong></p>
+					<p>
+						<a href="https://www.linkedin.com/company/viking-therapeutics/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+						<a href="https://www.threads.com/@viking_therapeutics?hl=en" target="_blank"><i class="fab fa-square-threads" aria-hidden="true"></i></a>
+					</p>
+				</div>
+				<div class="legal-block">
+					<p><strong>Legal</strong></p>
+						<p><a href="https://vikingtherapeutics.com/terms-of-use/">Terms of Use</a></p>
+						<p><a href="https://vikingtherapeutics.com/privacy-policy/">Privacy Policy</a></p>
+				</div>
+			</div><!-- .site-info -->
+		</footer><!-- #colophon -->
+	</div><!-- #page -->
+
+	<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/viking/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+
+			<div class="wprm-wrapper">
+
+        <!-- Overlay Starts here -->
+			         <!-- Overlay Ends here -->
+
+			         <div id="wprmenu_bar" class="wprmenu_bar normalslide right">
+  <div class="hamburger hamburger--slider">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </div>
+  <div class="menu_title">
+          <a href="https://vikingtherapeutics.com/"><img class="bar_logo" alt="logo" src="images/viking-logo.png"/></a>  </div>
+</div>
+			<div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right default " id="mg-wprm-wrap">
+
+
+				<ul id="wprmenu_menu_ul">
+
+  <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-27"><a href="https://vikingtherapeutics.com/about/overview/">About</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="https://vikingtherapeutics.com/about/management/">Management</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24"><a href="https://vikingtherapeutics.com/about/board-of-directors/">Board of Directors</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-25"><a href="https://recruiting.paylocity.com/recruiting/jobs/All/a5482aa1-9082-41fd-9437-e958794a4393/VIKING-THERAPEUTICS-INC/" target="_blank">Careers</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-39"><a href="https://vikingtherapeutics.com/pipeline/overview/">Pipeline</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-38"><a href="https://vikingtherapeutics.com/pipeline/overview/">Overview</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="https://vikingtherapeutics.com/pipeline/vk2735/">VK2735</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"><a href="https://vikingtherapeutics.com/pipeline/amylin/">VK3019</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://vikingtherapeutics.com/pipeline/vk2809/">VK2809</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30"><a href="https://vikingtherapeutics.com/pipeline/vk0214/">VK0214</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-35"><a href="https://vikingtherapeutics.com/pipeline/vk5211/">VK5211</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://vikingtherapeutics.com/pipeline/publications/">Publications</a></li>
+</ul>
+</li>
+<li class="ir-menu-item menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-22 current_page_item menu-item-has-children menu-item-41"><a href="https://ir.vikingtherapeutics.com/" aria-current="page">Investors</a>
+<ul class="sub-menu">
+<li id="menu-item-45" class="menu-item menu-item-type-custom menu-item-45"><a href="https://ir.vikingtherapeutics.com/overview" target="_self">Overview</a></li>
+<li id="menu-item-143" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-143"><a href="https://ir.vikingtherapeutics.com/stock-information" target="_self">Stock Information</a>
+<ul class="sub-menu">
+<li><a href="https://ir.vikingtherapeutics.com/stock-chart" target="_self">Stock Chart</a></li>
+<li><a href="https://ir.vikingtherapeutics.com/historical-price-lookup" target="_self">Historical Price Lookup</a></li>
+</ul>
+</li>
+<li id="menu-item-68" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-68"><a class="active" href="press-releases" target="_self">News & Events</a>
+<ul class="sub-menu">
+ 
+<li><a class="on" href="https://ir.vikingtherapeutics.com/press-releases" target="_self">Press Releases</a></li>
+<li><a href="https://ir.vikingtherapeutics.com/webcasts" target="_self">Webcasts</a></li>
+</ul>
+</li>
+<li id="menu-item-127" class="menu-item menu-item-type-custom menu-item-127"><a href="https://ir.vikingtherapeutics.com/sec-filings" target="_self">SEC Filings</a></li>
+<li id="menu-item-119" class="menu-item menu-item-type-custom menu-item-119"><a href="https://ir.vikingtherapeutics.com/analyst-coverage" target="_self">Analyst Coverage</a></li>
+<li id="menu-item-64" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-64"><a href="governance-highlights" target="_self">Corporate Governance</a>
+<ul class="sub-menu">
+<li><a href="https://ir.vikingtherapeutics.com/governance-highlights" target="_self">Governance Highlights</a></li>
+<li><a href="http://www.vikingtherapeutics.com/about/management/" target="_self">Management</a></li>
+<li><a href="http://www.vikingtherapeutics.com/about/board-of-directors/" target="_self">Board of Directors</a></li>
+<li><a href="https://ir.vikingtherapeutics.com/committee-composition" target="_self">Committee Composition</a></li>
+</ul>
+</li>
+<li id="menu-item-65" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-65"><a href="information-request" target="_self">Shareholder Services</a>
+<ul class="sub-menu">
+<li><a href="https://ir.vikingtherapeutics.com/information-request" target="_self">Information Request</a></li>
+<li><a href="https://ir.vikingtherapeutics.com/email-alerts" target="_self">E-mail Alerts</a></li>
+<li><a href="https://ir.vikingtherapeutics.com/ir-contacts" target="_self">Investor Relations Contacts </a></li>
+</ul>
+</li>
+<li id="menu-item-67" class="menu-item menu-item-type-custom menu-item-67"><a href="https://ir.vikingtherapeutics.com/corporatepresentation" target="_self">Corporate Presentation </a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-40"><a href="https://vikingtherapeutics.com/contact/">Contact</a></li>
+
+
+</ul>
+
+				</div>
+			</div>
+			<script type="text/javascript" src="js/viking.js" id="vanilla-script-js"></script>
+			<script type="text/javascript" src="js/wd_js.js"></script>
+<script id="wp-emoji-settings" type="application/json">
+{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://vikingtherapeutics.com/wp-includes/js/wp-emoji-release.min.js?ver=6.9"}}
+</script>
+<script type="module">
+/* <![CDATA[ */
+/*! This file is auto-generated */
+const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
+//# sourceURL=https://vikingtherapeutics.com/wp-includes/js/wp-emoji-loader.min.js
+/* ]]> */
+</script>
+
+<!-- begin spin_special_output(body_end) -->
+<script wd_script_id="piwik_tracking_code"></script>
+<!-- Piwik Tracking Code -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+
+  _paq.push(["setCustomVariable", 4, "News Release Feed ID", "202411191603PR_NEWS_USPR_____LA60414", "page"]);
+
+  _paq.push(["setCustomVariable", 1, "Content Type", "News Releases Feed", "page"]);
+
+  _paq.push(["setCustomVariable", 3, "Navigation Page", "News & Events : Press Releases", "page"]);
+
+  _paq.push(["trackPageView"]);
+  _paq.push(["enableLinkTracking"]);
+  (function() {
+    var u="//stats.drivetheweb.com/";
+    _paq.push(["setTrackerUrl", u+"piwik.php"]);
+    _paq.push(["setSiteId", 2246]);
+    var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0];
+    g.type="text/javascript"; g.async=true; g.defer=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript>
+	<img src="https://stats.drivetheweb.com/piwik.php?idsite=2246&rec=1" style="border:0" alt="" />
+</noscript>
+<!-- End Piwik Tracking Code -->
+		
+<!-- end spin_special_output(body_end) -->
+<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a39f7e850e0825d7',t:'MTc4OTIyMjIxMQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

@@ -1,0 +1,19 @@
+﻿target_label,standard_type,bao_label,n_after_dedupe,n_train,n_test,mae_pActivity_nM,exploratory_auc_threshold_pActivity6,split,status
+fxr,EC50,assay format,168,135,33,0.515586604089085,0.8970588235294118,group by molecule_chembl_id; not external validation,pilot_only_not_final_model
+fxr,EC50,cell-based format,2305,1829,476,0.46026000939830203,0.8379600503302925,group by molecule_chembl_id; not external validation,pilot_only_not_final_model
+fxr,EC50,single protein format,1233,1000,233,0.43950311716911344,0.9328609986504723,group by molecule_chembl_id; not external validation,pilot_only_not_final_model
+fxr,IC50,cell-based format,214,166,48,0.7077205905495886,0.9629629629629629,group by molecule_chembl_id; not external validation,pilot_only_not_final_model
+fxr,IC50,single protein format,255,205,50,0.522121930671046,0.9626485568760611,group by molecule_chembl_id; not external validation,pilot_only_not_final_model
+thra,EC50,assay format,51,40,11,0.48784726550538354,0.875,group by molecule_chembl_id; not external validation,pilot_only_not_final_model
+thra,EC50,cell-based format,60,49,11,0.8747710181213887,0.6785714285714286,group by molecule_chembl_id; not external validation,pilot_only_not_final_model
+thra,EC50,single protein format,51,40,11,0.6299270096925409,0.625,group by molecule_chembl_id; not external validation,pilot_only_not_final_model
+thra,IC50,assay format,65,52,13,0.21484526312384788,1.0,group by molecule_chembl_id; not external validation,pilot_only_not_final_model
+thra,IC50,single protein format,201,161,40,0.6590828455483649,0.8661616161616161,group by molecule_chembl_id; not external validation,pilot_only_not_final_model
+thra,Ki,single protein format,51,40,11,0.8573249666060001,,group by molecule_chembl_id; not external validation,pilot_only_not_final_model
+thrb,EC50,cell-based format,105,75,30,0.725270118198456,0.8076923076923077,group by molecule_chembl_id; not external validation,pilot_only_not_final_model
+thrb,EC50,single protein format,60,48,12,0.6636382921832545,,group by molecule_chembl_id; not external validation,pilot_only_not_final_model
+thrb,IC50,assay format,148,118,30,0.20504003021345324,0.9665071770334929,group by molecule_chembl_id; not external validation,pilot_only_not_final_model
+thrb,IC50,cell-based format,63,50,13,0.924505075621021,0.9523809523809524,group by molecule_chembl_id; not external validation,pilot_only_not_final_model
+thrb,IC50,single protein format,329,262,67,0.5444354148734276,0.9544159544159544,group by molecule_chembl_id; not external validation,pilot_only_not_final_model
+thrb,Ki,single protein format,76,61,15,0.6229775367160504,,group by molecule_chembl_id; not external validation,pilot_only_not_final_model
+thrb,Potency,assay format,5915,4721,1194,1.104887916901901,0.6929635505339731,group by molecule_chembl_id; not external validation,pilot_only_not_final_model

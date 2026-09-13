@@ -1,0 +1,50 @@
+{
+ "7": {
+  "top_score_kcal_mol": -10.246,
+  "n_models": 4,
+  "rmsd_top_scored_pose_A": 0.692,
+  "rmsd_all_modes_A": [
+   0.692,
+   1.188,
+   0.834,
+   1.703
+  ]
+ },
+ "42": {
+  "top_score_kcal_mol": -10.233,
+  "n_models": 4,
+  "rmsd_top_scored_pose_A": 0.669,
+  "rmsd_all_modes_A": [
+   0.669,
+   0.708,
+   1.184,
+   0.891
+  ]
+ },
+ "123": {
+  "top_score_kcal_mol": -10.232,
+  "n_models": 5,
+  "rmsd_top_scored_pose_A": 0.708,
+  "rmsd_all_modes_A": [
+   0.708,
+   0.701,
+   1.326,
+   0.795,
+   1.591
+  ]
+ },
+ "20260910": {
+  "top_score_kcal_mol": -10.226,
+  "n_models": 7,
+  "rmsd_top_scored_pose_A": 0.664,
+  "rmsd_all_modes_A": [
+   0.664,
+   0.677,
+   1.221,
+   1.01,
+   0.827,
+   1.559,
+   1.993
+  ]
+ }
+}

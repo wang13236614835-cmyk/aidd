@@ -1,0 +1,20 @@
+compound,chembl_id_or_note,natural_product_status,evidence_tier,value,value_units,enzyme_source_stated,mechanism_or_domain_note,pmid,evidence_record_layer,usable_as_bridge_training,usable_note
+phloretin,CHEMBL45068,natural(dihydrochalcone),A_direct_enzyme_numeric,4.90±0.66,uM,no(animal FASN stated as animal-source enzyme),competitive vs acetyl-CoA; mixed vs malonyl-CoA; irreversible component,40949263,direct biochemical,conditional,数值明确但酶源为动物FASN非人源
+EGCG,CHEMBL297453,natural(green tea catechin),A_direct_enzyme_numeric,51.97,uM,not stated in abstract,cited as known FAS inhibitor comparator in Nephelium assay,21605850,direct biochemical(数值来自对照物陈述),conditional,数值明确；酶源未在摘要声明；多酚聚集风险已知
+(-)-CG catechin gallate,(ChEMBL ID未核验),natural(green tea gallated catechin),A_direct_enzyme_numeric,1.5,ug/mL(approx 3.3 uM by MW 458.4),not stated in abstract,acyl transferase domain为主要位点(非EGCG/ECG的beta-KR域),15943584,direct biochemical,conditional,数值明确；酶源未声明；结构域信息有价值
+quercetin,CHEMBL50,natural(flavonol),A_direct_enzyme_numeric_weak,43.09±2.98,ug/mL(approx 143 uM),not stated in abstract,weak;聚集/氧化还原干扰风险,37854347,direct biochemical,conditional_weak,弱活性
+kaempferol,CHEMBL150,natural(flavonol),A_direct_enzyme_numeric_weak,36.90±1.83,ug/mL(approx 129 uM),not stated in abstract,weak,37854347,direct biochemical,conditional_weak,弱活性
+asiatic acid,CHEMBL404313,natural(triterpene),A_direct_enzyme_numeric,9.52±0.76,ug/mL(approx 19.5 uM),not stated in abstract,,37854347,direct biochemical,conditional,数值明确；酶源未声明
+Nephelium lappaceum isolates 1-10(含2个新hederagenin苷+黄酮),(per-compound IDs in fulltext),natural, A_range_only,6.69–204.40,uM range,not stated in abstract,oleane型三萜寡糖苷=另一类天然FASN抑制剂,21605850,direct biochemical(range),no,逐化合物身份与数值在正文未提取；提取后可升级
+Acer truncatum leaf extract,extract,extract,A_extract_level,IC50 0.7 µg/mL可逆+Kd 0.68 µg/mL不可逆,ug/mL,YES(duck liver FAS),fast-binding可逆+slow-binding不可逆,17194032,extract biochemical,no,提取物非单一化合物
+A.campestre extract(Aceraceae 16种之一),extract,extract,A_extract_level,0.41,ug/mL,YES(duck liver FAS),可逆+不可逆双相,17847719,extract biochemical,no,提取物非单一化合物
+Alpinia officinarum GE extract,extract,extract,A_extract_level,1.73,ug/mL dried,not stated in abstract,可逆+双相慢结合;含galangin/quercetin/kaempferol,14567550,extract biochemical,no,提取物非单一化合物
+green tea GTE(Xihu Longjing),extract,extract,A_extract_level,12.2,ug/mL dry weight,not stated in abstract,多酚组分贡献主效;分离中见15倍增效组分(未知新抑制剂),15943584,extract biochemical,no,提取物非单一化合物
+avicularin,(无核验ID),natural flavonoid glycoside,A_qualitative,'potently inhibits FAS'定性(提取物0.48 µg/mL不归属单成分),none,not stated,,16571105,direct biochemical qualitative,no,无数值
+cerulenin,(经典共价FASN抑制剂;天然真菌抗生素),natural,A_qualitative,no numeric extracted in this round's searches,none,not stated,共价机制,本轮检索,classic reference,no,待数值+人源酶证据
+orlistat,(lipstatin氢化半合成衍生物),NP-derived semi-synthetic,A_qualitative,no numeric extracted in this round's searches,none,not stated,cited as FAS inhibitor in cancer literature,40239877(引用语境),established reference,no,半合成；待数值
+thiolactomycin,CHEMBL399043,natural(Nocardia),A_direct_enzyme_numeric_weak,21.1,ug/mL(approx 100 uM),human FASN(ZR-75-1细胞背景纯化酶),type I FASN弱抑制,ChEMBL CHEMBL828726/master表,direct biochemical,conditional_weak,弱；已在master内
+platensimycin,(Streptomyces来源),natural,B_in_vivo_phenotype,antisteatotic effects in mice(无数值于摘要),none,not applicable,selective FAS inhibitor in vivo,21389266,in vivo phenotype,no,表型层
+rutin/trans-chlorogenic acid/norbergenin/myricetin,(多化合物),natural,B_cellular_lipogenesis,MCF-7 50 µM palmitate合成抑制>50%,none,not applicable,细胞脂生成读数非酶IC50,37909465,cellular,no,细胞层
+baicalein,CHEMBL8260,natural(flavone),C_expression_change,fructose大鼠肝FASN/ACC表达下调,none,not applicable,表达层不可当IC50,35847050,expression,no,通路层
+BindingDB人源FASN全库筛查,1241条affinity记录,negative_control_row,A_screen_negative,0/1241与18个天然产物参照InChIKey匹配,none,not applicable,参照表含phloretin/EGCG/kaempferol/quercetin/asiatic acid/baicalein/thiolactomycin/orlistat/cerulenin/resveratrol/curcumin/luteolin/apigenin/chrysin/genistein/catechin/EGCG等,本轮解析,screen,no,公开结合数据库中天然产物直接FASN点稀少的量化证据

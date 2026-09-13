@@ -1,0 +1,24 @@
+{
+  "generated": "2026-09-12",
+  "algorithm": "sha256",
+  "files": {
+    "derived/budget_summary.json": "7eb8ca42265fd4e5724e0596bf680db4ff5d201bf598d57e2bbce4e185f131b5",
+    "derived/build_csvs.py": "1b52c0d3ac4511e4819dcbc6e78979970ea3a13894a73b1c314530e84527be53",
+    "derived/run_qc.py": "547591d7969fe65d36321b73b1ff91d0b1b5419fc977c8b34661822e4b0ffb94",
+    "Formononetin_FXR依赖性验证方案.md": "b9563e22425ba3ab5783c41b7a8e5532ad5a27f1835819375f5b5e52ad6b06cc",
+    "Go_NoGo决策表.md": "8892a46962826f61f04cab04bbfa3bd60d7b99cecc54646db7284ca26008db81",
+    "MASH细胞模型选择.md": "8e43d9616884856758d5833628d3fcd72269efb6eadc2ec77d7bcbed1dc80afc",
+    "MoracinN_三级门控实验方案.md": "a069913d5f180a8295dcc194289cea98310d4791b9e56e96db674162495d21e4",
+    "MoracinN_剂量设计.md": "09d013e7b526eac985e7599ea632212ad701f07f4cd71429086c5fae56627c72",
+    "MoracinN_实验物料审计.csv": "0c9733ab7b085c1dc3231b946db63bb8c3b7b1d8b9ba2758c8c7acbb6d117094",
+    "raw/supplier_mce_moracinN_页面提取.md": "6d9743a4e2cd1805945f6cd6fc463cc2ba01aa79bff5234fcadea172336a2a0e",
+    "raw/supplier_prices_化合物与工具药.md": "4459873118e5c7586c74e59340a5ecd624d18402327843bd02e7c235f8b11d41",
+    "候选采购清单.csv": "d16f54b27c3b4ec16c211c85382dfd6a154dc814b02b0bd319146b45fcfa6387",
+    "实验统计预注册.md": "27db63e41ec2812e2cb2d2c3637fa222ac601ac62f9938cd941678c24f8765a4",
+    "对照体系定义.md": "c1f85e8437e1dc2f8527fa7d2fe93c6bc25006dc3d62f632a9ad318795ac8ecd",
+    "导师审批版_一页实验方案.md": "d69d099d5db7a044427fea6bc040ae02b9d2edc930af02f6ef4e16c24662ac9a",
+    "最小实验预算.csv": "e2cf53a0d5ec80a3847a4df114ea996209545568ab7f4e2362769786f574d9f6",
+    "第六轮_执行总览.md": "98c6a6d88e3b0885f1b438590dcee608a6c633a40f90663a6e17038eced254f2",
+    "第六轮未完成项.md": "d430f236526305f0dfb3a6f92bdf62eba00511bb3d6f8c06bf59fbccc179eb29"
+  }
+}
