@@ -1,6 +1,6 @@
 {
   "round": "asset_preservation_and_gnn_replan_v1",
-  "generated_at": "2026-09-14T08:26:35.684118+00:00",
+  "generated_at": "2026-09-14T08:31:53.275690+00:00",
   "purpose": "retain, downgrade, index and hash existing assets; no historical asset deletion",
   "registry": {
     "asset_count": 46,
@@ -42,11 +42,11 @@
   },
   "repository_snapshots": {
     "aidd": {
-      "head": "d591575e4cf6cbc07cab26e4fa3074929eda0e58",
+      "head": "02e4e6509e8c58507e9e8b025831d808ab2ca308",
       "status_lines": 2
     },
     "hepato-gnn-screening": {
-      "head": "19d518da31a7503eaab966ad09ea8b3ffcbe53b1",
+      "head": "e45a9f5fb140abc4d5508a9577a2b2e81239fcb0",
       "status_lines": 0
     },
     "workbench": {
@@ -72,7 +72,7 @@
       "bytes": 1342
     },
     "derived/registry_summary.json": {
-      "sha256": "eacd26465b25c5a4421f5a7b36dd1e1d4d607a6c84f5f44e10272962b61d4057",
+      "sha256": "13ffcd269853a53548fd25ed1f4a29f80321b49d678b0c1489613025aa58f876",
       "bytes": 524
     },
     "derived/test_results.json": {
@@ -96,8 +96,8 @@
       "bytes": 908
     },
     "Git提交记录.md": {
-      "sha256": "16bbb51889115dd17e663afeefad9c37152047f078461102577d1455b8e8f00c",
-      "bytes": 1226
+      "sha256": "f21e98a53159f8686071f9430d1c41abcb38a1c75d19e8054ddca6e34ffd714d",
+      "bytes": 1397
     },
     "GNN_RESEARCH_PLAN_v2.md": {
       "sha256": "c807f8f2ab262c99c44fb07e1cab6a4fbc558223b30870bb90bf13d160212196",
@@ -164,8 +164,8 @@
       "bytes": 2404
     },
     "最终交接报告.md": {
-      "sha256": "f6a2e00e3be728523b4aa368afe4038995ecbe687077ddcc8920241aee408c51",
-      "bytes": 7477
+      "sha256": "5efeeaa844e48d39bffea0ec83978376469ba9e4d5b50602cc3a49f248269266",
+      "bytes": 7637
     },
     "未完成项与风险.md": {
       "sha256": "18847db0ee3e63b15450f9d857b35325f2b83f25a5805ed7f727dbb30d1565a3",
