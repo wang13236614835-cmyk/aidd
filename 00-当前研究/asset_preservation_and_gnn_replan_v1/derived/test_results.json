@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-14",
+  "qualification_v1_qc": "PASS",
+  "preservation_qc": "PASS",
+  "gnn_imports": "PASS",
+  "gnn_default_entry": "PASS: default run_all.py only reports blocked status and does not run legacy pipeline",
+  "gnn_syntax": "PASS: run_all.py, src/models/gnn.py, src/models/dataset.py, final-aidd-screening/run_revised.py",
+  "gnn_verify_research": {
+    "status": "PASS",
+    "checks": 9,
+    "scientific_validation": "not_granted",
+    "wetlab_ready": false,
+    "fix": "common.write_csv now writes headers for empty results; fusion contract passes"
+  },
+  "workbench_targeted_pytest": "PASS: 38 passed",
+  "workbench_research_state_pytest": "PASS: 3 passed",
+  "workbench_apptest": "PASS: 0 exceptions, 5 dataframes",
+  "workbench_full_suite_previous": "PASS: 113 passed, 1 deselected; ConPLex real model deselected due Windows pagefile os error 1455",
+  "streamlit_route_previous": "PASS: / and /17_Research_State HTTP 200",
+  "notes": [
+    "Streamlit emits pre-existing use_container_width deprecation warnings; no page exception.",
+    "No legacy --legacy-demo run performed because it writes historical results; old assets were not modified."
+  ]
+}

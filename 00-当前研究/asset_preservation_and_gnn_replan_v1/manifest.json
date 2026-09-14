@@ -1,0 +1,176 @@
+{
+  "round": "asset_preservation_and_gnn_replan_v1",
+  "generated_at": "2026-09-14T08:15:36.123109+00:00",
+  "purpose": "retain, downgrade, index and hash existing assets; no historical asset deletion",
+  "registry": {
+    "asset_count": 46,
+    "status_counts": {
+      "VERIFIED": 30,
+      "HISTORICAL": 12,
+      "REJECTED": 1,
+      "REQUALIFY": 3
+    },
+    "missing": []
+  },
+  "qc": {
+    "verdict": "PASS",
+    "issues": []
+  },
+  "tests": {
+    "date": "2026-09-14",
+    "qualification_v1_qc": "PASS",
+    "preservation_qc": "PASS",
+    "gnn_imports": "PASS",
+    "gnn_default_entry": "PASS: default run_all.py only reports blocked status and does not run legacy pipeline",
+    "gnn_syntax": "PASS: run_all.py, src/models/gnn.py, src/models/dataset.py, final-aidd-screening/run_revised.py",
+    "gnn_verify_research": {
+      "status": "PASS",
+      "checks": 9,
+      "scientific_validation": "not_granted",
+      "wetlab_ready": false,
+      "fix": "common.write_csv now writes headers for empty results; fusion contract passes"
+    },
+    "workbench_targeted_pytest": "PASS: 38 passed",
+    "workbench_research_state_pytest": "PASS: 3 passed",
+    "workbench_apptest": "PASS: 0 exceptions, 5 dataframes",
+    "workbench_full_suite_previous": "PASS: 113 passed, 1 deselected; ConPLex real model deselected due Windows pagefile os error 1455",
+    "streamlit_route_previous": "PASS: / and /17_Research_State HTTP 200",
+    "notes": [
+      "Streamlit emits pre-existing use_container_width deprecation warnings; no page exception.",
+      "No legacy --legacy-demo run performed because it writes historical results; old assets were not modified."
+    ]
+  },
+  "repository_snapshots": {
+    "aidd": {
+      "head": "aafd9926317ed0b03a47fb7444e2a1bd687f1a51",
+      "status_lines": 4
+    },
+    "hepato-gnn-screening": {
+      "head": "6f00c7729667b25a97935c8f48e32f4400b7e80c",
+      "status_lines": 19
+    },
+    "workbench": {
+      "head": "69d1a518e5f13437df4e8cfa3bf9ee2907418323",
+      "status_lines": 27
+    }
+  },
+  "files_excluding_manifest": {
+    "AIDD主库状态同步记录.md": {
+      "sha256": "69fd5010cf71ed18c6d7b4ef228ed6b0db3c997ee68bb9aac70ced9d37dc1520",
+      "bytes": 944
+    },
+    "build_asset_registry.py": {
+      "sha256": "438d1f78d85229ce603231872ab844742e848a499b84cf697dc7de80b81848a4",
+      "bytes": 16725
+    },
+    "build_manifest.py": {
+      "sha256": "de6b53fc276e63bf07486441aedbb18140d384372e66fb9bf882f03ef020d7ec",
+      "bytes": 3055
+    },
+    "derived/qc_checks.json": {
+      "sha256": "4cbed5794d4b83f1ac3432cc91835707cd18b588298042083590a562c2b68b9a",
+      "bytes": 1342
+    },
+    "derived/registry_summary.json": {
+      "sha256": "056f5bbb9923ad083d388b8872621999e7bfa1fb501fa1faab04928825bf0d06",
+      "bytes": 524
+    },
+    "derived/test_results.json": {
+      "sha256": "833800d76cf1515ee9f289e401f38c6d91fbbf596a32e204a93b28eacfb5b1fb",
+      "bytes": 1173
+    },
+    "Docking历史资产保留方案.md": {
+      "sha256": "7a934fe9d6a8397a515203883974810ce9e865dfc9d3018820f6e7debf159339",
+      "bytes": 798
+    },
+    "FASN历史资产保留方案.md": {
+      "sha256": "aca1898e6c820651b9c76844fa17f4e64dbfbc042cc697bd43fda4eb58ee97c7",
+      "bytes": 1057
+    },
+    "FXR元数据口径修正记录.md": {
+      "sha256": "c565da499ad208673185876133ae6a6f0bc4fc4b0a8872189307563b842de67f",
+      "bytes": 961
+    },
+    "FXR历史资产保留方案.md": {
+      "sha256": "73ca3d1299b347c8b434dea6bdf35db7850498358d680c1228a422307b86f628",
+      "bytes": 908
+    },
+    "Git提交记录.md": {
+      "sha256": "99eafa97c003a5d530cb2666c98368c7386126aa717d0519d152290fedcae7c4",
+      "bytes": 629
+    },
+    "GNN_RESEARCH_PLAN_v2.md": {
+      "sha256": "c807f8f2ab262c99c44fb07e1cab6a4fbc558223b30870bb90bf13d160212196",
+      "bytes": 2474
+    },
+    "GNN仓库审计.md": {
+      "sha256": "bee9a3f31b97c485897c9611f956ce30c3144e41eaadd9e2342f0a750fa2a7cc",
+      "bytes": 2476
+    },
+    "GNN数据与模型状态表.csv": {
+      "sha256": "0e650f8965b3fa8f3cd025849446d08cc434f956b94b79a1eb28c93a4a9eea8a",
+      "bytes": 2022
+    },
+    "GNN是否需要大改_裁决.md": {
+      "sha256": "904bdf62e80f851d7aa1df639950a57d1a2b8a3569be61e329b99b205d02c3a5",
+      "bytes": 1742
+    },
+    "legacy_metadata/fxr_model_manifest_pre_20260914.json": {
+      "sha256": "305f49757f2250e70e898ce41b49431397de1b9b59896a808462e0d01e5e40fb",
+      "bytes": 2402
+    },
+    "legacy_metadata/software_checks_pre_20260914.json": {
+      "sha256": "d8345829f088e6799bd808a2d2749a0d29189978c9c224762ee706a3a60aa540",
+      "bytes": 1855
+    },
+    "MASTER_ASSET_REGISTRY.csv": {
+      "sha256": "482a6e3023b452d236b162e67cc93947af4663bfce866cf7b5d609b3eccdcb32",
+      "bytes": 15088
+    },
+    "QC_report.md": {
+      "sha256": "5b122f10c2d6eb5d4df3e94bcb7380f840e7ada9aa0a7bf4e3ef323d1c8f2319",
+      "bytes": 1112
+    },
+    "run_preservation_qc.py": {
+      "sha256": "5dfaa633836646a0e862067cf424ee2f331158f92f4355965d5075676acf345c",
+      "bytes": 7360
+    },
+    "THRB历史资产保留方案.md": {
+      "sha256": "472f80a015c727eabe6421bf541eb718923e2362d522e41b6fdd871347c9ee1a",
+      "bytes": 748
+    },
+    "Workbench同步记录.md": {
+      "sha256": "7ee3ce75ebaaf4f6e79bd30fb2bfbed94f6848bad9b30053ed42c9c16dd76b0e",
+      "bytes": 867
+    },
+    "三库角色与同步规则.md": {
+      "sha256": "d91043b69f8e7dbfd648b50958e2a6caf443978420b9ef5be5ad1c280030bccd",
+      "bytes": 1045
+    },
+    "前四轮废弃解释清单.md": {
+      "sha256": "198136c62af85608113b7c372d0974a3bfc3bda71de8a8e0879e23e6f0c2eaa2",
+      "bytes": 1247
+    },
+    "前四轮资产保留清单.md": {
+      "sha256": "42cd902fc9b3619e04760302c60f4462b921c73f4442ecfca68de49aeaef9f1b",
+      "bytes": 1720
+    },
+    "历史结果保留与降级规则.md": {
+      "sha256": "08ca23aab4822f6504cf25e08c6088673e07c0fa068e0a1593a9cdc2838d221c",
+      "bytes": 1790
+    },
+    "执行总览.md": {
+      "sha256": "59173b4cdb7732b1c037b89fe341856ea6448b00f2146b160e01b0594f319b2b",
+      "bytes": 2404
+    },
+    "最终交接报告.md": {
+      "sha256": "77b495028bd61736807c4adfb0049abdc414ffc2598ab1a516f0d4ae99fc9f06",
+      "bytes": 7048
+    },
+    "未完成项与风险.md": {
+      "sha256": "18847db0ee3e63b15450f9d857b35325f2b83f25a5805ed7f727dbb30d1565a3",
+      "bytes": 1066
+    }
+  },
+  "preservation_note": "旧数据/模型/split/log/PDB/PDBQT/docking输出均不因本轮降级而删除；REJECTED表示解释/用途废弃，不表示文件删除。"
+}

@@ -38,8 +38,7 @@
     "class_weight": "balanced_subsample"
   },
   "threshold_pActivity": 8.0,
-  "threshold_note": "exploratory assay-specific label (10 nM; pActivity=8); not a universal efficacy threshold",
-  "metadata_correction": "2026-09-14: corrected threshold wording only; model inputs, labels, split, metrics and artifacts unchanged; legacy pre-correction copy is preserved in asset_preservation_and_gnn_replan_v1/legacy_metadata/",
+  "threshold_note": "exploratory assay-specific label (100 nM); not a universal efficacy threshold",
   "split_seed_used": 20260910,
   "split_algorithm": "GroupShuffleSplit by Murcko scaffold; outer test=20%; inner dev=20% of total; fallback seeds predeclared [20260910,42,123,7,20260911] only to avoid one-class test",
   "split_counts": {

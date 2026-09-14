@@ -154,6 +154,21 @@
         "workbench": "新增pages/17_Research_State.py只读镜像+测试(AppTest渲染0异常;套件113通过)"
       },
       "open_P0": "见 qualification_v1/OPEN_ISSUES.md（O1物料/O2导师签核外部阻塞；O5 Gate T1下一轮计算）"
+    },
+    "batch_asset_preservation_gnn_replan_v1_20260914": {
+      "trigger": "资产保留优先与GNN规划重核对指令",
+      "scope": "三库资产登记/历史降级/GNN仓库定位与计划/状态同步/Workbench镜像",
+      "artifacts": [
+        "00-当前研究/asset_preservation_and_gnn_replan_v1/（资产保留/降级规则、registry、GNN审计与计划、QC、manifest）"
+      ],
+      "key_results": {
+        "registry": "46项精选高价值资产：VERIFIED 30/HISTORICAL 12/REQUALIFY 3/REJECTED 1；全部路径存在并有SHA-256或目录清单哈希；不替代qualification_v1 38项全轮台账",
+        "gnn_replan": "小修即可；不改仓库名；当前gated/closed；保留旧代码、数据、split、预测和日志",
+        "old_docking": "原始输入保留；排序解释rejected；仅structure hypothesis support",
+        "state": "project_stage=pipeline_revalidation; candidate_release=false",
+        "qc": "asset_preservation_and_gnn_replan_v1 QC PASS；qualification_v1 QC PASS；GNN verify_research 9/9 PASS；Workbench targeted 38 passed/AppTest 0 exceptions"
+      },
+      "open_P0": "Gate T1多assay对齐、Moracin N物料/导师签核、GNN结构人工核验"
     }
   },
   "status_classes": {
@@ -172,5 +187,57 @@
     "internal_deadline": "2027-02-01",
     "target": "中文核心；目录版本与学校认可待核实",
     "status": "任务待本人确认；最终科学验证和投稿均未完成"
+  },
+  "project_stage": "pipeline_revalidation",
+  "fasn": {
+    "canonical_model": "qualified_local",
+    "external_generalization": "failed_or_limited",
+    "gate_t1": "pending",
+    "gnn_enable_gate": "closed",
+    "natural_product_ranking": "blocked_ood",
+    "current_scope": "canonical assay model; AD内排序+不确定性；禁止绝对pIC50"
+  },
+  "thrb": {
+    "old_2j4a": "historical_mutant",
+    "wt_docking_ranking": "rejected",
+    "current_role": "clinical_mechanism_reference_or_reporter_only"
+  },
+  "fxr": {
+    "status": "evidence_anchor",
+    "internal_model": "historical_internal_scaffold_reference",
+    "external_validation": "not_claimed",
+    "threshold_note": "pActivity=8 is assay-specific 100 nM label; not universal efficacy threshold"
+  },
+  "moracin_n": {
+    "status": "experimental_start_qualified",
+    "biological_validation": "not_executed",
+    "material": "not_arrived"
+  },
+  "gnn": {
+    "repository_role": "method_learning_historical_review_member_workspace",
+    "activity": "gated",
+    "enable_gate": "closed",
+    "benchmark": "GCN median R2 0.078; GINE median R2 -0.040; Ridge median R2 0.732",
+    "repo_replan": "small_fix_only_no_rename"
+  },
+  "asset_preservation": {
+    "round": "asset_preservation_and_gnn_replan_v1",
+    "registry": "00-当前研究/asset_preservation_and_gnn_replan_v1/MASTER_ASSET_REGISTRY.csv",
+    "registry_assets": 46,
+    "registry_hash_summary": "derived/registry_summary.json",
+    "old_assets_deleted": false,
+    "preservation_policy": "retain_downgrade_index_hash",
+    "registry_scope": "精选高价值资产；状态数以 derived/registry_summary.json 为准；qualification_v1 38项全轮台账仍保留",
+    "status_counts": {
+      "VERIFIED": 30,
+      "HISTORICAL": 12,
+      "REQUALIFY": 3,
+      "REJECTED": 1
+    }
+  },
+  "workbench": {
+    "role": "execution_audit_readonly_mirror",
+    "state_source": "aidd qualification_v1 and asset_preservation_and_gnn_replan_v1",
+    "candidate_generation": "disabled"
   }
 }

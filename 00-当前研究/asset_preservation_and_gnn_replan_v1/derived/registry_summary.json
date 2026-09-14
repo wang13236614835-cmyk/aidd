@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-09-14T08:15:35.203323+00:00",
+  "registry_scope": "curated high-value assets across the three repositories; directory rows use aggregate manifest hash",
+  "asset_count": 46,
+  "status_counts": {
+    "VERIFIED": 30,
+    "HISTORICAL": 12,
+    "REJECTED": 1,
+    "REQUALIFY": 3
+  },
+  "missing": [],
+  "repositories": {
+    "aidd": "D:\\zcode-workspace\\aidd-repo-work",
+    "hepato-gnn-screening": "D:\\zcode-workspace\\hepato-gnn-screening",
+    "workbench": "D:\\aidd destoop"
+  }
+}
