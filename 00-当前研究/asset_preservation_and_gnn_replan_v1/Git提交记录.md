@@ -9,8 +9,9 @@
 ## 实际提交
 
 - AIDD 主库：`62201b7`（主体）+ `4708ce6`（提交记录）+ `075dc1f`（registry/manifest）+ `f96ea65`（最终交接报告）+ `e4480a2`（报告后最终 registry/manifest）。
-- GNN 库：`71a1885`（README/RESEARCH_STATE/STATUS/计划/审计/状态表、legacy-demo 文案、空 CSV 修复、软件检查结果）。
-- Workbench：`8fb6042`（17 Research State 页机器状态/registry 摘要、页面测试、frozen smoke 路由）。
+- GNN 库：`71a1885`（README/RESEARCH_STATE/STATUS/计划/审计/状态表、legacy-demo 文案、空 CSV 修复、软件检查结果）；之后已有 `19d518d` W1 打卡归档提交，本轮不改动。
+- Workbench：`8fb6042`（17 Research State 页机器状态/registry 摘要、页面测试、frozen smoke 路由）；之后已有 `e9b2bdf` 科研加固/中文化提交，本轮不改动；发布线仍有未提交修改。
+
 
 ## 提交前要求
 
