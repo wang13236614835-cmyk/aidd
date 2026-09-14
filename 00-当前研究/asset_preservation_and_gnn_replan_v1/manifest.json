@@ -1,6 +1,6 @@
 {
   "round": "asset_preservation_and_gnn_replan_v1",
-  "generated_at": "2026-09-14T08:25:14.589969+00:00",
+  "generated_at": "2026-09-14T08:26:35.684118+00:00",
   "purpose": "retain, downgrade, index and hash existing assets; no historical asset deletion",
   "registry": {
     "asset_count": 46,
@@ -42,7 +42,7 @@
   },
   "repository_snapshots": {
     "aidd": {
-      "head": "f96ea65219a2d54f5200dbf76e5de99633d9659c",
+      "head": "d591575e4cf6cbc07cab26e4fa3074929eda0e58",
       "status_lines": 2
     },
     "hepato-gnn-screening": {
@@ -72,7 +72,7 @@
       "bytes": 1342
     },
     "derived/registry_summary.json": {
-      "sha256": "6b8549fa06fdcbb7dfefa5406fe19f6f0c9351fcfd2cad102838fdccbe7328c7",
+      "sha256": "eacd26465b25c5a4421f5a7b36dd1e1d4d607a6c84f5f44e10272962b61d4057",
       "bytes": 524
     },
     "derived/test_results.json": {
@@ -96,8 +96,8 @@
       "bytes": 908
     },
     "Git提交记录.md": {
-      "sha256": "e89be63a0ed4bea947597bab4af9bcf7657791ce46a87aa87313ccb7436931d0",
-      "bytes": 1185
+      "sha256": "16bbb51889115dd17e663afeefad9c37152047f078461102577d1455b8e8f00c",
+      "bytes": 1226
     },
     "GNN_RESEARCH_PLAN_v2.md": {
       "sha256": "c807f8f2ab262c99c44fb07e1cab6a4fbc558223b30870bb90bf13d160212196",
