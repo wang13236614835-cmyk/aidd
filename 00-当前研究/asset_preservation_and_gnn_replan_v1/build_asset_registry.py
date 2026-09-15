@@ -20,9 +20,94 @@ OUT = AIDD / "00-当前研究/asset_preservation_and_gnn_replan_v1"
 
 FIELDS = [
     "asset_id", "repository", "relative_path", "asset_type", "target",
-    "source_round", "qualification_status", "evidence_level", "current_role",
-    "superseded_by", "hash", "bytes", "file_count", "path_status", "notes",
+    "source_round", "original_or_derived", "qualification_status",
+    "evidence_level", "current_scientific_role", "current_role",
+    "superseded_by", "reproducible", "hash", "bytes", "file_count",
+    "path_status", "human_review", "notes",
 ]
+
+
+def _classify(asset_type: str, target: str, source_round: str) -> str:
+    """Mark whether the asset is an original source-of-truth or a derived artifact."""
+    text = f"{asset_type}|{target}|{source_round}".lower()
+    if any(marker in text for marker in (
+        "_derived", "derived_", "old_", "historical_", "legacy_",
+        "predicted", "prediction", "ranking", "processed_",
+    )):
+        return "derived"
+    if "raw" in asset_type:
+        return "original"
+    return "original"
+
+
+def _scientific_role(asset_type: str) -> str:
+    mapping = {
+        "raw_activity": "raw_source_of_truth",
+        "master_table": "primary_master_table",
+        "assay_aware_table": "assay_stratified_master",
+        "qualified_dataset": "canonical_training_input",
+        "external_dataset": "external_validation_input",
+        "historical_split": "historical_split_only",
+        "historical_predictions": "historical_method_reference",
+        "benchmark_results": "benchmark_summary",
+        "permutation_results": "non_chance_evidence",
+        "leakage_audit": "leakage_audit_evidence",
+        "external_validation": "cross_assay_validation_evidence",
+        "ad_uq_report": "applicability_domain_evidence",
+        "reproduction_code": "reproduction_script",
+        "activity_table": "evidence_anchor_table",
+        "model_bundle": "scaffold_reference_model",
+        "model_manifest": "model_provenance",
+        "legacy_metadata": "historical_metadata_audit",
+        "receptor_structure": "mutant_receptor_artifact",
+        "prepared_receptor": "mutant_receptor_prepared",
+        "docking_bundle": "docking_ranking_failure_evidence",
+        "docking_manifest": "docking_execution_provenance",
+        "candidate_ranking_interpretation": "rejected_candidate_ranking",
+        "evidence_matrix": "primary_evidence_chain",
+        "research_state": "authoritative_state",
+        "raw_labeled_table": "legacy_labeled_pool",
+        "raw_unlabeled_pool": "legacy_unlabeled_pool",
+        "curation_registry": "structure_pending_human_review",
+        "structure_correction": "structure_suggestion_pending_human_review",
+        "validation_bundle": "software_diagnostic_bundle",
+        "legacy_validation_snapshot": "legacy_software_snapshot",
+        "model_artifact": "legacy_model_weights",
+        "reproduction_code_legacy": "legacy_reproduction_script",
+        "model_code": "method_learning_code",
+        "data_loader_code": "method_learning_loader",
+        "split_bundle": "historical_split_bundle",
+        "results_bundle": "historical_results_bundle",
+        "asset_status_table": "asset_status_index",
+        "state_mirror_code": "readonly_state_mirror",
+        "test_code": "readonly_state_test",
+    }
+    return mapping.get(asset_type, "method_learning_artifact")
+
+
+def _reproducibility(asset_type: str, qualification_status: str) -> str:
+    if qualification_status in {"HISTORICAL", "REJECTED"}:
+        return "historical_only"
+    if asset_type in {
+        "raw_activity", "master_table", "assay_aware_table", "qualified_dataset",
+        "external_dataset", "activity_table", "model_bundle", "evidence_matrix",
+        "research_state", "asset_status_table",
+    }:
+        return "yes"
+    if asset_type in {
+        "model_code", "data_loader_code", "baseline_code", "reproduction_code",
+        "state_mirror_code", "test_code",
+    }:
+        return "yes"
+    return "partial"
+
+
+def _human_review(qualification_status: str, notes: str) -> str:
+    if "NEEDS_HUMAN_CHECK" in notes or "逐条人工核验" in notes or "pending_review" in notes:
+        return "pending"
+    if qualification_status == "REQUALIFY":
+        return "verify_before_formal_use"
+    return "passed"
 
 # 高价值资产登记：状态针对“能支持什么”，不等同于文件是否存在。
 SPECS = [
@@ -110,13 +195,20 @@ def main() -> None:
         else:
             digest, size, count = file_hash(path)
             path_status = "EXISTS"
+        original_or_derived = _classify(asset_type, target, source_round)
+        scientific_role = _scientific_role(asset_type)
+        reproducible = _reproducibility(asset_type, status)
+        human_review = _human_review(status, notes or "")
         rows.append({
             "asset_id": asset_id, "repository": repo, "relative_path": rel,
             "asset_type": asset_type, "target": target, "source_round": source_round,
+            "original_or_derived": original_or_derived,
             "qualification_status": status, "evidence_level": evidence,
-            "current_role": role, "superseded_by": superseded, "hash": digest,
+            "current_scientific_role": scientific_role,
+            "current_role": role, "superseded_by": superseded,
+            "reproducible": reproducible, "hash": digest,
             "bytes": size, "file_count": count, "path_status": path_status,
-            "notes": notes,
+            "human_review": human_review, "notes": notes,
         })
     out_csv = OUT / "MASTER_ASSET_REGISTRY.csv"
     with out_csv.open("w", encoding="utf-8-sig", newline="") as fh:

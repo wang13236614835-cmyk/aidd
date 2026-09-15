@@ -3,7 +3,7 @@
   "issues": [],
   "checks": {
     "required_docs": {
-      "count": 28,
+      "count": 31,
       "missing": []
     },
     "registry_rows": 46,

@@ -4,7 +4,7 @@
 
 ## 检查项
 
-- required_docs: {'count': 28, 'missing': []}
+- required_docs: {'count': 31, 'missing': []}
 - registry_rows: 46
 - registry_status_counts: {'VERIFIED': 30, 'HISTORICAL': 12, 'REJECTED': 1, 'REQUALIFY': 3}
 - registry_missing_assets: []

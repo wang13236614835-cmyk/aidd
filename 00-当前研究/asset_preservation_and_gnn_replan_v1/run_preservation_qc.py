@@ -20,12 +20,14 @@ issues: list[str] = []
 checks: dict[str, object] = {}
 
 REQUIRED_DOCS = [
-    "执行总览.md", "MASTER_ASSET_REGISTRY.csv", "历史结果保留与降级规则.md", "前四轮资产保留清单.md",
+    "执行总览.md", "MASTER_ASSET_REGISTRY.csv", "GNN_ASSET_STATUS.csv",
+    "build_gnn_asset_status.py",
+    "历史结果保留与降级规则.md", "前四轮资产保留清单.md",
     "前四轮废弃解释清单.md", "FASN历史资产保留方案.md", "THRB历史资产保留方案.md", "FXR历史资产保留方案.md",
     "Docking历史资产保留方案.md", "GNN仓库审计.md", "GNN_RESEARCH_PLAN_v2.md", "GNN是否需要大改_裁决.md",
     "GNN数据与模型状态表.csv", "三库角色与同步规则.md", "AIDD主库状态同步记录.md", "Workbench同步记录.md",
     "Git提交记录.md", "未完成项与风险.md", "FXR元数据口径修正记录.md", "build_asset_registry.py", "run_preservation_qc.py", "build_manifest.py",
-    "QC_report.md", "manifest.json", "最终交接报告.md", "derived/registry_summary.json", "derived/qc_checks.json", "derived/test_results.json",
+    "QC_report.md", "manifest.json", "最终交接报告.md", "derived/registry_summary.json", "derived/qc_checks.json", "derived/test_results.json", "derived/gnn_asset_status_summary.json",
 ]
 VALID = {"VERIFIED", "REQUALIFY", "HISTORICAL", "REJECTED"}
 

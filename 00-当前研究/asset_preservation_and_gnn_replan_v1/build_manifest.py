@@ -26,10 +26,29 @@ def digest(path: Path) -> str:
 
 
 def git_snapshot(path: Path) -> dict:
-    out = {}
+    out: dict[str, object] = {}
     try:
-        out["head"] = subprocess.check_output(["git", "-C", str(path), "rev-parse", "HEAD"], text=True).strip()
-        out["status_lines"] = len(subprocess.check_output(["git", "-C", str(path), "status", "--short"], text=True, errors="replace").splitlines())
+        out["head"] = subprocess.check_output(
+            ["git", "-C", str(path), "rev-parse", "HEAD"], text=True
+        ).strip()
+        out["branch"] = subprocess.check_output(
+            ["git", "-C", str(path), "rev-parse", "--abbrev-ref", "HEAD"], text=True
+        ).strip()
+        out["status_lines"] = len(
+            subprocess.check_output(
+                ["git", "-C", str(path), "status", "--short"], text=True, errors="replace"
+            ).splitlines()
+        )
+        try:
+            out["uncommitted_files"] = [
+                line
+                for line in subprocess.check_output(
+                    ["git", "-C", str(path), "status", "--short"], text=True, errors="replace"
+                ).splitlines()
+                if line.strip()
+            ]
+        except Exception as exc:
+            out["uncommitted_files_error"] = repr(exc)
     except Exception as exc:
         out["error"] = repr(exc)
     return out
@@ -43,9 +62,11 @@ def main() -> None:
         rel = path.relative_to(ROOT).as_posix()
         files[rel] = {"sha256": digest(path), "bytes": path.stat().st_size}
     summary_path = ROOT / "derived/registry_summary.json"
+    gnn_summary_path = ROOT / "derived/gnn_asset_status_summary.json"
     qc_path = ROOT / "derived/qc_checks.json"
     tests_path = ROOT / "derived/test_results.json"
     summary = json.loads(summary_path.read_text(encoding="utf-8")) if summary_path.exists() else {}
+    gnn_summary = json.loads(gnn_summary_path.read_text(encoding="utf-8")) if gnn_summary_path.exists() else {}
     qc = json.loads(qc_path.read_text(encoding="utf-8")) if qc_path.exists() else {}
     tests = json.loads(tests_path.read_text(encoding="utf-8")) if tests_path.exists() else {}
     manifest = {
@@ -56,6 +77,11 @@ def main() -> None:
             "asset_count": summary.get("asset_count"),
             "status_counts": summary.get("status_counts", {}),
             "missing": summary.get("missing", []),
+        },
+        "gnn_asset_status": {
+            "row_count": gnn_summary.get("row_count"),
+            "status_counts": gnn_summary.get("status_counts", {}),
+            "human_review_counts": gnn_summary.get("human_review_counts", {}),
         },
         "qc": {"verdict": qc.get("verdict"), "issues": qc.get("issues", [])},
         "tests": tests,
@@ -68,7 +94,13 @@ def main() -> None:
         "preservation_note": "旧数据/模型/split/log/PDB/PDBQT/docking输出均不因本轮降级而删除；REJECTED表示解释/用途废弃，不表示文件删除。",
     }
     (ROOT / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(json.dumps({"files": len(files), "registry": manifest["registry"], "qc": manifest["qc"]}, ensure_ascii=False, indent=2))
+    print(json.dumps({
+        "files": len(files),
+        "registry": manifest["registry"],
+        "gnn_asset_status": manifest["gnn_asset_status"],
+        "qc": manifest["qc"],
+        "repo_heads": {k: v.get("head") for k, v in manifest["repository_snapshots"].items()},
+    }, ensure_ascii=False, indent=2))
 
 
 if __name__ == "__main__":

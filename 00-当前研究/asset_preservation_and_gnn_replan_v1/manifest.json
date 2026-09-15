@@ -1,6 +1,6 @@
 {
   "round": "asset_preservation_and_gnn_replan_v1",
-  "generated_at": "2026-09-14T08:31:53.275690+00:00",
+  "generated_at": "2026-09-15T12:59:30.826204+00:00",
   "purpose": "retain, downgrade, index and hash existing assets; no historical asset deletion",
   "registry": {
     "asset_count": 46,
@@ -11,6 +11,18 @@
       "REQUALIFY": 3
     },
     "missing": []
+  },
+  "gnn_asset_status": {
+    "row_count": 12,
+    "status_counts": {
+      "VERIFIED": 5,
+      "REQUALIFY": 2,
+      "HISTORICAL": 5
+    },
+    "human_review_counts": {
+      "pending": 1,
+      "passed": 11
+    }
   },
   "qc": {
     "verdict": "PASS",
@@ -42,37 +54,104 @@
   },
   "repository_snapshots": {
     "aidd": {
-      "head": "02e4e6509e8c58507e9e8b025831d808ab2ca308",
-      "status_lines": 2
+      "head": "2020779c339f8df03dc87bf4e13fbdd7065230a1",
+      "branch": "round5-direction-exploration-20260915",
+      "status_lines": 18,
+      "uncommitted_files": [
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/AIDD\\344\\270\\273\\345\\272\\223\\347\\212\\266\\346\\200\\201\\345\\220\\214\\346\\255\\245\\350\\256\\260\\345\\275\\225.md\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/MASTER_ASSET_REGISTRY.csv\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/QC_report.md\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/Workbench\\345\\220\\214\\346\\255\\245\\350\\256\\260\\345\\275\\225.md\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/build_asset_registry.py\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/build_manifest.py\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/derived/qc_checks.json\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/derived/registry_summary.json\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/manifest.json\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/run_preservation_qc.py\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/\\346\\234\\200\\347\\273\\210\\344\\272\\244\\346\\216\\245\\346\\212\\245\\345\\221\\212.md\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/file_inventory.csv\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/file_inventory.json\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/qualification_v1/RESEARCH_STATE.md\"",
+        "?? \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/GNN_ASSET_STATUS.csv\"",
+        "?? \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/build_gnn_asset_status.py\"",
+        "?? \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/derived/gnn_asset_status_summary.json\"",
+        "?? \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/\\344\\270\\211\\345\\272\\223\\345\\220\\214\\346\\255\\245\\344\\270\\216\\351\\252\\214\\346\\224\\266\\346\\212\\245\\345\\221\\212_20260915.md\""
+      ]
     },
     "hepato-gnn-screening": {
-      "head": "e45a9f5fb140abc4d5508a9577a2b2e81239fcb0",
-      "status_lines": 0
+      "head": "f87aa5088101360b71595ff5d9e5ca76a376516e",
+      "branch": "round5-direction-exploration-20260915",
+      "status_lines": 0,
+      "uncommitted_files": []
     },
     "workbench": {
-      "head": "e9b2bdf0b4077e102fd2f257e04a940b316885c1",
-      "status_lines": 11
+      "head": "b918fa37851b2fd40cac68b6d265f9f1d7c0e82b",
+      "branch": "round5-direction-exploration-20260915",
+      "status_lines": 33,
+      "uncommitted_files": [
+        " M README.md",
+        " M RESEARCH_QUALIFICATION_ARCHITECTURE.md",
+        " M V0.6_PHASE1_IMPLEMENTATION_REPORT.md",
+        " M app.py",
+        " M core/dti_qualification.py",
+        " M core/evidence_taxonomy.py",
+        " M core/research_qualification.py",
+        " M core/run_archive.py",
+        " M pages/01_Project.py",
+        " M pages/05_DTI_Validation.py",
+        " M pages/08_Evidence.py",
+        " M pages/10_Candidates.py",
+        " M pages/17_Research_State.py",
+        " M schemas/compound_master.py",
+        " M tests/test_core_science.py",
+        " M tests/test_research_qualification_phase1.py",
+        " M workflows/dti_screen.py",
+        "?? ASTRA_ROUND5_CLOSURE_REVIEW.md",
+        "?? Morgan_features.h5",
+        "?? ProtBert_features.h5",
+        "?? ROUND5_1_INFORMATION_ARCHITECTURE_REPORT.md",
+        "?? ROUND5_1_PRODUCTION_GATE_CLOSURE_REPORT.md",
+        "?? data/benchmark/_conplex_inference.py",
+        "?? data/benchmark/_conplex_input.json",
+        "?? data/benchmark/_conplex_input.tsv",
+        "?? data/benchmark/_conplex_output.json",
+        "?? data/benchmark/_conplex_results.tsv",
+        "?? exports/",
+        "?? scripts/run_dti_inference_v2.py",
+        "?? scripts/run_phase2a_qualification.py",
+        "?? tests/test_phase2a_qualification.py",
+        "?? tests/test_round51_production.py",
+        "?? workflows/phase2a_qualification.py"
+      ]
     }
   },
   "files_excluding_manifest": {
     "AIDD主库状态同步记录.md": {
-      "sha256": "69fd5010cf71ed18c6d7b4ef228ed6b0db3c997ee68bb9aac70ced9d37dc1520",
-      "bytes": 944
+      "sha256": "f40b8c260d8796a77d1021cc1e9a43cba308eda85b3fa5ade36dc25dc622f8ec",
+      "bytes": 2494
     },
     "build_asset_registry.py": {
-      "sha256": "438d1f78d85229ce603231872ab844742e848a499b84cf697dc7de80b81848a4",
-      "bytes": 16725
+      "sha256": "4e133b5d59d0cac98da7121f59cf2335b5b14447a7de2a5b4866475ec16669a7",
+      "bytes": 20970
+    },
+    "build_gnn_asset_status.py": {
+      "sha256": "8ac5a3da09f4b22171b2fd86fdbee8633db406f13342f0f7d7725f56678e798b",
+      "bytes": 5418
     },
     "build_manifest.py": {
-      "sha256": "de6b53fc276e63bf07486441aedbb18140d384372e66fb9bf882f03ef020d7ec",
-      "bytes": 3055
+      "sha256": "6d748e27452ce0f043d30defa3cb6787182309432f6cdef6bdea5ebe610d46a1",
+      "bytes": 4296
+    },
+    "derived/gnn_asset_status_summary.json": {
+      "sha256": "66a05462f09eef80279f5f0860d14c1ee572ccc53b9122e8c65712a523df0436",
+      "bytes": 523
     },
     "derived/qc_checks.json": {
-      "sha256": "4cbed5794d4b83f1ac3432cc91835707cd18b588298042083590a562c2b68b9a",
-      "bytes": 1342
+      "sha256": "f4b043284d3b15e7e5aacfdb8bb15eca221a4a1bedbc37f3f471a59939945300",
+      "bytes": 1391
     },
     "derived/registry_summary.json": {
-      "sha256": "13ffcd269853a53548fd25ed1f4a29f80321b49d678b0c1489613025aa58f876",
+      "sha256": "40afbbe344d045b26e805735d0213756c828d1852f9188f5b49f3a5dae1d03e1",
       "bytes": 524
     },
     "derived/test_results.json": {
@@ -99,6 +178,10 @@
       "sha256": "f21e98a53159f8686071f9430d1c41abcb38a1c75d19e8054ddca6e34ffd714d",
       "bytes": 1397
     },
+    "GNN_ASSET_STATUS.csv": {
+      "sha256": "55e07aa7fad6baa4e8f0b178ffcdcd3dd59b58ef7d114668e8c961edc0e0828c",
+      "bytes": 3630
+    },
     "GNN_RESEARCH_PLAN_v2.md": {
       "sha256": "c807f8f2ab262c99c44fb07e1cab6a4fbc558223b30870bb90bf13d160212196",
       "bytes": 2474
@@ -124,24 +207,28 @@
       "bytes": 1855
     },
     "MASTER_ASSET_REGISTRY.csv": {
-      "sha256": "482a6e3023b452d236b162e67cc93947af4663bfce866cf7b5d609b3eccdcb32",
-      "bytes": 15088
+      "sha256": "4a1736576d534fabcdcabfb26daf208c5bc084ccdb897770c560370bb3557411",
+      "bytes": 17430
     },
     "QC_report.md": {
-      "sha256": "5b122f10c2d6eb5d4df3e94bcb7380f840e7ada9aa0a7bf4e3ef323d1c8f2319",
-      "bytes": 1112
+      "sha256": "4fbfe9a8196739cdd9a8a9a27f5dd1eff19bf2f05961cf34b1beb18105a3c57c",
+      "bytes": 1154
     },
     "run_preservation_qc.py": {
-      "sha256": "5dfaa633836646a0e862067cf424ee2f331158f92f4355965d5075676acf345c",
-      "bytes": 7360
+      "sha256": "ae8f9551bc3ca2d2d9aefd6319ea9c8581f233d6d3d0d5cc4640a50e36a766f6",
+      "bytes": 7817
     },
     "THRB历史资产保留方案.md": {
       "sha256": "472f80a015c727eabe6421bf541eb718923e2362d522e41b6fdd871347c9ee1a",
       "bytes": 748
     },
     "Workbench同步记录.md": {
-      "sha256": "7ee3ce75ebaaf4f6e79bd30fb2bfbed94f6848bad9b30053ed42c9c16dd76b0e",
-      "bytes": 867
+      "sha256": "c7470cf9e7df951af5a927cb9571d0b7e062f089594306a0f211f7ce64ed7bb5",
+      "bytes": 1927
+    },
+    "三库同步与验收报告_20260915.md": {
+      "sha256": "4a3cb861d1f7ccdadb24eb1786f0b03187de62d24d0c4ffba0459f6e6522bc2f",
+      "bytes": 7575
     },
     "三库角色与同步规则.md": {
       "sha256": "d91043b69f8e7dbfd648b50958e2a6caf443978420b9ef5be5ad1c280030bccd",
@@ -164,8 +251,8 @@
       "bytes": 2404
     },
     "最终交接报告.md": {
-      "sha256": "5efeeaa844e48d39bffea0ec83978376469ba9e4d5b50602cc3a49f248269266",
-      "bytes": 7637
+      "sha256": "275c9ca9a0261b144f399c4b6f56058e1fa75bff382d6454864267fb36695593",
+      "bytes": 7678
     },
     "未完成项与风险.md": {
       "sha256": "18847db0ee3e63b15450f9d857b35325f2b83f25a5805ed7f727dbb30d1565a3",
