@@ -1,6 +1,6 @@
 {
   "round": "fifth_round_direction_exploration_20260915",
-  "generated_at": "2026-09-15T09:03:17.323731+00:00",
+  "generated_at": "2026-09-15T09:21:20.363342+00:00",
   "decision": "FAIL",
   "scope": "FASN T1 shared-assay/leakage/transform audit plus direction qualification; no full historical rerun",
   "t1_summary": {
@@ -100,31 +100,19 @@
   },
   "repository_snapshots": {
     "aidd": {
-      "head": "8915896dc690d0f28604c4ea09bd69dd2c5c8bdf",
-      "status_lines": 7,
+      "head": "e1bda0d21e015b2a677364c9a1fb55f570437e6f",
+      "status_lines": 1,
       "uncommitted_files": [
-        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/README.md\"",
-        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/QC_report.md\"",
-        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/derived/qc_checks.json\"",
-        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/run_preservation_qc.py\"",
-        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/qualification_v1/RESEARCH_STATE.md\"",
-        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/\\347\\240\\224\\347\\251\\266\\347\\212\\266\\346\\200\\201.json\"",
-        "?? \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/fifth_round_direction_exploration_20260915/\""
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/fifth_round_direction_exploration_20260915/\\347\\254\\254\\344\\272\\224\\350\\275\\256\\350\\265\\204\\346\\240\\274\\350\\243\\201\\345\\206\\263\\344\\270\\216\\346\\226\\271\\345\\220\\221\\346\\216\\242\\347\\264\\242\\346\\211\\247\\350\\241\\214\\346\\212\\245\\345\\221\\212.md\""
       ]
     },
     "hepato-gnn-screening": {
-      "head": "66f51e2df58d5a492e39a0a5ab79420c24612478",
-      "status_lines": 5,
-      "uncommitted_files": [
-        " M GNN_RESEARCH_PLAN_v2.md",
-        " M README.md",
-        " M RESEARCH_STATE.md",
-        " M STATUS.json",
-        " M tests/test_workbench_contract.py"
-      ]
+      "head": "f87aa5088101360b71595ff5d9e5ca76a376516e",
+      "status_lines": 0,
+      "uncommitted_files": []
     },
     "mash-aidd-workbench": {
-      "head": "396a60e081be272a707b4f3db1bc1cd6b4ab3d6c",
+      "head": "0166700c6b4e61da80242eee0b0a896dfa5f7461",
       "status_lines": 32,
       "uncommitted_files": [
         " M app.py",
@@ -133,18 +121,17 @@
         " M core/database.py",
         " M core/dti_qualification.py",
         " M core/evidence_taxonomy.py",
+        " M core/model_qualification.py",
         " M core/project.py",
-        " M core/research_workflow.py",
         " M core/run_archive.py",
         " M pages/02_Compounds.py",
         " M pages/05_DTI_Validation.py",
         " M pages/07_Docking.py",
         " M pages/08_Evidence.py",
+        " M pages/09_Logs.py",
         " M pages/10_Candidates.py",
-        " M pages/17_Research_State.py",
         " M schemas/compound_master.py",
         " M tests/test_core_science.py",
-        " M tests/test_research_workflow.py",
         " M workflows/dti_screen.py",
         "?? ASTRA_ROUND5_CLOSURE_REVIEW.md",
         "?? Morgan_features.h5",
@@ -158,6 +145,7 @@
         "?? data/benchmark/_conplex_output.json",
         "?? data/benchmark/_conplex_results.tsv",
         "?? scripts/run_dti_inference_v2.py",
+        "?? tests/test_research_qualification_phase1.py",
         "?? tests/test_round51_production.py"
       ]
     }
@@ -240,8 +228,8 @@
       "bytes": 4246
     },
     "第五轮资格裁决与方向探索执行报告.md": {
-      "sha256": "568b34c7278913f67a48a97461140f00e67d1405a2250ef27c7892bb138039f4",
-      "bytes": 7372
+      "sha256": "fd2f2dccb236ce71fae9d0fda248b77054a05dda4a4c7678638fc5c0420c5fcd",
+      "bytes": 8468
     }
   },
   "no_candidate_release": true,
