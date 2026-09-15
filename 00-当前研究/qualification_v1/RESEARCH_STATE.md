@@ -4,7 +4,7 @@
 
 ## 1. 研究到了哪里（一段话）
 
-MASH（代谢功能障碍相关脂肪性肝炎）干实验研究，双轴架构（2026-09-12 冻结）：**长期 AIDD 主轴 = FASN**（de novo 脂肪合成），**近期验证轴 = Moracin N**（NRF2-dependent ferroptosis 重定位）。两轴均已完成实验前资格裁决：FASN = CONDITIONAL GO（canonical assay 建模资格成立，跨 assay/天然产物资格不发放）；Moracin N = GO（实验启动包冻结，物料未到货，0 个生物学结果）。本项目至今**没有任何湿实验数据**，所有结论来自公开数据库 + 计算。
+MASH（代谢功能障碍相关脂肪性肝炎）研究已进入**第五轮方向探索**。本轮对 FASN Gate T1 做了共享 assay、可比性、泄漏和 assay 变换定向审计：51 个 assay 两两 1,275 对中，排除 1 个 canonical/mirror pair 和 2 个 protein layer 不匹配 pair 后，仅剩 1 个有效可比 pair，低于预冻结的至少 2 对，故 **FASN Gate T1 = FAIL**。FASN 不删除、不清零，收窄为 canonical assay 内局部 SAR + provenance/方法学线；近期 Primary 转为 Moracin N–NRF2/ferroptosis 肝细胞机制验证。Moracin N 仍为实验启动资格，物料未到、0 个生物学结果。GNN gate 继续 closed，`candidate_release=false`。
 
 ## 2. 已成立的科学结论（可引用，须带限定语）
 
@@ -29,10 +29,10 @@ MASH（代谢功能障碍相关脂肪性肝炎）干实验研究，双轴架构�
 
 ## 4. 需要科学资格验证（尚未取得）
 
-- FASN 跨 assay 泛化（Gate T1：多 assay 对齐数据集，≥15 共享分子/assay 对）——**未开始**，需要新数据组装；
-- FASN 模型任何"一般 FASN activity model"表述——禁止，直到 T1 或外部校准集通过；
-- GNN 是否在当前数据上提供增益——**本轮以 clean benchmark 首次实证**（结论见 C10，无论正负）；
-- Moracin N 全部 Gate M0/B0/1/2/3 生物学判读——等待物料。
+- FASN 跨 assay 泛化（Gate T1）——**已裁决 FAIL**：51 assays 两两矩阵 1,275 对，排除 mirror 与 protein layer 不匹配后仅 1 个有效可比 pair，未达到至少 2 对；
+- FASN 模型任何"一般 FASN activity model"表述——禁止；当前只保留 canonical local 方法学线；
+- GNN 是否在当前数据上提供增益——已完成 clean benchmark，结论见 C10，enable gate 继续 closed；
+- Moracin N 全部 Gate M0/B0/1/2/3 生物学判读——等待物料，仍未执行。
 
 ## 5. 禁止发布 / 不能再用的表述
 
@@ -46,12 +46,12 @@ MASH（代谢功能障碍相关脂肪性肝炎）干实验研究，双轴架构�
 
 | 路线 | 状态 | 下一道门 |
 |---|---|---|
-| FASN（AIDD 主轴） | CONDITIONAL GO，A2 收窄后只保排序迁移 | Gate T1（多 assay 对齐） |
-| Moracin N（验证轴） | GO，物料未到货 | 到货即执行 M0 |
+| FASN（AIDD 主轴） | **T1 FAIL**；降为 canonical local 方法学/数据审计线 | 仅等待第二个有效可比 assay pair |
+| Moracin N（验证轴） | GO，物料未到货，生物学未执行 | 到货即执行 M0 |
 | THR-β | 临床机制参照/备选 reporter 线 | 暂停主动投入 |
-| FXR | 疾病锚点/QC（formononetin 支线） | 暂停主动投入 |
+| FXR | 疾病锚点/QC（Formononetin Secondary） | 仅做依赖性桥接/QC |
 | ACC | 附录级 | 暂停 |
-| 旧 GNN 筛选线 | HISTORICAL | 不重启（除非 C10 转正） |
+| 旧 GNN 筛选线 | HISTORICAL；GNN enable gate=CLOSED | 不重启为主模型 |
 | Docking 筛选线 | REJECTED（排序用途） | 仅保留结构假说支持用途 |
 
 ## 7. 三库角色（冻结）
@@ -62,8 +62,10 @@ MASH（代谢功能障碍相关脂肪性肝炎）干实验研究，双轴架构�
 | **mash-aidd-workbench** | `D:\aidd destoop` | 执行与审计基础设施（导入/QC/manifest/gate/evidence/日志） | 不得成为第二条候选发布链；不为界面而界面 |
 | **hepato-gnn-screening** | `D:\zcode-workspace\hepato-gnn-screening` | GNN 方法学习 + 历史结果核验 + 组员工作台 | 旧 Top-10 等只能标注为历史/验证对象/教学示例 |
 
-## 8. 下一阶段
+## 8. 第五轮方向探索
 
-1. **Gate T1（FASN）**：组装多 assay 对齐数据集（≥15 共享分子/assay 对 → assay 间变换 → 归一化训练集重跑分层验证）；失败则 FASN 降级方法学线。
-2. **Moracin N**：导师批准 + 下单（GlpBio ¥520 / MCE 试用装）→ 到货执行 M0 六项。
-3. C10 的 GNN 结论并入 FASN_GNN_gate_decision 的下一版复审。
+1. **Primary：Moracin N–NRF2/ferroptosis 肝细胞机制验证**：导师批准/物料到货后执行 M0→B0→Gate1/2/3；实验前资格不等于生物学阳性或候选放行。
+2. **Secondary：FXR/Formononetin 依赖性桥接 + Biochanin A QC**：只做已知体系的依赖性和板级对照，不做新的 FXR NP 总榜。
+3. **Reserve：THRβ reporter、Isorhamnetin、FASN 直接酶实验、SCD1/DGAT2 重资格化**：需要额外平台、数据或 provenance 前置。
+4. **FASN**：仅在获得第二个有效可比 assay pair 后重开 T1；否则不继续堆模型。
+5. 详细矩阵和唯一裁决见 `../fifth_round_direction_exploration_20260915/EXECUTION_OVERVIEW.md` 与 `GATE_DECISION.json`。

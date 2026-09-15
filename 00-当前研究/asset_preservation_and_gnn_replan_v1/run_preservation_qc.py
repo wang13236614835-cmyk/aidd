@@ -69,17 +69,21 @@ def main() -> int:
         "project_stage": state.get("project_stage"),
         "candidate_release": state.get("candidate_release"),
         "fasn_gate_t1": state.get("fasn", {}).get("gate_t1"),
+        "fasn_gate_t1_decision": state.get("fasn", {}).get("gate_t1_decision"),
         "gnn_gate": state.get("fasn", {}).get("gnn_enable_gate", state.get("gnn", {}).get("enable_gate")),
         "thrb_2j4a": state.get("thrb", {}).get("old_2j4a"),
         "docking_ranking": state.get("thrb", {}).get("wt_docking_ranking"),
     }
-    if state.get("project_stage") != "pipeline_revalidation":
-        issues.append("main project_stage is not pipeline_revalidation")
+    if state.get("project_stage") not in {"pipeline_revalidation", "fifth_round_direction_exploration"}:
+        issues.append(f"main project_stage is unexpected: {state.get('project_stage')}")
     if state.get("candidate_release") is not False:
         issues.append("candidate_release is not false")
-    if state.get("fasn", {}).get("gate_t1") != "pending":
-        issues.append("FASN Gate T1 is not pending")
-    if state.get("gnn", {}).get("enable_gate") != "closed" and state.get("fasn", {}).get("gnn_enable_gate") != "closed":
+    gate_t1 = state.get("fasn", {}).get("gate_t1")
+    gate_t1_decision = state.get("fasn", {}).get("gate_t1_decision")
+    if gate_t1 not in {"pending", "FAIL"} and gate_t1_decision not in {"pending", "FAIL"}:
+        issues.append(f"FASN Gate T1 is unexpected: gate_t1={gate_t1!r}, decision={gate_t1_decision!r}")
+    gnn_gate = state.get("gnn", {}).get("enable_gate") or state.get("fasn", {}).get("gnn_enable_gate")
+    if gnn_gate != "closed":
         issues.append("GNN enable gate is not closed")
 
     gnn_state = json.loads((GNN / "STATUS.json").read_text(encoding="utf-8"))

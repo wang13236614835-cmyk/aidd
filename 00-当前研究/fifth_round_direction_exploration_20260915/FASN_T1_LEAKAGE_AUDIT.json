@@ -1,0 +1,15 @@
+{
+  "exact_duplicate_count": 0,
+  "canonical_overlap_count": 0,
+  "scaffold_overlap_rate": 0.0,
+  "scaffold_overlap_count_across_10_seeds": 0,
+  "stereoisomer_overlap_count": 0,
+  "assay_mirror_overlap_count": 89,
+  "external_overlap_count": 3,
+  "near_duplicate_count": 82,
+  "near_duplicate_rate": 0.8541666666666666,
+  "chemical_series_confinement_count": 82,
+  "chemical_series_confinement_rate": 0.8541666666666666,
+  "leakage_definition": "仅 exact structure/canonical duplicate、scaffold cross-split、复制记录跨集计 leakage；高相似 NN>=0.85 且无上述跨集重复计 chemical-series confinement。",
+  "verdict": "PASS"
+}

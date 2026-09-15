@@ -16,9 +16,10 @@
     "registry_missing_assets": [],
     "registry_bad_status": [],
     "main_state": {
-      "project_stage": "pipeline_revalidation",
+      "project_stage": "fifth_round_direction_exploration",
       "candidate_release": false,
-      "fasn_gate_t1": "pending",
+      "fasn_gate_t1": "FAIL",
+      "fasn_gate_t1_decision": "FAIL",
       "gnn_gate": "closed",
       "thrb_2j4a": "historical_mutant",
       "docking_ranking": "rejected"

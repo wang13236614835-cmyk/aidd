@@ -1,0 +1,95 @@
+{
+  "date": "2026-09-15",
+  "environment": {
+    "python": "3.12.0",
+    "pandas": "2.2.1",
+    "numpy": "1.26.4"
+  },
+  "inputs": {
+    "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\final_strategy_round_20260912\\FASN_activity_master.csv": "51189faf67b274dd27ba42d99a4ff7a66d8795f2c75598cdc622218455737fe7",
+    "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\advancement_round_20260913\\FASN_assay_aware_master.csv": "7811cb850af66be47e4db91ac1f589d05f0762de9c0583c8a2ab5c04e44b4157",
+    "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\qualification_round_20260913\\FASN_canonical_clean.csv": "cca2817fed8c12d8bfd9a6223780f26332dbe44453e901c84c480c93fb658608",
+    "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\qualification_round_20260913\\FASN_external_set.csv": "06b513acab30a4d3b50e36df92323a9e09c352c97ccece70a0ab315bf01d92f6"
+  },
+  "master_assays": 51,
+  "shared_pair_count_all": 1275,
+  "shared_pair_count_ge15": 4,
+  "comparable_pair_count_ge15": 1,
+  "transformation_count": 1,
+  "transformation_stable_count": 1,
+  "leakage": {
+    "exact_duplicate_count": 0,
+    "canonical_overlap_count": 0,
+    "scaffold_overlap_rate": 0.0,
+    "scaffold_overlap_count_across_10_seeds": 0,
+    "stereoisomer_overlap_count": 0,
+    "assay_mirror_overlap_count": 89,
+    "external_overlap_count": 3,
+    "near_duplicate_count": 82,
+    "near_duplicate_rate": 0.8541666666666666,
+    "chemical_series_confinement_count": 82,
+    "chemical_series_confinement_rate": 0.8541666666666666,
+    "leakage_definition": "仅 exact structure/canonical duplicate、scaffold cross-split、复制记录跨集计 leakage；高相似 NN>=0.85 且无上述跨集重复计 chemical-series confinement。",
+    "verdict": "PASS"
+  },
+  "data_audit": {
+    "source_files": {
+      "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\final_strategy_round_20260912\\FASN_activity_master.csv": "51189faf67b274dd27ba42d99a4ff7a66d8795f2c75598cdc622218455737fe7",
+      "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\advancement_round_20260913\\FASN_assay_aware_master.csv": "7811cb850af66be47e4db91ac1f589d05f0762de9c0583c8a2ab5c04e44b4157",
+      "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\qualification_round_20260913\\FASN_canonical_clean.csv": "cca2817fed8c12d8bfd9a6223780f26332dbe44453e901c84c480c93fb658608",
+      "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\qualification_round_20260913\\FASN_external_set.csv": "06b513acab30a4d3b50e36df92323a9e09c352c97ccece70a0ab315bf01d92f6"
+    },
+    "master_records": 1652,
+    "master_molecules": 1139,
+    "assays": 51,
+    "activity_type_counts": {
+      "IC50": 1630,
+      "Ki": 20,
+      "Kd": 2
+    },
+    "endpoint_type_counts": {
+      "IC50": 1630,
+      "Ki": 20,
+      "Kd": 2
+    },
+    "unit_counts": {
+      "nM": 1637,
+      "ug.mL-1": 15
+    },
+    "relation_counts": {
+      "=": 1652
+    },
+    "species_counts": {
+      "Homo sapiens": 1652
+    },
+    "protein_layer_counts": {
+      "cell_extract": 1140,
+      "full_length": 302,
+      "unknown": 184,
+      "fragment_TE": 24,
+      "fragment_KR": 2
+    },
+    "assay_format_counts": {
+      "cell-based format": 872,
+      "single protein format": 669,
+      "assay format": 111
+    },
+    "valid_smiles_count": 1652,
+    "multifragment_count": 2,
+    "potential_duplicate_flag_count": 439,
+    "records_missing_assay_id": 0,
+    "records_missing_identity": 0,
+    "pactivity_min": 0.8538719643217619,
+    "pactivity_median": 6.995678626217358,
+    "pactivity_max": 8.522878745280337,
+    "canonical_assay": "CHEMBL5731051",
+    "canonical_clean_molecules": 96,
+    "external_evaluable_molecules": 105,
+    "conclusion": "全量 master 可作为 provenance 保留池，但 endpoint/assay/protein layer 异质；T1 训练必须按可比核心元数据筛选，不能把 1652 条直接合并。"
+  },
+  "decision_input": {
+    "minimum_two_comparable_pairs": false,
+    "normalized_dataset_built": false,
+    "reason_if_not_built": "本脚本只做 T1 输入资格和 assay 变换；若没有至少两个可比较稳定 pair，不构建 normalized dataset，不进入新模型训练。"
+  }
+}

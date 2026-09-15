@@ -1,0 +1,2 @@
+﻿source_assay,target_assay,n_shared_identity,n_shared_numeric_pair,source_is_canonical_or_mirror,target_is_canonical_or_mirror,core_metadata_comparable,comparability_reason,source_assay_format,target_assay_format,source_protein_layer,target_protein_layer
+CHEMBL3888977,CHEMBL5733207,325,325,False,False,True,comparable_core_metadata,cell-based format,single protein format,cell_extract,cell_extract

@@ -1,0 +1,1276 @@
+﻿source_assay,target_assay,n_shared_identity,n_shared_numeric_pair,source_is_canonical_or_mirror,target_is_canonical_or_mirror,core_metadata_comparable,comparability_reason,source_assay_format,target_assay_format,source_protein_layer,target_protein_layer
+CHEMBL3888977,CHEMBL5733207,325,325,False,False,True,comparable_core_metadata,cell-based format,single protein format,cell_extract,cell_extract
+CHEMBL3888977,CHEMBL5734012,1,1,False,False,True,comparable_core_metadata,cell-based format,assay format,cell_extract,cell_extract
+CHEMBL5733207,CHEMBL5734012,1,1,False,False,True,comparable_core_metadata,single protein format,assay format,cell_extract,cell_extract
+CHEMBL2169038,CHEMBL3705868,0,0,False,False,True,comparable_core_metadata,cell-based format,cell-based format,cell_extract,cell_extract
+CHEMBL2169038,CHEMBL3888977,0,0,False,False,True,comparable_core_metadata,cell-based format,cell-based format,cell_extract,cell_extract
+CHEMBL2169038,CHEMBL4418321,0,0,False,False,True,comparable_core_metadata,cell-based format,cell-based format,cell_extract,cell_extract
+CHEMBL2169038,CHEMBL5733207,0,0,False,False,True,comparable_core_metadata,cell-based format,single protein format,cell_extract,cell_extract
+CHEMBL2169038,CHEMBL5734012,0,0,False,False,True,comparable_core_metadata,cell-based format,assay format,cell_extract,cell_extract
+CHEMBL3705868,CHEMBL3888977,0,0,False,False,True,comparable_core_metadata,cell-based format,cell-based format,cell_extract,cell_extract
+CHEMBL3705868,CHEMBL4418321,0,0,False,False,True,comparable_core_metadata,cell-based format,cell-based format,cell_extract,cell_extract
+CHEMBL3705868,CHEMBL5733207,0,0,False,False,True,comparable_core_metadata,cell-based format,single protein format,cell_extract,cell_extract
+CHEMBL3705868,CHEMBL5734012,0,0,False,False,True,comparable_core_metadata,cell-based format,assay format,cell_extract,cell_extract
+CHEMBL3888977,CHEMBL4418321,0,0,False,False,True,comparable_core_metadata,cell-based format,cell-based format,cell_extract,cell_extract
+CHEMBL4123591,CHEMBL4402021,0,0,False,False,True,comparable_core_metadata,single protein format,single protein format,full_length,full_length
+CHEMBL4123591,CHEMBL5730715,0,0,False,False,True,comparable_core_metadata,single protein format,cell-based format,full_length,full_length
+CHEMBL4402021,CHEMBL5730715,0,0,False,False,True,comparable_core_metadata,single protein format,cell-based format,full_length,full_length
+CHEMBL4418321,CHEMBL5733207,0,0,False,False,True,comparable_core_metadata,cell-based format,single protein format,cell_extract,cell_extract
+CHEMBL4418321,CHEMBL5734012,0,0,False,False,True,comparable_core_metadata,cell-based format,assay format,cell_extract,cell_extract
+CHEMBL5731051,CHEMBL5734379,89,89,True,True,False,assay_mirror_excluded,assay format,single protein format,full_length,full_length
+CHEMBL2328957,CHEMBL3705868,17,17,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL4402021,CHEMBL4402023,17,17,False,False,False,protein_layer_mismatch,single protein format,cell-based format,full_length,unknown
+CHEMBL1839595,CHEMBL4418321,10,10,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL3619925,CHEMBL5731051,6,6,False,True,False,assay_mirror_excluded,single protein format,assay format,unknown,full_length
+CHEMBL3619925,CHEMBL5734379,6,6,False,True,False,assay_mirror_excluded,single protein format,single protein format,unknown,full_length
+CHEMBL3619925,CHEMBL3619926,4,4,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3619926,CHEMBL5731051,4,4,False,True,False,assay_mirror_excluded,single protein format,assay format,unknown,full_length
+CHEMBL3619926,CHEMBL5734379,4,4,False,True,False,assay_mirror_excluded,single protein format,single protein format,unknown,full_length
+CHEMBL4123591,CHEMBL5731051,3,3,False,True,False,assay_mirror_excluded,single protein format,assay format,full_length,full_length
+CHEMBL4123591,CHEMBL5734379,3,3,False,True,False,assay_mirror_excluded,single protein format,single protein format,full_length,full_length
+CHEMBL1839595,CHEMBL2169042,1,1,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL1839595,CHEMBL4882378,1,1,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL4882379,1,1,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL1839595,CHEMBL4882380,1,1,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL1839595,CHEMBL5210219,1,1,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL1839595,CHEMBL5210491,1,1,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL862461,1,1,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL960231,1,1,False,False,False,unit_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL985841,1,1,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL2169022,CHEMBL3625454,1,1,False,False,False,not_both_IC50,assay format,single protein format,unknown,unknown
+CHEMBL2169026,CHEMBL2169042,1,1,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2169042,CHEMBL862461,1,1,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169042,CHEMBL960231,1,1,False,False,False,unit_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL2169042,CHEMBL985841,1,1,False,False,False,unit_mismatch,cell-based format,cell-based format,unknown,unknown
+CHEMBL2169046,CHEMBL3411205,1,1,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2169046,CHEMBL4020854,1,1,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,fragment_TE
+CHEMBL2328950,CHEMBL2328957,1,1,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2328950,CHEMBL3705868,1,1,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,cell_extract
+CHEMBL3411198,CHEMBL3411205,1,1,False,False,False,activity_type_mismatch,single protein format,cell-based format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL3411206,1,1,False,False,False,activity_type_mismatch,single protein format,cell-based format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL5112963,1,1,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL3411205,CHEMBL3411206,1,1,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL3411205,CHEMBL4020854,1,1,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,fragment_TE
+CHEMBL3411205,CHEMBL5112963,1,1,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL3411206,CHEMBL5112963,1,1,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL3625458,CHEMBL5731051,1,1,False,True,False,assay_mirror_excluded,single protein format,assay format,fragment_KR,full_length
+CHEMBL3625458,CHEMBL5734379,1,1,False,True,False,assay_mirror_excluded,single protein format,single protein format,fragment_KR,full_length
+CHEMBL3706007,CHEMBL5723241,1,1,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL4020854,CHEMBL4020860,1,1,False,False,False,protein_layer_not_qualified,single protein format,single protein format,fragment_TE,fragment_TE
+CHEMBL4123591,CHEMBL4123592,1,1,False,False,False,protein_layer_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4882378,CHEMBL4882379,1,1,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL4882378,CHEMBL4882380,1,1,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL4882378,CHEMBL5210219,1,1,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL4882378,CHEMBL5210491,1,1,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL4882379,CHEMBL4882380,1,1,False,False,False,protein_layer_not_qualified,assay format,cell-based format,unknown,unknown
+CHEMBL4882379,CHEMBL5210219,1,1,False,False,False,protein_layer_not_qualified,assay format,assay format,unknown,unknown
+CHEMBL4882379,CHEMBL5210491,1,1,False,False,False,protein_layer_not_qualified,assay format,single protein format,unknown,unknown
+CHEMBL4882380,CHEMBL5210219,1,1,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL4882380,CHEMBL5210491,1,1,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL5210219,CHEMBL5210491,1,1,False,False,False,protein_layer_not_qualified,assay format,single protein format,unknown,unknown
+CHEMBL828726,CHEMBL863392,1,1,False,False,False,unit_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL862461,CHEMBL960231,1,1,False,False,False,unit_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL862461,CHEMBL985841,1,1,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL960231,CHEMBL985841,1,1,False,False,False,unit_or_relation_not_clean,single protein format,cell-based format,unknown,unknown
+CHEMBL1260142,CHEMBL1839595,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL2150656,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL2169021,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL2169022,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,unknown
+CHEMBL1260142,CHEMBL2169026,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL2169038,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL1260142,CHEMBL2169042,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL1260142,CHEMBL2169045,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL1260142,CHEMBL2169046,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,unknown
+CHEMBL1260142,CHEMBL2328950,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL1260142,CHEMBL2328957,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL3411198,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL1260142,CHEMBL3411205,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL1260142,CHEMBL3411206,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL1260142,CHEMBL3619925,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL3619926,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL3625454,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL3625457,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL3625458,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_KR
+CHEMBL1260142,CHEMBL3705868,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL1260142,CHEMBL3706007,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL3888977,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL1260142,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL1260142,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL1260142,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL1260142,CHEMBL4123592,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL1260142,CHEMBL4402023,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL1260142,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL1260142,CHEMBL4882378,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL4882379,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL1260142,CHEMBL4882380,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL1260142,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL5210219,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL1260142,CHEMBL5210491,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL1260142,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL1260142,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,full_length
+CHEMBL1260142,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,unknown,full_length
+CHEMBL1260142,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,cell_extract
+CHEMBL1260142,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,unknown,cell_extract
+CHEMBL1260142,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,unknown,full_length
+CHEMBL1260142,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL1260142,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL1260142,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL1839595,CHEMBL2150656,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL2169021,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL2169022,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,unknown
+CHEMBL1839595,CHEMBL2169026,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL2169038,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL1839595,CHEMBL2169045,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL1839595,CHEMBL2169046,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,unknown
+CHEMBL1839595,CHEMBL2328950,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL1839595,CHEMBL2328957,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL3411198,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL1839595,CHEMBL3411205,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL1839595,CHEMBL3411206,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL1839595,CHEMBL3619925,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL3619926,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL3625454,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL3625457,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL3625458,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_KR
+CHEMBL1839595,CHEMBL3705868,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL1839595,CHEMBL3706007,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL3888977,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL1839595,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL1839595,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL1839595,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL1839595,CHEMBL4123592,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL1839595,CHEMBL4402023,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL1839595,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL1839595,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL1839595,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,full_length
+CHEMBL1839595,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,unknown,full_length
+CHEMBL1839595,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,cell_extract
+CHEMBL1839595,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,unknown,cell_extract
+CHEMBL1839595,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,unknown,full_length
+CHEMBL1839595,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL1839595,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL1839595,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL2169021,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL2169022,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,unknown
+CHEMBL2150656,CHEMBL2169026,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL2169038,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL2150656,CHEMBL2169042,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2150656,CHEMBL2169045,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2150656,CHEMBL2169046,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,unknown
+CHEMBL2150656,CHEMBL2328950,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2150656,CHEMBL2328957,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL3411198,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL2150656,CHEMBL3411205,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2150656,CHEMBL3411206,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2150656,CHEMBL3619925,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL3619926,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL3625454,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL3625457,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL3625458,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_KR
+CHEMBL2150656,CHEMBL3705868,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL2150656,CHEMBL3706007,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL3888977,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL2150656,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL2150656,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL2150656,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL2150656,CHEMBL4123592,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL2150656,CHEMBL4402023,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2150656,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL2150656,CHEMBL4882378,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL4882379,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL2150656,CHEMBL4882380,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2150656,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL5210219,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL2150656,CHEMBL5210491,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL2150656,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2150656,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,full_length
+CHEMBL2150656,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,unknown,full_length
+CHEMBL2150656,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,cell_extract
+CHEMBL2150656,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,unknown,cell_extract
+CHEMBL2150656,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,unknown,full_length
+CHEMBL2150656,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL2150656,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2150656,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL2169021,CHEMBL2169022,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,unknown
+CHEMBL2169021,CHEMBL2169026,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169021,CHEMBL2169038,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL2169021,CHEMBL2169042,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2169021,CHEMBL2169045,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2169021,CHEMBL2169046,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,unknown
+CHEMBL2169021,CHEMBL2328950,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2169021,CHEMBL2328957,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169021,CHEMBL3411198,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL2169021,CHEMBL3411205,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2169021,CHEMBL3411206,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2169021,CHEMBL3619925,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169021,CHEMBL3619926,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169021,CHEMBL3625454,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2169021,CHEMBL3625457,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169021,CHEMBL3625458,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_KR
+CHEMBL2169021,CHEMBL3705868,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL2169021,CHEMBL3706007,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169021,CHEMBL3888977,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL2169021,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL2169021,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL2169021,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL2169021,CHEMBL4123592,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169021,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL2169021,CHEMBL4402023,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2169021,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL2169021,CHEMBL4882378,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169021,CHEMBL4882379,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL2169021,CHEMBL4882380,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2169021,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2169021,CHEMBL5210219,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL2169021,CHEMBL5210491,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169021,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2169021,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL2169021,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2169021,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,full_length
+CHEMBL2169021,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,unknown,full_length
+CHEMBL2169021,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,cell_extract
+CHEMBL2169021,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,unknown,cell_extract
+CHEMBL2169021,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,unknown,full_length
+CHEMBL2169021,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2169021,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL2169021,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169021,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169021,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169021,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2169021,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL2169022,CHEMBL2169026,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169022,CHEMBL2169038,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,cell_extract
+CHEMBL2169022,CHEMBL2169042,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2169022,CHEMBL2169045,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2169022,CHEMBL2169046,0,0,False,False,False,not_both_IC50,assay format,assay format,unknown,unknown
+CHEMBL2169022,CHEMBL2328950,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2169022,CHEMBL2328957,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169022,CHEMBL3411198,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,fragment_TE
+CHEMBL2169022,CHEMBL3411205,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2169022,CHEMBL3411206,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2169022,CHEMBL3619925,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169022,CHEMBL3619926,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169022,CHEMBL3625457,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169022,CHEMBL3625458,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,fragment_KR
+CHEMBL2169022,CHEMBL3705868,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,cell_extract
+CHEMBL2169022,CHEMBL3706007,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169022,CHEMBL3888977,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,cell_extract
+CHEMBL2169022,CHEMBL4020854,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,fragment_TE
+CHEMBL2169022,CHEMBL4020860,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,fragment_TE
+CHEMBL2169022,CHEMBL4123591,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,full_length
+CHEMBL2169022,CHEMBL4123592,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169022,CHEMBL4402021,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,full_length
+CHEMBL2169022,CHEMBL4402023,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2169022,CHEMBL4418321,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,cell_extract
+CHEMBL2169022,CHEMBL4882378,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169022,CHEMBL4882379,0,0,False,False,False,activity_type_mismatch,assay format,assay format,unknown,unknown
+CHEMBL2169022,CHEMBL4882380,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2169022,CHEMBL5112963,0,0,False,False,False,not_both_IC50,assay format,single protein format,unknown,unknown
+CHEMBL2169022,CHEMBL5210219,0,0,False,False,False,activity_type_mismatch,assay format,assay format,unknown,unknown
+CHEMBL2169022,CHEMBL5210491,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169022,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169022,CHEMBL5723241,0,0,False,False,False,activity_type_mismatch,assay format,assay format,unknown,unknown
+CHEMBL2169022,CHEMBL5723552,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2169022,CHEMBL5730715,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,full_length
+CHEMBL2169022,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,assay format,assay format,unknown,full_length
+CHEMBL2169022,CHEMBL5733207,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,cell_extract
+CHEMBL2169022,CHEMBL5734012,0,0,False,False,False,activity_type_mismatch,assay format,assay format,unknown,cell_extract
+CHEMBL2169022,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,assay format,single protein format,unknown,full_length
+CHEMBL2169022,CHEMBL682484,0,0,False,False,False,not_both_IC50,assay format,single protein format,unknown,unknown
+CHEMBL2169022,CHEMBL828726,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2169022,CHEMBL862461,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169022,CHEMBL863392,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169022,CHEMBL869274,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169022,CHEMBL960231,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169022,CHEMBL985841,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2169026,CHEMBL2169038,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL2169026,CHEMBL2169045,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2169026,CHEMBL2169046,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,unknown
+CHEMBL2169026,CHEMBL2328950,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2169026,CHEMBL2328957,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169026,CHEMBL3411198,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL2169026,CHEMBL3411205,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2169026,CHEMBL3411206,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2169026,CHEMBL3619925,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169026,CHEMBL3619926,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169026,CHEMBL3625454,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2169026,CHEMBL3625457,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169026,CHEMBL3625458,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_KR
+CHEMBL2169026,CHEMBL3705868,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL2169026,CHEMBL3706007,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169026,CHEMBL3888977,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL2169026,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL2169026,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL2169026,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL2169026,CHEMBL4123592,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169026,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL2169026,CHEMBL4402023,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2169026,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL2169026,CHEMBL4882378,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169026,CHEMBL4882379,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL2169026,CHEMBL4882380,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2169026,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2169026,CHEMBL5210219,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL2169026,CHEMBL5210491,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169026,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2169026,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL2169026,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2169026,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,full_length
+CHEMBL2169026,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,unknown,full_length
+CHEMBL2169026,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,cell_extract
+CHEMBL2169026,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,unknown,cell_extract
+CHEMBL2169026,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,unknown,full_length
+CHEMBL2169026,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2169026,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL2169026,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169026,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169026,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2169026,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2169026,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL2169038,CHEMBL2169042,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL2169038,CHEMBL2169045,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL2169038,CHEMBL2169046,0,0,False,False,False,activity_type_mismatch,cell-based format,assay format,cell_extract,unknown
+CHEMBL2169038,CHEMBL2328950,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL2169038,CHEMBL2328957,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL2169038,CHEMBL3411198,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,cell_extract,fragment_TE
+CHEMBL2169038,CHEMBL3411205,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL2169038,CHEMBL3411206,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL2169038,CHEMBL3619925,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL2169038,CHEMBL3619926,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL2169038,CHEMBL3625454,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL2169038,CHEMBL3625457,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL2169038,CHEMBL3625458,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,fragment_KR
+CHEMBL2169038,CHEMBL3706007,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL2169038,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,fragment_TE
+CHEMBL2169038,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,fragment_TE
+CHEMBL2169038,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,full_length
+CHEMBL2169038,CHEMBL4123592,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL2169038,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,full_length
+CHEMBL2169038,CHEMBL4402023,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL2169038,CHEMBL4882378,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL2169038,CHEMBL4882379,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,cell_extract,unknown
+CHEMBL2169038,CHEMBL4882380,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL2169038,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL2169038,CHEMBL5210219,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,cell_extract,unknown
+CHEMBL2169038,CHEMBL5210491,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL2169038,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL2169038,CHEMBL5723241,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,cell_extract,unknown
+CHEMBL2169038,CHEMBL5723552,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL2169038,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,full_length
+CHEMBL2169038,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,cell-based format,assay format,cell_extract,full_length
+CHEMBL2169038,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,cell-based format,single protein format,cell_extract,full_length
+CHEMBL2169038,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL2169038,CHEMBL828726,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL2169038,CHEMBL862461,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL2169038,CHEMBL863392,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL2169038,CHEMBL869274,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL2169038,CHEMBL960231,0,0,False,False,False,unit_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL2169038,CHEMBL985841,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL2169042,CHEMBL2169045,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2169042,CHEMBL2169046,0,0,False,False,False,activity_type_mismatch,cell-based format,assay format,unknown,unknown
+CHEMBL2169042,CHEMBL2328950,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2169042,CHEMBL2328957,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169042,CHEMBL3411198,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,fragment_TE
+CHEMBL2169042,CHEMBL3411205,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2169042,CHEMBL3411206,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2169042,CHEMBL3619925,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169042,CHEMBL3619926,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169042,CHEMBL3625454,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL2169042,CHEMBL3625457,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169042,CHEMBL3625458,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,fragment_KR
+CHEMBL2169042,CHEMBL3705868,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,cell_extract
+CHEMBL2169042,CHEMBL3706007,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169042,CHEMBL3888977,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,cell_extract
+CHEMBL2169042,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,fragment_TE
+CHEMBL2169042,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,fragment_TE
+CHEMBL2169042,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,full_length
+CHEMBL2169042,CHEMBL4123592,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169042,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,full_length
+CHEMBL2169042,CHEMBL4402023,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2169042,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,cell_extract
+CHEMBL2169042,CHEMBL4882378,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169042,CHEMBL4882379,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL2169042,CHEMBL4882380,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2169042,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL2169042,CHEMBL5210219,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL2169042,CHEMBL5210491,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169042,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL2169042,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL2169042,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2169042,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,full_length
+CHEMBL2169042,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,cell-based format,assay format,unknown,full_length
+CHEMBL2169042,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,cell_extract
+CHEMBL2169042,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,unknown,cell_extract
+CHEMBL2169042,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,cell-based format,single protein format,unknown,full_length
+CHEMBL2169042,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL2169042,CHEMBL828726,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,unknown,unknown
+CHEMBL2169042,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169042,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169045,CHEMBL2169046,0,0,False,False,False,activity_type_mismatch,cell-based format,assay format,unknown,unknown
+CHEMBL2169045,CHEMBL2328950,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2169045,CHEMBL2328957,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169045,CHEMBL3411198,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,fragment_TE
+CHEMBL2169045,CHEMBL3411205,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2169045,CHEMBL3411206,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2169045,CHEMBL3619925,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169045,CHEMBL3619926,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169045,CHEMBL3625454,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL2169045,CHEMBL3625457,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169045,CHEMBL3625458,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,fragment_KR
+CHEMBL2169045,CHEMBL3705868,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,cell_extract
+CHEMBL2169045,CHEMBL3706007,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169045,CHEMBL3888977,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,cell_extract
+CHEMBL2169045,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,fragment_TE
+CHEMBL2169045,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,fragment_TE
+CHEMBL2169045,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,full_length
+CHEMBL2169045,CHEMBL4123592,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169045,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,full_length
+CHEMBL2169045,CHEMBL4402023,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2169045,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,cell_extract
+CHEMBL2169045,CHEMBL4882378,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169045,CHEMBL4882379,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL2169045,CHEMBL4882380,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2169045,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL2169045,CHEMBL5210219,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL2169045,CHEMBL5210491,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169045,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL2169045,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL2169045,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2169045,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,full_length
+CHEMBL2169045,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,cell-based format,assay format,unknown,full_length
+CHEMBL2169045,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,cell_extract
+CHEMBL2169045,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,unknown,cell_extract
+CHEMBL2169045,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,cell-based format,single protein format,unknown,full_length
+CHEMBL2169045,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL2169045,CHEMBL828726,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,unknown,unknown
+CHEMBL2169045,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169045,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169045,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2169045,CHEMBL960231,0,0,False,False,False,unit_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL2169045,CHEMBL985841,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,unknown,unknown
+CHEMBL2169046,CHEMBL2328950,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2169046,CHEMBL2328957,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169046,CHEMBL3411198,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,fragment_TE
+CHEMBL2169046,CHEMBL3411206,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2169046,CHEMBL3619925,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169046,CHEMBL3619926,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169046,CHEMBL3625454,0,0,False,False,False,not_both_IC50,assay format,single protein format,unknown,unknown
+CHEMBL2169046,CHEMBL3625457,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169046,CHEMBL3625458,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,fragment_KR
+CHEMBL2169046,CHEMBL3705868,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,cell_extract
+CHEMBL2169046,CHEMBL3706007,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169046,CHEMBL3888977,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,cell_extract
+CHEMBL2169046,CHEMBL4020860,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,fragment_TE
+CHEMBL2169046,CHEMBL4123591,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,full_length
+CHEMBL2169046,CHEMBL4123592,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169046,CHEMBL4402021,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,full_length
+CHEMBL2169046,CHEMBL4402023,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2169046,CHEMBL4418321,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,cell_extract
+CHEMBL2169046,CHEMBL4882378,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169046,CHEMBL4882379,0,0,False,False,False,activity_type_mismatch,assay format,assay format,unknown,unknown
+CHEMBL2169046,CHEMBL4882380,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2169046,CHEMBL5112963,0,0,False,False,False,not_both_IC50,assay format,single protein format,unknown,unknown
+CHEMBL2169046,CHEMBL5210219,0,0,False,False,False,activity_type_mismatch,assay format,assay format,unknown,unknown
+CHEMBL2169046,CHEMBL5210491,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169046,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169046,CHEMBL5723241,0,0,False,False,False,activity_type_mismatch,assay format,assay format,unknown,unknown
+CHEMBL2169046,CHEMBL5723552,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2169046,CHEMBL5730715,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,full_length
+CHEMBL2169046,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,assay format,assay format,unknown,full_length
+CHEMBL2169046,CHEMBL5733207,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,cell_extract
+CHEMBL2169046,CHEMBL5734012,0,0,False,False,False,activity_type_mismatch,assay format,assay format,unknown,cell_extract
+CHEMBL2169046,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,assay format,single protein format,unknown,full_length
+CHEMBL2169046,CHEMBL682484,0,0,False,False,False,not_both_IC50,assay format,single protein format,unknown,unknown
+CHEMBL2169046,CHEMBL828726,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2169046,CHEMBL862461,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169046,CHEMBL863392,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169046,CHEMBL869274,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169046,CHEMBL960231,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL2169046,CHEMBL985841,0,0,False,False,False,activity_type_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL2328950,CHEMBL3411198,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,fragment_TE
+CHEMBL2328950,CHEMBL3411205,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2328950,CHEMBL3411206,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2328950,CHEMBL3619925,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2328950,CHEMBL3619926,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2328950,CHEMBL3625454,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL2328950,CHEMBL3625457,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2328950,CHEMBL3625458,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,fragment_KR
+CHEMBL2328950,CHEMBL3706007,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2328950,CHEMBL3888977,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,cell_extract
+CHEMBL2328950,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,fragment_TE
+CHEMBL2328950,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,fragment_TE
+CHEMBL2328950,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,full_length
+CHEMBL2328950,CHEMBL4123592,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2328950,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,full_length
+CHEMBL2328950,CHEMBL4402023,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2328950,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,cell_extract
+CHEMBL2328950,CHEMBL4882378,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2328950,CHEMBL4882379,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL2328950,CHEMBL4882380,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2328950,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL2328950,CHEMBL5210219,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL2328950,CHEMBL5210491,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2328950,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL2328950,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL2328950,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL2328950,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,full_length
+CHEMBL2328950,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,cell-based format,assay format,unknown,full_length
+CHEMBL2328950,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,cell_extract
+CHEMBL2328950,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,unknown,cell_extract
+CHEMBL2328950,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,cell-based format,single protein format,unknown,full_length
+CHEMBL2328950,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL2328950,CHEMBL828726,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,unknown,unknown
+CHEMBL2328950,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2328950,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2328950,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL2328950,CHEMBL960231,0,0,False,False,False,unit_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL2328950,CHEMBL985841,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,unknown,unknown
+CHEMBL2328957,CHEMBL3411198,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL2328957,CHEMBL3411205,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2328957,CHEMBL3411206,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2328957,CHEMBL3619925,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2328957,CHEMBL3619926,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2328957,CHEMBL3625454,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2328957,CHEMBL3625457,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2328957,CHEMBL3625458,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_KR
+CHEMBL2328957,CHEMBL3706007,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2328957,CHEMBL3888977,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL2328957,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL2328957,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL2328957,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL2328957,CHEMBL4123592,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2328957,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL2328957,CHEMBL4402023,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2328957,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL2328957,CHEMBL4882378,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2328957,CHEMBL4882379,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL2328957,CHEMBL4882380,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2328957,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2328957,CHEMBL5210219,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL2328957,CHEMBL5210491,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2328957,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2328957,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL2328957,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL2328957,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,full_length
+CHEMBL2328957,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,unknown,full_length
+CHEMBL2328957,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,cell_extract
+CHEMBL2328957,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,unknown,cell_extract
+CHEMBL2328957,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,unknown,full_length
+CHEMBL2328957,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2328957,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL2328957,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2328957,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2328957,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL2328957,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL2328957,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL3411198,CHEMBL3619925,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL3619926,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL3625454,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL3625457,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL3625458,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,fragment_KR
+CHEMBL3411198,CHEMBL3705868,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,fragment_TE,cell_extract
+CHEMBL3411198,CHEMBL3706007,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL3888977,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,fragment_TE,cell_extract
+CHEMBL3411198,CHEMBL4020854,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,fragment_TE
+CHEMBL3411198,CHEMBL4020860,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,fragment_TE
+CHEMBL3411198,CHEMBL4123591,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,full_length
+CHEMBL3411198,CHEMBL4123592,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL4402021,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,full_length
+CHEMBL3411198,CHEMBL4402023,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL4418321,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,fragment_TE,cell_extract
+CHEMBL3411198,CHEMBL4882378,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL4882379,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL4882380,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL5210219,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL5210491,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL5723241,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL5723552,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL5730715,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,fragment_TE,full_length
+CHEMBL3411198,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,fragment_TE,full_length
+CHEMBL3411198,CHEMBL5733207,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,cell_extract
+CHEMBL3411198,CHEMBL5734012,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,fragment_TE,cell_extract
+CHEMBL3411198,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,fragment_TE,full_length
+CHEMBL3411198,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL828726,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL862461,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL863392,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL869274,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL960231,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL3411198,CHEMBL985841,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,fragment_TE,unknown
+CHEMBL3411205,CHEMBL3619925,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411205,CHEMBL3619926,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411205,CHEMBL3625454,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL3411205,CHEMBL3625457,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411205,CHEMBL3625458,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,fragment_KR
+CHEMBL3411205,CHEMBL3705868,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,cell_extract
+CHEMBL3411205,CHEMBL3706007,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411205,CHEMBL3888977,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,cell_extract
+CHEMBL3411205,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,fragment_TE
+CHEMBL3411205,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,full_length
+CHEMBL3411205,CHEMBL4123592,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411205,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,full_length
+CHEMBL3411205,CHEMBL4402023,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL3411205,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,cell_extract
+CHEMBL3411205,CHEMBL4882378,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411205,CHEMBL4882379,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL3411205,CHEMBL4882380,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL3411205,CHEMBL5210219,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL3411205,CHEMBL5210491,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411205,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL3411205,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL3411205,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL3411205,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,full_length
+CHEMBL3411205,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,cell-based format,assay format,unknown,full_length
+CHEMBL3411205,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,cell_extract
+CHEMBL3411205,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,unknown,cell_extract
+CHEMBL3411205,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,cell-based format,single protein format,unknown,full_length
+CHEMBL3411205,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL3411205,CHEMBL828726,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,unknown,unknown
+CHEMBL3411205,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411205,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411205,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411205,CHEMBL960231,0,0,False,False,False,unit_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL3411205,CHEMBL985841,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,unknown,unknown
+CHEMBL3411206,CHEMBL3619925,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411206,CHEMBL3619926,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411206,CHEMBL3625454,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL3411206,CHEMBL3625457,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411206,CHEMBL3625458,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,fragment_KR
+CHEMBL3411206,CHEMBL3705868,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,cell_extract
+CHEMBL3411206,CHEMBL3706007,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411206,CHEMBL3888977,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,cell_extract
+CHEMBL3411206,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,fragment_TE
+CHEMBL3411206,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,fragment_TE
+CHEMBL3411206,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,full_length
+CHEMBL3411206,CHEMBL4123592,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411206,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,full_length
+CHEMBL3411206,CHEMBL4402023,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL3411206,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,cell_extract
+CHEMBL3411206,CHEMBL4882378,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411206,CHEMBL4882379,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL3411206,CHEMBL4882380,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL3411206,CHEMBL5210219,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL3411206,CHEMBL5210491,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411206,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL3411206,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL3411206,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL3411206,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,full_length
+CHEMBL3411206,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,cell-based format,assay format,unknown,full_length
+CHEMBL3411206,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,cell_extract
+CHEMBL3411206,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,unknown,cell_extract
+CHEMBL3411206,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,cell-based format,single protein format,unknown,full_length
+CHEMBL3411206,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL3411206,CHEMBL828726,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,unknown,unknown
+CHEMBL3411206,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411206,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411206,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL3411206,CHEMBL960231,0,0,False,False,False,unit_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL3411206,CHEMBL985841,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,unknown,unknown
+CHEMBL3619925,CHEMBL3625454,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3619925,CHEMBL3625457,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3619925,CHEMBL3625458,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_KR
+CHEMBL3619925,CHEMBL3705868,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL3619925,CHEMBL3706007,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3619925,CHEMBL3888977,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL3619925,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL3619925,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL3619925,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL3619925,CHEMBL4123592,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3619925,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL3619925,CHEMBL4402023,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL3619925,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL3619925,CHEMBL4882378,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3619925,CHEMBL4882379,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL3619925,CHEMBL4882380,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL3619925,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3619925,CHEMBL5210219,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL3619925,CHEMBL5210491,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3619925,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3619925,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL3619925,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL3619925,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,full_length
+CHEMBL3619925,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,cell_extract
+CHEMBL3619925,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,unknown,cell_extract
+CHEMBL3619925,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3619925,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL3619925,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3619925,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3619925,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3619925,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3619925,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL3619926,CHEMBL3625454,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3619926,CHEMBL3625457,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3619926,CHEMBL3625458,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_KR
+CHEMBL3619926,CHEMBL3705868,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL3619926,CHEMBL3706007,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3619926,CHEMBL3888977,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL3619926,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL3619926,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL3619926,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL3619926,CHEMBL4123592,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3619926,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL3619926,CHEMBL4402023,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL3619926,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL3619926,CHEMBL4882378,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3619926,CHEMBL4882379,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL3619926,CHEMBL4882380,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL3619926,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3619926,CHEMBL5210219,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL3619926,CHEMBL5210491,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3619926,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3619926,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL3619926,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL3619926,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,full_length
+CHEMBL3619926,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,cell_extract
+CHEMBL3619926,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,unknown,cell_extract
+CHEMBL3619926,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3619926,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL3619926,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3619926,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3619926,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3619926,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3619926,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL3625454,CHEMBL3625457,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3625454,CHEMBL3625458,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,fragment_KR
+CHEMBL3625454,CHEMBL3705868,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL3625454,CHEMBL3706007,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3625454,CHEMBL3888977,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL3625454,CHEMBL4020854,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL3625454,CHEMBL4020860,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL3625454,CHEMBL4123591,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL3625454,CHEMBL4123592,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3625454,CHEMBL4402021,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL3625454,CHEMBL4402023,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL3625454,CHEMBL4418321,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL3625454,CHEMBL4882378,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3625454,CHEMBL4882379,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,unknown
+CHEMBL3625454,CHEMBL4882380,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL3625454,CHEMBL5112963,0,0,False,False,False,not_both_IC50,single protein format,single protein format,unknown,unknown
+CHEMBL3625454,CHEMBL5210219,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,unknown
+CHEMBL3625454,CHEMBL5210491,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3625454,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3625454,CHEMBL5723241,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,unknown
+CHEMBL3625454,CHEMBL5723552,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL3625454,CHEMBL5730715,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,full_length
+CHEMBL3625454,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,unknown,full_length
+CHEMBL3625454,CHEMBL5733207,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,cell_extract
+CHEMBL3625454,CHEMBL5734012,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,cell_extract
+CHEMBL3625454,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,unknown,full_length
+CHEMBL3625454,CHEMBL682484,0,0,False,False,False,not_both_IC50,single protein format,single protein format,unknown,unknown
+CHEMBL3625454,CHEMBL828726,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL3625454,CHEMBL862461,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3625454,CHEMBL863392,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3625454,CHEMBL869274,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3625454,CHEMBL960231,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3625454,CHEMBL985841,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL3625457,CHEMBL3625458,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_KR
+CHEMBL3625457,CHEMBL3705868,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL3625457,CHEMBL3706007,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3625457,CHEMBL3888977,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL3625457,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL3625457,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL3625457,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL3625457,CHEMBL4123592,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3625457,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL3625457,CHEMBL4402023,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL3625457,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL3625457,CHEMBL4882378,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3625457,CHEMBL4882379,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL3625457,CHEMBL4882380,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL3625457,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3625457,CHEMBL5210219,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL3625457,CHEMBL5210491,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3625457,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3625457,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL3625457,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL3625457,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,full_length
+CHEMBL3625457,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,unknown,full_length
+CHEMBL3625457,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,cell_extract
+CHEMBL3625457,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,unknown,cell_extract
+CHEMBL3625457,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,unknown,full_length
+CHEMBL3625457,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3625457,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL3625457,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3625457,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3625457,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3625457,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3625457,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL3625458,CHEMBL3705868,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,fragment_KR,cell_extract
+CHEMBL3625458,CHEMBL3706007,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL3888977,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,fragment_KR,cell_extract
+CHEMBL3625458,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_KR,fragment_TE
+CHEMBL3625458,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_KR,fragment_TE
+CHEMBL3625458,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_KR,full_length
+CHEMBL3625458,CHEMBL4123592,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_KR,full_length
+CHEMBL3625458,CHEMBL4402023,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,fragment_KR,cell_extract
+CHEMBL3625458,CHEMBL4882378,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL4882379,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL4882380,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL5210219,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL5210491,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL5723241,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL5723552,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,fragment_KR,full_length
+CHEMBL3625458,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_KR,cell_extract
+CHEMBL3625458,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,fragment_KR,cell_extract
+CHEMBL3625458,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL862461,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL863392,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL869274,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,fragment_KR,unknown
+CHEMBL3625458,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,fragment_KR,unknown
+CHEMBL3705868,CHEMBL3706007,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3705868,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,fragment_TE
+CHEMBL3705868,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,fragment_TE
+CHEMBL3705868,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,full_length
+CHEMBL3705868,CHEMBL4123592,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3705868,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,full_length
+CHEMBL3705868,CHEMBL4402023,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL3705868,CHEMBL4882378,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3705868,CHEMBL4882379,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,cell_extract,unknown
+CHEMBL3705868,CHEMBL4882380,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL3705868,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3705868,CHEMBL5210219,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,cell_extract,unknown
+CHEMBL3705868,CHEMBL5210491,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3705868,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3705868,CHEMBL5723241,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,cell_extract,unknown
+CHEMBL3705868,CHEMBL5723552,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL3705868,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,full_length
+CHEMBL3705868,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,cell-based format,assay format,cell_extract,full_length
+CHEMBL3705868,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,cell-based format,single protein format,cell_extract,full_length
+CHEMBL3705868,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3705868,CHEMBL828726,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL3705868,CHEMBL862461,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3705868,CHEMBL863392,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3705868,CHEMBL869274,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3705868,CHEMBL960231,0,0,False,False,False,unit_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3705868,CHEMBL985841,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL3706007,CHEMBL3888977,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL3706007,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL3706007,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,fragment_TE
+CHEMBL3706007,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL3706007,CHEMBL4123592,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3706007,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL3706007,CHEMBL4402023,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL3706007,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL3706007,CHEMBL4882378,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3706007,CHEMBL4882379,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL3706007,CHEMBL4882380,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL3706007,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3706007,CHEMBL5210219,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL3706007,CHEMBL5210491,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3706007,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3706007,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL3706007,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,full_length
+CHEMBL3706007,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,unknown,full_length
+CHEMBL3706007,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,cell_extract
+CHEMBL3706007,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,unknown,cell_extract
+CHEMBL3706007,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,unknown,full_length
+CHEMBL3706007,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3706007,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL3706007,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3706007,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3706007,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL3706007,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL3706007,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL3888977,CHEMBL4020854,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,fragment_TE
+CHEMBL3888977,CHEMBL4020860,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,fragment_TE
+CHEMBL3888977,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,full_length
+CHEMBL3888977,CHEMBL4123592,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3888977,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,full_length
+CHEMBL3888977,CHEMBL4402023,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL3888977,CHEMBL4882378,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3888977,CHEMBL4882379,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,cell_extract,unknown
+CHEMBL3888977,CHEMBL4882380,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL3888977,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3888977,CHEMBL5210219,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,cell_extract,unknown
+CHEMBL3888977,CHEMBL5210491,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3888977,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3888977,CHEMBL5723241,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,cell_extract,unknown
+CHEMBL3888977,CHEMBL5723552,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL3888977,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,full_length
+CHEMBL3888977,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,cell-based format,assay format,cell_extract,full_length
+CHEMBL3888977,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,cell-based format,single protein format,cell_extract,full_length
+CHEMBL3888977,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3888977,CHEMBL828726,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL3888977,CHEMBL862461,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3888977,CHEMBL863392,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3888977,CHEMBL869274,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3888977,CHEMBL960231,0,0,False,False,False,unit_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL3888977,CHEMBL985841,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL4020854,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,full_length
+CHEMBL4020854,CHEMBL4123592,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020854,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,full_length
+CHEMBL4020854,CHEMBL4402023,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,fragment_TE,unknown
+CHEMBL4020854,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,fragment_TE,cell_extract
+CHEMBL4020854,CHEMBL4882378,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020854,CHEMBL4882379,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,fragment_TE,unknown
+CHEMBL4020854,CHEMBL4882380,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,fragment_TE,unknown
+CHEMBL4020854,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020854,CHEMBL5210219,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,fragment_TE,unknown
+CHEMBL4020854,CHEMBL5210491,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020854,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020854,CHEMBL5723241,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,fragment_TE,unknown
+CHEMBL4020854,CHEMBL5723552,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,fragment_TE,unknown
+CHEMBL4020854,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,fragment_TE,full_length
+CHEMBL4020854,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,fragment_TE,full_length
+CHEMBL4020854,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,cell_extract
+CHEMBL4020854,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,fragment_TE,cell_extract
+CHEMBL4020854,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,fragment_TE,full_length
+CHEMBL4020854,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020854,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,fragment_TE,unknown
+CHEMBL4020854,CHEMBL862461,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020854,CHEMBL863392,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020854,CHEMBL869274,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020854,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020854,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL4123591,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,full_length
+CHEMBL4020860,CHEMBL4123592,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,full_length
+CHEMBL4020860,CHEMBL4402023,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,fragment_TE,cell_extract
+CHEMBL4020860,CHEMBL4882378,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL4882379,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL4882380,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL5210219,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL5210491,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL5723241,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL5723552,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,fragment_TE,full_length
+CHEMBL4020860,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,fragment_TE,full_length
+CHEMBL4020860,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,cell_extract
+CHEMBL4020860,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,fragment_TE,cell_extract
+CHEMBL4020860,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,fragment_TE,full_length
+CHEMBL4020860,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL862461,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL863392,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL869274,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,fragment_TE,unknown
+CHEMBL4020860,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,fragment_TE,unknown
+CHEMBL4123591,CHEMBL4402023,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,full_length,unknown
+CHEMBL4123591,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,full_length,cell_extract
+CHEMBL4123591,CHEMBL4882378,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4123591,CHEMBL4882379,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,full_length,unknown
+CHEMBL4123591,CHEMBL4882380,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,full_length,unknown
+CHEMBL4123591,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4123591,CHEMBL5210219,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,full_length,unknown
+CHEMBL4123591,CHEMBL5210491,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4123591,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4123591,CHEMBL5723241,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,full_length,unknown
+CHEMBL4123591,CHEMBL5723552,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,full_length,unknown
+CHEMBL4123591,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,full_length,cell_extract
+CHEMBL4123591,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,full_length,cell_extract
+CHEMBL4123591,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4123591,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,full_length,unknown
+CHEMBL4123591,CHEMBL862461,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4123591,CHEMBL863392,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4123591,CHEMBL869274,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4123591,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4123591,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,full_length,unknown
+CHEMBL4123592,CHEMBL4402021,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,full_length
+CHEMBL4123592,CHEMBL4402023,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL4123592,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,cell_extract
+CHEMBL4123592,CHEMBL4882378,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL4123592,CHEMBL4882379,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL4123592,CHEMBL4882380,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL4123592,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL4123592,CHEMBL5210219,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL4123592,CHEMBL5210491,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL4123592,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL4123592,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL4123592,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL4123592,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,full_length
+CHEMBL4123592,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,unknown,full_length
+CHEMBL4123592,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,cell_extract
+CHEMBL4123592,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,unknown,cell_extract
+CHEMBL4123592,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,unknown,full_length
+CHEMBL4123592,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL4123592,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL4123592,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL4123592,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL4123592,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL4123592,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL4123592,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL4402021,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,full_length,cell_extract
+CHEMBL4402021,CHEMBL4882378,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4402021,CHEMBL4882379,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,full_length,unknown
+CHEMBL4402021,CHEMBL4882380,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,full_length,unknown
+CHEMBL4402021,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4402021,CHEMBL5210219,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,full_length,unknown
+CHEMBL4402021,CHEMBL5210491,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4402021,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4402021,CHEMBL5723241,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,full_length,unknown
+CHEMBL4402021,CHEMBL5723552,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,full_length,unknown
+CHEMBL4402021,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,full_length,full_length
+CHEMBL4402021,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,full_length,cell_extract
+CHEMBL4402021,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,full_length,cell_extract
+CHEMBL4402021,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,full_length,full_length
+CHEMBL4402021,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4402021,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,full_length,unknown
+CHEMBL4402021,CHEMBL862461,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4402021,CHEMBL863392,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4402021,CHEMBL869274,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4402021,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,full_length,unknown
+CHEMBL4402021,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,full_length,unknown
+CHEMBL4402023,CHEMBL4418321,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,cell_extract
+CHEMBL4402023,CHEMBL4882378,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL4402023,CHEMBL4882379,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL4402023,CHEMBL4882380,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL4402023,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL4402023,CHEMBL5210219,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL4402023,CHEMBL5210491,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL4402023,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL4402023,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL4402023,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL4402023,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,full_length
+CHEMBL4402023,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,cell-based format,assay format,unknown,full_length
+CHEMBL4402023,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,cell_extract
+CHEMBL4402023,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,unknown,cell_extract
+CHEMBL4402023,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,cell-based format,single protein format,unknown,full_length
+CHEMBL4402023,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL4402023,CHEMBL828726,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,unknown,unknown
+CHEMBL4402023,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL4402023,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL4402023,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL4402023,CHEMBL960231,0,0,False,False,False,unit_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL4402023,CHEMBL985841,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,unknown,unknown
+CHEMBL4418321,CHEMBL4882378,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL4418321,CHEMBL4882379,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,cell_extract,unknown
+CHEMBL4418321,CHEMBL4882380,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL4418321,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL4418321,CHEMBL5210219,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,cell_extract,unknown
+CHEMBL4418321,CHEMBL5210491,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL4418321,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL4418321,CHEMBL5723241,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,cell_extract,unknown
+CHEMBL4418321,CHEMBL5723552,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL4418321,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,cell_extract,full_length
+CHEMBL4418321,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,cell-based format,assay format,cell_extract,full_length
+CHEMBL4418321,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,cell-based format,single protein format,cell_extract,full_length
+CHEMBL4418321,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL4418321,CHEMBL828726,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL4418321,CHEMBL862461,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL4418321,CHEMBL863392,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL4418321,CHEMBL869274,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL4418321,CHEMBL960231,0,0,False,False,False,unit_mismatch,cell-based format,single protein format,cell_extract,unknown
+CHEMBL4418321,CHEMBL985841,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,cell_extract,unknown
+CHEMBL4882378,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL4882378,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL4882378,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL4882378,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL4882378,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,full_length
+CHEMBL4882378,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,unknown,full_length
+CHEMBL4882378,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,cell_extract
+CHEMBL4882378,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,unknown,cell_extract
+CHEMBL4882378,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,unknown,full_length
+CHEMBL4882378,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL4882378,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL4882378,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL4882378,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL4882378,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL4882378,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL4882378,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL4882379,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL4882379,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL4882379,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,assay format,assay format,unknown,unknown
+CHEMBL4882379,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,assay format,cell-based format,unknown,unknown
+CHEMBL4882379,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,assay format,cell-based format,unknown,full_length
+CHEMBL4882379,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,assay format,assay format,unknown,full_length
+CHEMBL4882379,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,assay format,single protein format,unknown,cell_extract
+CHEMBL4882379,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,assay format,assay format,unknown,cell_extract
+CHEMBL4882379,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,assay format,single protein format,unknown,full_length
+CHEMBL4882379,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL4882379,CHEMBL828726,0,0,False,False,False,unit_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL4882379,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,assay format,single protein format,unknown,unknown
+CHEMBL4882379,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,assay format,single protein format,unknown,unknown
+CHEMBL4882379,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,assay format,single protein format,unknown,unknown
+CHEMBL4882379,CHEMBL960231,0,0,False,False,False,unit_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL4882379,CHEMBL985841,0,0,False,False,False,unit_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL4882380,CHEMBL5112963,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL4882380,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL4882380,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,cell-based format,assay format,unknown,unknown
+CHEMBL4882380,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,cell-based format,cell-based format,unknown,unknown
+CHEMBL4882380,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,full_length
+CHEMBL4882380,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,cell-based format,assay format,unknown,full_length
+CHEMBL4882380,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,cell_extract
+CHEMBL4882380,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,unknown,cell_extract
+CHEMBL4882380,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,cell-based format,single protein format,unknown,full_length
+CHEMBL4882380,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL4882380,CHEMBL828726,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,unknown,unknown
+CHEMBL4882380,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL4882380,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL4882380,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL4882380,CHEMBL960231,0,0,False,False,False,unit_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL4882380,CHEMBL985841,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,unknown,unknown
+CHEMBL5112963,CHEMBL5210219,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,unknown
+CHEMBL5112963,CHEMBL5210491,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL5112963,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL5112963,CHEMBL5723241,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,unknown
+CHEMBL5112963,CHEMBL5723552,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL5112963,CHEMBL5730715,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,full_length
+CHEMBL5112963,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,unknown,full_length
+CHEMBL5112963,CHEMBL5733207,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,cell_extract
+CHEMBL5112963,CHEMBL5734012,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,cell_extract
+CHEMBL5112963,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,unknown,full_length
+CHEMBL5112963,CHEMBL682484,0,0,False,False,False,not_both_IC50,single protein format,single protein format,unknown,unknown
+CHEMBL5112963,CHEMBL828726,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL5112963,CHEMBL862461,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL5112963,CHEMBL863392,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL5112963,CHEMBL869274,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL5112963,CHEMBL960231,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL5112963,CHEMBL985841,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL5210219,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL5210219,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,assay format,assay format,unknown,unknown
+CHEMBL5210219,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,assay format,cell-based format,unknown,unknown
+CHEMBL5210219,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,assay format,cell-based format,unknown,full_length
+CHEMBL5210219,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,assay format,assay format,unknown,full_length
+CHEMBL5210219,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,assay format,single protein format,unknown,cell_extract
+CHEMBL5210219,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,assay format,assay format,unknown,cell_extract
+CHEMBL5210219,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,assay format,single protein format,unknown,full_length
+CHEMBL5210219,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL5210219,CHEMBL828726,0,0,False,False,False,unit_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL5210219,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,assay format,single protein format,unknown,unknown
+CHEMBL5210219,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,assay format,single protein format,unknown,unknown
+CHEMBL5210219,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,assay format,single protein format,unknown,unknown
+CHEMBL5210219,CHEMBL960231,0,0,False,False,False,unit_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL5210219,CHEMBL985841,0,0,False,False,False,unit_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL5210491,CHEMBL5651415,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL5210491,CHEMBL5723241,0,0,False,False,False,protein_layer_not_qualified,single protein format,assay format,unknown,unknown
+CHEMBL5210491,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,single protein format,cell-based format,unknown,unknown
+CHEMBL5210491,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,single protein format,cell-based format,unknown,full_length
+CHEMBL5210491,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,unknown,full_length
+CHEMBL5210491,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,unknown,cell_extract
+CHEMBL5210491,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,single protein format,assay format,unknown,cell_extract
+CHEMBL5210491,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,unknown,full_length
+CHEMBL5210491,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL5210491,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL5210491,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL5210491,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL5210491,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL5210491,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL5210491,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL5651415,CHEMBL5723241,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,unknown
+CHEMBL5651415,CHEMBL5723552,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL5651415,CHEMBL5730715,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,full_length
+CHEMBL5651415,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,single protein format,assay format,unknown,full_length
+CHEMBL5651415,CHEMBL5733207,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,cell_extract
+CHEMBL5651415,CHEMBL5734012,0,0,False,False,False,activity_type_mismatch,single protein format,assay format,unknown,cell_extract
+CHEMBL5651415,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,unknown,full_length
+CHEMBL5651415,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL5651415,CHEMBL828726,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL5651415,CHEMBL862461,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL5651415,CHEMBL863392,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL5651415,CHEMBL869274,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL5651415,CHEMBL960231,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL5651415,CHEMBL985841,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL5723241,CHEMBL5723552,0,0,False,False,False,protein_layer_not_qualified,assay format,cell-based format,unknown,unknown
+CHEMBL5723241,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,assay format,cell-based format,unknown,full_length
+CHEMBL5723241,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,assay format,assay format,unknown,full_length
+CHEMBL5723241,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,assay format,single protein format,unknown,cell_extract
+CHEMBL5723241,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,assay format,assay format,unknown,cell_extract
+CHEMBL5723241,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,assay format,single protein format,unknown,full_length
+CHEMBL5723241,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL5723241,CHEMBL828726,0,0,False,False,False,unit_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL5723241,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,assay format,single protein format,unknown,unknown
+CHEMBL5723241,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,assay format,single protein format,unknown,unknown
+CHEMBL5723241,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,assay format,single protein format,unknown,unknown
+CHEMBL5723241,CHEMBL960231,0,0,False,False,False,unit_mismatch,assay format,single protein format,unknown,unknown
+CHEMBL5723241,CHEMBL985841,0,0,False,False,False,unit_mismatch,assay format,cell-based format,unknown,unknown
+CHEMBL5723552,CHEMBL5730715,0,0,False,False,False,protein_layer_mismatch,cell-based format,cell-based format,unknown,full_length
+CHEMBL5723552,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,cell-based format,assay format,unknown,full_length
+CHEMBL5723552,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,unknown,cell_extract
+CHEMBL5723552,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,unknown,cell_extract
+CHEMBL5723552,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,cell-based format,single protein format,unknown,full_length
+CHEMBL5723552,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL5723552,CHEMBL828726,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,unknown,unknown
+CHEMBL5723552,CHEMBL862461,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL5723552,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL5723552,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,cell-based format,single protein format,unknown,unknown
+CHEMBL5723552,CHEMBL960231,0,0,False,False,False,unit_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL5723552,CHEMBL985841,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,unknown,unknown
+CHEMBL5730715,CHEMBL5731051,0,0,False,True,False,assay_mirror_excluded,cell-based format,assay format,full_length,full_length
+CHEMBL5730715,CHEMBL5733207,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,full_length,cell_extract
+CHEMBL5730715,CHEMBL5734012,0,0,False,False,False,protein_layer_mismatch,cell-based format,assay format,full_length,cell_extract
+CHEMBL5730715,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,cell-based format,single protein format,full_length,full_length
+CHEMBL5730715,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,cell-based format,single protein format,full_length,unknown
+CHEMBL5730715,CHEMBL828726,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,full_length,unknown
+CHEMBL5730715,CHEMBL862461,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,full_length,unknown
+CHEMBL5730715,CHEMBL863392,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,full_length,unknown
+CHEMBL5730715,CHEMBL869274,0,0,False,False,False,protein_layer_mismatch,cell-based format,single protein format,full_length,unknown
+CHEMBL5730715,CHEMBL960231,0,0,False,False,False,unit_mismatch,cell-based format,single protein format,full_length,unknown
+CHEMBL5730715,CHEMBL985841,0,0,False,False,False,unit_mismatch,cell-based format,cell-based format,full_length,unknown
+CHEMBL5731051,CHEMBL5733207,0,0,True,False,False,assay_mirror_excluded,assay format,single protein format,full_length,cell_extract
+CHEMBL5731051,CHEMBL5734012,0,0,True,False,False,assay_mirror_excluded,assay format,assay format,full_length,cell_extract
+CHEMBL5731051,CHEMBL682484,0,0,True,False,False,assay_mirror_excluded,assay format,single protein format,full_length,unknown
+CHEMBL5731051,CHEMBL828726,0,0,True,False,False,assay_mirror_excluded,assay format,cell-based format,full_length,unknown
+CHEMBL5731051,CHEMBL862461,0,0,True,False,False,assay_mirror_excluded,assay format,single protein format,full_length,unknown
+CHEMBL5731051,CHEMBL863392,0,0,True,False,False,assay_mirror_excluded,assay format,single protein format,full_length,unknown
+CHEMBL5731051,CHEMBL869274,0,0,True,False,False,assay_mirror_excluded,assay format,single protein format,full_length,unknown
+CHEMBL5731051,CHEMBL960231,0,0,True,False,False,assay_mirror_excluded,assay format,single protein format,full_length,unknown
+CHEMBL5731051,CHEMBL985841,0,0,True,False,False,assay_mirror_excluded,assay format,cell-based format,full_length,unknown
+CHEMBL5733207,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,single protein format,single protein format,cell_extract,full_length
+CHEMBL5733207,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,cell_extract,unknown
+CHEMBL5733207,CHEMBL828726,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,cell_extract,unknown
+CHEMBL5733207,CHEMBL862461,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,cell_extract,unknown
+CHEMBL5733207,CHEMBL863392,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,cell_extract,unknown
+CHEMBL5733207,CHEMBL869274,0,0,False,False,False,protein_layer_mismatch,single protein format,single protein format,cell_extract,unknown
+CHEMBL5733207,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,cell_extract,unknown
+CHEMBL5733207,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,cell_extract,unknown
+CHEMBL5734012,CHEMBL5734379,0,0,False,True,False,assay_mirror_excluded,assay format,single protein format,cell_extract,full_length
+CHEMBL5734012,CHEMBL682484,0,0,False,False,False,activity_type_mismatch,assay format,single protein format,cell_extract,unknown
+CHEMBL5734012,CHEMBL828726,0,0,False,False,False,unit_mismatch,assay format,cell-based format,cell_extract,unknown
+CHEMBL5734012,CHEMBL862461,0,0,False,False,False,protein_layer_mismatch,assay format,single protein format,cell_extract,unknown
+CHEMBL5734012,CHEMBL863392,0,0,False,False,False,protein_layer_mismatch,assay format,single protein format,cell_extract,unknown
+CHEMBL5734012,CHEMBL869274,0,0,False,False,False,protein_layer_mismatch,assay format,single protein format,cell_extract,unknown
+CHEMBL5734012,CHEMBL960231,0,0,False,False,False,unit_mismatch,assay format,single protein format,cell_extract,unknown
+CHEMBL5734012,CHEMBL985841,0,0,False,False,False,unit_mismatch,assay format,cell-based format,cell_extract,unknown
+CHEMBL5734379,CHEMBL682484,0,0,True,False,False,assay_mirror_excluded,single protein format,single protein format,full_length,unknown
+CHEMBL5734379,CHEMBL828726,0,0,True,False,False,assay_mirror_excluded,single protein format,cell-based format,full_length,unknown
+CHEMBL5734379,CHEMBL862461,0,0,True,False,False,assay_mirror_excluded,single protein format,single protein format,full_length,unknown
+CHEMBL5734379,CHEMBL863392,0,0,True,False,False,assay_mirror_excluded,single protein format,single protein format,full_length,unknown
+CHEMBL5734379,CHEMBL869274,0,0,True,False,False,assay_mirror_excluded,single protein format,single protein format,full_length,unknown
+CHEMBL5734379,CHEMBL960231,0,0,True,False,False,assay_mirror_excluded,single protein format,single protein format,full_length,unknown
+CHEMBL5734379,CHEMBL985841,0,0,True,False,False,assay_mirror_excluded,single protein format,cell-based format,full_length,unknown
+CHEMBL682484,CHEMBL828726,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL682484,CHEMBL862461,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL682484,CHEMBL863392,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL682484,CHEMBL869274,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL682484,CHEMBL960231,0,0,False,False,False,activity_type_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL682484,CHEMBL985841,0,0,False,False,False,activity_type_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL828726,CHEMBL862461,0,0,False,False,False,unit_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL828726,CHEMBL869274,0,0,False,False,False,unit_mismatch,cell-based format,single protein format,unknown,unknown
+CHEMBL828726,CHEMBL960231,0,0,False,False,False,unit_or_relation_not_clean,cell-based format,single protein format,unknown,unknown
+CHEMBL828726,CHEMBL985841,0,0,False,False,False,unit_or_relation_not_clean,cell-based format,cell-based format,unknown,unknown
+CHEMBL862461,CHEMBL863392,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL862461,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL863392,CHEMBL869274,0,0,False,False,False,protein_layer_not_qualified,single protein format,single protein format,unknown,unknown
+CHEMBL863392,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL863392,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown
+CHEMBL869274,CHEMBL960231,0,0,False,False,False,unit_mismatch,single protein format,single protein format,unknown,unknown
+CHEMBL869274,CHEMBL985841,0,0,False,False,False,unit_mismatch,single protein format,cell-based format,unknown,unknown

@@ -1,0 +1,249 @@
+{
+  "round": "fifth_round_direction_exploration_20260915",
+  "generated_at": "2026-09-15T09:03:17.323731+00:00",
+  "decision": "FAIL",
+  "scope": "FASN T1 shared-assay/leakage/transform audit plus direction qualification; no full historical rerun",
+  "t1_summary": {
+    "all_assay_pairs": 1275,
+    "shared_pairs_ge15": 4,
+    "comparable_pairs_ge15": 1,
+    "transformations": 1,
+    "stable_transformations": 1,
+    "normalized_dataset_built": false,
+    "leakage": {
+      "exact_duplicate_count": 0,
+      "canonical_overlap_count": 0,
+      "scaffold_overlap_rate": 0.0,
+      "scaffold_overlap_count_across_10_seeds": 0,
+      "stereoisomer_overlap_count": 0,
+      "assay_mirror_overlap_count": 89,
+      "external_overlap_count": 3,
+      "near_duplicate_count": 82,
+      "near_duplicate_rate": 0.8541666666666666,
+      "chemical_series_confinement_count": 82,
+      "chemical_series_confinement_rate": 0.8541666666666666,
+      "leakage_definition": "仅 exact structure/canonical duplicate、scaffold cross-split、复制记录跨集计 leakage；高相似 NN>=0.85 且无上述跨集重复计 chemical-series confinement。",
+      "verdict": "PASS"
+    }
+  },
+  "direction_roles": {
+    "primary": "Moracin N–NRF2/ferroptosis 肝细胞机制验证",
+    "secondary": "FXR evidence-anchor/Formononetin 依赖性桥接 + Biochanin A QC",
+    "reserve": "THRβ reporter、Isorhamnetin、FASN直接酶实验、SCD1/DGAT2重资格化",
+    "rejected": [
+      "NP54 FASN定量榜",
+      "docking score排序",
+      "旧GNN/CW-BCS/TOPSIS正向结论",
+      "ACC1/ACC2合并模型",
+      "3′-methoxydaidzein当前创新候选"
+    ]
+  },
+  "qc": {
+    "verdict": "PASS",
+    "issues": []
+  },
+  "authoritative_artifacts": {
+    "aidd_research_state": {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\研究状态.json",
+      "sha256": "cdbe38ed8e269bcd4c38a707385f6e6493746df48a6e09fb1c73a06f06e594bd",
+      "bytes": 23816
+    },
+    "gate_decision": {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\fifth_round_direction_exploration_20260915\\GATE_DECISION.json",
+      "sha256": "0c08255522c99388c6edcf1c220092ab560024faf2371b67cfb18623bb2e6ba4",
+      "bytes": 4558
+    },
+    "direction_matrix": {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\fifth_round_direction_exploration_20260915\\direction_exploration_matrix.csv",
+      "sha256": "49d96204944aeaed967f4410b7c016975e4c65a4ae3c7348b7474f66829b3cfc",
+      "bytes": 6906
+    },
+    "qc_checks": {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\fifth_round_direction_exploration_20260915\\derived\\qc_checks.json",
+      "sha256": "cd754daf7cdaa1db31023900adaa656d277ee3ee189829def76e256cf5b12479",
+      "bytes": 1996
+    },
+    "qc_report": {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\fifth_round_direction_exploration_20260915\\QC_report.md",
+      "sha256": "7d25d24e4d652d1d8e3aca77023891fd9800ea6e0ad81b3d0f6238f9f4f4c882",
+      "bytes": 1571
+    }
+  },
+  "source_inputs": {
+    "master": {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\final_strategy_round_20260912\\FASN_activity_master.csv",
+      "sha256": "51189faf67b274dd27ba42d99a4ff7a66d8795f2c75598cdc622218455737fe7",
+      "bytes": 2327988
+    },
+    "assay_aware": {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\advancement_round_20260913\\FASN_assay_aware_master.csv",
+      "sha256": "7811cb850af66be47e4db91ac1f589d05f0762de9c0583c8a2ab5c04e44b4157",
+      "bytes": 2596044
+    },
+    "canonical": {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\qualification_round_20260913\\FASN_canonical_clean.csv",
+      "sha256": "cca2817fed8c12d8bfd9a6223780f26332dbe44453e901c84c480c93fb658608",
+      "bytes": 22067
+    },
+    "external": {
+      "path": "D:\\zcode-workspace\\aidd-repo-work\\00-当前研究\\qualification_round_20260913\\FASN_external_set.csv",
+      "sha256": "06b513acab30a4d3b50e36df92323a9e09c352c97ccece70a0ab315bf01d92f6",
+      "bytes": 21384
+    }
+  },
+  "state_assertions": {
+    "project_stage": "fifth_round_direction_exploration",
+    "current_stage": "第五轮方向探索（FASN Gate T1已裁决）",
+    "gate_t1_decision": "FAIL",
+    "candidate_release": false,
+    "gnn_enable_gate": "closed"
+  },
+  "repository_snapshots": {
+    "aidd": {
+      "head": "8915896dc690d0f28604c4ea09bd69dd2c5c8bdf",
+      "status_lines": 7,
+      "uncommitted_files": [
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/README.md\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/QC_report.md\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/derived/qc_checks.json\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/asset_preservation_and_gnn_replan_v1/run_preservation_qc.py\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/qualification_v1/RESEARCH_STATE.md\"",
+        " M \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/\\347\\240\\224\\347\\251\\266\\347\\212\\266\\346\\200\\201.json\"",
+        "?? \"00-\\345\\275\\223\\345\\211\\215\\347\\240\\224\\347\\251\\266/fifth_round_direction_exploration_20260915/\""
+      ]
+    },
+    "hepato-gnn-screening": {
+      "head": "66f51e2df58d5a492e39a0a5ab79420c24612478",
+      "status_lines": 5,
+      "uncommitted_files": [
+        " M GNN_RESEARCH_PLAN_v2.md",
+        " M README.md",
+        " M RESEARCH_STATE.md",
+        " M STATUS.json",
+        " M tests/test_workbench_contract.py"
+      ]
+    },
+    "mash-aidd-workbench": {
+      "head": "396a60e081be272a707b4f3db1bc1cd6b4ab3d6c",
+      "status_lines": 32,
+      "uncommitted_files": [
+        " M app.py",
+        " M core/__init__.py",
+        " M core/candidate_eligibility.py",
+        " M core/database.py",
+        " M core/dti_qualification.py",
+        " M core/evidence_taxonomy.py",
+        " M core/project.py",
+        " M core/research_workflow.py",
+        " M core/run_archive.py",
+        " M pages/02_Compounds.py",
+        " M pages/05_DTI_Validation.py",
+        " M pages/07_Docking.py",
+        " M pages/08_Evidence.py",
+        " M pages/10_Candidates.py",
+        " M pages/17_Research_State.py",
+        " M schemas/compound_master.py",
+        " M tests/test_core_science.py",
+        " M tests/test_research_workflow.py",
+        " M workflows/dti_screen.py",
+        "?? ASTRA_ROUND5_CLOSURE_REVIEW.md",
+        "?? Morgan_features.h5",
+        "?? ProtBert_features.h5",
+        "?? RESEARCH_QUALIFICATION_ARCHITECTURE.md",
+        "?? ROUND5_1_PRODUCTION_GATE_CLOSURE_REPORT.md",
+        "?? core/research_qualification.py",
+        "?? data/benchmark/_conplex_inference.py",
+        "?? data/benchmark/_conplex_input.json",
+        "?? data/benchmark/_conplex_input.tsv",
+        "?? data/benchmark/_conplex_output.json",
+        "?? data/benchmark/_conplex_results.tsv",
+        "?? scripts/run_dti_inference_v2.py",
+        "?? tests/test_round51_production.py"
+      ]
+    }
+  },
+  "files_excluding_manifest": {
+    "build_direction_matrix.py": {
+      "sha256": "ac3b0218734fae3aad71af7d641a3759f95f6970054cc40729caef557816f1d4",
+      "bytes": 8647
+    },
+    "build_manifest.py": {
+      "sha256": "b914c2041cf19286f970351cbbd4b159f039fb2fcafc75c419f818e0d4c89809",
+      "bytes": 5352
+    },
+    "derived/qc_checks.json": {
+      "sha256": "cd754daf7cdaa1db31023900adaa656d277ee3ee189829def76e256cf5b12479",
+      "bytes": 1996
+    },
+    "direction_exploration_matrix.csv": {
+      "sha256": "49d96204944aeaed967f4410b7c016975e4c65a4ae3c7348b7474f66829b3cfc",
+      "bytes": 6906
+    },
+    "EXECUTION_OVERVIEW.md": {
+      "sha256": "b7f02bc7878c8773b8bad9906407369013e965276ce979064b27c4cbf840b6e2",
+      "bytes": 1820
+    },
+    "FASN_T1_ASSAY_TRANSFORMATIONS.csv": {
+      "sha256": "e4cc0774226e149252c940554e075787f6f022c5473d333a5f683b1f18eb5268",
+      "bytes": 787
+    },
+    "FASN_T1_COMPARABLE_PAIRS.csv": {
+      "sha256": "7b98cad1f0449bc23a595660b662ac2715f29e134626057b4d35e93fb914cfb7",
+      "bytes": 403
+    },
+    "FASN_T1_DATA_AUDIT.json": {
+      "sha256": "6f030259b016ec96c57e53128045068d8f7e0488ee654555934e94ecec161ef0",
+      "bytes": 2043
+    },
+    "FASN_T1_DECISION.md": {
+      "sha256": "a185a222c709c1b8ca7d25452f84e28015aadc66001c995ad6f8812cc4471ff4",
+      "bytes": 6577
+    },
+    "FASN_T1_LEAKAGE_AUDIT.json": {
+      "sha256": "8b5458b54088d5976d92adc44943ba1815447cfc100c65fccb5c9d12c7905886",
+      "bytes": 658
+    },
+    "FASN_T1_NORMALIZED_DATASET_NOT_BUILT.md": {
+      "sha256": "e234713d264be53e85944a6feab38a80f2f5dafdb3b27e5477bbda353acb5821",
+      "bytes": 558
+    },
+    "FASN_T1_PAIR_DETAILS.json": {
+      "sha256": "87de43c9baa9087049407967a6276fbfc8dc0e6ddbd68f3bd1971eb2c39d5b47",
+      "bytes": 77810
+    },
+    "FASN_T1_SHARED_ASSAY_MATRIX.csv": {
+      "sha256": "7060d8feb118486d3698190f3b4d5a74582d2d5c607f25edcc261577b76e60e8",
+      "bytes": 168368
+    },
+    "GATE_DECISION.json": {
+      "sha256": "0c08255522c99388c6edcf1c220092ab560024faf2371b67cfb18623bb2e6ba4",
+      "bytes": 4558
+    },
+    "OPEN_ISSUES.md": {
+      "sha256": "7668ddc563f65bea3936ce70c4e06583938185c7febf7c8fd0104df5989af612",
+      "bytes": 1272
+    },
+    "QC_report.md": {
+      "sha256": "7d25d24e4d652d1d8e3aca77023891fd9800ea6e0ad81b3d0f6238f9f4f4c882",
+      "bytes": 1571
+    },
+    "run_fasn_t1.py": {
+      "sha256": "43c069d7743cd985cc86cee6d1492c41593229c5bf966a19e6bb4361f06f61c3",
+      "bytes": 21428
+    },
+    "run_fifth_round_qc.py": {
+      "sha256": "3e2c465cecfbc7cf56d5905430247112b9c173c735e7854ef6d2094be5ff52e0",
+      "bytes": 8087
+    },
+    "run_summary.json": {
+      "sha256": "d92f407077103ef4bfb85319fc1296ef9b98280b69e77ea5f94c9c2efd73f12e",
+      "bytes": 4246
+    },
+    "第五轮资格裁决与方向探索执行报告.md": {
+      "sha256": "568b34c7278913f67a48a97461140f00e67d1405a2250ef27c7892bb138039f4",
+      "bytes": 7372
+    }
+  },
+  "no_candidate_release": true,
+  "no_gnn_training": true
+}

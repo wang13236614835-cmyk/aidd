@@ -1,0 +1,2279 @@
+{
+  "CHEMBL3888977__CHEMBL5733207": [
+    {
+      "identity_key": "ACIKGJQFTBHCSY-UHFFFAOYSA-N",
+      "pActivity_source": 7.1249387366083,
+      "pActivity_target": 7.1249387366083,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ADIRCQFFVCTEHI-UHFFFAOYSA-N",
+      "pActivity_source": 7.481486060122112,
+      "pActivity_target": 7.481486060122112,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "AIWHLRCKURLFND-UHFFFAOYSA-N",
+      "pActivity_source": 7.67778070526608,
+      "pActivity_target": 7.67778070526608,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "AKGOJDBWMDJQCK-UHFFFAOYSA-N",
+      "pActivity_source": 7.67778070526608,
+      "pActivity_target": 7.67778070526608,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "AKGXERLXVUKVEF-UHFFFAOYSA-N",
+      "pActivity_source": 7.602059991327962,
+      "pActivity_target": 7.602059991327962,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ALBJMNFGXZLIEW-UHFFFAOYSA-N",
+      "pActivity_source": 7.1487416512809245,
+      "pActivity_target": 7.1487416512809245,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "AVBJTVWYXKPBRN-UHFFFAOYSA-N",
+      "pActivity_source": 7.187086643357144,
+      "pActivity_target": 7.187086643357144,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "AWCSITFOXNKBSX-UHFFFAOYSA-N",
+      "pActivity_source": 8.045757490560675,
+      "pActivity_target": 8.045757490560675,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "AYGMGIPMCBBOIJ-UHFFFAOYSA-N",
+      "pActivity_source": 6.958607314841775,
+      "pActivity_target": 6.958607314841775,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "AYHBUTIBODZNIB-UHFFFAOYSA-N",
+      "pActivity_source": 7.619788758288394,
+      "pActivity_target": 7.619788758288394,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "AYMCHEDNKNVQSE-UHFFFAOYSA-N",
+      "pActivity_source": 7.366531544420414,
+      "pActivity_target": 7.366531544420414,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "AYVDMBISUXEGJF-UHFFFAOYSA-N",
+      "pActivity_source": 6.337242168318426,
+      "pActivity_target": 6.337242168318426,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "BBYNPMVFPQVYAE-UHFFFAOYSA-N",
+      "pActivity_source": 7.397940008672037,
+      "pActivity_target": 7.397940008672037,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "BGBASXVSTYHRHN-UHFFFAOYSA-N",
+      "pActivity_source": 7.309803919971486,
+      "pActivity_target": 7.309803919971486,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "BHWWMSMREDJNHS-UHFFFAOYSA-N",
+      "pActivity_source": 5.430626090384954,
+      "pActivity_target": 5.430626090384954,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "BIZFLNISZMJQQE-UHFFFAOYSA-N",
+      "pActivity_source": 7.42021640338319,
+      "pActivity_target": 7.42021640338319,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "BMMNFZQIYZENJO-UHFFFAOYSA-N",
+      "pActivity_source": 7.67778070526608,
+      "pActivity_target": 7.67778070526608,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "BMVGSAATCYIUNE-UHFFFAOYSA-N",
+      "pActivity_source": 7.050609993355087,
+      "pActivity_target": 7.050609993355087,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "BNNIAZIWRMSHBX-UHFFFAOYSA-N",
+      "pActivity_source": 7.853871964321762,
+      "pActivity_target": 7.853871964321762,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "BNRBRWWYXAUXAP-UHFFFAOYSA-N",
+      "pActivity_source": 7.585026652029182,
+      "pActivity_target": 7.585026652029182,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "BRJYPRNAXRATDU-UHFFFAOYSA-N",
+      "pActivity_source": 8.0,
+      "pActivity_target": 8.0,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "BWQFZTFMIMYQBW-UHFFFAOYSA-N",
+      "pActivity_source": 7.920818753952375,
+      "pActivity_target": 7.920818753952375,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "BXYZXSKFUJTISP-UHFFFAOYSA-N",
+      "pActivity_source": 7.619788758288394,
+      "pActivity_target": 7.619788758288394,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "BYQTVVKXCBCKJQ-UHFFFAOYSA-N",
+      "pActivity_source": 7.229147988357855,
+      "pActivity_target": 7.229147988357855,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "BZSKNSIXLZMQBD-UHFFFAOYSA-N",
+      "pActivity_source": 7.42021640338319,
+      "pActivity_target": 7.42021640338319,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "CIOTUGWBWJRZKN-UHFFFAOYSA-N",
+      "pActivity_source": 7.096910013008056,
+      "pActivity_target": 7.096910013008056,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "CITGLSURWYHZFZ-UHFFFAOYSA-N",
+      "pActivity_source": 7.67778070526608,
+      "pActivity_target": 7.67778070526608,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "CJHINGVJBPTGAB-UHFFFAOYSA-N",
+      "pActivity_source": 7.698970004336019,
+      "pActivity_target": 7.698970004336019,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "CKHPSJVPFXBVFD-UHFFFAOYSA-N",
+      "pActivity_source": 7.154901959985743,
+      "pActivity_target": 7.154901959985743,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "CKKPBGQDGVMMJC-UHFFFAOYSA-N",
+      "pActivity_source": 7.721246399047171,
+      "pActivity_target": 7.721246399047171,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "CLYVHERPOJMOOT-UHFFFAOYSA-N",
+      "pActivity_source": 7.698970004336019,
+      "pActivity_target": 7.698970004336019,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "CQWYEPPJPDSDBS-UHFFFAOYSA-N",
+      "pActivity_source": 7.236572006437063,
+      "pActivity_target": 7.236572006437063,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "CRNCNYFJVHNIJM-UHFFFAOYSA-N",
+      "pActivity_source": 7.568636235841013,
+      "pActivity_target": 7.568636235841013,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "CSBKNELOGCSGLS-UHFFFAOYSA-N",
+      "pActivity_source": 7.075720713938118,
+      "pActivity_target": 7.075720713938118,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "CXIXILOTAGJKGV-UHFFFAOYSA-N",
+      "pActivity_source": 7.853871964321762,
+      "pActivity_target": 7.853871964321762,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "CXZWKKQOIZBIBD-UHFFFAOYSA-N",
+      "pActivity_source": 8.096910013008056,
+      "pActivity_target": 8.096910013008056,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "DAAKMVCUPZBWIN-UHFFFAOYSA-N",
+      "pActivity_source": 7.721246399047171,
+      "pActivity_target": 7.721246399047171,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "DDFPYRLHLNGEBM-UHFFFAOYSA-N",
+      "pActivity_source": 7.67778070526608,
+      "pActivity_target": 7.67778070526608,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "DDTJYRWUWNXYMF-UHFFFAOYSA-N",
+      "pActivity_source": 7.292429823902063,
+      "pActivity_target": 7.292429823902063,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "DEHXMLNIONQDJC-UHFFFAOYSA-N",
+      "pActivity_source": 7.251811972993799,
+      "pActivity_target": 7.251811972993799,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "DFAVMERZRSZEKX-UHFFFAOYSA-N",
+      "pActivity_source": 7.568636235841013,
+      "pActivity_target": 7.568636235841013,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "DJFUTKZRAWSOJN-UHFFFAOYSA-N",
+      "pActivity_source": 7.602059991327962,
+      "pActivity_target": 7.602059991327962,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "DMALGZJQYJLAQN-UHFFFAOYSA-N",
+      "pActivity_source": 7.5376020021010435,
+      "pActivity_target": 7.5376020021010435,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "DQORBHAHPMUWQK-UHFFFAOYSA-N",
+      "pActivity_source": 6.749579997691106,
+      "pActivity_target": 6.749579997691106,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "DRYJZAQMCNFRHK-UHFFFAOYSA-N",
+      "pActivity_source": 7.443697499232712,
+      "pActivity_target": 7.443697499232712,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "DSJAHOFEBBLURM-UHFFFAOYSA-N",
+      "pActivity_source": 6.958607314841775,
+      "pActivity_target": 6.958607314841775,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "DWMPBZMKAVXYPI-UHFFFAOYSA-N",
+      "pActivity_source": 8.221848749616356,
+      "pActivity_target": 8.221848749616356,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "DYJWJKQXRDKSQX-UHFFFAOYSA-N",
+      "pActivity_source": 7.5376020021010435,
+      "pActivity_target": 7.5376020021010435,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "DZJZGOSIWDCQMQ-UHFFFAOYSA-N",
+      "pActivity_source": 6.086186147616283,
+      "pActivity_target": 6.086186147616283,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "FAYQAFBWNNRNLW-UHFFFAOYSA-N",
+      "pActivity_source": 6.494850021680094,
+      "pActivity_target": 6.494850021680094,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "FDVWXDKZZSPBSQ-UHFFFAOYSA-N",
+      "pActivity_source": 7.698970004336019,
+      "pActivity_target": 7.698970004336019,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "FFFILHSGTQKZOO-UHFFFAOYSA-N",
+      "pActivity_source": 6.0,
+      "pActivity_target": 6.0,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "FIEIZOYCHLESCM-UHFFFAOYSA-N",
+      "pActivity_source": 8.221848749616356,
+      "pActivity_target": 8.221848749616356,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "FIOPIOHHXNPUIE-UHFFFAOYSA-N",
+      "pActivity_source": 7.698970004336019,
+      "pActivity_target": 7.698970004336019,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "FJDVMJZDMZEZLZ-UHFFFAOYSA-N",
+      "pActivity_source": 7.040958607678906,
+      "pActivity_target": 7.040958607678906,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "FLKLNVWLDKVMMH-UHFFFAOYSA-N",
+      "pActivity_source": 7.0,
+      "pActivity_target": 7.0,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "FLZNTFMXSBHYAE-UHFFFAOYSA-N",
+      "pActivity_source": 7.318758762624412,
+      "pActivity_target": 7.318758762624412,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "FMYFKMTVYCTAAO-UHFFFAOYSA-N",
+      "pActivity_source": 4.301029995663981,
+      "pActivity_target": 4.301029995663981,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "FURUSYXSUGSJBQ-UHFFFAOYSA-N",
+      "pActivity_source": 6.684029654543083,
+      "pActivity_target": 6.684029654543083,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "FVYZAKBLNGQCDT-UHFFFAOYSA-N",
+      "pActivity_source": 7.5376020021010435,
+      "pActivity_target": 7.5376020021010435,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "FWVVSTOCMYAPPJ-UHFFFAOYSA-N",
+      "pActivity_source": 7.958607314841775,
+      "pActivity_target": 7.958607314841775,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "FXCXLZKYELCWJI-UHFFFAOYSA-N",
+      "pActivity_source": 7.244125144327507,
+      "pActivity_target": 7.244125144327507,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "FZKUNNIPFYMIEW-UHFFFAOYSA-N",
+      "pActivity_source": 7.229147988357855,
+      "pActivity_target": 7.229147988357855,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "GGEMZVIQNKKTHH-UHFFFAOYSA-N",
+      "pActivity_source": 7.958607314841775,
+      "pActivity_target": 7.958607314841775,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "GHVVAFPHPGKWND-UHFFFAOYSA-N",
+      "pActivity_source": 7.494850021680094,
+      "pActivity_target": 7.494850021680094,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "GILOUGCUJSULPO-UHFFFAOYSA-N",
+      "pActivity_source": 8.0,
+      "pActivity_target": 8.0,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "GIMHJVPYCWAEND-UHFFFAOYSA-N",
+      "pActivity_source": 7.1938200260161125,
+      "pActivity_target": 7.1938200260161125,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "GJEWTJWHJAMMJW-UHFFFAOYSA-N",
+      "pActivity_source": 7.167491087293763,
+      "pActivity_target": 7.167491087293763,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "GOSQSCBUOFJNLF-UHFFFAOYSA-N",
+      "pActivity_source": 7.397940008672037,
+      "pActivity_target": 7.397940008672037,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "GPAPADLFSQZGHJ-UHFFFAOYSA-N",
+      "pActivity_source": 7.920818753952375,
+      "pActivity_target": 7.920818753952375,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "GQGQSEPOZYOPJG-UHFFFAOYSA-N",
+      "pActivity_source": 7.721246399047171,
+      "pActivity_target": 7.721246399047171,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "GQKOMESLBZLAER-UHFFFAOYSA-N",
+      "pActivity_source": 7.142667503568732,
+      "pActivity_target": 7.142667503568732,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "GUBVYLSIGYFJRR-UHFFFAOYSA-N",
+      "pActivity_source": 5.348721986001856,
+      "pActivity_target": 5.348721986001856,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "GWIHCSLBZVFSQC-UHFFFAOYSA-N",
+      "pActivity_source": 7.468521082957745,
+      "pActivity_target": 7.468521082957745,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "GYLGVCRNEGHVOO-UHFFFAOYSA-N",
+      "pActivity_source": 5.825358807339551,
+      "pActivity_target": 5.825358807339551,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "HAVRAZYRGLYPHG-UHFFFAOYSA-N",
+      "pActivity_source": 6.958607314841775,
+      "pActivity_target": 6.958607314841775,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "HEHXBFCFMRACSG-UHFFFAOYSA-N",
+      "pActivity_source": 7.086186147616283,
+      "pActivity_target": 7.086186147616283,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "HFQOAETXILVDQV-UHFFFAOYSA-N",
+      "pActivity_source": 5.772113295386326,
+      "pActivity_target": 5.772113295386326,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "HGQJBWQIIGHAAH-UHFFFAOYSA-N",
+      "pActivity_source": 7.769551078621726,
+      "pActivity_target": 7.769551078621726,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "HIEBQACSULODTE-UHFFFAOYSA-N",
+      "pActivity_source": 7.795880017344075,
+      "pActivity_target": 7.795880017344075,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "HLWHNQKEHLZMLT-UHFFFAOYSA-N",
+      "pActivity_source": 7.397940008672037,
+      "pActivity_target": 7.397940008672037,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "HQHUTEVWERFFKM-UHFFFAOYSA-N",
+      "pActivity_source": 7.397940008672037,
+      "pActivity_target": 7.397940008672037,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "HQJLNTCWHLSZDR-UHFFFAOYSA-N",
+      "pActivity_source": 6.920818753952375,
+      "pActivity_target": 6.920818753952375,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "HRLFCOCMJOGFKW-UHFFFAOYSA-N",
+      "pActivity_source": 6.732828271596986,
+      "pActivity_target": 6.732828271596986,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "HRPYBVAQACGPDX-UHFFFAOYSA-N",
+      "pActivity_source": 8.154901959985743,
+      "pActivity_target": 8.154901959985743,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "HTAWOIMMUSHYDD-UHFFFAOYSA-N",
+      "pActivity_source": 7.744727494896693,
+      "pActivity_target": 7.744727494896693,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "HWTYXTGUJWOBHS-UHFFFAOYSA-N",
+      "pActivity_source": 7.397940008672037,
+      "pActivity_target": 7.397940008672037,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "HZACYKWTCLJWBT-UHFFFAOYSA-N",
+      "pActivity_source": 7.244125144327507,
+      "pActivity_target": 7.244125144327507,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "IBXBIKNZBFBOBM-UHFFFAOYSA-N",
+      "pActivity_source": 7.619788758288394,
+      "pActivity_target": 7.619788758288394,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ICDQFUFDAFKCAX-UHFFFAOYSA-N",
+      "pActivity_source": 7.221848749616356,
+      "pActivity_target": 7.221848749616356,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ICVWZRMDPRDIDT-UHFFFAOYSA-N",
+      "pActivity_source": 7.431798275933005,
+      "pActivity_target": 7.431798275933005,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "IGNQOTHGILIHBL-UHFFFAOYSA-N",
+      "pActivity_source": 7.214670164989233,
+      "pActivity_target": 7.214670164989233,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "IHGCPSYQLOBXHX-UHFFFAOYSA-N",
+      "pActivity_source": 6.978810700930062,
+      "pActivity_target": 6.978810700930062,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "IIPGNXRUMDIYGG-UHFFFAOYSA-N",
+      "pActivity_source": 6.920818753952375,
+      "pActivity_target": 6.920818753952375,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "IIULFQXJTNDQGP-UHFFFAOYSA-N",
+      "pActivity_source": 7.744727494896693,
+      "pActivity_target": 7.744727494896693,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "IIYBOMYFJXYSNC-UHFFFAOYSA-N",
+      "pActivity_source": 7.455931955649724,
+      "pActivity_target": 7.455931955649724,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "IIZCFMCOWLEWTA-UHFFFAOYSA-N",
+      "pActivity_source": 7.356547323513812,
+      "pActivity_target": 7.356547323513812,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ILHCCISWUJNJGL-UHFFFAOYSA-N",
+      "pActivity_source": 7.522878745280337,
+      "pActivity_target": 7.522878745280337,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "INETWADGMCENLP-UHFFFAOYSA-N",
+      "pActivity_source": 6.376750709602099,
+      "pActivity_target": 6.376750709602099,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "IQMKMBYSCWEVBN-UHFFFAOYSA-N",
+      "pActivity_source": 6.468521082957745,
+      "pActivity_target": 6.468521082957745,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ISDYBNZOEHNQIU-UHFFFAOYSA-N",
+      "pActivity_source": 7.619788758288394,
+      "pActivity_target": 7.619788758288394,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "IUMWPQJDJAROTL-UHFFFAOYSA-N",
+      "pActivity_source": 7.173925197299173,
+      "pActivity_target": 7.173925197299173,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "IVBVLPJDCPUZEY-UHFFFAOYSA-N",
+      "pActivity_source": 7.008773924307505,
+      "pActivity_target": 7.008773924307505,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "IVKVYWHFCHKLNH-UHFFFAOYSA-N",
+      "pActivity_source": 6.337242168318426,
+      "pActivity_target": 6.337242168318426,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "IXTNHHLLFKUUOJ-UHFFFAOYSA-N",
+      "pActivity_source": 7.585026652029182,
+      "pActivity_target": 7.585026652029182,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "IYABGKVTCWUDOB-UHFFFAOYSA-N",
+      "pActivity_source": 6.267606240177032,
+      "pActivity_target": 6.267606240177032,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "JCGBDGPWPOYJSW-UHFFFAOYSA-N",
+      "pActivity_source": 5.036684488613889,
+      "pActivity_target": 5.036684488613889,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "JCIXDWWQBOJQSN-UHFFFAOYSA-N",
+      "pActivity_source": 6.721246399047171,
+      "pActivity_target": 6.721246399047171,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "JDLVNHQSJSHFRY-UHFFFAOYSA-N",
+      "pActivity_source": 7.619788758288394,
+      "pActivity_target": 7.619788758288394,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "JDLWIQJRBDESGA-UHFFFAOYSA-N",
+      "pActivity_source": 7.853871964321762,
+      "pActivity_target": 7.853871964321762,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "JDPINYQEBLMZGN-UHFFFAOYSA-N",
+      "pActivity_source": 7.744727494896693,
+      "pActivity_target": 7.744727494896693,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "JGZAGNUDYHJTLK-UHFFFAOYSA-N",
+      "pActivity_source": 6.537602002101044,
+      "pActivity_target": 6.537602002101044,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "JILIZGQISYUODW-UHFFFAOYSA-N",
+      "pActivity_source": 6.782516055786093,
+      "pActivity_target": 6.782516055786093,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "JKADIYIPISACAT-UHFFFAOYSA-N",
+      "pActivity_source": 7.2839966563652,
+      "pActivity_target": 7.2839966563652,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "JNMAFPQUQHOOOA-UHFFFAOYSA-N",
+      "pActivity_source": 7.853871964321762,
+      "pActivity_target": 7.853871964321762,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "JOCMLHFDLVRANH-UHFFFAOYSA-N",
+      "pActivity_source": 6.958607314841775,
+      "pActivity_target": 6.958607314841775,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "JSFLNEBPVRTDKK-UHFFFAOYSA-N",
+      "pActivity_source": 7.187086643357144,
+      "pActivity_target": 7.187086643357144,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "JTGMMSQUFQNQCB-JKIUYZKVSA-N",
+      "pActivity_source": 8.045757490560675,
+      "pActivity_target": 8.045757490560675,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "JTGMMSQUFQNQCB-UHGJSFDGSA-N",
+      "pActivity_source": 7.886056647693163,
+      "pActivity_target": 7.886056647693163,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "JTSSBNRKPJVKHB-UHFFFAOYSA-N",
+      "pActivity_source": 7.443697499232712,
+      "pActivity_target": 7.443697499232712,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "JUENHSQLOJLIMG-UHFFFAOYSA-N",
+      "pActivity_source": 8.045757490560675,
+      "pActivity_target": 8.045757490560675,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "JYBNDTSQRZSISV-UHFFFAOYSA-N",
+      "pActivity_source": 7.346787486224656,
+      "pActivity_target": 7.346787486224656,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "JYHCPLCHUOFSFY-UHFFFAOYSA-N",
+      "pActivity_source": 7.229147988357855,
+      "pActivity_target": 7.229147988357855,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "KDKJRPAVJCHWNL-UHFFFAOYSA-N",
+      "pActivity_source": 7.602407705158788,
+      "pActivity_target": 7.602407705158788,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "KHAFAAXMEKSHRQ-UHFFFAOYSA-N",
+      "pActivity_source": 6.8696662315049934,
+      "pActivity_target": 6.8696662315049934,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "KIBIWGKUVJNFQK-UHFFFAOYSA-N",
+      "pActivity_source": 7.886056647693163,
+      "pActivity_target": 7.886056647693163,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "KJUBAVCTHYVGBI-UHFFFAOYSA-N",
+      "pActivity_source": 6.903089986991944,
+      "pActivity_target": 6.903089986991944,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "KJZKXTRLGGFSEG-UHFFFAOYSA-N",
+      "pActivity_source": 8.0,
+      "pActivity_target": 8.0,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "KMHCMJXNPYNIPV-UHFFFAOYSA-N",
+      "pActivity_source": 7.200659450546418,
+      "pActivity_target": 7.200659450546418,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "KSKMFAFFNNMATD-UHFFFAOYSA-N",
+      "pActivity_source": 7.721246399047171,
+      "pActivity_target": 7.721246399047171,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "KTMLGXKEMUPLFA-UHFFFAOYSA-N",
+      "pActivity_source": 7.055517327849832,
+      "pActivity_target": 7.055517327849832,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "KVKHPEZVTCXXAF-YHBQERECSA-N",
+      "pActivity_source": 6.721246399047171,
+      "pActivity_target": 6.721246399047171,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "KVKHPEZVTCXXAF-ZRZAMGCNSA-N",
+      "pActivity_source": 6.568636235841013,
+      "pActivity_target": 6.568636235841013,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "KVUOFWMHVFGTJG-UHFFFAOYSA-N",
+      "pActivity_source": 5.43533393574791,
+      "pActivity_target": 5.43533393574791,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "LBEJWVIIJGSXGD-UHFFFAOYSA-N",
+      "pActivity_source": 7.309803919971486,
+      "pActivity_target": 7.309803919971486,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "LDFKUQUZDAFZMO-UHFFFAOYSA-N",
+      "pActivity_source": 7.5376020021010435,
+      "pActivity_target": 7.5376020021010435,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "LDWCKXGFFCEDGY-UHFFFAOYSA-N",
+      "pActivity_source": 6.853871964321762,
+      "pActivity_target": 6.853871964321762,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "LFUMOOOOCGSGFQ-UHFFFAOYSA-N",
+      "pActivity_source": 7.698970004336019,
+      "pActivity_target": 7.698970004336019,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "LGQRJEALSUOBFF-UHFFFAOYSA-N",
+      "pActivity_source": 6.610833915635467,
+      "pActivity_target": 6.610833915635467,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "LGXDLNCWJIFHOX-UHFFFAOYSA-N",
+      "pActivity_source": 8.0,
+      "pActivity_target": 8.0,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "LHRMPDDLRMERNV-UHFFFAOYSA-N",
+      "pActivity_source": 6.853871964321762,
+      "pActivity_target": 6.853871964321762,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "LIFLBLXPQKLTGM-UHFFFAOYSA-N",
+      "pActivity_source": 7.619788758288394,
+      "pActivity_target": 7.619788758288394,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "LJNBGVIIQKMMJC-UHFFFAOYSA-N",
+      "pActivity_source": 6.6777807052660805,
+      "pActivity_target": 6.6777807052660805,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "LNYAQUVCKVKLLH-UHFFFAOYSA-N",
+      "pActivity_source": 8.154901959985743,
+      "pActivity_target": 8.154901959985743,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "LNYJIGYLUSDGPA-UHFFFAOYSA-N",
+      "pActivity_source": 6.823908740944319,
+      "pActivity_target": 6.823908740944319,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "LPEPNWOWLYMLGQ-IBGZPJMESA-N",
+      "pActivity_source": 6.853871964321762,
+      "pActivity_target": 6.853871964321762,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "LPEPNWOWLYMLGQ-LJQANCHMSA-N",
+      "pActivity_source": 5.485452247339714,
+      "pActivity_target": 5.485452247339714,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "LPYNBQIJCZAZMH-UHFFFAOYSA-N",
+      "pActivity_source": 7.920818753952375,
+      "pActivity_target": 7.920818753952375,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "LTFGHMUQIKAXDR-UHFFFAOYSA-N",
+      "pActivity_source": 6.698970004336019,
+      "pActivity_target": 6.698970004336019,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "LUHCJJPIFBAXMQ-UHFFFAOYSA-N",
+      "pActivity_source": 7.443697499232712,
+      "pActivity_target": 7.443697499232712,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "LYGRBQFTAQRRPJ-UHFFFAOYSA-N",
+      "pActivity_source": 6.008773924307505,
+      "pActivity_target": 6.008773924307505,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "MABOUHWOMSBNCP-UHFFFAOYSA-N",
+      "pActivity_source": 7.318758762624412,
+      "pActivity_target": 7.318758762624412,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "MAOATWIERYQJQU-UHFFFAOYSA-N",
+      "pActivity_source": 7.207608310501746,
+      "pActivity_target": 7.207608310501746,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "MBBNDWNKKLMPNO-UHFFFAOYSA-N",
+      "pActivity_source": 7.356547323513812,
+      "pActivity_target": 7.356547323513812,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "MSYPYQAYWJEWFM-UHFFFAOYSA-N",
+      "pActivity_source": 7.431798275933005,
+      "pActivity_target": 7.431798275933005,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "MSZRXOVCTOFZDQ-UHFFFAOYSA-N",
+      "pActivity_source": 7.00436480540245,
+      "pActivity_target": 7.00436480540245,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "MTZXICXECUCPGQ-UHFFFAOYSA-N",
+      "pActivity_source": 7.387216143280264,
+      "pActivity_target": 7.387216143280264,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "MUPHFRGZJOATDV-UHFFFAOYSA-N",
+      "pActivity_source": 7.494850021680094,
+      "pActivity_target": 7.494850021680094,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "MUPYKIHTUBZWPY-UHFFFAOYSA-N",
+      "pActivity_source": 7.096910013008056,
+      "pActivity_target": 7.096910013008056,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "NDZIUFUEPSHMMS-UHFFFAOYSA-N",
+      "pActivity_source": 6.552841968657781,
+      "pActivity_target": 6.552841968657781,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "NEPYHFDUCWYODH-UHFFFAOYSA-N",
+      "pActivity_source": 7.619788758288394,
+      "pActivity_target": 7.619788758288394,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "NLCKVFACZBVQNL-UHFFFAOYSA-N",
+      "pActivity_source": 7.585026652029182,
+      "pActivity_target": 7.585026652029182,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "NLJOMQOECSADHJ-UHFFFAOYSA-N",
+      "pActivity_source": 7.508638306165727,
+      "pActivity_target": 7.508638306165727,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "NLKAIHAXRLNRDZ-UHFFFAOYSA-N",
+      "pActivity_source": 7.920818753952375,
+      "pActivity_target": 7.920818753952375,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "NMWHAPPRKRVPJF-UHFFFAOYSA-N",
+      "pActivity_source": 7.229147988357855,
+      "pActivity_target": 7.229147988357855,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "NOBSNFPMJZHARF-UHFFFAOYSA-N",
+      "pActivity_source": 8.045757490560675,
+      "pActivity_target": 8.045757490560675,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "NPBZBBOWVAXDKH-UHFFFAOYSA-N",
+      "pActivity_source": 6.991399828238082,
+      "pActivity_target": 6.991399828238082,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "NPEHNTAUOCNHRZ-UHFFFAOYSA-N",
+      "pActivity_source": 7.698970004336019,
+      "pActivity_target": 7.698970004336019,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "NQVJLLJYEVWTTH-UHFFFAOYSA-N",
+      "pActivity_source": 6.769551078621726,
+      "pActivity_target": 6.769551078621726,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "NUFFINXKOHEDDU-UHFFFAOYSA-N",
+      "pActivity_source": 7.142667503568732,
+      "pActivity_target": 7.142667503568732,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "NZGVVILEPSWCSP-UHFFFAOYSA-N",
+      "pActivity_source": 6.838631997765025,
+      "pActivity_target": 6.838631997765025,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "OCQOBVFRQKHVFN-UHFFFAOYSA-N",
+      "pActivity_source": 7.259637310505756,
+      "pActivity_target": 7.259637310505756,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ODZFAXXBJZXSBK-UHFFFAOYSA-N",
+      "pActivity_source": 6.978810700930062,
+      "pActivity_target": 6.978810700930062,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "OEFWRUCSMMKTND-UHFFFAOYSA-N",
+      "pActivity_source": 7.275724130399211,
+      "pActivity_target": 7.275724130399211,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "OFGFZTYYSDLURF-UHFFFAOYSA-N",
+      "pActivity_source": 7.67778070526608,
+      "pActivity_target": 7.67778070526608,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "OPFSVUDNFGHARE-UHFFFAOYSA-N",
+      "pActivity_source": 7.050609993355087,
+      "pActivity_target": 7.050609993355087,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "OQSWJTJDSSPLLX-UHFFFAOYSA-N",
+      "pActivity_source": 8.045757490560675,
+      "pActivity_target": 8.045757490560675,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ORVCFYAIPPQRME-UHFFFAOYSA-N",
+      "pActivity_source": 7.0,
+      "pActivity_target": 7.0,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "OTXMEZHEFWAAEI-UHFFFAOYSA-N",
+      "pActivity_source": 7.455931955649724,
+      "pActivity_target": 7.455931955649724,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "OVNDBZZJKAGHNS-UHFFFAOYSA-N",
+      "pActivity_source": 7.2839966563652,
+      "pActivity_target": 7.2839966563652,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "PAHBTKZMWZZTJZ-UHFFFAOYSA-N",
+      "pActivity_source": 5.928117992693875,
+      "pActivity_target": 5.928117992693875,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "PCLLYIZVGQEITQ-UHFFFAOYSA-N",
+      "pActivity_source": 6.958607314841775,
+      "pActivity_target": 6.958607314841775,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "PCVSEYJACCSRHP-UHFFFAOYSA-N",
+      "pActivity_source": 6.962573502059376,
+      "pActivity_target": 6.962573502059376,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "PDYGVRQAMDQWBJ-UHFFFAOYSA-N",
+      "pActivity_source": 7.366531544420414,
+      "pActivity_target": 7.366531544420414,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "PIISJIUUAMMZEV-UHFFFAOYSA-N",
+      "pActivity_source": 7.013228265733755,
+      "pActivity_target": 7.013228265733755,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "PIQCRHJNUKFYOP-UHFFFAOYSA-N",
+      "pActivity_source": 4.957818405484233,
+      "pActivity_target": 4.957818405484233,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "PJEJYQXOXPZDDH-UHFFFAOYSA-N",
+      "pActivity_source": 6.356547323513812,
+      "pActivity_target": 6.356547323513812,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "PKFWVCMDWWOKNY-UHFFFAOYSA-N",
+      "pActivity_source": 8.045757490560675,
+      "pActivity_target": 8.045757490560675,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "PKRFWJVRAAYPDD-UHFFFAOYSA-N",
+      "pActivity_source": 7.698970004336019,
+      "pActivity_target": 7.698970004336019,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "PKRSQMYXNMABIS-UHFFFAOYSA-N",
+      "pActivity_source": 5.46344155742847,
+      "pActivity_target": 5.46344155742847,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "PNKNUPFXGPLFMS-UHFFFAOYSA-N",
+      "pActivity_source": 7.698970004336019,
+      "pActivity_target": 7.698970004336019,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "PRBNWJYFOZKSGI-UHFFFAOYSA-N",
+      "pActivity_source": 4.301029995663981,
+      "pActivity_target": 4.301029995663981,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "PUQRZTUCYMYRQZ-UHFFFAOYSA-N",
+      "pActivity_source": 4.301029995663981,
+      "pActivity_target": 4.301029995663981,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "PWBWBFMQWSKALJ-UHFFFAOYSA-N",
+      "pActivity_source": 7.698970004336019,
+      "pActivity_target": 7.698970004336019,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "PXINUUZTIKSLIM-UHFFFAOYSA-N",
+      "pActivity_source": 7.251811972993799,
+      "pActivity_target": 7.251811972993799,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "PXIWPFJOBHYPLN-HSZRJFAPSA-N",
+      "pActivity_source": 5.94692155651658,
+      "pActivity_target": 5.94692155651658,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "PXIWPFJOBHYPLN-QHCPKHFHSA-N",
+      "pActivity_source": 6.958607314841775,
+      "pActivity_target": 6.958607314841775,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "QEYYMQLDKGCVRA-UHFFFAOYSA-N",
+      "pActivity_source": 7.5376020021010435,
+      "pActivity_target": 7.5376020021010435,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "QHNXDUASOGZENS-UHFFFAOYSA-N",
+      "pActivity_source": 6.356547323513812,
+      "pActivity_target": 6.356547323513812,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "QJQHKIDBQCUVCN-UHFFFAOYSA-N",
+      "pActivity_source": 7.619788758288394,
+      "pActivity_target": 7.619788758288394,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "QLSGDDUGCZSPIA-UHFFFAOYSA-N",
+      "pActivity_source": 6.050609993355087,
+      "pActivity_target": 6.050609993355087,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "QNNOYADJNDDGDS-UHFFFAOYSA-N",
+      "pActivity_source": 7.920818753952375,
+      "pActivity_target": 7.920818753952375,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "QNUXOERFTOPBRY-UHFFFAOYSA-N",
+      "pActivity_source": 7.958607314841775,
+      "pActivity_target": 7.958607314841775,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "QQWSNUCKIMBENB-UHFFFAOYSA-N",
+      "pActivity_source": 7.229147988357855,
+      "pActivity_target": 7.229147988357855,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "QTQXALLXUQYHMS-UHFFFAOYSA-N",
+      "pActivity_source": 7.136677139879544,
+      "pActivity_target": 7.136677139879544,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "QVRRNFYIHFTSTA-UHFFFAOYSA-N",
+      "pActivity_source": 6.982966660701219,
+      "pActivity_target": 6.982966660701219,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "QZIHISBSCNJZNN-UHFFFAOYSA-N",
+      "pActivity_source": 6.376750709602099,
+      "pActivity_target": 6.376750709602099,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "RCBXDUBIJYJWLH-UHFFFAOYSA-N",
+      "pActivity_source": 7.769551078621726,
+      "pActivity_target": 7.769551078621726,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "RCCJRATVXPWCNG-UHFFFAOYSA-N",
+      "pActivity_source": 7.301029995663981,
+      "pActivity_target": 7.301029995663981,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "RHZXBUHHMXTUQL-UHFFFAOYSA-N",
+      "pActivity_source": 7.568636235841013,
+      "pActivity_target": 7.568636235841013,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "RLZLXWRTPKQCCY-UHFFFAOYSA-N",
+      "pActivity_source": 7.026872146400302,
+      "pActivity_target": 7.026872146400302,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "RNCBSNUGHGRWSY-UHFFFAOYSA-N",
+      "pActivity_source": 7.318758762624412,
+      "pActivity_target": 7.318758762624412,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "RQQSIGMKFMBQBI-UHFFFAOYSA-N",
+      "pActivity_source": 7.292429823902063,
+      "pActivity_target": 7.292429823902063,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "RRTMIYNAKDQKDZ-UHFFFAOYSA-N",
+      "pActivity_source": 7.958607314841775,
+      "pActivity_target": 7.958607314841775,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "RSAVTYKOJHXPOP-UHFFFAOYSA-N",
+      "pActivity_source": 6.823908740944319,
+      "pActivity_target": 6.823908740944319,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "RSQWNVRONHILIX-UHFFFAOYSA-N",
+      "pActivity_source": 7.180456064458132,
+      "pActivity_target": 7.180456064458132,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "RSZFPADAXWRVFY-UHFFFAOYSA-N",
+      "pActivity_source": 7.744727494896693,
+      "pActivity_target": 7.744727494896693,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "RVKNVHNCLCHICS-UHFFFAOYSA-N",
+      "pActivity_source": 7.795880017344075,
+      "pActivity_target": 7.795880017344075,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "RXIZGTLGIROOQA-UHFFFAOYSA-N",
+      "pActivity_source": 7.301029995663981,
+      "pActivity_target": 7.301029995663981,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "SBNVIWBQNRGRNW-UHFFFAOYSA-N",
+      "pActivity_source": 7.214670164989233,
+      "pActivity_target": 7.214670164989233,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "SEIWGLRQKXGYFV-UHFFFAOYSA-N",
+      "pActivity_source": 7.886056647693163,
+      "pActivity_target": 7.886056647693163,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "SETNZFIMOSVPDV-UHFFFAOYSA-N",
+      "pActivity_source": 6.522878745280337,
+      "pActivity_target": 6.522878745280337,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "SJYPKGGFZPSLLT-UHFFFAOYSA-N",
+      "pActivity_source": 7.920818753952375,
+      "pActivity_target": 7.920818753952375,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "SKOGDRGPAPLUDB-UHFFFAOYSA-N",
+      "pActivity_source": 7.275724130399211,
+      "pActivity_target": 7.275724130399211,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "SLBIPTFGFMMHEE-UHFFFAOYSA-N",
+      "pActivity_source": 7.666273523555023,
+      "pActivity_target": 7.666273523555023,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "SMBXLOQCABTOBJ-UHFFFAOYSA-N",
+      "pActivity_source": 7.568636235841013,
+      "pActivity_target": 7.568636235841013,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "SPRKROXUGKNHJP-UHFFFAOYSA-N",
+      "pActivity_source": 7.187086643357144,
+      "pActivity_target": 7.187086643357144,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "SQCPCTMJPSGKJL-UHFFFAOYSA-N",
+      "pActivity_source": 7.187086643357144,
+      "pActivity_target": 7.187086643357144,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "SUBHDDHZVZWJQZ-UHFFFAOYSA-N",
+      "pActivity_source": 7.387216143280264,
+      "pActivity_target": 7.387216143280264,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "SUQRBLFRHSSGCF-UHFFFAOYSA-N",
+      "pActivity_source": 6.638272163982407,
+      "pActivity_target": 6.638272163982407,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "SVVZHPARZDDVLO-UHFFFAOYSA-N",
+      "pActivity_source": 6.2076083105017466,
+      "pActivity_target": 6.2076083105017466,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "SWKACKMGPPUJLE-UHFFFAOYSA-N",
+      "pActivity_source": 6.070070439915412,
+      "pActivity_target": 6.070070439915412,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "SZAPTITXSNGCIT-UHFFFAOYSA-N",
+      "pActivity_source": 7.455931955649724,
+      "pActivity_target": 7.455931955649724,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "TUJZOCSOGONKOC-UHFFFAOYSA-N",
+      "pActivity_source": 7.481486060122112,
+      "pActivity_target": 7.481486060122112,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "TUOUXVBLCNPBER-UHFFFAOYSA-N",
+      "pActivity_source": 7.481486060122112,
+      "pActivity_target": 7.481486060122112,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "TVWIPEIGOLZWKK-UHFFFAOYSA-N",
+      "pActivity_source": 7.097453560828662,
+      "pActivity_target": 6.950781977329818,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "TXGQQRRZWPDFEA-UHFFFAOYSA-N",
+      "pActivity_source": 7.795880017344075,
+      "pActivity_target": 7.795880017344075,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "TYPIWPUQWNSMIH-UHFFFAOYSA-N",
+      "pActivity_source": 7.309894379144197,
+      "pActivity_target": 7.522878745280337,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "UAIJSSSTLVLLCU-UHFFFAOYSA-N",
+      "pActivity_source": 7.0655015487564325,
+      "pActivity_target": 7.0655015487564325,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "UBUSDWRHEPQJST-UHFFFAOYSA-N",
+      "pActivity_source": 4.301029995663981,
+      "pActivity_target": 4.301029995663981,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "UFMUEPZZYHMIAJ-UHFFFAOYSA-N",
+      "pActivity_source": 7.638272163982407,
+      "pActivity_target": 7.638272163982407,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "UINHMBVXGRVPJH-UHFFFAOYSA-N",
+      "pActivity_source": 7.022276394711152,
+      "pActivity_target": 7.022276394711152,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "UKLZDVJLUKZSBL-UHFFFAOYSA-N",
+      "pActivity_source": 8.045757490560675,
+      "pActivity_target": 8.045757490560675,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "UMDPFPDHXXRUPB-UHFFFAOYSA-N",
+      "pActivity_source": 7.161150909262744,
+      "pActivity_target": 7.161150909262744,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "URBNUNLZSSCSKN-UHFFFAOYSA-N",
+      "pActivity_source": 7.522878745280337,
+      "pActivity_target": 7.522878745280337,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "URNMDMNSTFPKSL-UHFFFAOYSA-N",
+      "pActivity_source": 7.958607314841775,
+      "pActivity_target": 7.958607314841775,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "UROMHARKWFLKDW-UHFFFAOYSA-N",
+      "pActivity_source": 7.958607314841775,
+      "pActivity_target": 7.958607314841775,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "URTSNRCOMIOYRW-UHFFFAOYSA-N",
+      "pActivity_source": 6.060480747381382,
+      "pActivity_target": 6.060480747381382,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "USIXWHADIVCSKF-UHFFFAOYSA-N",
+      "pActivity_source": 7.443697499232712,
+      "pActivity_target": 7.443697499232712,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "USQMZGOQHSORRS-HZCBDIJESA-N",
+      "pActivity_source": 7.154901959985743,
+      "pActivity_target": 7.154901959985743,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "USQMZGOQHSORRS-SZPZYZBQSA-N",
+      "pActivity_source": 6.619788758288394,
+      "pActivity_target": 6.619788758288394,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "UUVYYRHZFDQCDQ-UHFFFAOYSA-N",
+      "pActivity_source": 5.886056647693163,
+      "pActivity_target": 5.886056647693163,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "UVGGORHEJXNAML-UHFFFAOYSA-N",
+      "pActivity_source": 7.657577319177793,
+      "pActivity_target": 7.657577319177793,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "UVPXSIIOTWXDEU-UHFFFAOYSA-N",
+      "pActivity_source": 6.167491087293763,
+      "pActivity_target": 6.167491087293763,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VBZDQAAZWZQAJG-UHFFFAOYSA-N",
+      "pActivity_source": 6.075720713938118,
+      "pActivity_target": 6.075720713938118,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VGICZEMRSWKRBE-UHFFFAOYSA-N",
+      "pActivity_source": 7.376750709602099,
+      "pActivity_target": 7.376750709602099,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VGKSIHJIPWYNPB-UHFFFAOYSA-N",
+      "pActivity_source": 7.107905397309519,
+      "pActivity_target": 7.107905397309519,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VGMRLVFZSBEBBZ-UHFFFAOYSA-N",
+      "pActivity_source": 7.721246399047171,
+      "pActivity_target": 7.721246399047171,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VINHYLOQNZOEFD-UHFFFAOYSA-N",
+      "pActivity_source": 7.267606240177032,
+      "pActivity_target": 7.267606240177032,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VITCVZQWTIXXAU-UHFFFAOYSA-N",
+      "pActivity_source": 6.958607314841775,
+      "pActivity_target": 6.958607314841775,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VIXBGZAMDNDQES-UHFFFAOYSA-N",
+      "pActivity_source": 7.200659450546418,
+      "pActivity_target": 7.200659450546418,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VJECTXSJIUCULL-UHFFFAOYSA-N",
+      "pActivity_source": 7.431798275933005,
+      "pActivity_target": 7.431798275933005,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VJPWPUHNEHCVEI-UHFFFAOYSA-N",
+      "pActivity_source": 7.346787486224656,
+      "pActivity_target": 7.346787486224656,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VKFTXVBLVJFDLH-UHFFFAOYSA-N",
+      "pActivity_source": 7.67778070526608,
+      "pActivity_target": 7.67778070526608,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VKGHLOXYRXHDLF-UHFFFAOYSA-N",
+      "pActivity_source": 6.275724130399211,
+      "pActivity_target": 6.275724130399211,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VLDUGILJZCXWON-UHFFFAOYSA-N",
+      "pActivity_source": 7.585026652029182,
+      "pActivity_target": 7.585026652029182,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VLOMZEQSXNAUSC-UHFFFAOYSA-N",
+      "pActivity_source": 7.619788758288394,
+      "pActivity_target": 7.619788758288394,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VLWUCJDYZXEECF-UHFFFAOYSA-N",
+      "pActivity_source": 6.853871964321762,
+      "pActivity_target": 6.853871964321762,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VOMQKLQUDIEMCE-UHFFFAOYSA-N",
+      "pActivity_source": 4.301029995663981,
+      "pActivity_target": 4.301029995663981,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VPBWSWQGUNRKGK-UHFFFAOYSA-N",
+      "pActivity_source": 7.568636235841013,
+      "pActivity_target": 7.568636235841013,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VSWFPFDTKNSQLD-UHFFFAOYSA-N",
+      "pActivity_source": 7.431798275933005,
+      "pActivity_target": 7.431798275933005,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "VZAUVLXMSFPCCT-UHFFFAOYSA-N",
+      "pActivity_source": 6.853871964321762,
+      "pActivity_target": 6.853871964321762,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "WAXVSDLSBRUYCU-UHFFFAOYSA-N",
+      "pActivity_source": 7.602059991327962,
+      "pActivity_target": 7.602059991327962,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "WBOBVNROFORBIJ-UHFFFAOYSA-N",
+      "pActivity_source": 5.603800652904264,
+      "pActivity_target": 5.603800652904264,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "WFJLBALFEWZKJO-UHFFFAOYSA-N",
+      "pActivity_source": 7.1938200260161125,
+      "pActivity_target": 7.1938200260161125,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "WFXSHKZZJXJZNL-UHFFFAOYSA-N",
+      "pActivity_source": 7.00436480540245,
+      "pActivity_target": 7.00436480540245,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "WHKITXGLSAJQPM-UHFFFAOYSA-N",
+      "pActivity_source": 7.0655015487564325,
+      "pActivity_target": 7.0655015487564325,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "WPSRWOFTXXIJLF-UHFFFAOYSA-N",
+      "pActivity_source": 7.455931955649724,
+      "pActivity_target": 7.455931955649724,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "WXWHWEQCRQWTCW-UHFFFAOYSA-N",
+      "pActivity_source": 7.744727494896693,
+      "pActivity_target": 7.744727494896693,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "WZBKHSNDIDOLNB-UHFFFAOYSA-N",
+      "pActivity_source": 7.397940008672037,
+      "pActivity_target": 7.397940008672037,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "XBLNVNYKYWSPMD-UHFFFAOYSA-N",
+      "pActivity_source": 7.67778070526608,
+      "pActivity_target": 7.67778070526608,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "XENJRPGAUMXLKJ-UHFFFAOYSA-N",
+      "pActivity_source": 7.207608310501746,
+      "pActivity_target": 7.207608310501746,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "XFRNSHNAWXQYBL-UHFFFAOYSA-N",
+      "pActivity_source": 6.187086643357144,
+      "pActivity_target": 6.187086643357144,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "XHWYZLDRAZANKZ-UHFFFAOYSA-N",
+      "pActivity_source": 7.468521082957745,
+      "pActivity_target": 7.468521082957745,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "XIKWFOYXLOKKFQ-UHFFFAOYSA-N",
+      "pActivity_source": 4.301029995663981,
+      "pActivity_target": 4.301029995663981,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "XJDZQWVQTNOLGP-UHFFFAOYSA-N",
+      "pActivity_source": 7.494850021680094,
+      "pActivity_target": 7.494850021680094,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "XJOGNWALXQXHCN-UHFFFAOYSA-N",
+      "pActivity_source": 6.229147988357855,
+      "pActivity_target": 6.229147988357855,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "XMVMQJSYEBGLHX-UHFFFAOYSA-N",
+      "pActivity_source": 7.244125144327507,
+      "pActivity_target": 7.244125144327507,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "XPRYXOUAFHGRNN-UHFFFAOYSA-N",
+      "pActivity_source": 5.663540266151471,
+      "pActivity_target": 5.663540266151471,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "XUFYKEMZADKEDT-UHFFFAOYSA-N",
+      "pActivity_source": 7.5376020021010435,
+      "pActivity_target": 7.5376020021010435,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "XUGVPEYOUQTYSI-UHFFFAOYSA-N",
+      "pActivity_source": 6.838631997765025,
+      "pActivity_target": 6.838631997765025,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "XYWRURMEPYLAQC-UHFFFAOYSA-N",
+      "pActivity_source": 6.958607314841775,
+      "pActivity_target": 6.958607314841775,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "XZDPVDHDUQKSJI-UHFFFAOYSA-N",
+      "pActivity_source": 7.267606240177032,
+      "pActivity_target": 7.267606240177032,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "XZJGAHMAWCSSOW-UHFFFAOYSA-N",
+      "pActivity_source": 5.542118103266008,
+      "pActivity_target": 5.542118103266008,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "XZMVROFHWKAFTD-UHFFFAOYSA-N",
+      "pActivity_source": 7.958607314841775,
+      "pActivity_target": 7.958607314841775,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "YECCCMRFKLUVKI-UHFFFAOYSA-N",
+      "pActivity_source": 6.6777807052660805,
+      "pActivity_target": 6.6777807052660805,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "YEDMSRKCVODKMT-UHFFFAOYSA-N",
+      "pActivity_source": 7.638272163982407,
+      "pActivity_target": 7.638272163982407,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "YGNMCLFWTPIKDH-UHFFFAOYSA-N",
+      "pActivity_source": 7.744727494896693,
+      "pActivity_target": 7.744727494896693,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "YIIRTTVTQSUELO-UHFFFAOYSA-N",
+      "pActivity_source": 7.060480747381382,
+      "pActivity_target": 7.060480747381382,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "YKWBDTAZTRPBCH-UHFFFAOYSA-N",
+      "pActivity_source": 7.455931955649724,
+      "pActivity_target": 7.455931955649724,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "YKXXFGQNTHNAEL-UHFFFAOYSA-N",
+      "pActivity_source": 7.318758762624412,
+      "pActivity_target": 7.318758762624412,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "YLVQZIOWSCQIPX-UHFFFAOYSA-N",
+      "pActivity_source": 7.619788758288394,
+      "pActivity_target": 7.69466991845506,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "YPCIZBNHSOHCSR-UHFFFAOYSA-N",
+      "pActivity_source": 7.086186147616283,
+      "pActivity_target": 7.086186147616283,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "YRSJYTYGSJQUDX-UHFFFAOYSA-N",
+      "pActivity_source": 7.958607314841775,
+      "pActivity_target": 7.958607314841775,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "YSUJIOKKUBCBKW-UHFFFAOYSA-N",
+      "pActivity_source": 5.809668301829708,
+      "pActivity_target": 5.809668301829708,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "YSWMOFVUSMJNNV-UHFFFAOYSA-N",
+      "pActivity_source": 7.4089353929735005,
+      "pActivity_target": 7.4089353929735005,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "YSWQHEWFRVUTQD-UHFFFAOYSA-N",
+      "pActivity_source": 6.688246138944246,
+      "pActivity_target": 6.688246138944246,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "YUTVIRHFAOQMFV-UHFFFAOYSA-N",
+      "pActivity_source": 7.259637310505756,
+      "pActivity_target": 7.259637310505756,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "YVANFJIQELQAOU-UHFFFAOYSA-N",
+      "pActivity_source": 8.045757490560675,
+      "pActivity_target": 8.045757490560675,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ZDRUPBCGMNVKCN-HZCBDIJESA-N",
+      "pActivity_source": 5.647817481888637,
+      "pActivity_target": 5.647817481888637,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ZDRUPBCGMNVKCN-SZPZYZBQSA-N",
+      "pActivity_source": 5.253365801062421,
+      "pActivity_target": 5.253365801062421,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ZHNGDUDYEUOOPT-UHFFFAOYSA-N",
+      "pActivity_source": 6.698970004336019,
+      "pActivity_target": 6.698970004336019,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ZHZRUPNMBQKWLU-UHFFFAOYSA-N",
+      "pActivity_source": 7.102372908709558,
+      "pActivity_target": 7.102372908709558,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ZNMZOFUHUFRYTB-UHFFFAOYSA-N",
+      "pActivity_source": 6.886056647693163,
+      "pActivity_target": 6.886056647693163,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ZPCXTWKJVMTUBA-UHFFFAOYSA-N",
+      "pActivity_source": 7.397940008672037,
+      "pActivity_target": 7.397940008672037,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ZPGDNPCFQISEPD-UHFFFAOYSA-N",
+      "pActivity_source": 7.013228265733755,
+      "pActivity_target": 7.013228265733755,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ZRUPMLDUEHCENR-UHFFFAOYSA-N",
+      "pActivity_source": 7.0,
+      "pActivity_target": 7.0,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ZTYGMXCOVGQXJZ-UHFFFAOYSA-N",
+      "pActivity_source": 7.721246399047171,
+      "pActivity_target": 7.721246399047171,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ZUZSEOGYWTYITN-UHFFFAOYSA-N",
+      "pActivity_source": 7.744727494896693,
+      "pActivity_target": 7.744727494896693,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ZVWVRQDLMRJJCK-UHFFFAOYSA-N",
+      "pActivity_source": 7.795880017344075,
+      "pActivity_target": 7.795880017344075,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ZXOYDGRGKMUKBC-UHFFFAOYSA-N",
+      "pActivity_source": 7.920818753952375,
+      "pActivity_target": 7.920818753952375,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ZZCZVSKWAAQTCH-UHFFFAOYSA-N",
+      "pActivity_source": 8.301029995663981,
+      "pActivity_target": 8.301029995663981,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ZZIIYBLJJISGRB-UHFFFAOYSA-N",
+      "pActivity_source": 7.744727494896693,
+      "pActivity_target": 7.744727494896693,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ZZKFHAALEVSWKS-UHFFFAOYSA-N",
+      "pActivity_source": 7.275724130399211,
+      "pActivity_target": 7.275724130399211,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    },
+    {
+      "identity_key": "ZZTNPTFVSMBHDO-UHFFFAOYSA-N",
+      "pActivity_source": 7.275724130399211,
+      "pActivity_target": 7.275724130399211,
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207"
+    }
+  ]
+}

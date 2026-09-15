@@ -169,6 +169,21 @@
         "qc": "asset_preservation_and_gnn_replan_v1 QC PASS；qualification_v1 QC PASS；GNN verify_research 9/9 PASS；Workbench targeted 38 passed/AppTest 0 exceptions"
       },
       "open_P0": "Gate T1多assay对齐、Moracin N物料/导师签核、GNN结构人工核验"
+    },
+    "batch_fifth_round_direction_exploration_20260915": {
+      "trigger": "FASN Gate T1最终裁决与第五轮方向探索",
+      "scope": "复用前四轮FASN资产完成共享assay矩阵、泄漏审计、可比pair变换和方向资格比较；不全量重跑",
+      "artifacts": [
+        "00-当前研究/fifth_round_direction_exploration_20260915/"
+      ],
+      "key_results": {
+        "t1": "FAIL：共享≥15的4对中，mirror排除1对，蛋白层级不匹配2对，独立可比pair仅1对",
+        "usable_pair": "CHEMBL3888977↔CHEMBL5733207，n=325，10-seed变换稳定（R²=.99958）",
+        "leakage": "canonical exact=0/evaluable external overlap=0/scaffold overlap rate=0/mirror overlap=89(排除)/external flagged overlap=3(排除)/near duplicate=82(chemical-series confinement)",
+        "directions": "Primary=Moracin N；Secondary=FXR/Formononetin+Biochanin A；Reserve=THRβ reporter/Isorhamnetin/FASN直接酶/SCD1-DGAT2；Rejected见方向矩阵",
+        "gnn": "CLOSED；不训练新GNN；candidate_release=false"
+      },
+      "open_P0": "Moracin N物料/导师签核；FASN第二可比assay pair"
     }
   },
   "status_classes": {
@@ -188,14 +203,16 @@
     "target": "中文核心；目录版本与学校认可待核实",
     "status": "任务待本人确认；最终科学验证和投稿均未完成"
   },
-  "project_stage": "pipeline_revalidation",
+  "project_stage": "fifth_round_direction_exploration",
   "fasn": {
     "canonical_model": "qualified_local",
     "external_generalization": "failed_or_limited",
-    "gate_t1": "pending",
+    "gate_t1": "FAIL",
     "gnn_enable_gate": "closed",
     "natural_product_ranking": "blocked_ood",
-    "current_scope": "canonical assay model; AD内排序+不确定性；禁止绝对pIC50"
+    "current_scope": "canonical assay model; AD内排序+不确定性；禁止绝对pIC50",
+    "gate_t1_decision": "FAIL",
+    "status": "canonical_local_methodology_only"
   },
   "thrb": {
     "old_2j4a": "historical_mutant",
@@ -218,7 +235,9 @@
     "activity": "gated",
     "enable_gate": "closed",
     "benchmark": "GCN median R2 0.078; GINE median R2 -0.040; Ridge median R2 0.732",
-    "repo_replan": "small_fix_only_no_rename"
+    "repo_replan": "small_fix_only_no_rename",
+    "current_stage": "第五轮方向探索：方法比较已完成，不启用主模型",
+    "next_action": "等待主库新数据资格；不使用旧标签/旧split/旧Top-10"
   },
   "asset_preservation": {
     "round": "asset_preservation_and_gnn_replan_v1",
@@ -239,5 +258,27 @@
     "role": "execution_audit_readonly_mirror",
     "state_source": "aidd qualification_v1 and asset_preservation_and_gnn_replan_v1",
     "candidate_generation": "disabled"
+  },
+  "current_stage": "第五轮方向探索（FASN Gate T1已裁决）",
+  "current_conclusion": "FASN Gate T1=FAIL：仅1个独立可比assay pair，FASN收窄为canonical local方法学线；Primary转为Moracin N–NRF2/ferroptosis肝细胞机制验证；GNN保持关闭；candidate_release=false",
+  "current_blocker": "Moracin N物料/导师签核；FASN缺少第二个可比assay pair，不能建立normalized dataset",
+  "next_action": "导师批准并采购Moracin N，随后执行M0/B0；FASN仅等待第二个可比assay pair，不继续堆模型",
+  "fifth_round": {
+    "status": "direction_qualification_completed",
+    "gate": "FASN Gate T1",
+    "gate_decision": "FAIL",
+    "primary_direction": "Moracin N–NRF2/ferroptosis肝细胞机制验证",
+    "secondary_direction": "FXR evidence-anchor/Formononetin依赖性桥接 + Biochanin A QC",
+    "reserve_direction": "THRβ reporter、Isorhamnetin、FASN直接酶实验、SCD1/DGAT2重资格化",
+    "rejected_directions": [
+      "NP54 FASN定量榜",
+      "docking score排序",
+      "旧GNN/CW-BCS/TOPSIS正向结论",
+      "ACC1/ACC2合并模型",
+      "3′-methoxydaidzein当前创新候选"
+    ],
+    "direction_matrix": "00-当前研究/fifth_round_direction_exploration_20260915/direction_exploration_matrix.csv",
+    "gate_decision_file": "00-当前研究/fifth_round_direction_exploration_20260915/GATE_DECISION.json",
+    "next_action": "导师批准/采购Moracin N并执行M0/B0；FASN等待第二可比assay pair"
   }
 }

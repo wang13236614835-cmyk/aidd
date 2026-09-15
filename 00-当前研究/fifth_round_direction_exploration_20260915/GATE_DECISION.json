@@ -1,0 +1,91 @@
+{
+  "round": "fifth_round_direction_exploration_20260915",
+  "gate": "FASN Gate T1",
+  "decision": "FAIL",
+  "decision_scope": "跨 assay 定量迁移与天然产物扩展门",
+  "decision_date": "2026-09-15",
+  "input_assets": [
+    "00-当前研究/final_strategy_round_20260912/FASN_activity_master.csv",
+    "00-当前研究/advancement_round_20260913/FASN_assay_aware_master.csv",
+    "00-当前研究/qualification_round_20260913/FASN_canonical_clean.csv",
+    "00-当前研究/qualification_round_20260913/FASN_external_set.csv"
+  ],
+  "data_audit": {
+    "master_records": 1652,
+    "master_molecules": 1139,
+    "assays": 51,
+    "documents": 34,
+    "activity_types": {"IC50": 1630, "Ki": 20, "Kd": 2},
+    "units": {"nM": 1637, "ug.mL-1": 15},
+    "relations": {"=": 1652},
+    "species": {"Homo sapiens": 1652},
+    "protein_layers": {"cell_extract": 1140, "full_length": 302, "unknown": 184, "fragment_TE": 24, "fragment_KR": 2},
+    "valid_smiles": 1652,
+    "multifragment_records": 2,
+    "potential_duplicate_flags": 439,
+    "canonical_assay": {"assay_id": "CHEMBL5731051", "records": 97, "molecules": 96, "scaffolds": 39, "endpoint": "IC50", "unit": "nM", "species": "Homo sapiens", "protein_layer": "full_length", "format": "SPA"}
+  },
+  "leakage_audit": {
+    "exact_duplicate_count": 0,
+    "canonical_overlap_count": 0,
+    "scaffold_overlap_rate": 0.0,
+    "stereoisomer_overlap_count": 0,
+    "assay_mirror_overlap_count": 89,
+    "external_overlap_count": 3,
+    "near_duplicate_count": 82,
+    "near_duplicate_rate": 0.8541666666666666,
+    "near_duplicate_interpretation": "chemical-series confinement/local interpolation, not leakage",
+    "evaluated_boundary_verdict": "PASS_WITH_EXCLUDED_OVERLAP"
+  },
+  "shared_assay_matrix": {
+    "all_assay_pairs": 1275,
+    "pairs_with_shared_identity_ge15": 4,
+    "pairs_with_core_metadata_comparable_ge15": 1,
+    "mirror_pairs_excluded": 1,
+    "metadata_mismatch_pairs_excluded": 2,
+    "usable_pair_details": [{
+      "source_assay": "CHEMBL3888977",
+      "target_assay": "CHEMBL5733207",
+      "shared_molecules": 325,
+      "protein_layer": "cell_extract/cell_extract",
+      "endpoint": "IC50",
+      "unit": "nM",
+      "relation": "=",
+      "transform": {"slope": 1.000439, "intercept": -0.002712, "r2": 0.99958, "offset": 0.000434},
+      "ten_seed_holdout": {"r2_median": 0.999999, "r2_min": 0.997842, "r2_max": 0.999999, "spearman_median": 1.0, "spearman_min": 0.995092, "spearman_max": 1.0}
+    }]
+  },
+  "pre_registered_criteria": {
+    "minimum_two_comparable_pairs": {"required": 2, "observed": 1, "passed": false},
+    "normalized_dataset_built": false,
+    "e1_e2_spearman_ge_0_5": {"observed": null, "passed": false, "reason": "normalized dataset not built"},
+    "pooled_r2_ge_cal_mean_plus_0_05": {"observed": null, "passed": false, "reason": "normalized dataset not built"},
+    "ten_seed_stability": {"observed": null, "passed": false, "reason": "normalized dataset not built"},
+    "external_validation": {"ridge_r2": 0.179802, "per_assay_r2": [-0.163, -0.206, -1.352], "coverage_q10": 0.628571, "passed": false},
+    "ad_uq": {"ad_in": 14, "ood": 91, "conformal_external_coverage": 0.628571, "passed": false}
+  },
+  "why_fail": [
+    "满足核心元数据约束且共享分子≥15的独立 assay pair 只有1对，低于预冻结的至少2对。",
+    "canonical/mirror pair 共享89个分子，是已知镜像，不能当独立验证输入。",
+    "另外两个共享≥15 pair 分别存在 unknown/cell_extract 或 full_length/unknown 蛋白层级不匹配。",
+    "既有105分子外部验证 Ridge R²=0.180，3个 assay 分层R²全负，conformal coverage=0.629。"
+  ],
+  "consequence": {
+    "fasn_status": "canonical_local_methodology_only",
+    "fasn_external_generalization": "failed_or_limited",
+    "fasn_natural_product_quantitative_screening": "blocked",
+    "gnn_gate": "CLOSED",
+    "candidate_release": false,
+    "primary_direction": "Moracin N–NRF2/ferroptosis 肝细胞机制验证",
+    "secondary_direction": "FXR evidence-anchor/Formononetin 依赖性桥接 + Biochanin A QC",
+    "reserve_direction": "THRβ reporter、Isorhamnetin、FASN直接酶实验、SCD1/DGAT2重资格化",
+    "rejected_directions": [
+      "NP54 FASN定量榜",
+      "docking score排序",
+      "旧GNN/CW-BCS/TOPSIS正向结论",
+      "ACC1/ACC2合并模型",
+      "3′-methoxydaidzein当前创新候选"
+    ]
+  },
+  "next_action": "导师批准与 Moracin N 到货后执行 M0/B0；FASN 仅在获得第二个可比 assay pair 后重开 T1。"
+}
