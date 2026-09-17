@@ -27,7 +27,19 @@
     },
     "primary_direction": "Moracin N–NRF2/ferroptosis肝细胞机制验证",
     "primary_direction_display_label": "优先研究方向（非 G6 正式候选 PRIMARY）",
-    "moracin_n_biological_validation": "not_executed"
+    "moracin_n_biological_validation": "not_executed",
+    "v06_software_loop": {
+      "status": "WORKFLOW_READY",
+      "vertical_slice": "compound_identity",
+      "export_module": "workbench workflows/human_review_export.py",
+      "import_boundary": "workbench Project.import_compound_identity_results",
+      "strict_validation": "task_id + upstream_hash + reviewer + decision + AI原值保留",
+      "stale_propagation": "verified in tests (compound_clean -> model_result -> prediction -> candidates)",
+      "gate_chain_projection": "workbench core/research_workflow.py G0-G7 (read-only, no default PASS)",
+      "counts_as_scientific_validation": false,
+      "real_human_review_unchanged": 0
+    },
+    "research_readiness": "NOT_RESEARCH_READY"
   },
   "unified_statuses": [
     "AI_PROVISIONAL",
@@ -43,7 +55,7 @@
     "RESEARCH_VALIDATED",
     "RELEASED"
   ],
-  "operational_next_step": "将 phase2b_20260915 review-only 包交给 GNN 组员，先完成 P0，再处理影响标签的 P1；回填后由 Workbench 严格导入并执行 STALE/G2 recompute。此字段只表达执行优先级，不改变科研 Gate 或 candidate_release。",
+  "operational_next_step": "将 phase2b_20260915 review-only 包交给 GNN 组员，先完成 P0，再处理影响标签的 P1；回填后由 Workbench 严格导入并执行 STALE/G2 recompute。2026-09-17 v0.6 软件闭环已达 WORKFLOW_READY（compound identity vertical slice 全链可用），但 real_human_review 仍为 0，软件就绪不等于科研验证通过。此字段只表达执行优先级，不改变科研 Gate 或 candidate_release。",
   "repositories": {
     "aidd": {
       "role": "formal_scientific_archive",
@@ -69,8 +81,17 @@
       "gate": "G1",
       "research_question": "FXR、ACC、THR-β、FASN 与当前 MASH 研究问题的临床、组学、机制和可建模证据是否足以支持限定性资格？",
       "workbench_action": "整理 literature/target evidence，生成 AI_PROVISIONAL 证据索引和 HUMAN_REVIEW_REQUIRED 任务，不把页面 PASS 当作科研资格。",
-      "aidd_input": ["文献证据", "GEO/组学证据", "机制证据", "target evidence manifest"],
-      "aidd_output": ["MASTER_EVIDENCE_MATRIX.csv", "target_qualification_manifest", "限定性 G1 决策"],
+      "aidd_input": [
+        "文献证据",
+        "GEO/组学证据",
+        "机制证据",
+        "target evidence manifest"
+      ],
+      "aidd_output": [
+        "MASTER_EVIDENCE_MATRIX.csv",
+        "target_qualification_manifest",
+        "限定性 G1 决策"
+      ],
       "gnn_human_task": "王散曼主核 claim→source/PMID；王启龙跟做；衣思淼复核化合物/assay 身份边界。",
       "primary_owner": "王散曼",
       "follow_owner": "王启龙",
@@ -88,8 +109,16 @@
       "gate": "G2",
       "research_question": "ACC/FXR 活性数据的 endpoint、assay lineage、organism、identity、censoring 和单位是否足以冻结 Qualified Dataset？",
       "workbench_action": "维护 phase2b_20260915 的 181 条原始任务与 24 个 decision units，导出标准 review return，严格校验不可变 AI/provenance 字段。",
-      "aidd_input": ["phase2a_20260915_real_v6 review_tasks", "raw activity records", "assay provenance"],
-      "aidd_output": ["activity_dataset_manifest", "人工 patch 归档", "Qualified Dataset（仅在全部关键任务完成后）"],
+      "aidd_input": [
+        "phase2a_20260915_real_v6 review_tasks",
+        "raw activity records",
+        "assay provenance"
+      ],
+      "aidd_output": [
+        "activity_dataset_manifest",
+        "人工 patch 归档",
+        "Qualified Dataset（仅在全部关键任务完成后）"
+      ],
       "gnn_human_task": "衣思淼主核数据与 assay；王启龙跟做；王散曼复核来源；宁显泷检查输入可复现性。",
       "primary_owner": "衣思淼",
       "follow_owner": "王启龙",
@@ -107,8 +136,16 @@
       "gate": "G3",
       "research_question": "在同一冻结数据、split、preprocessing、external、multi-seed、Y-scrambling、leakage、AD/UQ 下，经典 baseline 与 GNN 哪个达到正式模型资格？",
       "workbench_action": "仅在 G2 冻结后运行并归档 mean/Ridge/RF/XGBoost/GNN 的统一 benchmark；当前只展示历史/clean benchmark，不启动正式筛选。",
-      "aidd_input": ["Qualified Activity Dataset", "activity_dataset_manifest", "split manifest", "model validation manifest"],
-      "aidd_output": ["model_validation_manifest", "RESEARCH_VALIDATED/EXPLORATORY_ONLY/REJECTED 决策"],
+      "aidd_input": [
+        "Qualified Activity Dataset",
+        "activity_dataset_manifest",
+        "split manifest",
+        "model validation manifest"
+      ],
+      "aidd_output": [
+        "model_validation_manifest",
+        "RESEARCH_VALIDATED/EXPLORATORY_ONLY/REJECTED 决策"
+      ],
       "gnn_human_task": "宁显泷主做模型复现与泄漏检查；王启龙跟做；衣思淼核输入数据；王散曼核结果表述。",
       "primary_owner": "宁显泷",
       "follow_owner": "王启龙",
@@ -126,8 +163,16 @@
       "gate": "G2/G3 prerequisite",
       "research_question": "FASN 是否获得至少第二个满足预冻结元数据约束的独立可比 assay pair，从而有资格重开跨 assay T1？",
       "workbench_action": "只记录 assay pair 搜索、provenance、变换和排除理由；不得继续堆模型或生成 NP54/FASN 候选榜。",
-      "aidd_input": ["FASN assay-aware master", "51 assay provenance", "fifth_round_direction_exploration_20260915/GATE_DECISION.json"],
-      "aidd_output": ["T1 re-open decision", "normalized dataset（仅达到预注册条件后）", "更新 manifest"],
+      "aidd_input": [
+        "FASN assay-aware master",
+        "51 assay provenance",
+        "fifth_round_direction_exploration_20260915/GATE_DECISION.json"
+      ],
+      "aidd_output": [
+        "T1 re-open decision",
+        "normalized dataset（仅达到预注册条件后）",
+        "更新 manifest"
+      ],
       "gnn_human_task": "衣思淼主核 assay/endpoint/protein layer；王散曼核原始来源；王启龙跟做；代维斯丹不以 docking 替代 assay 证据。",
       "primary_owner": "衣思淼",
       "follow_owner": "王启龙",
@@ -145,8 +190,16 @@
       "gate": "G7 experimental prerequisite",
       "research_question": "Moracin N 是否在导师批准、物料到货和 M0/B0 资格检查后具备进入预注册细胞验证的条件？",
       "workbench_action": "归档采购/COA/身份和实验前资格材料；不创建生物学阳性结果，不把 experimental_start_qualified 当作 candidate release。",
-      "aidd_input": ["Moracin N 启动包", "身份/供应商证据", "M0/B0 预注册判据"],
-      "aidd_output": ["实验前资格更新", "M0/B0 原始记录", "后续 Gate 1/2/3 决策"],
+      "aidd_input": [
+        "Moracin N 启动包",
+        "身份/供应商证据",
+        "M0/B0 预注册判据"
+      ],
+      "aidd_output": [
+        "实验前资格更新",
+        "M0/B0 原始记录",
+        "后续 Gate 1/2/3 决策"
+      ],
       "gnn_human_task": "王启龙协调；王散曼核证据来源；衣思淼核身份/结构；代维斯丹仅提供支持性结构复核。",
       "primary_owner": "王启龙",
       "follow_owner": "王散曼",
@@ -158,6 +211,55 @@
       "acceptance": "导师批准且物料到货后才执行 M0/B0；在此之前不改变 biological_validation=not_executed 和 candidate_release=false。",
       "blocker": "物料未到货，导师签核未记录。",
       "next_step": "完成导师批准和采购/COA 闭环后执行 M0/B0。"
+    },
+    {
+      "task_id": "V06-COMPOUND-IDENTITY-SLICE-20260917",
+      "gate": "G2",
+      "research_question": "v0.6 第一条真实 vertical slice：AI 暂定 compound identity → 生成真人核验任务 → 真人修正 → 导回 Workbench → 保留 provenance → 替换正式值 → 自动 STALE 下游 → 更新 G0-G7 状态，软件链是否真实可用？",
+      "workbench_action": "已实现：workflows/human_review_export.py 生成 human_review_task.json（compound identity 对象，预留 assay/literature/geo/external_validation）；Project.import_compound_identity_results 严格导入（task_id+upstream_hash+reviewer+decision 校验、AI 原值保留、CORRECTED/REJECTED 触发 mark_stale_from 传播）。",
+      "aidd_input": [
+        "compound identity 风险清单（含 AI 暂定判断）"
+      ],
+      "aidd_output": [
+        "human_review_task.json（review-only）",
+        "真人回填 human_review_result",
+        "human_review_manifest（最小版）",
+        "下游 STALE 记录"
+      ],
+      "gnn_human_task": "组员在 human_review/ 工作区按 source_refs 核对原始来源，填写 VERIFIED/CORRECTED/REJECTED + reviewer + reason + source_ref。",
+      "primary_owner": "衣思淼（化合物身份）",
+      "follow_owner": "王启龙",
+      "reviewer": "导师或指定身份复核者",
+      "learning_goal": "理解 AI 原值/人工修正/provenance/STALE 的区别，以及为什么 AI 不能自签 HUMAN_VERIFIED。",
+      "human_output": "compound identity 真人 decision（带 source_ref 证据）。",
+      "patch_location": "GNN human_review/ 回填 → Workbench 严格导入 → AIDD 归档 human_review_manifest",
+      "manifest": "human_review_manifest",
+      "acceptance": "软件闭环测试全过（vertical slice 21 项 + 旁路攻击 11 项）只代表 WORKFLOW_READY；任一真实对象未完成真人核验前，G2 不冻结、数据不算 QUALIFIED。",
+      "blocker": "尚无真实 compound identity 对象走完闭环（当前仅有工程测试）；等待 Phase 2B P0 完成后选取真实高风险化合物执行。",
+      "next_step": "完成 Phase 2B P0 后，从 review 包中选 1-2 个真实 identity 风险化合物走第一条真实 compound identity slice。"
+    },
+    {
+      "task_id": "V06-GNN-UNKNOWN-ELEMENT-FIX-20260917",
+      "gate": "G3 prerequisite",
+      "research_question": "GNN 数据装载中未知元素回退为碳槽位（静默化学错误）是否已修复且不影响历史复现？",
+      "workbench_action": "无需动作；修复在 GNN 仓库完成。",
+      "aidd_input": [
+        "GNN数据与模型状态表.csv dataset.py=REQUALIFY 记录"
+      ],
+      "aidd_output": [
+        "修复记录 + 永久回归测试"
+      ],
+      "gnn_human_task": "宁显泷复核修复方案（默认 raise + 可选 unk_slot 14 维）；确认历史 13 维逐位一致。",
+      "primary_owner": "宁显泷",
+      "follow_owner": "王启龙",
+      "reviewer": "负责人",
+      "learning_goal": "特征工程中静默 fallback 的危害与显式失败原则。",
+      "human_output": "复核确认（2026-09-17 修复已落地：tests/test_dataset_unknown_element.py 11 项）。",
+      "patch_location": "GNN src/models/dataset.py + tests/test_dataset_unknown_element.py",
+      "manifest": null,
+      "acceptance": "未知元素默认抛 UnsupportedElementError（不再按碳）；unk_slot 模式独立 14 维 UNK；历史数据 13 维逐位一致；永久测试进 CI。",
+      "blocker": "",
+      "next_step": "G3 重开时如需新特征，显式选择 unk_slot 并重新训练，不迁移旧 checkpoint。"
     }
   ],
   "global_invariants": [
