@@ -1,0 +1,25 @@
+{
+  "repo": "aidd.git",
+  "date": "2026-10-12",
+  "source": "verified local D drive",
+  "visibility": "public",
+  "scope": "non-secret checked project files and safe source snapshots; excludes credentials/cache/logs",
+  "files": {
+    "00-当前研究/CURRENT_CHECKIN_W6_W9_MAP_20261012.csv": "252bddb2b63be73afcdd6c75c4e7a2d0b05f1a9a3e75482ffcdd17ef04eb3494",
+    "00-当前研究/CURRENT_SPRINT_20261012.md": "78bf99e1181728d0cea653ea66c76c17788b4d96df3b948985c5e0ed64f87713",
+    "00-当前研究/CURRENT_SPRINT_TASKS_20261012.csv": "793cfe1e0773c4cf02bb59f82ac670f9db0d67c6e4fca944eea4e82b0be08288",
+    "00-当前研究/README.md": "378446667b189c11a289d808408b8f75e1433f59231338db41d315c40c1f5c68",
+    "00-当前研究/REVERSE_SCREENING_TEMPLATE_20261012.csv": "3c716868068d805bae2b046b6c998072863b58b33b3adde51608a77c8d7a8288",
+    "00-当前研究/W1_SCORING_TEMPLATE_20261012.csv": "07738942406d8ea38c43fb4dce472797aeb919a8f4b07e87b8c036aa1cddf9a4"
+  },
+  "parts": [
+    {
+      "name": "aidd_20261012_01.zip",
+      "files": 6,
+      "bytes": 14066,
+      "b64_bytes": 18756,
+      "sha256": "15727e9e4d94b70982af24e7a2222a3746e2018bfdbb66673ed444c8af785385"
+    }
+  ],
+  "excluded": []
+}
