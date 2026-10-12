@@ -1,4 +1,14 @@
+> **CURRENT 2026-10-12（三库任务计划）**：[四周打分与老药/中药反向筛选计划](CURRENT_SPRINT_20261012.md) · [五人任务表](CURRENT_SPRINT_TASKS_20261012.csv)。10月5日Workbench正式科研authority已切V4（D0 PASS，D3合同可复用但受D1/D2阻塞）；下方 9 月资格轮和 V3 门控均按历史日期理解。新计划不修改 scientific Gate、候选发布或真人签署。
+
 > **2026-09-15 第五轮方向探索（当前最新）**：FASN Gate T1 已完成最终裁决，**Decision=FAIL**（51 assays 两两矩阵 1,275 对；共享≥15 的 4 对中，canonical/mirror 排除 1 对、protein layer 不匹配 2 对，真正可比独立 pair 仅 1 对；不构建 normalized dataset、不重跑模型）。FASN 收窄为 canonical local 方法学线；**优先研究方向=Moracin N–NRF2/ferroptosis 肝细胞机制验证（非 G6 正式候选 PRIMARY）**；Secondary=FXR/Formononetin 依赖性桥接+Biochanin A QC；Reserve=THRβ reporter/Isorhamnetin/FASN直接酶实验/SCD1-DGAT2重资格化；NP54 FASN 定量榜、docking ranking、旧 GNN/CW-BCS/TOPSIS 正向结论和 3′-methoxydaidzein 当前创新位拒绝。GNN gate=`closed`，`candidate_release=false`。入口 [fifth_round_direction_exploration_20260915/EXECUTION_OVERVIEW.md](fifth_round_direction_exploration_20260915/EXECUTION_OVERVIEW.md)，裁决 [GATE_DECISION.json](fifth_round_direction_exploration_20260915/GATE_DECISION.json)。
+
+## 历史 · research_chain_v3（正式工作台已切换V4）
+
+- 当前默认研究链：research_chain_v3_20260927。
+- v2 / qualification_v1 / FASN / Moracin N 均保留为历史资产，不再驱动当前 Gate。
+- 当前：G2 HUMAN_REVIEW_REQUIRED → G3 REVIEW → G4-G7 BLOCKED。
+- 入口：research_chain_v3_20260927/完整研究链路_v3.md。
+
 
 > **全局任务映射**：[GLOBAL_RESEARCH_TASK_MAP.json](GLOBAL_RESEARCH_TASK_MAP.json) 是三库当前任务的 AIDD 权威入口，按 Gate 记录 Workbench 动作、GNN 真人核验、回填/manifest、验收条件和 blocker。当前 Phase 2B 为 `READY_FOR_HUMAN_REVIEW`；P0=8 个压缩单元/49 条原始任务，P1=16 个压缩单元/132 条原始任务，REAL HUMAN REVIEW=0；3 条 `PIPELINE_TEST_FIXTURE` 不计入真人、G2 或 Qualified Dataset。该文件只描述可追溯的执行闭环，不升级任何科研状态；`candidate_release=false` 与 GNN gate=`closed` 继续有效。
 
@@ -33,3 +43,10 @@ python 00-当前研究/validate_docking.py --output <新目录>
 ```
 
 默认不产生新正式候选榜。正式数据、模型、对接门槛未过；旧标签仍需assay谱系复核。依赖版本见requirements-validated.txt。全部历史研究在01–09类保留，新正式工作在此形成可审阅版本，打卡在GNN库。
+
+
+## 2026-09-27 ADORA2A/Mcule exploratory branch
+
+- 正式归档：adora2a_mcule_reverse_pharmacology_20260927/。
+- 本支线不覆盖 Moracin N / FASN 主线；五个 MCULE 仍为计算候选，candidate_release=false。
+- W0 ready_count=0，实际湿实验数据为 0；下一步是落实湿实验执行方并完成物料/靶点/功能/细胞验证。
