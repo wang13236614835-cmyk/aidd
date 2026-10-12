@@ -1,0 +1,10 @@
+﻿task_id,gate,task,priority,status,owner_or_workspace
+V3-01,G2,W4五MCULE身份/来源＋天然产物来源真人Git核验,P0,HUMAN_REVIEW_REQUIRED,衣思淼（主）/王启龙＋王散曼（交叉复核）/hepato-gnn-screening
+V3-02,G2,W4 MCULE-2952154734立体化学真人核验,P0,HUMAN_REVIEW_REQUIRED,代维斯丹（主）/衣思淼（交叉复核）/hepato-gnn-screening
+V3-03,G3,W4候选2/4/5药化系列与prior-art真人核验,P0,HUMAN_REVIEW_REQUIRED,代维斯丹（主）/王散曼（交叉复核）/hepato-gnn-screening
+V3-04,G3,W4 Nobiletin/Tangeretin A2A binding与肝证据分离真人核验,P0,HUMAN_REVIEW_REQUIRED,王散曼（主）/代维斯丹（交叉复核）/hepato-gnn-screening
+V3-05,G4,W4联系湿实验合作方/执行方；只记录可行性，不放行G4,P0,BLOCKED,王启龙（主）/宁显泷（assay复核）
+V3-06,G4,W4仅准备采购/W0字段；真实下单到货后再核lot/CoA,P0,BLOCKED,衣思淼（物料）/王启龙（复核）/采购+实验组
+V3-07,G5,W4只准备binding/cAMP方案；G4/W0后才允许真实执行,P0,BLOCKED,宁显泷（方案）/湿实验执行组
+V3-08,G6,HSC/hepatocyte/macrophage分场景验证；依赖真实G5,P1,BLOCKED,依赖G5；本周不执行
+V3-09,G7,候选release/GO-NO_GO人工审计；依赖G0-G6,P1,BLOCKED,依赖G0-G6；本周不执行

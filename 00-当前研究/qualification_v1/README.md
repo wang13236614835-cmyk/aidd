@@ -12,7 +12,7 @@
 
 | 文件 | 作用 |
 |---|---|
-| [RESEARCH_STATE.md](RESEARCH_STATE.md) | 统一科研状态：已成立 / 软件验证 / 待资格验证 / 禁止发布 四层口径 |
+| [研究状态.md](研究状态.md) | 统一科研状态：已成立 / 软件验证 / 待资格验证 / 禁止发布 四层口径 |
 | [ASSET_AUDIT.csv](ASSET_AUDIT.csv) | 全部历史资产 A/B/C/D 分类台账（VERIFIED/REQUALIFY/HISTORICAL/REJECTED） |
 | [MASTER_EVIDENCE_MATRIX.csv](MASTER_EVIDENCE_MATRIX.csv) | claim → evidence → source → confidence 证据矩阵（含文献证据链） |
 | [QUALIFICATION_GATES.md](QUALIFICATION_GATES.md) | G0–G5 资格门控定义与当前裁决 |

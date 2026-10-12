@@ -1,0 +1,150 @@
+{
+  "schema_version": "research_chain_v3.0",
+  "date": "2026-09-28",
+  "status": "CURRENT",
+  "supersedes_default_plan": "research_chain_v2_20260921",
+  "historical_baselines": [
+    "research_chain_v2_20260921",
+    "qualification_v1",
+    "fifth_round_direction_exploration_20260915"
+  ],
+  "research_question": "在MASH中，以证据资格和可证伪实验为中心，联合新先导发现、天然产物/中药机制重定位与老药再利用，验证ADORA2A及其他候选机制是否产生可重复、细胞场景明确的药理效应。",
+  "current_program": {
+    "primary_execution": "ADORA2A reverse-pharmacology + named compound + wet-lab qualification",
+    "parallel_tracks": [
+      {
+        "id": "NEW_LEAD",
+        "objects": "5 frozen MCULE synthetic-library computational candidates",
+        "release": false
+      },
+      {
+        "id": "REPURPOSING_NEW_MECHANISM",
+        "objects": "named approved drugs and mature natural products",
+        "release": false
+      },
+      {
+        "id": "UNDEREXPLORED_DISCOVERY",
+        "objects": "lower-saturation natural products / TCM monomers",
+        "release": false
+      }
+    ],
+    "legacy_tracks": {
+      "Moracin_N_NRF2_ferroptosis": "PRESERVED_NOT_DEFAULT_CURRENT",
+      "FASN_modeling": "PRESERVED_METHOD_ASSET_NOT_DEFAULT_CURRENT",
+      "research_chain_v2": "HISTORICAL_BASELINE"
+    },
+    "current_week": "W4_2026-09-28_to_10-04",
+    "week4_execution": "G2 human review primary; G3 evidence review parallel; wet-lab executor contact parallel; G4-G7 remain blocked"
+  },
+  "hard_facts": {
+    "mcule_five": [
+      "MCULE-5126266491",
+      "MCULE-1345325285",
+      "MCULE-2952154734",
+      "MCULE-1403143859",
+      "MCULE-5892165876"
+    ],
+    "identity_gate": "PASS",
+    "direct_candidate_adora2a_activity": "UNVERIFIED",
+    "adora2a_mash_direction": "UNRESOLVED_CONTEXT_DEPENDENT",
+    "botanical_pool_count": 37,
+    "botanical_retained_count": 37,
+    "candidate_release": false,
+    "wetlab": "NOT_EXECUTED",
+    "w0_ready_count": 0,
+    "recommended_8_item_panel": [
+      "ZM241385",
+      "CGS 21680",
+      "Nobiletin",
+      "Tangeretin",
+      "Salidroside",
+      "Dihydrotanshinone I",
+      "Physcion",
+      "Istradefylline"
+    ]
+  },
+  "gates": [
+    {
+      "id": "G0",
+      "title": "研究问题与主张冻结",
+      "status": "PASS",
+      "next": "保持研究问题/用途/失败判据版本化"
+    },
+    {
+      "id": "G1",
+      "title": "靶点与治疗方向资格",
+      "status": "PASS",
+      "next": "靶点生物学资格成立，但治疗方向必须保持UNRESOLVED_CONTEXT_DEPENDENT并在G5/G6按实验上下文解析"
+    },
+    {
+      "id": "G2",
+      "title": "身份、来源与证据资格",
+      "status": "HUMAN_REVIEW_REQUIRED",
+      "next": "五MCULE身份/3号立体化学/药化映射/天然来源真人核验"
+    },
+    {
+      "id": "G3",
+      "title": "反向药理与具名候选池",
+      "status": "REVIEW",
+      "next": "确认named series/old-drug/natural-product primary evidence；保持因果边界"
+    },
+    {
+      "id": "G4",
+      "title": "采购与W0物料放行",
+      "status": "BLOCKED",
+      "next": "落实湿实验执行方；下单后冻结lot/CoA/purity/exact structure"
+    },
+    {
+      "id": "G5",
+      "title": "直接ADORA2A靶点与功能",
+      "status": "BLOCKED",
+      "next": "binding + cAMP agonist/antagonist；未执行不得推断活性"
+    },
+    {
+      "id": "G6",
+      "title": "MASH肝细胞场景机制",
+      "status": "BLOCKED",
+      "next": "HSC/hepatocyte/macrophage分场景；selectivity/artifact/rescue按结果推进"
+    },
+    {
+      "id": "G7",
+      "title": "候选发布与最终决策",
+      "status": "BLOCKED",
+      "next": "只有真实实验+人工审计+上游CURRENT后才允许release"
+    }
+  ],
+  "human_review": {
+    "current_package": "D:/zcode-workspace/hepato-gnn-screening/human_review/adora2a_mcule_20260927",
+    "legacy_phase2b_tasks": "HISTORICAL_BACKLOG_NOT_DEFAULT",
+    "real_human_review_completed": 0,
+    "current_task_count": 7,
+    "execution_week": "W4_2026-09-28_to_10-04",
+    "git_provenance": "primary reviewer own commit + cross review; official count changes only after controlled AIDD import",
+    "week4_priority_tasks": [
+      "HR-ADORA2A-001",
+      "HR-ADORA2A-002",
+      "HR-ADORA2A-003",
+      "HR-ADORA2A-004"
+    ]
+  },
+  "wetlab": {
+    "executor": "NOT_ASSIGNED",
+    "advisor_or_collaborator": "NOT_ASSIGNED",
+    "material_release": "BLOCKED",
+    "actual_data_count": 0,
+    "sequence": [
+      "W0 material identity/release",
+      "W1 ADORA2A binding",
+      "W2 cAMP function",
+      "W3 selectivity/artifact controls",
+      "W4 liver-context phenotype/mechanism"
+    ]
+  },
+  "next_actions": [
+    "W4优先完成HR-001~004真人Git核验与交叉复核；正式结果仍需AIDD受控导入",
+    "HR-005天然产物来源核验并行推进；证据不足允许保持UNRESOLVED",
+    "并行联系湿实验执行方并讨论binding/cAMP可行性；沟通不等于G4通过",
+    "HR-006在真实下单/到货/lot/CoA前保持BLOCKED_UNTIL_ORDER",
+    "G4/W0实际放行后再进入binding/cAMP；不提前进入G5/G6或candidate release"
+  ]
+}

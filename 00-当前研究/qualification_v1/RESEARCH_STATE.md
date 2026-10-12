@@ -65,7 +65,7 @@ MASH（代谢功能障碍相关脂肪性肝炎）研究已进入**第五轮方�
 ## 8. 第五轮方向探索
 
 1. **Primary：Moracin N–NRF2/ferroptosis 肝细胞机制验证**：导师批准/物料到货后执行 M0→B0→Gate1/2/3；实验前资格不等于生物学阳性或候选放行。
-2. **Secondary：FXR/Formononetin 依赖性桥接 + Biochanin A QC**：只做已知体系的依赖性和板级对照，不做新的 FXR NP 总榜。
+2. **Secondary：FXR evidence-anchor/Formononetin 依赖性桥接 + Biochanin A QC**：只做已知体系的依赖性和板级对照，不做新的 FXR NP 总榜。
 3. **Reserve：THRβ reporter、Isorhamnetin、FASN 直接酶实验、SCD1/DGAT2 重资格化**：需要额外平台、数据或 provenance 前置。
 4. **FASN**：仅在获得第二个有效可比 assay pair 后重开 T1；否则不继续堆模型。
 5. 详细矩阵和唯一裁决见 `../fifth_round_direction_exploration_20260915/EXECUTION_OVERVIEW.md` 与 `GATE_DECISION.json`。

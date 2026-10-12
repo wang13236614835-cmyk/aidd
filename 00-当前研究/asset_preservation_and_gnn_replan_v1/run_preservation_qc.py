@@ -88,7 +88,7 @@ def main() -> int:
     if gnn_gate != "closed":
         issues.append("GNN enable gate is not closed")
 
-    gnn_state = json.loads((GNN / "STATUS.json").read_text(encoding="utf-8"))
+    gnn_state = json.loads((GNN / "状态.json").read_text(encoding="utf-8"))
     checks["gnn_state"] = {"role": gnn_state.get("repository_role"), "activity": gnn_state.get("gnn_activity"), "gate": gnn_state.get("gnn_enable_gate")}
     if gnn_state.get("gnn_activity") != "gated" or gnn_state.get("gnn_enable_gate") != "closed":
         issues.append("GNN STATUS.json is not gated/closed")

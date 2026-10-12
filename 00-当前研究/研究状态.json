@@ -1,11 +1,11 @@
 {
   "direction": "MASH",
   "leader": "王启龙",
-  "priority": "dry_research",
-  "wetlab_materials": "第六轮已给出可采购清单与预算三档（sixth_round_20260912/候选采购清单.csv），待导师批准后下单；moracin N 供应商≥2家已核实（GlpBio/MCE），MCE试用装待申请",
-  "wetlab": "conditional_after_dry_gates",
+  "priority": "research_chain_v3_evidence_to_wetlab",
+  "wetlab_materials": "v3采购优先级已冻结6/8/10项research-grade面板；尚未下单/到货；W0 ready_count=0，目录或询价不等于放行",
+  "wetlab": "v3_W0_W4_pending_executor_and_material_release",
   "data_review": "pending",
-  "method_review": "qualification_v1三库统一审计+GNN实证(benchmark阴性:GCN 0.078/GINE -0.040 vs Ridge 0.732同折)；FASN维持CONDITIONAL GO(canonical assay model限定)；Moracin N维持GO待物料",
+  "method_review": "v3：证据资格+身份/来源真人核验+反向药理三轨+研究成熟度不淘汰+W0→binding/cAMP→selectivity/artifact→分细胞MASH机制；模型/对接仅作上游支持",
   "candidate_release": false,
   "teacher_approval": "not_recorded",
   "human_learning": "no_completion_assumed",
@@ -17,12 +17,13 @@
     "CCD identity and independent-start redocking",
     "qualification_v1 三库统一审计与资产A/B/C/D分类",
     "assay-level provenance审计(51 assay/0缺失)PASS",
-    "GNN clean benchmark同折10-seed+Y-scrambling+外部105(GNN未证明优于经典baseline)"
+    "GNN clean benchmark同折10-seed+Y-scrambling+外部105(GNN未证明优于经典baseline)",
+    "ADORA2A/Mcule exploratory branch: identity + reverse pharmacology + 37-compound maturity + procurement/G7-W0 package frozen 2026-09-27"
   ],
-  "closing_route": "final_dual_axis_teacher_approval_then_FASN_AIDD_or_MoracinN_wetlab",
-  "closing_route_default": "not_thesis_defense",
-  "mooc_checkin": "GNN_16week_semester_plan_from_2026-09-07",
-  "teacher_package": "00-当前研究/final_strategy_round_20260912/导师审批版_最终战略冻结.md + 00-当前研究/final_strategy_round_20260912/最终战略冻结_执行总览.md + 00-当前研究/final_strategy_round_20260912/最终双轴战略矩阵.csv",
+  "closing_route": "research_chain_v3_G2_human_review_then_G3_freeze_then_G4_W0_then_G5_G6_wetlab_then_G7_release",
+  "closing_route_default": "v3_current_not_legacy_dual_axis",
+  "mooc_checkin": "legacy_v2_semester_plan_preserved_not_current_gate",
+  "teacher_package": "00-当前研究/research_chain_v3_20260927/完整研究链路_v3.md + RESEARCH_STATE_V3.json + CURRENT_TASKS.csv",
   "ai_edit_policy": "仅 research-audit-20260905 审计报告可信采信；其余AI改动(两周收尾计划/提前打卡/撤回表述)已回滚或标注待全组复核",
   "revision_batches": {
     "batch_fifth_round_20260912": {
@@ -184,6 +185,22 @@
         "gnn": "CLOSED；不训练新GNN；candidate_release=false"
       },
       "open_P0": "Moracin N物料/导师签核；FASN第二可比assay pair"
+    },
+    "batch_adora2a_reverse_pharmacology_20260927": {
+      "trigger": "ADORA2A/Mcule exploratory branch actual-results freeze and three-repo sync",
+      "scope": "five frozen Mcule identity/prior-art/reverse-pharmacology; 37-compound botanical maturity audit; named drug/TCM pool; procurement planning; G7/W0 handoff",
+      "artifacts": [
+        "00-当前研究/adora2a_mcule_reverse_pharmacology_20260927/"
+      ],
+      "key_results": {
+        "five_mcule": "frozen computational priorities; direct ADORA2A activity unverified",
+        "identity": "PASS; no exact approved-drug/botanical mapping in current pools",
+        "direction": "ADORA2A MASH direction UNRESOLVED_CONTEXT_DEPENDENT",
+        "botanical": "37/37 retained; saturation never excludes repurposing/new mechanism",
+        "procurement": "8-item research panel planned; catalog/stock does not release W0",
+        "wetlab": "NOT_EXECUTED; W0 ready_count=0; candidate_release=false"
+      },
+      "open_P0": "wet-lab executing group/mentor; order exact materials; lot/CoA/purity/identity; direct ADORA2A binding/cAMP; selectivity; liver-cell-context validation"
     }
   },
   "status_classes": {
@@ -203,7 +220,7 @@
     "target": "中文核心；目录版本与学校认可待核实",
     "status": "任务待本人确认；最终科学验证和投稿均未完成"
   },
-  "project_stage": "fifth_round_direction_exploration",
+  "project_stage": "research_chain_v3",
   "fasn": {
     "canonical_model": "qualified_local",
     "external_generalization": "failed_or_limited",
@@ -255,14 +272,14 @@
     }
   },
   "workbench": {
-    "role": "execution_audit_readonly_mirror",
-    "state_source": "aidd qualification_v1 and asset_preservation_and_gnn_replan_v1",
-    "candidate_generation": "disabled"
+    "role": "execution_audit_readonly_projection",
+    "state_source": "00-当前研究/research_chain_v3_20260927/RESEARCH_STATE_V3.json",
+    "candidate_generation": "disabled_until_v3_release_guard"
   },
-  "current_stage": "第五轮方向探索（FASN Gate T1已裁决）",
-  "current_conclusion": "FASN Gate T1=FAIL：仅1个独立可比assay pair，FASN收窄为canonical local方法学线；Primary转为Moracin N–NRF2/ferroptosis肝细胞机制验证；GNN保持关闭；candidate_release=false",
-  "current_blocker": "Moracin N物料/导师签核；FASN缺少第二个可比assay pair，不能建立normalized dataset",
-  "next_action": "导师批准并采购Moracin N，随后执行M0/B0；FASN仅等待第二个可比assay pair，不继续堆模型",
+  "current_stage": "W4真人核验启动：G2为主、G3并行；湿实验执行方沟通并行；G4-G7继续BLOCKED",
+  "current_conclusion": "G1生物学继续研究资格PASS，但ADORA2A治疗方向仍UNRESOLVED_CONTEXT_DEPENDENT；当前主阻断为G2真人核验。",
+  "current_blocker": "正式真人核验仍0/7；W0=0；wetlab=NOT_EXECUTED；candidate_release=false",
+  "next_action": "W4优先HR-001~004真人Git核验与交叉复核；HR-005并行；HR-006等待真实采购；HR-007仅执行方/assay沟通",
   "fifth_round": {
     "status": "direction_qualification_completed",
     "gate": "FASN Gate T1",
@@ -280,5 +297,83 @@
     "direction_matrix": "00-当前研究/fifth_round_direction_exploration_20260915/direction_exploration_matrix.csv",
     "gate_decision_file": "00-当前研究/fifth_round_direction_exploration_20260915/GATE_DECISION.json",
     "next_action": "导师批准/采购Moracin N并执行M0/B0；FASN等待第二可比assay pair"
+  },
+  "research_chain_v2": {
+    "status": "HISTORICAL_BASELINE",
+    "teacher_final_approval": "not_recorded",
+    "plan_ref": "00-当前研究/research_chain_v2_20260921/完整研究链路_v2.md",
+    "lines": {
+      "A": "数据—验证—可复现（近期必做）",
+      "B": "正式虚筛（G0-G3 放行后）",
+      "C": "Moracin N 机制验证（待物料/导师）",
+      "D": "Workbench 可信签核修复"
+    },
+    "hours_model": "组员4h/周；负责人6-8h/周含辅助组员1-2h（记台账）",
+    "human_learning": "no_completion_assumed（不变；v2 打卡为自报，不是可信人审）"
+  },
+  "exploratory_branches": {
+    "adora2a_mcule_20260927": {
+      "status": "EXPLORATORY_NOT_RELEASED",
+      "global_primary_route_overwritten": false,
+      "target": "ADORA2A",
+      "disease_context": "MASH",
+      "frozen_candidates": [
+        "MCULE-5126266491",
+        "MCULE-1345325285",
+        "MCULE-2952154734",
+        "MCULE-1403143859",
+        "MCULE-5892165876"
+      ],
+      "identity_gate": "PASS",
+      "candidate_release": false,
+      "direct_candidate_adora2a_activity": "UNVERIFIED",
+      "mash_direction": "UNRESOLVED_CONTEXT_DEPENDENT",
+      "w0_material_release": "BLOCKED",
+      "w0_ready_count": 0,
+      "wetlab": "NOT_EXECUTED",
+      "botanical_pool_count": 37,
+      "botanical_retained_count": 37,
+      "procurement_panel_8": [
+        "ZM241385",
+        "CGS 21680",
+        "Nobiletin",
+        "Tangeretin",
+        "Salidroside",
+        "Dihydrotanshinone I",
+        "Physcion",
+        "Istradefylline"
+      ],
+      "source_package": "00-当前研究/adora2a_mcule_reverse_pharmacology_20260927/workbench_evidence_snapshot",
+      "source_manifest": "00-当前研究/adora2a_mcule_reverse_pharmacology_20260927/workbench_evidence_snapshot/MANIFEST.json",
+      "updated": "2026-09-27"
+    }
+  },
+  "current_plan": {
+    "schema": "research_chain_v3.0",
+    "path": "00-当前研究/research_chain_v3_20260927",
+    "status": "CURRENT",
+    "supersedes_default": "research_chain_v2_20260921"
+  },
+  "legacy_plan_status": {
+    "research_chain_v2_20260921": "HISTORICAL_BASELINE",
+    "qualification_v1": "PRESERVED_METHOD_EVIDENCE",
+    "Moracin_N_FASN": "PRESERVED_NOT_DEFAULT_CURRENT"
+  },
+  "legacy_v2_top_level_snapshot": {
+    "priority": "dry_research",
+    "wetlab_materials": "第六轮已给出可采购清单与预算三档（sixth_round_20260912/候选采购清单.csv），待导师批准后下单；moracin N 供应商≥2家已核实（GlpBio/MCE），MCE试用装待申请",
+    "wetlab": "conditional_after_dry_gates",
+    "method_review": "qualification_v1三库统一审计+GNN实证(benchmark阴性:GCN 0.078/GINE -0.040 vs Ridge 0.732同折)；FASN维持CONDITIONAL GO(canonical assay model限定)；Moracin N维持GO待物料",
+    "closing_route": "final_dual_axis_teacher_approval_then_FASN_AIDD_or_MoracinN_wetlab",
+    "closing_route_default": "not_thesis_defense",
+    "teacher_package": "00-当前研究/final_strategy_round_20260912/导师审批版_最终战略冻结.md + 00-当前研究/final_strategy_round_20260912/最终战略冻结_执行总览.md + 00-当前研究/final_strategy_round_20260912/最终双轴战略矩阵.csv",
+    "mooc_checkin": "GNN_16week_semester_plan_from_2026-09-07"
+  },
+  "authority": "AIDD main repository; research_chain_v3_20260927 is CURRENT scientific state",
+  "current_week": "W4_2026-09-28_to_10-04",
+  "week4_human_review": {
+    "dates": "2026-09-28/2026-10-04",
+    "git_provenance": "本人Git提交+交叉复核；正式计数只由AIDD受控导入更新",
+    "formal_completed_at_start": 0
   }
 }

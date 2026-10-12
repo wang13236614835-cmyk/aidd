@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-14",
+  "date": "2026-09-20",
   "qualification_v1_qc": "PASS",
   "preservation_qc": "PASS",
   "gnn_imports": "PASS",
@@ -17,6 +17,15 @@
   "workbench_apptest": "PASS: 0 exceptions, 5 dataframes",
   "workbench_full_suite_previous": "PASS: 113 passed, 1 deselected; ConPLex real model deselected due Windows pagefile os error 1455",
   "streamlit_route_previous": "PASS: / and /17_Research_State HTTP 200",
+  "consistency_repair_20260920": {
+    "scope": "GNN02 stale reason text + RESEARCH_STATE Secondary wording + registry/manifest/inventory re-derivation",
+    "registry_hashes_aligned": "PASS: all hepato-gnn-screening file rows SAME vs live bytes",
+    "gnn_asset_status_rows": 12,
+    "gnn_tests": "PASS: 15 passed",
+    "workbench_alignment_tests": "PASS: 13 passed",
+    "gnn_verify_research": "PASS: 9/9",
+    "scientific_validation": "not_granted"
+  },
   "notes": [
     "Streamlit emits pre-existing use_container_width deprecation warnings; no page exception.",
     "No legacy --legacy-demo run performed because it writes historical results; old assets were not modified."

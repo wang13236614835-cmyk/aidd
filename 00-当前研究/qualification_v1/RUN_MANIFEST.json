@@ -1,6 +1,6 @@
 {
   "round": "qualification_v1",
-  "generated_at": "2026-09-13T21:31:54",
+  "generated_at": "2026-09-20T08:09:21",
   "runs": [
     {
       "id": "assay_provenance_audit",
@@ -64,8 +64,8 @@
       "bytes": 2774
     },
     "RESEARCH_STATE.md": {
-      "sha256": "c2f471715960c7d78adc31a175193501659a5434a35fca5caf12dd37887671a1",
-      "bytes": 6460
+      "sha256": "560d99219aa26f066eeffe69e20d1025d532ed1857faffe9b55cb45453209370",
+      "bytes": 7178
     },
     "ASSET_AUDIT.csv": {
       "sha256": "0b67f5c65bcb3d3eb676f0a349bb242531c840b3109f9ddf5cc84aa0abdfa24b",
